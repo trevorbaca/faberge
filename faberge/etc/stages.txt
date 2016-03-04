@@ -1,0 +1,191 @@
+FABERGÉ INVESTIGATIONS - STAGES
+
+
+[A]
+process of alternation over segment: first term is broken shell, second term is
+composite papers and kiln.
+
+first term: broken shell: fast tempo: vn, va, vc harmonic trem. flaut. of frame
+descending from bridge. underneath trem. and starting at same time is rapid
+exchange of single pitch in other players in preparation for oboe double-trill
+of broken shell. exchanged note is fluttertongue in piccolo and color trill in
+clarinet; oboe does not yet participate. tremolo flautando frame keeps interest
+in dynamic enveloping. string tremolo frame persists subito ppp at end of each
+stage as pedal to the following stage. possible that when material returns at
+each pass through alternation that note exchanged between piccolo and clarinet
+changes, usually rising but sometimes falling and always with stepwise motion,
+sometimes on quartertones.
+
+second term: papers and kiln: slow tempo: single, protracted stroke of sponge
+across bass drum head combined with very sparse single harpsichord notes
+starting in only lower register of the instrument. second term is a type of
+intercalation. and end of second term string tremolo frame crescendos to resume
+first term.
+
+process of alternation: at each successive occurence of second term,
+harpsichord density increases and register rises. material starts with very
+sparse feather beams that do not yet have the identity of feather beams.
+density increases to reveal identity of feather beams. then straight-valued
+rhythms interpolate to gradually replace feather beams. endpoint in run-away
+harpsichord in only the upper register of the instrument. global accelerandi
+and ritardandi inflect endpoint of material.
+
+[A1]
+first term
+
+[A2]
+second term
+
+[A3]
+first term
+
+[A4]
+second term
+
+[A5]
+first term
+
+[A6]
+second term
+
+[A7]
+first term
+
+[A8]
+second term
+
+[A9]
+first term
+
+[A10]
+second term
+
+[A11]
+first term
+
+[A12]
+second term: runaway harpsichord as a solo; further registral compression yet
+to come.
+string tremolo frame is now silent.
+brushed bass drum is silent.
+oboe has been tacet from beginning of piece.
+
+[A13]
+runaway harpsichord continues with registral compression.
+oboe enters on succession of three or so trilled notes.
+
+[A14]
+runaway harpsichord continues with registral compression.
+piccolo fluttertongue and clarinet color trill exchange returns.
+pitch exchange begins process of alternation with oboe trills.
+important difference is that oboe line moves pitches between at each attack
+but that pitch exchange line insists on single fixed pitch that will
+be the terminal pitch-class of oboe doppeltrill.
+
+[A15]
+runaway harpsichord continues, possibly beginning registral descent.
+oboe returns on succession of more trilled notes played quicker.
+
+[A16]
+runaway harpsichord continues, possibly with registral descent.
+pitch exchange reutrns with even quicker exchange that now grows to include
+piccolo fluttertongue, clarinet color trill and sharply bowed crotale.
+
+[A17]
+runaway harpsichord continues, possibly with registral descent.
+oboe returns on succession of even more trilled notes played even more quickly.
+
+[A18]
+runaway harpsichord continues, possibly with registral descent and decreasing
+density.
+pitch exchange reutrns with even quicker exchange that now grows to include
+piccolo fluttertongue, clarinet color trill, sharply bowed crotale and vc
+single-note tremolo played extremely ponticello.
+
+[A19]
+runaway harpsichord continues, possibly with registral descent and decreasing
+density.
+oboe returns on truly rapid succession of trills still with changing pitch.
+
+[A20]
+runaway harpsichord continues, possibly with registral descent and decreasing
+density.
+oboe rapid trills continue.
+pitch exchange returns and now grow to include piccolo fluttertongue, clarinet
+color trill, sharply bowed crotale, vc xp single-note tremolo, va xp
+single-note tremolo, vn xp single-note tremolo.
+first tutti moment in piece.
+
+[A21]
+global accelerando begins.
+continues as previous stage with addition of:
+oboe moves by step to penultimate pitch position;
+interval between oboe and other players is precadential;
+
+[A22]
+global accelerando continues.
+continues as previous stage with addition of:
+harpsichord completes process of thinning and descent, and falls silent.
+oboe and other instruments insist on precadential interval for a significant
+period of time. 
+
+[A23]
+global accelerando achieves new tempo.
+pf remains tacet.
+upper instruments move up by step; oboe moves down by step; unison achieved.
+
+[A24]
+upper instruments begin process of rhythmic regularization.
+oboe begins process of increasing rhythm density.
+
+[A25]
+continues both processes of previous stage.
+
+[A26]
+continues both processes of previous stage.
+
+[A27]
+continues both processes of previous stage.
+
+[A28]
+continues both processes of previous stage.
+
+[A29]
+continues both processes of previous stage.
+
+[A30]
+both processes achive endpoint:
+oboe trill is now completely continuous.
+percussion falls silent.
+upper instruments glue into a single sustained unison with no internal
+reiteration and that is subito mp.
+stage holds just this state.
+
+[A31]
+two more processes begin:
+oboe begins process of irregularly increasing both dynamics and rate of trill.
+upper instruments begin process of smoothly decreasing both dynamics and rate
+of reattack.
+
+[A32]
+continues both processes of previous stage.
+
+[A33]
+continues both processes of previous stage.
+
+[A34]
+continues both processes of previous stage.
+
+[A35]
+continues both processes of previous stage.
+
+[A36]
+continues both processes of previous stage.
+
+[B1]
+both processes achieve endpoint:
+oboe jumps subito to doppeltrill and other instruments fall silent.
+stage holds state of doppeltrill for quite some time.
+materials of following segment already present underneath doppeltrill.
+means that truly unaccompanied doppeltrill never appears though psychological
+effect of solo doppeltrill obtains.
