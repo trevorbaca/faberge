@@ -1,6 +1,5 @@
 FABERGÉ INVESTIGATIONS - STAGES
 
-
 [A]
 process of alternation over segment: first term is broken shell, second term is
 composite papers and kiln.
@@ -11,16 +10,15 @@ exchange of single pitch in other players in preparation for oboe double-trill
 of broken shell. exchanged note is fluttertongue in piccolo and color trill in
 clarinet; oboe does not yet participate. tremolo flautando frame keeps interest
 in dynamic enveloping. string tremolo frame persists subito ppp at end of each
-stage as pedal to the following stage. possible that when material returns at
-each pass through alternation that note exchanged between piccolo and clarinet
-changes, usually rising but sometimes falling and always with stepwise motion,
-sometimes on quartertones.
+stage as pedal to the following stage. at each pass through alternation note
+exchanged between piccolo and clarinet usually rises in stepwise motion and
+sometimes falls in stepwise motion that is sometimes inflected microtonally.
 
-second term: papers and kiln: slow tempo: single, protracted stroke of sponge
-across bass drum head combined with very sparse single harpsichord notes
-starting in only lower register of the instrument. second term is a type of
-intercalation. and end of second term string tremolo frame crescendos to resume
-first term.
+second term: papers and kiln: slower effective tempo: single, protracted stroke
+of sponge across bass drum head that accelerates exponentially at the end of
+most strokes and combines with very sparse lower-register harpsichord notes
+second term is a type of intercalation. string tremolo frame crescendos at end
+of every second term to resume dynamic presence of first term.
 
 process of alternation: at each successive occurence of second term,
 harpsichord density increases and register rises. material starts with very
@@ -63,134 +61,158 @@ second term
 [A11]
 first term
 
-[A12]
-second term: runaway harpsichord as a solo; further registral compression yet
-to come.
+[B1]
+runaway harpsichord solo with registral compression and metric modualtion.
+harpsichord solo represents one facet of the investigation of the kiln and its
+parts drawn out in a way that evidences a type of incredible tensile strength.
 string tremolo frame is now silent.
 brushed bass drum is silent.
 oboe has been tacet from beginning of piece.
 
-[A13]
-runaway harpsichord continues with registral compression.
+[B2]
+runaway harpsichord continues with registral compression and metric modulation.
 oboe enters on succession of three or so trilled notes.
 
-[A14]
-runaway harpsichord continues with registral compression.
-piccolo fluttertongue and clarinet color trill exchange returns.
+[B3]
+runaway harpsichord continues with registral compression and metric modulation.
+exchange between piccolo flz and clarinet colortrills returns.
 pitch exchange begins process of alternation with oboe trills.
 important difference is that oboe line moves pitches between at each attack
 but that pitch exchange line insists on single fixed pitch that will
 be the terminal pitch-class of oboe doppeltrill.
 
-[A15]
-runaway harpsichord continues, possibly beginning registral descent.
+[B4]
+runaway harpsichord continues with registral compression and metric modulation.
 oboe returns on succession of more trilled notes played quicker.
 
-[A16]
-runaway harpsichord continues, possibly with registral descent.
+[B5]
+runaway harpsichord reaches maximum speed and compression.
 pitch exchange reutrns with even quicker exchange that now grows to include
 piccolo fluttertongue, clarinet color trill and sharply bowed crotale.
+energy of the way pitch is passed around between players is the energy of the
+broken shell.
 
-[A17]
-runaway harpsichord continues, possibly with registral descent.
+[B6]
+runaway harpsichord holds maximum speed and compression.
 oboe returns on succession of even more trilled notes played even more quickly.
 
-[A18]
-runaway harpsichord continues, possibly with registral descent and decreasing
-density.
+[B7]
+runaway harpsichord holds maximum speed and compression.
 pitch exchange reutrns with even quicker exchange that now grows to include
 piccolo fluttertongue, clarinet color trill, sharply bowed crotale and vc
 single-note tremolo played extremely ponticello.
 
-[A19]
-runaway harpsichord continues, possibly with registral descent and decreasing
-density.
+[B8]
+runaway harpsichord holds maximum speed and compression.
 oboe returns on truly rapid succession of trills still with changing pitch.
 
-[A20]
-runaway harpsichord continues, possibly with registral descent and decreasing
-density.
+[B9]
+runaway harpsichord holds maximum speed and compression.
 oboe rapid trills continue.
 pitch exchange returns and now grow to include piccolo fluttertongue, clarinet
 color trill, sharply bowed crotale, vc xp single-note tremolo, va xp
 single-note tremolo, vn xp single-note tremolo.
 first tutti moment in piece.
 
-[A21]
+[B10]
+harpsichord subito tacet.
+all other players subito stepwise change in pitch.
+stage holds material for a moment before global accelerando begins.
+
+[C1]
 global accelerando begins.
-continues as previous stage with addition of:
-oboe moves by step to penultimate pitch position;
-interval between oboe and other players is precadential;
+oboe rapid trills continue and move by step to penultimate pitch position.
+interval between oboe and other players is precadential.
+pf still tacet.
 
-[A22]
+[C2]
 global accelerando continues.
-continues as previous stage with addition of:
-harpsichord completes process of thinning and descent, and falls silent.
-oboe and other instruments insist on precadential interval for a significant
-period of time. 
+tutti hold precadential interval for significant period of time.
 
-[A23]
+[C3]
 global accelerando achieves new tempo.
-pf remains tacet.
-upper instruments move up by step; oboe moves down by step; unison achieved.
+upper instruments and oboe move by step and achieve unison.
+pf still tacet.
 
-[A24]
+[C4]
 upper instruments begin process of rhythmic regularization.
 oboe begins process of increasing rhythm density.
+pf still tacet.
 
-[A25]
-continues both processes of previous stage.
+[C5]
+upper instruments increase rhythmic regularity.
+oboe increases rhythmic density.
+pf still tacet.
 
-[A26]
-continues both processes of previous stage.
+[C6]
+upper instruments increase rhythmic regularity.
+oboe increases rhythmic density.
+pf still tacet.
 
-[A27]
-continues both processes of previous stage.
+[C7]
+upper instruments increase rhythmic regularity.
+oboe increases rhythmic density.
+pf still tacet.
 
-[A28]
-continues both processes of previous stage.
+[C8]
+upper instruments increase rhythmic regularity.
+oboe increases rhythmic density.
+pf still tacet.
 
-[A29]
-continues both processes of previous stage.
+[C9]
+upper instruments increase rhythmic regularity.
+oboe increases rhythmic density.
+pf still tacet.
 
-[A30]
-both processes achive endpoint:
-oboe trill is now completely continuous.
+[C10]
 percussion falls silent.
-upper instruments glue into a single sustained unison with no internal
-reiteration and that is subito mp.
-stage holds just this state.
-
-[A31]
-two more processes begin:
-oboe begins process of irregularly increasing both dynamics and rate of trill.
-upper instruments begin process of smoothly decreasing both dynamics and rate
-of reattack.
-
-[A32]
-continues both processes of previous stage.
-
-[A33]
-continues both processes of previous stage.
-
-[A34]
-continues both processes of previous stage.
-
-[A35]
-continues both processes of previous stage.
-
-[A36]
-continues both processes of previous stage.
-
-[B1]
 both processes achieve endpoint:
-oboe jumps subito to doppeltrill and other instruments fall silent.
+oboe now completely continuous.
+upper instruments glue into sustained subito mp unison with no reiteration.
+upper instruments vary dynamic enveloping and attack rhythm.
+stage holds this state.
+pf, percussion tacet.
+
+[D1]
+two more processes begin:
+oboe begins irregularly increasing dynamics and rate of trill.
+upper instruments begin decreasing dynamics and rate of attack.
+pf, percussion still tacet.
+
+[D2]
+oboe irregularly increases dynamics and rate of trill.
+upper instruments decrease dynamics and rate of attack.
+pf, percussion still tacet.
+
+[D3]
+oboe irregularly increases dynamics and rate of trill.
+upper instruments decrease dynamics and rate of attack.
+pf, percussion still tacet.
+
+[D4]
+oboe irregularly increases dynamics and rate of trill.
+upper instruments decrease dynamics and rate of attack.
+pf, percussion still tacet.
+
+[D5]
+oboe irregularly increases dynamics and rate of trill.
+upper instruments decrease dynamics and rate of attack.
+pf, percussion still tacet.
+
+[D6]
+oboe irregularly increases dynamics and rate of trill.
+upper instruments decrease dynamics and rate of attack.
+pf, percussion still tacet.
+
+[D7]
+both processes achieve endpoint:
+oboe jumps subito to doppeltrill.
+upper instruments fall silent and transition into material of next stage.
 stage holds state of doppeltrill for quite some time.
 materials of following segment already present underneath doppeltrill.
-means that truly unaccompanied doppeltrill never appears though psychological
-effect of solo doppeltrill obtains.
+unaccompanied doppeltrill never appears though psychological solo.
 
-[C]
+[E]
 process of alternation over segment: first term is treasure room of mind,
 second term is golden gears.
 
@@ -211,110 +233,110 @@ considerable number of repeated attempts. the melting also effects a tempo
 change. tempo changes either up or down to tempo of the golden gears, which is
 a tutti tempo for the entire ensemble.
 
-[C1]
+[E1]
 tutti trm.
 
-[C2]
+[E2]
 tutti trm continues.
 oboe colortrill freezes into a sustained note and then begins upward glissando
 lentissimo with exponential crescendo. first attempt to knock the movement of
 the trm out of orbit.
 
-[C3]
+[E3]
 tutti trm continues with oboe but subito piano.
 
-[C4]
+[E4]
 tutti trm continues.
 oboe again peels away and tries to knock motion of trm out of orbit.
 
-[C5]
+[E5]
 intercalated glance back over shoulder at apotheosis of [B].
 piano trm cotinues underneath.
 
-[C6]
+[E6]
 tutti trm continues with oboe but subito once again forte.
 
-[C7]
+[E7]
 intercalated glance back over shoulder at apotheosis of [B].
 forte trm continues underneath.
 
-[C8]
+[E8]
 tutti trm continues.
 first viola and then flute try to peel away to golden gears.
 
-[C9]
+[E9]
 music snaps quickly back to tutti trm but subito piano.
 
-[C10]
+[E10]
 piano trm continues.
 flute, oboe, viola all try to peel away to golden gears.
 pull is stronger but still not enough to snap the music into golden gears.
 
-[C11]
+[E11]
 subito forte tutti trm.
 
-[C12]
+[E12]
 intercalated glance back over shoulder at apotheosis of [B].
 
-[C13]
+[E13]
 flute, oboe, viola, clarinet, cello all try to peel away to golden gears.
 pull is strong enough this time but the stage takes a lot of time.
 stage constitutes just the pulling but not yet the arrival at golden gears.
 
-[C14]
+[E14]
 pulling of previous stage continues.
 
-[C15]
+[E15]
 pulling of previous stage continues.
 
-[D1]
+[F1]
 pulling of previous stage arrives at full expression of golden gears.
 at this same time intercalated glance back over should at apotheosis of [B].
 
-[D2]
+[F2]
 golden gears continue.
 recollection of [B] diminishes.
 
-[D3]
+[F3]
 golden gears continue.
 golden gears not yet tutti and not yet maximum.
 recollection of [B] diminishes and then stops.
 
-[D4]
+[F4]
 pause.
 
-[D5]
+[F5]
 fully glowing appearance of jewelers' desk: glowing multiphonics in bass flute,
 english horn and bass clarinet, fully orchestrated string chord at full pitch
 with pochississimo scratch, lower register attackless marimba pedal, piano
 harmonic attacked just once at start of stage / field.
 
-[D6]
+[F6]
 breath-length pause.
 
-[D7]
+[F7]
 fully glowing reappearance of jewelers' desk.
 
-[D8]
+[F8]
 breath-length pause.
 
-[D9]
+[F9]
 fully glowing reappearance of jeweler's desk.
 
-[D10]
+[F10]
 foreshadow of something not yet heard.
 
-[D11]
+[F11]
 breath-length pause.
 
-[D12]
+[F12]
 fully glowing reappearance of jewerler's desk.
 
-[D13]
+[F13]
 breath-length pause.
 
-[E1]
-[to-do: foreshadow spazzolati prior to [E].]
+[G1]
+[to-do: foreshadow spazzolati prior to [G].]
 fully revealed tutti golden gears: culmination of [D3]. timeflow expressed
 through binary divisions of written tempo. vn, va, vc now sustained notes with
 tremolo-chains inserted in some sustained notes and with quarter-note
@@ -327,253 +349,253 @@ transition down compass of the instrument by octaves over the course of several
 stages. already some eighth-note chains in each instrument. already picket
 prolated rhythm in one player at a time.
 
-[E2]
+[G2]
 vn, va, vc begin working in some sixteenth-note tremoli and spazzolati. fl, ob,
 cl begin working in some sixteenth-note colortrills. harpsichord begins working
 in some sixteenth-note double-struck ribattuti. marimba begins working in some
 sixteenth-note brushtrills.
 
-[E3]
+[G3]
 everybody gives up sixteenth-note values and returns subito to eighth- and
 quarter-note values. with subito dynamic change.
 
-[E4]
+[G4]
 everybody subito resumes sixteenth-note values.
 
-[E5]
+[G5]
 tutti sixteenth-valued golden gears continue.
 percussionist plays exact fifth notes on woodblock as metric modulation key for
 tempo increase of exactly 5:4.
 
-[E6]
+[G6]
 subito 5:4 tempo increase.
 everybody gives up sixteenth-valued rhythm and returns subito to eighth- and
 quarter-valued rhythms. with subito dynamic change.
 
-[E7]
+[G7]
 everybody subito resumes sixteenth-valued rhythms.
 pitch moving by step.
 
-[E8]
+[G8]
 everybody gives up sixteenth-valued rhythms.
 pitch moving by step.
 
-[E9]
+[G9]
 everybody subito resumes sixteenth-valued rhythms.
 pitch moving by step.
 
-[E10]
+[G10]
 everybody gives up sixteenth-valued rhythms.
 pitch moving by step.
 
-[E11]
+[G11]
 everybody subito resumes sixteenth-valued rhythms.
 percussionist plays exact woodblock fifth note metric modulation key.
 
-[E12]
+[G12]
 subito 5:4 tempo increase.
 everybody subito gives up sixteenth-valued rhythms.
 
-[E13]
+[G13]
 everybody subito resumes sixteenth-valued rhythms.
 
-[E14]
+[G14]
 everybody subito gives up sixteenth-valued rhythms.
 
-[E15]
+[G15]
 everybody subito resumes sixteenth-valued rhythms.
 percussionist plays exact woodblock fifth note metric modulation key.
 
-[E16]
+[G16]
 subito 5:4 tempo increase.
 everybody subito gives up sixteenth-valued rhythms.
 
-[E17]
+[G17]
 everybody subito resumes sixteenth-valued rhythms.
 
-[E18]
+[G18]
 everybody subito gives up sixteenth-valued rhythms.
 
-[E19]
+[G19]
 everybody subito resumes sixteenth-valued rhythms.
 percussionist plays exact woodblock fifth note metric modulation key.
 
-[F1]
+[H1]
 subito 5:4 tempo increase.
 tutti trm resumes with each player in independent rhythm.
 stages holds polyrhythm web only long enough to reestablish material.
 
-[F2]
+[H2]
 some players subito articulate their broken picket rhythm with white noise.
 
-[F3]
+[H3]
 subito all pitch.
 
-[F4]
+[H4]
 subito some white noise.
 
-[F5]
+[H5]
 subito all pitch.
 
-[F6]
+[H6]
 subito some white noise.
 
-[F7]
+[H7]
 subito all pitch.
 
-[F8]
+[H8]
 subito some white noise.
 
-[F9]
+[H9]
 subito all pitch.
 
-[F10]
+[H10]
 subito some white noise.
 
-[F11]
+[H11]
 subito tutti white noise.
 
-[F12]
+[H12]
 tutti polyrhythm white noise transitions to tutti frozen white noise.
 
-[F13]
+[H13]
 tutti polyrhythm white noise transitions to tutti frozen white noise.
 
-[F14]
+[H14]
 tutti polyrhythm white noise transitions to tutti frozen white noise.
 
-[F15]
+[H15]
 tutti polyrhythm white noise transitions to tutti frozen white noise.
 
-[F16]
+[H16]
 tutti frozen white noise.
 
-[F17]
+[H17]
 tutti frozen white noise continues.
 beginning of orchestration of kiln chord.
 piano upper-register oboe flz. pulses in and out of orchestration.
 beginning of animation of white noise.
 vc animates white noise with OB tremolo internal to orchestration.
 
-[F18]
+[H18]
 tutti frozen white noise continues.
 piano upper-register oboe flz. pulses in and out of orchestration.
 piccolo flz. pulses in and out of orchestration.
 vc animates white noise with OB tremolo internal to orchestration.
 
-[F19]
+[H19]
 tutti frozen white noise continues.
 piano upper-register oboe flz. pulses in and out of orchestration.
 piccolo flz. pulses in and out of orchestration.
 upper-register clarinet pulses in and out of orchestration.
 va, vc animate white noise with OB tremolo internal to orchestration.
 
-[F20]
+[H20]
 tutti white noise now mostly animated.
 piano upper-register oboe flz. pulses in and out of orchestration.
 piccolo flz. pulses in and out of orchestration.
 upper-register clarinet pulses in and out of orchestration.
 vn, va, vc animate white noise with OB tremolo internal to orchestration.
 
-[F21]
+[H21]
 tutti white noise fully animated in vn, va, vc.
 piccolo, oboe, Bb clarinet chord sustained but not yet fully expressed dynamic.
 
-[F22]
+[H22]
 pause.
 
-[G1]
+[I1]
 trm resumes as at beginning [F]; in fact, music resumes as at beginning of [F].
 
-[G2]
+[I2]
 some players articulate polyrhythm with white noise.
 
-[G3]
+[I3]
 more players articulate polyrhythm with white noise.
 some players glue pickets together.
 
-[G4]
+[I4]
 more players articulate polyrhythm with white noise.
 more players glue pickets together.
 
-[G5]
+[I5]
 tutti white noise.
 more players glue pickets together.
 
-[G6]
+[I6]
 tutti white noise.
 more players glue pickets together.
 
-[G7]
+[I7]
 tutti white noise and all pickets glued together.
 
 times three:
 
-    [G8]
+    [I8]
     tutti frozen white noise.
 
-    [G9]
+    [I9]
     tutti frozen white noise continues.
     short intercalated recollection of golden gears at end of [E] in strings.
 
-    [G10]
+    [I10]
     tutti frozen white noise continues.
     short intercalated recollection of jewelers' desk in [D] in winds.
 
-[H]
+[J]
 apotheosis of white noise.
 
-[H1]
+[J1]
 tutti passing around a single 'line' of white noise.
 pf harmonic  and struck crotale.
 
-[H2]
+[J2]
 extremely short measure of counted rest in all parts.
 
-[H3]
+[J3]
 subito tempo change.
 tutti passing around two 'lines' of white noise.
 pf harmonic  and struck crotale.
 
-[H4]
+[J4]
 extremely short measure of counted rest in all parts.
 
-[H5]
+[J5]
 subito tempo change.
 tutti passing around three 'lines' of white noise.
 pf harmonic  and struck crotale.
 
-[H6]
+[J6]
 extremely short measure of counted rest in all parts.
 
-[H7]
+[J7]
 subito tempo change.
 tutti passing around one 'line' of white noise.
 pf harmonic  and struck crotale.
 
-[H8]
+[J8]
 extremely short measure of counted rest in all parts.
 
-[H9]
+[J9]
 subito tempo change.
 tutti passing around three 'lines' of white noise.
 pf harmonic  and struck crotale.
 
-[H10]
+[J10]
 extremely short measure of counted rest in all parts.
 
 times six:
 
-    [H11]
+    [J11]
     short-duration cell.
     tutti passing around one 'line' of white noise.
     pf harmonic  and struck crotale.
     super-short breath.
 
-[H12]
+[J12]
 extremely short measure of counted rest in all parts.
 
-[I1]
+[K1]
 fully orchestrated kiln chord.
 piccolo flz.
 oboe flz.
@@ -582,161 +604,161 @@ low-register pf cluster used to excited silently-depressed valediction chord.
 piercing bowed crotale on attack and ff maracas on sustain.
 ff vn, va, vc upper-register tremolo at highest possible pitch.
 
-[I2]
+[K2]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[I3]
+[K3]
 fully orchestrated kiln chord reattacked.
 
-[I4]
+[K4]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[I5]
+[K5]
 fully orchestrated kiln chord reattacked.
 
-[I6]
+[K6]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[I7]
+[K7]
 fully orchestrated kiln chord reattacked.
 
-[I8]
+[K8]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[I9]
+[K9]
 ninth chord resonance continues.
 valedictory spoons.
 
-[I10]
+[K10]
 pf restrikes lower cluster and ninth chord resonance continues.
 valedictory slate.
 
-[I11]
+[K11]
 pf restrikes lower cluster and ninth chord resonance continues.
 valedictory trowels.
 
-[I12]
+[K12]
 pf restrikes lower cluster and ninth chord resonance continues.
 valedictory ratchet and vn, va, vc clb.
 
-[I13]
+[K13]
 pf strikes absolute lowest cluster and ninth chord resonance continues.
 pf never actively trills valedictory ninth chord; resonance only.
 valedictory spoons, slate, trowels, ratchet, vn, va, vc clb, brazil shakers.
 
-[I14]
+[K14]
 pf ninth chord resonance decays.
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[I16]
+[K16]
 pf tacet.
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[I17]
+[K17]
 very thin harpsichord begins.
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[I18]
+[K18]
 harpsichord increases density slightly
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[I19]
+[K19]
 harpsichord increases density slightly
 valedictory spoons, slate, trowels, ratchet, brazil stop.
 vn, va, vc clb continues.
 
-[I20]
+[K20]
 harpsichord increases density.
 vn, va, vc clb continues.
 
-[J1]
+[L1]
 harpsichord increases density.
 vn, va, vc clb continues.
 
-[J2]
+[L2]
 harpsichord increases density.
 vn, va, vc clb continues.
 
-[J3]
+[L3]
 harpsichord increases density.
 vn, va, vc clb thins out.
 
-[J4]
+[L4]
 harpsichord increases density.
 vn, va, vc clb thins out.
 
-[J5]
+[L5]
 harpsichord increases density.
 vn, va, vc clb thins out.
 
-[J6]
+[L6]
 harpsichord increases density.
 vn, va, vc clb thins stop.
 
-[J7]
+[L7]
 harpsichord upper-register prestissimo fully present and sustained.
 
-[K1]
+[M1]
 harpsichord upper-register prestissimo continues.
 other players attempt to start up golden gears one last time. then stop.
 
-[K2]
+[M2]
 harpsichord upper-register prestissimo continues.
 
-[K3]
-harpsichord upper-register prestissimo continues.
-other players attempt to start up golden gears one last time. then stop.
-
-[K4]
-harpsichord upper-register prestissimo continues.
-
-[K5]
+[M3]
 harpsichord upper-register prestissimo continues.
 other players attempt to start up golden gears one last time. then stop.
 
-[K6]
+[M4]
 harpsichord upper-register prestissimo continues.
 
-[K7]
+[M5]
+harpsichord upper-register prestissimo continues.
+other players attempt to start up golden gears one last time. then stop.
+
+[M6]
+harpsichord upper-register prestissimo continues.
+
+[M7]
 harpsichord upper-register prestissimo continues.
 other players attempt to start up golden gears one last time. then stop.
 harpsichord upper-reigster prestissimo subito stops.
 
-[K8]
+[M8]
 pause.
 
-[K9]
+[M9]
 upper-regsiter harpsichord now together with effort of other players.
 tutti players attempt to start up golden gears one last time.
 
-[K10]
+[M10]
 then again.
 
-[K11]
+[M11]
 then again.
 
-[K12]
+[M12]
 then again.
 
-[K12]
+[M12]
 then gears finally turning together.
 
-[K13]
+[M13]
 faster, higher, quieter.
 
-[K14]
+[M14]
 faster, higher, quieter.
 
-[K15]
+[M15]
 faster, higher, quieter.
 
-[K16]
+[M16]
 fastest, highest, quietest.
 tutti al niente.
 
-[K17]
+[M17]
 stop.
