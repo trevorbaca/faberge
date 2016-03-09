@@ -4,15 +4,15 @@ FABERGÉ INVESTIGATIONS - STAGES
 process of alternation over segment: first term is broken shell, second term is
 composite papers and kiln.
 
-first term: broken shell: fast tempo: vn, va, vc harmonic trem. flaut. of frame
-descending from bridge. underneath trem. and starting at same time is rapid
-exchange of single pitch in other players in preparation for oboe double-trill
-of broken shell. exchanged note is fluttertongue in piccolo and color trill in
-clarinet; oboe does not yet participate. tremolo flautando frame keeps interest
-in dynamic enveloping. string tremolo frame persists subito ppp at end of each
-stage as pedal to the following stage. at each pass through alternation note
-exchanged between piccolo and clarinet usually rises in stepwise motion and
-sometimes falls in stepwise motion that is sometimes inflected microtonally.
+first term: broken shell: fast tempo: vn, va, vc harmonic tremolo flautando of
+frame descending from bridge. underneath tremolo and starting at same time is
+rapid exchange of single pitch in other players in preparation for oboe
+double-trill of broken shell. exchanged note is fluttertongue in piccolo and
+color trill in clarinet; oboe does not yet participate. tremolo flautando frame
+keeps interest in dynamic enveloping. string tremolo frame persists subito ppp
+at end of each stage as pedal to the following stage. at each pass through
+alternation note exchanged between piccolo and clarinet moves by stepwise
+motion.
 
 second term: papers and kiln: slower effective tempo: single, protracted stroke
 of sponge across bass drum head that accelerates exponentially at the end of
@@ -20,9 +20,9 @@ most strokes and combines with very sparse lower-register harpsichord notes
 second term is a type of intercalation. string tremolo frame crescendos at end
 of every second term to resume dynamic presence of first term.
 
-process of alternation: at each successive occurence of second term,
-harpsichord density increases and register rises. material starts with very
-sparse feather beams that do not yet have the identity of feather beams.
+process: alternation between two terms. at each successive occurence of second
+term, harpsichord density increases and register rises. material starts with
+very sparse feather beams that do not yet have the identity of feather beams.
 density increases to reveal identity of feather beams. then straight-valued
 rhythms interpolate to gradually replace feather beams. endpoint in run-away
 harpsichord in only the upper register of the instrument. global accelerandi
@@ -63,8 +63,7 @@ first term
 
 [B1]
 runaway harpsichord solo with registral compression and metric modualtion.
-harpsichord solo represents one facet of the investigation of the kiln and its
-parts drawn out in a way that evidences a type of incredible tensile strength.
+harpsichord solo draws out one facet of the investigation of the kiln.
 string tremolo frame is now silent.
 brushed bass drum is silent.
 oboe has been tacet from beginning of piece.
@@ -87,10 +86,9 @@ oboe returns on succession of more trilled notes played quicker.
 
 [B5]
 runaway harpsichord reaches maximum speed and compression.
-pitch exchange reutrns with even quicker exchange that now grows to include
-piccolo fluttertongue, clarinet color trill and sharply bowed crotale.
-energy of the way pitch is passed around between players is the energy of the
-broken shell.
+pitch exchange returns even quicker and now grows to include piccolo
+fluttertongue, clarinet color trill and sharply bowed crotale.
+energy of pitch passed between players is the energy of the broken shell.
 
 [B6]
 runaway harpsichord holds maximum speed and compression.
@@ -98,9 +96,9 @@ oboe returns on succession of even more trilled notes played even more quickly.
 
 [B7]
 runaway harpsichord holds maximum speed and compression.
-pitch exchange reutrns with even quicker exchange that now grows to include
-piccolo fluttertongue, clarinet color trill, sharply bowed crotale and vc
-single-note tremolo played extremely ponticello.
+pitch exchange returns even quicker and now grows to include piccolo
+fluttertongue, clarinet color trill, sharply bowed crotale and vc single-note
+tremolo played extremely ponticello.
 
 [B8]
 runaway harpsichord holds maximum speed and compression.
@@ -177,32 +175,32 @@ pf, percussion tacet.
 two more processes begin:
 oboe begins irregularly increasing dynamics and rate of trill.
 upper instruments begin decreasing dynamics and rate of attack.
-pf, percussion still tacet.
+pf, percussion tacet.
 
 [D2]
 oboe irregularly increases dynamics and rate of trill.
 upper instruments decrease dynamics and rate of attack.
-pf, percussion still tacet.
+pf, percussion tacet.
 
 [D3]
 oboe irregularly increases dynamics and rate of trill.
 upper instruments decrease dynamics and rate of attack.
-pf, percussion still tacet.
+pf, percussion tacet.
 
 [D4]
 oboe irregularly increases dynamics and rate of trill.
 upper instruments decrease dynamics and rate of attack.
-pf, percussion still tacet.
+pf, percussion tacet.
 
 [D5]
 oboe irregularly increases dynamics and rate of trill.
 upper instruments decrease dynamics and rate of attack.
-pf, percussion still tacet.
+pf, percussion tacet.
 
 [D6]
 oboe irregularly increases dynamics and rate of trill.
 upper instruments decrease dynamics and rate of attack.
-pf, percussion still tacet.
+pf, percussion tacet.
 
 [D7]
 both processes achieve endpoint:
@@ -228,7 +226,7 @@ polyrhythm of a single line into a sustained pitch that very soon thereafter
 begins a glissando lentissimo towards the target pitch of the golden gears. the
 melting effected by the glissandi lentissimi takes a long time and a
 considerable number of repeated attempts. the melting also effects a tempo
-change. tempo changes either up or down to the tutti tempo of the golden gears.
+change.
 
 first stage holds tutti trm.
 
@@ -507,97 +505,56 @@ kiln: picc, ob, cl chord sustained but not yet fully expressed dynamic.
 pause.
 
 [I1]
-trm resumes as at beginning [G]. in fact, music resumes as at beginning of [G].
-
-[I2]
-some players articulate polyrhythm with white noise.
-
-[I3]
-more players articulate polyrhythm with white noise.
-some players glue pickets together.
-
-[I4]
-more players articulate polyrhythm with white noise.
-more players glue pickets together.
-
-[I5]
-tutti white noise.
-more players glue pickets together.
-
-[I6]
-tutti white noise.
-more players glue pickets together.
-
-[I7]
-tutti white noise and all pickets glued together.
-
-times three:
-
-    [I8]
-    tutti frozen white noise.
-
-    [I9]
-    tutti frozen white noise continues.
-    short intercalated recollection of golden gears in strings.
-
-    [I10]
-    tutti frozen white noise continues.
-    short intercalated recollection of jewelers' desk in winds.
-
-[J]
-apotheosis of white noise.
-
-[J1]
 tutti passing around a single 'line' of white noise.
 pf harmonic and struck crotale.
 
-[J2]
+[I2]
 extremely short measure of counted rest in all parts.
 
-[J3]
+[I3]
 subito tempo change.
 tutti passing around two 'lines' of white noise.
 pf harmonic and struck crotale.
 
-[J4]
+[I4]
 extremely short measure of counted rest in all parts.
 
-[J5]
+[I5]
 subito tempo change.
 tutti passing around three 'lines' of white noise.
 pf harmonic and struck crotale.
 
-[J6]
+[I6]
 extremely short measure of counted rest in all parts.
 
-[J7]
+[I7]
 subito tempo change.
 tutti passing around one 'line' of white noise.
 pf harmonic and struck crotale.
 
-[J8]
+[I8]
 extremely short measure of counted rest in all parts.
 
-[J9]
+[I9]
 subito tempo change.
 tutti passing around three 'lines' of white noise.
 pf harmonic and struck crotale.
 
-[J10]
+[I10]
 extremely short measure of counted rest in all parts.
 
 times six:
 
-    [J11]
+    [I11]
     short-duration cell.
     tutti passing around one 'line' of white noise.
     pf harmonic  and struck crotale.
     super-short breath.
 
-[J12]
+[I12]
 extremely short measure of counted rest in all parts.
 
-[K1]
+[J1]
 fully orchestrated kiln chord.
 piccolo flz.
 oboe flz.
@@ -606,163 +563,132 @@ low-register pf cluster used to excite silently-depressed valediction chord.
 piercing bowed crotale on attack and ff maracas on sustain.
 ff vn, va, vc upper-register tremolo at highest possible pitch.
 
-[K2]
+[J2]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[K3]
+[J3]
 fully orchestrated kiln chord reattacked.
 
-[K4]
+[J4]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[K5]
+[J5]
 fully orchestrated kiln chord reattacked.
 
-[K6]
+[J6]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[K7]
+[J7]
 fully orchestrated kiln chord reattacked.
 
-[K8]
+[J8]
 tutti everything stops and reveals resonance of ninth chord underneath.
 
-[K9]
+[J9]
 ninth chord resonance continues.
 valedictory spoons.
 
-[K10]
+[J10]
 pf restrikes lower cluster and ninth chord resonance continues.
 valedictory slate.
 
-[K11]
+[J11]
 pf restrikes lower cluster and ninth chord resonance continues.
 valedictory trowels.
 
-[K12]
+[J12]
 pf restrikes lower cluster and ninth chord resonance continues.
 valedictory ratchet and vn, va, vc clb.
 
-[K13]
+[J13]
 pf strikes absolute lowest cluster and ninth chord resonance continues.
 pf never actively trills valedictory ninth chord; resonance only.
 valedictory spoons, slate, trowels, ratchet, vn, va, vc clb, brazil shakers.
 
-[K14]
+[J14]
 pf ninth chord resonance decays.
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[K16]
+[J16]
 pf tacet.
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[K17]
-very thin harpsichord begins.
+[J17]
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[K18]
-harpsichord increases density slightly
+[J18]
 valedictory spoons, slate, trowels, ratchet, brazil thin out.
 vn, va, vc clb continues.
 
-[K19]
-harpsichord increases density slightly
+[J19]
 valedictory spoons, slate, trowels, ratchet, brazil stop.
 vn, va, vc clb continues.
 
-[K20]
-harpsichord increases density.
+[J20]
 vn, va, vc clb continues.
 
-[L1]
-harpsichord increases density.
+[K1]
+vn, va, vc clb continues.
+other players attempt to start up golden gears one last time. then stop.
+
+[K2]
 vn, va, vc clb continues.
 
-[L2]
-harpsichord increases density.
+[K3]
+vn, va, vc clb continues.
+other players attempt to start up golden gears one last time. then stop.
+
+[K4]
 vn, va, vc clb continues.
 
-[L3]
-harpsichord increases density.
-vn, va, vc clb thins out.
-
-[L4]
-harpsichord increases density.
-vn, va, vc clb thins out.
-
-[L5]
-harpsichord increases density.
-vn, va, vc clb thins out.
-
-[L6]
-harpsichord increases density.
-vn, va, vc clb thins stop.
-
-[L7]
-harpsichord upper-register prestissimo fully present and sustained.
-
-[M1]
-harpsichord upper-register prestissimo continues.
+[K5]
+vn, va, vc clb continues.
 other players attempt to start up golden gears one last time. then stop.
 
-[M2]
-harpsichord upper-register prestissimo continues.
+[K6]
+vn, va, vc clb continues.
 
-[M3]
-harpsichord upper-register prestissimo continues.
+[K7]
+vn, va, vc clb continues.
 other players attempt to start up golden gears one last time. then stop.
+vn, va, vc clb subito stops.
 
-[M4]
-harpsichord upper-register prestissimo continues.
-
-[M5]
-harpsichord upper-register prestissimo continues.
-other players attempt to start up golden gears one last time. then stop.
-
-[M6]
-harpsichord upper-register prestissimo continues.
-
-[M7]
-harpsichord upper-register prestissimo continues.
-other players attempt to start up golden gears one last time. then stop.
-harpsichord upper-reigster prestissimo subito stops.
-
-[M8]
+[K8]
 pause.
 
-[M9]
-upper-regsiter harpsichord now together with effort of other players.
+[K9]
+vn, va, vc now together with effort of other players.
 tutti players attempt to start up golden gears one last time.
 
-[M10]
+[K10]
 then again.
 
-[M11]
+[K11]
 then again.
 
-[M12]
+[K12]
 then again.
 
-[M12]
+[K12]
 then gears finally turning together.
 
-[M13]
+[K13]
 faster, higher, quieter.
 
-[M14]
+[K14]
 faster, higher, quieter.
 
-[M15]
+[K15]
 faster, higher, quieter.
 single tenor pf note attacked and held.
 
-[M16]
+[K16]
 fastest, highest, quietest.
 tutti al niente.
 pf note released at exact end of tutti ascent.
 
-[M17]
+[K17]
 stop.
