@@ -157,4 +157,75 @@ glowing jewelers' desk (γ) continues underneath.
 reillumination of jewelers' desk (γ).
 
 [A27]
-jewelers' desk (γ) continues. vn, va, vc (δ) dripping clb begin.
+jewelers' desk (γ) continues. hpschd, vn, va, vc (δ) dripping clb begin.
+
+[B1]
+hpschd, vn, va, vc (δ) dripping clb continue.
+
+[B2]
+struck p bass drum initiates hpschd, vn, va, vc (δ) dripping clb cell.
+
+[B3]
+bd, hpschd, vn, va, vc (δ) dripping clb cell.
+
+[B4]
+bd, hpschd, vn, va, vc (δ) dripping clb cell.
+
+[B5]
+piccolo, cl (β) exchange single pitch. bd, hpschd, vn, va, vc (δ) dripping clb
+continues.
+
+[B6]
+ratchet game x6:
+each time subject to time manipulation:
+each time piccolo, cl (β) pitch progresses:
+
+    guiro (ob), bd + castanets initiate cell;
+    piccolo, cl (β) exchange single pitch;
+    hpschd, vn, va, vc (δ) dripping clb plays out.
+
+[B7]
+rhythmicized va (α) spazzolati. hpschd, vn, va, vc (δ) dripping clb.
+introduction of the papers of the house of fabergé (ε): bfl flz airtone
+followed by english horn airtone with staple removed followed by bcl airtone
+followed by a short pause in the chain.
+
+[B8]
+papers (ε) bfl, eh, bcl airtone chain repeats and adds vc ob tremolo.
+
+[B9]
+papers (ε) bfl, eh, bcl, vc airtone chain repeats.
+
+[B10]
+intercalated stage of vn, va (α) spazzolati together with papers (ε) bfl, eh,
+bcl, vc airtone chain which adds short bd white noise tremolo.
+
+[B11]
+vn, va (α) spazzolati in isolation.
+
+[C1]
+incomplete game of extending papers (ε) airtone chain.
+short pause.
+
+[C2]
+papers extension game. vc harmonic glissando begins to emerge.
+short pause.
+
+[C3]
+papers extension game. vc harmonic glissando begins to emerge.
+short pause.
+
+[C4]
+papers extension game with vc harmonic glissando. intercalated vn, va (α)
+spazzolati.
+
+[C5]
+papers extension game now almost continuous sound.
+short pause.
+
+[C6]
+papers extension game now almost continuoous sound. intercalated vn, va (α)
+spazzolati.
+
+[D]
+recapitulation of hpschd, vn, va, vc (δ) clb.

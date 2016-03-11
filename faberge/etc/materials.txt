@@ -1,115 +1,113 @@
 FABERGÉ - MATERIALS
 
-A.  investigation of the golden gears:
+α.  investigation of the golden gears:
 
-    A1. shudder of pitches
+    α1. shudder of pitches
 
-    A2. white noise stroke
+    α2. white noise stroke
 
-    A3. shudder of pitches followed by white noise stroke
+    α3. shudder of pitches followed by white noise stroke
 
-    A4. shudder + stroke repeating irregularly to sputter and start up
+    α4. shudder + stroke repeating irregularly to sputter and start up
 
-    A5. lone spazzolati
+    α5. lone spazzolati
 
-    A6. ratchet
+    α6. ratchet
 
-    A7. regular repeated single-pitch figure in any one player
+    α7. regular repeated single-pitch figure in any one player
 
-    A8. layered single-pitch figures in any two players
+    α8. layered single-pitch figures in any two players
 
-    A9. layered single-pitch figures in all players
+    α9. layered single-pitch figures in all players
 
-    A10. layered singe-pitch figures in all players with swell enveloping
+    α10. layered singe-pitch figures in all players with swell enveloping
 
-    A11. layered figures in all players with increasing fast metric modulation
+    α11. layered figures in all players with increasing fast metric modulation
 
-B.  investigation of the broken shell:
+β.  investigation of the broken shell:
 
-    B1. lateral piano A0 scrape
+    β1. lateral piano A0 scrape
 
-    B2. single pitch rapidly exchanged between two players
+    β2. single pitch rapidly exchanged between two players
 
-    B3. single pitch rapidly exchanged between three players
+    β3. single pitch rapidly exchanged between three players
 
-    B4. single pitch rapidly exchanged between all players
+    β4. single pitch rapidly exchanged between all players
 
-    B5. solo guiro
+    β5. solo guiro
 
-    B6. massed gurio
+    β6. massed gurio
 
-    B7. oboe doppeltriller
+    β7. oboe doppeltriller
 
-    B8. ff english horn multiphonic
+    β8. ff english horn multiphonic
 
-    B9. ff low-register piano strike
+    β9. ff low-register piano strike
 
-    B10. silently depressed ninth chord
+    β10. silently depressed ninth chord
 
-C.  investigation of the jewelers' desk:
+γ.  investigation of the jewelers' desk:
 
-    C1. va midregister pochissimo scratch ppp pedal
+    γ1. va midregister pochissimo scratch ppp pedal
 
-    C2. isolated low wind key noise
+    γ2. isolated low wind key noise
 
-    C3. running polyrhythms of low wind key noise
+    γ3. running polyrhythms of low wind key noise
 
-    C4. low harpsichord notes
+    γ4. low harpsichord notes
 
-    C5. vn, va, vc fff scratch
+    γ5. vn, va, vc fff scratch
 
-    C6. glowing bass flute multiphonics
+    γ6. glowing bass flute multiphonics
 
-    C7. glowing bass clarinet multiphonics
+    γ7. glowing bass clarinet multiphonics
 
-    C8. attackless low register marimba pedal
+    γ8. attackless lowregister marimba pedal
 
-    C9. low register vc pedal
+    γ9. lowregister vc pedal
 
-    C10. credit card against pf tuning pegs
+    γ10. credit card against pf tuning pegs
 
-    C11. muted pf notes in isolation
+    γ11. muted pf notes in isolation
 
-D.  investigation of the kiln and its parts:
+δ.  investigation of the kiln and its parts:
 
-    D1. vn, va, vc clb
+    δ1. vn, va, vc clb
 
-    D2. dripping upper register harpsichord
+    δ2. dripping upperregister harpsichord
 
-    D3. vn, va, vc bcl with dripping upper register harpsichord
+    δ3. vn, va, vc clb with dripping upperregister harpsichord
 
-    D4. english horn melody
+    δ4. english horn melody
     
-    D5. prestissimo pitch-bneding piccolo legato lines
+    δ5. prestissimo pitch-bending piccolo lines
 
-    D6. piercing bowed crotales
+    δ6. struck bass drum with struck castanets
 
-    D7. struck bass drum with struck castanets
+    δ7. piccolo, clarinet, oboe fluttertongue kiln chord
 
-    D8. piccolo, clarinet, oboe fluttertongue kiln chord
+    δ8. vn, va, vc upperregister fff tremolo kiln chord
 
-    D9. vn, va, vc upperregister fff tremolo kiln chord
+    δ9. maracas
 
-    D10. maracas
+    δ10. piccolo, clarinet, oboe flz, vn, va, vc fff tremolo, maracas
 
-    D11. piccolo, clarinet, oboe flz, vn, va, vc fff tremolo, maracas
+ε.  papers of the house of fabergé:
 
-E.  papers of the house of fabergé:
+    ε1. long smooth bass drum white noise strokes 
 
-    E1. long smooth bass drum white noise strokes 
+    ε2. vn, va, vc ob strokes
 
-    E2. vn, va, vc ob strokes
+    ε3. fl, ob, cl airtone
 
-    E3. fl, ob, cl airtone
+    ε4. shuddering airtone
 
-    E4. shuddering airtone
+    ε5. airtone tremolo
 
-    E5. airtone tremolo
+    ε6. tutti synchronization of white noise
 
-    E6. tutti synchronization of white noise
+    ε7. solo guiro
 
-    E7. solo guiro
+    ε8. massed guiro
 
-    E8. massed guiro
-
-    E9. vc harmonic glissando
+    ε9. vc harmonic glissando
