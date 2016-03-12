@@ -205,27 +205,186 @@ vn, va (α) spazzolati in isolation.
 
 [C1]
 incomplete game of extending papers (ε) airtone chain.
+vn, va (α) spazzolati.
 short pause.
 
 [C2]
-papers extension game. vc harmonic glissando begins to emerge.
+papers extension game (ε). vc harmonic glissando (ε) begins to emerge.
 short pause.
 
 [C3]
-papers extension game. vc harmonic glissando begins to emerge.
+papers extension game (ε). vc harmonic glissando (ε) begins to emerge.
+vn, va (α) spazzolati.
 short pause.
 
 [C4]
-papers extension game with vc harmonic glissando. intercalated vn, va (α)
-spazzolati.
+papers extension game with vc harmonic glissando (ε).
+short pause.
 
 [C5]
-papers extension game now almost continuous sound.
+papers extension game (ε) now almost continuous sound.
+vn, va (α) spazzolati.
 short pause.
 
 [C6]
-papers extension game now almost continuoous sound. intercalated vn, va (α)
+papers extension game (ε) now almost continuous sound.
+pause.
+
+[D1]
+momentary manifestation of jewelers' desk (γ): bfl keynoise, eh keynoise,
+bcl keynoise, credit card against piano tuning pegs, vn playing spoons, va
+absent, vc absent, atackless ppppp lowregister marimba pedal. together with
+memory of va, vc (ε) airtone papers.
+
+[D2]
+ratchet game (β+δ) x6:
+each time subject to time manipulation:
+each time piccolo, cl (β) pitch progresses:
+much faster, or much slower, than ratchet game played before:
+
+    guiro (ob), bd + castanets initiate cell;
+    piccolo, cl (β) exchange single pitch;
+    hpschd, vn, va, vc (δ) dripping clb plays out.
+
+[D3]
+return of papers (ε) continuous airtone from end of previous segment.
+now manifest as a chain of tone passed between four or five players in
+sequence. all in regular rhythm but with pauses separating each chain.
+
+[D4]
+more regular rhythm gapped airtone chain (ε).
+short pause.
+
+[D5]
+more regular rhythm gapped airtone chain (ε).
+short pause.
+
+[D6]
+more regular rhythm gapped airtone chain (ε).
+short pause.
+
+[E]
+strobed primary mode of presentation throughout segment.
+
+[E1]
+more regular rhythm gapped airtone chain (ε). now with an addition to the
+grammar of the interactions: airtone tremolo initiate airtone chain, as a way
+of giving an initial push into chain.
+short pause.
+
+[E2]
+more regular rhythm tremolo-initiated gapped airtone chain (ε). 
+short pause.
+
+[E3]
+more regular rhythm tremolo-initiated gapped airtone chain (ε) but with airtone
+sustained under a decrescendo over the end of the stage to allow continuity of
+sound at the introduction of multiphonic in the next stage.
+
+[E4]
+airtone (ε) sustained from previous stage. together with glowing bfl
+multiphonic (γ). short pause.
+
+[nb that there's now a composite (γ+ε) cell of airtone sustained as pedal for
+glowing bfl multiphonic, all then followed by short pause. prefigure earlier in
+piece.]
+
+[E5]
+more regular rhythm tremolo-initiated gapped airtone chain (ε).
+short pause.
+
+[E6]
+more regular rhythm tremolo-initiated gapped airtone chain (ε) but with airtone
+sustained under a decrescendo over the end of the stage to allow continuity of
+sound at the introduction of multiphonic in the next stage.
+
+[E7]
+airtone (ε) sustained from previous stage. together with glowing bfl
+multiphonic, glowing bcl multiphonic (γ). short pause.
+
+[E8]
+more regular rhythm tremolo-initiated gapped airtone chain (ε).
+short pause.
+
+[E9]
+more regular rhythm tremolo-initiated gapped airtone chain (ε) but with airtone
+sustained under a decrescendo over the end of the stage to allow continuity of
+sound at the introduction of multiphonic in the next stage.
+
+[E10]
+airtone (ε) continues. together with glowing bfl multiphonic, glowing bcl
+multiphonic, vc lowregister pedal (γ).
+
+[E11]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue. dripping (δ) upperregister hpschd, vn, va clb
+manifest for a moment.
+
+[E12]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue.
+
+[E13]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue. dripping (δ) upperregister hpschd, vn, va clb
+manifest for a moment.
+
+[E14]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue.
+
+[E15]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue. vn, va (α) spazzolati.
+
+[E16]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue.
+
+[E17]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue. vn, va (α) spazzolati.
+
+[E18]
+airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
+lowregister pedal continue.
+
+[E19]
+airtone (ε) continues. glowing (γ) bcl multiphonic, vc lowregister pedal
+continue.
+
+[E20]
+airtone (ε) continues. glowing (γ) bcl multiphonic, vc lowregister pedal
+continue. vn, va (α) spazzolati.
+
+[E21]
+airtone (ε) continues. glowing (γ) bcl multiphonic, vc lowregister pedal
+continue.
+
+[E22]
+airtone (ε) continues. glowing (γ) vc lowregister pedal continues.
+
+[E23]
+airtone (ε) continues. glowing (γ) vc lowregister pedal continues. vn, va (α)
 spazzolati.
 
-[D]
-recapitulation of hpschd, vn, va, vc (δ) clb.
+[E24]
+airtone (ε) continues. glowing (γ) vc lowregister pedal continues.
+
+[E25]
+airtone (ε) continues.
+
+[E26]
+airtone (ε) continues. vn, va (α) spazzolati.
+
+[E27]
+airtone (ε) continues.
+
+[E28]
+airtone (ε) continues. vn, va (α) spazzolati.
+
+[E29]
+vn, va (α) spazzolati.
+
+[F1]
+vn, va (α) spazzolati.
