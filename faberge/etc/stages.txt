@@ -386,5 +386,123 @@ airtone (ε) continues. vn, va (α) spazzolati.
 [E29]
 vn, va (α) spazzolati.
 
-[F1]
-vn, va (α) spazzolati.
+[F] (3')
+great turning of the golden gears.
+
+bfl sputter gesture (α) of starting up: alternation between three microtonal
+notes at very bottom of range with transitions indicating changes in amount of
+air included in the tone and at very quiet dynamics with pervasive swell
+enveloping to and from niente. intermitent displacements of exactly one octave
+up.
+
+english horn sputter gesture (α) of starting up: color trill in upperregister
+set to a quiet dynamic with niente-swell enveloping.
+
+bcl sputter gesture (α) of starting up: same as bfl and scored on arrive on D3
+and allow for 9-way colorfinger variation.
+
+pf sputter gesture (α) of starting up: extremely thin single points of credit
+card run laterally up A0 string followed by sizable pause. [use tablature of
+glissandi notated against compass of A0 string from midbar to tuning peg.]
+progresses to slow segment of lateral glissando followed by quicker and longer
+segment of lateral glissando followed by a pause. progresses to three-stage
+later glissando with the first two stages toward the tuning peg and the third
+short stage quickly reversing direction followed by forte on-the-keys strike of
+very low note played as a harmonic and used to excited silently depressed
+harmonic field sustained with middle pedal. progresses to four-stage lateral
+glissando with direction reversals following every stage except the first
+followed by sfz harmonic excitor of harmonic field followed by a pause.
+
+perc sputter gesture (α) of starting up: tight whitenoise brush tremolo on bd
+head enveloped with a swell followed by a short rest followed by a quiet stroke
+of superball mallet on bd head enveloped with a swell and of moderate duration,
+all followed by a sizable pause. progresses to tight whitenoise brush tremolo
+followed by simultaneous superball stroke on db head together with brush stroke
+on bd head. progresses to whitenoise tremolo followed by simultaneous superball
+and brush stroke followed by pp fingertapping on bd head. progresses to much
+loud superball strokes and much longer durations of fingertapping.
+fingertapping progresses to attackless mallet tremolo on bd head, eventually
+played at as loud a dynamic as possible without revealing the mallet attacks.
+
+vn, va sputter gesture (α) of starting up: triple-struck rimbalzando followed
+by short, quiet, isolated tremolo flautando on same pitch followed. progresses
+to triple-struck rimbalzando followed by two or three tremoli flautandi in
+succession.
+
+vc sputter gesture (α) of starting up: pair of 1/2 clt sfz strokes with lh
+glissando at a width of a major second up and down followed by tremolo alla
+punta (non flautando) scored with a crescendo. progresses to pair of 1/2 clt
+sfz glissando strokes followed by two or three waves of swelled tremolo alla
+punta. progresses to same 1/2 clt initiation followed by countless waves of
+tremolo alla punta with continuous scp control. widths of glissandi increase to
+a major ninth during development of material. progresses to include oscilliandi
+harmonichi ponticelli after 1/2 clt glissando strokes and before tremolo alla
+punta.
+
+proportions:
+    * sputtering [3]
+    * continuous turning but with intermittent grand pauses [2]
+        * alternately piano and forte, changing after every pause or two
+    * continuous turning (without interruptions) played piano [1]
+        * metric up-modulation at 5:4
+    * continous turning played forte [1]
+        * metric up-modulation at 5:4
+    * continous turning played piano [1]
+        * metric up-modulation at 5:4
+    * continous turning played forte [1]
+        * metric up-modulation at 5:4
+    * continous turning played piano [1]
+        * metric up-modulation at 5:4
+    * continous turning played forte [1]
+        * metric up-modulation at 5:4
+    * continous turning played pianissimo [2] until the end of [F] and into [G]
+        * with p > ppp decrescendo governing entire region
+        * some players begin falling out of material
+
+[G1]
+continous pianissimo turning (α) continues with players dropping out.
+glowing (γ) bfl, bcl multiphonic manifests again at beginning of segment.
+vn, va upperregister tremolo electricity (β) chord begins.
+
+[G2]
+continous pianissimo turning (α) continues with even more players dropping out.
+glowing (γ) bfl, bcl multiphonic continues.
+vn, va upperregister tremolo electricity (β) chord grows louder.
+
+[G3]
+continous pianissimo turning (α) continues with final players dropping out.
+glowing (γ) bfl, bcl multiphonic continues.
+vn, va upperregister tremolo electricity (β) chord grows louder.
+
+[G4]
+glowing (γ) bfl, bcl multiphonic continues.
+vn, va upperregister tremolo electricity (β) chord grows louder.
+
+[G5]
+vn, va upperregister tremolo electricity (β) chord continues.
+
+[G6]
+vn, va upperregister tremolo electricity (β) chord continues.
+
+[G7]
+pause.
+
+[G8]
+return to pianissimo continous turning (α). with enigmatic appearance of tutti
+(ε) synchronized whitenoise.
+
+[G9]
+pianissimo continous turning (α) continues.
+
+[G10]
+pianissimo continous turning (α) continues.
+vn, va upperregister tremolo electricity (β) chord returns as before.
+
+[G11]
+pianissimo continous turning (α) decrescendos al niente.
+vn, va upperregister tremolo electricity (β) chord continues.
+
+[H]
+fully orchestrated manifestation of field of broken shell.
+vn, va upperreigster tremolo electricity (β) chord reaches and sustains
+maximum. [TODO: orchestrate remainder of field.]
