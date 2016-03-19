@@ -130,28 +130,25 @@ harmonic field. underlayer of jewelers' desk (γ) continues steadily underneath.
 va, english horn tacet. short stage.
 
 [A20]
-pf, crotale resonance (β) continue to decay. bfl, bcl, vc jewelers' desk (γ)
-underlayer crescendos from ppp. vn spazzolati (α) returns. va spazzolati (α)
-joins for first time. vn, va spazzolati (α) carry different interlocking
-rhythms.
+pf, crotale resonance (β) continues to decay. bfl, bcl, vc jewelers' desk (γ)
+begins crescendo from ppp. vn spazzolati (α) returns. va spazzolati (α) begins.
+vn, va spazzolati (α) carry different interlocking rhythms.
 
 [A21]
 vn, va spazzolati (α) continue but start to decrescendo and transition to quiet
 sustained pitches (γ). glowing bfl, bcl, vc (γ) crescendo reaches shining mf
 dynamics. perc tacet.
 
-attackless marimba pedal
-
 [A22]
-trilled english horn (β) returns with greatly increased activity. vn, va
-spazzolati (α) continue decrescendo and transition to quiet sustain pitches
-(γ). glowing bfl, bcl, vc jewelers' desk (γ) continues underneath. english horn
-stops at end of stage. perc still tacet. 
+vn, va spazzolati (α) continue decrescendo and transition to quiet sustain
+pitches (γ). glowing bfl, bcl, vc jewelers' desk (γ) continues shining mf swell
+enveloping. trilled english horn (β) returns with greatly increased activity.
+english horn stops at end of stage. perc still tacet. 
 
 [A23]
 vn, va spazzolati (α) complete decrescendo and arrive at quiet sustained
-pitches (γ). glowing bfl, bcl, vc jewelers' desk (γ) reilluminates with mf
-swell enveloping.
+pitches (γ). glowing bfl, bcl, vc jewelers' desk (γ) continues with mf swell
+enveloping.
 
 [A24]
 glowing bfl, bcl, vn, va, vc jewelers' desk (γ) subito pp and p. lowregister
@@ -175,14 +172,13 @@ bcl, pf decay, marimba, vn, va, vc jewelers' desk (γ) crescendoes from pp to f.
 english horn (β) stops at end of stage.
 
 [A28]
-
-glowing bfl, bcl, marimba, vn, va, vc jewelers' desk (γ) begins decrescendo from f
-back to pp. pf (δ) moves to harpsichord. english horn (β) tacet.
+glowing bfl, bcl, marimba, vn, va, vc jewelers' desk (γ) begins decrescendo
+from f back to pp. pf (δ) moves to harpsichord. english horn (β) tacet.
 
 [A29]
-glowing vn, va, vc jeweler's desk (γ) finishes decrescendo.
-glowing bfl, bcl, marimba jewelers' desk (γ) continues decrescendo. hpschd (δ)
-tacet. english horn tacet.
+glowing vn, va, vc jeweler's desk (γ) finishes decrescendo. glowing bfl, bcl,
+marimba jewelers' desk (γ) continues decrescendo. hpschd (δ) tacet. english
+horn tacet.
 
 [A30]
 vn, va, vc (δ) dripping clb begin extremely sparsely. glowing bfl, bcl, marimba
