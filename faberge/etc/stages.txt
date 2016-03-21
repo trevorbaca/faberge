@@ -239,22 +239,22 @@ each time shell (β) piccolo, cl exchanged pitch progresses:
     kiln (δ) hpschd, vn, va, vc dripping clb plays out.
 
 [B9]
-gears (α) rhythmicized vn, va spazzolati return for one stage. everyone else
-tacet.
+gears (α) rhythmicized vn, va spazzolati return for one stage. six other
+players tacet.
 
 [B10]
-papers (ε) tremolo-initiated va ob. short pause. everyone else tacet.
+papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
 
 [B11]
-kiln (δ) guiro (ob), bc, castanets, hpschd, vn, va, vc cell once more. short
-pause. fl, cl tacet.
+kiln (δ) guiro (ob), bc, castanets, hpschd, vn, va, vc cell once more. pause.
+fl, cl tacet. short pause.
 
 [B12]
-shell (β) piccolo, cl exchange single pitch. everyone else tacet. short pause.
-fl takes bfl at end of stage. cl takes bcl at end of stage.
+shell (β) piccolo, cl exchange single pitch. six other players tacet. fl takes
+bfl at end of stage. cl takes bcl at end of stage. short pause.
 
 [B13]
-papers (ε) tremolo-initiated va ob. everyone else tacet. short pause.
+papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
 
 [B14]
 papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
@@ -312,8 +312,8 @@ papers (ε) single brushed bd stroke. seven other players tacet. short pause.
 papers (ε) tremolo-inititated va ob, eh airtone, bfl airtone. no pause.
 
 [C4]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, bcl airtone accompanied by pp
-vc harmonic glissando. pf, perc tacet. short pause.
+papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, bcl airtone
+accompanied by pp vc harmonic glissando. pf, perc, vn tacet. short pause.
 
 [C5]
 papers (ε) single brushed bd stroke. seven other players tacet. short pause.
@@ -343,160 +343,154 @@ papers (ε) tremolo-initiated va ob, eh airtone with pp vc harmonic glissando.
 papers (ε) chain cut off. fl, cl, pf, perc, vn tacet. short pause.
 
 [D1]
-papers (ε) tremolo-initiated va ob. together with jewelers' desk (γ) momentary
-recollection: glowing bfl, eh keynoise, glowing bcl, credit card against piano
-tuning pegs, attackless ppppp lowregister marimba pedal, vn quiet pitch, vc
-lowregister pedal.
+papers (ε) tremolo-initiated va ob. seven other players tacet. no pause.
 
 [D2]
+jewelers' desk (γ) momentary recollection: glowing bfl, eh keynoise, glowing
+bcl, credit card against piano tuning pegs, attackless ppppp lowregister
+marimba pedal, vn quiet pitch, vc lowregister pedal.
+
+[D3]
 ratchet game (β+δ) x6:
 each time subject to time manipulation:
 each time piccolo, cl (β) pitch progresses:
-much faster or much slower than ratchet game played before:
+much faster and more regular than ratchet game played before:
 
     guiro (ob), bd + castanets initiate cell;
     piccolo, cl (β) exchange single pitch;
     hpschd, vn, va, vc (δ) dripping clb plays out.
 
-[D3]
-return of papers (ε) continuous airtone from end of previous segment.
-now manifest as a chain of tone passed between four or five players in
-sequence. all in regular rhythm but with pauses separating each chain.
+pf tacet. papers (ε) va ob sustained underneath all of ratchet game.
+no pause.
 
 [D4]
-more regular rhythm gapped airtone chain (ε).
-short pause.
-
-[D5]
-more regular rhythm gapped airtone chain (ε).
-short pause.
-
-[D6]
-more regular rhythm gapped airtone chain (ε).
-short pause.
-
-[E]
-strobed primary mode of presentation throughout segment.
+papers (ε) va ob continues. seven other players tacet. no pause.
 
 [E1]
-more regular rhythm gapped airtone chain (ε). now with an addition to the
-grammar of the interactions: airtone tremolo initiate airtone chain, as a way
-of giving an initial push into chain.
-short pause.
+papers (ε) regular rhythm gapped airtone chain (ε). short pause.
 
 [E2]
-more regular rhythm tremolo-initiated gapped airtone chain (ε). 
-short pause.
+papers (ε) regular rhythm tremolo-initiated gapped airtone chain (ε). short
+pause.
 
 [E3]
-more regular rhythm tremolo-initiated gapped airtone chain (ε) but with airtone
-sustained under a decrescendo over the end of the stage to allow continuity of
-sound at the introduction of multiphonic in the next stage.
+papers (ε) regular rhythm gapped airtone chain. no pause.
 
 [E4]
-airtone (ε) sustained from previous stage. together with glowing bfl
-multiphonic (γ). short pause.
-
-[nb that there's now a composite (γ+ε) cell of airtone sustained as pedal for
-glowing bfl multiphonic, all then followed by short pause. prefigure earlier in
-piece.]
+papers (ε) airtone sustained under decrescendo. no pause.
 
 [E5]
-more regular rhythm tremolo-initiated gapped airtone chain (ε).
+papers (ε) airtone continues with jewelers' desk (γ) glowing bfl multiphonic.
 short pause.
+
+[TODO: prefigure earlier in piece composite (γ+ε) cell of airtone with glowing
+bfl multiphonic followed by short pause.]
 
 [E6]
-more regular rhythm tremolo-initiated gapped airtone chain (ε) but with airtone
-sustained under a decrescendo over the end of the stage to allow continuity of
-sound at the introduction of multiphonic in the next stage.
+papers (ε) regular rhythm gapped airtone chain. short pause.
 
 [E7]
-airtone (ε) sustained from previous stage. together with glowing bfl
-multiphonic, glowing bcl multiphonic (γ). short pause.
+papers (ε) regular rhythm gapped airtone chain. short pause.
 
 [E8]
-more regular rhythm tremolo-initiated gapped airtone chain (ε).
-short pause.
-
-[E9]
-more regular rhythm tremolo-initiated gapped airtone chain (ε) but with airtone
-sustained under a decrescendo over the end of the stage to allow continuity of
-sound at the introduction of multiphonic in the next stage.
+papers (ε) airtone sustained under decrescendo. no pause.
 
 [E10]
-airtone (ε) continues. together with glowing bfl multiphonic, glowing bcl
-multiphonic, vc lowregister pedal (γ).
+papers (ε) airtone continues with jewelers' desk (γ) glowing bfl multiphonic.
+short pause.
 
 [E11]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue. dripping (δ) upperregister hpschd, vn, va clb
-manifest for a moment.
+papers (ε) regular rhythm gapped airtone chain. short pause.
 
 [E12]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue.
+papers (ε) regular rhythm gapped airtone chain. short pause.
 
 [E13]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue. dripping (δ) upperregister hpschd, vn, va clb
-manifest for a moment.
+papers (ε) airtone sustained under decrescendo. no pause.
 
 [E14]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue.
+papers (ε) airtone continues with jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal. no pause.
 
 [E15]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue. vn, va (α) spazzolati.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. kiln (δ) hpschd, vn, va
+clb manifest for a moment. no pause.
 
 [E16]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. no pause.
 
 [E17]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue. vn, va (α) spazzolati.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. kiln (δ) hpschd, vn, va
+clb manifest for a moment. no pause.
 
 [E18]
-airtone (ε) continues. glowing (γ) bfl multiphonic, bcl multiphonic, vc
-lowregister pedal continue.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. no pause.
 
 [E19]
-airtone (ε) continues. glowing (γ) bcl multiphonic, vc lowregister pedal
-continue.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. gears (α) vn, va
+spazzolati manifest for a moment. no pause.
 
 [E20]
-airtone (ε) continues. glowing (γ) bcl multiphonic, vc lowregister pedal
-continue. vn, va (α) spazzolati.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. no pause.
 
 [E21]
-airtone (ε) continues. glowing (γ) bcl multiphonic, vc lowregister pedal
-continue.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. gears (α) vn, va
+spazzolati manifest for a moment. no pause.
 
 [E22]
-airtone (ε) continues. glowing (γ) vc lowregister pedal continues.
+papers (ε) airtone continues. jewelers' desk (γ) bfl glowing multiphonic, bcl
+glowing multiphonic, vc lowregister pedal continue. no pause.
 
 [E23]
-airtone (ε) continues. glowing (γ) vc lowregister pedal continues. vn, va (α)
-spazzolati.
+papers (ε) airtone continues. jewelers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, vc lowregister pedal continue. gears (α) vn, va
+spazzolati manifest for a moment. no pause.
 
 [E24]
-airtone (ε) continues. glowing (γ) vc lowregister pedal continues.
+papers (ε) airtone continues. jewelers' desk (γ) bfl glowing multiphonic, bcl
+glowing multiphonic, vc lowregister pedal continue. bfl exits at end of stage.
+no pause.
 
 [E25]
-airtone (ε) continues.
+papers (ε) airtone continues. jewelers' desk (γ) bcl glowing multiphonic, vc
+lowregister pedal continue. bcl exits at end of stage. no pause.
 
 [E26]
-airtone (ε) continues. vn, va (α) spazzolati.
+papers (ε) airtone continues. jewelers' desk (γ) vc lowregister pedal
+continues. no pause.
 
 [E27]
-airtone (ε) continues.
+papers (ε) airtone continues. jewelers' desk (γ) vc lowregister pedal
+continues. gears (α) vn, va spazzolati manifest for a moment. no pause.
 
 [E28]
-airtone (ε) continues. vn, va (α) spazzolati.
+papers (ε) airtone continues. jewelers' desk (γ) vc lowregister pedal
+continues. vc exits at end of stage. no pause.
 
 [E29]
-vn, va (α) spazzolati.
+papers (ε) airtone continues. no pause.
+
+[E30]
+papers (ε) airtone continues. gears (α) vn, va spazzolati manifest for a
+moment. no pause.
+
+[E31]
+papers (ε) airtone continues. no pause.
+
+[E32]
+papers (ε) airtone continues. gears (α) vn, va spazzolati manifest for a
+moment. airtone exits at end of stage. pause.
+
+[E33]
+gears (α) vn, va spazzolati manifest for a moment. six other players tacet.
+longer pause.
 
 [F] (3')
 great turning of the golden gears.
