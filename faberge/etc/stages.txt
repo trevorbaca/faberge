@@ -495,55 +495,54 @@ longer pause.
 [F] (3')
 great turning of the golden gears.
 
-bfl sputter gesture (α) of starting up: alternation between three microtonal
-notes at very bottom of range with transitions indicating changes in amount of
-air included in the tone and at very quiet dynamics with pervasive swell
-enveloping to and from niente. intermitent displacements of exactly one octave
-up.
+bfl sputter gesture of starting up: alternation between three microtonal notes
+at very bottom of range with transitions indicating changes in amount of air
+included in the tone and at very quiet dynamics with pervasive swell enveloping
+to and from niente. intermitent displacements of exactly one octave up.
 
-english horn sputter gesture (α) of starting up: color trill in upperregister
-set to a quiet dynamic with niente-swell enveloping.
+english horn sputter gesture of starting up: color trill in upperregister set
+to a quiet dynamic with niente-swell enveloping.
 
-bcl sputter gesture (α) of starting up: same as bfl and scored on arrive on D3
-and allow for 9-way colorfinger variation.
+bcl sputter gesture of starting up: same as bfl and scored to arrive on D3 and
+allow for 9-way colorfinger variation.
 
-pf sputter gesture (α) of starting up: extremely thin single points of credit
-card run laterally up A0 string followed by sizable pause. [use tablature of
+pf sputter gesture of starting up: extremely thin single points of credit card
+run laterally up A0 string followed by sizable pause. [use tablature of
 glissandi notated against compass of A0 string from midbar to tuning peg.]
 progresses to slow segment of lateral glissando followed by quicker and longer
 segment of lateral glissando followed by a pause. progresses to three-stage
-later glissando with the first two stages toward the tuning peg and the third
+lateral glissando with the first two stages toward the tuning peg and the third
 short stage quickly reversing direction followed by forte on-the-keys strike of
-very low note played as a harmonic and used to excited silently depressed
+very low note played as a harmonic and used to excite silently depressed
 harmonic field sustained with middle pedal. progresses to four-stage lateral
 glissando with direction reversals following every stage except the first
 followed by sfz harmonic excitor of harmonic field followed by a pause.
 
-perc sputter gesture (α) of starting up: tight whitenoise brush tremolo on bd
-head enveloped with a swell followed by a short rest followed by a quiet stroke
-of superball mallet on bd head enveloped with a swell and of moderate duration,
+perc sputter gesture of starting up: tight whitenoise brush tremolo on bd head
+enveloped with a swell followed by a short rest followed by a quiet stroke of
+superball mallet on bd head enveloped with a swell and of moderate duration,
 all followed by a sizable pause. progresses to tight whitenoise brush tremolo
-followed by simultaneous superball stroke on db head together with brush stroke
+followed by superball stroke on db head made simultaneously with brush stroke
 on bd head. progresses to whitenoise tremolo followed by simultaneous superball
 and brush stroke followed by pp fingertapping on bd head. progresses to much
 loud superball strokes and much longer durations of fingertapping.
 fingertapping progresses to attackless mallet tremolo on bd head, eventually
 played at as loud a dynamic as possible without revealing the mallet attacks.
 
-vn, va sputter gesture (α) of starting up: triple-struck rimbalzando followed
-by short, quiet, isolated tremolo flautando on same pitch followed. progresses
-to triple-struck rimbalzando followed by two or three tremoli flautandi in
+vn, va sputter gesture of starting up: triple-struck rimbalzando followed by
+short, quiet, isolated tremolo flautando on same pitch followed. progresses to
+triple-struck rimbalzando followed by two or three tremoli flautandi in
 succession.
 
-vc sputter gesture (α) of starting up: pair of 1/2 clt sfz strokes with lh
+vc sputter gesture of starting up: pair of 1/2 clt sfz strokes with lh
 glissando at a width of a major second up and down followed by tremolo alla
 punta (non flautando) scored with a crescendo. progresses to pair of 1/2 clt
 sfz glissando strokes followed by two or three waves of swelled tremolo alla
 punta. progresses to same 1/2 clt initiation followed by countless waves of
-tremolo alla punta with continuous scp control. widths of glissandi increase to
-a major ninth during development of material. progresses to include oscilliandi
-harmonichi ponticelli after 1/2 clt glissando strokes and before tremolo alla
-punta.
+tremolo alla punta with continuous scp transitions. widths of glissandi
+increase to a major ninth during development of material. progresses to include
+oscilliandi harmonichi ponticelli after 1/2 clt glissando strokes and before
+tremolo alla punta.
 
 proportions:
     * sputtering [3]
@@ -566,26 +565,30 @@ proportions:
         * some players begin falling out of material
 
 [G1]
-continous pianissimo turning (α) continues with players dropping out.
-glowing (γ) bfl, bcl multiphonic manifests again at beginning of segment.
-vn, va upperregister tremolo electricity (β) chord begins.
+gears (α) continous pianissimo turning continues with players dropping out.
+jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic manifests
+again at beginning of segment. shell (β) vn, va upperregister tremolo
+electricity chord begins. no pause.
 
 [G2]
-continous pianissimo turning (α) continues with even more players dropping out.
-glowing (γ) bfl, bcl multiphonic continues.
-vn, va upperregister tremolo electricity (β) chord grows louder.
+gears (α) continous pianissimo turning continues with even more players
+dropping out. jewelers' desk (γ) glowing bfl multiphonic, glowing bcl
+multiphonic continues. shell (β) vn, va upperregister tremolo electricity chord
+grows louder. no pause.
 
 [G3]
-continous pianissimo turning (α) continues with final players dropping out.
-glowing (γ) bfl, bcl multiphonic continues.
-vn, va upperregister tremolo electricity (β) chord grows louder.
+gears (α) continous pianissimo turning continues with final players dropping
+out. jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic
+continues. shell (β) vn, va upperregister tremolo electricity chord grows
+louder. no pause.
 
 [G4]
-glowing (γ) bfl, bcl multiphonic continues.
-vn, va upperregister tremolo electricity (β) chord grows louder.
+jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic continues.
+shell (β) vn, va upperregister tremolo electricity chord grows louder. no
+pause.
 
 [G5]
-vn, va upperregister tremolo electricity (β) chord continues.
+vn, va upperregister tremolo electricity (β) chord continues. no pause.
 
 [G6]
 vn, va upperregister tremolo electricity (β) chord continues.
@@ -594,168 +597,178 @@ vn, va upperregister tremolo electricity (β) chord continues.
 pause.
 
 [G8]
-return to pianissimo continous turning (α). with enigmatic appearance of tutti
-(ε) synchronized whitenoise.
+gears (α) pianissimo continous turning returns and begins to accelerate. papers
+(ε) synchronized whitenoise makes enigmatic appearance. no pause.
 
 [G9]
-pianissimo continous turning (α) continues.
+gears (α) pianissimo continous continues to accelerate and begins to
+decrescendo. no pause.
 
 [G10]
-pianissimo continous turning (α) continues.
-vn, va upperregister tremolo electricity (β) chord returns ferociously as
-before.
+gears (α) pianissimo continous turning continues to accelerate and continues to
+decrescendo. shell (β) vn, va ferocious upperregister tremolo electricity chord
+returns. no pause.
 
 [G11]
-pianissimo continous turning (α) decrescendos al niente.
-vn, va upperregister tremolo electricity (β) chord begins to decrescendo.
+gears (α) pianissimo continous turning continues to accelerate and reaches
+niente. shell (β) vn, va upperregister tremolo electricity chord begins to
+decrescendo. no pause.
 
 [G12]
-vn, va upperregister electricity tremolo (β) continues to decrescendo.
+shell (β) vn, va upperregister tremolo electricity chord continues to
+decrescendo. no pause.
 
 [G13]
-vn, va upperregister electricity tremolo (β) reaches pianissimo level to
-transition into fully orchestrated field of the broken shell.
+shell (β) vn, va upperregister tremolo electricity chord reaches pianissimo to
+transition into fully orchestrated field of the broken shell. no pause.
 
 [H]
-manifestation of fully orchestrated field of the broken shell (β): bfl flz with
-slow pitchbending and transitions between relative amounts of air and tone and
-with intermittent major ninth displacements and swith swell-enveloping that
-brings the bfl into and out of the orchestration; eh quieter upperregister
-swell-enveloped colortrills; bcl lowregister tone hypnotically alternating with
-upperregister tone and all enveloped with slow-moving swells; pf harmonic
-field; attackless marimba pedal transitioning gradually to attackless bd pedal;
-also perc sometimes moving to relatively quiet bowed crotales to match the
-pitch of the winds and recall earlier (β) in piece; vn swell-enveloped tremolo
-flautando on third partial with fingerpressure transitions from harmonic to
-halfharmonic to fullystopped and back again; va swell-enveloped tremolo
-flautando on seventh partial with fingerpressure transitions from harmonic to
-halfharmonic to fullysopped and back again; vc tremolo flautando on 13th
-partial with fingerpressue transitions from harmonic to halfharmonic to
-fullystopped and back again. all instruments cyclically enter and exit
-orchestration. spacious animation preserves attention hypnotically. durations
-of orchestrated swells become progressively greater to draw attentions
-progressively further.
+broken shell (β) fully orchestrated field: bfl flz with slow pitchbending and
+transitions between relative amounts of air and tone and with intermittent
+major ninth displacements and with swell-enveloping that brings the bfl into
+and out of the orchestration; eh quieter upperregister swell-enveloped
+colortrills; bcl lowregister tone hypnotically alternating with upperregister
+tone and all enveloped with slow-moving swells; pf harmonic field; attackless
+marimba pedal transitioning gradually to attackless bd pedal; also perc
+sometimes moving to relatively quiet bowed crotales to match the pitch of the
+winds and recall shell earlier in piece; vn swell-enveloped tremolo flautando
+on third partial with fingerpressure transitions from harmonic to halfharmonic
+to fullystopped and back again; va swell-enveloped tremolo flautando on seventh
+partial with fingerpressure transitions from harmonic to halfharmonic to
+fullysopped and back again; vc tremolo flautando on 13th partial with
+fingerpressue transitions from harmonic to halfharmonic to fullystopped and
+back again. all instruments cyclically enter and exit orchestration. spacious
+animation preserves attention hypnotically. durations of orchestrated swells
+become progressively greater to draw attentions progressively further.
 
 [H1-4]
-first harmony.
+shell (β) first harmony. no pauses.
 
 [H5-8]
-second harmony.
+shell (β) second harmony. no pauses.
 
 [H9-12]
-third harmony.
+shell (β) third harmony. no pauses.
 
 [I1]
-third harmony continues. pulsation becomes quieter in all parts. bfl, eh, bcl
-introduce penumbral amounts of airtone to the edges of their swell envelopes.
+shell (β) third harmony continues. pulsation becomes quieter in all parts. bfl,
+eh, bcl introduce penumbral amounts of airtone to the edges of their swell
+envelopes. no pause.
 
 [I2]
-third harmony continues. glowing bfl, bcl (γ) multiphonics and va pochissimo
-scratch pedal (γ) reappear one last time over the ongoing swells of the third
-field.
+shell (β) third harmony continues. jewelers' desk (β) glowing bfl multiphonic,
+glowing bcl multiphonic, va pochissimo scratch pedal reappear one
+last time over the ongoing swells of the shell (β) third field. no pause.
 
 [I3]
-third harmony continues. glowing bfl, bcl, va pochissimo scratch (γ) continues.
-strucks bass drum with castanets (δ) appears one last time together with
-dripping (δ) hpschd, vn clb. vc (β) continues third field.
+shell (β) third harmony continues. jewerlers' desk (γ) glowing bfl multiphonic,
+glowing bcl multiphonic, va pochissimo scratch continues. kiln (δ) struck bass
+drum, castanets, hpschd, vn clb appear one last time. shell (β) vc continues
+third field. no pause.
 
 [I4]
-third harmony temporarily suspended except for vc. glowing bfl, bcl, va
-pochissimo scratch (γ) continues. dripping (δ) hpschd, vn clb continues. vc (β)
-continues third field.
+shell (β) third harmony temporarily suspended except for vc. jewelers' desk (γ)
+bfl glowing multiphonic, bcl glowing multiphonic, va pochissimo scratch
+continues. kiln (δ) hpschd, vn clb continues. no pause.
 
 [I5]
-glowing bfl, bcl, va pochissimo scratch (γ) continues. dripping (δ) hpschd, vn
-clb continues. perc (ε) adds in first of synchronized airtone.
+jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic, va
+pochissimo scratch continues. kiln (δ) hpschd, vn clb continues. papers (ε) bd
+synchornized airtone enters. no pause.
 
 [I6]
-bfl changes to synchronized airtone (ε). glowing bcl, va pochissimo scratch (γ)
-continues. dripping (δ) hpschd, vn clb continues. perc (ε) synchronized airtone
-continues.
+jewelers' desk (γ) glowing bcl multiphonic, va pochissimo scratch continue with
+bfl. kiln (δ) hpschd, vn clb continues. papers (ε) bd synchronized airtone
+continues with bfl airtone added. no pause.
 
 [I7]
-va changes to clb (δ). glowing bcl (γ) continues. dripping (δ) hpschd, vn clb
-continues. bfl, perc (ε) synchronized airtone continues.
+jewelers' desk (γ) glowing bcl multiphonic continues without va and stop at end
+of stage. kiln (δ) hpschd, vn clb continue with va clb added. papers (ε)
+synchronized bd airtone, bfl airtone continues. no pause.
 
 [I8]
-bcl changes to synchronized airtone (ε). dripping (δ) hpschd, vn, va clb
-continues. bfl, perc (ε) synchronized airtone continues. vc (β) third field
-fundamental continues.
+kiln (δ) hpschd, vn clb, va clb continue. papers (ε) synchronized bd airtone,
+bfl airtone continue. shell (β) vc third field fundamental continues. no pause.
+
+[TODO: integrate single sheet of paper drawn lightly across piano strings as
+type of piano airtone.]
 
 [I9]
-dripping (δ) hpschd, vn, va clb drawdown to nothing. bcl, eh, bcl, perc (ε)
-synchronized airtone continues. vc (β) third field fundamental continues
-diminuendo al niente.
+kiln (δ) hpschd, vn clb, va clb draw down to nothing. papers (ε) synchronized
+bfl airtone, eh airtone, bcl airtone, bd airtone continue. shell (β) vc third
+field fundamental completes diminuendo al niente. no pause.
 
 [I10]
-bcl, eh, bcl, perc (ε) synchronized airtone continues unaccompanied.
+papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone continue
+unaccompanied. no pause
 
 [I11]
-bfl, eh, bcl, perc (ε) synchronized airtone continues. vc (β) introduces final
-fundamental of piece on crescendo dal niente. final turning of golden gears (α)
-begins: irregular and very sparse reintroduction of triple-struck vn, va
-rimbalzandi and also irregular and very sparse reintroduction of soft plastic
-credit card against metal piano tuning pegs.
+papers (ε) synchronized bfl airtone, eh airtone, bcl airtone, bd airtone
+continue. shell (β) vc introduces final fundamental of piece on crescendo dal
+niente. gears (α) final turning begins: vn irregular and very sparse
+triple-struck rimbalzandi, va irregular and very sparse triple-struck
+rimbalzandi,  pf irregular and very sparse plastic credit card against metal
+piano tuning pegs.
 
 [J1]
-accelerando begins. bcl transitions from pure airtone (ε) to introduce pitch of
-vc fundamental (β). vc fundamental (β) continues. bfl, eh, perc (ε)
-synchronized airtone continues. triple-struck vn, va rimbalzandi and pf tuning
-pegs (α) continue.
+accelerando begins. shell (β) vc final fundamental continues and is joined by
+bcl final fundamental played with pure pitch. papers (ε) synchronized bfl
+airtone, eh airtone, bd airtone continue. gears (α) triple-struck vn
+rimbalzandi, va triple-struck rimbalzandi, pf credit card tuning pegs continue.
+no pause.
 
 [J2]
-accelerando continues. bfl transitions from pure aironte (ε) to introduce
-pitch of fundamental. bcl, vc fundamental (β) continues. eh, perc (ε)
-synchronized airtone continues. triple-struck vn, va rimbalzandi and pf tuning
-pegs (α) continue.
+accelerando continues. shell (β) vc final fundamental, bcl final fundamental
+continue and are joined by bfl final fundamental on pure pitch. papers (ε)
+synchronized eh airtone, bd airtone continue. gears (α) triple-struck vn
+rimbalzandi, va triple-struck rimbalzandi, pf credit card tuning pegs continue.
 
 [J3]
-accelerando continues. bfl, bcl, vc fundamental (β) continues. vc begins
-turning (α) of golden gears. perc (ε) synchronized airtone draws down to
-nothing. eh (ε) synchronized airtone continues. pf, vn, va (α) begin turning of
-golden gears.
+accelerando continues. shell (β) bfl, bcl, vc final field continues. gears (α)
+vc begins turning. papers (ε) bd airtone draws down to nothing. papers (ε) eh
+airtone continues. gears (α) pf, vn, va begin turning.
 
 [J4]
-accelerando continues. bfl, bcl begin turning (α) of golden gears. eh, perc
-tacet. pf, vn, va, vc (α) continue turning of golden gears. fundamental drawing
-down to nothing.
+accelerando continues. shell (β) bfl, bcl, vc final field continues. gears (α)
+bfl, bcl begin turning. gears (α) pf, vn, va, vc continue turning. papers (ε)
+eh airtone draws down to nothing. perc tacet. fundamental draws down to
+nothing.
 
 [J5]
-accelerando continues. bfl, bcl, pf, vn, va, vc (α) continue turning of golden
-gears, increasingly fast and increasing quiet. perc loudly strikes woodblock
-(α) five times, as a memory of a metric modulation that does not follow. perc
-then follows with pianissimo shakers (α) that recall the function of bass drum
-fingertapping but not the surfaces of bass drum fingertapping. eh (α) airtone
-draws down to nothing. fundamental no longer present in orchestration.
+accelerando continues. gears (α) bfl, bcl, pf, vn, va, vc continue turning
+increasingly fast and increasingly quietly. gears (α) woodblock strikes loudly
+five times as a memory of a metric modulation that does not follow. gears (α)
+pp shakers begin and recall function of bd fingertapping. eh tacet. fundamental
+no longer present in orchestration.
 
 [J6]
-accelerando continues. eh begins pianissimo shakers (α) to double those of
-perc. bfl, bcl, pf, perc, vn, va, vc (α) continue turning of golden gears.
+accelerando continues. gears (α) pp shakers (played by ob) begin and double
+perc pp shakers. gears (α) bfl, bcl, pf, perc, vn, va, vc continue turning.
 
 [J7]
-accelerando continues. bfl, eh shakers, bcl, pf, perc shakers, vn, va, vc (α)
-continue turning of golden gears. perc loudly strikes woodblock (α) five times
-with no metric modulation following.
+accelerando continues. gears (α) bfl, eh shakers, bcl, pf, perc shakers, vn,
+va, vc continue turning. gears (α) woodblock sounds loudly five times with no
+metric modulation following.
 
 [J8]
-accelerando continues. bfl, eh shakers, bcl, pf pegs, perc shakers, vn, va, vc
-(α) continue turning of golden gears.
+accelerando continues. gears (α) bfl, eh shakers, bcl, pf pegs, perc shakers,
+vn, va, vc (α) continue turning.
 
 [J9]
-accelerando achieves closing tempo of piece. tutti continue turning of golden
-gears (α).
+accelerando achieves closing tempo of piece. gears (α) tutti continue turning.
 
 [J10]
-tutti tighter turning of the golden gears.
+gears (α) tutti continue turning even tighter.
 
 [J11]
-protracted tutti decrescendo of turning of the golden gears.
+gears (α) tutti undergo protracted decrescendo with unexpected end that sounds
+cut off.
 
 [J12]
 short pause.
 
 [J13]
-five woodblock strikes (α).
+gears (α) woodblock sounds loudly five times.
 
 [J14]
 pause.
