@@ -611,18 +611,135 @@ proportions:
         * some players begin falling out of material
 
 [F1]
-gears (α) vn, va spazzolati. pause.
+gears (α) vn, va spazzolati.
 
 [F2]
-gears (α) vn spazzolati, va spazzolati, bd fingertapping. pause.
+pause.
 
 [F3]
-gears (α) va triple-struck rimbalzando. pause.
+gears (α) bd fingertapping, vn spazzolati, va spazzolati.
 
 [F4]
-gears (α) vn spazzolati then rimbalzando, bd fingertapping. pause.
+pause.
 
 [F5]
+gears (α) va triple-struck rimbalzando.
+
+[F6]
+pause.
+
+[F7]
+gears (α) bd fingertapping, vn spazzolati then rimbalzando.
+
+[F8]
+pause.
+
+[F9]
+gears (α) eh p upperregister written-out two-note color alternation (that will
+later develop into trill), bd fingertapping.
+
+[F10]
+pause.
+
+[F11]
+gears (α) vn spazzolati-rimbalzando, va spazzolati-rimbalzando.
+
+[F12]
+pause.
+
+[F13]
+gears (α) bfl two-note color alternation, eh two-note color alternation, bd
+fingertapping, vn spazzolati-rimbalzando, va spazzolati-rimbalzando.
+
+[F14]
+pause.
+
+[F15]
+gears (α) bfl two-note color alternation.
+
+[F16]
+pause.
+
+[F17]
+gears (α) bfl two-note color alternation, eh two-note color alternation.
+
+[F18]
+short pause.
+
+[F19]
+gears (α) bfl two-note color alternation, eh two-note color alternation, bcl
+two-note color alternation.
+
+[F20]
+short pause.
+
+[F21]
+x4:
+    gears (α) bd fingertapping, vc short 1/2 clt glissando. short rest.
+no pause.
+
+[F22]
+gears (α) bfl two-note color alternation, eh two-note color alternation, bcl
+two-note color alternation, pf A0 lateral clicks, bd superball, bd
+fingertapping, vn spazzolati-rimbalzandi, va spazzolati-rimbalzandi, vc short
+1/2 clt glissandi. no players tacet. stage has the sense of being fully 2 1/2
+presentations of music.
+
+[F23]
+short pause.
+
+[F24]
+(quieter and as an extension of each of the organelles in cell.) gears (α) bfl
+two-note color alternation slightly longer, eh two-note color alternation
+slightly longer, bcl two-note color alternation slightly longer, pf A0 lateral
+clicks slightly longer, bd superball + bd fingertapping slightly longer, vn
+spazzolati-rimbalzandi + tremolo flautando for first time, va
+spazzolati-rimbalzandi + tremolo flautando for first time, vc short 1/2 clt
+glissandi + tremolo alla punta for first time. no players tacet.
+
+[F25]
+pause.
+
+[F26]
+gears (α) tutti again but cut off (so for less time).
+
+[F27]
+pause.
+
+[F28]
+gears (α) bfl two-note color alternation, eh two-note color alternation, bcl
+two-note color alternation. five players tacet.
+
+[F29]
+short pause.
+
+[F30]
+gears (α) pf A0 lateral clicks slightly longer, bd superball + bd fingertapping
+slightly longer, vn spazzolati-rimbalzandi + tremolo flautando for first time,
+va spazzolati-rimbalzandi + tremolo flautando for first time, vc short 1/2 clt
+glissandi + tremolo alla punta for first time. no players tacet.
+
+[F31]
+pause.
+
+[F32]
+gears (α) vn spazzolati, va spazzolati.
+
+[F33]
+longer pause.
+
+[F34]
+gears (α) tutti cut-off reprise.
+
+[F35]
+longer pause.
+
+
+
+
+
+
+
 
 
 
