@@ -610,6 +610,22 @@ proportions:
         * with p > ppp decrescendo governing entire region
         * some players begin falling out of material
 
+[F1]
+gears (α) vn, va spazzolati. pause.
+
+[F2]
+gears (α) vn spazzolati, va spazzolati, bd fingertapping. pause.
+
+[F3]
+gears (α) va triple-struck rimbalzando. pause.
+
+[F4]
+gears (α) vn spazzolati then rimbalzando, bd fingertapping. pause.
+
+[F5]
+
+
+
 [G1]
 gears (α) continous pianissimo turning continues with players dropping out.
 jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic manifests
