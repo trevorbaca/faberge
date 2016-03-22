@@ -738,70 +738,86 @@ then metric up-modulation by 5:4. no pause.
 
 [G11-12]
 gears (α) tutti continuous turning played forte.
-then metric up-modulation by 5:4.
+then metric up-modulation by 5:4. no pause.
 
 [G13-14]
 accelerando governs entire stage.
-gears (α) tutti continuous turning played subito pianissimo.
+gears (α) tutti continuous turning played subito pp.
 pp to ppp decrescendo governs entire stage.
 some players fall out of material.
+no pause.
 
 [H1]
-gears (α) continuous pianissimo turning continues with players dropping out.
-jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic manifests
-again at beginning of segment. shell (β) vn, va upperregister tremolo
-electricity chord begins. no pause.
+gears (α) eh, pf, perc, vc continuous ppp turning continues decrescendo.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic reappears
+at middleground dynamic. shell (β) vn, va upperregister tremolo electricity
+chord begins at foreground dynamic. no players tacet. no pause.
 
 [H2]
-gears (α) continuous pianissimo turning continues with even more players
-dropping out. jewelers' desk (γ) glowing bfl multiphonic, glowing bcl
-multiphonic continues. shell (β) vn, va upperregister tremolo electricity chord
-grows louder. no pause.
+gears (α) eh, pf, perc, vc continuous pppp turning continues decrescendo.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic continues.
+shell (β) vn, va upperregister tremolo electricity chord begins irregular
+crescendo. no players tacet. no pause.
 
 [H3]
-gears (α) continuous pianissimo turning continues with final players dropping
-out. jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic
-continues. shell (β) vn, va upperregister tremolo electricity chord grows
-louder. no pause.
+gears (α) eh, pf, perc, vc continuous ppppp turning completes decrescendo al
+niente. jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic
+continues. shell (β) vn, va upperregister tremolo electricity chord continues
+irregular crescendo. no players tacet. no pause.
 
 [H4]
-jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic continues.
-shell (β) vn, va upperregister tremolo electricity chord grows louder. no
-pause.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic continues.
+shell (β) vn, va, vc upperregister tremolo electricity continues irregular
+crescendo. ob, pf, perc tacet. no pause.
 
 [H5]
-vn, va upperregister tremolo electricity (β) chord continues. no pause.
-
-[H6]
-vn, va upperregister tremolo electricity (β) chord continues.
+shell (β) vn, va, vc upperregister tremolo electricity continues irregular
+crescendo and then ends stage with feeling that irregular crescendo is abruptly
+cut off. five other players tacet. no pause.
 
 [H7]
 pause.
 
 [H8]
-gears (α) pianissimo continuous turning returns and begins to accelerate. papers
-(ε) synchronized whitenoise makes enigmatic appearance. no pause.
+gears (α) bfl, bcl, pf, va, vc ppppp continuous turning reappears. papers (ε)
+eh, bd, vn airtone chord makes enigmatic ff reapparance. no players tacet.
 
 [H9]
-gears (α) pianissimo continuous continues to accelerate and begins to
-decrescendo. no pause.
+pause.
 
 [H10]
-gears (α) pianissimo continuous turning continues to accelerate and continues to
-decrescendo. shell (β) vn, va ferocious upperregister tremolo electricity chord
-returns. no pause.
+gears (α) tutti ppppp continuous turning reappears and then is cut short.
 
 [H11]
-gears (α) pianissimo continuous turning continues to accelerate and reaches
-niente. shell (β) vn, va upperregister tremolo electricity chord begins to
-decrescendo. no pause.
+pause.
 
 [H12]
-shell (β) vn, va upperregister tremolo electricity chord continues to
-decrescendo. no pause.
+gears (α) tutti ppppp continuous turning reappears and is cut even shorter.
 
 [H13]
-shell (β) vn, va upperregister tremolo electricity chord reaches pianissimo to
+pause.
+
+[H14]
+accelerando governs stage:
+decrescendo governs entire stage:
+x8:
+    gears (α) tutti ppppp continuous turning cut very short and then repeated.
+
+[H15]
+gears (α) bfl, eh, bcl, pf, perc ppppp continuous turning continues. shell (β)
+vn, va, vc ferocious upperregister tremolo electricity chord returns. no pause.
+
+[H16]
+gears (α) bfl, eh, bcl, pf, perc ppppp continuous turning continues to
+accelerate and reaches niente. shell (β) vn, va, vc upperregister tremolo
+electricity chord begins to decrescendo. no pause.
+
+[H17]
+shell (β) vn, va, vc upperregister tremolo electricity chord continues to
+decrescendo. five other players tacet. no pause.
+
+[H18]
+shell (β) vn, va, vc upperregister tremolo electricity chord reaches pp to
 transition into fully orchestrated field of the broken shell. no pause.
 
 [I]
@@ -824,133 +840,136 @@ animation preserves attention hypnotically. durations of orchestrated swells
 become progressively greater to draw attentions progressively further.
 
 [I1-4]
-shell (β) first harmony. no pauses.
+shell (β) first harmony. no players tacet. no pauses.
 
 [I5-8]
-shell (β) second harmony. no pauses.
+shell (β) second harmony. no players tacet. no pauses.
 
 [I9-12]
-shell (β) third harmony. no pauses.
+shell (β) third harmony. no players tacet. no pauses.
 
 [J1]
 shell (β) third harmony continues. pulsation becomes quieter in all parts. bfl,
 eh, bcl introduce penumbral amounts of airtone to the edges of their swell
-envelopes. no pause.
+envelopes. no players tacet. no pause.
 
 [J2]
-shell (β) third harmony continues. jewelers' desk (β) glowing bfl multiphonic,
-glowing bcl multiphonic, va pochissimo scratch pedal reappear one
-last time over the ongoing swells of the shell (β) third field. no pause.
+shell (β) eh, pf, perc, vn, vc third harmony continues. jewelers' desk (β) bfl
+glowing multiphonic, bcl glowing multiphonic, va pochissimo scratch pedal
+reappear one last time over the ongoing swells of the shell third field. no
+players tacet. no pause.
 
 [J3]
-shell (β) third harmony continues. jewerlers' desk (γ) glowing bfl multiphonic,
-glowing bcl multiphonic, va pochissimo scratch continues. kiln (δ) struck bass
-drum, castanets, hpschd, vn clb appear one last time. shell (β) vc continues
-third field. no pause.
+shell (β) eh, vc third harmony continues. jewelers' desk (γ) bfl glowing
+multiphonic, bcl glowing multiphonic, va pochissimo scratch continues. kiln (δ)
+struck bass drum, castanets, hpschd, vn clb appear one last time. no players
+tacet. no pause.
 
 [J4]
-shell (β) third harmony temporarily suspended except for vc. jewelers' desk (γ)
-bfl glowing multiphonic, bcl glowing multiphonic, va pochissimo scratch
-continues. kiln (δ) hpschd, vn clb continues. no pause.
+shell (β) vc third harmony continues and stops at end of stage. jewelers' desk
+(γ) bfl glowing multiphonic, bcl glowing multiphonic, va pochissimo scratch
+continue. kiln (δ) hpschd, vn clb continue. eh, perc tacet. no pause.
 
 [J5]
-jewelers' desk (γ) glowing bfl multiphonic, glowing bcl multiphonic, va
-pochissimo scratch continues. kiln (δ) hpschd, vn clb continues. papers (ε) bd
-synchornized airtone enters. no pause.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic, va
+pochissimo scratch continue. kiln (δ) hpschd, vn clb, vc clb continue. papers
+(ε) eh airtone, bd airtone begin. no players tacet. no pause.
 
 [J6]
-jewelers' desk (γ) glowing bcl multiphonic, va pochissimo scratch continue with
-bfl. kiln (δ) hpschd, vn clb continues. papers (ε) bd synchronized airtone
-continues with bfl airtone added. no pause.
+jewelers' desk (γ) bcl glowing multiphonic, va pochissimo scratch continue.
+kiln (δ) hpschd, vn clb, vc clb continue. papers (ε) bfl airtone, eh airtone,
+bd airtone continue. no players tacet. no pause.
 
 [J7]
-jewelers' desk (γ) glowing bcl multiphonic continues without va and stop at end
-of stage. kiln (δ) hpschd, vn clb continue with va clb added. papers (ε)
-synchronized bd airtone, bfl airtone continues. no pause.
+jewelers' desk (γ) glowing bcl multiphonic continues and stops at end of stage.
+kiln (δ) hpschd, vn clb, va clb, vc clb added. papers (ε) bfl airtone, eh
+airtone, bd airtone continue. no players tacet. no pause.
 
 [J8]
-kiln (δ) hpschd, vn clb, va clb continue. papers (ε) synchronized bd airtone,
-bfl airtone continue. shell (β) vc third field fundamental continues. no pause.
-
-[TODO: integrate single sheet of paper drawn lightly across piano strings as
-type of piano airtone.]
+kiln (δ) hpschd, vn clb, va clb continue. papers (ε) bfl airtone, eh airtone,
+bcl airtone, bd airtone. shell (β) vc final field fundamental begins. no
+players tacet. no pause.
 
 [J9]
-kiln (δ) hpschd, vn clb, va clb draw down to nothing. papers (ε) synchronized
-bfl airtone, eh airtone, bcl airtone, bd airtone continue. shell (β) vc third
-field fundamental completes diminuendo al niente. no pause.
+kiln (δ) hpschd, vn clb, va clb draw down to nothing. papers (ε) bfl airtone,
+eh airtone, bcl airtone, bd airtone continue. shell (β) vc final field
+fundamental continues. no players tacet. no pause.
 
 [J10]
 papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone continue
-unaccompanied. no pause
+unaccompanied. four other players tacet.
 
 [J11]
-papers (ε) synchronized bfl airtone, eh airtone, bcl airtone, bd airtone
-continue. shell (β) vc introduces final fundamental of piece on crescendo dal
-niente. gears (α) final turning begins: vn irregular and very sparse
-triple-struck rimbalzandi, va irregular and very sparse triple-struck
-rimbalzandi,  pf irregular and very sparse plastic credit card against metal
-piano tuning pegs.
+short pause.
+
+[J12]
+papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone resume. shell (β)
+vc reintroduces final fundamental on crescendo dal niente. final gears (α) vn
+irregular and very sparse triple-struck rimbalzandi, va irregular and very
+sparse triple-struck rimbalzandi,  pf irregular and very sparse plastic credit
+card against metal piano tuning pegs begin. no players tacet. no pause.
 
 [K1]
-accelerando begins. shell (β) vc final fundamental continues and is joined by
-bcl final fundamental played with pure pitch. papers (ε) synchronized bfl
-airtone, eh airtone, bd airtone continue. gears (α) triple-struck vn
+accelerando begins. shell (β) bcl, vc final field continues. papers (ε) bfl
+airtone, eh airtone, bd airtone continue. gears (α) vn triple-struck
 rimbalzandi, va triple-struck rimbalzandi, pf credit card tuning pegs continue.
-no pause.
+no players tacet. no pause.
 
 [K2]
-accelerando continues. shell (β) vc final fundamental, bcl final fundamental
-continue and are joined by bfl final fundamental on pure pitch. papers (ε)
-synchronized eh airtone, bd airtone continue. gears (α) triple-struck vn
-rimbalzandi, va triple-struck rimbalzandi, pf credit card tuning pegs continue.
+accelerando continues. shell (β) bfl, bcl, vc final field continue. papers (ε)
+eh airtone, bd airtone continue. gears (α) vn triple-struck rimbalzandi, va
+triple-struck rimbalzandi, pf credit card tuning pegs continue. no players
+tacet. no pause.
 
 [K3]
 accelerando continues. shell (β) bfl, bcl, vc final field continues. gears (α)
 vc begins turning. papers (ε) bd airtone draws down to nothing. papers (ε) eh
-airtone continues. gears (α) pf, vn, va begin turning.
+airtone continues. gears (α) pf, vn, va begin turning. no players tacet. no
+pause.
 
 [K4]
 accelerando continues. shell (β) bfl, bcl, vc final field continues. gears (α)
 bfl, bcl begin turning. gears (α) pf, vn, va, vc continue turning. papers (ε)
 eh airtone draws down to nothing. perc tacet. fundamental draws down to
-nothing.
+nothing. no pause.
 
 [K5]
 accelerando continues. gears (α) bfl, bcl, pf, vn, va, vc continue turning
 increasingly fast and increasingly quietly. gears (α) woodblock strikes loudly
 five times as a memory of a metric modulation that does not follow. gears (α)
 pp shakers begin and recall function of bd fingertapping. eh tacet. fundamental
-no longer present in orchestration.
+no longer present in orchestration. no pause.
 
 [K6]
 accelerando continues. gears (α) pp shakers (played by ob) begin and double
-perc pp shakers. gears (α) bfl, bcl, pf, perc, vn, va, vc continue turning.
+perc pp shakers. gears (α) bfl, bcl, pf, perc, vn, va, vc continue turning. no
+players tacet. no pause.
 
 [K7]
 accelerando continues. gears (α) bfl, eh shakers, bcl, pf, perc shakers, vn,
 va, vc continue turning. gears (α) woodblock sounds loudly five times with no
-metric modulation following.
+metric modulation following. no players tacet. no pause.
 
 [K8]
 accelerando continues. gears (α) bfl, eh shakers, bcl, pf pegs, perc shakers,
-vn, va, vc (α) continue turning.
+vn, va, vc (α) continue turning. no players tacet. no pause.
 
 [K9]
 accelerando achieves closing tempo of piece. gears (α) tutti continue turning.
+no players tacet. no pause.
 
 [K10]
-gears (α) tutti continue turning even tighter.
+gears (α) tutti continue turning even tighter. no players tacet. no pause.
 
 [K11]
 gears (α) tutti undergo protracted decrescendo with unexpected end that sounds
-cut off.
+cut off. no players tacet.
 
 [K12]
 short pause.
 
 [K13]
-gears (α) woodblock sounds loudly five times.
+gears (α) woodblock sounds loudly five times. seven other players tacet.
 
 [K14]
 pause.
