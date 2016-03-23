@@ -6,6 +6,14 @@ FABERGÉ - STAGES
 
 [TODO: prefigure castanets.]
 
+[TODO: prefigure superball.]
+
+[TODO: do not prefigure rimbalzandi.]
+
+[TODO: prefigure tremolo electricity.]
+
+[TODO: prefigure shakers.]
+
 [A]
 very active investigation of the broken shell transformed into investigation of
 the jewelers' desk.
@@ -617,8 +625,8 @@ gears (α) bd fingertapping, vn spazzolati then rimbalzando.
 pause.
 
 [F9]
-gears (α) eh p upperregister written-out two-note color alternation (that will
-later develop into trill), bd fingertapping.
+gears (α) eh two-note color alternation (that will later develop into trill)
+played piano and upperregister, bd fingertapping.
 
 [F10]
 pause.
@@ -699,7 +707,7 @@ short pause.
 gears (α) pf A0 lateral clicks slightly longer, bd superball + bd fingertapping
 slightly longer, vn spazzolati-rimbalzandi + tremolo flautando for first time,
 va spazzolati-rimbalzandi + tremolo flautando for first time, vc short 1/2 clt
-glissandi + tremolo alla punta for first time. no players tacet.
+glissandi + tremolo alla punta for first time. three players tacet.
 
 [F31]
 pause.
@@ -716,34 +724,35 @@ gears (α) tutti cut-off reprise.
 [F35]
 longer pause.
 
-[G1-2]
+[G1-4]
 gears (α) tutti continuous turning played piano.
 then metric up-modulation by 5:4. no pause.
 
-[G3-4]
-gears (α) tutti continuous turning played forte.
-then metric up-modulation by 5:4. no pause.
-
-[G5-6]
-gears (α) tutti continuous turning played piano.
+[G5-8]
+gears (α) tutti continuous turning played pp.
 then metric down-modulation by 2:3. no pause.
 
-[G7-8]
+[G9-12]
 gears (α) tutti continuous turning played forte.
+then metric down-modulation by 2:3. no pause.
+
+[G13-16]
+gears (α) tutti continuous turning played ff.
 then metric up-modulation by 5:4. no pause.
 
-[G9-10]
+[G17-20]
 gears (α) tutti continuous turning played piano.
 then metric up-modulation by 5:4. no pause.
 
-[G11-12]
-gears (α) tutti continuous turning played forte.
+[G21-24]
+gears (α) tutti continuous turning played pp.
 then metric up-modulation by 5:4. no pause.
 
-[G13-14]
+[G25-28]
 accelerando governs entire stage.
-gears (α) tutti continuous turning played subito pp.
+gears (α) tutti continuous turning played ppp.
 pp to ppp decrescendo governs entire stage.
+bfl, bcl, vn, va decrescendo to niente.
 some players fall out of material.
 no pause.
 
@@ -751,7 +760,8 @@ no pause.
 gears (α) eh, pf, perc, vc continuous ppp turning continues decrescendo.
 jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic reappears
 at middleground dynamic. shell (β) vn, va upperregister tremolo electricity
-chord begins at foreground dynamic. no players tacet. no pause.
+chord begins at foreground dynamic probably governed by crescendo. no players
+tacet. no pause.
 
 [H2]
 gears (α) eh, pf, perc, vc continuous pppp turning continues decrescendo.
