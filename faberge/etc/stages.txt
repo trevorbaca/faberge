@@ -14,6 +14,8 @@ FABERGÉ - STAGES
 
 [TODO: prefigure shakers.]
 
+[TODO: prefigure fully orchestrated first field of broken shell (β)]
+
 [A]
 very active investigation of the broken shell transformed into investigation of
 the jewelers' desk.
@@ -785,50 +787,50 @@ shell (β) vn, va, vc upperregister tremolo electricity continues irregular
 crescendo and then ends stage with feeling that irregular crescendo is abruptly
 cut off. five other players tacet. no pause.
 
-[H7]
+[H6]
 pause.
 
-[H8]
+[H7]
 gears (α) bfl, bcl, pf, va, vc ppppp continuous turning reappears. papers (ε)
 eh, bd, vn airtone chord makes enigmatic ff reapparance. no players tacet.
 
-[H9]
+[H8]
 pause.
 
-[H10]
+[H9]
 gears (α) tutti ppppp continuous turning reappears and then is cut short.
 
-[H11]
+[H10]
 pause.
 
-[H12]
+[H11]
 gears (α) tutti ppppp continuous turning reappears and is cut even shorter.
 
-[H13]
+[H12]
 pause.
 
+[H13]
+x6:
+    gears (α) tutti ff continuous turning cut very short and then repeated.
+
 [H14]
-accelerando governs stage:
-decrescendo governs entire stage:
-x8:
-    gears (α) tutti ppppp continuous turning cut very short and then repeated.
+accelerando begins. gears (α) bfl, eh, bcl, pf subito ppppp continuous turning
+continues. shell (β) shakers, vn, va, vc ferocious upperregister tremolo
+electricity chord returns. no pause.
 
 [H15]
-gears (α) bfl, eh, bcl, pf, perc ppppp continuous turning continues. shell (β)
-vn, va, vc ferocious upperregister tremolo electricity chord returns. no pause.
+accelerando continues. gears (α) bfl, eh, bcl, pf ppppp continuous turning
+continues to accelerate and reaches niente. shell (β) shakers, vn, va, vc
+upperregister tremolo electricity chord begins to decrescendo. no pause.
 
 [H16]
-gears (α) bfl, eh, bcl, pf, perc ppppp continuous turning continues to
-accelerate and reaches niente. shell (β) vn, va, vc upperregister tremolo
-electricity chord begins to decrescendo. no pause.
+accelerando continues. shell (β) shakers, vn, va, vc upperregister tremolo
+electricity chord continues to decrescendo. four other players tacet. no pause.
 
 [H17]
-shell (β) vn, va, vc upperregister tremolo electricity chord continues to
-decrescendo. five other players tacet. no pause.
-
-[H18]
-shell (β) vn, va, vc upperregister tremolo electricity chord reaches pp to
-transition into fully orchestrated field of the broken shell. no pause.
+accelerando is complete at start of stage. shell (β) shakers, vn, va, vc
+upperregister tremolo electricity chord reaches pp to transition into fully
+orchestrated field of the broken shell. four other players tacet. no pause.
 
 [I]
 broken shell (β) fully orchestrated field: bfl flz with slow pitchbending and
@@ -843,7 +845,7 @@ winds and recall shell earlier in piece; vn swell-enveloped tremolo flautando
 on third partial with fingerpressure transitions from harmonic to halfharmonic
 to fullystopped and back again; va swell-enveloped tremolo flautando on seventh
 partial with fingerpressure transitions from harmonic to halfharmonic to
-fullysopped and back again; vc tremolo flautando on 13th partial with
+fullystopped and back again; vc tremolo flautando on 13th partial with
 fingerpressue transitions from harmonic to halfharmonic to fullystopped and
 back again. all instruments cyclically enter and exit orchestration. spacious
 animation preserves attention hypnotically. durations of orchestrated swells
@@ -976,10 +978,21 @@ gears (α) tutti undergo protracted decrescendo with unexpected end that sounds
 cut off. no players tacet.
 
 [K12]
-short pause.
+pause.
 
 [K13]
-gears (α) woodblock sounds loudly five times. seven other players tacet.
+shell (β) tutti fff recollection of final field. endures for a while with
+incredibly insistent fff swell enveloping. but gives sense of being cut off at
+end. no players tacet.
 
 [K14]
+short pause.
+
+[K15]
+gears (α) tutti turning ppppp recollection. no players tacet. short. cut off.
+
+[K16]
 pause.
+
+[K17]
+gears (α) woodblock sounds loudly five times. seven other players tacet.
