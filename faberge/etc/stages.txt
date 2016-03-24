@@ -1,48 +1,49 @@
 FABERGÉ - STAGES
 
-[TODO: prefigure guiro.]
+[TODO: prefigure (α) superball.]
 
-[TODO: prefigure stuck bd.]
+[TODO: prefigure (α) 1/2 clt glissandi.]
 
-[TODO: prefigure castanets.]
+[TODO: prefigure (β) tremolo electricity.]
 
-[TODO: prefigure superball.]
+[TODO: prefigure (β) shakers.]
 
-[TODO: do not prefigure rimbalzandi.]
+[TODO: prefigure (β) fully orchestrated first field of broken shell.]
 
-[TODO: prefigure tremolo electricity.]
+[TODO: prefigure (δ) guiro.]
 
-[TODO: prefigure shakers.]
+[TODO: prefigure (δ) struck bd.]
 
-[TODO: prefigure fully orchestrated first field of broken shell (β)]
+[TODO: prefigure (δ) castanets.]
+
+[TODO: recollect (β) oboe trills.]
+
+do not prefigure:
+    (α) ratchet
+    (α) rimbalzandi
 
 [A]
-very active investigation of the broken shell transformed into investigation of
-the jewelers' desk.
+* golden gears (α): sputtering vn spazzolati, sputtering va spazzolati. vn
+  spazzolati with rhythmicized enveloping, va spazzolati with rhythmicized
+  enveloping.
 
-* broken shell (β): single pitch rapidly exchanged between piccolo,
-  upperregister clarinet, bowed crotale, violin; together with va, vc harmonic
-  tremolo on lower fundamentals filling out harmonic field; together with ff
-  lowregister pf strike activating silently depressed harmonic field. ff
-  lowregister pf strike descends stepwise during segment. harmony of silently
-  depressed pf notes ascend stepwise during segment.
+* broken shell (β) beginning: single pitch rapidly exchanged between piccolo,
+  upperregister clarinet, bowed crotale, violin touch-four harmonic; va tremolo
+  flautando on low fundamental, vc tremolo flautando on low fundamental; pf ff
+  lowregister strike activating silently depressed harmonic field. pf ff
+  lowregister strike descends stepwise during segment. pf silently depressed
+  harmonic field ascends stepwise during segment.
 
 * broken shell (β) culmination: oboe doppeltrill. idea of coruscating climax
   given so early in the piece: doppeltrill is achieved but subject to a process
-  of dynamic enveloping that makes the material recede and then draw back forth
-  and then recede and then draw back forth and so on while other materials
-  progress and overlap. culmination: oboe doppeltrill, lateral piano A0 scrape,
-  no crotales, sustained piccolo flz, sustained clarinet, sustained lowregister
-  vc note played extremely ponticello, sustained midregister vn, va pochissimo
-  scratch pedal.
+  of dynamic enveloping that makes the material recede and reappear and recede
+  and reappear while other materials progress and overlap. culmination: oboe
+  doppeltrill, lateral piano A0 scrape, no crotales, sustained piccolo flz,
+  sustained clarinet, sustained lowregister vc note played extremely
+  ponticello, sustained midregister vn, va pochissimo scratch pedal.
 
-* jewelers' desk (γ): glowing bfl multiphonics, eh keynoise, bcl multiphonics,
+* jewelers' desk (γ): bfl glowing multiphonics, eh keynoise, bcl multiphonics,
   attackless lowregister marimba pedal, lowregister vc pedal.
-
-* intermittent golden gears (α): intermittent single strokes of white noise.
-  intermittent shudders of pitches at beginning of single strokes of white
-  noise. intermittent shudders of pitches at end of single strokes of white
-  noise. stray single lines with regular rhythmic figuration.
 
 [A1]
 shell (β) initial lowregister piano attack causes silently depressed
@@ -53,29 +54,29 @@ va spazzolati that will later animate the golden gears.
 shell (β) pf resonance continues. shell (β) rapidly exchanged pitch between
 piccolo, upperregister clarinet, violin touch-four harmonic, bowed crotale.
 shell (β) piccolo, cl, vn, crotale sound continuously with rapid exponential
-enveloping effecting exchange of energy. frame (ζ) va, vc harmonic tremolo on
+enveloping effecting exchange of energy. shell (β) va, vc harmonic tremolo on
 lower fundamentals fill out harmonic field.
 
 [A3]
-shell (β) piccolo, cl, vn fundamental, crotale subito ppp. frame (ζ) va, vc
+shell (β) piccolo, cl, vn fundamental, crotale subito ppp. shell (β) va, vc
 harmonic tremolo subito ppp. shell (β) english horn enters on a series of four
 trilled pitches. shell (β) eh plays only during beginning of stage.
 
 [A4]
 shell (β) english horn tacet. shell (β) piccolo, cl, vn fundamental, crotale
-continue ppp. frame (ζ) va harmonic tremolo continues ppp. jeweler's desk (γ)
+continue ppp. shell (β) va harmonic tremolo continues ppp. jeweler's desk (γ)
 lowregister vc pedal shines through with mp < mf > mp dynamic swells on pure
 tone with vibrato pochissimo.
 
 [A5]
 shell (β) piccolo, cl, vn touch-four harmonic, crotale crescendo back to
-previous forte dynamic. frame (ζ) va harmonic tremolo crescendos back to
+previous forte dynamic. shell (β) va harmonic tremolo crescendos back to
 previous forte dynamic. jewelers' desk (γ) lowregister vc pedal transitions
-back to frame (ζ) vc harmonic tremolo.
+back to shell (β) vc harmonic tremolo.
 
 [A6]
-shell (β) piccolo, cl, vn fundamental, crotale subito ppp. frame (ζ) va
-harmonic tremolo subito ppp. frame (ζ) vc harmonic tremolo transitions to
+shell (β) piccolo, cl, vn fundamental, crotale subito ppp. shell (β) va
+harmonic tremolo subito ppp. shell (β) vc harmonic tremolo transitions to
 jewelers' desk (γ) lowregister vc pedal that shines through with mp < mf > mp
 dynamic swells on pure tone with vibrato pochissimo.
 
@@ -86,7 +87,7 @@ decrescendos to pp but maintains pure tone with vibrato pochissimo.
 
 [A8]
 shell (β) piccolo, cl, vn touch-four harmonic, crotale crescendo back to
-previous forte dynamic. frame (ζ) va crescendos back to previous forte dynamic.
+previous forte dynamic. shell (β) va crescendos back to previous forte dynamic.
 jewelers' desk (γ) lowregister vc continues pp with pure tone played vibrato
 pochissimo.
 
@@ -127,14 +128,14 @@ through with pure tone played vibrato pochissimo with mf swell enveloping.
 [A16]
 shell (β) now orchestrated as only violin touch-four harmonic and bowed crotale
 with piccolo no longer participating. shell (β) increased vn, crotale acitivity
-pushes attention forward upon the departure of piccolo. frame (ζ) va harmonic
+pushes attention forward upon the departure of piccolo. shell (β) va harmonic
 tremolo begins final decrescendo. jewelers' desk (γ) underlayer of lowregister
 bcl, vc continues quietly underneath.
 
 [A17]
 gears (α) rhythmic vn spazzolati allowed to shine through for just a moment.
 shell (β) trilled eh returns for a moment with even more presence. shell (β)
-vn, crotale subito ppp. jewelers' desk (γ) bcl, vc subito ppp. frame (ζ) va
+vn, crotale subito ppp. jewelers' desk (γ) bcl, vc subito ppp. shell (β) va
 harmonic tremolo completes decrescendo to niente.
 
 [A18]
@@ -156,74 +157,77 @@ interlocking rhythms.
 
 [A21]
 gears (α) vn, va spazzolati continue but start to decrescendo and transition to
-jewelers' desk (γ) quiet sustained pitches. jewelers' desk (γ) glowing bfl, eh
-keynoise, bcl, vc crescendo reaches shining mf dynamics. perc tacet.
+jewelers' desk (γ) quiet sustained pitches. jewelers' desk (γ) bfl glowing
+multiphonics, eh keynoise, bcl, vc crescendo reaches shining mf dynamics. perc
+tacet.
 
 [A22]
 gears (α) vn, va spazzolati continue decrescendo and transition to jewelers'
-desk (γ) quiet sustained pitches (γ). jewelers' desk (γ) glowing bfl, eh
-keynoise, bcl, vc continue shining mf swell enveloping. shell (β) trilled eh
-returns with greatly increased activity. eh stops at end of stage. perc still
-tacet. 
+desk (γ) quiet sustained pitches (γ). jewelers' desk (γ) bfl glowing
+multiphonics, eh keynoise, bcl, vc continue shining mf swell enveloping. shell
+(β) trilled eh returns with greatly increased activity. eh stops at end of
+stage. perc still tacet. 
 
 [A23]
 gears (α) vn, va spazzolati complete decrescendo and arrive at jewelers' desk
-(γ) quiet sustained pitches. jewelers' desk (γ) glowing bfl, eh keynoise, bcl,
-vc continue with mf swell enveloping.
+(γ) quiet sustained pitches. jewelers' desk (γ) bfl glowing multiphonics, eh
+keynoise, bcl, vc continue with mf swell enveloping.
 
 [A24]
-jewelers' desk (γ) glowing bfl, bcl, vn, va, vc subito pp and p. jewelers' desk
-(γ) lowregister attackless marimba pedal introduced at ppppp. jewelers' desk
-(γ) pf attacks same pitch as marimba pedal in octaves and sustains with middle
-or right pedal. shell (β) trilled eh returns with greatly increased activity.
-eh stops at end of stage.
+
+jewelers' desk (γ) bfl glowing multiphonics, bcl glowing multiphonics, vn, va,
+vc subito pp and p. jewelers' desk (γ) lowregister attackless marimba pedal
+introduced at ppppp. jewelers' desk (γ) pf attacks same pitch as marimba pedal
+in octaves and sustains with middle or right pedal. shell (β) trilled eh
+returns with greatly increased activity. eh stops at end of stage.
 
 [A25]
-jewelers' desk (γ) glowing bfl, eh keynoise, bcl, pf decay, marimba, vn, va, vc
-jewelers' desk (γ) reilluminates with mf swell enveloping.
+jewelers' desk (γ) bfl glowing multiphonics, eh keynoise, bcl, pf decay,
+marimba, vn, va, vc jewelers' desk (γ) reilluminates with mf swell enveloping.
 
 [A26]
-shell (β) eh reaches apotheosis in doppeltrill. jewelers' desk (γ) glowing bfl,
-bcl, pf decay, marimba, vn, va, vc subito pp enveloping. long stage.
+shell (β) eh reaches apotheosis in doppeltrill. jewelers' desk (γ) bfl glowing
+multiphonics, bcl glowing multiphonics, pf decay, marimba, vn, va, vc subito pp
+enveloping. long stage.
 
 [A27]
 shell (β) eh doppeltrill apotheosis crescendoes to maximum. jewelers' desk (γ)
-glowing bfl, bcl, pf decay, marimba, vn, va, vc crescendoes from pp to f. shell
-(β) eh stops at end of stage. jewelers' desk (γ) pf lifts pedal at end of
-stage. jewelers' desk (γ) pf moves to kiln (δ) harpsichord at end of stage.
+bfl glowing sound, bcl glowing sound, pf decay, marimba, vn, va, vc crescendoes
+from pp to f. shell (β) eh stops at end of stage. jewelers' desk (γ) pf lifts
+pedal at end of stage. jewelers' desk (γ) pf moves to kiln (δ) harpsichord at
+end of stage.
 
 [A28]
-jewelers' desk (γ) glowing bfl, eh keynoise, bcl, marimba, vn, va, vc begin
+jewelers' desk (γ) bfl glow, eh keynoise, bcl glow, marimba, vn, va, vc begin
 decrescendo from f back to pp. kiln (δ) harpsichord tacet.
 
 [A29]
-jewelers' desk (γ) glowing vn, va, vc finish decrescendo. jewelers' desk (γ)
-glowing bfl, eh keynoise, glowing bcl, marimba continue decrescendo. kiln (δ)
-hpschd tacet.
+jewelers' desk (γ) vn, va, vc finish decrescendo. jewelers' desk (γ) bfl glow,
+eh keynoise, bcl glow, marimba continue decrescendo. kiln (δ) hpschd tacet.
 
 [A30]
 kiln (δ) vn, va, vc dripping clb begin extremely sparsely. jeweler's desk (γ)
-glowing bfl, eh keynoise, glowing bcl, marimba continue decrescendo. kiln (δ)
-hpschd tacet.
+bfl glow, eh keynoise, bcl glow, marimba continue decrescendo. kiln (δ) hpschd
+tacet.
 
 [A31]
 kiln (δ) vn, va, vc dripping clb become somewhat more frequent. jeweler's desk
-(γ) glowing bfl, eh keynoise, glowing bcl, marimba pedal continue decrescendo.
-kiln (δ) hpschd tacet.
+(γ) bfl glow, eh keynoise, bcl glow, marimba pedal continue decrescendo. kiln
+(δ) hpschd tacet.
 
 [A32]
 kiln (δ) vn, va, vc dripping clb now continuous. jewelers' desk (γ) marimba
-pedal completes decrescendo. jewelers' desk (γ) glowing bfl, bcl, continue
+pedal completes decrescendo. jewelers' desk (γ) bfl glow, bcl glow, continue
 decrescendo. kiln (δ) hpschd tacet.
 
 [B1]
 (fundamental changes.) kiln (δ) vn, va, vc dripping clb continue. kiln (δ)
-hpschd begins. jewelers' desk (γ) glowing bfl, eh keynoise, glowing bcl
-continue decrescendo. perc tacet.
+hpschd begins. jewelers' desk (γ) bfl glow, eh keynoise, bcl glow continue
+decrescendo. perc tacet.
 
 [B2]
-kiln (δ) hpschd, vn, va, vc dripping clb continue. jewelers' desk (γ) glowing
-bfl, eh keynoise, glowing bcl complete decrescendo. perc tacet.
+kiln (δ) hpschd, vn, va, vc dripping clb continue. jewelers' desk (γ) bfl glow,
+eh keynoise, bcl glow complete decrescendo. perc tacet.
 
 [B3]
 (absent fundamental; persists only in memory.) kiln (δ) hpschd, vn, va, vc
@@ -362,9 +366,9 @@ papers (ε) chain cut off. fl, cl, pf, perc, vn tacet. short pause.
 papers (ε) tremolo-initiated va ob. seven other players tacet. no pause.
 
 [D2]
-jewelers' desk (γ) momentary recollection: glowing bfl, eh keynoise, glowing
-bcl, credit card against piano tuning pegs, attackless ppppp lowregister
-marimba pedal, vn quiet pitch, vc lowregister pedal. no pause.
+jewelers' desk (γ) momentary recollection: bfl glow, eh keynoise, bcl glow,
+credit card against piano tuning pegs, attackless ppppp lowregister marimba
+pedal, vn quiet pitch, vc lowregister pedal. no pause.
 
 [D3]
 papers (ε) va ob continues. seven other players tacet. no pause.
@@ -425,11 +429,11 @@ airtone chord that sustains up to and across end of stage. no pause.
 eh, bd, vn airtone chord continues under decrescendo. no pause.
 
 [E9]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) glowing
-bfl multiphonic.
+papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
+glowing multiphonic.
 
 [TODO: prefigure earlier in piece composite (γ+ε) cell of eh, bd, vn airtone
-chord with glowing bfl multiphonic followed by short pause.]
+chord with bfl glowing multiphonic followed by short pause.]
 
 [E10]
 short pause.
@@ -453,22 +457,22 @@ now shaped with decrescendi and crescendi. no players tacet. no pause.
 eh, bd, vn airtone chord continues under decrescendo. no pause.
 
 [E15]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) glowing
-bfl multiphonic. cl, pf, va, vc tacet.
+papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
+glowing multiphonic. cl, pf, va, vc tacet.
 
 [E16]
 short pause.
 
 [E17]
-papers (ε) eh, bd, vn airtone chord with jewelers' desk (γ) glowing bfl
-multiphonic, glowing bcl multiphonic. pf, va, vc tacet.
+papers (ε) eh, bd, vn airtone chord with jewelers' desk (γ) bfl glowing
+multiphonic, bcl glowing multiphonic. pf, va, vc tacet.
 
 [E18]
 short pause.
 
 [E19]
-papers (ε) eh, bd, vn airtone chord with jewelers' desk (γ) glowing bfl
-multiphonic, glowing bcl multiphonic, vc lowregister pedal. pf, va tacet. no
+papers (ε) eh, bd, vn airtone chord with jewelers' desk (γ) bfl glowing
+multiphonic, bcl glowing multiphonic, vc lowregister pedal. pf, va tacet. no
 pause.
 
 [E20]
@@ -482,14 +486,14 @@ glowing multiphonic, bcl glowing multiphonic, vc lowregister pedal. pf, va
 tacet. no pause.
 
 [E22]
-papers (ε) eh, bd airtone chord continues with jewelers' desk (γ) glowing
-bfl multiphonic, glowing bcl multiphonic, vc lowregister pedal. kiln (δ)
+papers (ε) eh, bd airtone chord continues with jewelers' desk (γ) bfl glowing
+multiphonic, bcl glowing multiphonic, vc lowregister pedal. kiln (δ)
 hpschd, vn clb, va clb manifest for a moment. no players tacet. no pause.
 
 [E23]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) glowing
-bfl multiphonic, glowing bcl multiphonic, vc lowregister pedal. pf, va tacet.
-no pause.
+papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
+glowing multiphonic, bcl glowing multiphonic, vc lowregister pedal. pf, va
+tacet. no pause.
 
 [E24]
 papers (ε) bd airtone continues with jewelers' desk (γ) vc lowregister pedal
