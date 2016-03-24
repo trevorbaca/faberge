@@ -4,20 +4,19 @@ FABERGÉ INVESTIGATIONS - STAGES
 process of alternation over segment: first term is broken shell, second term is
 composite papers and kiln.
 
-first term: broken shell: fast tempo: vn, va, vc harmonic tremolo flautando of
-frame descending from bridge. underneath tremolo and starting at same time is
-rapid exchange of single pitch in other players in preparation for oboe
-double-trill of broken shell. exchanged note is fluttertongue in piccolo and
-color trill in clarinet; oboe does not yet participate. tremolo flautando frame
-keeps interest in dynamic enveloping. string tremolo frame persists subito ppp
-at end of each stage as pedal to the following stage. at each pass through
-alternation note exchanged between piccolo and clarinet moves by stepwise
-motion.
+first term: broken shell: fast tempo: vn, va, vc tremolo flautando descending
+from bridge. underneath tremolo and starting at same time is rapid exchange of
+single pitch in other players in preparation for oboe double-trill of broken
+shell. exchanged note is fluttertongue in piccolo and color trill in clarinet;
+oboe does not yet participate. tremolo flautando keeps interest in
+dynamic enveloping. tremolo flautando persists subito ppp at end of each
+stage as pedal to the following stage. at each pass through alternation note
+exchanged between piccolo and clarinet moves by stepwise motion.
 
 second term: papers and kiln: slower effective tempo: single, protracted stroke
 of sponge across bass drum head that accelerates exponentially at the end of
 most strokes and combines with very sparse lower-register harpsichord notes
-second term is a type of intercalation. string tremolo frame crescendos at end
+second term is a type of intercalation. tremolo flautando crescendos at end
 of every second term to resume dynamic presence of first term.
 
 process: alternation between two terms. at each successive occurence of second
@@ -64,7 +63,7 @@ first term
 [B1]
 runaway harpsichord solo with registral compression and metric modualtion.
 harpsichord solo draws out one facet of the investigation of the kiln.
-string tremolo frame is now silent.
+tremolo flautando is now silent.
 brushed bass drum is silent.
 oboe has been tacet from beginning of piece.
 
