@@ -46,100 +46,135 @@ do not prefigure:
   attackless lowregister marimba pedal, lowregister vc pedal.
 
 [A1]
-shell (β) initial lowregister piano attack causes silently depressed
-midregister strings to resonate. together with gears (α) rhythmically regular
-va spazzolati that will later animate the golden gears.
+shell (β) initial lowregister piano attack field. gears (α) vn spazzolati, va
+spazzolati. three other players tacet. no pause.
 
 [A2]
-shell (β) pf resonance continues. shell (β) rapidly exchanged pitch between
-piccolo, upperregister clarinet, violin touch-four harmonic, bowed crotale.
-shell (β) piccolo, cl, vn, crotale sound continuously with rapid exponential
-enveloping effecting exchange of energy. shell (β) va, vc harmonic tremolo on
-lower fundamentals fill out harmonic field.
+shell (β) pf resonance continues. shell (β) piccolo, upperregister clarinet,
+violin touch-four harmonic, bowed crotal rapidly exchange single pitch with
+forte exponential enveloping effecting exchange of energy. shell (β) va tremolo
+flautando, vc tremolo flautando fill out harmonic field on mp lower
+fundamentals. eh tacet. no pause.
 
 [A3]
-shell (β) piccolo, cl, vn fundamental, crotale subito ppp. shell (β) va, vc
-harmonic tremolo subito ppp. shell (β) english horn enters on a series of four
-trilled pitches. shell (β) eh plays only during beginning of stage.
+shell (β) pf resonance continues. shell (β) piccolo, cl, vn fundamental, bowed
+crotale subito ppp. shell (β) va tremolo flautando, vc tremolo flautando subito
+shell (β) vc ppp tremolo flautando begins transition to jewelers' desk (γ) vc
+lowregister forte pure tone. shell (β) eh enters on a series of four trilled
+forte pitches played only during beginning of stage. no players tacet. no
+pause.
 
 [A4]
-shell (β) english horn tacet. shell (β) piccolo, cl, vn fundamental, crotale
-continue ppp. shell (β) va harmonic tremolo continues ppp. jeweler's desk (γ)
-lowregister vc pedal shines through with mp < mf > mp dynamic swells on pure
-tone with vibrato pochissimo.
+shell (β) pf resonance continues. shell (β) piccolo, cl, vn fundamental, bowed
+crotale continue ppp for first part of stage. shell (β) piccolo, cl, vn
+fundamental, bowed crotale begin crescendo from ppp back to forte during second
+part of stage. shell (β) va harmonic tremolo continues ppp during first part of
+stage. shell (β) va harmonic tremolo begins crescendo from ppp back to mp
+during second part of stage. jewelers' desk (γ) vc achieves forte at start of
+stage. jewelers' desk (γ) vc transitions from nv to vibrato during first part
+of stage. jewelers' desk (γ) vc holds vibrato during second part of stage. eh
+tacet. no pause.
 
 [A5]
-shell (β) piccolo, cl, vn touch-four harmonic, crotale crescendo back to
-previous forte dynamic. shell (β) va harmonic tremolo crescendos back to
-previous forte dynamic. jewelers' desk (γ) lowregister vc pedal transitions
-back to shell (β) vc harmonic tremolo.
+shell (β) pf resonance continues. shell (β) piccolo, cl, vn touch-four
+harmonic, bowed crotale achieve crescendo to forte at start of stage. shell (β)
+piccolo, cl, vn touch-four harmonic, bowed crotale continue forte. shell (β) va
+tremolo flautando achieves crescendo to mp at start of stage. shell (β) va
+tremolo flautando continues mp. jewelers' desk (γ) vc transitions from forte
+tone played vibrato to shell (β) mp tremolo flautando during first part of
+stage. shell (β) vc transitions from mp tremolo flautando to jewelers' desk (γ)
+forte tone during second part of stage. eh tacet. no pause.
 
 [A6]
-shell (β) piccolo, cl, vn fundamental, crotale subito ppp. shell (β) va
-harmonic tremolo subito ppp. shell (β) vc harmonic tremolo transitions to
-jewelers' desk (γ) lowregister vc pedal that shines through with mp < mf > mp
-dynamic swells on pure tone with vibrato pochissimo.
+shell (β) piccolo, cl, vn fundamental, bowed crotale subito ppp. shell (β) va
+tremolo flautando subito ppp. jewelers' desk (γ) vc achieves forte at start of
+stage. jewelers' desk (γ) vc transitions from nv to vibrato during first part
+of stage. jewelers' desk (γ) vc holds vibrato during second part of stage. eh
+tacet. no pause.
 
 [A7]
-trilled english horn (β) returns. piccolo, cl, vn fundamental, va, crotale (β)
-continue ppp. va (ζ) harmonic tremolo continues ppp. lowregister vc (γ) pedal
-decrescendos to pp but maintains pure tone with vibrato pochissimo.
+
+shell (β) eh forte trills return. shell (β) piccolo, cl, vn fundamental, bowed
+crotale (β) continue ppp during first part of stage. shell (β) piccolo, cl, vn,
+bowed crotale begin crescendo from ppp to forte during second part of stage. shell
+(β) va tremolo flautando continues ppp during first part of stage. shell (β) va
+tremolo flautando begins crescendo from ppp to mp during second part of stage.
+jewelers' desk (γ) vc begins decrescendo from forte to piano at start of stage.
+no players tacet. no pause.
 
 [A8]
-shell (β) piccolo, cl, vn touch-four harmonic, crotale crescendo back to
-previous forte dynamic. shell (β) va crescendos back to previous forte dynamic.
-jewelers' desk (γ) lowregister vc continues pp with pure tone played vibrato
-pochissimo.
+shell (β) piccolo, cl, vn, bowed crotale complete crescendo from ppp to forte at
+start of stage. shell (β) piccolo, cl, vn touch-four harmonic, bowed crotale
+remain forte. shell (β) va tremolo flautando completes crescendo from ppp to mp
+at start of stage. shell (β) va tremolo flautando remains mp. jewelers' desk
+(γ) vc completes decrescendo from forte to piano at start of stage. jewelers'
+desk (γ) vc at start of stage begins transition from tone played vibrato poco
+to tremolo flautando. eh tacet. no pause.
 
 [A9]
-shell (β) upperregister cl participates increasingly less in pitch exchange.
-shell (β) piccolo, vn, crotale participate increasingly more in pitch exchange
-to amplify attention while clarinet exits orchestration. jewelers' desk (γ) vc
-underlayer continues quietly beneath at the same time. cl takes bcl at end of
-stage.
+shell (β) piccolo, cl, vn touch-four harmonic, bowed crotale continue forte.
+shell (β) cl participates draws down to nothing. shell (β) piccolo, vn
+touch-four harmonic, bowed crotale increase activity while clarinet exits
+orchestration. shell (β) va tremolo flautando continues mp. jewelers' desk (γ)
+vc at start of stage completes transition from tone played vibrato poco to
+tremolo flautando. jewelers' desk (γ) vc remains mp tremolo flautando. cl takes
+bcl at end of stage. eh tacet. no pause.
 
 [A10]
-shell (β) piccolo, vn, va, crotale subito ppp. jewelers' desk (γ) lowregister
-vc, bcl shine through with mf swell enveloping.
+shell (β) piccolo, vn fundamental, bowed crotale at start of stage subito ppp.
+shell (β) piccolo, vn fundamental, bowed crotale during second part of stage
+begin crescendo from ppp to forte. shell (β) va tremolo flautando at start of
+stage subito ppp. shell (β) va tremolo flautando during second part of stage
+begins crescendo from ppp to mp. jewelers' desk (γ) vc at start of stage begins
+transition from mp tremolo flautando to pp pure tone played vibrato pochissimo.
+jewelers' desk (γ) bcl lowregister tone with piano swell enveloping begins at
+start of stage. jewelers' desk (γ) bcl piano swell enveloping during remainder
+of stage. eh tacet. no pause.
 
 [A11]
-shell (β) piccolo, vn, va, crotale crescendo back to previous forte dynamic.
-shell (β) upperregister cl no longer present. jewelers' desk (γ) bcl, vc
-underlayer continues quietly underneath.
+shell (β) piccolo, vn touch-four harmonic, bowed crotale at start of stage
+complete crescendo from ppp to forte. shell (β) piccolo, vn touch-four
+harmonic, bowed crotale forte during remainder of stage. shell (β) va tremolo
+flautando at start of stage completes crescendo from ppp to mp. shell (β) va
+tremolo flautando mp during remainder of stage. jewelers' desk (γ) vc at start
+of stage completes transition from mp tremolo flautando to piano
+swell-enveloped pure tone played vibrato pochissimo. jewelers' desk (γ) bcl, vc
+continue piano swell-enveloping during remainder of stage. eh tacet. no pause.
 
 [A12]
-shell (β) trilled eh returns and interrupts piccolo, vn, crotale at forte
+shell (β) trilled eh returns and interrupts piccolo, vn, bowed crotale at forte
 dynamic. shell (β) eh exits at end of stage.
 
 [A13]
 shell (β) piccolo participates less and less in pitch exchange. shell (β) vn,
-crotale participate even more in pitch exchange to increase attention while
-piccolo exits orchestration. jeweler's desk (γ) bcl, vc underlayer continues
-quietly beneath at the same time. fl takes bfl at end of stage.
+bowed crotale participate even more in pitch exchange to increase attention
+while piccolo exits orchestration. jeweler's desk (γ) bcl, vc underlayer
+continues quietly beneath at the same time. fl takes bfl at end of stage.
 
 [A14]
 gears (α) rhythmic va spazzolati shine through for a moment. seven other
 players tacet.
 
 [A15]
-shell (β) vn, crotale subito pp. jewelers' desk (γ) lowregister bcl, vc shine
-through with pure tone played vibrato pochissimo with mf swell enveloping.
+shell (β) vn, bowed crotale subito pp. jewelers' desk (γ) lowregister bcl, vc
+shine through with pure tone played vibrato pochissimo with mf swell
+enveloping.
 
 [A16]
 shell (β) now orchestrated as only violin touch-four harmonic and bowed crotale
-with piccolo no longer participating. shell (β) increased vn, crotale acitivity
-pushes attention forward upon the departure of piccolo. shell (β) va harmonic
-tremolo begins final decrescendo. jewelers' desk (γ) underlayer of lowregister
-bcl, vc continues quietly underneath.
+with piccolo no longer participating. shell (β) increased vn, bowed crotale
+acitivity pushes attention forward upon the departure of piccolo. shell (β) va
+harmonic tremolo begins final decrescendo. jewelers' desk (γ) underlayer of
+lowregister bcl, vc continues quietly underneath.
 
 [A17]
 gears (α) rhythmic vn spazzolati allowed to shine through for just a moment.
 shell (β) trilled eh returns for a moment with even more presence. shell (β)
-vn, crotale subito ppp. jewelers' desk (γ) bcl, vc subito ppp. shell (β) va
-harmonic tremolo completes decrescendo to niente.
+vn, bowed crotale subito ppp. jewelers' desk (γ) bcl, vc subito ppp. shell (β)
+va harmonic tremolo completes decrescendo to niente.
 
 [A18]
-shell (β) vn, crotale continue ppp. jeweler's desk (γ) adds eh keynoise.
+shell (β) vn, bowed crotale continue ppp. jeweler's desk (γ) adds eh keynoise.
 jewelers' desk (γ) lowregister bfl, eh keynoise, bcl, vc shine through with mf
 swell enveloping. va tacet.
 
@@ -150,10 +185,10 @@ piercing bowed crotale and final ff pf strike used to activate silent harmonic
 field. jewelers' desk (γ) continues steadily underneath. va tacet. short stage.
 
 [A20]
-shell (β) pf, crotale resonance continues to decay. jewelers' desk (γ) bfl, eh
-keynoise, bcl, vc begins crescendo from ppp. gears (α) vn spazzolati returns.
-gears (α) va spazzolati begins. gears (α) vn, va spazzolati carry different
-interlocking rhythms.
+shell (β) pf, bowed crotale resonance continues to decay. jewelers' desk (γ)
+bfl, eh keynoise, bcl, vc begins crescendo from ppp. gears (α) vn spazzolati
+returns. gears (α) va spazzolati begins. gears (α) vn, va spazzolati carry
+different interlocking rhythms.
 
 [A21]
 gears (α) vn, va spazzolati continue but start to decrescendo and transition to
@@ -560,7 +595,7 @@ at very bottom of range with transitions indicating changes in amount of air
 included in the tone and at very quiet dynamics with pervasive swell enveloping
 to and from niente. intermitent displacements of exactly one octave up.
 
-english horn sputter gesture of starting up: color trill in upperregister set
+eh sputter gesture of starting up: color trill in upperregister set
 to a quiet dynamic with niente-swell enveloping.
 
 bcl sputter gesture of starting up: same as bfl and scored to arrive on D3 and
