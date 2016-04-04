@@ -15,7 +15,7 @@ from abjad.tools.rhythmmakertools import sustain_last
 
 
 fl = 'Clarinet Music Voice'
-eng_hn = 'English Horn Music Voice'
+eh = 'English Horn Music Voice'
 cl = 'Clarinet Music Voice'
 pf_rh = 'Piano RH Music Voice'
 pf_lh = 'Piano LH Music Voice'
@@ -23,4 +23,4 @@ perc = 'Percussion Music Voice'
 vn = 'Violin Music Voice'
 va = 'Viola Music Voice'
 vc = 'Cello Music Voice'
-tutti = [fl, eng_hn, cl, pf_rh, pf_lh, perc, vn, va, vc]
+tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]

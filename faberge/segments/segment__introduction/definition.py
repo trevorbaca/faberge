@@ -10,7 +10,7 @@ from faberge.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    1,
+    2,
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -40,48 +40,47 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_measure_count(1)
+segment_maker.validate_measure_count(2)
 segment_maker.validate_stage_count(1)
 segment_maker.validate_measures_per_stage()
 
-################################################################################
-##################################### TIME #####################################
-################################################################################
-#
-#segment_maker.append_specifiers(
-#    (vn, stages(1)),
-#    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-#    )
-#
-#segment_maker.append_specifiers(
-#    (vc, stages(1)),
-#    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-#    )
-#
-################################################################################
-##################################### COLOR ####################################
-################################################################################
-#
-#segment_maker.append_specifiers(
-#    (vn, stages(1)),
-#    [
-#        baca.dynamics.make_effort_dynamic('mf'),
-#        baca.markup.make_markup('grainfall (I)'),
-#        baca.pitch.pitches('C4'),
-#        baca.spanners.one_line_staff(),
-#        spannertools.ClefSpanner(clef='percussion'),
-#        ],
-#    )
-#
-#segment_maker.append_specifiers(
-#    (vc, stages(1)),
-#    [
-#        baca.markup.make_string_number(3),
-#        baca.markup.pizz(),
-#        baca.overrides.natural_harmonics(),
-#        baca.pitch.pitches('F~5'),
-#        indicatortools.LaissezVibrer(),
-#        Clef('treble'),
-#        Dynamic('sfz'),
-#        ],
-#    )
+###############################################################################
+#################################### TIME #####################################
+###############################################################################
+
+segment_maker.append_specifiers(
+    (eh, stages(1)),
+    faberge.tools.make_ratchet_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(1)),
+    faberge.tools.make_spazzolato_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(1)),
+    faberge.tools.make_spazzolato_rhythm_specifier(rotation=-1),
+    )
+
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
+
+segment_maker.append_specifiers(
+    (eh, stages(1)),
+    [
+        baca.markup.make_boxed_markup('ratchet'),
+        #baca.pitch.pitches('C4'),
+        baca.spanners.one_line_staff(),
+        spannertools.ClefSpanner(clef='percussion'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn, va], stages(1)),
+    [
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.spazzolato(),
+        ],
+    )
