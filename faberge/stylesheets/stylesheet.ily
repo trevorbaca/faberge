@@ -14,7 +14,9 @@
             \fontsize #3
             \override #'(font-name . "Palatino")
             \concat {
-                Fabergé Investigations
+                Fabergé
+                \hspace #1.5
+                Investigations
                 \hspace #3
                 —
                 \hspace #3
@@ -75,8 +77,9 @@
         \center-align {
             \override #'(font-name . "Palatino")
             \fontsize #14 {
-               \line { FABERGÉ INVESTIGATIONS }
+               \line { FABERGÉ \hspace #4 INVESTIGATIONS }
             }
+            \null
             \override #'(font-name . "Palatino Italic")
             \fontsize #3 {
                " for ensemble recherche "

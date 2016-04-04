@@ -35,7 +35,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
                         \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         }
                     >>
-                    \context MusicContext = "Music Context" {
+                    \context MusicContext = "Music Context" <<
                         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
                             \tag flute
                             \context FluteMusicStaff = "Flute Music Staff" {
@@ -113,7 +113,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
                                 }
                             }
                         >>
-                    }
+                    >>
                 >>
 
         Returns score.
@@ -322,6 +322,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
                 string_section_staff_group,
             ],
             context_name='MusicContext',
+            is_simultaneous=True,
             name='Music Context',
             )
 

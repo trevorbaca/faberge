@@ -31,7 +31,7 @@ instruments = collections.OrderedDict([
             ),
         ),
     (
-        'english horn', 
+        'English horn', 
         instrumenttools.EnglishHorn(
             instrument_name_markup=agent.make_instrument_name_markup(
                 'English horn'),
@@ -43,7 +43,7 @@ instruments = collections.OrderedDict([
             ),
         ),
     (
-        'clarinet', 
+        'clarinet in B-flat', 
         instrumenttools.ClarinetInBFlat(
             instrument_name_markup=\
                 agent.make_instrument_name_markup('Clarinet'),
