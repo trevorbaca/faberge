@@ -365,14 +365,15 @@
 
     % MUSIC
     \context {
-        \StaffGroup
+        %\StaffGroup
         \name MusicContext
         \type Engraver_group
-        \alias StaffGroup
+        %\alias StaffGroup
+        \consists System_start_delimiter_engraver
         \accepts WindSectionStaffGroup
         \accepts PercussionSectionStaffGroup
         \accepts StringSectionStaffGroup
-        %systemStartDelimiter = #'SystemStartBar
+        %systemStartDelimiter = 'SystemStartBar
     }
 
     % SCORE
