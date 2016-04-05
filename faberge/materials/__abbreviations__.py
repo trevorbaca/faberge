@@ -14,7 +14,7 @@ from abjad.tools.rhythmmakertools import sustain_first
 from abjad.tools.rhythmmakertools import sustain_last
 
 
-fl = 'Clarinet Music Voice'
+fl = 'Flute Music Voice'
 eh = 'English Horn Music Voice'
 cl = 'Clarinet Music Voice'
 pf_rh = 'Piano RH Music Voice'
