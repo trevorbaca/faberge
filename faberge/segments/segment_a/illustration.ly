@@ -8,37 +8,25 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #2
+        currentBarNumber = #3
     } <<
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 8/4
-                    R1 * 2
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
                     \time 3/4
                     R1 * 3/4
                 }
                 {
-                    R1 * 3/4
+                    \time 4/4
+                    R1 * 1
                 }
                 {
-                    \time 8/4
-                    R1 * 2
+                    R1 * 1
                 }
                 {
-                    \time 7/4
-                    R1 * 7/4
+                    \time 2/4
+                    R1 * 1/2
                 }
                 {
                     \time 3/4
@@ -57,18 +45,7 @@
                     R1 * 1
                 }
                 {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
                     \time 3/4
-                    R1 * 3/4
-                }
-                {
                     R1 * 3/4
                 }
                 {
@@ -80,65 +57,24 @@
                     R1 * 1
                 }
                 {
-                    R1 * 1
-                }
-                {
                     \time 2/4
                     R1 * 1/2
                 }
                 {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 8/4
-                    R1 * 2
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
+                    \time 3/4
+                    R1 * 3/4
                 }
                 {
                     \time 4/4
                     R1 * 1
                 }
                 {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
                     R1 * 1
-                }
-                {
-                    \time 8/4
-                    R1 * 2
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    R1 * 3/4
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 8/4
-                    R1 * 2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
                 }
                 {
                     \time 3/4
@@ -157,6 +93,17 @@
                     R1 * 1
                 }
                 {
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
                     \time 3/4
                     R1 * 3/4
                 }
@@ -164,10 +111,6 @@
                     R1 * 3/4
                 }
                 {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
                     \time 4/4
                     R1 * 1
                 }
@@ -175,44 +118,32 @@
                     R1 * 1
                 }
                 {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    \time 8/4
-                    R1 * 2
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
+                    \time 3/4
+                    R1 * 3/4
                 }
                 {
                     \time 2/4
                     R1 * 1/2
                 }
                 {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 8/4
-                    R1 * 2
+                    R1 * 1/2
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 7/4
+                    \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     \mark #1
-                    s1 * 7/4 ^ \markup {
+                    s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A1]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -225,15 +156,27 @@
                         \upright
                             {
                                 =
-                                98
+                                100
                             }
                         }
                 }
                 {
-                    \time 8/4
+                    \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 2
+                    s1 * 1
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A2]
+                            }
                 }
                 {
                     \time 2/4
@@ -246,29 +189,13 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 8/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A3]
+                            }
                 }
                 {
                     \time 2/4
@@ -281,158 +208,13 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 8/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2
-                }
-                {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 8/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 8/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A4]
+                            }
                 }
                 {
                     \time 4/4
@@ -445,8 +227,129 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A5]
+                            }
                 }
                 {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A6]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A7]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A8]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A9]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A10]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A11]
+                            }
+                }
+                {
+                    \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
@@ -456,6 +359,31 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A12]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A13]
+                            }
                 }
                 {
                     \time 4/4
@@ -467,53 +395,37 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A14]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
                 }
                 {
                     \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A15]
+                            }
                 }
                 {
-                    \time 8/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 8/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2
                 }
             }
         >>
@@ -533,57 +445,225 @@
                         Fl.
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 7/4
-                        R1 * 2
-                        \bar "|"
+                        {
+                            c'8 [
+                            c'8 ]
+                            r8
+                            c'8 [
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            r4
+                            c'8 [
+                            c'8 ]
+                            r4
+                            c'8 [
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            c'8
+                            r8
+                            c'8 [
+                            c'8 ]
+                            r4
+                            c'8
+                        }
+                        {
+                            c'8 [
+                            c'8 ]
+                            r4
+                        }
+                        {
+                            c'8
+                            r4
+                            c'8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            c'8 [
+                            c'8 ]
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            c'8 [
+                            c'8
+                            c'8 ]
+                            r8
+                        }
+                        {
+                            r8
+                            c'8
+                            r4
+                            c'8 [
+                            c'8 ]
+                            r8
+                            c'8
+                        }
+                        {
+                            c'8 [
+                            c'8 ]
+                            r8
+                            c'8 [
+                            c'8 ]
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            c'8 [
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            r4
+                            c'8
+                            r4
+                            c'8
+                            r4
+                        }
+                        {
+                            c'8 [
+                            c'8 ]
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            c'8
+                            r4
+                            c'8 [
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            c'8 [
+                            c'8
+                            c'8 ]
+                            r4
+                            c'8
+                        }
+                        {
+                            c'8
+                            r8
+                            c'8 [
+                            c'8 ]
+                            r8
+                            c'8
+                        }
+                        {
+                            c'8 [
+                            c'8 ]
+                            r4
+                            c'8 [
+                            c'8 ]
+                            r8
+                            c'8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            c'8 [
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            r4
+                            c'8 [
+                            c'8 ]
+                            r4
+                            c'8 [
+                            c'8 ]
+                        }
+                        {
+                            c'8
+                            r8
+                            c'8 [
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            c'8 [
+                            c'8
+                            c'8 ]
+                            r4
+                            c'8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            c'8
+                            r4
+                            c'8 [
+                            c'8
+                            c'8 ]
+                            r8
+                        }
+                        {
+                            c'8 [
+                            c'8 ]
+                            r4
+                            c'8 [
+                            c'8 ]
+                        }
+                        {
+                            c'8
+                            r4
+                            c'8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            c'8
+                            r4
+                        }
+                        {
+                            c'8 [
+                            c'8 ]
+                            r4
+                            c'8 [
+                            c'8 ]
+                        }
+                        {
+                            c'8
+                            r4
+                            c'8
+                            r4
+                            c'8 [
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            c'8 [
+                            c'8
+                            c'8 ]
+                            r8
+                            c'8 [
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            c'8 [
+                            c'8
+                            c'8 ]
+                            r8
+                        }
+                        {
+                            r8
+                            c'8
+                            r4
+                        }
+                        {
+                            c'8
+                            r4
+                            c'8
+                            \bar "|"
+                        }
                     }
                 }
                 \tag english_horn
@@ -608,56 +688,36 @@
                             }
                     }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        R1 * 7/4
-                        R1 * 2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
                         R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 3/4
                         R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 1/2
                         R1 * 3/4
+                        R1 * 1
                         R1 * 3/4
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 3/4
-                        R1 * 1/2
+                        R1 * 1
                         R1 * 3/4
                         R1 * 1
                         R1 * 1/2
                         R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
                         R1 * 3/4
                         R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
                         R1 * 1/2
-                        R1 * 1
-                        R1 * 1
                         R1 * 1/2
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 7/4
-                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -675,56 +735,36 @@
                         Cl.
                     }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        R1 * 7/4
-                        R1 * 2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
                         R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 3/4
                         R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 1/2
                         R1 * 3/4
+                        R1 * 1
                         R1 * 3/4
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 3/4
-                        R1 * 1/2
+                        R1 * 1
                         R1 * 3/4
                         R1 * 1
                         R1 * 1/2
                         R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
                         R1 * 3/4
                         R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
                         R1 * 1/2
-                        R1 * 1
-                        R1 * 1
                         R1 * 1/2
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 7/4
-                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -745,112 +785,72 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            R1 * 7/4
-                            R1 * 2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
                             R1 * 1/2
-                            R1 * 3/4
-                            R1 * 3/4
-                            R1 * 2
-                            R1 * 7/4
                             R1 * 3/4
                             R1 * 1/2
                             R1 * 3/4
                             R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 3/4
                             R1 * 3/4
                             R1 * 1/2
                             R1 * 1
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 7/4
-                            R1 * 2
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 2
-                            R1 * 7/4
                             R1 * 1/2
                             R1 * 3/4
+                            R1 * 1
                             R1 * 3/4
-                            R1 * 7/4
-                            R1 * 2
-                            R1 * 3/4
-                            R1 * 1/2
+                            R1 * 1
                             R1 * 3/4
                             R1 * 1
                             R1 * 1/2
                             R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
                             R1 * 3/4
                             R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
                             R1 * 1/2
-                            R1 * 1
-                            R1 * 1
                             R1 * 1/2
-                            R1 * 2
-                            R1 * 7/4
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 7/4
-                            R1 * 2
                             \bar "|"
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" {
                         \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            R1 * 7/4
-                            R1 * 2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
                             R1 * 1/2
-                            R1 * 3/4
-                            R1 * 3/4
-                            R1 * 2
-                            R1 * 7/4
                             R1 * 3/4
                             R1 * 1/2
                             R1 * 3/4
                             R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 3/4
                             R1 * 3/4
                             R1 * 1/2
                             R1 * 1
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 7/4
-                            R1 * 2
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 2
-                            R1 * 7/4
                             R1 * 1/2
                             R1 * 3/4
+                            R1 * 1
                             R1 * 3/4
-                            R1 * 7/4
-                            R1 * 2
-                            R1 * 3/4
-                            R1 * 1/2
+                            R1 * 1
                             R1 * 3/4
                             R1 * 1
                             R1 * 1/2
                             R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
                             R1 * 3/4
                             R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
                             R1 * 1/2
-                            R1 * 1
-                            R1 * 1
                             R1 * 1/2
-                            R1 * 2
-                            R1 * 7/4
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 7/4
-                            R1 * 2
                             \bar "|"
                         }
                     }
@@ -869,56 +869,36 @@
                         Perc.
                     }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        R1 * 7/4
-                        R1 * 2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
                         R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 3/4
                         R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 1/2
                         R1 * 3/4
+                        R1 * 1
                         R1 * 3/4
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 3/4
-                        R1 * 1/2
+                        R1 * 1
                         R1 * 3/4
                         R1 * 1
                         R1 * 1/2
                         R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
                         R1 * 3/4
                         R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
                         R1 * 1/2
-                        R1 * 1
-                        R1 * 1
                         R1 * 1/2
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 7/4
-                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -938,56 +918,36 @@
                         Vn.
                     }
                     \context ViolinMusicVoice = "Violin Music Voice" {
-                        R1 * 7/4
-                        R1 * 2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
                         R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 3/4
                         R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 1/2
                         R1 * 3/4
+                        R1 * 1
                         R1 * 3/4
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 3/4
-                        R1 * 1/2
+                        R1 * 1
                         R1 * 3/4
                         R1 * 1
                         R1 * 1/2
                         R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
                         R1 * 3/4
                         R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
                         R1 * 1/2
-                        R1 * 1
-                        R1 * 1
                         R1 * 1/2
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 7/4
-                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -1005,56 +965,36 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 7/4
-                        R1 * 2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
                         R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 3/4
                         R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 1/2
                         R1 * 3/4
+                        R1 * 1
                         R1 * 3/4
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 3/4
-                        R1 * 1/2
+                        R1 * 1
                         R1 * 3/4
                         R1 * 1
                         R1 * 1/2
                         R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
                         R1 * 3/4
                         R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
                         R1 * 1/2
-                        R1 * 1
-                        R1 * 1
                         R1 * 1/2
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 7/4
-                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -1072,56 +1012,36 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 7/4
-                        R1 * 2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
                         R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 3/4
                         R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
                         R1 * 3/4
                         R1 * 1/2
                         R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 2
-                        R1 * 7/4
                         R1 * 1/2
                         R1 * 3/4
+                        R1 * 1
                         R1 * 3/4
-                        R1 * 7/4
-                        R1 * 2
-                        R1 * 3/4
-                        R1 * 1/2
+                        R1 * 1
                         R1 * 3/4
                         R1 * 1
                         R1 * 1/2
                         R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
                         R1 * 3/4
                         R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
                         R1 * 1/2
-                        R1 * 1
-                        R1 * 1
                         R1 * 1/2
-                        R1 * 2
-                        R1 * 7/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 7/4
-                        R1 * 2
                         \bar "|"
                     }
                 }

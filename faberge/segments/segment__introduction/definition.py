@@ -18,7 +18,7 @@ tempo_map = baca.tools.TempoMap([
     ])
 
 maker = baca.tools.TimeSignatureMaker(
-    faberge.materials.time_signatures,
+    faberge.materials.time_signatures_a,
     rotation=0,
     stage_specifier=stage_specifier,
     tempo_map=tempo_map,

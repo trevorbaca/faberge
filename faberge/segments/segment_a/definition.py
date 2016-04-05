@@ -10,7 +10,11 @@ from faberge.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    50,
+    2, 2, 2,
+    2, 2, 2,
+    2, 2, 2,
+    2, 2, 2,
+    2, 2, 2,
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -18,8 +22,8 @@ tempo_map = baca.tools.TempoMap([
     ])
 
 maker = baca.tools.TimeSignatureMaker(
-    faberge.materials.time_signatures,
-    rotation=-1,
+    faberge.materials.time_signatures_b,
+    rotation=0,
     stage_specifier=stage_specifier,
     tempo_map=tempo_map,
     )
@@ -32,7 +36,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    #label_stage_numbers=True,
+    label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=faberge,
     spacing_specifier=spacing_specifier,
@@ -41,24 +45,19 @@ segment_maker = baca.tools.SegmentMaker(
     transpose_score=True,
     )
 
-segment_maker.validate_measure_count(50)
-segment_maker.validate_stage_count(1)
+segment_maker.validate_measure_count(30)
+segment_maker.validate_stage_count(15)
 segment_maker.validate_measures_per_stage()
 
-################################################################################
-##################################### TIME #####################################
-################################################################################
-#
-#segment_maker.append_specifiers(
-#    (bcl, stages(1, 2)),
-#    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-#    )
-#
-#segment_maker.append_specifiers(
-#    (va, stages(2, 3)),
-#    baca.rhythm.make_tied_repeated_duration_rhythm_specifier((1, 4)),
-#    )
-#
+###############################################################################
+#################################### TIME #####################################
+###############################################################################
+
+segment_maker.append_specifiers(
+    (fl, stages(1, 15)),
+    faberge.tools.make_shell_exchange_rhythm_specifier(index=0, parts=4),
+    )
+
 ################################################################################
 ##################################### COLOR ####################################
 ################################################################################
