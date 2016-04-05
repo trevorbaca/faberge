@@ -55,7 +55,42 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (fl, stages(1, 15)),
-    faberge.tools.make_shell_exchange_rhythm_specifier(index=0, parts=4),
+    faberge.tools.make_shell_exchange_rhythm_specifier(
+        total_parts=4,
+        this_part=0,
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(1, 15)),
+    faberge.tools.make_shell_exchange_rhythm_specifier(
+        total_parts=4,
+        this_part=1,
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(1, 15)),
+    faberge.tools.make_shell_exchange_rhythm_specifier(
+        total_parts=4,
+        this_part=3,
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(1, 15)),
+    faberge.tools.make_shell_exchange_rhythm_specifier(
+        total_parts=4,
+        this_part=2,
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1, 15)),
+    faberge.tools.make_shell_exchange_rhythm_specifier(
+        total_parts=4,
+        this_part=(0, 1, 2, 3),
+        ),
     )
 
 ################################################################################
