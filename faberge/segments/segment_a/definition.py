@@ -101,15 +101,53 @@ segment_maker.append_specifiers(
         ),
     )
 
+segment_maker.append_specifiers(
+    (va, stages(1, 15)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1, 15)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
 ###############################################################################
 #################################### COLOR ####################################
 ###############################################################################
 
 segment_maker.append_specifiers(
+    ([fl, cl, vn], stages(1, 15)),
+    [
+        baca.markup.make_boxed_markup('match sound of crotales'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, cl, vn, perc], stages(1, 1)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, cl, vn, perc], stages(2, 3)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < pp'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+    
+segment_maker.append_specifiers(
     (eh, stages(2, 2)),
     [
         baca.markup.make_boxed_markup('NB: some durations cross barlines'),
         baca.spanners.pervasive_trills(),
+        Dynamic('f'),
         ],
     )
 
@@ -128,3 +166,31 @@ segment_maker.append_specifiers(
         Dynamic('sfz'),
         ],
     )
+
+segment_maker.append_specifiers(
+    (perc, stages(1, 15)),
+    [
+        baca.markup.make_boxed_markup('BOWED CROTALES'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(1, 15)),
+    [
+        baca.markup.XFB(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(1, 1)),
+    [
+        Dynamic('p'),
+        ],
+    )
+
+#segment_maker.append_specifiers(
+#    (va, stages(2, 2)),
+#    [
+#        Dynamic('mp'),
+#        ],
+#    )

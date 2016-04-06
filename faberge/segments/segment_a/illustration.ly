@@ -485,52 +485,68 @@
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
                         {
-                            c'8
-                            r2
-                            c'8
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "match sound of crotales"
+                                    }
+                            r2 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
                         }
                         {
-                            r1
+                            r1 \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4
-                            c'8
-                            r2
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r2 \f
                         }
                         {
                             r2
                         }
                         {
                             r4.
-                            c'8
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            c'8
-                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r8 \pp
                         }
                         {
                             r2.
                         }
                         {
                             r8
-                            c'8
-                            r4.
-                            c'8
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4. \pp
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4 \pp
                         }
                         {
-                            c'8
-                            r2
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r2 \pp
                             r8
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
-                            c'8
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4 \pp
                         }
                         {
                             r1
@@ -676,7 +692,7 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4
-                            g'2 \startTrillSpan
+                            g'2 \f \startTrillSpan
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -715,21 +731,32 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         {
                             r8
-                            d'8
-                            r2
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "match sound of crotales"
+                                    }
+                            r2 \f
                         }
                         {
                             r4
-                            d'8
-                            r4.
-                            d'8
-                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                            r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                            r8 \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4.
-                            d'8
-                            r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                            r4. \f
                         }
                         {
                             r2
@@ -739,29 +766,34 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
-                            d'8
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                            r4 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
-                            d'8
-                            r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                            r4. \pp
                         }
                         {
                             r2..
-                            d'8
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
                         }
                         {
-                            r8
-                            d'8
-                            r2
+                            r8 \pp
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                            r2 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            d'8
-                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            d'8 \<
+                            r8 \pp
                         }
                         {
                             r4
@@ -1103,24 +1135,35 @@
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         {
                             r2
-                            c'8
-                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "BOWED CROTALES"
+                                    }
+                            r8 \f
                         }
                         {
                             r1
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            c'8
-                            r2.
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r2. \f
                         }
                         {
-                            c'8
-                            r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4. \f
                         }
                         {
-                            c'8
-                            r2
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r2 \pp
                             r8
                         }
                         {
@@ -1129,18 +1172,21 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4.
-                            c'8
-                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r8 \pp
                         }
                         {
                             r2
-                            c'8
-                            r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4. \pp
                         }
                         {
                             r2
-                            c'8
-                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r8 \pp
                         }
                         {
                             r2
@@ -1274,24 +1320,36 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         {
                             r4.
-                            c'8
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "match sound of crotales"
+                                    }
+                            r4 \f
                         }
                         {
                             r4.
-                            c'8
-                            r4.
-                            c'8
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r2.
-                            c'8
+                            r2. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
                         }
                         {
-                            r8
-                            c'8
-                            r4
+                            r8 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4 \f
                         }
                         {
                             r2.
@@ -1302,24 +1360,27 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
-                            c'8
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4 \pp
                         }
                         {
                             r1
                         }
                         {
                             r4.
-                            c'8
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
+                            r4 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r4
-                            c'8
+                            \once \override Hairpin #'circled-tip = ##t
+                            c'8 \<
                         }
                         {
-                            r2
+                            r2 \pp
                             r8
                             c'8
                             r4
@@ -1454,40 +1515,44 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
+                        c'2. \mp
+                            ^ \markup {
+                                \upright
+                                    "XFB flaut."
+                                }
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
                         \bar "|"
                     }
                 }
@@ -1505,40 +1570,40 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
+                        c'2.
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
                         \bar "|"
                     }
                 }
