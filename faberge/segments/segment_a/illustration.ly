@@ -1515,7 +1515,7 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        c'2. \mp
+                        c'2. \p
                             ^ \markup {
                                 \upright
                                     "XFB flaut."
@@ -1523,7 +1523,7 @@
                         c'1 \repeatTie
                         c'1 \repeatTie
                         c'2 \repeatTie
-                        c'2. \repeatTie
+                        c'2. \mp \repeatTie
                         c'2 \repeatTie
                         c'2. \repeatTie
                         c'1 \repeatTie
