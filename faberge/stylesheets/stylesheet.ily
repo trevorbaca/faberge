@@ -256,6 +256,14 @@
         \name PianoLHMusicVoice
         \type Engraver_group
         \alias Voice
+        \voiceTwo
+    }
+    \context {
+        \Voice
+        \name PianoLHAttackVoice
+        \type Engraver_group
+        \alias Voice
+        \voiceFour
     }
     \context {
         \Staff
@@ -263,6 +271,7 @@
         \type Engraver_group
         \alias Staff
         \accepts PianoLHMusicVoice
+        \accepts PianoLHAttackVoice
     }
     \context {
         \PianoStaff
