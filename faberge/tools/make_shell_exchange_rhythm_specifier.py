@@ -108,7 +108,7 @@ def make_shell_exchange_rhythm_specifier(
             denominator=8,
             ),
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-            flatten_rest_filled_tuplets=True,
+            rewrite_rest_filled_tuplets=True,
             simplify_redundant_tuplets=True,
             ),
         )
