@@ -184,13 +184,19 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1, 1)),
     [
-        Dynamic('p'),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Dynamic('p'),
+            ),
         ],
     )
 
-#segment_maker.append_specifiers(
-#    (va, stages(2, 2)),
-#    [
-#        Dynamic('mp'),
-#        ],
-#    )
+segment_maker.append_specifiers(
+    (va, stages(2, 2)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Dynamic('mp'),
+            ),
+        ],
+    )
