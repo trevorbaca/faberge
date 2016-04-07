@@ -1574,10 +1574,10 @@
                         c'1 \repeatTie
                         c'1 \repeatTie
                         c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
+                        c'2. \repeatTie \< \p
+                        c'2 \repeatTie \mp \> \mp
+                        c'2. \repeatTie \p \< \p
+                        c'1 \repeatTie \mp
                         c'2. \repeatTie
                         c'2 \repeatTie
                         c'1 \repeatTie
