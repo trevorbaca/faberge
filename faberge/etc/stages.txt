@@ -10,12 +10,6 @@ FABERGÉ - STAGES
 
 [TODO: prefigure (β) fully orchestrated first field of broken shell.]
 
-[TODO: prefigure (δ) guiro.]
-
-[TODO: prefigure (δ) struck bd.]
-
-[TODO: prefigure (δ) castanets.]
-
 [TODO: recollect (β) oboe trills.]
 
 do not prefigure:
@@ -51,15 +45,17 @@ gears (α) eh ratchet, vn spazzolati, va spazzolati. five other players tacet.
 no pause.
 
 [A1]
-tempo: shell ancora
 
-shell (β) initial lowregister pf attack field. shell (β) upperregister fl,
-upperregister clarinet, violin touch-four harmonic, bowed crotale rapidly
+shell (β) pf attacks field.
+shell (β) upperregister fl, upperregister clarinet, violin touch-four harmonic, bowed crotale rapidly
 exchange single pitch with forte exponential enveloping effecting exchange of
-energy. shell (β) va tasto XFB fills out harmonic field on mp lower
-fundamental. jewelers' desk (γ) vc begins transition from unison III+IV double
+energy.
+shell (β) va tasto XFB fills out harmonic field on mp lower fundamental.
+jewelers' desk (γ) vc begins transition from unison III+IV double
 stop senza vibrato (state 1) to flattened unison III+IV double stop molto
-vibrato ff (state 2). eh tacet. no pause.
+vibrato ff (state 2).
+eh tacet.
+no pause.
 
     fl: exchange f
     eh: --
@@ -72,10 +68,13 @@ vibrato ff (state 2). eh tacet. no pause.
 
 [A2]
 
-shell (β) pf resonance continues. shell (β) fl, cl, vn, bowed crotale subito
-ppp. shell (β) va tasto XFB subito ppp. jewelers' desk (γ) vc continues
-transition from state 1 to state 2. shell (β) eh plays four forte trills. no
-players tacet. no pause.
+shell (β) pf resonance continues.
+shell (β) fl, cl, vn, bowed crotale subito ppp.
+shell (β) va tasto XFB subito ppp.
+jewelers' desk (γ) vc continues transition from state 1 to state 2.
+shell (β) eh plays four forte trills.
+no players tacet.
+no pause.
 
     fl: [exchange] sub. ppp
     eh: trills f
@@ -88,10 +87,13 @@ players tacet. no pause.
 
 [A3]
 
-shell (β) pf resonance continues. shell (β) fl, cl, vn, bowed crotale crescendo
-from ppp to f. shell (β) va tasto XFB crescendoes from ppp to mp. jewelers'
-desk (γ) vc holds first version of state 2: mf unison III+IV double stop played
-poco vibrato. eh tacet. no pause.
+shell (β) pf resonance continues.
+shell (β) fl, cl, vn, bowed crotale crescendo from ppp to f.
+shell (β) va tasto XFB crescendoes from ppp to mp.
+jewelers' desk (γ) vc holds first version of state 2:
+mf unison III+IV double stop played poco vibrato.
+eh tacet.
+no pause.
 
     fl: [exchange] ppp < f
     eh: --
@@ -104,9 +106,12 @@ poco vibrato. eh tacet. no pause.
 
 [A4]
 
-shell (β) pf resonance continues. shell (β) fl, cl, vn, bowed crotale continue
-fore. shell (β) va tasto XFB continues mp. jewelers' desk (γ) vc begins
-transition from state 2 back to state 1. eh tacet. no pause.
+shell (β) pf resonance continues.
+shell (β) fl, cl, vn, bowed crotale continue forte.
+shell (β) va tasto XFB continues mp.
+jewelers' desk (γ) vc begins transition from state 2 back to state 1.
+eh tacet.
+no pause.
 
     fl: [exchange] f
     eh: --
@@ -119,9 +124,13 @@ transition from state 2 back to state 1. eh tacet. no pause.
 
 [A5]
 
-shell (β) eh forte trills return. shell (β) fl, cl, vn, bowed crotale subito
-ppp. shell (β) va tasto XFB subito ppp. jewelers' desk (γ) vc begins transition
-from state 2 (version 1) to state 1. no players tacet. no pause.
+shell (β) pf resonance continues.
+shell (β) eh forte trills return.
+shell (β) fl, cl, vn, bowed crotale subito ppp.
+shell (β) va tasto XFB subito ppp.
+jewelers' desk (γ) vc begins transition from state 2.1 to state 1.
+no players tacet.
+no pause.
 
     fl: [exchange] sub. ppp
     eh: trills f
@@ -134,9 +143,12 @@ from state 2 (version 1) to state 1. no players tacet. no pause.
 
 [A6]
 
-shell (β) fl, cl, vn, bowed crotale crescendo from ppp to f. shell (β) va tasto
-XFB crescendoes from pp to mp. jewelers' desk (γ) vc continues transition from
-state 2 (version 1) to state 1. eh tacet. no pause.
+shell (β) pf resonance continues.
+shell (β) fl, cl, vn, bowed crotale crescendo from ppp to f.
+shell (β) va tasto XFB crescendoes from pp to mp.
+jewelers' desk (γ) vc continues transition from state 2.1 to state 1.
+eh tacet.
+no pause.
 
     fl: [exchange] ppp < f
     eh: --
@@ -149,9 +161,10 @@ state 2 (version 1) to state 1. eh tacet. no pause.
 
 [A7]
 
-shell (β) pf resonance continues. shell (β) fl, cl, vn, bowed crotale continue
-forte. shell (β) va tasto XFB continues mp. jewelers' desk (γ) vc holds state 1
-(unison III+IV double stop senza vibrato). eh tacet. no pause.
+shell (β) pf resonance continues.
+shell (β) fl, cl, vn, bowed crotale continue forte.
+shell (β) va tasto XFB continues mp.
+jewelers' desk (γ) vc holds state 1 (unison III+IV double stop senza vibrato). eh tacet. no pause.
 
     fl: [exchange] f
     eh: --
@@ -318,14 +331,15 @@ shell (β) va mometarily absent.
 jewelers' desk (γ) eh keynoise begins.
 jewelers' desk (γ) bfl, bcl, vc momentarily pp.
 gears (α) vn spazzolati, va spazzolati allowed to shine through.
-perc tacet.
+kiln (δ) castanets, struck bd, eh-guiro quickly prefigured.
+no players tacet.
 no pause.
 
     bfl: momentary pp
-    eh: keynoise
+    eh: kiln: guiro
     bcl: momentary pp
     pf: [resonance]
-    perc: --
+    perc: kiln: castanets, struck bd
     vn: spazzolati
     va: spazzolati
     vc: momentary pp
@@ -343,8 +357,8 @@ no pause.
     eh: [keynoise]
     bcl: state 1
     pf: [resonance]
-    perc: [exchange] sub. ppp
-    vn: [exchange] sub. ppp
+    perc: exchange sub. ppp
+    vn: exchange sub. ppp
     va: --
     vc: state 1
 
@@ -495,10 +509,6 @@ long stage.
     vc: [state 1: pedal] crescendo to forte
 
 [A27]
-
-shell (β) pf resonance stops. pf moves to hpschd.
-jewelers' desk (γ) bfl glow, eh keynoise, bcl glow, marimba, vn, va, vc begin
-decrescendo from f back to pp. kiln (δ) harpsichord tacet.
 
     bfl: [state 1: glowing multiphonics] decrescendo to p
     eh: keynoise

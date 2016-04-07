@@ -144,13 +144,144 @@
                     \time 3/4
                     R1 * 3/4
                 }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
+                    \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     \mark #1
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'00''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -180,23 +311,43 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'01''
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'04''
+                            }
                 }
                 {
                     \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'06''
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'07''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -210,24 +361,44 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'09''
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'10''
+                            }
                 }
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'12''
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'15''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -241,12 +412,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'16''
+                            }
                 }
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'18''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -260,12 +441,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'20''
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'21''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -279,12 +470,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'23''
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'25''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -298,12 +499,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'27''
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'30''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -317,12 +528,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'31''
+                            }
                 }
                 {
                     \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'34''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -336,11 +557,21 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'35''
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'37''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -354,12 +585,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'40''
+                            }
                 }
                 {
                     \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'42''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -373,11 +614,21 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'43''
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'45''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -391,11 +642,21 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'46''
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'49''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -409,12 +670,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'51''
+                            }
                 }
                 {
                     \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'53''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -427,12 +698,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'54''
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'55''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -446,12 +727,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'57''
+                            }
                 }
                 {
                     \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'00''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -465,6 +756,472 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'01''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'03''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A16]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'05''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'06''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A17]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'08''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'10''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A18]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'12''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'15''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A19]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'16''
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'19''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A20]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'20''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'22''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A21]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'25''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'27''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A22]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'28''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'30''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A23]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'31''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'34''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A24]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'36''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'37''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A25]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'39''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'40''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A26]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'42''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'45''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A27]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'46''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'48''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A28]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'50''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'51''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A29]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'53''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'55''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A30]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'57''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'00''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A31]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'01''
+                            }
                 }
             }
         >>
@@ -586,84 +1343,54 @@
                             r2
                             r8
                         }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            c'8
+                            r4
+                        }
+                        {
+                            r8
+                            c'8
+                            r4.
+                            c'8
+                            r4
+                        }
                         {
                             r4
+                            c'8
+                            r4
+                            c'8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            c'8
+                            r4
+                        }
+                        {
+                            r2
+                        }
+                        {
+                            c'8
+                            r4.
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4.
                             c'8
                             r8
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r4.
-                            c'8
-                            r4.
-                        }
-                        {
-                            r1
-                        }
-                        {
-                            c'8
                             r2
-                            r8
-                        }
-                        {
-                            r2
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4
                             c'8
                             r4
                         }
-                        {
-                            r8
-                            c'8
-                            r2
-                        }
-                        {
-                            r4.
-                            c'8
-                            r4.
-                            c'8
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4
-                            c'8
-                            r2
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r8
-                            c'8
-                            r4.
-                        }
-                        {
-                            r2
-                        }
-                        {
-                            r2
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            c'8
-                            r2
-                        }
-                        {
-                            r2.
-                            c'8
-                            r8
-                        }
-                        {
-                            r4
-                            c'8
-                            r8
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r2
-                            c'8
-                            \bar "|"
-                        }
+                        R1 * 125/4
+                        \bar "|"
                     }
                 }
                 \tag english_horn
@@ -711,7 +1438,7 @@
                         {
                             r1
                         }
-                        R1 * 20
+                        R1 * 91/2
                         \bar "|"
                     }
                 }
@@ -837,84 +1564,8 @@
                             r4.
                             d'8
                         }
-                        {
-                            r4
-                            r8
-                            d'8
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r2.
-                            d'8
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4.
-                            d'8
-                            r4.
-                        }
-                        {
-                            r8
-                            d'8
-                            r2
-                        }
-                        {
-                            r2
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            d'8
-                            r4.
-                            d'8
-                            r8
-                        }
-                        {
-                            r1
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r8
-                            d'8
-                            r8
-                            d'8
-                            r4.
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4
-                            d'8
-                            r4
-                        }
-                        {
-                            r8
-                            d'8
-                            r4
-                        }
-                        {
-                            r2
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4.
-                            d'8
-                            r8
-                        }
-                        {
-                            r1
-                        }
-                        {
-                            r8
-                            d'8
-                            r4
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            d'8
-                            r2
-                            \bar "|"
-                        }
+                        R1 * 75/2
+                        \bar "|"
                     }
                 }
             >>
@@ -1002,6 +1653,51 @@
                             c'2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2.
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2.
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            R1 * 8
                             \bar "|"
                         }
                     }
@@ -1076,6 +1772,51 @@
                             c'2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2.
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2.
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            R1 * 8
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -1115,6 +1856,33 @@
                             s1
                             s2
                             s2.
+                            s1
+                            s2
+                            s2.
+                            s1
+                            cs,16 -\marcato
+                            s2
+                            s8.
+                            s1
+                            s2.
+                            s1
+                            s2
+                            s1
+                            s1
+                            s2.
+                            s2.
+                            s2
+                            cs,16 -\marcato
+                            s2
+                            s8.
+                            s1
+                            s1
+                            s2
+                            s2.
+                            s2
+                            s2.
+                            s1
+                            R1 * 8
                             \bar "|"
                         }
                     >>
@@ -1230,76 +1998,100 @@
                         {
                             r2
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4
+                        {
                             c'8
-                            r2
+                            r2..
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r2
+                        {
                             r8
                             c'8
                             r8
-                        }
-                        {
-                            r2
-                            r8
                             c'8
-                        }
-                        {
-                            r4.
-                            c'8
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            c'8
-                            r2
-                            r8
-                            c'8
-                            r8
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r2.
-                            c'8
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            r2
-                        }
-                        {
-                            r4.
-                            c'8
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            r4
-                            c'8
-                            r4
-                            c'8
-                            r4
-                        }
-                        {
                             r2
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r8
+                            c'8
+                            r4.
+                        }
+                        {
+                            r8
+                            c'8
+                            r4
+                        }
+                        {
+                            r2.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            c'8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            c'8
+                            r2
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            c'8
+                            r4
+                            c'8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            c'8
+                            r4.
+                        }
+                        R1 * 1
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            c'8
+                            r4
+                            c'8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
                             r4.
                             c'8
-                            r8
-                            \bar "|"
+                            r4.
                         }
+                        {
+                            c'8
+                            r8
+                            c'8
+                            r8
+                        }
+                        {
+                            r8
+                            c'8
+                            r4.
+                            c'8
+                        }
+                        R1 * 3/2
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            c'8
+                            r4
+                            c'8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4.
+                            c'8
+                            r4.
+                        }
+                        R1 * 89/4
+                        \bar "|"
                     }
                 }
             >>
@@ -1420,49 +2212,21 @@
                             c'8
                             r8
                         }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            r8
+                            c'8
+                            r8
+                        }
                         {
-                            c'8
-                            r8
                             r4
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r8
-                            c'8
-                            r2
-                            r8
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
                             c'8
                             r4.
                             c'8
-                            r4
-                        }
-                        {
-                            r2
-                            c'8
                             r8
-                        }
-                        {
-                            c'8
-                            r4.
                         }
                         {
                             r2.
-                        }
-                        {
-                            r2
-                            r8
-                            c'8
-                        }
-                        {
-                            r1
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r2
-                            r8
                             c'8
                             r8
                         }
@@ -1476,29 +2240,81 @@
                             r2
                         }
                         {
-                            c'8
                             r4.
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            r8
                             c'8
                             r4
-                            c'8
-                            r4.
-                        }
-                        {
-                            r2
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
                             c'8
                             r4.
-                            \bar "|"
                         }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r2
+                            r8
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            c'8
+                            r4
+                            c'8
+                            r8
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            c'8
+                            r4
+                        }
+                        R1 * 1
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            c'8
+                            r4
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            c'8
+                            r4.
+                            c'8
+                            r4
+                        }
+                        {
+                            r8
+                            c'8
+                            r4
+                        }
+                        {
+                            c'8
+                            r4.
+                            c'8
+                            r8
+                        }
+                        R1 * 3/2
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            c'8
+                            r4
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            c'8
+                            r4.
+                            c'8
+                            r4
+                        }
+                        R1 * 89/4
+                        \bar "|"
                     }
                 }
                 \tag viola
@@ -1515,44 +2331,72 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        c'2. \p
-                            ^ \markup {
-                                \upright
-                                    "XFB flaut."
-                                }
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \mp \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -1570,40 +2414,72 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        c'2.
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie \< \p
-                        c'2 \repeatTie \mp \> \mp
-                        c'2. \repeatTie \p \< \p
-                        c'1 \repeatTie \mp
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 1
                         \bar "|"
                     }
                 }
