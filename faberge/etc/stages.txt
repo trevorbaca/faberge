@@ -404,89 +404,196 @@ no pause.
 
 [A21]
 
-gears (α) vn, va spazzolati continue decrescendo and transition to jewelers'
-desk (γ) quiet sustained pitches (γ). jewelers' desk (γ) bfl glowing
-multiphonics, eh keynoise, bcl, vc continue shining mf swell enveloping. shell
-(β) trilled eh returns with greatly increased activity. eh stops at end of
-stage. perc still tacet. 
+shell (β) pf resonance continues.
+gears (α) vn, va spazzolati continue decrescendo.
+jewlers' desk (γ) bfl, bcl, vc begin state 2.3.
+perc still tacet. 
+eh tbd.
+no pause.
+
+    bfl: state 2.3
+    eh: ?
+    bcl: state 2.3
+    pf: [resonance]
+    perc: --
+    vn: [spazzolati ff > pp] 
+    va: [spazzolati ff > pp]
+    vc: state 2.3
 
 [A22]
 
-gears (α) vn, va spazzolati complete decrescendo and arrive at jewelers' desk
-(γ) quiet sustained pitches. jewelers' desk (γ) bfl glowing multiphonics, eh
-keynoise, bcl, vc continue with mf swell enveloping.
+shell (β) pf resonance continues.
+gears (α) vn, va spazzolati complete decrescendo.
+jewelers' desk (γ) eh keynoise.
+jewelers' desk (γ) bfl, bcl, vc continue state 2.3.
+perc tacet.
+
+    bfl: [state 2.3] ff
+    eh: keynoise
+    bcl: [state 2.3] ff
+    pf: [resonance]
+    perc: --
+    vn: [spazzolati ff > pp] 
+    va: [spazzolati ff > pp]
+    vc: [state 2.3] ff
 
 [A23]
 
-jewelers' desk (γ) bfl glowing multiphonics, bcl glowing multiphonics, vn, va,
-vc subito pp and p. jewelers' desk (γ) lowregister attackless marimba pedal
-introduced at ppppp. jewelers' desk (γ) pf attacks same pitch as marimba pedal
-in octaves and sustains with middle or right pedal. shell (β) trilled eh
-returns with greatly increased activity. eh stops at end of stage.
+shell (β) pf attacks same pitch as marimba and sustains with middle pedal.
+shell (β) eh trills.
+jewelers' desk (γ) bfl, bcl, vc transition from state 2.3 to state 1.
+jewelers' desk (γ) vn, va begin state 1: poccissimo scratch pedals.
+jewelers' desk (γ) lowregister attackless marimba pedal begins.
+no players tacet.
+no pause.
+
+    bfl: state 2.3 -> state 1
+    eh: even more trills
+    bcl: state 2.3 -> state 1
+    pf: attack
+    perc: marimba lowregister pedal
+    vn: state 1: pochissimo scratch pedal
+    va: state 1: pochissimo scratch pedal
+    vc: state 2.3 -> state 1
 
 [A24]
 
 jewelers' desk (γ) bfl glowing multiphonics, eh keynoise, bcl, pf decay,
 marimba, vn, va, vc jewelers' desk (γ) reilluminates with mf swell enveloping.
 
-[A25]
+    bfl: state 1: glowing multiphonics
+    eh: [even more trills]
+    bcl: state 1: quiet pedal
+    pf: [resonance]
+    perc: [marimba lowregister pedal]
+    vn: [state 1: pochissimo scratch pedal]
+    va: [state 1: pochissimo scratch pedal]
+    vc: state 1: pedal
 
-shell (β) eh reaches apotheosis in doppeltrill. jewelers' desk (γ) bfl glowing
-multiphonics, bcl glowing multiphonics, pf decay, marimba, vn, va, vc subito pp
-enveloping. long stage.
+[A25]
+long stage.
+
+    bfl: [state 1: glowing multiphonics]
+    eh: doppeltrill apotheosis begins
+    bcl: [state 1: quiet pedal]
+    pf: [resonance]
+    perc: [marimba lowregister pedal]
+    vn: [state 1: pochissimo scratch pedal]
+    va: [state 1: pochissimo scratch pedal]
+    vc: [state 1: pedal]
 
 [A26]
+long stage.
 
-shell (β) eh doppeltrill apotheosis crescendoes to maximum. jewelers' desk (γ)
-bfl glowing sound, bcl glowing sound, pf decay, marimba, vn, va, vc crescendoes
-from pp to f. shell (β) eh stops at end of stage. jewelers' desk (γ) pf lifts
-pedal at end of stage. jewelers' desk (γ) pf moves to kiln (δ) harpsichord at
-end of stage.
+    bfl: [state 1: glowing multiphonics] crescendo to forte fluttertongue
+    eh: doppeltrill apotheosis reaches maximum
+    bcl: [state 1: quiet pedal] crescendo to forte
+    pf: [resonance]
+    perc: [marimba lowregister pedal]
+    vn: [state 1: pochissimo scratch pedal] crescendo to forte
+    va: [state 1: pochissimo scratch pedal] crescendo to forte
+    vc: [state 1: pedal] crescendo to forte
 
 [A27]
 
+shell (β) pf resonance stops. pf moves to hpschd.
 jewelers' desk (γ) bfl glow, eh keynoise, bcl glow, marimba, vn, va, vc begin
 decrescendo from f back to pp. kiln (δ) harpsichord tacet.
 
+    bfl: [state 1: glowing multiphonics] decrescendo to p
+    eh: keynoise
+    bcl: [state 1: quiet pedal] decrescendo to p
+    pf: <to hpschd>
+    perc: [marimba lowregister pedal]
+    vn: [state 1: pochissimo scratch pedal] decrescendo to pp
+    va: [state 1: pochissimo scratch pedal] decrescendo to pp
+    vc: [state 1: pedal] decrescendo to p
+
 [A28]
 
-jewelers' desk (γ) vn, va, vc finish decrescendo. jewelers' desk (γ) bfl glow,
-eh keynoise, bcl glow, marimba continue decrescendo. kiln (δ) hpschd tacet.
+    bfl: [state 1: glowing multiphonics] pp
+    eh: [keynoise]
+    bcl: [state 1: quiet pedal] pp
+    hpschd: --
+    perc: [marimba lowregister pedal]
+    vn: [state 1: pochissimo scratch pedal] decrescendo to niente
+    va: [state 1: pochissimo scratch pedal] decrescendo to niente
+    vc: [state 1: pedal] pp
 
 [A29]
 
-kiln (δ) vn, va, vc dripping clb begin extremely sparsely. jeweler's desk (γ)
-bfl glow, eh keynoise, bcl glow, marimba continue decrescendo. kiln (δ) hpschd
-tacet.
+    bfl: [state 1: glowing multiphonics] ppp
+    eh: [keynoise]
+    bcl: [state 1: quiet pedal] ppp
+    hpschd: --
+    perc: [marimba lowregister pedal]
+    vn: kiln: extremely sparse clb
+    va: kiln: extremely sparse clb
+    vc: [state 1: pedal] pp
 
 [A30]
 
-kiln (δ) vn, va, vc dripping clb become somewhat more frequent. jeweler's desk
-(γ) bfl glow, eh keynoise, bcl glow, marimba pedal continue decrescendo. kiln
-(δ) hpschd tacet.
+    bfl: [state 1: glowing multiphonics] pppp
+    eh: [keynoise]
+    bcl: [state 1: quiet pedal] pppp
+    hpschd: --
+    perc: [marimba lowregister pedal]
+    vn: kiln: more clb
+    va: kiln: more clb
+    vc: [state 1: pedal] pp
 
 [A31]
 
-kiln (δ) vn, va, vc dripping clb now continuous. jewelers' desk (γ) marimba
-pedal completes decrescendo. jewelers' desk (γ) bfl glow, bcl glow, continue
-decrescendo. kiln (δ) hpschd tacet.
+    bfl: [state 1: glowing multiphonics] pppp
+    eh: [keynoise]
+    bcl: [state 1: quiet pedal] pppp
+    hpschd: --
+    perc: [marimba lowregister pedal] decrescendo to niente
+    vn: kiln: continuous clb
+    va: kiln: continuous clb
+    vc: [state 1: pedal] pppp + tasto XFB decrescendo to niente
 
 [B1]
-(fundamental changes.) kiln (δ) vn, va, vc dripping clb continue. kiln (δ)
-hpschd begins. jewelers' desk (γ) bfl glow, eh keynoise, bcl glow continue
-decrescendo. perc tacet.
+(fundamental changes.)
+perc tacet.
+
+    bfl: [state 1: glowing multiphonics] pppp
+    eh: [keynoise drawdown to niente]
+    bcl: [state 1: quiet pedal] pppp
+    hpschd: 'clb'
+    perc: --
+    vn: [kiln: continuous clb]
+    va: [kiln: continuous clb]
+    vc: kiln: continuous clb
 
 [B2]
-kiln (δ) hpschd, vn, va, vc dripping clb continue. jewelers' desk (γ) bfl glow,
-eh keynoise, bcl glow complete decrescendo. perc tacet.
+perc tacet.
+
+    bfl: [state 1: glowing multiphonics decrescendo to niente]
+    eh: [keynoise drawdown to niente]
+    bcl: [state 1: pppp pedal drawdown to niente]
+    hpschd: [kiln: continuous 'clb']
+    perc: --
+    vn: [kiln: continuous clb]
+    va: [kiln: continuous clb]
+    vc: [kiln: continuous clb]
 
 [B3]
-(absent fundamental; persists only in memory.) kiln (δ) hpschd, vn, va, vc
-dripping clb continues. fl, eh, cl, perc tacet.
+(absent fundamental; persists only in memory.)
+bfl, eh, bcl, perc tacet.
+
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: [kiln: continuous 'clb']
+    perc: --
+    vn: [kiln: continuous reiterative clb]
+    va: [kiln: continuous clb]
+    vc: [kiln: continuous clb]
 
 [B4]
-(transformation of type of motion.) kiln (δ) castanets initiate hpschd, vn, va,
-vc dripping clb cells with intervening rests.
+(transformation of type of motion.)
+kiln (δ) castanets initiate hpschd, vn, va, vc clb cells w/ intervening rests.
 
 [B5]
 kiln (δ) castanets, hpschd, vn, va, vc dripping clb cells with intervening
