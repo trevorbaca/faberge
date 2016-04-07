@@ -200,3 +200,17 @@ segment_maker.append_specifiers(
             ),
         ],
     )
+
+segment_maker.append_specifiers(
+    (vc, stages(2, 2)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.dynamics.make_hairpins(
+                ['p < mp', 'mp > p'],
+                enchain_hairpins=True,
+                span=[2],
+                ),
+            ),
+        ],
+    )
