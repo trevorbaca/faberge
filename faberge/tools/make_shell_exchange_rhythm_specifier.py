@@ -9,6 +9,7 @@ from abjad.tools import sequencetools
 def make_shell_exchange_rhythm_specifier(
     total_parts,
     this_part,
+    extra_counts_per_division_rotation=None,
     rotation=None,
     ):
     assert total_parts in (2, 3, 4), repr(total_parts)
@@ -101,8 +102,12 @@ def make_shell_exchange_rhythm_specifier(
     assert mathtools.weight(grouped_rests) == mathtools.weight(counts)
     counts = grouped_rests
 
+    extras = [0, 0, -1, 0, 0, -1, -1]
+    extras = sequencetools.Sequence(extras)
+    extras = extras.rotate(index=extra_counts_per_division_rotation)
+
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
-        extra_counts_per_division=[0, 0, -1, 0, 0, -1, -1],
+        extra_counts_per_division=extras,
         talea=rhythmmakertools.Talea(
             counts=counts,
             denominator=8,
