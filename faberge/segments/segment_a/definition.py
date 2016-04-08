@@ -508,12 +508,13 @@ segment_maker.append_specifiers(
     
 ### flute ###
 
-segment_maker.append_specifiers(
-    (fl, stages(12, 12)),
-    [
-        instrumenttools.BassFlute(),
-        ],
-    )
+# TODO: uncomment
+#segment_maker.append_specifiers(
+#    (fl, stages(12, 12)),
+#    [
+#        instrumenttools.BassFlute(),
+#        ],
+#    )
 
 ### english horn ###
 
@@ -528,12 +529,13 @@ segment_maker.append_specifiers(
 
 ### clarinet ###
 
-segment_maker.append_specifiers(
-    (cl, stages(8, 8)),
-    [
-        instrumenttools.BassClarinet(),
-        ],
-    )
+# TODO: uncomment
+#segment_maker.append_specifiers(
+#    (cl, stages(8, 8)),
+#    [
+#        instrumenttools.BassClarinet(),
+#        ],
+#    )
 
 ### piano ###
 
@@ -553,13 +555,12 @@ segment_maker.append_specifiers(
         ],
     )
 
-# NEXT:
-#segment_maker.append_specifiers(
-#    ('Piano Staff Group', stages(27, 27)),
-#    [
-#        instrumenttools.Harpsichord(),
-#        ],
-#    )
+segment_maker.append_specifiers(
+    (pf_rh, stages(27, 27)),
+    [
+        faberge.materials.instruments['harpsichord'],
+        ],
+    )
 
 ### percussion ###
 

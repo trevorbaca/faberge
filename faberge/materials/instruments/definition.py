@@ -6,6 +6,14 @@ from abjad.tools import instrumenttools
 
 agent = baca.tools.MarkupAgent
 
+harpsichord = instrumenttools.Harpsichord(
+    instrument_name_markup=\
+        agent.make_instrument_name_markup('Harpsichord'),
+    short_instrument_name_markup=\
+        agent.make_short_instrument_name_markup('Hpschd.'),
+    )
+harpsichord._default_scope = 'PianoStaffGroup'
+
 instruments = collections.OrderedDict([
     (
         'flute', 
@@ -76,12 +84,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'harpsichord', 
-        instrumenttools.Harpsichord(
-            instrument_name_markup=\
-                agent.make_instrument_name_markup('Harpsichord'),
-            short_instrument_name_markup=\
-                agent.make_short_instrument_name_markup('Hpschd.'),
-            ),
+        harpsichord,
         ),
     (
         'percussion', 
