@@ -12,7 +12,7 @@ from faberge.materials.__abbreviations__ import *
 stage_specifier = baca.tools.StageSpecifier([
     4, # 1
     4, # 2
-    2, # 3
+    4, # 3
     2, # 4
     2, # 5
     2, # 6
@@ -71,13 +71,15 @@ segment_maker = baca.tools.SegmentMaker(
     transpose_score=True,
     )
 
-segment_maker.validate_measure_count(66)
+segment_maker.validate_measure_count(68)
 segment_maker.validate_stage_count(31)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
 #################################### TIME #####################################
 ###############################################################################
+
+### flute ###
 
 segment_maker.append_specifiers(
     (fl, stages(1, 7)),
@@ -97,9 +99,98 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (fl, stages(12, 12)),
+    baca.rhythm.make_rest_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(16, 18)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(19, 20)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(21, 22)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(23, 23)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(24, 31)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+### english horn ###
+
+segment_maker.append_specifiers(
     (eh, [stages(2, 2)]),
     faberge.tools.make_eh_trill_rhythm_specifier(),
     )
+
+segment_maker.append_specifiers(
+    (eh, [stages(5, 5)]),
+    faberge.tools.make_eh_trill_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, [stages(8, 8)]),
+    faberge.tools.make_eh_trill_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, [stages(12, 12)]),
+    faberge.tools.make_eh_trill_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, [stages(16, 16)]),
+    faberge.tools.make_guiro_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, [stages(17, 17)]),
+    faberge.tools.make_eh_trill_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, [stages(18, 20)]),
+    faberge.tools.make_keynoise_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, [stages(21, 21)]),
+    faberge.tools.make_eh_trill_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(22, 22)),
+    faberge.tools.make_keynoise_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(23, 25)),
+    faberge.tools.make_eh_trill_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(26, 26)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(27, 31)),
+    faberge.tools.make_keynoise_rhythm_specifier(),
+    )
+
+### clarinet ###
 
 segment_maker.append_specifiers(
     (cl, stages(1, 7)),
@@ -110,6 +201,58 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (cl, stages(8, 8)),
+    baca.rhythm.make_rest_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(9, 10)),
+    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(11, 12)),
+    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(13, 13)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(14, 15)),
+    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(16, 16)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(17, 18)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(count_rotation=0),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(19, 20)),
+    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(21, 22)),
+    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(24, 31)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(count_rotation=0),
+    )
+
+### piano ###
+
+segment_maker.append_specifiers(
     (pf_music, [stages(1, 17), stages(18, 22), stages(23, 26)]),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
@@ -118,6 +261,15 @@ segment_maker.append_specifiers(
     (pf_attack, [stages(1, 17), stages(18, 22), stages(23, 26)]),
     faberge.tools.make_piano_attack_rhythm_specifier(),
     )
+
+segment_maker.append_specifiers(
+    (pf_music, stages(27, 27)),
+    baca.rhythm.make_rest_rhythm_specifier(),
+    )
+
+# HERE
+
+### percussion ###
 
 segment_maker.append_specifiers(
     (perc, stages(1, 7)),
@@ -145,6 +297,8 @@ segment_maker.append_specifiers(
         ),
     )
 
+### violin ###
+
 segment_maker.append_specifiers(
     (vn, stages(1, 7)),
     faberge.tools.make_shell_exchange_rhythm_specifier(
@@ -171,11 +325,15 @@ segment_maker.append_specifiers(
         ),
     )
 
+### viola ###
+
 #segment_maker.append_specifiers(
 #    (va, stages(1, 15)),
 #    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
 #    )
-#
+
+### cello ###
+
 #segment_maker.append_specifiers(
 #    (vc, stages(1, 15)),
 #    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
@@ -185,12 +343,16 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
+### ensemble directives ###
+
 segment_maker.append_specifiers(
     ([fl, cl, vn], stages(1, 1)),
     [
         baca.markup.make_boxed_markup('match sound of crotales'),
         ],
     )
+
+### beginning of ensemble dynamics ###
 
 segment_maker.append_specifiers(
     ([fl, cl, vn, perc], stages(1, 1)),
@@ -203,7 +365,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(2, 3)),
+    ([fl, cl, vn, perc], stages(2, 2)),
     [
         baca.dynamics.make_hairpins(
             ['niente < pp'],
@@ -211,7 +373,150 @@ segment_maker.append_specifiers(
             ),
         ],
     )
+
+segment_maker.append_specifiers(
+    ([fl, cl, vn, perc], stages(3, 3)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, cl, vn, perc], stages(4, 4)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, cl, vn, perc], stages(5, 5)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < pp'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, cl, vn, perc], stages(6, 6)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, cl, vn, perc], stages(7, 7)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, vn, perc], stages(8, 8)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < pp'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, vn, perc], stages(9, 9)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, vn, perc], stages(10, 10)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([fl, vn, perc], stages(11, 11)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn, perc], stages(12, 12)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn, perc], stages(14, 14)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn, perc], stages(15, 15)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn, perc], stages(17, 17)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < pp'],
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+### end of ensemble dynamics ###
     
+### flute ###
+
+segment_maker.append_specifiers(
+    (fl, stages(12, 12)),
+    [
+        instrumenttools.BassFlute(),
+        ],
+    )
+
+### english horn ###
+
 segment_maker.append_specifiers(
     (eh, stages(2, 2)),
     [
@@ -220,6 +525,17 @@ segment_maker.append_specifiers(
         Dynamic('f'),
         ],
     )
+
+### clarinet ###
+
+segment_maker.append_specifiers(
+    (cl, stages(8, 8)),
+    [
+        instrumenttools.BassClarinet(),
+        ],
+    )
+
+### piano ###
 
 segment_maker.append_specifiers(
     (pf_music, stages(1, 26)),
@@ -236,6 +552,16 @@ segment_maker.append_specifiers(
         Dynamic('sfz'),
         ],
     )
+
+# NEXT:
+#segment_maker.append_specifiers(
+#    ('Piano Staff Group', stages(27, 27)),
+#    [
+#        instrumenttools.Harpsichord(),
+#        ],
+#    )
+
+### percussion ###
 
 segment_maker.append_specifiers(
     (perc, stages(1, 1)),
