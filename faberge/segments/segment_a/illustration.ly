@@ -707,7 +707,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -725,7 +725,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -812,7 +812,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -2871,16 +2871,14 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            c'8 \<
-                            r8 \f
+                            c'8
+                            r8
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            c'8 \<
-                            r8 \f
+                            c'8
+                            r8
                         }
                         R1 * 7/4
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -3690,21 +3688,32 @@
                             c'8 \<
                             r4. \f
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            \once \override Hairpin #'circled-tip = ##t
-                            c'8 \<
-                            r4 \f
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            \once \override Hairpin #'circled-tip = ##t
-                            c'8 \<
-                            r8 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            c'8 \<
-                        }
-                        R1 * 7/4 \f
+                        R1 * 1
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             \once \override Hairpin #'circled-tip = ##t
@@ -3734,7 +3743,31 @@
                             c'8 \<
                             r4. \f
                         }
-                        R1 * 7/4
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             \once \override Hairpin #'circled-tip = ##t
@@ -3868,7 +3901,6 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            r2
                             c'8 [
                             c'8
                             c'8
@@ -3880,21 +3912,19 @@
                             c'8
                             c'8
                             c'8 ]
+                            r2
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/7 {
                             c'8 [
                             c'8
                             c'8
-                            c'8
-                            c'8
                             c'8 ]
-                            r4
+                            r2.
                             c'8 [
                             c'8
                             c'8
                             c'8 ]
-                            r4
                             \bar "|"
                         }
                     }
@@ -3913,75 +3943,254 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        \bar "|"
+                        c'2.
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2.
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'1
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r2
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8 ]
+                            r4
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8 ]
+                            r2.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r4
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8 ]
+                            r4
+                        }
+                        \times 4/7 {
+                            r2
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 2/3 {
+                            r2.
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                            r2
+                            \bar "|"
+                        }
                     }
                 }
                 \tag cello
@@ -3998,74 +4207,74 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
+                        c'2.
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'2.
+                        c'1 \repeatTie
+                        c'2
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2.
+                        c'1 \repeatTie
+                        c'2.
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
                         \bar "|"
                     }
                 }
