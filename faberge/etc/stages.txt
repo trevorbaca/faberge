@@ -566,11 +566,12 @@ long stage.
     vc: [state 1: pedal] pppp + tasto XFB decrescendo to niente
 
 [B1]
+tempo: kiln
 (fundamental changes.)
 perc tacet.
 
     bfl: [state 1: glowing multiphonics] pppp
-    eh: [keynoise drawdown to niente]
+    eh: [keynoise]
     bcl: [state 1: quiet pedal] pppp
     hpschd: 'clb'
     perc: --
@@ -582,7 +583,7 @@ perc tacet.
 perc tacet.
 
     bfl: [state 1: glowing multiphonics decrescendo to niente]
-    eh: [keynoise drawdown to niente]
+    eh: [keynoise]
     bcl: [state 1: pppp pedal drawdown to niente]
     hpschd: [kiln: continuous 'clb']
     perc: --
@@ -591,103 +592,270 @@ perc tacet.
     vc: [kiln: continuous clb]
 
 [B3]
+(long stage to induce forgetting.)
 (absent fundamental; persists only in memory.)
-bfl, eh, bcl, perc tacet.
+flutist takes flute.
+clarinetist takes clarinet.
+perc tacet.
+no pause.
 
-    bfl: --
-    eh: --
-    bcl: --
-    hpschd: [kiln: continuous 'clb']
+    fl: <take flute>
+    eh: [keynoise drawdown to niente]
+    cl: <take clarinet>
+    hpschd: [kiln: continuous clb]
     perc: --
-    vn: [kiln: continuous reiterative clb]
+    vn: [kiln: continuous clb]
     va: [kiln: continuous clb]
     vc: [kiln: continuous clb]
 
 [B4]
 (transformation of type of motion.)
-kiln (δ) castanets initiate hpschd, vn, va, vc clb cells w/ intervening rests.
+kiln (δ) castanets enter and induce dramatic pause;
+kiln (δ) castanets strike again and cause clb to resume.
+kiln (δ) hpschd, vn, va, vc clb continue, as above.
+winds tacet.
+single internal pause as described above.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: [kiln: continuous clb]
+    perc: sputtering castanets
+    vn: [kiln: continuous clb]
+    va: [kiln: continuous clb]
+    vc: [kiln: continuous clb]
 
 [B5]
-kiln (δ) castanets, hpschd, vn, va, vc dripping clb cells with intervening
-rests.
+kiln (δ) castanets, hpschd, vn, va, vc clb cells with intervening rests.
+winds tacet.
+structured pauses repeated internally as described above.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: [structured continuous clb]
+    perc: structured castanets
+    vn: [structured continuous clb]
+    va: [structured continuous clb]
+    vc: [structued continuous clb]
 
 [B6]
-kiln (δ) castanets, hpschd, vn, va, vc dripping clb cells with intervening
-rests.
+kiln (δ) castanets, hpschd, vn, va, vc clb cells with intervening rests.
+winds tacet.
+structured pauses repeated internally as described above.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: [structured continuous clb]
+    perc: structured castanets
+    vn: [structured continuous clb]
+    va: [structured continuous clb]
+    vc: [structued continuous clb]
 
 [B7]
-shell (β) fl, cl exchange single pitch. kiln (δ) castanets, hpschd, vn,
-va, vc dripping clb continues.
+kiln (δ) castanets tacet this stage.
+kiln (δ) hpschd, vn, va, vc clb cells continue.
+shell (β) fl, cl exchange single pitch as memory of [A] with cells.
+perc, english horn tacet.
+structured pauses repeated internally as described above.
+no end-pause.
+
+    fl: two-player exchange
+    eh: --
+    cl: two-player exchange
+    hpschd: [structured continuous clb]
+    perc: --
+    vn: [structured continuous clb]
+    va: [structured continuous clb]
+    vc: [structued continuous clb]
+
 
 [B8]
-ratchet game (β+δ) x6:
-each time subject to time manipulation:
-each time shell (β) fl, cl exchanged pitch progresses:
+no end-pause.
 
-    kiln (δ) guiro (eh), bd, castanets initiate cell;
-    shell (β) fl, cl exchange single pitch;
-    kiln (δ) hpschd, vn, va, vc dripping clb plays out.
+    fl: --
+    eh: --
+    cl: --
+    hpschd: [continuous clb]
+    perc: --
+    vn: [continuous clb]
+    va: [continuous clb]
+    vc: --
 
 [B9]
+longer stage.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: [continuous clb]
+    perc: marimba lowregister pedal
+    vn: [continuous clb]
+    va: [continuous clb]
+    vc: shell: state 1: pedal pppp + tasto XFB
+
+[B10]
+fermata.
+
+[B11]
+longer stage.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: [continuous clb]
+    perc: marimba lowregister pedal
+    vn: [continuous clb]
+    va: [continuous clb]
+    vc: shell: state 1: pedal pppp + tasto XFB
+
+[B12]
+fermata.
+
+[B13]
+longer stage.
+short one-beat rest at end of segment.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: marimba lowregister pedal
+    vn: --
+    va: --
+    vc: shell: state 1: pedal pppp + tasto XFB
+
+[B14]
+longer stage.
+short one-beat rest at end of segment.
+
+    fl: --
+    eh: maximal doppeltrill
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: --
+    vc: shell: state 1: pedal pppp + tasto XFB
+
+[B15]
+longer stage.
+short one-beat rest at end of segment.
+
+    fl: --
+    eh: maximal doppeltrill
+    cl: --
+    hpschd: --
+    perc: continuously rolled castanets
+    vn: --
+    va: --
+    vc: shell: state 1: pedal pppp + tasto XFB
+
+[B16]
+furiously repeated single beat combinations of castanets and doppeltrill.
+
+    fl: --
+    eh: maximal doppeltrill
+    cl: --
+    hpschd: --
+    perc: continuously rolled castanets
+    vn: --
+    va: --
+    vc: --
+
+[B17]
+fermata.
+
+[B18]
+longer stage.
+eight counted beats of rest at end of stage, but otherwise no end-pause.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: continuously rolled castanets: crescendo off cliff
+    vn: --
+    va: --
+    vc: --
+
+[B19]
+tempo: subito shell (maybe tempo changed even earlier)
+ratchet game (β+δ):
+six at equal long duration:
+then ten more at progressively shorter written-out durations:
+one quarter rest with short fermata held by perc before each bd downbeat:
+
+    fl: forte two-player shell exchange
+    eh: --
+    cl: forte two-player shell exchange
+    hpschd: fast reiterative clb
+    perc: rolled castanet pickup, struck db downbeat, groaned db follow-through
+    vn: fast reiterative clb
+    va: fast reiterative clb
+    vc: enveloped groaned up-glissando, enveloped groaned down-glissando
+
+[B20]
 gears (α) rhythmicized vn, va spazzolati return for one stage. six other
 players tacet.
 
-[B10]
+[B21]
 papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
 
-[B11]
+[B22]
 kiln (δ) guiro (eh), bc, castanets, hpschd, vn, va, vc cell once more. pause.
 fl, cl tacet. short pause.
 
-[B12]
+[B23]
 shell (β) fl, cl exchange single pitch. six other players tacet. fl takes
 bfl at end of stage. cl takes bcl at end of stage. short pause.
 
-[B13]
+[B24]
 papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
 
-[B14]
+[B25]
 papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
 pause.
 
-[B15]
+[B26]
 kiln (δ) guiro (eh), bc, castanets, hpschd, vn, va, vc cell once more. fl, cl
 tacet. short pause.
 
-[B16]
+[B27]
 papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
 
-[B17]
+[B28]
 papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
 pause.
 
-[B18]
+[B29]
 papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
 pause.
 
-[B19]
+[B30]
 kiln (α) hpschd, vn, va, vc dripping clb. fl, eh, cl, perc tacet. short pause.
 
-[B20]
+[B31]
 papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
 
-[B21]
+[B32]
 papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
 pause.
 
-[B22]
+[B33]
 papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone. five other players
 tacet. short pause.
 
-[B23]
+[B34]
 gears (α) vn, va spazzolati together with kiln (δ) guiro (eh), bd, castanets.
 fl, cl, pf, vc tacet. extremely short speed-increasing pause.
 
-[B24]
+[B35]
 papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone. cl, pf, perc, vn,
 vc tacet. no pause.
 
-[B25]
+[B36]
 papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone. cl, pf, perc, vn,
 vc tacet. short pause.
 
