@@ -79,7 +79,7 @@ segment_maker.validate_measures_per_stage()
 #################################### TIME #####################################
 ###############################################################################
 
-### flute ###
+### flute (time) ###
 
 segment_maker.append_specifiers(
     (fl, stages(1, 7)),
@@ -128,7 +128,7 @@ segment_maker.append_specifiers(
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
-### english horn ###
+### english horn (time) ###
 
 segment_maker.append_specifiers(
     (eh, [stages(2, 2)]),
@@ -190,7 +190,7 @@ segment_maker.append_specifiers(
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
-### clarinet ###
+### clarinet (time) ###
 
 segment_maker.append_specifiers(
     (cl, stages(1, 7)),
@@ -250,7 +250,7 @@ segment_maker.append_specifiers(
     faberge.tools.make_glowing_wind_rhythm_specifier(count_rotation=0),
     )
 
-### piano ###
+### piano (time) ###
 
 segment_maker.append_specifiers(
     (pf_music, [stages(1, 17), stages(18, 22), stages(23, 26)]),
@@ -267,9 +267,7 @@ segment_maker.append_specifiers(
     baca.rhythm.make_rest_rhythm_specifier(),
     )
 
-# HERE
-
-### percussion ###
+### percussion (time) ###
 
 segment_maker.append_specifiers(
     (perc, stages(1, 7)),
@@ -297,7 +295,17 @@ segment_maker.append_specifiers(
         ),
     )
 
-### violin ###
+segment_maker.append_specifiers(
+    (perc, stages(18, 18)),
+    baca.rhythm.make_single_attack_rhythm_specifier(Duration(3, 4)),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(23, 31)),
+    faberge.tools.make_marimba_pedal_rhythm_specifier(fuse_counts=[2, 2, 1]),
+    )
+
+### violin (time) ###
 
 segment_maker.append_specifiers(
     (vn, stages(1, 7)),
@@ -325,14 +333,56 @@ segment_maker.append_specifiers(
         ),
     )
 
-### viola ###
+segment_maker.append_specifiers(
+    (vn, stages(18, 18)),
+    baca.rhythm.make_single_attack_rhythm_specifier(Duration(3, 4)),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(19, 22)),
+    faberge.tools.make_spazzolato_rhythm_specifier(rotation=-2),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(23, 28)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(29, 29)),
+    #faberge.tools.make_clb_rhythm_specifier(density='sparse'),
+    faberge.tools.make_clb_rhythm_specifier(
+        count_rotation=0,
+        fuse_counts=[2, 2, 1],
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(30, 30)),
+    #faberge.tools.make_clb_rhythm_specifier(density='moderate'),
+    faberge.tools.make_clb_rhythm_specifier(
+        count_rotation=-1,
+        fuse_counts=[2, 2, 1],
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(31, 31)),
+    #faberge.tools.make_clb_rhythm_specifier(density='continuous'),
+    faberge.tools.make_clb_rhythm_specifier(
+        count_rotation=-2,
+        fuse_counts=[2, 2, 1],
+        ),
+    )
+
+### viola (time) ###
 
 #segment_maker.append_specifiers(
 #    (va, stages(1, 15)),
 #    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
 #    )
 
-### cello ###
+### cello (time) ###
 
 #segment_maker.append_specifiers(
 #    (vc, stages(1, 15)),
@@ -343,7 +393,7 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-### ensemble directives ###
+### ensemble color directives ###
 
 segment_maker.append_specifiers(
     ([fl, cl, vn], stages(1, 1)),
@@ -506,17 +556,16 @@ segment_maker.append_specifiers(
 
 ### end of ensemble dynamics ###
     
-### flute ###
+### flute (color) ###
 
-# TODO: uncomment
-#segment_maker.append_specifiers(
-#    (fl, stages(12, 12)),
-#    [
-#        instrumenttools.BassFlute(),
-#        ],
-#    )
+segment_maker.append_specifiers(
+    (fl, stages(12, 12)),
+    [
+        faberge.materials.instruments['bass flute'],
+        ],
+    )
 
-### english horn ###
+### english horn (color) ###
 
 segment_maker.append_specifiers(
     (eh, stages(2, 2)),
@@ -527,17 +576,16 @@ segment_maker.append_specifiers(
         ],
     )
 
-### clarinet ###
+### clarinet (color) ###
 
-# TODO: uncomment
-#segment_maker.append_specifiers(
-#    (cl, stages(8, 8)),
-#    [
-#        instrumenttools.BassClarinet(),
-#        ],
-#    )
+segment_maker.append_specifiers(
+    (cl, stages(8, 8)),
+    [
+        faberge.materials.instruments['bass clarinet'],
+        ],
+    )
 
-### piano ###
+### piano (color) ###
 
 segment_maker.append_specifiers(
     (pf_music, stages(1, 26)),
@@ -562,7 +610,7 @@ segment_maker.append_specifiers(
         ],
     )
 
-### percussion ###
+### percussion (color) ###
 
 segment_maker.append_specifiers(
     (perc, stages(1, 1)),
@@ -570,6 +618,21 @@ segment_maker.append_specifiers(
         baca.markup.make_boxed_markup('BOWED CROTALES'),
         ],
     )
+
+segment_maker.append_specifiers(
+    (perc, stages(18, 18)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < ff'],
+            include_following_rests=True,
+            ),
+        baca.markup.lv_possibile(),
+        ],
+    )
+
+### violin (color) ###
+
+### viola (color) ###
 
 #segment_maker.append_specifiers(
 #    (va, stages(1, 1)),
@@ -597,7 +660,9 @@ segment_maker.append_specifiers(
 #            ),
 #        ],
 #    )
-#
+
+### cello (color) ###
+
 #segment_maker.append_specifiers(
 #    (vc, stages(2, 2)),
 #    [
