@@ -274,7 +274,7 @@ no pause.
 
 shell (β) pf resonance continues.
 jewelers' desk (γ) bcl, vc subito ppp.
-gears (α) va spazzolati shine through for a moment.
+gears (α) vn spazzolati, va spazzolati shine through for a moment.
 four other players tacet.
 no pause.
 
@@ -283,7 +283,7 @@ no pause.
     bcl: ppp
     pf: [resonance]
     perc: --
-    vn: --
+    vn: spazzolati
     va: spazzolati
     vc: ppp
 
@@ -349,8 +349,9 @@ no pause.
 shell (β) pf resonance continues.
 shell (β) vn, bowed crotale subito pp.
 shell (β) eh trills return.
+shell (β) va XFB subito pp.
 jewelers' desk (γ) bfl, bcl, vc begin state 1.
-va tacet.
+no players tacet.
 no pause.
 
     bfl: state 1
@@ -359,7 +360,7 @@ no pause.
     pf: [resonance]
     perc: exchange sub. pp
     vn: exchange sub. pp
-    va: --
+    va: tasto XFB pp
     vc: state 1
 
 [A18]
@@ -367,9 +368,10 @@ short stage.
 
 shell (β) pf attacks field.
 shell (β) vn, bowed crotale attack final note simultaneously ff.
+shell (β) va XFB continues pp.
 jewelers' desk (γ) eh keynoise.
 jewlers' desk (γ) bfl, bcl, vc continue state 1.
-va tacet.
+no players tacet.
 no pause.
 
     bfl: [state 1]
@@ -378,7 +380,7 @@ no pause.
     pf: attack sfz
     perc: [exchange] single ff
     vn: [exchange] single ff
-    va: --
+    va: [tasto XFB pp]
     vc: [state 1]
 
 [A19]
