@@ -25,9 +25,9 @@ metadata = datastructuretools.TypedOrderedDict(
             datastructuretools.TypedOrderedDict(
                 [
                     ('Cello Music Staff', 'cello'),
-                    ('Clarinet Music Staff', 'bass clarinet'),
+                    ('Clarinet Music Staff', 'clarinet in B-flat'),
                     ('English Horn Music Staff', 'English horn'),
-                    ('Flute Music Staff', 'bass flute'),
+                    ('Flute Music Staff', 'flute'),
                     ('Percussion Music Staff', 'percussion'),
                     ('Piano Staff Group', 'harpsichord'),
                     ('Viola Music Staff', 'viola'),
@@ -38,7 +38,7 @@ metadata = datastructuretools.TypedOrderedDict(
         ('end_tempo', 'kiln'),
         ('end_time_signature', '3/4'),
         ('first_bar_number', 71),
-        ('measure_count', 50),
+        ('measure_count', 97),
         ('name', 'B'),
         ('segment_count', 12),
         ('segment_number', 3),
