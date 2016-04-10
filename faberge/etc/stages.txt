@@ -2,8 +2,6 @@ FABERGÉ - STAGES
 
 [TODO: prefigure (α) superball.]
 
-[TODO: prefigure (α) 1/2 clt glissandi.]
-
 [TODO: prefigure (β) tremolo electricity.]
 
 [TODO: prefigure (β) shakers.]
@@ -41,8 +39,18 @@ do not prefigure:
 [intro]
 tempo: shell (4=100)
 measure count: 2
-gears (α) eh ratchet, vn spazzolati, va spazzolati. five other players tacet.
+gears (α) eh ratchet, vn spazzolati, va spazzolati.
+five other players tacet.
 no pause.
+
+    fl: --
+    eh: ratchet
+    cl: --
+    pf: --
+    perc: --
+    vn: spazzolati
+    va: spazzolati
+    vc: --
 
 [A1]
 
@@ -573,7 +581,7 @@ perc tacet.
     bfl: [state 1: glowing multiphonics] pppp
     eh: [keynoise]
     bcl: [state 1: quiet pedal] pppp
-    hpschd: 'clb'
+    hpschd: hesitant clb
     perc: --
     vn: [kiln: continuous clb]
     va: [kiln: continuous clb]
@@ -620,7 +628,7 @@ single internal pause as described above.
     eh: --
     cl: --
     hpschd: [kiln: continuous clb]
-    perc: sputtering castanets
+    perc: stop-release castanets
     vn: [kiln: continuous clb]
     va: [kiln: continuous clb]
     vc: [kiln: continuous clb]
@@ -769,13 +777,13 @@ fermata.
 
 [B18]
 longer stage.
-eight counted beats of rest at end of stage, but otherwise no end-pause.
+no pause.
 
     fl: --
-    eh: --
+    eh: <remove staple>
     cl: --
     hpschd: --
-    perc: continuously rolled castanets: crescendo off cliff
+    perc: continuously rolled castanets
     vn: --
     va: --
     vc: --
@@ -797,67 +805,273 @@ one quarter rest with short fermata held by perc before each bd downbeat:
     vc: enveloped groaned up-glissando, enveloped groaned down-glissando
 
 [B20]
-gears (α) rhythmicized vn, va spazzolati return for one stage. six other
-players tacet.
+short fermata.
 
 [B21]
-papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
+gears (α) eh ratchet, vn spazzolati, va spazzolati return for one stage.
+five other players tacet.
+short pause.
+
+    fl: --
+    eh: ratchet
+    cl: --
+    hpschd: --
+    perc: --
+    vn: spazzolati
+    va: spazzolati
+    vc: --
 
 [B22]
-kiln (δ) guiro (eh), bc, castanets, hpschd, vn, va, vc cell once more. pause.
-fl, cl tacet. short pause.
+short fermata.
 
 [B23]
-shell (β) fl, cl exchange single pitch. six other players tacet. fl takes
-bfl at end of stage. cl takes bcl at end of stage. short pause.
+gears (α) eh ratchet.
+papers (ε) tremolo-initiated va ob.
+six other players tacet.
+short pause.
+
+    fl: --
+    eh: ratchet
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob
+    vc: --
 
 [B24]
-papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
+short fermata.
 
 [B25]
-papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
-pause.
+papers (ε) tremolo-initiated va ob.
+seven other players tacet.
+no pause.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob
+    vc: --
 
 [B26]
-kiln (δ) guiro (eh), bc, castanets, hpschd, vn, va, vc cell once more. fl, cl
-tacet. short pause.
+kiln (δ) castanets, bd, hpschd, vn, va, vc cell once more.
+winds tacet.
+fl, cl tacet.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: fast reiterative clb
+    perc: rolled castanet pickup, struck db downbeat, groaned db follow-through
+    vn: fast reiterative clb
+    va: fast reiterative clb
+    vc: enveloped groaned up-glissando, enveloped groaned down-glissando
 
 [B27]
-papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
+short fermata.
 
 [B28]
-papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
-pause.
+shell (β) fl, cl exchange single pitch.
+shell (β) hpschd, vn, va clb.
+eh, perc, vc tacet.
+
+    fl: two-player exchange
+    eh: --
+    cl: two-player exchange
+    hpschd: fast reiterative clb
+    perc: --
+    vn: fast reiterative clb
+    va: fast reiterative clb
+    vc: --
 
 [B29]
-papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
-pause.
+short fermata.
 
 [B30]
-kiln (α) hpschd, vn, va, vc dripping clb. fl, eh, cl, perc tacet. short pause.
+papers (ε) va tremolo-initiated ob.
+seven other players tacet.
+short pause.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob
+    vc: --
 
 [B31]
-papers (ε) tremolo-initiated va ob. seven other players tacet. short pause.
+short fermata.
 
 [B32]
-papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. short
-pause.
+measure-length repetition of previous stage.
+papers (ε) va tremolo-initiated ob.
+seven other players tacet.
+short pause.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob
+    vc: --
 
 [B33]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone. five other players
-tacet. short pause.
+papers (ε) va tremolo-initiated ob, eh airtone.
+six other players tacet.
+no pause.
+
+    fl: --
+    eh: airtone chain (1)
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob airtone chain (0)
+    vc: --
 
 [B34]
-gears (α) vn, va spazzolati together with kiln (δ) guiro (eh), bd, castanets.
-fl, cl, pf, vc tacet. extremely short speed-increasing pause.
+kiln (δ) castanets, bd, hpschd, vn, va, vc cell once more.
+winds tacet.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: fast reiterative clb
+    perc: rolled castanet pickup, struck db downbeat, groaned db follow-through
+    vn: fast reiterative clb
+    va: fast reiterative clb
+    vc: enveloped groaned up-glissando, enveloped groaned down-glissando
 
 [B35]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone. cl, pf, perc, vn,
-vc tacet. no pause.
+short fermata.
 
 [B36]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone. cl, pf, perc, vn,
-vc tacet. short pause.
+papers (ε) va tremolo-initiated ob.
+seven other players tacet.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob airtone chain (0)
+    vc: --
+
+[B37]
+short fermata.
+
+[B38]
+papers (ε) va tremolo-initiated ob, eh airtone chain.
+six other players tacet.
+
+    fl: --
+    eh: eh airtone chain (1)
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob airtone chain (0)
+    vc: --
+
+[B39]
+short fermata.
+
+[B40]
+measure-length repetition of previous stage.
+papers (ε) va tremolo-initiated ob, eh airtone chain.
+six other players tacet.
+
+    fl: --
+    eh: eh airtone chain (1)
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob airtone chain (0)
+    vc: --
+
+[B41]
+short fermata.
+
+[B42]
+kiln (α) hpschd, vn, vc clb.
+winds, perc va, tacet.
+importantly, no pause.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: fast reiterative clb
+    perc: --
+    vn: fast reiterative clb
+    va: --
+    vc: fast reiterative clb
+
+[B43]
+papers (ε) va tremolo-initiated ob airtone chain.
+seven other players tacet.
+no pause.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob airtone chain (0)
+    vc: --
+
+[B44]
+papers (ε) va tremolo-initiated ob airtone chain.
+gears (α) vn spazzolati, vc spazzolati.
+no pause.
+
+    fl: --
+    eh: --
+    cl: --
+    hpschd: --
+    perc: --
+    vn: spazzolati
+    va: tremolo-initiated ob airtone chain (0)
+    vc: spazzolati
+
+[B45]
+papers (ε) va tremolo-initiated ob, eh airtone, bfl airtone.
+gears (α) vn spazzolati, vc spazzolati.
+cl, hpschd, perc tacet.
+no pause.
+
+    bfl: airtone chain (2)
+    eh: eh airtone chain (1)
+    cl: --
+    hpschd: --
+    perc: --
+    vn: spazzolati
+    va: tremolo-initiated ob airtone chain (0)
+    vc: spazzolati
+
+[B46]
+measure-length repetition of previous stage.
+papers (ε) va tremolo-initiated ob, eh airtone, bfl airtone.
+five other players tacet.
+no pause.
+
+    bfl: airtone chain (2)
+    eh: eh airtone chain (1)
+    cl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: tremolo-initiated ob airtone chain (0)
+    vc: --
 
 [C1]
 gears (α) vn, vc spazzolati with papers (ε) tremolo-initiated va ob, eh
