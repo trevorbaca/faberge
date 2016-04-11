@@ -38,16 +38,27 @@
                     R1 * 3/2
                 }
                 {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    R1 * 5/4
+                }
+                {
+                    R1 * 5/4
+                }
+                {
+                    R1 * 5/4
+                }
+                {
+                    R1 * 5/4
+                }
+                {
+                    R1 * 5/4
+                }
+                {
                     \time 3/4
                     R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
                 }
                 {
                     \time 4/4
@@ -57,7 +68,7 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     \mark #4
                     s1 * 3/4
@@ -103,7 +114,7 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                     \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
@@ -121,7 +132,7 @@
                 }
                 {
                     \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 7/4
                         ^ \markup {
@@ -160,10 +171,10 @@
                             }
                 }
                 {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
                     \newSpacingSection
-                    s1 * 3/4
+                    s1 * 5/4
                         ^ \markup {
                             \fontsize
                                 #-2
@@ -178,25 +189,64 @@
                             }
                 }
                 {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
                     \newSpacingSection
-                    s1 * 1
+                    s1 * 5/4
                         ^ \markup {
                             \fontsize
                                 #-2
-                                0'30''
+                                0'32''
                             }
                 }
                 {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
                     \newSpacingSection
-                    s1 * 3/2
+                    s1 * 5/4
                         ^ \markup {
                             \fontsize
                                 #-2
-                                0'34''
+                                0'37''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
+                    \newSpacingSection
+                    s1 * 5/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'42''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
+                    \newSpacingSection
+                    s1 * 5/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'46''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
+                    \newSpacingSection
+                    s1 * 5/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'51''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'56''
                             }
                         - \markup {
                             \fontsize
@@ -214,7 +264,7 @@
                         ^ \markup {
                             \fontsize
                                 #-2
-                                0'40''
+                                0'59''
                             }
                 }
             }
@@ -235,16 +285,31 @@
                         Fl.
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
                         R1 * 7/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 1
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            c'2
+                            c'2.
+                            c'4.. ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 7/10 {
+                            c'4 ~
+                            c'16
+                            r16
+                            c'16 [
+                            c'16 ]
+                            c'2
+                            c'16
+                            c'2.
+                            r16
+                            c'16 [
+                            c'16
+                            c'16 ]
+                            r4..
+                        }
+                        R1 * 47/4
                         \bar "|"
                     }
                 }
@@ -270,16 +335,67 @@
                             }
                     }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
                         R1 * 7/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 1
+                        r4
+                        \times 4/7 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        r4
+                        \times 2/3 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        r4
+                        r4
+                        \times 4/5 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        r4
+                        \times 2/3 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        R1 * 47/4
                         \bar "|"
                     }
                 }
@@ -297,16 +413,31 @@
                         Cl.
                     }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
                         R1 * 7/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 1
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            d'2
+                            d'2.
+                            d'4.. ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 7/10 {
+                            d'4 ~
+                            d'16
+                            r16
+                            d'16 [
+                            d'16 ]
+                            d'2
+                            d'16
+                            d'2.
+                            r16
+                            d'16 [
+                            d'16
+                            d'16 ]
+                            r4..
+                        }
+                        R1 * 47/4
                         \bar "|"
                     }
                 }
@@ -314,45 +445,217 @@
             \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
                 \tag piano
                 \context PianoStaffGroup = "Piano Staff Group" <<
-                    \set PianoStaffGroup.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Piano
-                    }
-                    \set PianoStaffGroup.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Pf.
-                    }
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/2
+                            \set PianoStaffGroup.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Harpsichord
+                                }
+                            \set PianoStaffGroup.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Hpschd.
+                                }
+                            r2.
+                                ^ \markup {
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to harpsichord"
+                                    }
+                            r1
+                            R1 * 23/4
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 6/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
                             R1 * 7/4
-                            R1 * 1
-                            R1 * 3/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/2
-                            R1 * 1
                             \bar "|"
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/2
+                            R1 * 15/2
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
+                            \tweak #'text #tuplet-number::calc-fraction-text
+                            \times 3/5 {
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                                c'4
+                            }
                             R1 * 7/4
-                            R1 * 1
-                            R1 * 3/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/2
-                            R1 * 1
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -362,9 +665,13 @@
                             R1 * 7/4
                             R1 * 1
                             R1 * 3/2
+                            R1 * 5/4
+                            R1 * 5/4
+                            R1 * 5/4
+                            R1 * 5/4
+                            R1 * 5/4
+                            R1 * 5/4
                             R1 * 3/4
-                            R1 * 1
-                            R1 * 3/2
                             R1 * 1
                             \bar "|"
                         }
@@ -384,16 +691,29 @@
                         Perc.
                     }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
                         R1 * 7/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 1
+                        c'1.
+                        c'1.. \repeatTie
+                        R1 * 5/2
+                        c'4
+                        c'4
+                        r2.
+                        c'4
+                        c'4
+                        r2.
+                        c'4
+                        c'4
+                        r2.
+                        c'4
+                        c'4
+                        r2.
+                        c'4
+                        c'4
+                        r2.
+                        c'4
+                        c'4
+                        r2.
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -413,16 +733,146 @@
                         Vn.
                     }
                     \context ViolinMusicVoice = "Violin Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
                         R1 * 7/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 1
+                        c'1.
+                        c'1.. \repeatTie
+                        R1 * 5/2
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -440,16 +890,29 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 7/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 1
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'8.
+                        c'2
+                        c'1 \repeatTie
+                        c'1. \repeatTie
+                        c'1.. \repeatTie
+                        c'1 \repeatTie
+                        c'1. \repeatTie
+                        c'1 \repeatTie
+                        c'4 \repeatTie
+                        c'1 \repeatTie
+                        c'4 \repeatTie
+                        c'1 \repeatTie
+                        c'4 \repeatTie
+                        c'1 \repeatTie
+                        c'4 \repeatTie
+                        c'1 \repeatTie
+                        c'4 \repeatTie
+                        c'1 \repeatTie
+                        c'4 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
                         \bar "|"
                     }
                 }
@@ -467,16 +930,141 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
                         R1 * 7/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 1
+                        c'1.
+                        c'1.. \repeatTie
+                        R1 * 5/2
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        R1 * 7/4
                         \bar "|"
                     }
                 }

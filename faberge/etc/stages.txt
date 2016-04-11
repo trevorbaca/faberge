@@ -1250,31 +1250,80 @@ fl, cl, pf, perc tacet.
 short fermata.
 
 [D1]
-papers (ε) tremolo-initiated va ob. seven other players tacet. no pause.
-
-[D2]
-jewelers' desk (γ) momentary recollection: bfl glow, eh keynoise, bcl glow,
-credit card against piano tuning pegs, attackless ppppp lowregister marimba
-pedal, vn quiet pitch, vc lowregister pedal. no pause.
-
-[D3]
-papers (ε) va ob continues. seven other players tacet. no pause.
-
-[D4]
-ratchet game (β+δ) x6:
-each time subject to time manipulation:
-each time fl, cl (β) pitch progresses:
-much faster and much more mechanical than ratchet game played before:
-
-    guiro (eh), bd + castanets initiate cell;
-    fl, cl (β) exchange single pitch;
-    hpschd, vn, va, vc (δ) dripping clb plays out.
-
-pf tacet. papers (ε) va ob sustained underneath all of ratchet game.
+papers (ε) va tremolo airtone.
+seven other players tacet.
 no pause.
 
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: tremolo airtone (0)
+    vc: --
+
+[D2]
+jewelers' desk (γ) momentary recollection.
+jewelers' desk (γ) bfl glow, eh keynoise, bcl glow,
+(pf credit card against tuning pegs), attackless ppppp lowregister marimba
+pedal, vn quiet pitch, vc lowregister pedal.
+papers (ε) va airtone continues.
+no pause.
+
+    bfl: glow
+    eh: keynoise
+    bcl: glow
+    pf: --
+    perc: marimba pedal
+    vn: quiet pitch (pochiss. scratch)
+    va: [tremolo airtone (0)]
+    vc: lowregister pedal
+
+[D3]
+papers (ε) va airtone continues.
+seven other players tacet.
+no pause.
+
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: [tremolo airtone (0)]
+    vc: --
+
+[D4]
+ratchet game (β+δ):
+faster than previous ratchet game:
+more mechanical than previous ratchet game:
+papers (ε) va airtone continues.
+winds tacet.
+no pause.
+
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: meccanico repeated pitch
+    perc: bd, shorter castanet roll, pause; repeated with regularity
+    vn: clb meccanico
+    va: [tremolo airtone (0)]
+    vc: clb meccanico
+
 [D5]
-papers (ε) va ob continues. seven other players tacet. no pause.
+papers (ε) va airtone continues.
+seven other players tacet.
+no pause.
+
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: [tremolo airtone (0)]
+    vc: --
 
 [E1]
 papers (ε) tremolo va, eh, bfl, pf, bd, vc, bcl, vn airtone chain.
