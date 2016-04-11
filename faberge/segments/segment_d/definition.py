@@ -13,7 +13,7 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 1
     2, # 2
     2, # 3
-    2, # 4
+    6 * [TimeSignature((5, 4))], # 4
     2, # 5
     ])
 
@@ -46,7 +46,7 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(5)
-segment_maker.validate_measure_count(10)
+segment_maker.validate_measure_count(14)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -55,19 +55,99 @@ segment_maker.validate_measures_per_stage()
 
 ### flute (time) ###
 
-### clarinet (time) ###
+segment_maker.append_specifiers(
+    (fl, stages(2)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    )
 
 ### english horn (time) ###
 
+segment_maker.append_specifiers(
+    (eh, stages(2)),
+    faberge.tools.make_keynoise_rhythm_specifier(),
+    )
+
+### clarinet (time) ###
+
+segment_maker.append_specifiers(
+    (cl, stages(2)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    )
+
 ### piano (time) ###
+
+segment_maker.append_specifiers(
+    (pf_rh, stages(1)),
+    baca.rhythm.make_rest_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (pf_rh, stages(4)),
+    faberge.tools.make_meccanico_rhythm_specifier(
+        attack_count=7,
+        fuse_counts=[3],
+        )
+    )
+
+segment_maker.append_specifiers(
+    (pf_lh, stages(4)),
+    faberge.tools.make_meccanico_rhythm_specifier(
+        attack_count=5,
+        fuse_counts=[3],
+        )
+    )
 
 ### percussion (time) ###
 
+segment_maker.append_specifiers(
+    (perc, stages(2)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(4)),
+    faberge.tools.make_meccanico_percussion_cell_rhythm_specifier(),
+    )
+
 ### violin (time) ###
+
+segment_maker.append_specifiers(
+    (vn, stages(2)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(4)),
+    faberge.tools.make_meccanico_rhythm_specifier(
+        attack_count=7,
+        fuse_counts=[2],
+        )
+    )
 
 ### viola (time) ###
 
+segment_maker.append_specifiers(
+    (va, stages(1, 5)),
+    faberge.tools.make_airtone_chain_rhythm_specifier(
+        total_events=1,
+        my_event_indices=[0],
+        ),
+    )
+
 ### cello (time) ###
+
+segment_maker.append_specifiers(
+    (vc, stages(2)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(4)),
+    faberge.tools.make_meccanico_rhythm_specifier(
+        attack_count=10,
+        fuse_counts=[3],
+        )
+    )
 
 ###############################################################################
 ################################### COLOR #####################################
@@ -80,6 +160,13 @@ segment_maker.validate_measures_per_stage()
 ### english horn (color) ###
 
 ### piano (color) ###
+
+segment_maker.append_specifiers(
+    (pf_rh, stages(1)),
+    [
+        faberge.materials.instruments['harpsichord'],
+        ],
+    )
 
 ### percussion (color) ###
 

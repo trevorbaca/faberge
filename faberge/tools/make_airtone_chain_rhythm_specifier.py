@@ -64,6 +64,9 @@ def make_airtone_chain_rhythm_specifier(
             counts=my_counts,
             denominator=16,
             ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
         )
     return baca.tools.RhythmSpecifier(
         rhythm_maker=rhythm_maker,
