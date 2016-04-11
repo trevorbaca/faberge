@@ -1,7 +1,5 @@
 FABERGÉ - STAGES
 
-[TODO: prefigure (α) superball.]
-
 [TODO: prefigure (β) tremolo electricity.]
 
 [TODO: prefigure (β) shakers.]
@@ -928,12 +926,12 @@ six other players tacet.
 no pause.
 
     fl: --
-    eh: airtone chain (1)
+    eh: airtone (1)
     cl: --
     hpschd: --
     perc: --
     vn: --
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: --
 
 [B34]
@@ -962,7 +960,7 @@ seven other players tacet.
     hpschd: --
     perc: --
     vn: --
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: --
 
 [B37]
@@ -973,12 +971,12 @@ papers (ε) va tremolo-initiated ob, eh airtone chain.
 six other players tacet.
 
     fl: --
-    eh: eh airtone chain (1)
+    eh: airtone (1)
     cl: --
     hpschd: --
     perc: --
     vn: --
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: --
 
 [B39]
@@ -990,12 +988,12 @@ papers (ε) va tremolo-initiated ob, eh airtone chain.
 six other players tacet.
 
     fl: --
-    eh: eh airtone chain (1)
+    eh: airtone (1)
     cl: --
     hpschd: --
     perc: --
     vn: --
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: --
 
 [B41]
@@ -1026,7 +1024,7 @@ no pause.
     hpschd: --
     perc: --
     vn: --
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: --
 
 [B44]
@@ -1040,7 +1038,7 @@ no pause.
     hpschd: --
     perc: --
     vn: spazzolati
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: spazzolati
 
 [B45]
@@ -1049,13 +1047,13 @@ gears (α) vn spazzolati, vc spazzolati.
 cl, hpschd, perc tacet.
 no pause.
 
-    bfl: airtone chain (2)
-    eh: eh airtone chain (1)
+    bfl: airtone (2)
+    eh: airtone (1)
     cl: --
     hpschd: --
     perc: --
     vn: spazzolati
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: spazzolati
 
 [B46]
@@ -1064,55 +1062,185 @@ papers (ε) va tremolo-initiated ob, eh airtone, bfl airtone.
 five other players tacet.
 no pause.
 
-    bfl: airtone chain (2)
-    eh: eh airtone chain (1)
+    bfl: airtone (2)
+    eh: airtone (1)
     cl: --
     hpschd: --
     perc: --
     vn: --
-    va: tremolo-initiated ob airtone chain (0)
+    va: tremolo airtone (0)
     vc: --
 
 [C1]
-gears (α) vn, vc spazzolati with papers (ε) tremolo-initiated va ob, eh
-airtone, bfl airtone, bcl airtone. pf, perc tacet. short pause.
+gears (α) vn, vc spazzolati.
+papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, bcl airtone.
+pf, perc tacet.
+
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: airtone (3)
+    pf: --
+    perc: --
+    vn: spazzolati
+    va: tremolo airtone (0)
+    vc: spazzolati
 
 [C2]
-papers (ε) single brushed bd stroke. seven other players tacet. short pause.
+short fermata.
 
 [C3]
-papers (ε) tremolo-inititated va ob, eh airtone, bfl airtone. no pause.
+papers (ε) single brushed bd stroke.
+seven other players tacet.
+
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: bd airtone
+    vn: --
+    va: --
+    vc: --
 
 [C4]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, bcl airtone
-accompanied by pp vc harmonic glissando. pf, perc, vn tacet. short pause.
+short fermata.
 
 [C5]
-papers (ε) single brushed bd stroke. seven other players tacet. short pause.
+papers (ε) tremolo-inititated va ob, eh airtone, bfl airtone.
+five players tacet.
+no pause.
+
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: tremolo airtone (0)
+    vc: --
 
 [C6]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone. five other players
-tacet. no pause.
+papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, bcl airtone.
+papers (ε) vn harmonic glissando, vc harmonic glissando pp.
+pf, perc tacet.
+
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: airtone (3)
+    pf: --
+    perc: --
+    vn: harmonic glissando pp
+    va: tremolo airtone (0)
+    vc: harmonic glissando pp
 
 [C7]
-papers (ε) tremolo-initiated va ob, eh airtone. six other players tacet. no
-pause.
+short fermata.
 
 [C8]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, tremolo-initiated
-bd with pp vc harmonic glissando. cl, pf, perc, vn tacet. no pause.
+papers (ε) bd single brushed stroke.
+seven other players tacet.
+
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: bd airtone
+    vn: --
+    va: --
+    vc: --
 
 [C9]
-papers (ε) tremolo-initiated va ob, eh airtone, tremolo-initiated
-bd with pp vc harmonic glissando. fl, cl, pf, vn tacet. no pause.
+short fermata.
 
 [C10]
-papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, bcl airtone,
-tremolo-initiated bd with pp vc harmonic glissando. pf, vn tacet. no pause.
+papers (ε) va tremolo-initiated ob, eh airtone, bfl airtone.
+five players tacet.
+no pause.
+
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: tremolo airtone (0)
+    vc: --
 
 [C11]
-papers (ε) tremolo-initiated va ob, eh airtone with pp vc harmonic glissando.
-papers (ε) chain cut off. fl, cl, pf, perc, vn tacet. short pause.
+papers (ε) va tremolo-initiated ob, eh airtone.
+six other players tacet.
+no pause.
+
+    bfl: --
+    eh: airtone (1)
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: tremolo airtone (0)
+    vc: --
+
+[C12]
+papers (ε) va tremolo airtone, eh airtone, bfl airtone, bd tremolo airtone.
+papers (ε) vn harmonic glissando, vc harmonic glissando pp.
+bcl, pf, perc tacet.
+no pause.
+
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: --
+    pf: --
+    perc: bd tremolo airtone (3)
+    vn: harmonic glissando pp
+    va: tremolo airtone (0)
+    vc: harmonic glissando pp
+
+[C13]
+papers (ε) va tremolo airtone, eh airtone, bd tremolo airtone.
+papers (ε) vn harmonic glissando, vc harmonic glissando pp.
+bcl, pf tacet.
+no pause.
+
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: --
+    pf: --
+    perc: bd tremolo airtone (3)
+    vn: harmonic glissando pp
+    va: tremolo airtone (0)
+    vc: harmonic glissando pp
+
+[C14]
+papers (ε) va airtone, eh airtone, bfl airtone, bcl airtone, bd trem. airtone.
+papers (ε) vc harmonic glissando pp.
+pf tacet.
+no pause.
+
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: airtone (3)
+    pf: --
+    perc: bd tremolo airtone (4)
+    vn: vn harmonic glissando pp
+    va: tremolo airtone (0)
+    vc: harmonic glissando pp
+
+[C15]
+papers (ε) va tremolo airtone, eh airtone.
+papers (ε) vn harmonic glissando, vc harmonic glissando pp.
+papers (ε) chain cut off.
+fl, cl, pf, perc tacet.
+
+    bfl: --
+    eh: airtone (1)
+    bcl: --
+    pf: --
+    perc: --
+    vn: harmonic glissando pp
+    va: tremolo airtone (0)
+    vc: harmonic glissando pp
+
+[C16]
+short fermata.
 
 [D1]
 papers (ε) tremolo-initiated va ob. seven other players tacet. no pause.

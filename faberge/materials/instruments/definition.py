@@ -14,6 +14,14 @@ harpsichord = instrumenttools.Harpsichord(
     )
 harpsichord._default_scope = 'PianoStaffGroup'
 
+piano = instrumenttools.Piano(
+    instrument_name_markup=\
+        agent.make_instrument_name_markup('Piano'),
+    short_instrument_name_markup=\
+        agent.make_short_instrument_name_markup('Pf.'),
+    )
+piano._default_scope = 'PianoStaffGroup'
+
 instruments = collections.OrderedDict([
     (
         'flute', 
@@ -76,11 +84,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'piano', 
-        instrumenttools.Piano(
-            instrument_name_markup=agent.make_instrument_name_markup('Piano'),
-            short_instrument_name_markup=\
-                agent.make_short_instrument_name_markup('Pf.'),
-            ),
+        piano,
         ),
     (
         'harpsichord', 
