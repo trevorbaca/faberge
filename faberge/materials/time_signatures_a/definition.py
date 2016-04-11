@@ -3,7 +3,7 @@ import baca
 from abjad import *
 
 
-numerators = [[2, 4, 4], [7, 8], [2, 3, 3]]
+numerators = [[4, 6, 6], [4, 7], [3, 4, 6]]
 numerator_groups = baca.tools.helianthate(numerators, -1, 1)
 assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]

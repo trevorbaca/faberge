@@ -289,6 +289,11 @@ segment_maker.append_specifiers(
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
+segment_maker.append_specifiers(
+    (pf_rh, stages(43)),
+    baca.rhythm.make_rest_rhythm_specifier(),
+    )
+
 ### percussion (time) ###
 
 segment_maker.append_specifiers(
@@ -701,3 +706,20 @@ segment_maker.append_specifiers(
         faberge.materials.instruments['clarinet in B-flat'],
         ],
     )
+
+### piano (color) ###
+
+segment_maker.append_specifiers(
+    (pf_rh, stages(43)),
+    [
+        faberge.materials.instruments['piano'],
+        ],
+    )
+
+### percussion (color) ###
+
+### violin (color) ###
+
+### viola (color) ###
+
+### cello (color) ###

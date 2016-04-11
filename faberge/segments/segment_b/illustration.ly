@@ -2597,7 +2597,25 @@
                                 c'8
                                 c'8 ]
                             }
-                            R1 * 25/4
+                            \set PianoStaffGroup.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Piano
+                                }
+                            \set PianoStaffGroup.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Pf.
+                                }
+                            r1
+                                ^ \markup {
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to piano"
+                                    }
+                            r2
+                            R1 * 19/4
                             \bar "|"
                         }
                     }
