@@ -1,5 +1,12 @@
 FABERGÉ - STAGES
 
+[TODO: prefigure vitiated form of tutti airtone chain. short, silence-delimited
+airtone rectangles in the order va, (eh?), bfl, pf with a second series of
+short, silence-delimited airtone rectangles in the order bd, vc, bcl, vn.]
+
+[TODO: prefigure composite (γ+ε) cell of eh, bd, vn airtone chord with bfl
+glowing multiphonic followed by short pause.]
+
 [TODO: prefigure (β) tremolo electricity.]
 
 [TODO: prefigure (β) shakers.]
@@ -1270,164 +1277,191 @@ no pause.
 papers (ε) va ob continues. seven other players tacet. no pause.
 
 [E1]
-papers (ε) tremolo-initiated va, eh, bfl, pf, bd, vc, bcl, vn airtone chain all
-on crescendo and accelerando to announce start of elaborated papers.
+papers (ε) tremolo va, eh, bfl, pf, bd, vc, bcl, vn airtone chain.
+papers (ε) all crescendo accelerando to announce start of elaborated papers.
 
 [E2]
 longer pause.
 
 [E3]
-papers (ε) with two airtone chains in counterpoint. first papers (ε) va, eh,
-bfl, pf airtone chain with increasingly shorter durations. second papers (ε)
-bd, vc, bcl, vn airtone chain with increasingly shorter durations. second chain
-starts shortly after first chain. no players tacet.
-
-[TODO: prefigure vitiated form of previous stage. short, silence-delimited
-airtone rectangles in the order va, eh, bfl, pf with a second series of short,
-silence-delimited airtone rectangles in the order bd, vc, bcl, vn.]
+papers (ε) with two airtone chains in counterpoint.
+first papers (ε) va, eh, bfl, pf airtone chain with incr. shorter durations.
+second papers (ε) bd, vc, bcl, vn airtone chain with incr. shorter durations.
+second chain starts shortly after first chain.
+no players tacet.
 
 [E4]
 pause.
 
 [E5]
-exact repetition of previous stage. first papers (ε) va, eh, bfl, pf airtone
-chain with increasingly shorter durations. second papers (ε) bd, vc, bcl, vn
-airtone chain with increasingly shorter durations. second chain starts shortly
-after first chain. no players tacet.
+exact repetition of previous stage.
+first papers (ε) va, eh, bfl, pf airtone chain with incr. shorter durations.
+second papers (ε) bd, vc, bcl, vn airtone chain with incr. shorter durations.
+second chain starts shortly after first chain.
+no players tacet.
 
 [E6]
 pause.
 
-[E7] (longer)
-extension of previous stage. first papers (ε) va, eh, bfl, eh, bfl, pf, pause,
-pf, bfl, eh, va, eh. second papers (ε) bd, vc, bd, vc, pause, bcl, vn, bcl, vn,
-pause, vn, bcl, vc. and so on developing in this way with internal pauses and
-as many as three separate airtone chains at once. stopping with eh, bd, vn
-airtone chord that sustains up to and across end of stage. no pause.
+[E7]
+(longer stage.)
+extension of previous stage.
+first papers (ε) va, eh, bfl, eh, bfl, pf, pause, pf, bfl, eh, va, eh.
+second papers (ε) bd, vc, bd, vc, pause, bcl, vn, bcl, vn, pause, vn, bcl, vc.
+and so on developing in this way with internal pauses.
+as many as three separate airtone chains at once.
+stopping with eh, bd, vn airtone chord.
+chord sustains up to and across end of stage.
+no players tacet.
+no pause.
 
 [E8]
-eh, bd, vn airtone chord continues under decrescendo. no pause.
+papers (ε) eh, bd, vn airtone chord continues under decrescendo.
+no pause.
 
 [E9]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
-glowing multiphonic.
-
-[TODO: prefigure earlier in piece composite (γ+ε) cell of eh, bd, vn airtone
-chord with bfl glowing multiphonic followed by short pause.]
+papers (ε) eh, bd, vn airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic.
 
 [E10]
 short pause.
 
 [E11]
-papers (ε) eh, bd, vn airtone chord with jewelers' desk (γ) bfl glowing
-multiphonic.
+papers (ε) eh, bd, vn airtone chord.
+jewelers' desk (γ) bfl glowing multiphonic.
 
 [E12]
 short pause.
 
 [E13]
-faster and shorter version of previous stage. first papers (ε) va, eh, bfl, eh,
-bfl, pf, pause, pf, bfl, eh, va, eh. second papers (ε) bd, vc, bd, vc, pause,
-bcl, vn, bcl, vn, pause, vn, bcl, vc. and so on developing in this way with
-internal pauses and as many as three separate airtone chains at once. stopping
-with pf, vn, bd airtone chord that sustains up to and across end of stage. all
-now shaped with decrescendi and crescendi. no players tacet. no pause.
+faster and shorter version of previous stage.
+first papers (ε) va, eh, bfl, eh, bfl, pf, pause, pf, bfl, eh, va, eh.
+second papers (ε) bd, vc, bd, vc, pause, bcl, vn, bcl, vn, pause, vn, bcl, vc. and so on developing in this way with
+internal pauses and as many as three separate airtone chains at once.
+stopping with pf, vn, bd airtone chord.
+chord sustains up to and across end of stage.
+all now shaped with decrescendi and crescendi.
+no players tacet.
+no pause.
 
 [E14]
-eh, bd, vn airtone chord continues under decrescendo. no pause.
+papers (ε) eh, bd, vn airtone chord continues under decrescendo.
+no pause.
 
 [E15]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
-glowing multiphonic. cl, pf, va, vc tacet.
+papers (ε) eh, bd, vn airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic.
+cl, pf, va, vc tacet.
 
 [E16]
 short pause.
 
 [E17]
-papers (ε) eh, bd, vn airtone chord with jewelers' desk (γ) bfl glowing
-multiphonic, bcl glowing multiphonic. pf, va, vc tacet.
+papers (ε) eh, bd, vn airtone chord.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic.
+pf, va, vc tacet.
 
 [E18]
 short pause.
 
 [E19]
-papers (ε) eh, bd, vn airtone chord with jewelers' desk (γ) bfl glowing
-multiphonic, bcl glowing multiphonic, vc lowregister pedal. pf, va tacet. no
-pause.
+papers (ε) eh, bd, vn airtone chord.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+pf, va tacet.
+no pause.
 
 [E20]
-papers (ε) eh, bd airtone chord continues with jewelers' desk (γ) bfl glowing
-multiphonic, bcl glowing multiphonic, vc lowregister pedal. kiln (δ) hpschd, vn
-clb, va clb manifest for a moment. no players tacet. no pause.
+papers (ε) eh, bd airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+kiln (δ) hpschd, vn clb, va clb manifest for a moment.
+no players tacet.
+no pause.
 
 [E21]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
-glowing multiphonic, bcl glowing multiphonic, vc lowregister pedal. pf, va
-tacet. no pause.
+papers (ε) eh, bd, vn airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+pf, va tacet. no pause.
 
 [E22]
-papers (ε) eh, bd airtone chord continues with jewelers' desk (γ) bfl glowing
-multiphonic, bcl glowing multiphonic, vc lowregister pedal. kiln (δ)
-hpschd, vn clb, va clb manifest for a moment. no players tacet. no pause.
+papers (ε) eh, bd airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+kiln (δ) hpschd, vn clb, va clb manifest for a moment.
+no players tacet.
+no pause.
 
 [E23]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
-glowing multiphonic, bcl glowing multiphonic, vc lowregister pedal. pf, va
-tacet. no pause.
+papers (ε) eh, bd, vn airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+pf, va tacet.
+no pause.
 
 [E24]
-papers (ε) bd airtone continues with jewelers' desk (γ) vc lowregister pedal
-continue. gears (α) vn, va spazzolati manifest for a moment. fl, eh, cl, pf
-tacet. no pause.
+papers (ε) bd airtone continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+gears (α) vn, va spazzolati manifest for a moment.
+fl, eh, cl, pf tacet.
+no pause.
 
 [E25]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) glowing
-bfl multiphonic, glowing bcl multiphonic, vc lowregister pedal. pf, va tacet.
+papers (ε) eh, bd, vn airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+pf, va tacet.
 no pause.
 
 [E26]
-papers (ε) bd airtone continues with jewelers' desk (γ) vc lowregister pedal.
-gears (α) vn, va spazzolati manifest for a moment. fl, eh, cl, pf tacet. no
-pause.
-
-[TODO: prefigure composite (α+γ+ε) cell of gears (α) vn, va spazzolati with
-jewelers' desk (γ) vc lowregister pedal with papers (ε) bd airtone.]
+papers (ε) bd airtone continues.
+jewelers' desk (γ) vc lowregister pedal.
+gears (α) vn, va spazzolati manifest for a moment.
+fl, eh, cl, pf tacet.
+no pause.
 
 [E27]
-papers (ε) eh, bd, vn airtone chord continues with jewelers' desk (γ) bfl
-glowing multiphonic, bcl glowing multiphonic, vc lowregister pedal. pf, va
-tacet. no pause.
+papers (ε) eh, bd, vn airtone chord continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+pf, va tacet.
+no pause.
 
 [E28]
-papers (ε) bd airtone continues with jewelers' desk (γ) vc lowregister pedal.
-gears (α) vn, va spazzolati manifest for a moment. fl, eh, cl, pf tacet. no
-pause.
+papers (ε) bd airtone continues.
+jewelers' desk (γ) vc lowregister pedal.
+gears (α) vn, va spazzolati manifest for a moment.
+fl, eh, cl, pf tacet.
+no pause.
 
 [E29]
-papers (ε) bd airtone continues with jewelers' desk (γ) vc lowregister pedal.
-six other players tacet. no pause.
+papers (ε) bd airtone continues.
+jewelers' desk (γ) vc lowregister pedal.
+six other players tacet.
+no pause.
 
 [E30]
-papers (ε) bd airtone continues. seven other players tacet. no pause.
+papers (ε) bd airtone continues.
+seven other players tacet.
+no pause.
 
 [E31]
-papers (ε) bd airtone continues. gears (α) vn, va spazzolati manifest for a
-moment. five other players tacet. no pause.
+papers (ε) bd airtone continues.
+gears (α) vn, va spazzolati manifest for a moment.
+five other players tacet.
+no pause.
 
 [E32]
-papers (ε) bd airtone continues. seven other players tacet.
+papers (ε) bd airtone continues.
+seven other players tacet.
 
 [E33]
 pause.
 
 [E34]
-papers (ε) bd airtone. seven other players tacet.
+papers (ε) bd airtone.
+seven other players tacet.
 
 [E35]
 pause.
 
 [E36]
-gears (α) vn, va spazzolati manifest for a moment. six other players tacet.
+gears (α) vn, va spazzolati manifest for a moment.
+six other players tacet.
 
 [E37]
 longer pause.
