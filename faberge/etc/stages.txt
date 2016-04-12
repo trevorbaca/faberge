@@ -1805,9 +1805,9 @@ louder superball strokes and much longer durations of fingertapping.
 fingertapping progresses to attackless mallet tremolo on bd head, eventually
 played at as loud a dynamic as possible without revealing the mallet attacks.
 
-vn, va sputter gesture of starting up: triple-struck rimbalzando followed by
+vn, va sputter gesture of starting up: quadruple-struck rimbalzando followed by
 short, quiet, isolated tremolo flautando on same pitch followed. progresses to
-triple-struck rimbalzando followed by two or three tremoli flautandi in
+quadruple-struck rimbalzando followed by two or three tremoli flautandi in
 succession.
 
 vc sputter gesture of starting up: pair of 1/2 clt sfz strokes with lh
@@ -1820,131 +1820,299 @@ increase to a major ninth during development of material. progresses to include
 oscilliandi harmonichi ponticelli after 1/2 clt glissando strokes and before
 tremolo alla punta.
 
-[F]: sputtering.
-
 [F1]
 gears (α) vn, va spazzolati.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: --
+    vn: spazzolati
+    va: spazzolati
+    vc: --
+
 [F2]
-pause.
+fermata.
 
 [F3]
 gears (α) bd fingertapping, vn spazzolati, va spazzolati.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: bd fingertapping
+    vn: spazzolati
+    va: spazzolati
+    vc: --
+
 [F4]
-pause.
+fermata.
 
 [F5]
-gears (α) va triple-struck rimbalzando.
+gears (α) va quadruple-struck rimbalzando.
+
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: rimbalzado
+    vc: --
 
 [F6]
-pause.
+fermata.
 
 [F7]
 gears (α) bd fingertapping, vn spazzolati then rimbalzando.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: bd fingertapping
+    vn: spazzolati, rimbalzando
+    va: --
+    vc: --
+
 [F8]
-pause.
+fermata.
 
 [F9]
-gears (α) eh two-note color alternation (that will later develop into trill)
-played piano and upperregister, bd fingertapping.
+gears (α) eh ratchet, bd fingertapping.
+
+    bfl: --
+    eh: intermittent ratchet
+    bcl: --
+    hpschd: --
+    perc: bd fingertapping
+    vn: --
+    va: --
+    vc: --
 
 [F10]
-pause.
+fermata.
 
 [F11]
 gears (α) vn spazzolati-rimbalzando, va spazzolati-rimbalzando.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: --
+    vn: spazzolati, rimbalzando
+    va: spazzolati, rimbalzando
+    vc: --
+
 [F12]
-pause.
+fermata.
 
 [F13]
-gears (α) bfl two-note color alternation, eh two-note color alternation, bd
-fingertapping, vn spazzolati-rimbalzando, va spazzolati-rimbalzando.
+
+gears (α) bfl intermittent fluttertongue, eh intermittent ratchet.
+gears (α) bd fingertapping, vn, va spazzolati-rimbalzando.
+
+    bfl: intermittent fluttertongue
+    eh: intermittent ratchet
+    bcl: --
+    hpschd: --
+    perc: bd fingertapping
+    vn: spazzolati, rimbalzando
+    va: spazzolati, rimbalzando
+    vc: --
 
 [F14]
-pause.
+fermata.
 
 [F15]
-gears (α) bfl two-note color alternation.
+gears (α) bfl intermittent fluttertongue.
+
+    bfl: intermittent fluttertongue
+    eh: intermittent ratchet
+    bcl: --
+    hpschd: --
+    perc: bd fingertapping
+    vn: spazzolati, rimbalzando
+    va: spazzolati, rimbalzando
+    vc: --
 
 [F16]
-pause.
+fermata.
 
 [F17]
-gears (α) bfl two-note color alternation, eh two-note color alternation.
+gears (α) bfl intermittent fluttertongue, intermittent ratchet.
+
+    bfl: intermittent fluttertongue
+    eh: intermittent ratchet
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: --
+    vc: --
 
 [F18]
-short pause.
+short fermata.
 
 [F19]
-gears (α) bfl two-note color alternation, eh two-note color alternation, bcl
-two-note color alternation.
+gears (α) bfl int. fluttertongue, eh int. ratchet, bcl int. colortrill.
+
+    bfl: intermittent fluttertongue
+    eh: intermittent ratchet
+    bcl: intermittent colortrill
+    pf: --
+    perc: --
+    vn: --
+    va: --
+    vc: --
 
 [F20]
-short pause.
+short fermata.
 
 [F21]
 x4:
     gears (α) bd fingertapping, vc short 1/2 clt glissando. short rest.
 no pause.
 
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: bd fingertapping
+    vn: --
+    va: --
+    vc: short 1/2 clt glissando
+
 [F22]
-gears (α) bfl two-note color alternation, eh two-note color alternation, bcl
-two-note color alternation, pf A0 lateral clicks, bd superball, bd
-fingertapping, vn spazzolati-rimbalzandi, va spazzolati-rimbalzandi, vc short
-1/2 clt glissandi. no players tacet. stage has the sense of being fully 2 1/2
-presentations of music.
+gears (α) bfl inter. fluttertongue followed by colortrill.
+gears (α) eh inter. ratchet, bcl colortrill.
+gears (α) pf A0 lateral clicks, bd superball, bd fingertapping.
+gears (α) vn, va spazzolati-rimbalzandi, vc short 1/2 clt glissandi.
+no players tacet.
+stage has the sense of being fully 2 1/2 presentations of music.
+
+    bfl: inter. fluttertongue, colortrill
+    eh: inter. ratchet
+    bcl: inter. colortrill
+    pf: inter. A0 lateral clicks
+    perc: bd superball, bd fingertapping
+    vn: spazzolati, rimbalzandi
+    va: spazzolati, rimbalzandi
+    vc: short 1/2 clt glissandi
 
 [F23]
-short pause.
+short fermata.
 
 [F24]
-(quieter and as an extension of each of the organelles in cell.) gears (α) bfl
-two-note color alternation slightly longer, eh two-note color alternation
-slightly longer, bcl two-note color alternation slightly longer, pf A0 lateral
-clicks slightly longer, bd superball + bd fingertapping slightly longer, vn
-spazzolati-rimbalzandi + tremolo flautando for first time, va
-spazzolati-rimbalzandi + tremolo flautando for first time, vc short 1/2 clt
-glissandi + tremolo alla punta for first time. no players tacet.
+(quieter and as an extension of each of the organelles in cell.)
+(longer stage.)
+gears (α) bfl fluttertongue colortrill slightly longer
+gears (α) eh inter. ratchet slight longer.
+gears (α) bcl colortrill, short portamenti slightly longer.
+gears (α) pf A0 lateral clicks slightly longer
+gears (α) bd superball + bd fingertapping slightly longer
+gears (α) vn spazzolati-rimbalzandi + tasto XFB for first time.
+gears (α) va spazzolati-rimbalzandi + tasto XFB for first time.
+gears (α) vc short 1/2 clt glissandi + tremolo alla punta for first time.
+no players tacet.
+
+    bfl: inter. fluttertongue, colortrill slightly longer
+    eh: inter. ratchet slightly longer
+    bcl: inter. colortrill + short portamenti slightly longer
+    pf: inter. A0 lateral clicks slightly longer
+    perc: bd superball, bd fingertapping slightly longer
+    vn: spazzolati + rimbalzandi + tasto XFB
+    va: spazzolati, rimbalzandi + tasto XFB
+    vc: short 1/2 clt glissandi + tremolo alla punta
 
 [F25]
-pause.
+fermata.
 
 [F26]
-gears (α) tutti again but cut off (so for less time).
+gears (α) exact repetition of previous stage but cut off.
+
+    bfl: inter. fluttertongue, colortrill slightly longer
+    eh: inter. ratchet slightly longer
+    bcl: inter. colortrill + short portamenti slightly longer
+    pf: inter. A0 lateral clicks slightly longer
+    perc: bd superball, bd fingertapping slightly longer
+    vn: spazzolati + rimbalzandi + tasto XFB
+    va: spazzolati, rimbalzandi + tasto XFB
+    vc: short 1/2 clt glissandi + tremolo alla punta
 
 [F27]
-pause.
+fermata.
 
 [F28]
-gears (α) bfl two-note color alternation, eh two-note color alternation, bcl
-two-note color alternation. five players tacet.
+gears (α) bfl fulltertongue + colortrill, bcl colortrill + portamenti.
+five players tacet.
+
+    bfl: inter. fluttertongue, colortrill slightly longer
+    eh: --
+    bcl: inter. colortrill + short portamenti slightly longer
+    pf: --
+    perc: --
+    vn: --
+    va: --
+    vc: --
 
 [F29]
-short pause.
+short fermata.
 
 [F30]
-gears (α) pf A0 lateral clicks slightly longer, bd superball + bd fingertapping
-slightly longer, vn spazzolati-rimbalzandi + tremolo flautando for first time,
-va spazzolati-rimbalzandi + tremolo flautando for first time, vc short 1/2 clt
-glissandi + tremolo alla punta for first time. three players tacet.
+gears (α) eh inter. ratchet.
+gears (α) pf A0 lateral clicks slightly longer
+gears (α) bd superball + bd fingertapping slightly longer
+gears (α) vn spazzolati-rimbalzandi + tremolo flautando.
+gears (α) va spazzolati-rimbalzandi + tremolo flautando.
+gears (α) vc short 1/2 clt glissandi + tremolo alla punta.
+fl, cl tacet.
+
+    bfl: --
+    eh: inter. ratchet slightly longer
+    bcl: inter. colortrill + short portamenti slightly longer
+    pf: inter. A0 lateral clicks slightly longer
+    perc: bd superball, bd fingertapping slightly longer
+    vn: spazzolati + rimbalzandi + tasto XFB
+    va: spazzolati, rimbalzandi + tasto XFB
+    vc: short 1/2 clt glissandi + tremolo alla punta
 
 [F31]
-pause.
+fermata.
 
 [F32]
 gears (α) vn spazzolati, va spazzolati.
+six players tacet.
+
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: --
+    vn: spazzolati
+    va: spazzolati
+    vc: --
 
 [F33]
-longer pause.
+long fermata.
 
 [F34]
-gears (α) tutti cut-off reprise.
+gears (α) louder tutti cut-off reprise.
+
+    bfl: inter. fluttertongue, colortrills
+    eh: inter. ratchet slightly longer
+    bcl: inter. colortrill + short portamenti
+    pf: inter. A0 lateral clicks slightly longer
+    perc: bd superball, bd fingertapping
+    vn: spazzolati + rimbalzandi + tasto XFB
+    va: spazzolati, rimbalzandi + tasto XFB
+    vc: short 1/2 clt glissandi + tremolo alla punta
 
 [F35]
-longer pause.
+long fermata.
 
 [G1-4]
 gears (α) tutti continuous turning played piano.
@@ -2137,20 +2305,20 @@ short pause.
 [J12]
 papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone resume. shell (β)
 vc reintroduces final fundamental on crescendo dal niente. final gears (α) vn
-irregular and very sparse triple-struck rimbalzandi, va irregular and very
-sparse triple-struck rimbalzandi,  pf irregular and very sparse plastic credit
+irregular and very sparse quadruple-struck rimbalzandi, va irregular and very
+sparse quadruple-struck rimbalzandi,  pf irregular and very sparse plastic credit
 card against metal piano tuning pegs begin. no players tacet. no pause.
 
 [K1]
 accelerando begins. shell (β) bcl, vc final field continues. papers (ε) bfl
-airtone, eh airtone, bd airtone continue. gears (α) vn triple-struck
-rimbalzandi, va triple-struck rimbalzandi, pf credit card tuning pegs continue.
+airtone, eh airtone, bd airtone continue. gears (α) vn quadruple-struck
+rimbalzandi, va quadruple-struck rimbalzandi, pf credit card tuning pegs continue.
 no players tacet. no pause.
 
 [K2]
 accelerando continues. shell (β) bfl, bcl, vc final field continue. papers (ε)
-eh airtone, bd airtone continue. gears (α) vn triple-struck rimbalzandi, va
-triple-struck rimbalzandi, pf credit card tuning pegs continue. no players
+eh airtone, bd airtone continue. gears (α) vn quadruple-struck rimbalzandi, va
+quadruple-struck rimbalzandi, pf credit card tuning pegs continue. no players
 tacet. no pause.
 
 [K3]

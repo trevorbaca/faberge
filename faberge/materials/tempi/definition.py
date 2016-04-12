@@ -5,31 +5,31 @@ from abjad import *
 
 tempi = collections.OrderedDict([
     (
-        'kiln',
-        Tempo(Duration(1, 4), 80),
+        'larghissimo',
+        Tempo(Duration(1, 4), 41),
         ),
     (
         'largo',
-        Tempo(Duration(1, 4), 41),
+        Tempo(Duration(1, 4), 52),
         ),
     (
         'papers',
         Tempo(Duration(1, 4), 64),
         ),
     (
+        'kiln',
+        Tempo(Duration(1, 4), 80),
+        ),
+    (
         'shell',
         Tempo(Duration(1, 4), 100),
         ),
     (
-        'slow',
-        Tempo(Duration(1, 4), 52),
+        'presto',
+        Tempo(Duration(1, 4), 125),
         ),
     (
         'prestissimo',
         Tempo(Duration(1, 4), 156),
-        ),
-    (
-        'presto',
-        Tempo(Duration(1, 4), 125),
         ),
     ])
