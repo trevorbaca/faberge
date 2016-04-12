@@ -1424,11 +1424,11 @@ jewelers' desk (γ) bfl glowing multiphonic.
 four players tacet.
 
     bfl: glowing multiphonic
-    eh: airtone
+    eh: [airtone]
     bcl: --
     pf: --
-    perc: bd airtone
-    vn: airtone
+    perc: [bd airtone]
+    vn: [airtone]
     va: --
     vc: --
 
@@ -1462,6 +1462,15 @@ chord sustains up to and across end of stage.
 all now shaped with decrescendi and crescendi.
 no players tacet.
 no pause.
+
+    bfl: airtone    (a: 2,4 ... 12,14 ... 22,24 ... 32,34)
+    eh: airtone     (a: 1,5 ... 11,15 ... 21,25 ... 31,35)
+    bcl: airtone                (b: 2,6,10 ... 32,36,40 ... 62,66,70)
+    pf: airtone     (a: 3 ... 13 ... 23 ... 33)
+    perc: bd airtone            (b: 0,4,8 ... 30,34,38 ... 60,64,78)
+    vn: airtone                 (b: 3,7,11 ... 33,37,41 ... 73,77,81)
+    va: airtone     (a: 0,6 ... 10,16 ... 20,26 ... 30,36)
+    vc: airtone                 (b: 1,5,9 ... 31,35,39 ... 61,65,69)
 
 [E14]
 papers (ε) eh, bd, vn airtone chord continues under decrescendo.

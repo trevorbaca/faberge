@@ -9,69 +9,65 @@ from faberge.materials.__abbreviations__ import *
 ##################################### [E] #####################################
 ###############################################################################
 
+vortex_1_time_signatures = [
+        TimeSignature((3, 4)),
+        TimeSignature((4, 4)),
+        TimeSignature((3, 4)),
+        TimeSignature((4, 4)),
+        ]
+assert len(vortex_1_time_signatures) == 4
+
+vortex_2_time_signatures = [
+    TimeSignature((3, 4)),
+    TimeSignature((4, 4)),
+    TimeSignature((3, 4)),
+    TimeSignature((4, 4)),
+    #
+    TimeSignature((2, 4)),
+    TimeSignature((4, 4)),
+    TimeSignature((4, 4)),
+    TimeSignature((3, 4)),
+    # 
+    TimeSignature((2, 4)),
+    TimeSignature((3, 4)),
+    TimeSignature((3, 4)),
+    TimeSignature((4, 4)),
+    #
+    TimeSignature((4, 4)),
+    TimeSignature((3, 4)),
+    TimeSignature((2, 4)),
+    TimeSignature((2, 4)),
+    #
+    TimeSignature((3, 4)),
+    TimeSignature((4, 4)),
+    TimeSignature((2, 4)),
+    TimeSignature((3, 4)),
+    #
+    TimeSignature((4, 4)),
+    TimeSignature((2, 4)),
+    TimeSignature((3, 4)),
+    TimeSignature((4, 4)),
+    ]
+
+assert len(vortex_2_time_signatures) == 24
+
 stage_specifier = baca.tools.StageSpecifier([
     6, # 1
     Fermata('longfermata'), # 2
-
-    [
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-        ], # 3
+    vortex_1_time_signatures, # 3
     Fermata(), # 4
-
-    [
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-        ], # 5
+    vortex_1_time_signatures, # 5
     Fermata(), # 6
-
-    [
-
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-
-        TimeSignature((2, 4)),
-        TimeSignature((4, 4)),
-        TimeSignature((4, 4)),
-        TimeSignature((3, 4)),
-
-        TimeSignature((2, 4)),
-        TimeSignature((3, 4)),
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-
-        TimeSignature((4, 4)),
-        TimeSignature((3, 4)),
-        TimeSignature((2, 4)),
-        TimeSignature((2, 4)),
-
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-        TimeSignature((2, 4)),
-        TimeSignature((3, 4)),
-
-        TimeSignature((4, 4)),
-        TimeSignature((2, 4)),
-        TimeSignature((3, 4)),
-        TimeSignature((4, 4)),
-
-        ], # 7
-
-#    2, # 8
-#    2, # 9
-#    Fermata('shortfermata'), # 10
-#    2, # 11
-#    Fermata('shortfermata'), # 12
-#    2, # 13
-#    2, # 14
-#    2, # 15
-#    Fermata('shortfermata'), # 16
+    vortex_2_time_signatures, # 7
+    2, # 8
+    2, # 9
+    Fermata('shortfermata'), # 10
+    2, # 11
+    Fermata('shortfermata'), # 12
+    vortex_2_time_signatures[:12], # 13
+    2, # 14
+    2, # 15
+    Fermata('shortfermata'), # 16
 #    2, # 17
 #    Fermata('shortfermata'), # 18
 #    2, # 19
@@ -97,6 +93,8 @@ stage_specifier = baca.tools.StageSpecifier([
 
 tempo_map = baca.tools.TempoMap([
     (1, faberge.materials.tempi['shell']),
+    (13, faberge.materials.tempi['presto']),
+    (14, faberge.materials.tempi['shell']),
     ])
 
 maker = baca.tools.TimeSignatureMaker(
@@ -156,7 +154,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(7)),
+    (fl, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[2, 4, 10, 12, 18, 20, 26, 28],
@@ -164,6 +162,16 @@ segment_maker.append_specifiers(
         silence_termination=True,
         tremolo_initiation=False,
         ),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(11)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(15)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### english horn (time) ###
@@ -191,7 +199,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (eh, stages(7)),
+    (eh, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[1, 5, 9, 13, 17, 21, 25, 29],
@@ -199,6 +207,21 @@ segment_maker.append_specifiers(
         silence_termination=True,
         tremolo_initiation=False,
         ),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(8, 9)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(11)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(14, 15)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
@@ -226,7 +249,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(7)),
+    (cl, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[2, 6, 10, 32, 36, 40, 62, 66, 70],
@@ -261,7 +284,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (pf_rh, stages(7)),
+    (pf_rh, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[3, 11, 19, 27],
@@ -296,7 +319,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (perc, stages(7)),
+    (perc, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[0, 4, 8, 30, 34, 38, 60, 64, 78],
@@ -304,6 +327,21 @@ segment_maker.append_specifiers(
         silence_termination=True,
         tremolo_initiation=False,
         ),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(8, 9)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(11)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(14, 15)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### violin (time) ###
@@ -331,7 +369,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(7)),
+    (vn, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[3, 7, 11, 33, 37, 41, 73, 77, 81],
@@ -339,6 +377,21 @@ segment_maker.append_specifiers(
         silence_termination=True,
         tremolo_initiation=False,
         ),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(8, 9)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(11)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(14, 15)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### viola (time) ###
@@ -366,7 +419,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(7)),
+    (va, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[0, 6, 8, 14, 16, 22, 24, 30],
@@ -401,7 +454,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(7)),
+    (vc, [stages(7), stages(13)]),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[1, 5, 9, 31, 35, 39, 61, 65, 69],
