@@ -370,7 +370,7 @@
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     \mark #7
                     s1 * 1
@@ -404,7 +404,7 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -455,7 +455,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -466,7 +466,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -477,7 +477,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -527,7 +527,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -537,7 +537,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -548,7 +548,7 @@
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 5/4
                         ^ \markup {
@@ -566,7 +566,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -599,7 +599,7 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -648,7 +648,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -666,7 +666,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -677,7 +677,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -688,7 +688,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -716,7 +716,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -750,7 +750,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -808,7 +808,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -825,7 +825,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -858,7 +858,7 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -909,7 +909,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -920,7 +920,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -931,7 +931,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -969,7 +969,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -980,7 +980,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -991,7 +991,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1002,7 +1002,7 @@
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 5/4
                         ^ \markup {
@@ -1020,7 +1020,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1053,7 +1053,7 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1103,7 +1103,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1121,7 +1121,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1132,7 +1132,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1143,7 +1143,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1171,7 +1171,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1205,7 +1205,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1263,7 +1263,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1280,7 +1280,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1313,7 +1313,7 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1364,7 +1364,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1375,7 +1375,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1386,7 +1386,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1436,7 +1436,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1446,7 +1446,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1457,7 +1457,7 @@
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 5/4
                         ^ \markup {
@@ -1475,7 +1475,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1508,7 +1508,7 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1557,7 +1557,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1575,7 +1575,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1586,7 +1586,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1597,7 +1597,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1657,7 +1657,7 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1 \startTextSpan
                         ^ \markup {
@@ -1675,7 +1675,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1726,7 +1726,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1744,7 +1744,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1755,7 +1755,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1766,7 +1766,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1827,100 +1827,192 @@
                         Fl.
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'4..
+                        r16
+                        c'2...
+                        r16
+                        c'1
+                        c'2. ~
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'2. ~
+                        c'4
+                        c'4..
+                        r16
+                        c'2
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        c'2
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'4..
+                        r16
+                        c'2...
+                        r16
+                        c'1
+                        c'2. ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        c'2. ~
+                        c'4
+                        c'4..
+                        r16
+                        c'2
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'2. ~
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'1
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'4
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'4..
+                        r16
+                        c'2...
+                        r16
+                        c'1
+                        c'2. ~
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'2. ~
+                        c'4
+                        c'4..
+                        r16
+                        c'2
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'8.
+                        r16
+                        c'2. ~
+                        c'8.
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2
                         \bar "|"
                     }
                 }
@@ -2057,100 +2149,154 @@
                         Cl.
                     }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
+                        d'2...
+                        r16
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'2. ~
+                        d'4
+                        d'2 ~
+                        d'2
+                        d'2 ~
+                        d'4..
+                        r16
+                        d'1
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'4 ~
+                        d'2.
+                        d'2. ~
+                        d'8.
+                        r16
+                        d'1
+                        d'2...
+                        r16
+                        d'1
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'4 ~
+                        d'2 ~
+                        d'4
+                        d'2 ~
+                        d'4..
+                        r16
+                        d'2 ~
+                        d'2
+                        d'1
+                        d'2...
+                        r16
+                        d'2. ~
+                        d'4
+                        d'2. ~
+                        d'4
+                        d'4 ~
+                        d'2.
+                        d'1
+                        d'2...
+                        r16
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'2. ~
+                        d'4
+                        d'2 ~
+                        d'2
+                        d'2 ~
+                        d'4..
+                        r16
+                        d'1
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'2 ~
+                        d'2
+                        d'2. ~
+                        d'8.
+                        r16
+                        d'1
+                        d'2...
+                        r16
+                        d'1
+                        d'1
+                        d'2 ~
+                        d'2
+                        d'4 ~
+                        d'2 ~
+                        d'4
+                        d'2 ~
+                        d'4..
+                        r16
+                        d'2 ~
+                        d'2
+                        d'4 ~
+                        d'2.
+                        d'4
+                        d'2...
+                        r16
+                        d'2 ~
+                        d'2
+                        d'2 ~
+                        d'2
+                        d'2. ~
+                        d'4
+                        d'2.
+                        d'2...
+                        r16
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'2. ~
+                        d'4
+                        d'2 ~
+                        d'2
+                        d'2 ~
+                        d'4..
+                        r16
+                        d'1
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'4 ~
+                        d'2.
+                        d'2. ~
+                        d'8.
+                        r16
+                        d'1
+                        d'2...
+                        r16
+                        d'1
+                        d'1
+                        d'2. ~
+                        d'4
+                        d'4 ~
+                        d'2 ~
+                        d'4
+                        d'2 ~
+                        d'4..
+                        r16
+                        d'2 ~
+                        d'2
+                        d'1
+                        d'2...
+                        r16
+                        d'2. ~
+                        d'4
+                        d'2. ~
+                        d'4
+                        d'4 ~
+                        d'2.
+                        d'1
+                        d'2. ~
+                        d'8.
+                        r16
+                        d'2. ~
+                        d'4
+                        d'2 ~
+                        d'2
+                        d'2
                         \bar "|"
                     }
                 }
@@ -2161,100 +2307,320 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 3/4
-                            R1 * 5/4
-                            R1 * 1
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1/2
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 3/4
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 5/4
-                            R1 * 1
-                            R1 * 1
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 3/4
-                            R1 * 5/4
-                            R1 * 1
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1/2
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 1
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 1/2
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
-                            R1 * 3/4
-                            R1 * 1
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
                             \bar "|"
                         }
                     }
@@ -2470,100 +2836,121 @@
                         Perc.
                     }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'1 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2 ~
+                        c'1 ~
+                        c'1 ~
+                        c'2. ~
+                        c'2 ~
+                        c'2. ~
+                        c'2. ~
+                        c'2. ~
+                        c'2
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'1 ~
+                        c'1 ~
+                        c'2. ~
+                        c'2 ~
+                        c'2 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2 ~
+                        c'1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2 ~
+                        c'2. ~
+                        c'1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'1 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2 ~
+                        c'1 ~
+                        c'1 ~
+                        c'2. ~
+                        c'2. ~
+                        c'2 ~
+                        c'2. ~
+                        c'2. ~
+                        c'2
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'1 ~
+                        c'1 ~
+                        c'2 ~
+                        c'2. ~
+                        c'2 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2. ~
+                        c'1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2 ~
+                        c'1 ~
+                        c'2 ~
+                        c'2. ~
+                        c'1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'1 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2 ~
+                        c'1 ~
+                        c'1 ~
+                        c'2. ~
+                        c'2 ~
+                        c'2. ~
+                        c'2. ~
+                        c'2. ~
+                        c'2
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'1 ~
+                        c'1 ~
+                        c'2. ~
+                        c'2 ~
+                        c'2 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2 ~
+                        c'1
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2. ~
+                        c'1 ~
+                        c'2. ~
+                        c'1
                         \bar "|"
                     }
                 }
@@ -2583,100 +2970,312 @@
                         Vn.
                     }
                     \context ViolinMusicVoice = "Violin Music Voice" {
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2. ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8
+                        c'8 ~ ]
+                        c'2. ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        r16
+                        c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2.
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2 ~
+                        c'4.
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2. ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8
+                        c'8 ~ ]
+                        c'2. ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        r16
+                        c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'2.. ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        r16
+                        c'16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2. ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8
+                        c'8 ~ ]
+                        c'2. ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        r16
+                        c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2.
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2 ~
+                        c'4.
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'4
                         \bar "|"
                     }
                 }
@@ -2694,100 +3293,312 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2. ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8
+                        c'8 ~ ]
+                        c'2. ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        r16
+                        c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2.
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2 ~
+                        c'4.
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2. ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8
+                        c'8 ~ ]
+                        c'2. ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        r16
+                        c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'2.. ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        r16
+                        c'16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2. ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8
+                        c'8 ~ ]
+                        c'2. ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2 ~
+                        c'4.
+                        r16
+                        c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2.
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'8 ~ [
+                        c'8 ]
+                        c'4. ~
+                        c'2 ~
+                        c'8 [
+                        c'8 ~ ]
+                        c'2..
+                        c'8 ~
+                        c'2 ~
+                        c'4.
+                        c'4. ~
+                        c'2 ~
+                        c'8
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'4
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'4
                         \bar "|"
                     }
                 }
@@ -2805,100 +3616,247 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'2. ~
+                        c'4
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4 ~
+                        c'8.
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2.
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'2 ~
+                        c'2
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'1
+                        c'2 ~
+                        c'2
+                        c'2
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'2. ~
+                        c'4
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4 ~
+                        c'8.
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2.
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2 ~
+                        c'2
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'1
+                        c'2. ~
+                        c'4
+                        c'2.
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'2. ~
+                        c'4
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'2. ~
+                        c'4
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2 ~
+                        c'4
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4 ~
+                        c'8.
+                        r16
+                        c'2 ~
+                        c'2
+                        c'2.
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'2 ~
+                        c'2
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'1
+                        c'2 ~
+                        c'2
+                        c'2
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'1
+                        c'2 ~
+                        c'2
+                        c'4 ~
+                        c'2.
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                        c'4..
+                        r16
+                        c'4 ~
+                        c'2.
+                        c'4 ~
+                        c'2.
+                        c'1
                         \bar "|"
                     }
                 }
