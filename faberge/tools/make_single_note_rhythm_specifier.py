@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 import baca
+from abjad.tools import durationtools
 from abjad.tools import rhythmmakertools
 
 
-def make_guiro_rhythm_specifier():
+def make_single_note_rhythm_specifier(duration):
+    duration = durationtools.Duration(duration)
+    numerator = duration.numerator
+    denominator = duration.denominator
     rhythm_maker = rhythmmakertools.IncisedRhythmMaker(
         incise_specifier=rhythmmakertools.InciseSpecifier(
             fill_with_notes=False,
             outer_divisions_only=True,
-            prefix_talea=[1],
+            prefix_talea=[numerator],
             prefix_counts=[1],
-            talea_denominator=16,
+            talea_denominator=denominator,
             ),
         )
     return baca.tools.RhythmSpecifier(
-        division_expression=None,
+        rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

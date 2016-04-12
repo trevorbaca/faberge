@@ -152,7 +152,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, [stages(16)]),
-    faberge.tools.make_guiro_rhythm_specifier(),
+    faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
