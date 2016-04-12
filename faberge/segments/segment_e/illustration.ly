@@ -312,6 +312,182 @@
                                 #"scripts.ushortfermata"
                             }
                 }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ulongfermata"
+                            }
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
@@ -1164,6 +1340,547 @@
                                     [E16]
                             }
                 }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'54''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E17]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'55''
+                            }
+                }
+                {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E18]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'58''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E19]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'01''
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'03''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E20]
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'04''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'05''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E21]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'07''
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'09''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E22]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'10''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'12''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E23]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'15''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'16''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E24]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'18''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'20''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E25]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'22''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'24''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E26]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'26''
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'28''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E27]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'30''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'32''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E28]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'34''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'36''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E29]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'38''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'39''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E30]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'41''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'43''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E31]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'46''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'47''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E32]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'49''
+                            }
+                }
+                {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E33]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'51''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E34]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'52''
+                            }
+                }
+                {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E35]
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'55''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E36]
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'57''
+                            }
+                }
+                {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [E37]
+                            }
+                }
             }
         >>
         \context MusicContext = "Music Context" <<
@@ -1287,6 +2004,27 @@
                         c'2
                         c'2. \repeatTie
                         R1 * 1/4
+                        c'2.
+                        c'1 \repeatTie
+                        R1 * 1/4
+                        c'1
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        R1 * 7/4
+                        c'2
+                        c'1 \repeatTie
+                        R1 * 45/4
                         \bar "|"
                     }
                 }
@@ -1413,6 +2151,26 @@
                         g'2 \repeatTie
                         g'2. \repeatTie
                         R1 * 1/4
+                        g'2.
+                        g'1 \repeatTie
+                        R1 * 1/4
+                        g'1
+                        g'2. \repeatTie
+                        g'2 \repeatTie
+                        g'2 \repeatTie
+                        g'2. \repeatTie
+                        g'1 \repeatTie
+                        g'2 \repeatTie
+                        g'2. \repeatTie
+                        g'1 \repeatTie
+                        g'2 \repeatTie
+                        R1 * 7/4
+                        g'2.
+                        g'1 \repeatTie
+                        R1 * 7/4
+                        g'2
+                        g'1 \repeatTie
+                        R1 * 45/4
                         \bar "|"
                     }
                 }
@@ -1515,6 +2273,27 @@
                         d'4.
                         r1
                         R1 * 13/4
+                        d'2.
+                        d'1 \repeatTie
+                        R1 * 1/4
+                        d'1
+                        d'2. \repeatTie
+                        d'2 \repeatTie
+                        d'2 \repeatTie
+                        d'2. \repeatTie
+                        d'1 \repeatTie
+                        d'2 \repeatTie
+                        d'2. \repeatTie
+                        d'1 \repeatTie
+                        d'2 \repeatTie
+                        d'2. \repeatTie
+                        d'1 \repeatTie
+                        d'2. \repeatTie
+                        d'1 \repeatTie
+                        R1 * 7/4
+                        d'2
+                        d'1 \repeatTie
+                        R1 * 45/4
                         \bar "|"
                     }
                 }
@@ -1618,7 +2397,37 @@
                             r2.
                             r2
                             c'2
-                            R1 * 13/4
+                            R1 * 7
+                            \times 2/3 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                                r8
+                            }
+                            \times 2/3 {
+                                r4.
+                                c'8 [
+                                c'8
+                                c'8 ]
+                            }
+                            R1 * 7/4
+                            \times 2/3 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                                r8
+                            }
+                            {
+                                r4.
+                                c'8 [
+                                c'8
+                                c'8 ]
+                            }
+                            R1 * 39/2
                             \bar "|"
                         }
                     }
@@ -1691,6 +2500,44 @@
                             R1 * 1/2
                             R1 * 3/4
                             R1 * 1/4
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1/4
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/4
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1/4
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -1759,6 +2606,44 @@
                             R1 * 3/4
                             R1 * 1/2
                             R1 * 3/4
+                            R1 * 1/4
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1/4
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/4
+                            R1 * 3/4
+                            R1 * 1/2
                             R1 * 1/4
                             \bar "|"
                         }
@@ -1878,6 +2763,41 @@
                         c'2 \repeatTie
                         c'2. \repeatTie
                         R1 * 1/4
+                        c'2.
+                        c'1 \repeatTie
+                        R1 * 1/4
+                        c'1
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1/4
+                        c'2.
+                        c'1 \repeatTie
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -2018,6 +2938,167 @@
                         c'2 \repeatTie
                         c'2. \repeatTie
                         R1 * 1/4
+                        c'2.
+                        c'1 \repeatTie
+                        R1 * 1/4
+                        c'1
+                        c'2. \repeatTie
+                        \times 2/3 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                            r8
+                        }
+                        \times 2/3 {
+                            r4.
+                            c'8 [
+                            c'8
+                            c'8 ]
+                        }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2.
+                        c'1 \repeatTie
+                        \times 2/3 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                            r8
+                        }
+                        {
+                            r4.
+                            c'8 [
+                            c'8
+                            c'8 ]
+                        }
+                        c'1
+                        c'2 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2.
+                        c'1 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'1 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        R1 * 3
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        R1 * 7/2
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -2122,7 +3203,156 @@
                         r8
                         r2.
                         r1
-                        R1 * 13/4
+                        R1 * 7
+                        \times 2/3 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                            r8
+                        }
+                        \times 2/3 {
+                            r4.
+                            c'8 [
+                            c'8
+                            c'8 ]
+                        }
+                        R1 * 7/4
+                        \times 2/3 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                            r8
+                        }
+                        {
+                            r4.
+                            c'8 [
+                            c'8
+                            c'8 ]
+                        }
+                        R1 * 3/2
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        R1 * 7/4
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        R1 * 3/2
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        R1 * 3
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        R1 * 7/2
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16 [
+                        c'16 ]
+                        r8
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -2243,7 +3473,30 @@
                         c'4.
                         r4
                         r1
-                        R1 * 13/4
+                        R1 * 21/4
+                        c'1
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 33/4
                         \bar "|"
                     }
                 }
