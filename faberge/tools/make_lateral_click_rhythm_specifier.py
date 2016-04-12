@@ -5,7 +5,7 @@ from abjad.tools import rhythmmakertools
 from abjad.tools import sequencetools
 
 
-def make_ratchet_rhythm_specifier():
+def make_lateral_click_rhythm_specifier():
     interpolation_specifiers = [
         rhythmmakertools.InterpolationSpecifier(
             start_duration=durationtools.Duration(3, 8),

@@ -345,11 +345,11 @@ jewelers' desk (γ) eh keynoise begins.
 jewelers' desk (γ) bfl, bcl, vc momentarily pp.
 gears (α) vn spazzolati, va spazzolati allowed to shine through.
 kiln (δ) castanets, struck bd, eh-guiro prefigured.
-no players tacet.
+eh tacet.
 no pause.
 
     bfl: momentary pp
-    eh: kiln: guiro
+    eh: keynoise
     bcl: momentary pp
     pf: [resonance]
     perc: kiln: castanets, struck bd
@@ -1911,7 +1911,6 @@ gears (α) vn spazzolati-rimbalzando, va spazzolati-rimbalzando.
 fermata.
 
 [F13]
-
 gears (α) bfl intermittent fluttertongue, eh intermittent ratchet.
 gears (α) bd fingertapping, vn, va spazzolati-rimbalzando.
 
@@ -2073,7 +2072,7 @@ fl, cl tacet.
 
     bfl: --
     eh: inter. ratchet slightly longer
-    bcl: inter. colortrill + short portamenti slightly longer
+    bcl: --
     pf: inter. A0 lateral clicks slightly longer
     perc: bd superball, bd fingertapping slightly longer
     vn: spazzolati + rimbalzandi + tasto XFB
