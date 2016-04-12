@@ -15,6 +15,7 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 3
     6 * [TimeSignature((5, 4))], # 4
     2, # 5
+    Fermata('shortfermata'), # 6
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -45,8 +46,8 @@ segment_maker = baca.tools.SegmentMaker(
     transpose_score=True,
     )
 
-segment_maker.validate_stage_count(5)
-segment_maker.validate_measure_count(14)
+segment_maker.validate_stage_count(6)
+segment_maker.validate_measure_count(15)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -95,6 +96,11 @@ segment_maker.append_specifiers(
         attack_count=5,
         fuse_counts=[3],
         )
+    )
+
+segment_maker.append_specifiers(
+    (pf_music, stages(5)),
+    baca.rhythm.make_rest_rhythm_specifier(),
     )
 
 ### percussion (time) ###
@@ -165,6 +171,13 @@ segment_maker.append_specifiers(
     (pf_rh, stages(1)),
     [
         faberge.materials.instruments['harpsichord'],
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (pf_rh, stages(5)),
+    [
+        faberge.materials.instruments['piano'],
         ],
     )
 

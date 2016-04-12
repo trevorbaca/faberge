@@ -1329,28 +1329,59 @@ no pause.
 papers (ε) tremolo va, eh, bfl, pf, bd, vc, bcl, vn airtone chain.
 papers (ε) all crescendo accelerando to announce start of elaborated papers.
 
+    bfl: airtone (2)
+    eh: airtone (1)
+    bcl: airtone (6)
+    pf: airtone (3)
+    perc: bd airtone (4)
+    vn: airtone (7)
+    va: tremolo airtone (0)
+    vc: airtone (5)
+
 [E2]
-longer pause.
+long fermata.
 
 [E3]
 papers (ε) with two airtone chains in counterpoint.
-first papers (ε) va, eh, bfl, pf airtone chain with incr. shorter durations.
-second papers (ε) bd, vc, bcl, vn airtone chain with incr. shorter durations.
+first papers (ε) va, eh, bfl, pf, bfl, eh, va with incr. shorter durations.
+second papers (ε) [bd, vc, bcl, vn] x4 with shorter regular durations.
 second chain starts shortly after first chain.
+chains distinguished by rhythmic profile and dynamics.
+no tremolo initiation.
 no players tacet.
 
+    bfl: airtone    (a: 2, 4)
+    eh: airtone     (a: 1, 5)
+    bcl: airtone                (b: 2, 6, 10)
+    pf: airtone     (a: 3)
+    perc: bd airtone            (b: 0, 4, 8)
+    vn: airtone                 (b: 3, 7, 11)
+    va: airtone     (a: 0, 6)
+    vc: airtone                 (b: 1, 5, 9)
+
 [E4]
-pause.
+fermata.
 
 [E5]
 exact repetition of previous stage.
-first papers (ε) va, eh, bfl, pf airtone chain with incr. shorter durations.
-second papers (ε) bd, vc, bcl, vn airtone chain with incr. shorter durations.
+first papers (ε) va, eh, bfl, pf, bfl, eh, va with incr. shorter durations.
+second papers (ε) [bd, vc, bcl, vn] x4 with shorter regular durations.
 second chain starts shortly after first chain.
+chains distinguished by rhythmic profile and dynamics.
+no tremolo initiation.
 no players tacet.
 
+    bfl: airtone    (a: 2, 4)
+    eh: airtone     (a: 1, 5)
+    bcl: airtone                (b: 2, 6, 10)
+    pf: airtone     (a: 3)
+    perc: bd airtone            (b: 0, 4, 8)
+    vn: airtone                 (b: 3, 7, 11)
+    va: airtone     (a: 0, 6)
+    vc: airtone                 (b: 1, 5, 9)
+
 [E6]
-pause.
+fermata.
 
 [E7]
 (longer stage.)
@@ -1364,23 +1395,62 @@ chord sustains up to and across end of stage.
 no players tacet.
 no pause.
 
+    bfl: airtone    (a: 2,4 ... 12,14 ... 22,24 ... 32,34)
+    eh: airtone     (a: 1,5 ... 11,15 ... 21,25 ... 31,35)
+    bcl: airtone                (b: 2,6,10 ... 32,36,40 ... 62,66,70)
+    pf: airtone     (a: 3 ... 13 ... 23 ... 33)
+    perc: bd airtone            (b: 0,4,8 ... 30,34,38 ... 60,64,78)
+    vn: airtone                 (b: 3,7,11 ... 33,37,41 ... 73,77,81)
+    va: airtone     (a: 0,6 ... 10,16 ... 20,26 ... 30,36)
+    vc: airtone                 (b: 1,5,9 ... 31,35,39 ... 61,65,69)
+
 [E8]
 papers (ε) eh, bd, vn airtone chord continues under decrescendo.
+five players tacet.
 no pause.
+
+    bfl: --
+    eh: airtone
+    bcl: --
+    pf: --
+    perc: bd airtone
+    vn: airtone
+    va: --
+    vc: --
 
 [E9]
 papers (ε) eh, bd, vn airtone chord continues.
 jewelers' desk (γ) bfl glowing multiphonic.
+four players tacet.
+
+    bfl: glowing multiphonic
+    eh: airtone
+    bcl: --
+    pf: --
+    perc: bd airtone
+    vn: airtone
+    va: --
+    vc: --
 
 [E10]
-short pause.
+short fermata.
 
 [E11]
 papers (ε) eh, bd, vn airtone chord.
 jewelers' desk (γ) bfl glowing multiphonic.
+four players tacet.
+
+    bfl: glowing multiphonic
+    eh: airtone
+    bcl: --
+    pf: --
+    perc: bd airtone
+    vn: airtone
+    va: --
+    vc: --
 
 [E12]
-short pause.
+short fermata.
 
 [E13]
 faster and shorter version of previous stage.
@@ -1395,29 +1465,66 @@ no pause.
 
 [E14]
 papers (ε) eh, bd, vn airtone chord continues under decrescendo.
+five players tacet.
 no pause.
+
+    bfl: --
+    eh: airtone
+    bcl: --
+    pf: --
+    perc: bd airtone
+    vn: airtone
+    va: --
+    vc: --
 
 [E15]
 papers (ε) eh, bd, vn airtone chord continues.
 jewelers' desk (γ) bfl glowing multiphonic.
-cl, pf, va, vc tacet.
+four players tacet.
+
+    bfl: glowing multiphonic
+    eh: [airtone]
+    bcl: --
+    pf: --
+    perc: [bd airtone]
+    vn: [airtone]
+    va: --
+    vc: --
 
 [E16]
-short pause.
+short fermata.
 
 [E17]
 papers (ε) eh, bd, vn airtone chord.
 jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic.
 pf, va, vc tacet.
 
+    bfl: glowing multiphonic
+    eh: airtone
+    bcl: glow
+    pf: --
+    perc: bd airtone
+    vn: airtone
+    va: --
+    vc: --
+
 [E18]
-short pause.
+short fermata.
 
 [E19]
 papers (ε) eh, bd, vn airtone chord.
 jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
 pf, va tacet.
 no pause.
+
+    bfl: glowing multiphonic
+    eh: airtone
+    bcl: glow
+    pf: --
+    perc: bd airtone
+    vn: airtone
+    va: --
+    vc: lowregister pedal
 
 [E20]
 papers (ε) eh, bd airtone chord continues.
@@ -1426,10 +1533,28 @@ kiln (δ) hpschd, vn clb, va clb manifest for a moment.
 no players tacet.
 no pause.
 
+    bfl: [glowing multiphonic]
+    eh: [airtone]
+    bcl: [glow]
+    hpschd: thin clb
+    perc: [bd airtone]
+    vn: thin clb
+    va: thin clb
+    vc: [lowregister pedal]
+
 [E21]
 papers (ε) eh, bd, vn airtone chord continues.
 jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
 pf, va tacet. no pause.
+
+    bfl: [glowing multiphonic]
+    eh: [airtone]
+    bcl: [glow]
+    hpschd: --
+    perc: [bd airtone]
+    vn: airtone
+    va: --
+    vc: [lowregister pedal]
 
 [E22]
 papers (ε) eh, bd airtone chord continues.
@@ -1438,24 +1563,60 @@ kiln (δ) hpschd, vn clb, va clb manifest for a moment.
 no players tacet.
 no pause.
 
+    bfl: [glowing multiphonic]
+    eh: [airtone]
+    bcl: [glow]
+    hpschd: thin clb
+    perc: [bd airtone]
+    vn: thin clb
+    va: thin clb
+    vc: [lowregister pedal]
+
 [E23]
 papers (ε) eh, bd, vn airtone chord continues.
 jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
 pf, va tacet.
 no pause.
 
+    bfl: [glowing multiphonic]
+    eh: [airtone]
+    bcl: [glow]
+    hpschd: --
+    perc: [bd airtone]
+    vn: airtone
+    va: --
+    vc: [lowregister pedal]
+
 [E24]
 papers (ε) bd airtone continues.
 jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
 gears (α) vn, va spazzolati manifest for a moment.
-fl, eh, cl, pf tacet.
+eh, pf tacet.
 no pause.
+
+    bfl: [glowing multiphonic]
+    eh: --
+    bcl: [glow]
+    hpschd: --
+    perc: [bd airtone]
+    vn: spazzolati
+    va: spazzolati
+    vc: [lowregister pedal]
 
 [E25]
 papers (ε) eh, bd, vn airtone chord continues.
 jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
 pf, va tacet.
 no pause.
+
+    bfl: [glowing multiphonic]
+    eh: airtone
+    bcl: [glow]
+    hpschd: --
+    perc: [bd airtone]
+    vn: airtone
+    va: --
+    vc: [lowregister pedal]
 
 [E26]
 papers (ε) bd airtone continues.
@@ -1464,18 +1625,47 @@ gears (α) vn, va spazzolati manifest for a moment.
 fl, eh, cl, pf tacet.
 no pause.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: [bd airtone]
+    vn: spazzolati
+    va: spazzolati
+    vc: [lowregister pedal]
+
 [E27]
-papers (ε) eh, bd, vn airtone chord continues.
-jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
+papers (ε) bd airtone continues.
+papers (ε) eh, vn airtone resume.
+jewelers' desk (γ) vc lowregister pedal continues
+jewelers' desk (γ) bfl glowing multiphonic, bcl tone resume.
 pf, va tacet.
 no pause.
 
+    bfl: glowing multiphonic
+    eh: airtone
+    bcl: glowing tone
+    hpschd: --
+    perc: [bd airtone]
+    vn: airtone
+    va: --
+    vc: [lowregister pedal]
+
 [E28]
 papers (ε) bd airtone continues.
-jewelers' desk (γ) vc lowregister pedal.
+jewelers' desk (γ) vc lowregister pedal continues.
 gears (α) vn, va spazzolati manifest for a moment.
 fl, eh, cl, pf tacet.
 no pause.
+
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: [bd airtone]
+    vn: spazzolati
+    va: spazzolati
+    vc: [lowregister pedal]
 
 [E29]
 papers (ε) bd airtone continues.
@@ -1483,10 +1673,28 @@ jewelers' desk (γ) vc lowregister pedal.
 six other players tacet.
 no pause.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: [bd airtone]
+    vn: --
+    va: --
+    vc: [lowregister pedal]
+
 [E30]
 papers (ε) bd airtone continues.
 seven other players tacet.
 no pause.
+
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: [bd airtone]
+    vn: --
+    va: --
+    vc: --
 
 [E31]
 papers (ε) bd airtone continues.
@@ -1494,26 +1702,62 @@ gears (α) vn, va spazzolati manifest for a moment.
 five other players tacet.
 no pause.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: [bd airtone]
+    vn: spazzolati
+    va: spazzolati
+    vc: --
+
 [E32]
 papers (ε) bd airtone continues.
 seven other players tacet.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: [bd airtone]
+    vn: --
+    va: --
+    vc: --
+
 [E33]
-pause.
+fermata.
 
 [E34]
-papers (ε) bd airtone.
+papers (ε) bd airtone resumes.
 seven other players tacet.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: bd airtone
+    vn: --
+    va: --
+    vc: --
+
 [E35]
-pause.
+fermata.
 
 [E36]
 gears (α) vn, va spazzolati manifest for a moment.
 six other players tacet.
 
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: --
+    vn: spazzolati
+    va: spazzolati
+    vc: --
+
 [E37]
-longer pause.
+long fermata.
 
 [F]
 great turning of the golden gears.

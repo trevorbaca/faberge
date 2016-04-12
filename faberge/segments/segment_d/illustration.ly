@@ -64,6 +64,17 @@
                     \time 4/4
                     R1 * 1
                 }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
@@ -267,6 +278,19 @@
                                 0'59''
                             }
                 }
+                {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D6]
+                            }
+                }
             }
         >>
         \context MusicContext = "Music Context" <<
@@ -309,7 +333,7 @@
                             c'16 ]
                             r4..
                         }
-                        R1 * 47/4
+                        R1 * 12
                         \bar "|"
                     }
                 }
@@ -395,7 +419,7 @@
                             g'16
                             g'16 ]
                         }
-                        R1 * 47/4
+                        R1 * 12
                         \bar "|"
                     }
                 }
@@ -437,7 +461,7 @@
                             d'16 ]
                             r4..
                         }
-                        R1 * 47/4
+                        R1 * 12
                         \bar "|"
                     }
                 }
@@ -567,7 +591,25 @@
                                 c'8
                                 c'8 ]
                             }
-                            R1 * 7/4
+                            \set PianoStaffGroup.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Piano
+                                }
+                            \set PianoStaffGroup.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Pf.
+                                }
+                            r2.
+                                ^ \markup {
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to piano"
+                                    }
+                            r1
+                            R1 * 1/4
                             \bar "|"
                         }
                     }
@@ -655,7 +697,9 @@
                                 c'4
                                 c'4
                             }
-                            R1 * 7/4
+                            r2.
+                            r1
+                            R1 * 1/4
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -673,6 +717,7 @@
                             R1 * 5/4
                             R1 * 3/4
                             R1 * 1
+                            R1 * 1/4
                             \bar "|"
                         }
                     >>
@@ -713,7 +758,7 @@
                         c'4
                         c'4
                         r2.
-                        R1 * 7/4
+                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -872,7 +917,7 @@
                             c'8
                             c'8 ]
                         }
-                        R1 * 7/4
+                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -899,20 +944,21 @@
                         c'1.. \repeatTie
                         c'1 \repeatTie
                         c'1. \repeatTie
-                        c'1 \repeatTie
-                        c'4 \repeatTie
-                        c'1 \repeatTie
-                        c'4 \repeatTie
-                        c'1 \repeatTie
-                        c'4 \repeatTie
-                        c'1 \repeatTie
-                        c'4 \repeatTie
-                        c'1 \repeatTie
-                        c'4 \repeatTie
-                        c'1 \repeatTie
-                        c'4 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
                         c'2. \repeatTie
                         c'1 \repeatTie
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1064,7 +1110,7 @@
                             c'8
                             c'8 ]
                         }
-                        R1 * 7/4
+                        R1 * 2
                         \bar "|"
                     }
                 }
