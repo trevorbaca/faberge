@@ -2373,9 +2373,9 @@ no pause.
     vc: [electricity ppp]
 
 [I]
-broken shell (β) fully orchestrated field: bfl flz with slow pitchbending and
+broken shell (β) fully orchestrated field: fl slow pitchbending and
 transitions between relative amounts of air and tone and with intermittent
-major ninth displacements and with swell-enveloping that brings the bfl into
+major ninth displacements and with swell-enveloping that brings the fl into
 and out of the orchestration; eh quieter upperregister swell-enveloped
 colortrills; bcl lowregister tone hypnotically alternating with upperregister
 tone and all enveloped with slow-moving swells; pf harmonic field; attackless
