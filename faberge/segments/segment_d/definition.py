@@ -15,11 +15,14 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 3
     6 * [TimeSignature((5, 4))], # 4
     2, # 5
-    Fermata('shortfermata'), # 6
+    2, # 6
+    2, # 7
+    2, # 8
+    Fermata('shortfermata'), # 9
     ])
 
 tempo_map = baca.tools.TempoMap([
-    (1, faberge.materials.tempi['papers']),
+    (1, faberge.materials.tempi[80]),
     ])
 
 maker = baca.tools.TimeSignatureMaker(
@@ -46,8 +49,8 @@ segment_maker = baca.tools.SegmentMaker(
     transpose_score=True,
     )
 
-segment_maker.validate_stage_count(6)
-segment_maker.validate_measure_count(15)
+segment_maker.validate_stage_count(9)
+segment_maker.validate_measure_count(21)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -66,6 +69,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(2)),
     faberge.tools.make_keynoise_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(6, 7)),
+    faberge.tools.make_electricity_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
@@ -115,6 +123,11 @@ segment_maker.append_specifiers(
     faberge.tools.make_meccanico_percussion_cell_rhythm_specifier(),
     )
 
+segment_maker.append_specifiers(
+    (perc, stages(6, 7)),
+    faberge.tools.make_electricity_rhythm_specifier(),
+    )
+
 ### violin (time) ###
 
 segment_maker.append_specifiers(
@@ -130,10 +143,15 @@ segment_maker.append_specifiers(
         )
     )
 
+segment_maker.append_specifiers(
+    (vn, stages(7)),
+    faberge.tools.make_electricity_rhythm_specifier(),
+    )
+
 ### viola (time) ###
 
 segment_maker.append_specifiers(
-    (va, stages(1, 5)),
+    (va, stages(1, 8)),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -153,6 +171,11 @@ segment_maker.append_specifiers(
         attack_count=10,
         fuse_counts=[3],
         )
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(7)),
+    faberge.tools.make_electricity_rhythm_specifier(),
     )
 
 ###############################################################################

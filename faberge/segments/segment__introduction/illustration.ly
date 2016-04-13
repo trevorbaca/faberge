@@ -13,20 +13,18 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
                     \time 4/4
                     R1 * 1
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 15 256)
-                    \newSpacingSection
-                    s1 * 1/2 ^ \markup {
+                    \time 4/4
+                    s1 * 1 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -44,10 +42,8 @@
                         }
                 }
                 {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 13 256)
-                    \newSpacingSection
-                    s1 * 1
+                    \time 6/4
+                    s1 * 3/2
                 }
             }
         >>
@@ -67,8 +63,8 @@
                         Fl.
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        R1 * 1/2
                         R1 * 1
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
@@ -115,7 +111,7 @@
                                                 \override TupletNumber #'text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
-                                                c'2
+                                                c'1
                                             }
                                         >>
                                         \layout {
@@ -131,15 +127,19 @@
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
-                            c'16 * 351/64 [
+                            c'16 * 187/32 [
                                 ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            ratchet
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                ratchet
                                     }
-                            c'16 * 101/64
-                            c'16 * 15/16 ]
+                            c'16 * 139/32
+                            c'16 * 73/32
+                            c'16 * 23/16
+                            c'16 * 71/64
+                            c'16 * 63/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -164,7 +164,7 @@
                                                 \override TupletNumber #'text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
-                                                c'1
+                                                c'1.
                                             }
                                         >>
                                         \layout {
@@ -176,14 +176,17 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 13/16 [
-                            c'16 * 27/32
-                            c'16 * 31/32
-                            c'16 * 77/64
-                            c'16 * 13/8
-                            c'16 * 75/32
-                            c'16 * 223/64
-                            c'16 * 151/32 ]
+                            c'16 * 59/64 [
+                            c'16 * 15/16
+                            c'16 * 1
+                            c'16 * 71/64
+                            c'16 * 41/32
+                            c'16 * 49/32
+                            c'16 * 61/32
+                            c'16 * 79/32
+                            c'16 * 209/64
+                            c'16 * 275/64
+                            c'16 * 169/32 ]
                             \bar "|"
                             \stopStaff
                             \startStaff
@@ -207,8 +210,8 @@
                         Cl.
                     }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        R1 * 1/2
                         R1 * 1
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
@@ -229,19 +232,24 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            R1 * 1/2
                             R1 * 1
+                            R1 * 3/2
                             \bar "|"
                         }
                     }
-                    \context PianoLHMusicStaff = "Piano LH Music Staff" {
+                    \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            R1 * 1/2
                             R1 * 1
+                            R1 * 3/2
                             \bar "|"
                         }
-                    }
+                        \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                            R1 * 1
+                            R1 * 3/2
+                            \bar "|"
+                        }
+                    >>
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
@@ -257,8 +265,8 @@
                         Perc.
                     }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        R1 * 1/2
                         R1 * 1
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
@@ -315,6 +323,21 @@
                         c'16 [
                         c'16 ]
                         r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
                         \bar "|"
                     }
                 }
@@ -369,6 +392,19 @@
                         c'16 [
                         c'16
                         c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        c'16
+                        r8
+                        c'16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
                         \bar "|"
                     }
                 }
@@ -386,8 +422,8 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 1/2
                         R1 * 1
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
