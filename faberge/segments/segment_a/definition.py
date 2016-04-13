@@ -369,7 +369,9 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(19, 22)),
-    faberge.tools.make_spazzolati_rhythm_specifier(rotation=-2),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=-2,
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -471,28 +473,30 @@ segment_maker.append_specifiers(
 ### cello (time) ###
 
 segment_maker.append_specifiers(
-    (vc, stages(1, 12)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (vc, stages(1, 17)),
+    faberge.tools.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(13)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (vc, stages(18, 25)),
+    faberge.tools.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(14, 15)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (vc, stages(26, 27)),
+    baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(16)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (vc, stages(28, 30)),
+    baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(17, 31)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (vc, stages(31)),
+    baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(
+        tuplet_ratio=Ratio((31, 1)),
+        ),
     )
 
 ###############################################################################
@@ -783,3 +787,68 @@ segment_maker.append_specifiers(
 #            ),
 #        ],
 #    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1, 17)),
+    [
+        baca.pitch.pitches('D2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1, 2)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                baca.markup.tasto_plus_poco_vib(),
+                baca.markup.PO_plus_poco_vib(True, False),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('p < f'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(18, 25)),
+    [
+        baca.pitch.pitches('Eb2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(26, 27)),
+    [
+        baca.markup.make_markup_lines([
+            'glissando lentissimo',
+            '(NB: durations cross barlines)',
+            ]),
+        baca.pitch.pitches('Eb2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(28, 30)),
+    [
+        baca.pitch.pitches('D2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(31)),
+    [
+        baca.pitch.pitches('C#2 B#1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(26, 31)),
+    [
+        baca.spanners.glissandi(),
+        ],
+    )
