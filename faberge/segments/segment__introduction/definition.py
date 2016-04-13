@@ -10,7 +10,10 @@ from faberge.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    2,
+    1, # 1 
+    Fermata(), # 2
+    1, # 3
+    Fermata(), # 4
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -18,7 +21,7 @@ tempo_map = baca.tools.TempoMap([
     ])
 
 maker = baca.tools.TimeSignatureMaker(
-    faberge.materials.time_signatures_a,
+    faberge.materials.time_signatures_b,
     rotation=0,
     stage_specifier=stage_specifier,
     tempo_map=tempo_map,
@@ -40,47 +43,94 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_measure_count(2)
-segment_maker.validate_stage_count(1)
+segment_maker.validate_stage_count(4)
+segment_maker.validate_measure_count(4)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
 #################################### TIME #####################################
 ###############################################################################
 
+### flute (time) ###
+
+### english horn (time) ###
+
 segment_maker.append_specifiers(
-    (eh, stages(1)),
+    (eh, stages(3)),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
+### clarinet (time) ###
+
+### piano (time) ###
+
+### percussion (time) ###
+
+### violin (time) ###
+
 segment_maker.append_specifiers(
     (vn, stages(1)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=0,
+        ),
     )
+
+### viola (time) ###
 
 segment_maker.append_specifiers(
     (va, stages(1)),
-    faberge.tools.make_spazzolato_rhythm_specifier(rotation=-1),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=-1,
+        extra_counts_per_division=[1],
+        denominator=8,
+        ),
     )
+
+### cello (time) ###
 
 ###############################################################################
 #################################### COLOR ####################################
 ###############################################################################
 
+### flute (color) ###
+
+### english horn (color) ###
+
 segment_maker.append_specifiers(
-    (eh, stages(1)),
+    (eh, stages(3)),
     [
         baca.markup.make_boxed_markup('ratchet'),
-        #baca.pitch.pitches('C4'),
+        baca.pitch.pitches('C4'),
         baca.spanners.one_line_staff(),
         spannertools.ClefSpanner(clef='percussion'),
         ],
     )
+### clarinet (color) ###
+
+### piano (color) ###
+
+### percussion (color) ###
+
+### violin (color) ###
 
 segment_maker.append_specifiers(
-    ([vn, va], stages(1)),
+    (vn, stages(1)),
     [
-        baca.dynamics.make_effort_dynamic('mf'),
-        baca.markup.spazzolato(),
+        baca.dynamics.make_effort_dynamic('f'),
+        baca.markup.spazzolato_1_2_clt(),
+        baca.pitch.pitches('E4'),
         ],
     )
+
+### viola (color) ###
+
+segment_maker.append_specifiers(
+    (va, stages(1)),
+    [
+        baca.dynamics.make_effort_dynamic('f'),
+        baca.markup.spazzolato_1_2_clt(),
+        baca.pitch.pitches('E4'),
+        ],
+    )
+
+### cello (color) ###

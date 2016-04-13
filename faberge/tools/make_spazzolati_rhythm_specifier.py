@@ -4,9 +4,10 @@ from abjad.tools import rhythmmakertools
 from abjad.tools import sequencetools
 
 
-def make_spazzolato_rhythm_specifier(
+def make_spazzolati_rhythm_specifier(
+    counts_rotation=None,
+    denominator=16,
     extra_counts_per_division=None,
-    rotation=None,
     ):
     counts = [
         [1, 1, 1],
@@ -21,13 +22,13 @@ def make_spazzolato_rhythm_specifier(
         [-2],
         ]
     counts = sequencetools.Sequence(counts)
-    counts = counts.rotate(index=rotation)
+    counts = counts.rotate(index=counts_rotation)
     counts = counts.flatten()
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts_per_division,
         talea=rhythmmakertools.Talea(
             counts=counts,
-            denominator=16,
+            denominator=denominator,
             ),
         )
     return baca.tools.RhythmSpecifier(

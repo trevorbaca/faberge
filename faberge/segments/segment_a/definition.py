@@ -336,7 +336,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(13)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -350,7 +350,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(16)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -369,7 +369,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(19, 22)),
-    faberge.tools.make_spazzolato_rhythm_specifier(rotation=-2),
+    faberge.tools.make_spazzolati_rhythm_specifier(rotation=-2),
     )
 
 segment_maker.append_specifiers(
@@ -413,7 +413,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(13)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -423,7 +423,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(16)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -433,7 +433,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(19, 22)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
