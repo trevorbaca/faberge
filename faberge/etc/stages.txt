@@ -1,20 +1,5 @@
 FABERGÉ - STAGES
 
-[TODO: prefigure vitiated form of tutti airtone chain. short, silence-delimited
-airtone rectangles in the order va, (eh?), bfl, pf with a second series of
-short, silence-delimited airtone rectangles in the order bd, vc, bcl, vn.]
-
-[TODO: prefigure composite (γ+ε) cell of eh, bd, vn airtone chord with bfl
-glowing multiphonic followed by short pause.]
-
-[TODO: prefigure (β) tremolo electricity.]
-
-[TODO: prefigure (β) shakers.]
-
-[TODO: prefigure (β) fully orchestrated first field of broken shell.]
-
-[TODO: recollect (β) oboe trills.]
-
 [A]
 * golden gears (α): eh sputtering ratchet, sputtering vn spazzolati, sputtering
   va spazzolati. eh rathchet with rhythmicized enveloping, vn spazzolati with
@@ -27,10 +12,10 @@ glowing multiphonic followed by short pause.]
   lowregister strike descends stepwise during segment. pf silently depressed
   harmonic field ascends stepwise during segment.
 
-* broken shell (β) culmination: oboe doppeltrill. idea of coruscating climax
+* broken shell (β) culmination: eh doppeltrill. idea of coruscating climax
   given so early in the piece: doppeltrill is achieved but subject to a process
   of dynamic enveloping that makes the material recede and reappear and recede
-  and reappear while other materials progress and overlap. culmination: oboe
+  and reappear while other materials progress and overlap. culmination: eh
   doppeltrill, lateral piano A0 scrape, no crotales, sustained fl flz,
   sustained clarinet, sustained lowregister vc note played extremely
   ponticello, sustained midregister vn, va pochissimo scratch pedal.
@@ -40,9 +25,8 @@ glowing multiphonic followed by short pause.]
 
 [intro]
 tempo: shell (4=100)
-measure count: 2
 gears (α) eh ratchet, vn spazzolati, va spazzolati.
-five other players tacet.
+five players tacet.
 no pause.
 
     fl: --
@@ -55,7 +39,6 @@ no pause.
     vc: --
 
 [A1]
-
 shell (β) pf attacks field.
 shell (β) upperregister fl, upperregister clarinet, violin touch-four harmonic, bowed crotale rapidly
 exchange single pitch with forte exponential enveloping effecting exchange of
@@ -77,7 +60,6 @@ no pause.
     vc: state 1 -> state 2
 
 [A2]
-
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale subito ppp.
 shell (β) va tasto XFB subito ppp.
@@ -96,7 +78,6 @@ no pause.
     vc: [state 1 -> state 2]
 
 [A3]
-
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from ppp to mp.
@@ -115,7 +96,6 @@ no pause.
     vc: state 2
 
 [A4]
-
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -133,7 +113,6 @@ no pause.
     vc: [state 2]
 
 [A5]
-
 shell (β) pf resonance continues.
 shell (β) eh forte trills return.
 shell (β) fl, cl, vn, bowed crotale subito pp.
@@ -152,7 +131,6 @@ no pause.
     vc: state 2 -> state 1
 
 [A6]
-
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from pp to mp.
@@ -170,7 +148,6 @@ no pause.
     vc: [state 2 -> state 1]
 
 [A7]
-
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -186,7 +163,6 @@ jewelers' desk (γ) vc holds state 1 (unison III+IV double stop senza vibrato). 
     vc: state 1
 
 [A8]
-
 shell (β) pf resonance continues.
 shell (β) cl falls silent and takes bcl.
 shell (β) fl, vn, bowed crotale subito pp.
@@ -206,7 +182,6 @@ no pause.
     vc: [state 1]
 
 [A9]
-
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from pp to mp.
@@ -227,7 +202,6 @@ no pause.
     vc: state 1 -> state 2.2
 
 [A10]
-
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -245,7 +219,6 @@ no pause.
     vc: [state 1 -> state 2.2]
 
 [A11]
-
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -263,7 +236,6 @@ no pause.
     vc: state 2.2
 
 [A12]
-
 shell (β) pf resonance continues.
 shell (β) fl falls silent and takes bfl.
 shell (β) vn, bowed crotale subito pp with rhythm shared between two players.
@@ -281,11 +253,10 @@ no pause.
     vc: [state 2.2]
 
 [A13]
-
 shell (β) pf resonance continues.
 jewelers' desk (γ) bcl, vc subito ppp.
 gears (α) vn spazzolati, va spazzolati shine through for a moment.
-four other players tacet.
+four players tacet.
 no pause.
 
     bfl: --
@@ -298,7 +269,6 @@ no pause.
     vc: ppp
 
 [A14]
-
 shell (β) pf resonance continues.
 shell (β) vn, bowed crotale crescendo from pp to forte.
 shell (β) va tasto XFB crescendoes from pp to mp.
@@ -316,7 +286,6 @@ no pause.
     vc: state 2.2 -> state 1
 
 [A15]
-
 shell (β) pf resonance continues.
 shell (β) vn, crotale continue forte.
 shell (β) va tasto XFB begins final decrescendo.
@@ -334,7 +303,6 @@ no pause.
     vc: [state 2.2 -> state 1]
 
 [A16]
-
 shell (β) pf resonance continues.
 shell (β) vn, perc momentarily tacet.
 shell (β) va mometarily absent.
@@ -355,7 +323,6 @@ no pause.
     vc: momentary pp
 
 [A17]
-
 shell (β) pf resonance continues.
 shell (β) vn, bowed crotale subito pp.
 shell (β) eh trills return.
@@ -374,8 +341,7 @@ no pause.
     vc: state 1
 
 [A18]
-short stage.
-
+(short stage.)
 shell (β) pf attacks field.
 shell (β) vn, bowed crotale attack final note simultaneously ff.
 shell (β) va XFB continues pp.
@@ -394,7 +360,6 @@ no pause.
     vc: [state 1]
 
 [A19]
-
 shell (β) pf resonance, bowed crotale resonance continue.
 jewelers' desk (γ) eh keynoise continues.
 jewelers' desk (γ) bfl, bcl, vc begin transition from state 1 to state 2.3.
@@ -412,7 +377,6 @@ no pause.
     vc: state 1 -> state 2.3
 
 [A20]
-
 gears (α) vn spazzolati, va spazzolati begin decrescendo from ff to pp.
 jewelers' desk (γ) eh keynoise continues.
 jewelers' desk (γ) bfl, bcl, vc continue transition from state 1 to state 2.3.
@@ -429,7 +393,6 @@ no pause.
     vc: [state 1 -> state 2.3]
 
 [A21]
-
 shell (β) pf resonance continues.
 shell (β) eh trills return.
 gears (α) vn, va spazzolati continue decrescendo.
@@ -447,7 +410,6 @@ no pause.
     vc: state 2.3
 
 [A22]
-
 shell (β) pf resonance continues.
 gears (α) vn, va spazzolati complete decrescendo.
 jewelers' desk (γ) eh keynoise.
@@ -464,7 +426,6 @@ perc tacet.
     vc: [state 2.3] ff
 
 [A23]
-
 shell (β) pf attacks same pitch as marimba and sustains with middle pedal.
 shell (β) eh trills.
 jewelers' desk (γ) bfl, bcl, vc transition from state 2.3 to state 1.
@@ -483,7 +444,6 @@ no pause.
     vc: state 2.3 -> state 1
 
 [A24]
-
 jewelers' desk (γ) bfl glowing multiphonics, eh keynoise, bcl, pf decay,
 marimba, vn, va, vc jewelers' desk (γ) reilluminates with mf swell enveloping.
 
@@ -575,19 +535,55 @@ long stage.
     va: kiln: continuous clb
     vc: [state 1: pedal] pppp + tasto XFB decrescendo to niente
 
+[A32]
+before prefigurement.
+
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: --
+    vn: [continuous clb]
+    va: [continuous clb]
+    vc: continuous clb
+
+[A33]
+composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
+
+    bfl: glowing multiphonics pppp
+    eh: airtone pedal
+    bcl: --
+    hpschd: --
+    perc: bd airtone pedal
+    vn: airtone pedal
+    va: [continuous clb]
+    vc: [continuous clb]
+
+[A34]
+after prefigurement.
+
+    bfl: --
+    eh: --
+    bcl: --
+    hpschd: --
+    perc: --
+    vn: --
+    va: [continuous clb]
+    vc: [continuous clb]
+
 [B1]
 tempo: kiln
 (fundamental changes.)
 perc tacet.
 
-    bfl: [state 1: glowing multiphonics] pppp
-    eh: [keynoise]
-    bcl: [state 1: quiet pedal] pppp
+    bfl: state 1: glowing multiphonics pppp
+    eh: keynoise
+    bcl: state 1: quiet pedal pppp
     hpschd: hesitant clb
     perc: --
-    vn: [kiln: continuous clb]
-    va: [kiln: continuous clb]
-    vc: kiln: continuous clb
+    vn: continuous clb
+    va: continuous clb
+    vc: continuous clb
 
 [B2]
 perc tacet.
@@ -620,7 +616,7 @@ no pause.
 
 [B4]
 (transformation of type of motion.)
-kiln (δ) castanets enter and induce dramatic pause;
+kiln (δ) castanets enter and induce dramatic pause.
 kiln (δ) castanets strike again and cause clb to resume.
 kiln (δ) hpschd, vn, va, vc clb continue, as above.
 winds tacet.
@@ -637,7 +633,7 @@ single internal pause as described above.
 
 [B5]
 kiln (δ) castanets, hpschd, vn, va, vc clb cells with intervening rests.
-winds tacet.
+fl, eh cl tacet.
 structured pauses repeated internally as described above.
 
     fl: --
@@ -667,7 +663,7 @@ structured pauses repeated internally as described above.
 kiln (δ) castanets tacet this stage.
 kiln (δ) hpschd, vn, va, vc clb cells continue.
 shell (β) fl, cl exchange single pitch as memory of [A] with cells.
-perc, english horn tacet.
+eh, perc tacet.
 structured pauses repeated internally as described above.
 no end-pause.
 
@@ -811,7 +807,7 @@ short fermata.
 
 [B21]
 gears (α) eh ratchet, vn spazzolati, va spazzolati return for one stage.
-five other players tacet.
+five players tacet.
 short pause.
 
     fl: --
@@ -829,7 +825,7 @@ short fermata.
 [B23]
 gears (α) eh ratchet.
 papers (ε) tremolo-initiated va ob.
-six other players tacet.
+six players tacet.
 short pause.
 
     fl: --
@@ -846,7 +842,7 @@ short fermata.
 
 [B25]
 papers (ε) tremolo-initiated va ob.
-seven other players tacet.
+seven players tacet.
 no pause.
 
     fl: --
@@ -894,7 +890,7 @@ short fermata.
 
 [B30]
 papers (ε) va tremolo-initiated ob.
-seven other players tacet.
+seven players tacet.
 short pause.
 
     fl: --
@@ -912,7 +908,7 @@ short fermata.
 [B32]
 measure-length repetition of previous stage.
 papers (ε) va tremolo-initiated ob.
-seven other players tacet.
+seven players tacet.
 short pause.
 
     fl: --
@@ -926,7 +922,7 @@ short pause.
 
 [B33]
 papers (ε) va tremolo-initiated ob, eh airtone.
-six other players tacet.
+six players tacet.
 no pause.
 
     fl: --
@@ -956,7 +952,7 @@ short fermata.
 
 [B36]
 papers (ε) va tremolo-initiated ob.
-seven other players tacet.
+seven players tacet.
 
     fl: --
     eh: --
@@ -972,7 +968,7 @@ short fermata.
 
 [B38]
 papers (ε) va tremolo-initiated ob, eh airtone chain.
-six other players tacet.
+six players tacet.
 
     fl: --
     eh: airtone (1)
@@ -989,7 +985,7 @@ short fermata.
 [B40]
 measure-length repetition of previous stage.
 papers (ε) va tremolo-initiated ob, eh airtone chain.
-six other players tacet.
+six players tacet.
 
     fl: --
     eh: airtone (1)
@@ -1019,7 +1015,7 @@ importantly, no pause.
 
 [B43]
 papers (ε) va tremolo-initiated ob airtone chain.
-seven other players tacet.
+seven players tacet.
 no pause.
 
     fl: --
@@ -1063,7 +1059,7 @@ no pause.
 [B46]
 measure-length repetition of previous stage.
 papers (ε) va tremolo-initiated ob, eh airtone, bfl airtone.
-five other players tacet.
+five players tacet.
 no pause.
 
     bfl: airtone (2)
@@ -1094,7 +1090,7 @@ short fermata.
 
 [C3]
 papers (ε) single brushed bd stroke.
-seven other players tacet.
+seven players tacet.
 
     bfl: --
     eh: --
@@ -1141,7 +1137,7 @@ short fermata.
 
 [C8]
 papers (ε) bd single brushed stroke.
-seven other players tacet.
+seven players tacet.
 
     bfl: --
     eh: --
@@ -1171,7 +1167,7 @@ no pause.
 
 [C11]
 papers (ε) va tremolo-initiated ob, eh airtone.
-six other players tacet.
+six players tacet.
 no pause.
 
     bfl: --
@@ -1248,7 +1244,7 @@ short fermata.
 
 [D1]
 papers (ε) va tremolo airtone.
-seven other players tacet.
+seven players tacet.
 no pause.
 
     bfl: --
@@ -1279,7 +1275,7 @@ no pause.
 
 [D3]
 papers (ε) va airtone continues.
-seven other players tacet.
+seven players tacet.
 no pause.
 
     bfl: --
@@ -1310,7 +1306,7 @@ no pause.
 
 [D5]
 papers (ε) va airtone continues.
-seven other players tacet.
+seven players tacet.
 no pause.
 
     bfl: --
@@ -1321,6 +1317,51 @@ no pause.
     vn: --
     va: [tremolo airtone (0)]
     vc: --
+
+[D6]
+segment prefigures shell (β) electricity.
+papers (ε) va airtone continues.
+shell (β) eh shakers, perc shakers appear.
+fl, cl, pf, vn, vc tacet.
+
+    bfl: --
+    eh: shakers electricity
+    bcl: --
+    pf: --
+    perc: shakers electricity
+    vn: --
+    va: [airtone]
+    vc: --
+
+[D7]
+papers (ε) va airtone continues.
+shell (β) eh shakers, perc shakers continue.
+shell (β) vn, vc electricity join.
+fl, cl, pf tacet.
+
+    bfl: --
+    eh: [shakers electricity]
+    bcl: --
+    pf: --
+    perc: [shakers electricity]
+    vn: electricity
+    va: [airtone]
+    vc: electricity
+
+[D8]
+papers (ε) va airtone continues.
+
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: --
+    vn: --
+    va: [airtone]
+    vc: --
+
+[D9]
+short fermata.
 
 [E1]
 papers (ε) tremolo va, eh, bfl, pf, bd, vc, bcl, vn airtone chain.
@@ -1676,7 +1717,7 @@ no pause.
 [E29]
 papers (ε) bd airtone continues.
 jewelers' desk (γ) vc lowregister pedal.
-six other players tacet.
+six players tacet.
 no pause.
 
     bfl: --
@@ -1690,7 +1731,7 @@ no pause.
 
 [E30]
 papers (ε) bd airtone continues.
-seven other players tacet.
+seven players tacet.
 no pause.
 
     bfl: --
@@ -1705,11 +1746,12 @@ no pause.
 [E31]
 papers (ε) bd airtone continues.
 gears (α) vn, va spazzolati manifest for a moment.
-five other players tacet.
+shell (β) eh doppeltrill recollection with swell enveloping.
+four players tacet.
 no pause.
 
     bfl: --
-    eh: --
+    eh: maximal doppeltrill recollection with swell enveloping
     bcl: --
     hpschd: --
     perc: [bd airtone]
@@ -1719,7 +1761,7 @@ no pause.
 
 [E32]
 papers (ε) bd airtone continues.
-seven other players tacet.
+seven players tacet.
 
     bfl: --
     eh: --
@@ -1735,7 +1777,7 @@ fermata.
 
 [E34]
 papers (ε) bd airtone resumes.
-seven other players tacet.
+seven players tacet.
 
     bfl: --
     eh: --
@@ -1750,8 +1792,27 @@ seven other players tacet.
 fermata.
 
 [E36]
+(longer stage.)
+prefigured shell (β) fully orchestrated first field.
+excludes pf attack field.
+eh, pf tacet.
+# HERE
+
+    bfl: shell transitions
+    eh: --
+    bcl: shell transitions
+    pf: --
+    perc: bd airtone
+    vn: shell transitions
+    va: shell transitions
+    vc: shell transitions
+
+[E37]
+fermata.
+
+[E38]
 gears (α) vn, va spazzolati manifest for a moment.
-six other players tacet.
+six players tacet.
 
     bfl: --
     eh: --

@@ -123,8 +123,6 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     \mark #3
                     s1 * 1
                         ^ \markup {
@@ -158,8 +156,6 @@
                 }
                 {
                     \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 7/4
                         ^ \markup {
                             \fontsize
@@ -169,8 +165,6 @@
                 }
                 {
                     \time 5/12
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -187,8 +181,6 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -205,8 +197,6 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -216,8 +206,6 @@
                 }
                 {
                     \time 5/12
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -234,8 +222,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -252,8 +238,6 @@
                 }
                 {
                     \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 7/4
                         ^ \markup {
                             \fontsize
@@ -263,8 +247,6 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -281,8 +263,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -292,8 +272,6 @@
                 }
                 {
                     \time 5/12
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -310,8 +288,6 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -328,8 +304,6 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -339,8 +313,6 @@
                 }
                 {
                     \time 5/12
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -357,8 +329,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -375,8 +345,6 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -386,8 +354,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -404,8 +370,6 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -415,8 +379,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -433,8 +395,6 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -444,8 +404,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -461,8 +419,6 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -472,8 +428,6 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -489,8 +443,6 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -500,8 +452,6 @@
                 }
                 {
                     \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 7/4
                         ^ \markup {
                             \fontsize
@@ -518,8 +468,6 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -529,8 +477,6 @@
                 }
                 {
                     \time 5/12
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -563,46 +509,43 @@
                         Fl.
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        r2
-                        r2
+                        r1
                         r4
-                        c'2 ~
-                        c'8
+                        c'2
+                        c'8 \repeatTie
                         r2..
                         R1 * 31/12
-                        r2
                         r2.
-                        c'4 ~
-                        c'1..
                         r2
-                        r2
-                        r4
-                        c'2 ~
-                        c'8
-                        r2
-                        r8
-                        R1 * 31/12
-                        r2
-                        r2.
-                        c'4 ~
-                        c'1
-                        R1 * 5/2
-                        r2
-                        r2.
-                        c'4 ~
-                        c'4.
-                        r4.
-                        r2
-                        r2.
-                        c'4 ~
-                        c'4.
+                        c'4
+                        c'1.. \repeatTie
                         r1
+                        r4
+                        c'2
+                        c'8 \repeatTie
                         r8
                         r2
+                        R1 * 31/12
+                        r2.
                         r2
+                        c'4
+                        c'1 \repeatTie
+                        R1 * 5/2
+                        r2.
+                        r2
+                        c'4
+                        c'4. \repeatTie
+                        r4.
+                        r2.
+                        r2
+                        c'4
+                        c'4. \repeatTie
+                        r4.
+                        r2.
+                        r1
                         r4
-                        c'2 ~
-                        c'8
+                        c'2
+                        c'8 \repeatTie
                         r8
                         R1 * 19/6
                         \bar "|"
@@ -631,48 +574,53 @@
                     }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         r2
-                        g'2 ~
-                        g'4.
+                        g'2
+                        g'4. \repeatTie
                         r4.
                         r1
                         R1 * 31/12
                         r2
-                        g'2..
+                        g'4
+                        g'2 \repeatTie
+                        g'8 \repeatTie
                         r8
                         r1..
                         r2
-                        g'2 ~
-                        g'4.
+                        g'2
+                        g'4. \repeatTie
                         r4.
                         r2.
                         R1 * 31/12
                         r2
-                        g'2..
+                        g'4
+                        g'2 \repeatTie
+                        g'8 \repeatTie
                         r8
                         r1
                         r2
-                        g'1 ~
                         g'1
+                        g'1 \repeatTie
                         r2
-                        g'2..
+                        g'4
+                        g'2 \repeatTie
+                        g'8 \repeatTie
                         r8
-                        r4
+                        r2.
                         r2
-                        r2
-                        g'2..
+                        g'4
+                        g'2 \repeatTie
+                        g'8 \repeatTie
                         r8
-                        r4
-                        r1
-                        r4
+                        r1.
                         r2
-                        g'2 ~
-                        g'4.
-                        r4.
-                        r4
+                        g'2
+                        g'4. \repeatTie
+                        r8
                         r2
-                        g'1 ~
-                        g'4 ~
-                        g'1
+                        r2
+                        g'4
+                        g'1 \repeatTie
+                        g'1 \repeatTie
                         R1 * 5/12
                         \bar "|"
                     }
@@ -691,22 +639,16 @@
                         Cl.
                     }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        r2
-                        r2
-                        r4
-                        r2
+                        r1
+                        r2.
                         d'1
                         R1 * 35/6
-                        r2
-                        r2
-                        r4
-                        r2
+                        r1
+                        r2.
                         d'2.
                         R1 * 77/6
-                        r2
-                        r2
-                        r4
-                        r2
+                        r1
+                        r2.
                         d'4
                         R1 * 19/6
                         \bar "|"
@@ -874,22 +816,15 @@
                         c'2.
                         c'1 \repeatTie
                         R1 * 65/12
-                        r2
-                        r2.
-                        r4
+                        r1.
                         r4
                         c'2 :32
-                        r2
-                        r2.
+                        r1.
                         r4
-                        r4
-                        c'1 :32 ~
-                        c'4 :32
-                        r2
-                        r2
-                        r4
-                        r2
-                        r4
+                        c'2 :32
+                        c'2. :32 \repeatTie
+                        r1
+                        r1
                         R1 * 19/6
                         \bar "|"
                     }
@@ -980,69 +915,61 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
-                        r4
-                        r2
-                        r1
+                        r1..
                         R1 * 31/12
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
-                        r2
-                        r8
-                        r4
+                        r2..
                         r1..
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
-                        r4
-                        r2
-                        r2.
+                        r1.
                         R1 * 31/12
                         r16
-                        c'8.
-                        c'4.
-                        r2
-                        r8
-                        r4
-                        r1
-                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r2..
                         r1
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
-                        r2
-                        r8
-                        r4
-                        r4
-                        r2
-                        r16
-                        c'8.
-                        c'4.
-                        r2
-                        r8
-                        r4
-                        r4
+                        r2..
                         r1
-                        r4
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'8.
+                        c'4.
+                        r2..
+                        r2.
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'8.
+                        c'4.
+                        r2..
+                        r1.
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
-                        r4
-                        r2
-                        r4
+                        r1
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
-                        r1
                         r8
+                        r1
                         r1
                         R1 * 5/12
                         \bar "|"

@@ -29,7 +29,7 @@ stage_specifier = baca.tools.StageSpecifier([
     ])
 
 tempo_map = baca.tools.TempoMap([
-    (1, faberge.materials.tempi['shell']),
+    (1, faberge.materials.tempi[100]),
     ])
 
 maker = baca.tools.TimeSignatureMaker(
