@@ -8,7 +8,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #3
+        currentBarNumber = #5
     } <<
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context TimeSignatureContext = "Time Signature Context" <<
@@ -4095,75 +4095,115 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        c'2.
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2 \repeatTie
-                        c'2.
-                        c'1 \repeatTie
-                        c'2
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2.
-                        c'1 \repeatTie
-                        c'2.
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        \bar "|"
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "tasto + poco vib."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d,2. \< \p \startTextSpan
+                        d,1 \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie \f \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    "PO (+poco vib.)"
+                            }
+                        d,2 \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,1 \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        ef,2.
+                        ef,1 \repeatTie
+                        ef,2 \repeatTie
+                        ef,1 \repeatTie
+                        ef,1 \repeatTie
+                        ef,2. \repeatTie
+                        ef,2. \repeatTie
+                        ef,2 \repeatTie
+                        ef,2. \repeatTie
+                        ef,1 \repeatTie
+                        ef,1 \repeatTie
+                        ef,2 \repeatTie
+                        ef,2. \repeatTie
+                        ef,2 \repeatTie
+                        ef,2. \repeatTie
+                        ef,1 \repeatTie
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 11/12 {
+                            ef,\breve. \glissando
+                                ^ \markup {
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    "glissando lentissimo"
+                                                }
+                                            \line
+                                                {
+                                                    "(NB: durations cross barlines)"
+                                                }
+                                        }
+                                    }
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 7/8 {
+                            d,\longa. \glissando
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            cs,1.... \glissando
+                            bs,,16
+                            \bar "|"
+                        }
                     }
                 }
             >>
