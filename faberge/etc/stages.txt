@@ -2167,99 +2167,210 @@ no pause.
 
 [H1]
 gears (α) eh, pf, perc, vc continuous ppp turning continues decrescendo.
-jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic reappears
-at middleground dynamic.
-shell (β) vn, va upperregister tremolo electricity
-chord begins at foreground dynamic probably governed by crescendo.
-no players tacet.
+jewelers' desk (γ) bfl glow, bcl glow reappear at middleground dynamic.
+shell (β) vn, va upperregister tremolo electricity chord begins.
+shell (β) vn, va electricity at foreground dynamic governed by crescendo.
+eh tacet.
 no pause.
+
+    bfl: glow
+    eh: --
+    bcl: glow
+    pf: gears
+    perc: gears
+    vn: electricity
+    va: electricity
+    vc: gears
 
 [H2]
 gears (α) eh, pf, perc, vc continuous pppp turning continues decrescendo.
-jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic continues.
-shell (β) vn, va upperregister tremolo electricity chord begins irregular
-crescendo.
-no players tacet.
+jewelers' desk (γ) bfl glow, bcl glow continue.
+shell (β) vn, va electricity begins irregular crescendo swells.
+eh tacet.
 no pause.
+
+    bfl: [glow]
+    eh: ?
+    bcl: [glow]
+    pf: [gears]
+    perc: [gears]
+    vn: [electricity]
+    va: [electricity]
+    vc: [gears]
 
 [H3]
-gears (α) eh, pf, perc, vc continuous ppppp turning completes decrescendo al
-niente.
-jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic continues.
-shell (β) vn, va upperregister tremolo electricity chord continues
-irregular crescendo.
-no players tacet.
+gears (α) eh, pf, perc, vc ppppp turning completes decrescendo al niente.
+jewelers' desk (γ) bfl glow, bcl glow continues.
+shell (β) vn, va electricity continues irregular crescendo.
+eh tacet.
 no pause.
 
+    bfl: [glow]
+    eh: --
+    bcl: [glow]
+    pf: [gears]
+    perc: [gears]
+    vn: [electricity]
+    va: [electricity]
+    vc: [gears]
+
 [H4]
-jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic continues.
-shell (β) vn, va, vc upperregister tremolo electricity continues irregular
-crescendo.
+jewelers' desk (γ) bfl glow, bcl glow continue.
+shell (β) vn, va, electricity continues irregular crescendo.
+shell (β) vc enters electricity.
 eh, pf, perc tacet.
 no pause.
 
+    bfl: [glow]
+    eh: --
+    bcl: [glow]
+    pf: --
+    perc: --
+    vn: [electricity]
+    va: [electricity]
+    vc: electricity
+
 [H5]
-shell (β) vn, va, vc upperregister tremolo electricity continues irregular
-crescendo and then ends stage with feeling that irregular crescendo is abruptly
-cut off.
-five other players tacet.
+shell (β) vn, va, vc electricity continues irregular crescendo.
+shell (β) vn, va, vc electricity ends stages abruptly cut off.
+five players tacet.
 no pause.
 
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: --
+    vn: [electricity]
+    va: [electricity]
+    vc: [electricity]
+
 [H6]
-pause.
+fermata.
 
 [H7]
 gears (α) bfl, bcl, pf, va, vc ppppp continuous turning reappears.
-papers (ε) eh, bd, vn airtone chord makes enigmatic ff reapparance.
+papers (ε) eh, bd, vn airtone chain makes enigmatic ff reapparance.
 no players tacet.
 
+    bfl: gears ppppp
+    eh: airtone (0, 2, 7) ff
+    bcl: gears ppppp
+    pf: gears ppppp
+    perc: bd airtone (1, 3, 5) ff
+    vn: airtone (4, 6) ff
+    va: gears ppppp
+    vc: gears ppppp
+
 [H8]
-pause.
+fermata.
 
 [H9]
 gears (α) tutti ppppp continuous turning reappears and then is cut short.
+eh tacet.
+
+    bfl: gears ppppp
+    eh: --
+    bcl: gears ppppp
+    pf: gears ppppp
+    perc: gears ppppp
+    vn: gears ppppp
+    va: gears ppppp
+    vc: gears ppppp
 
 [H10]
-pause.
+fermata.
 
 [H11]
 gears (α) tutti ppppp continuous turning reappears and is cut even shorter.
 
-[H12]
-pause.
+    bfl: gears ppppp
+    eh: --
+    bcl: gears ppppp
+    pf: gears ppppp
+    perc: gears ppppp
+    vn: gears ppppp
+    va: gears ppppp
+    vc: gears ppppp
 
-[H13]
+[H12]
+fermata.
+
+[H13-24]
 x6:
     gears (α) tutti ff continuous turning cut very short and then repeated.
 
-[H14]
-accelerando begins. gears (α) bfl, eh, bcl, pf subito ppppp continuous turning
-continues.
-shell (β) shakers, vn, va, vc ferocious upperregister tremolo
-electricity chord returns.
+    bfl: gears fff
+    eh: gears (ratchet) fff
+    bcl: gears fff
+    pf: gears fff
+    perc: gears fff
+    vn: gears fff
+    va: gears fff
+    vc: gears fff
+
+[H25]
+accelerando begins.
+gears (α) bfl, bcl, pf continuous turning continues subito ppppp.
+shell (β) shakers, vn, va, vc ferocious electricity returns.
+shell (β) perc shakers, eh shakers join ferocious electricity.
 no pause.
 
-[H15]
+    bfl: gears ppppp
+    eh: shakers fff
+    bcl: gears ppppp
+    pf: gears ppppp
+    perc: shakers fff
+    vn: electricity fff
+    va: electricity fff
+    vc: electricity fff
+
+[H26]
 accelerando continues.
-gears (α) bfl, eh, bcl, pf ppppp continuous turning
-continues to accelerate and reaches niente.
-shell (β) shakers, vn, va, vc upperregister tremolo electricity chord
-begins to decrescendo.
+gears (α) bfl, bcl, pf ppppp turning accelerates and reaches niente.
+shell (β) eh shakers, perc shakers vn, va, vc electricity begins decrescendo.
 no pause.
 
-[H16]
+    bfl: [gears ppppp]
+    eh: [shakers fff > ppp]
+    bcl: [gears ppppp]
+    pf: [gears ppppp]
+    perc: [shakers fff > ppp]
+    vn: [electricity fff > ppp]
+    va: [electricity fff > ppp]
+    vc: [electricity fff > ppp]
+
+[H27]
 accelerando continues.
-shell (β) shakers, vn, va, vc upperregister tremolo
-electricity chord continues to decrescendo.
-four other players tacet.
+shell (β) eh shakers, perc shakers vn, va, vc electricity continues decresc.
+shell (β) eh shakers, perc shakers stop at end of stage.
+fl, cl, pf tacet.
 no pause.
 
-[H17]
+    bfl: --
+    eh: [shakers fff > niente]
+    bcl: --
+    pf: --
+    perc: [shakers fff > niente]
+    vn: [electricity fff > ppp]
+    va: [electricity fff > ppp]
+    vc: [electricity fff > ppp]
+
+[H28]
 accelerando is complete at start of stage.
-shell (β) shakers, vn, va, vc upperregister tremolo electricity chord
-reaches pp to transition into fully orchestrated field of the broken shell.
-four players tacet.
+shell (β) nn, va, vc electricity reaches ppp.
+shell (β) nn, va, vc electricity ppp transitions in field of the broken shell.
+five players tacet.
 no pause.
+
+    bfl: --
+    eh: --
+    bcl: --
+    pf: --
+    perc: --
+    vn: [electricity ppp]
+    va: [electricity ppp]
+    vc: [electricity ppp]
 
 [I]
 broken shell (β) fully orchestrated field: bfl flz with slow pitchbending and
