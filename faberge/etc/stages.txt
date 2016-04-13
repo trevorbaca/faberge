@@ -2393,78 +2393,150 @@ become progressively greater to draw attentions progressively further.
 
 [I1-4]
 shell (β) first harmony.
-no players tacet.
+eh tacet.
 no pauses.
 
 [I5-8]
 shell (β) second harmony.
-no players tacet.
+eh tacet.
 no pauses.
 
 [I9-12]
 shell (β) third harmony.
-no players tacet.
+eh tacet.
 no pauses.
 
 [J1]
-shell (β) third harmony continues. pulsation becomes quieter in all parts.
-bfl, eh, bcl introduce penumbral amounts of airtone to the edges of their
-swell envelopes.
-no players tacet.
+shell (β) third harmony continues.
+pulsation becomes quieter in all parts.
+bfl, bcl introduce penumbral airtone to edges of swell envelopes.
+eh, pf tacet.
 no pause.
+
+    bfl: shell transitions
+    eh: --
+    bcl: shell transitions
+    pf: --
+    perc: shell transitions
+    vn: shell transitions
+    va: shell transitions
+    vc: shell transitions
 
 [J2]
-shell (β) eh, pf, perc, vn, vc third harmony continues.
-jewelers' desk (β) bfl glowing multiphonic, bcl glowing multiphonic,
+shell (β) perc, vn, vc third harmony continues.
+jewelers' desk (β) bfl glowing multiphonic, bcl glow,
 va pochissimo scratch pedal reappear one last time over the ongoing swells
 of the shell third field.
-no players tacet.
+eh, pf tacet.
 no pause.
 
+    bfl: glow
+    eh: --
+    bcl: glow
+    pf: --
+    perc: [shell transitions]
+    vn: [shell transitions]
+    va: pochiss. scratch pedal
+    vc: [shell transitions]
+
 [J3]
-shell (β) eh, vc third harmony continues.
-jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic,
-va pochissimo scratch continues.
-kiln (δ) struck bass drum, castanets, hpschd, vn clb appear one last time.
-no players tacet.
+shell (β) vc third harmony continues.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glow, va scratch continue.
+kiln (δ) bd, castanets, hpschd, vn clb appear one last time.
+eh tacet.
 no pause.
+
+    bfl: [glow]
+    eh: --
+    bcl: [glow]
+    hpschd: clb
+    perc: bd, castanets
+    vn: clb
+    va: [pochiss. scratch pedal]
+    vc: [shell transitions]
 
 [J4]
 shell (β) vc third harmony continues and stops at end of stage.
-jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic,
-va pochissimo scratch continue.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glow, va scratch continue.
 kiln (δ) hpschd, vn clb continue.
 eh, perc tacet.
 no pause.
 
+    bfl: [glow]
+    eh: --
+    bcl: [glow]
+    hpschd: [clb]
+    perc: --
+    vn: [clb]
+    va: [pochiss. scratch pedal]
+    vc: [shell transitions]
+
 [J5]
-jewelers' desk (γ) bfl glowing multiphonic, bcl glowing multiphonic,
-va pochissimo scratch continue.
+jewelers' desk (γ) bfl glowing multiphonic, bcl glow, va scratch continue.
 kiln (δ) hpschd, vn clb, vc clb continue.
 papers (ε) eh airtone, bd airtone begin.
 no players tacet.
 no pause.
 
+    bfl: [glow]
+    eh: airtone
+    bcl: [glow]
+    hpschd: [clb]
+    perc: bd airtone
+    vn: [clb]
+    va: [pochiss. scratch pedal]
+    vc: clb
+
 [J6]
-jewelers' desk (γ) bcl glowing multiphonic, va pochissimo scratch continue.
-kiln (δ) hpschd, vn clb, vc clb continue. papers (ε) bfl airtone, eh airtone,
-bd airtone continue.
+jewelers' desk (γ) bcl glow, va pochissimo scratch continue.
+kiln (δ) hpschd, vn clb, vc clb continue.
+papers (ε) eh airtone, bd airtone continue.
+papers (ε) bfl airtone joins.
 no players tacet.
 no pause.
 
+    bfl: airtone
+    eh: [airtone]
+    bcl: [glow]
+    hpschd: [clb]
+    perc: [bd airtone]
+    vn: [clb]
+    va: [pochiss. scratch pedal]
+    vc: [clb]
+
 [J7]
-jewelers' desk (γ) glowing bcl multiphonic continues and stops at end of stage.
-kiln (δ) hpschd, vn clb, va clb, vc clb added.
+jewelers' desk (γ) bcl glow continues and stops at end of stage.
+kiln (δ) hpschd, vn clb, vc clb continue.
+kiln (δ) va clb joins.
 papers (ε) bfl airtone, eh airtone, bd airtone continue.
 no players tacet.
 no pause.
 
+    bfl: [airtone]
+    eh: [airtone]
+    bcl: [glow]
+    hpschd: [clb]
+    perc: [bd airtone]
+    vn: [clb]
+    va: [clb]
+    vc: [clb]
+
 [J8]
 kiln (δ) hpschd, vn clb, va clb continue.
-papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone.
+papers (ε) bfl airtone, eh airtone, bd airtone.
+papers (ε) bcl airtone joins.
 shell (β) vc final field fundamental begins.
 no players tacet.
 no pause.
+
+    bfl: [airtone]
+    eh: [airtone]
+    bcl: airtone
+    hpschd: [clb]
+    perc: [bd airtone]
+    vn: [clb]
+    va: [clb]
+    vc: pedal
 
 [J9]
 kiln (δ) hpschd, vn clb, va clb draw down to nothing.
@@ -2473,38 +2545,92 @@ shell (β) vc final field fundamental continues.
 no players tacet.
 no pause.
 
+    bfl: [airtone]
+    eh: [airtone]
+    bcl: [airtone]
+    hpschd: [clb]
+    perc: [bd airtone]
+    vn: [clb]
+    va: [clb]
+    vc: [pedal]
+
 [J10]
-papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone continue
-unaccompanied.
-four other players tacet.
+papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone unaccompanied.
+pf, vn, va, vc tacet.
+
+    bfl: [airtone]
+    eh: [airtone]
+    bcl: [airtone]
+    hpschd: --
+    perc: [bd airtone]
+    vn: --
+    va: --
+    vc: --
 
 [J11]
-short pause.
+short fermata.
 
 [J12]
 papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone resume.
 shell (β) vc reintroduces final fundamental on crescendo dal niente.
-final gears (α) vn irregular and very sparse quadruple-struck rimbalzandi,
-va irregular and very sparse quadruple-struck rimbalzandi,
-pf irregular and very sparse credit card against tuning pegs begin.
+pf, perc, vn, va tacet.
+no pause.
+
+    bfl: airtone
+    eh: airtone
+    bcl: airtone
+    pf: --
+    perc: bd airtone
+    vn: --
+    va: --
+    vc: pedal
+
+[J13]
+papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone continue.
+shell (β) vc final fundamental continues crescendo.
+gears (α) vn irregular and very sparse quadruple-struck rimbalzandi.
+gears (α) va irregular and very sparse quadruple-struck rimbalzandi.
+gears (α) pf irregular and very sparse credit card against tuning pegs.
 no players tacet.
 no pause.
+
+    bfl: [airtone]
+    eh: [airtone]
+    bcl: [airtone]
+    pf: pegs
+    perc: [bd airtone]
+    vn: sparse rimbalzandi
+    va: sparse rimbalzandi
+    vc: [pedal]
 
 [K1]
 accelerando begins.
-shell (β) bcl, vc final field continues.
+shell (β) vc final field continues.
+shell (β) bcl joins final field.
 papers (ε) bfl airtone, eh airtone, bd airtone continue.
-gears (α) vn quadruple-struck rimbalzandi, va quadruple-struck rimbalzandi,
-pf credit card tuning pegs continue.
+gears (α) vn quadruple-struck rimbalzandi continue.
+gears (α) va quadruple-struck rimbalzandi continue.
+gears (α) pf credit card tuning pegs continues.
 no players tacet.
 no pause.
 
+    bfl: airtone
+    eh: airtone
+    bcl: pedal
+    pf: pegs
+    perc: bd airtone
+    vn: sparse rimbalzandi
+    va: sparse rimbalzandi
+    vc: pedal
+
 [K2]
 accelerando continues.
-shell (β) bfl, bcl, vc final field continue.
+shell (β) bcl, vc final field continue.
+shell (β) bfl joins final field.
 papers (ε) eh airtone, bd airtone continue.
-gears (α) vn quadruple-struck rimbalzandi, va quadruple-struck rimbalzandi,
-pf credit card tuning pegs continue.
+gears (α) vn quadruple-struck rimbalzandi continue.
+gears (α) va quadruple-struck rimbalzandi continue.
+gears (α) pf credit card tuning pegs continues.
 no players tacet.
 no pause.
 
@@ -2541,8 +2667,8 @@ no pause.
 
 [K6]
 accelerando continues.
-gears (α) pp shakers (played by eh) begin and double
-perc pp shakers.
+gears (α) perc shakers continue pp.
+gears (α) eh shakers begin pp.
 gears (α) bfl, bcl, pf, perc, vn, va, vc continue turning.
 no players tacet.
 no pause.
@@ -2580,7 +2706,7 @@ cut off.
 no players tacet.
 
 [K12]
-pause.
+fermata.
 
 [K13]
 shell (β) tutti fff recollection of final field.
@@ -2589,7 +2715,7 @@ but gives sense of being cut off at end.
 no players tacet.
 
 [K14]
-short pause.
+short fermata.
 
 [K15]
 (short stage.)
