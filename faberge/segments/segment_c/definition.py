@@ -274,7 +274,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(1)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -365,7 +365,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
-    faberge.tools.make_spazzolato_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
