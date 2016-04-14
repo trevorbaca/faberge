@@ -1,32 +1,9 @@
 FABERGÉ - STAGES
 
-[A]
-* golden gears (α): eh sputtering ratchet, sputtering vn spazzolati, sputtering
-  va spazzolati. eh rathchet with rhythmicized enveloping, vn spazzolati with
-  rhythmicized enveloping, va spazzolati with rhythmicized enveloping.
-
-* broken shell (β) beginning: single pitch rapidly exchanged between fl,
-  upperregister clarinet, bowed crotale, violin touch-four harmonic; va tremolo
-  flautando on low fundamental, vc tremolo flautando on low fundamental; pf ff
-  lowregister strike activating silently depressed harmonic field. pf ff
-  lowregister strike descends stepwise during segment. pf silently depressed
-  harmonic field ascends stepwise during segment.
-
-* broken shell (β) culmination: eh doppeltrill. idea of coruscating climax
-  given so early in the piece: doppeltrill is achieved but subject to a process
-  of dynamic enveloping that makes the material recede and reappear and recede
-  and reappear while other materials progress and overlap. culmination: eh
-  doppeltrill, lateral piano A0 scrape, no crotales, sustained fl flz,
-  sustained clarinet, sustained lowregister vc note played extremely
-  ponticello, sustained midregister vn, va pochissimo scratch pedal.
-
-* jewelers' desk (γ): bfl glowing multiphonics, eh keynoise, bcl multiphonics,
-  attackless lowregister marimba pedal, lowregister vc pedal.
-
-[intro]
-tempo: shell (4=100)
-gears (α) eh ratchet, vn spazzolati, va spazzolati.
-five players tacet.
+[intro 1]
+tempo: 100.
+gears (α) vn spazzolati, va spazzolati.
+six players tacet.
 no pause.
 
     fl: --
@@ -38,6 +15,25 @@ no pause.
     va: spazzolati
     vc: --
 
+[intro 2]
+short fermata.
+
+[intro 3]
+gears (α) eh ratchet.
+six players tacet.
+
+    fl: --
+    eh: ratchet
+    cl: --
+    pf: --
+    perc: --
+    vn: --
+    va: --
+    vc: --
+
+[intro 4]
+short fermata.
+
 [A1]
 shell (β) pf attacks field.
 shell (β) fl, cl, vn, crotale rapidly single exponentially enveloped pitch.
@@ -46,12 +42,16 @@ jewelers' desk (γ) vc begins transition from [1] to [2.1].
 eh tacet.
 no pause.
 
-    fl: four-part exchange (0) f
+    fl: four-part exchange (0) ...
+        f
     eh: --
-    cl: four-part exchange (1) f
+    cl: four-part exchange (1) ...
+        f
     pf: attack sfz
-    perc: four-part exchange (3) f
-    vn: four-part exchange (2) f
+    perc: four-part exchange (3) ...
+        f
+    vn: four-part exchange (2) ...
+        f
     va: jewelers' twilight ...
         XFB sempre ...
         D3 ...
@@ -71,12 +71,16 @@ shell (β) eh plays four forte trills.
 no players tacet.
 no pause.
 
-    fl: [four-part exchange (0)] sub. pp
+    fl: ... four-part exchange (0) ...
+        sub. pp
     eh: trills f
-    cl: [four-part exchange (1)] sub. pp
+    cl: ... four-part exchange (1) ...
+        sub. pp
     pf: [resonance]
-    perc: [four-part exchange (3)] sub. pp
-    vn: [four-part exchange (2)] sub. pp
+    perc: ... four-part exchange (3) ...
+        sub. pp
+    vn: ... four-part exchange (2) ...
+        sub. pp
     va: ... jewelers' twilight ... 
         ... D3 ...
         [[pochiss. pont.]] -> tasto
@@ -94,12 +98,16 @@ jewelers' desk (γ) vc achieves [2.1].
 eh tacet.
 no pause.
 
-    fl: [four-part exchange (0)] pp < f
+    fl: ... four-part exchange (0) ...
+        pp < f
     eh: --
-    cl: [four-part exchange (1)] pp < f
+    cl: ... four-part exchange (1) ...
+        pp < f
     pf: [resonance]
-    perc: [four-part exchange (3)] pp < f
-    vn: [four-part exchange (2)] pp < f
+    perc: ... four-part exchange (3) ...
+        pp < f
+    vn: ... four-part exchange (2) ...
+        pp < f
     va: ... jewelers' twilight ...
         ... D2 ...
         [[tasto]] -> pochiss. pont. ...
@@ -118,12 +126,16 @@ jewelers' desk (γ) vc begins transition from [2.1] to [1].
 eh tacet.
 no pause.
 
-    fl: [four-part exchange (0)] f
+    fl: ... four-part exchange (0) ...
+        f
     eh: --
-    cl: [four-part exchange (1)] f
+    cl: ... four-part exchange (1) ...
+        f
     pf: [resonance]
-    perc: [four-part exchange (3)] f
-    vn: [four-part exchange (2)] f
+    perc: ... four-part exchange (3) ...
+        f
+    vn: ... four-part exchange (2) ...
+        f
     va: ... jewelers' twilight ...
         ... D3 ...
         ... tasto -> pochiss. pont.
@@ -143,12 +155,16 @@ jewelers' desk (γ) vc continues transition from [2.1] to [1].
 no players tacet.
 no pause.
 
-    fl: [four-part exchange (0)] sub. pp
+    fl: ... four-part exchange (0) ...
+        sub. pp
     eh: trills f
-    cl: [four-part exchange (1)] sub. pp
+    cl: ... four-part exchange (1) ...
+        sub. pp
     pf: [resonance]
-    perc: [four-part exchange (3)] sub. pp
-    vn: [four-part exchange (2)] sub. pp
+    perc: ... four-part exchange (3) ...
+        sub. pp
+    vn: ... four-part exchange (2) ...
+        sub. pp
     va: ... jewelers' twilight ... 
         ... D3 ...
         [[pochiss. pont.]] -> tasto
@@ -167,12 +183,16 @@ jewelers' desk (γ) vc continues transition from [2.1] to [1].
 eh tacet.
 no pause.
 
-    fl: [four-part exchange (0)] pp < f
+    fl: ... four-part exchange (0) ...
+        pp < f
     eh: --
-    cl: [four-part exchange (1)] pp < f
+    cl: ... four-part exchange (1) ...
+        pp < f
     pf: [resonance]
-    perc: [four-part exchange (3)] pp < f
-    vn: [four-part exchange (2)] pp < f
+    perc: ... four-part exchange (3) ...
+        pp < f
+    vn: ... four-part exchange (2) ...
+        pp < f
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -189,12 +209,16 @@ shell (β) fl, cl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
 jewelers' desk (γ) vc achieves [1].
 
-    fl: [four-part exchange (0)] f
+    fl: ... four-part exchange (0) ...
+        f
     eh: --
-    cl: [four-part exchange (1)] f
+    cl: ... four-part exchange (1) ...
+        f
     pf: [resonance]
-    perc: [four-part exchange (3)] f
-    vn: [four-part exchange (2)] f
+    perc: ... four-part exchange (3) ...
+        f
+    vn: ... four-part exchange (2) ...
+        f
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -215,12 +239,15 @@ shell (β) eh trills return.
 jewelers' desk (γ) vc continues [1].
 no pause.
 
-    fl: [three-part exchange (0)] sub. pp
+    fl: three-part exchange (0) ...
+        sub. pp
     eh: trills forte
     cl: <take bcl>
     pf: [resonance]
-    perc: [three-part exchange (2)] sub. pp
-    vn: [three-part exchange (1)] sub. pp
+    perc: three-part exchange (2) ...
+        sub. pp
+    vn: three-part exchange (1) ...
+        sub. pp
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -240,12 +267,15 @@ jewelers' desk (γ) bcl begins transition from [1] to [2.2].
 eh tacet.
 no pause.
 
-    fl: [three-part exchange (0)] pp < f
+    fl: ... three-part exchange (0) ...
+        pp < f
     eh: --
     bcl: state 1 -> state 2.2
     pf: [resonance]
-    perc: [three-part exchange (2)] pp < f
-    vn: [three-part exchange (1)] pp < f
+    perc: ... three-part exchange (2) ...
+        pp < f
+    vn: ... three-part exchange (1) ...
+        pp < f
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -265,12 +295,15 @@ jewelers' desk (γ) vc continues transition from [1] to [2.2].
 eh tacet.
 no pause.
 
-    fl: [three-part exchange (0)] f
+    fl: ... three-part exchange (0) ...
+        f
     eh: --
     bcl: [state 1 -> state 2.2]
     pf: [resonance]
-    perc: [three-part exchange (2)] f
-    vn: [three-part exchange (1)] f
+    perc: ... three-part exchange (2) ...
+        f
+    vn: ... three-part exchange (1) ...
+        f
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -290,12 +323,15 @@ jewlers' desk (γ) vc achieves [2.2].
 eh tacet.
 no pause.
 
-    fl: [three-part exchange (0)] f
+    fl: ... three-part exchange (0) ...
+        f
     eh: --
     bcl: state 2.2
     pf: [resonance]
-    perc: [three-part exchange (2)] f
-    vn: [three-part exchange (1)] f
+    perc: ... three-part exchange (2) ...
+        f
+    vn: ... three-part exchange (1) ...
+        f
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -318,8 +354,10 @@ no pause.
     eh: trills
     bcl: [state 2.2]
     pf: [resonance]
-    perc: [two-part exchange (1)] sub. pp
-    vn: [two-part exchange (0)] sub. pp
+    perc: two-part exchange (1) ...
+        sub. pp
+    vn: two-part exchange (0) ...
+        sub. pp
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -362,8 +400,10 @@ no pause.
     eh: --
     bcl: state 2.2 -> state 1
     pf: [resonance]
-    perc: [two-part exchange (1)] pp < f
-    vn: [two-part exchange (0)] pp < f
+    perc: two-part exchange (1) ...
+        pp < f
+    vn: two-part exchange (0) ...
+        pp < f
     va: jewelers' twilight ...
         D3 ... 
         XFB sempre ...
@@ -386,8 +426,10 @@ no pause.
     eh: --
     bcl: [state 2.2 -> state 1]
     pf: [resonance]
-    perc: [two-part exchange (1)] f
-    vn: [two-part exchange (0)] f
+    perc: ... two-part exchange (1)
+        f
+    vn: ... two-part exchange (0)
+        f
     va: ... jewelers' twilight ...
         ... D3 ...
         ... XFB ...
@@ -403,6 +445,7 @@ no pause.
 shell (β) pf resonance continues.
 shell (β) vn, perc momentarily tacet.
 shell (β) va mometarily absent.
+jewelers' desk (γ) bfl joins.
 jewelers' desk (γ) eh keynoise begins.
 jewelers' desk (γ) bfl, bcl, vc momentarily pp.
 jewelers' desk (γ) vc momentarily non vibrato.
@@ -411,9 +454,11 @@ kiln (δ) perc castanets, struck bd prefigured.
 eh tacet.
 no pause.
 
-    bfl: momentary pp
+    bfl: tapered pedal
+        niente < p > niente
     eh: keynoise
-    bcl: momentary pp
+    bcl: tapered pedal
+        niente < p > niente
     pf: [resonance]
     perc: castanets, struck bd
     vn: spazzolati
@@ -438,8 +483,10 @@ no pause.
     eh: trills forte
     bcl: state 1
     pf: [resonance]
-    perc: exchange sub. pp
-    vn: exchange sub. pp
+    perc: two-part exchange (1) ...
+        sub. pp
+    vn: two-part exchange (0) ...
+        sub. pp
     va: jewelers' twilight
         D3
         XFB ...
@@ -464,8 +511,10 @@ no pause.
     eh: keynoise
     bcl: [state 1]
     pf: attack sfz
-    perc: [exchange] single ff
-    vn: [exchange] single ff
+    perc: two-part exchange (simultaneous)
+        single ff
+    vn: two-part exchange (simultaneous)
+        single ff
     va: jewelers' twilight
         Eb3
         ... XFB

@@ -25,7 +25,7 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 13
     2, # 14
     2, # 15
-    2, # 16
+    4, # 16
     2, # 17
     2, # 18
     2, # 19
@@ -75,7 +75,7 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(34)
-segment_maker.validate_measure_count(74)
+segment_maker.validate_measure_count(76)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -107,8 +107,17 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(16, 18)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (fl, stages(16)),
+    baca.rhythm.make_tapered_pedal_rhythm_specifier(
+        start_talea=[4],
+        stop_talea=[3, -1],
+        denominator=16,
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(17, 18)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(count_rotation=0),
     )
 
 segment_maker.append_specifiers(
@@ -230,7 +239,11 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(16)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.rhythm.make_tapered_pedal_rhythm_specifier(
+        start_talea=[4],
+        stop_talea=[3, -1],
+        denominator=16,
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -678,9 +691,35 @@ segment_maker.append_specifiers(
 ### flute (color) ###
 
 segment_maker.append_specifiers(
+    (fl, stages(1, 11)),
+    [
+        baca.pitch.pitches('F#6'),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (fl, stages(12)),
     [
         faberge.materials.instruments['bass flute'],
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(16)),
+    [
+        baca.tools.SpecifierWrapper(
+            prototype=scoretools.Note,
+            scope_to_leaves=True,
+            specifier=Hairpin('niente < p', include_rests=True),
+            stop_index=2,
+            ),
+        baca.tools.SpecifierWrapper(
+            prototype=scoretools.Note,
+            scope_to_leaves=True,
+            specifier=Hairpin('p > niente', include_rests=True),
+            start_index=-1,
+            with_next_leaf=True,
+            ),
         ],
     )
 
@@ -696,6 +735,13 @@ segment_maker.append_specifiers(
     )
 
 ### clarinet (color) ###
+
+segment_maker.append_specifiers(
+    (cl, stages(1, 7)),
+    [
+        baca.pitch.pitches('F#6'),
+        ],
+    )
 
 segment_maker.append_specifiers(
     (cl, stages(8)),
@@ -732,24 +778,47 @@ segment_maker.append_specifiers(
 ### percussion (color) ###
 
 segment_maker.append_specifiers(
-    (perc, stages(1)),
+    (perc, stages(1, 17)),
     [
+        baca.articulations.laissez_vibrer(),
         baca.markup.make_boxed_markup('BOWED CROTALES'),
+        baca.pitch.pitches('F#4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (perc, stages(18)),
     [
+        baca.articulations.laissez_vibrer(),
         baca.dynamics.make_hairpins(
             ['niente < ff'],
             include_following_rests=True,
             ),
         baca.markup.lv_possibile(),
+        baca.pitch.pitches('G4'),
         ],
     )
 
 ### violin (color) ###
+
+segment_maker.append_specifiers(
+    (vn, stages(1, 17)),
+    [
+        baca.pitch.pitches('F#6'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(18)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < ff'],
+            include_following_rests=True,
+            ),
+        baca.markup.lv_possibile(),
+        baca.pitch.pitches('G6'),
+        ],
+    )
 
 ### viola (color) ###
 
