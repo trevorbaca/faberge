@@ -4133,53 +4133,250 @@
                         d,2 \repeatTie
                         d,1 \repeatTie
                         d,2 \repeatTie
-                        d,2. \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "(PO + poco vib.)"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d,2. \repeatTie \> \f \startTextSpan
                         d,1 \repeatTie
                         d,2. \repeatTie
                         d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie \p \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    "tasto (+poco vib.)"
+                            }
+                        d,1 \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "(tasto + poco vib.)"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d,2 \repeatTie \< \p \startTextSpan
+                        d,2. \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,1 \repeatTie \ff \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    "poco pont. + vib. mod."
+                            }
+                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \ppp \repeatTie
+                            ^ \markup {
+                                \upright
+                                    "(poco pont.+) sub. non vib."
+                                }
+                        d,1 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "(poco pont.+) sub. vib. mod."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d,2 \repeatTie \> \ff \startTextSpan
                         d,2. \repeatTie
                         d,1 \repeatTie
                         d,2 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "tasto + non vib."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d,2. \repeatTie \pp \stopTextSpan \< \pp \startTextSpan \startTextSpan
                         d,1 \repeatTie
-                        d,1 \repeatTie
-                        d,2. \repeatTie
-                        d,2 \repeatTie
-                        d,2. \repeatTie
-                        d,2. \repeatTie
-                        d,1 \repeatTie
-                        d,1 \repeatTie
-                        d,2. \repeatTie
-                        d,2 \repeatTie
-                        d,2 \repeatTie
-                        d,2. \repeatTie
-                        d,1 \repeatTie
-                        d,2 \repeatTie
-                        d,2. \repeatTie
-                        d,1 \repeatTie
-                        d,2 \repeatTie
-                        d,2. \repeatTie
-                        d,1 \repeatTie
-                        d,2. \repeatTie
+                        d,2. \repeatTie \p \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    "(tasto+) poco vib."
+                            }
                         d,1 \repeatTie
                         ef,2.
                         ef,1 \repeatTie
-                        ef,2 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "(tasto + poco vib.)"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        ef,2 \repeatTie \< \p \startTextSpan
                         ef,1 \repeatTie
                         ef,1 \repeatTie
                         ef,2. \repeatTie
-                        ef,2. \repeatTie
+                        ef,2. \repeatTie \ff \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    "molto pont. + vib. molto"
+                            }
                         ef,2 \repeatTie
                         ef,2. \repeatTie
                         ef,1 \repeatTie
-                        ef,1 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "(molto pont. + vib. molto)"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        ef,1 \repeatTie \> \ff \startTextSpan
                         ef,2 \repeatTie
-                        ef,2. \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "tasto + poco vib."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        ef,2. \repeatTie \p \stopTextSpan \startTextSpan \startTextSpan
                         ef,2 \repeatTie
-                        ef,2. \repeatTie
+                        ef,2. \repeatTie \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    "(tasto+) non vib."
+                            }
                         ef,1 \repeatTie
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 11/12 {
-                            ef,\breve. \glissando
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \upright
+                                                "(tasto + non vib.)"
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            ef,\breve. \glissando \< \p \startTextSpan
                                 ^ \markup {
                                     \column
                                         {
@@ -4196,12 +4393,39 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            d,\longa. \glissando
+                            \once \override Hairpin #'circled-tip = ##t
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \upright
+                                                PO
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            d,\longa. \f \stopTextSpan \glissando \> \f \startTextSpan \startTextSpan
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             cs,1.... \glissando
-                            bs,,16
+                            bs,,16 \! \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \upright
+                                        tasto
+                                }
                             \bar "|"
                         }
                     }

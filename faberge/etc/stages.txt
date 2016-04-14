@@ -42,7 +42,7 @@ no pause.
 shell (β) pf attacks field.
 shell (β) fl, cl, vn, crotale rapidly single exponentially enveloped pitch.
 shell (β) va tasto XFB fills out harmonic field on mp lower fundamental.
-jewelers' desk (γ) vc begins transition from 1 to 2.1.
+jewelers' desk (γ) vc begins transition from [1] to [2.1].
 eh tacet.
 no pause.
 
@@ -53,16 +53,16 @@ no pause.
     perc: four-part exchange (3) f
     vn: four-part exchange (2) f
     va: tasto XFB mp
-    vc: [jewelers' twilight ...
-        [(D2) ...
-        [p < f ...
-        [tasto + poco vib. --> PO (+ poco vib.) ...
+    vc: jewelers' twilight ...
+        (D2) ...
+        p < f ...
+        tasto + poco vib. -> PO (+ poco vib.) ...
 
 [A2]
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale subito ppp.
 shell (β) va tasto XFB subito ppp.
-jewelers' desk (γ) vc continues transition from 1 to 2.1.
+jewelers' desk (γ) vc continues transition from [1] to [2.1].
 shell (β) eh plays four forte trills.
 no players tacet.
 no pause.
@@ -77,13 +77,13 @@ no pause.
     vc: ... jewelers' twilight ...
         ... (D2) ...
         ... p < f ...
-        ... tasto (+ poco vib.) < PO (+ poco vib.) ...
+        ... tasto (+ poco vib.) -> PO (+ poco vib.) ...
 
 [A3]
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from ppp to mp.
-jewelers' desk (γ) vc holds 2.1.
+jewelers' desk (γ) vc achieves [2.1].
 eh tacet.
 no pause.
 
@@ -96,14 +96,14 @@ no pause.
     va: [tasto XFB] pp < mp
     vc: ... jewelers' twilight ...
         ... D2 ...
-        f
-        PO (+ poco vib.)
+        ... f ...
+        ... PO (+ poco vib.) ...
 
 [A4]
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
-jewelers' desk (γ) vc begins transition from 2.1 to 1.
+jewelers' desk (γ) vc begins transition from [2.1] to [1].
 eh tacet.
 no pause.
 
@@ -116,15 +116,15 @@ no pause.
     va: [tasto XFB] mp
     vc: ... jewelers' twilight ...
         ... D2 ...
-        [f > p ...
-        [(PO + poco vib.) --> tasto (+ poco vib.) ...
+        f > p ...
+        (PO + poco vib.) -> tasto (+ poco vib.) ...
 
 [A5]
 shell (β) pf resonance continues.
 shell (β) eh forte trills return.
 shell (β) fl, cl, vn, bowed crotale subito pp.
 shell (β) va tasto XFB subito ppp.
-jewelers' desk (γ) vc continues transition from 2.1 to 1.
+jewelers' desk (γ) vc continues transition from [2.1] to [1].
 no players tacet.
 no pause.
 
@@ -138,13 +138,13 @@ no pause.
     vc: ... jewelers' twilight ...
         ... D2 ...
         ... f > p ...
-        ... (PO + poco vib.) --> tasto (+ poco vib.)
+        ... (PO + poco vib.) -> tasto (+ poco vib.) ...
 
 [A6]
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from pp to mp.
-jewelers' desk (γ) vc continues transition from 2.1 to 1.
+jewelers' desk (γ) vc continues transition from [2.1] to [1].
 eh tacet.
 no pause.
 
@@ -155,13 +155,16 @@ no pause.
     perc: [four-part exchange (3)] pp < f
     vn: [four-part exchange (2)] pp < f
     va: [tasto XFB] pp < mp
-    vc: [jewelers' twilight (D)] [f PO (+ poco vib.) > p tasto (+ poco vib.)]
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ... f > p ...
+        ... PO (+ poco vib.) -> p tasto (+ poco vib.) ...
 
 [A7]
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
-jewelers' desk (γ) vc holds 1.
+jewelers' desk (γ) vc achieves [1].
 
     fl: [four-part exchange (0)] f
     eh: --
@@ -170,7 +173,10 @@ jewelers' desk (γ) vc holds 1.
     perc: [four-part exchange (3)] f
     vn: [four-part exchange (2)] f
     va: [tasto XFB] mp
-    vc: [jewelers' twilight (D)] p tasto (+ poco vib.)
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ... p ...
+        ... tasto (+ poco vib.) ...
 
 [A8]
 shell (β) pf resonance continues.
@@ -179,7 +185,7 @@ shell (β) fl, vn, bowed crotale subito pp.
 shell (β) fl, vn, bowed crotale rhythm now divided between three players.
 shell (β) va tasto XFB subito pp.
 shell (β) eh trills return.
-jewelers' desk (γ) vc holds 1.
+jewelers' desk (γ) vc continues [1].
 no pause.
 
     fl: [three-part exchange (0)] sub. pp
@@ -189,14 +195,17 @@ no pause.
     perc: [three-part exchange (2)] sub. pp
     vn: [three-part exchange (1)] sub. pp
     va: [tasto XFB] sub. pp
-    vc: [jewelers' twilight (D)] p poco vib.
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ... p ...
+        ... tasto (+ poco vib.) ...
 
 [A9]
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from pp to mp.
-jewelers' desk (γ) vc begins transition from 1 to 2.2.
-jewelers' desk (γ) bcl begins transition from 1 to 2.2.
+jewelers' desk (γ) vc begins transition from [1] to [2.2].
+jewelers' desk (γ) bcl begins transition from [1] to [2.2].
 eh tacet.
 no pause.
 
@@ -207,14 +216,17 @@ no pause.
     perc: [three-part exchange (2)] pp < f
     vn: [three-part exchange (1)] pp < f
     va: [tasto XFB] pp < mp
-    vc: [jewelers' desk (D)] p (tasto + poco vib.) < ff poco pont. + vib. mod.
+    vc: ... jewelers' desk ...
+        ... D2 ...
+        p < ff ...
+        (tasto + poco vib.) -> poco pont. + vib. mod. ...
 
 [A10]
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
-jewelers' desk (γ) bcl continues transition from 1 to 2.2.
-jewelers' desk (γ) vc continues transition from 1 to 2.2.
+jewelers' desk (γ) bcl continues transition from [1] to [2.2].
+jewelers' desk (γ) vc continues transition from [1] to [2.2].
 eh tacet.
 no pause.
 
@@ -225,14 +237,17 @@ no pause.
     perc: [three-part exchange (2)] f
     vn: [three-part exchange (1)] f
     va: [tasto XFB] mp
-    vc: [jewelers' (D)] [p (tasto + poco vib.) < ff poco pont. + vib. mod.] 
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ... p < ff ...
+        ... (tasto + poco vib.) -> poco pont. + vib. mod. ...
 
 [A11]
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
-jewlers' desk (γ) bcl holds first part of 2.2.
-jewlers' desk (γ) vc holds first part of 2.2.
+jewlers' desk (γ) bcl achieves [2.2].
+jewlers' desk (γ) vc achieves [2.2].
 eh tacet.
 no pause.
 
@@ -243,14 +258,17 @@ no pause.
     perc: [three-part exchange (2)] f
     vn: [three-part exchange (1)] f
     va: [tasto XFB] mp
-    vc: [jewelers' twilight (D)] ff poco pont. + vib. mod.
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ... ff ...
+        ... poco pont. + vib. mod. ...
 
 [A12]
 shell (β) pf resonance continues.
 shell (β) fl falls silent and takes bfl.
 shell (β) vn, bowed crotale subito pp with rhythm shared between two players.
 shell (β) eh trills return.
-jeweler's desk (γ) bcl, vc continue state 2.2.
+jeweler's desk (γ) bcl, vc continue [2.2].
 no pause.
 
     fl: <take bfl>
@@ -260,7 +278,10 @@ no pause.
     perc: [two-part exchange (1)] sub. pp
     vn: [two-part exchange (0)] sub. pp
     va: [tasto XFB] sub. pp
-    vc: [jewelers' twilight (D)] [ff poco pont. + vib. mod.]
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ... ff ...
+        ... poco pont. + vib. mod. ...
 
 [A13]
 shell (β) pf resonance continues.
@@ -276,13 +297,16 @@ no pause.
     perc: --
     vn: spazzolati
     va: spazzolati
-    vc: [jewelers' twilight (D)] sub. ppp (poco pont. +) non vib.
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ppp
+        (poco pont. +) non vib.
 
 [A14]
 shell (β) pf resonance continues.
 shell (β) vn, bowed crotale crescendo from pp to forte.
 shell (β) va tasto XFB crescendoes from pp to mp.
-jewelers' desk (γ) bcl, vc begin transition from 2.2 to 1.
+jewelers' desk (γ) bcl, vc begin transition from [2.2] to [1].
 bfl, eh tacet.
 no pause.
 
@@ -293,13 +317,16 @@ no pause.
     perc: [two-part exchange (1)] pp < f
     vn: [two-part exchange (0)] pp < f
     va: [tasto XFB] pp < mp
-    vc: [jewelers' (D)] ff (poco pont +) vib. mod. > p tasto + poco vib.
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ff > pp ...
+        (poco pont +) vib. mod. -> tasto + non vib. ...
 
 [A15]
 shell (β) pf resonance continues.
 shell (β) vn, crotale continue forte.
 shell (β) va tasto XFB begins final decrescendo.
-jewelers' desk (γ) bcl, vc continue transition from 2.2 to 1.
+jewelers' desk (γ) bcl, vc continue transition from [2.2] to [1].
 bfl, eh tacet.
 no pause.
 
@@ -310,7 +337,10 @@ no pause.
     perc: [two-part exchange (1)] f
     vn: [two-part exchange (0)] f
     va: [tasto XFB] mp
-    vc: [jewelers' (D)] [ff (poco pont +) vib. mod. > p tasto + poco vib.]
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        ... ff > pp ...
+        ... (poco pont +) vib. mod. -> tasto + non vib. ...
 
 [A16]
 (shorter stage.)
@@ -319,6 +349,7 @@ shell (β) vn, perc momentarily tacet.
 shell (β) va mometarily absent.
 jewelers' desk (γ) eh keynoise begins.
 jewelers' desk (γ) bfl, bcl, vc momentarily pp.
+jewelers' desk (γ) vc momentarily non vibrato.
 gears (α) vn spazzolati, va spazzolati allowed to shine through.
 kiln (δ) perc castanets, struck bd prefigured.
 eh tacet.
@@ -331,14 +362,17 @@ no pause.
     perc: castanets, struck bd
     vn: spazzolati
     va: spazzolati
-    vc: [jewelers' twilight (D)] pp (tasto +) non vib.
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        pp < p ...
+        (tasto +) non vib. -> (tasto +) poco vib.
 
 [A17]
 shell (β) pf resonance continues.
 shell (β) vn, bowed crotale subito pp.
 shell (β) eh trills return.
 shell (β) va XFB subito pp.
-jewelers' desk (γ) bfl, bcl, vc hold state 1.
+jewelers' desk (γ) bfl, bcl, vc begin [1].
 no players tacet.
 no pause.
 
@@ -349,7 +383,10 @@ no pause.
     perc: exchange sub. pp
     vn: exchange sub. pp
     va: tasto XFB pp
-    vc: [jewelers' twilight (D)] p (tasto +) poco vib.
+    vc: ... jewelers' twilight ...
+        ... D2 ...
+        p ...
+        (tasto +) poco vib. ...
 
 [A18]
 (short stage.)
@@ -357,7 +394,7 @@ shell (β) pf attacks field.
 shell (β) vn, bowed crotale attack final note simultaneously ff.
 shell (β) va XFB continues pp.
 jewelers' desk (γ) eh keynoise.
-jewlers' desk (γ) bfl, bcl, vc continue 1.
+jewlers' desk (γ) bfl, bcl, vc continue [1].
 no players tacet.
 no pause.
 
@@ -368,12 +405,15 @@ no pause.
     perc: [exchange] single ff
     vn: [exchange] single ff
     va: [tasto XFB pp]
-    vc: jewelers' desk (Eb) [p (tasto +) poco vib.]
+    vc: ... jewelers' desk ...
+        Eb2 ...
+        ... p ...
+        ... (tasto +) poco vib. ...
 
 [A19]
 shell (β) pf resonance, bowed crotale resonance continue.
 jewelers' desk (γ) eh keynoise continues.
-jewelers' desk (γ) bfl, bcl, vc begin transition from 1 to 2.3.
+jewelers' desk (γ) bfl, bcl, vc begin transition from [1] to [2.3].
 gears (α) vn spazzolati, va spazzolati return.
 no players tacet.
 no pause.
@@ -385,12 +425,15 @@ no pause.
     perc: [resonance]
     vn: spazzolati
     va: spazzolati
-    vc: [jewelers' (Eb)] p (tasto + poco vib.) < fff molto pont. + vib. molto
+    vc: ... jewelers' twilight ...
+        Eb ...
+        p < ff ...
+        (tasto + poco vib.) -> molto pont. + vib. molto ...
 
 [A20]
 gears (α) vn spazzolati, va spazzolati begin decrescendo from ff to pp.
 jewelers' desk (γ) eh keynoise continues.
-jewelers' desk (γ) bfl, bcl, vc continue transition from 1 to 2.3.
+jewelers' desk (γ) bfl, bcl, vc continue transition from [1] to [2.3].
 perc tacet.
 no pause.
 
@@ -401,13 +444,16 @@ no pause.
     perc: --
     vn: [spazzolati ff > pp] 
     va: [spazzolati ff > pp]
-    vc: [jewelers' (Eb)] [p (tasto + poco vib.) < ff molto pont. + vib. molto]
+    vc: ... jewelers' twilight ...
+        ... Eb ...
+        ... p < ff ...
+        ... (tasto + poco vib.) -> molto pont. + vib. molto ...
 
 [A21]
 shell (β) pf resonance continues.
 shell (β) eh trills return.
 gears (α) vn, va spazzolati continue decrescendo.
-jewlers' desk (γ) bfl, bcl, vc begin 2.3.
+jewlers' desk (γ) bfl, bcl, vc achieve [2.3].
 perc still tacet. 
 no pause.
 
@@ -418,13 +464,16 @@ no pause.
     perc: --
     vn: [spazzolati ff > pp] 
     va: [spazzolati ff > pp]
-    vc: [jewelers' (Eb)] ff molto pont. + vib. molto
+    vc: ... jewelers' twilight ...
+        ... Eb2 ...
+        ... ff ...
+        ... molto pont. + vib. molto ...
 
 [A22]
 shell (β) pf resonance continues.
 gears (α) vn, va spazzolati complete decrescendo.
 jewelers' desk (γ) eh keynoise.
-jewelers' desk (γ) bfl, bcl, vc continue 2.3.
+jewelers' desk (γ) bfl, bcl, vc continue [2.3].
 perc tacet.
 
     bfl: [state 2.3] ff
@@ -434,13 +483,16 @@ perc tacet.
     perc: --
     vn: [spazzolati ff > pp] 
     va: [spazzolati ff > pp]
-    vc: [jewelers' (Eb)] [ff molto pont. + vib. molto]
+    vc: ... jewelers' twilight ...
+        ... Eb2 ...
+        ... ff ...
+        ... molto pont. + vib. molto ...
 
 [A23]
 shell (β) pf attacks same pitch as marimba and sustains with middle pedal.
 shell (β) eh trills.
-jewelers' desk (γ) bfl, bcl, vc transition from 2.3 to 1.
-jewelers' desk (γ) vn, va begin state 1: poccissimo scratch pedals.
+jewelers' desk (γ) bfl, bcl, vc transitions from [2.3] to [1].
+jewelers' desk (γ) vn, va begin poccissimo scratch pedals.
 jewelers' desk (γ) lowregister attackless marimba pedal begins.
 no players tacet.
 no pause.
@@ -452,11 +504,17 @@ no pause.
     perc: marimba lowregister pedal
     vn: state 1: pochissimo scratch pedal
     va: state 1: pochissimo scratch pedal
-    vc: [jewelers' (Eb)] ff (molto pont. + vib. molto) > p tasto + poco vib.
+    vc: .... jewelers' twilight ...
+        ... Eb2 ...
+        ff > p
+        (molto pont. + vib. molto) -> tasto + poco vib.
 
 [A24]
-jewelers' desk (γ) bfl glowing multiphonics, eh keynoise, bcl, pf decay,
-marimba, vn, va, vc jewelers' desk (γ) reilluminates with mf swell enveloping.
+jewelers' desk (γ) bfl glowing multiphonics, eh keynoise,
+marimba, vn, va reilluminates with mf swell enveloping.
+jewelers' desk (γ) pf resonance continues.
+jewelers' desk (γ) bcl, vc achieve [1].
+jewelers' desk (γ) vc begins transition to non vibrato.
 
     bfl: state 1: glowing multiphonics
     eh: [even more trills]
@@ -465,7 +523,10 @@ marimba, vn, va, vc jewelers' desk (γ) reilluminates with mf swell enveloping.
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal]
     va: [state 1: pochissimo scratch pedal]
-    vc: [jewelers' twilight (Eb)] p tasto + poco vib.
+    vc: ... jewelers' twilight ...
+        ... Eb2 ...
+        ... p ...
+        [[tasto + poco vib.]] -> (tasto +) non. vib. ...
 
 [A25]
 long stage.
@@ -477,7 +538,10 @@ long stage.
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal]
     va: [state 1: pochissimo scratch pedal]
-    vc: [jewelers' twilight (Eb)] p (tasto +) non vib. 
+    vc: ... jewelers' twilight ...
+        ... Eb2 ...
+        ... p ...
+        ... (tasto +) non vib. ...
 
 [A26]
 long stage.
@@ -489,7 +553,10 @@ long stage.
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal] crescendo to forte
     va: [state 1: pochissimo scratch pedal] crescendo to forte
-    vc: [jewelers' twilight (Eb -> D)] crescendo to forte
+    vc: fused tuplet monad ...
+        Eb -> D ...
+        p < f ...
+        (tasto +) non vib -> PO (+ non vib.) ...
 
 [A27]
 
@@ -500,7 +567,10 @@ long stage.
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal] decrescendo to pp
     va: [state 1: pochissimo scratch pedal] decrescendo to pp
-    vc: [jewelers' twilight (D -> C#)] decrescendo to p
+    vc: ... fused tuplet monad
+        ... Eb2 -> D ...
+        ... p < f ...
+        ... (tasto +) non vib -> PO (+ non vib.) ...
 
 [A28]
 
@@ -511,7 +581,10 @@ long stage.
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal] decrescendo to niente
     va: [state 1: pochissimo scratch pedal] decrescendo to niente
-    vc: [jewelers' twilight (C#)] pp
+    vc: fused tuplet monad ...
+        D2 -> C#2 ... 
+        f > niente ...
+        [[PO (+ non vib)]] -> tasto (+ non vib) ...
 
 [A29]
 
@@ -522,7 +595,10 @@ long stage.
     perc: [marimba lowregister pedal]
     vn: kiln: extremely sparse clb
     va: kiln: extremely sparse clb
-    vc: [jewelers' twilight (C#)] pp
+    vc: ... fused tuplet monad
+        ... D2 -> C#2 ...
+        ... f > niente ...
+        ... PO (+ non vib) -> tasto (+ non vib) ...
 
 [A30]
 
@@ -533,7 +609,10 @@ long stage.
     perc: [marimba lowregister pedal]
     vn: kiln: more clb
     va: kiln: more clb
-    vc: [jewelers' twilight (C#)] pp
+    vc: ... fused tuplet monad
+        ... D2 -> C#2 ...
+        ... f > niente ...
+        ... PO (+ non vib) -> tasto (+ non vib) ...
 
 [A31]
 
@@ -544,7 +623,10 @@ long stage.
     perc: [marimba lowregister pedal] decrescendo to niente
     vn: continuous clb
     va: continuous clb
-    vc: [jewelers' twilight (C# -> C)] pppp + tasto XFB decrescendo to niente
+    vc: fused tuplet monad (explicit stop note)
+        ... f > niente
+        ... PO (+ non vib) -> tasto (+ non vib)
+        C#2 -> B#1
 
 [A32]
 lead-in to prefigurement.
@@ -554,9 +636,9 @@ lead-in to prefigurement.
     bcl: --
     hpschd: --
     perc: --
-    vn: [continuous clb]
-    va: [continuous clb]
-    vc: continuous clb
+    vn: ... continuous clb ...
+    va: ... continuous clb ...
+    vc: continuous clb ...
 
 [A33]
 composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
@@ -567,8 +649,8 @@ composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
     hpschd: --
     perc: bd airtone pedal
     vn: airtone pedal
-    va: [continuous clb]
-    vc: [continuous clb]
+    va: ... continuous clb ...
+    vc: ... continuous clb ...
 
 [A34]
 after prefigurement.
@@ -579,8 +661,8 @@ after prefigurement.
     hpschd: --
     perc: --
     vn: --
-    va: [continuous clb]
-    vc: [continuous clb]
+    va: ... continuous clb ...
+    vc: ... continuous clb ...
 
 [B1]
 tempo: kiln
@@ -1807,7 +1889,6 @@ fermata.
 prefigured shell (β) fully orchestrated first field.
 excludes pf attack field.
 eh, pf tacet.
-# HERE
 
     bfl: shell transitions
     eh: --

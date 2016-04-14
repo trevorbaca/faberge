@@ -774,20 +774,6 @@ segment_maker.append_specifiers(
 
 ### cello (color) ###
 
-#segment_maker.append_specifiers(
-#    (vc, stages(2)),
-#    [
-#        baca.tools.SpecifierWrapper(
-#            scope_to_leaves=True,
-#            specifier=baca.dynamics.make_hairpins(
-#                ['p < mp', 'mp > p'],
-#                enchain_hairpins=True,
-#                span=[2],
-#                ),
-#            ),
-#        ],
-#    )
-
 segment_maker.append_specifiers(
     (vc, stages(1, 17)),
     [
@@ -815,9 +801,151 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (vc, stages(4, 6)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                baca.markup.PO_plus_poco_vib(False, False),
+                baca.markup.tasto_plus_poco_vib(True, False),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('f > p'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(9, 10)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                baca.markup.tasto_plus_poco_vib(False, False),
+                baca.markup.poco_pont_plus_vib_mod(True, True),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('p < ff'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(13)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.markup.poco_pont_plus_sub_non_vib(False, True),
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Dynamic('ppp'),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(14, 15)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                baca.markup.poco_pont_plus_sub_vib_mod(False, True),
+                baca.markup.tasto_plus_non_vib(True, True),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('ff > pp'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(16)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                None,
+                baca.markup.tasto_plus_poco_vib(False, True),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('pp < p'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (vc, stages(18, 25)),
     [
         baca.pitch.pitches('Eb2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(19, 20)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                baca.markup.tasto_plus_poco_vib(False, False),
+                baca.markup.molto_pont_plus_vib_molto(True, True),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('p < ff'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(23)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                baca.markup.molto_pont_plus_vib_molto(False, False),
+                baca.markup.tasto_plus_poco_vib(True, True),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('ff > p'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(24)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                None,
+                baca.markup.tasto_plus_non_vib(False, True),
+                ),
+            with_next_leaf=True,
+            ),
         ],
     )
 
@@ -833,6 +961,25 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (vc, stages(26, 27)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                baca.markup.tasto_plus_non_vib(False, False),
+                baca.markup.PO(),
+                ),
+            with_next_leaf=True,
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('p < f'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (vc, stages(28, 30)),
     [
         baca.pitch.pitches('D2'),
@@ -843,6 +990,23 @@ segment_maker.append_specifiers(
     (vc, stages(31)),
     [
         baca.pitch.pitches('C#2 B#1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(28, 31)),
+    [
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=baca.spanners.make_transition(
+                None,
+                baca.markup.tasto(),
+                ),
+            ),
+        baca.tools.SpecifierWrapper(
+            scope_to_leaves=True,
+            specifier=Hairpin('f > niente'),
+            ),
         ],
     )
 
