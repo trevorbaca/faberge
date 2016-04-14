@@ -86,8 +86,8 @@ segment_maker = baca.tools.SegmentMaker(
     transpose_score=True,
     )
 
-segment_maker.validate_measure_count(97)
 segment_maker.validate_stage_count(46)
+segment_maker.validate_measure_count(97)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################

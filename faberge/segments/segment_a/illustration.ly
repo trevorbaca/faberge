@@ -277,6 +277,28 @@
                     \time 4/4
                     R1 * 1
                 }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
@@ -1117,6 +1139,79 @@
                                 2'05''
                             }
                 }
+                {
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'07''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A32]
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'10''
+                            }
+                }
+                {
+                    \time 2/4
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'12''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A33]
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'13''
+                            }
+                }
+                {
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'15''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A34]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'16''
+                            }
+                }
             }
         >>
         \context MusicContext = "Music Context" <<
@@ -1371,6 +1466,7 @@
                         c''1 \repeatTie
                         c''2 \repeatTie
                         c''1 \repeatTie
+                        R1 * 19/4
                         \bar "|"
                     }
                 }
@@ -1756,6 +1852,7 @@
                             g'16 ]
                         }
                         r4
+                        R1 * 19/4
                         \bar "|"
                     }
                 }
@@ -2229,8 +2326,9 @@
                             d''2
                             d''16
                             r2
-                            \bar "|"
                         }
+                        R1 * 19/4
+                        \bar "|"
                     }
                 }
             >>
@@ -2384,7 +2482,7 @@
                                             "to harpsichord"
                                     }
                             r2
-                            R1 * 27/4
+                            R1 * 23/2
                             \bar "|"
                         }
                     }
@@ -2509,7 +2607,7 @@
                             c'2 \repeatTie
                             r1
                             r2
-                            R1 * 27/4
+                            R1 * 23/2
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -2576,7 +2674,7 @@
                             s1
                             s2.
                             s2
-                            R1 * 33/4
+                            R1 * 13
                             \bar "|"
                         }
                     >>
@@ -3383,10 +3481,11 @@
                             c'16 * 35/32
                             c'16 * 33/32
                             c'16 * 1 ]
-                            \bar "|"
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
+                        R1 * 19/4
+                        \bar "|"
                     }
                 }
             >>
@@ -3813,8 +3912,9 @@
                             c'8
                             c'8
                             c'8 ]
-                            \bar "|"
                         }
+                        R1 * 19/4
+                        \bar "|"
                     }
                 }
                 \tag viola
@@ -3831,253 +3931,565 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        c'2.
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2 \repeatTie
-                        c'16 [
-                        c'16
-                        c'16 ]
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            tasto
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2. :32 \mp \startTextSpan
+                            ^ \markup {
+                                \upright
+                                    "XFB sempre"
+                                }
+                        d1 :32 \repeatTie
+                        d1 :32 \repeatTie
+                        d2 :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "pochiss. pont."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d2 :32 \repeatTie
+                        d2. :32 \repeatTie
+                        d1 :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            tasto
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
+                        d2 :32 \repeatTie
+                        d1 :32 \repeatTie
+                        d2 :32 \repeatTie
+                        d2. :32 \repeatTie \mp
+                        d1 :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "(pochiss. pont.)"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d1 :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            tasto
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
+                        d1 :32 \repeatTie
+                        d2 :32 \repeatTie \mp
+                        d1 :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "pochiss. pont."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d1 :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d2. :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            tasto
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2 :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
+                        d2. :32 \repeatTie
+                        d2. :32 \repeatTie \mp
+                        d1 :32 \repeatTie
+                        d1 :32 \repeatTie
+                        d2. :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "pochiss. pont."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2 :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d2 :32 \repeatTie \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    tasto
+                            }
+                        e'16 \mf [
+                            ^ \markup {
+                                \upright
+                                    spazz.
+                                }
+                        e'16
+                        e'16 ]
                         r16
                         r16
-                        c'16 [
-                        c'16 ]
+                        e'16 [
+                        e'16 ]
                         r16
                         r16
-                        c'16 [
-                        c'16
-                        c'16 ]
+                        e'16 [
+                        e'16
+                        e'16 ]
                         r8
-                        c'16 [
-                        c'16 ]
-                        c'16 [
-                        c'16 ]
+                        e'16 [
+                        e'16 ]
+                        e'16 [
+                        e'16 ]
                         r8
-                        c'16 [
-                        c'16 ]
+                        e'16 [
+                        e'16 ]
                         r8
-                        c'16 [
-                        c'16
-                        c'16 ]
+                        e'16 [
+                        e'16
+                        e'16 ]
+                        r16
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            tasto
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d2 :32 \< \pp \startTextSpan
+                            ^ \markup {
+                                \upright
+                                    XFB
+                                }
+                        d2. :32 \repeatTie
+                        d1 :32 \repeatTie \mp
+                        d2 :32 \repeatTie \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    "pochiss. pont."
+                            }
+                        e'16 \mf [
+                            ^ \markup {
+                                \upright
+                                    spazz.
+                                }
+                        e'16
+                        e'16 ]
+                        r16
+                        r16
+                        e'16 [
+                        e'16 ]
+                        r16
+                        r16
+                        e'16 [
+                        e'16
+                        e'16 ]
+                        r8
+                        e'16 [
+                        e'16 ]
+                        e'16 [
+                        e'16 ]
+                        r8
+                        e'16 [
+                        e'16 ]
+                        r8
+                        e'16 [
+                        e'16
+                        e'16 ]
+                        r16
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "pochiss. pont."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d2. :32 \pp \startTextSpan
+                            ^ \markup {
+                                \upright
+                                    XFB
+                                }
+                        d1 :32 \repeatTie
+                        ef2. :32 \stopTextSpan ^ \markup {
+                            \override
+                                #'(font-name . "Palatino")
+                                \upright
+                                    tasto
+                            }
+                        ef1 :32 \repeatTie
+                        ef'16 \ff [
+                            ^ \markup {
+                                \upright
+                                    spazz.
+                                }
+                        ef'16
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        \once \override Hairpin #'circled-tip = ##t
+                        ef'16 \> \ff [
+                        ef'16
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16
+                        ef'16 \! ]
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2.
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16 ]
-                        r16
-                        r16
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16 ]
-                        r8
-                        c'16 [
-                        c'16
-                        c'16 ]
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'1
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
+                        g1 \pp
+                            ^ \markup {
+                                \upright
+                                    "tasto + pochiss. scratch"
+                                }
+                        g2 \repeatTie
+                        g2. \repeatTie
+                        g2 \repeatTie
+                        g2. \repeatTie
+                        g1 \repeatTie
+                        g2. \repeatTie \< \pp
+                        g2 \repeatTie
+                        g1 \repeatTie \mf \> \mf
+                        g2 \repeatTie
+                        g2. \repeatTie
+                        g1 \repeatTie \ppp
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             r2
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8 ]
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
+                            c'8 -\staccato \< \ppp [
+                                ^ \markup {
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    "col legno battuto:"
+                                                }
+                                            \line
+                                                {
+                                                    "as bright and pointlike as possible;"
+                                                }
+                                            \line
+                                                {
+                                                    "(mute string with left hand)"
+                                                }
+                                        }
+                                    }
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            c'8 -\staccato ]
                         }
                         \times 4/7 {
-                            c'8 [
-                            c'8 ]
+                            c'8 -\staccato [
+                            c'8 -\staccato ]
                             r4
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8 ]
+                            b8 -\staccato [
+                            b8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
                             r2.
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             r4
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8 ]
+                            d'8 -\staccato [
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
                             r4
                         }
                         \times 4/7 {
                             r2
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato \mf ]
                         }
                         \times 2/3 {
                             r2.
                         }
-                        \times 4/7 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
+                        \times 8/11 {
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            c'8 -\staccato
+                            c'8 -\staccato ]
+                            r1
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            c'8 -\staccato [
+                            c'8 -\staccato ]
                             r2
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato ]
+                        }
+                        {
+                            r2.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 7/9 {
+                            d'8 -\staccato [
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
+                            r2
+                            d'8 -\staccato [
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
+                            r4
+                            d'8 -\staccato
                             \bar "|"
+                            \stopStaff
+                            \startStaff
                         }
                     }
                 }
@@ -4426,8 +4838,9 @@
                                     \upright
                                         tasto
                                 }
-                            \bar "|"
                         }
+                        R1 * 19/4
+                        \bar "|"
                     }
                 }
             >>
