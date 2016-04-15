@@ -5,10 +5,10 @@ from abjad.tools import sequencetools
 
 
 def make_successive_tapers_rhythm_specifier(
+    denominator=16,
     fuse_counts=None,
     start_talea=[4],
     stop_talea=[3, -1],
-    denominator=16,
     ):
     division_expression = None
     if fuse_counts is not None:

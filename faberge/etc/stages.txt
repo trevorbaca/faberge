@@ -832,6 +832,7 @@ lead-in to prefigurement.
 composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
 
     bfl: successive tapers
+        C#2
         ppp swells
         multiphonic
     eh: airtone pedal
@@ -867,6 +868,7 @@ perc tacet.
         multiphonic ...
     eh: keynoise
     bcl: successive tapers ...
+        C#2
         pppp swells ...
     hpschd: hesitant clb
     perc: --

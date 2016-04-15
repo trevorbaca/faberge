@@ -2299,315 +2299,97 @@
                                         "to bass clarinet"
                                 }
                         r2.
-                        \times 2/3 {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''2
-                            d''8. \repeatTie
-                        }
-                        {
-                            d''2. \repeatTie
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            d''4.. \repeatTie
-                            r16
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''8 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4..
-                        }
-                        \times 2/3 {
-                            d''1 \repeatTie
-                            d''4.. \repeatTie
-                            r16
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4..
-                            d''2
-                        }
-                        \times 2/3 {
-                            d''2.
-                        }
-                        \times 2/3 {
-                            r2.
-                        }
-                        d''4
-                        d''2 \repeatTie
-                        d''2. \repeatTie
-                        d''8. \repeatTie
-                        r16
-                        \times 2/3 {
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                        }
-                        {
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''8 ]
-                            d''4
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''8.
-                        }
-                        \times 4/5 {
-                            d''1 \repeatTie
-                            d''4 \repeatTie
-                        }
-                        \times 2/3 {
-                            d''4.. \repeatTie
-                            r16
-                            r16
-                            r8.
-                        }
-                        d''4
-                        d''2 \repeatTie
-                        d''1 \repeatTie
-                        d''2. \repeatTie
-                        d''2. \repeatTie
-                        d''8. \repeatTie
-                        r16
-                        {
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                        }
-                        \times 4/5 {
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''8 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''2
-                            d''8. \repeatTie
-                        }
-                        \times 2/3 {
-                            d''2. \repeatTie
-                        }
-                        \times 2/3 {
-                            d''4.. \repeatTie
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4..
-                            d''2
-                        }
-                        \times 4/5 {
-                            d''2.
-                            d''2
-                        }
-                        {
-                            d''4.. \repeatTie
-                            r16
-                            r4
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r1
-                        }
-                        \times 2/3 {
-                            r2.
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/5 {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''1
-                            d''8. \repeatTie
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''2 \repeatTie
-                            d''8. \repeatTie
-                            r16
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 ]
-                        }
-                        \times 4/7 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''8 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''2...
-                        }
-                        \times 2/3 {
-                            d''2. \repeatTie
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            d''8. \repeatTie
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4..
-                            d''4
-                        }
-                        {
-                            d''4 \repeatTie
-                            d''4
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            d''2 \repeatTie
-                            d''2
-                        }
-                        \times 4/7 {
-                            d''4.. \repeatTie
-                            r16
-                            r1
-                            r4
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r2.
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''8.
-                        }
-                        \times 2/3 {
-                            d''2. \repeatTie
-                        }
-                        \times 2/3 {
-                            d''2... \repeatTie
-                            r16
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''16 ]
-                        }
-                        \times 2/3 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                            d''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''8 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4
-                            r16
-                        }
-                        {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''2
-                            d''8. \repeatTie
-                        }
-                        \times 4/5 {
-                            d''1 \repeatTie
-                            d''8. \repeatTie
-                            r16
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            d''4..
-                            d''2
-                        }
-                        \times 2/3 {
-                            d''2.
-                            r2.
-                        }
-                        d''4
-                        d''4 \repeatTie
-                        d''8. \repeatTie
+                        e4
+                        e1. \repeatTie
+                        e8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''2 \repeatTie
-                        d''8. \repeatTie
+                        eqs4
+                        eqs\breve \repeatTie
+                        eqs4 \repeatTie
+                        eqs8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''8. \repeatTie
+                        e4
+                        e2 \repeatTie
+                        e8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''2 \repeatTie
-                        d''8. \repeatTie
+                        eqs4
+                        eqs2 \repeatTie
+                        eqs2. \repeatTie
+                        eqs8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''2 \repeatTie
-                        d''8. \repeatTie
+                        e4
+                        e1.. \repeatTie
+                        e8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''4 \repeatTie
-                        d''8. \repeatTie
+                        eqs4
+                        eqs8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''8. \repeatTie
+                        e4
+                        e2 \repeatTie
+                        e1 \repeatTie
+                        e2. \repeatTie
+                        e2. \repeatTie
+                        e8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''4 \repeatTie
-                        d''8. \repeatTie
+                        eqs4
+                        eqs1.. \repeatTie
+                        eqs8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        e4
+                        e\breve \repeatTie
+                        e4 \repeatTie
+                        e8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        f4
+                        f\breve.. \repeatTie
+                        f8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g4
+                        g1 \repeatTie
+                        g4 \repeatTie
+                        g8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        f4
+                        f1 \repeatTie
+                        f4 \repeatTie
+                        f8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g4
+                        g\breve. \repeatTie
+                        g8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        f4
+                        f\longa \repeatTie
+                        f8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        e4
+                        e\breve \repeatTie
+                        e8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        e4
+                        e1. \repeatTie
+                        e8. \repeatTie
                         r16
                         R1 * 7/4
-                        d''4
-                        d''2 \repeatTie
-                        d''8. \repeatTie
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''4
-                        d''4 \repeatTie
-                        d''8. \repeatTie
+                        ds4
+                        ds2. \repeatTie
+                        ds2 \repeatTie
+                        ds8. \repeatTie
                         r16
                         R1 * 1
                         \bar "|"
