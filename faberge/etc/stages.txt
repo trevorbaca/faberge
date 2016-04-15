@@ -270,7 +270,8 @@ no pause.
     fl: ... three-part exchange (0) ...
         pp < f
     eh: --
-    bcl: state 1 -> state 2.2
+    bcl: glowing wind (a) ...
+        p swells ...
     pf: [resonance]
     perc: ... three-part exchange (2) ...
         pp < f
@@ -298,7 +299,8 @@ no pause.
     fl: ... three-part exchange (0) ...
         f
     eh: --
-    bcl: [state 1 -> state 2.2]
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: ... three-part exchange (2) ...
         f
@@ -326,7 +328,8 @@ no pause.
     fl: ... three-part exchange (0) ...
         f
     eh: --
-    bcl: state 2.2
+    bcl: ... glowing wind ...
+        ... p swells ...
     pf: [resonance]
     perc: ... three-part exchange (2) ...
         f
@@ -352,7 +355,8 @@ no pause.
 
     fl: <take bfl>
     eh: trills
-    bcl: [state 2.2]
+    bcl: ... glowing wind ...
+        ... p swells ...
     pf: [resonance]
     perc: two-part exchange (1) ...
         sub. pp
@@ -377,7 +381,8 @@ no pause.
 
     bfl: --
     eh: --
-    bcl: ppp
+    bcl: tapered pedal
+        ppp
     pf: [resonance]
     perc: --
     vn: spazzolati
@@ -398,7 +403,8 @@ no pause.
 
     bfl: --
     eh: --
-    bcl: state 2.2 -> state 1
+    bcl: glowing wind ...
+        p swells ...
     pf: [resonance]
     perc: two-part exchange (1) ...
         pp < f
@@ -424,7 +430,8 @@ no pause.
 
     bfl: --
     eh: --
-    bcl: [state 2.2 -> state 1]
+    bcl: ... glowing wind
+        ... p swells
     pf: [resonance]
     perc: ... two-part exchange (1)
         f
@@ -479,9 +486,11 @@ jewelers' desk (γ) bfl, bcl, vc begin [1].
 no players tacet.
 no pause.
 
-    bfl: state 1
+    bfl: glowing wind (a) ...
+        p swells ...
     eh: trills forte
-    bcl: state 1
+    bcl: glowing wind (a) ...
+        p swells ...
     pf: [resonance]
     perc: two-part exchange (1) ...
         sub. pp
@@ -507,9 +516,11 @@ jewlers' desk (γ) bfl, bcl, vc continue [1].
 no players tacet.
 no pause.
 
-    bfl: [state 1]
+    bfl: ... glowing wind (a) ...
+        ... p swells
     eh: keynoise
-    bcl: [state 1]
+    bcl: ... glowing wind (a) ...
+        ... p swells
     pf: attack sfz
     perc: two-part exchange (simultaneous)
         single ff
@@ -533,9 +544,11 @@ gears (α) vn spazzolati, va spazzolati return.
 no players tacet.
 no pause.
 
-    bfl: state 1 -> state 2.3
+    bfl: ... glowing wind (a) ...
+        p swells -> f swells ...
     eh: [keynoise]
-    bcl: state 1 -> state 2.3
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: [resonance]
     vn: spazzolati
@@ -554,9 +567,11 @@ jewelers' desk (γ) bfl, bcl, vc continue transition from [1] to [2.3].
 perc tacet.
 no pause.
 
-    bfl: [state 1 -> state 2.3]
+    bfl: ... glowing wind (a) ...
+        ... p swells -> f swells
     eh: [keynoise]
-    bcl: [state 1 -> state 2.3]
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: --
     vn: [spazzolati ff > pp] 
@@ -576,9 +591,11 @@ jewlers' desk (γ) bfl, bcl, vc achieve [2.3].
 perc still tacet. 
 no pause.
 
-    bfl: state 2.3
+    bfl: ... glowing wind (a) ...
+        f swells ...
     eh: trills
-    bcl: state 2.3
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: --
     vn: [spazzolati ff > pp] 
@@ -597,9 +614,11 @@ jewelers' desk (γ) eh keynoise.
 jewelers' desk (γ) bfl, bcl, vc continue [2.3].
 perc tacet.
 
-    bfl: [state 2.3] ff
+    bfl: ... glowing wind (a) ...
+        ... f swells
     eh: keynoise
-    bcl: [state 2.3] ff
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: --
     vn: [spazzolati ff > pp] 
@@ -620,9 +639,11 @@ jewelers' desk (γ) lowregister attackless marimba pedal begins.
 no players tacet.
 no pause.
 
-    bfl: state 2.3 -> state 1
+    bfl: ... glowing wind (a) ...
+        f swells -> p swells
     eh: even more trills
-    bcl: state 2.3 -> state 1
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: attack
     perc: marimba lowregister pedal
     vn: state 1: pochissimo scratch pedal
@@ -642,9 +663,11 @@ jewelers' desk (γ) pf resonance continues.
 jewelers' desk (γ) bcl, vc achieve [1].
 jewelers' desk (γ) vc begins transition to non vibrato.
 
-    bfl: state 1: glowing multiphonics
+    bfl: ... glowing wind (a) ...
+        p swells ...
     eh: [even more trills]
-    bcl: state 1: quiet pedal
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal]
@@ -660,9 +683,11 @@ jewelers' desk (γ) vc begins transition to non vibrato.
 [A25]
 long stage.
 
-    bfl: [state 1: glowing multiphonics]
+    bfl: ... glowing wind (a) ...
+        ... p swells
     eh: doppeltrill apotheosis begins
-    bcl: [state 1: quiet pedal]
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal]
@@ -678,9 +703,12 @@ long stage.
 [A26]
 long stage.
 
-    bfl: [state 1: glowing multiphonics] crescendo to forte fluttertongue
+    bfl: ... glowing wind (a) ...
+        p swells -> f swells
+        fluttertongue
     eh: doppeltrill apotheosis reaches maximum
-    bcl: [state 1: quiet pedal] crescendo to forte
+    bcl: ... glowing wind (a) ...
+        ... p swells ...
     pf: [resonance]
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal] crescendo to forte
@@ -695,9 +723,12 @@ long stage.
 
 [A27]
 
-    bfl: [state 1: glowing multiphonics] decrescendo to p
+    bfl: ... glowing wind (a)
+        f swells -> p swells
+        ... fluttertongue
     eh: keynoise
-    bcl: [state 1: quiet pedal] decrescendo to p
+    bcl: ... glowing wind (a) ...
+        ... p swells
     pf: <to hpschd>
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal] decrescendo to pp
@@ -712,9 +743,12 @@ long stage.
 
 [A28]
 
-    bfl: [state 1: glowing multiphonics] pp
+    bfl: successive tapers ...
+        p swells
+        multiphonic ...
     eh: [keynoise]
-    bcl: [state 1: quiet pedal] pp
+    bcl: successive tapers ...
+        pp swells
     hpschd: --
     perc: [marimba lowregister pedal]
     vn: [state 1: pochissimo scratch pedal] decrescendo to niente
@@ -729,9 +763,12 @@ long stage.
 
 [A29]
 
-    bfl: [state 1: glowing multiphonics] ppp
+    bfl: ... successive tapers ...
+        pp swells
+        ... multiphonic ...
     eh: [keynoise]
-    bcl: [state 1: quiet pedal] ppp
+    bcl: ... successive tapers ...
+        ppp swells
     hpschd: --
     perc: [marimba lowregister pedal]
     vn: extremely sparse clb
@@ -744,9 +781,12 @@ long stage.
 
 [A30]
 
-    bfl: [state 1: glowing multiphonics] pppp
+    bfl: ... successive tapers ...
+        ppp swells ...
+        ... multiphonic ...
     eh: [keynoise]
-    bcl: [state 1: quiet pedal] pppp
+    bcl: ... successive tapers ...
+        pppp swells ...
     hpschd: --
     perc: [marimba lowregister pedal]
     vn: more clb
@@ -759,9 +799,12 @@ long stage.
 
 [A31]
 
-    bfl: [state 1: glowing multiphonics] pppp
+    bfl: ... successive tapers 
+        ... ppp swells
+        ... multiphonic
     eh: [keynoise]
-    bcl: [state 1: quiet pedal] pppp
+    bcl: ... successive tapers
+        ... pppp swells
     hpschd: --
     perc: [marimba lowregister pedal] decrescendo to niente
     vn: continuous clb
@@ -788,9 +831,12 @@ lead-in to prefigurement.
 [A33]
 composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
 
-    bfl: glowing multiphonics pppp
+    bfl: successive tapers
+        ppp swells
+        multiphonic
     eh: airtone pedal
-    bcl: --
+    bcl: successive tapers
+        pppp swells
     hpschd: --
     perc: bd airtone pedal
     vn: airtone pedal
@@ -816,9 +862,12 @@ tempo: kiln
 (fundamental changes.)
 perc tacet.
 
-    bfl: state 1: glowing multiphonics pppp
+    bfl: glowing wind (b) ...
+        ppp swells ...
+        multiphonic ...
     eh: keynoise
-    bcl: state 1: quiet pedal pppp
+    bcl: successive tapers ...
+        pppp swells ...
     hpschd: hesitant clb
     perc: --
     vn: continuous clb ...
@@ -828,9 +877,12 @@ perc tacet.
 [B2]
 perc tacet.
 
-    bfl: [state 1: glowing multiphonics decrescendo to niente]
+    bfl: ... glowing wind (b) 
+        ... ppp swells
+        ... multiphonic
     eh: [keynoise]
-    bcl: [state 1: pppp pedal drawdown to niente]
+    bcl: ... successive tapers
+        ... pppp swells
     hpschd: continuous clb
     perc: --
     vn: ... continuous clb ...
