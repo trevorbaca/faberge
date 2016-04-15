@@ -26,7 +26,7 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 14
     2, # 15
     4, # 16
-    2, # 17
+    4, # 17
     2, # 18
     2, # 19
     2, # 20
@@ -75,7 +75,7 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(34)
-segment_maker.validate_measure_count(76)
+segment_maker.validate_measure_count(78)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -116,28 +116,22 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(17, 18)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(count_rotation=0),
+    (fl, stages(17, 27)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(
+        counts=faberge.materials.wind_counts_a,
+        count_rotation=0,
+        extra_counts_per_division_rotation=0,
+        ),
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(19, 20)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (fl, stages(28, 31)),
+    faberge.tools.make_successive_tapers_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(21, 22)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-    )
-
-segment_maker.append_specifiers(
-    (fl, stages(23, 23)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-    )
-
-segment_maker.append_specifiers(
-    (fl, stages(24, 31)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (fl, stages(33)),
+    faberge.tools.make_successive_tapers_rhythm_specifier(),
     )
 
 ### english horn (time) ###
@@ -218,23 +212,28 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(9, 10)),
-    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
-    )
-
-segment_maker.append_specifiers(
-    (cl, stages(11, 12)),
-    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    (cl, stages(9, 12)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(
+        counts=faberge.materials.wind_counts_a,
+        count_rotation=0,
+        ),
     )
 
 segment_maker.append_specifiers(
     (cl, stages(13)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.rhythm.make_tapered_pedal_rhythm_specifier(
+        start_talea=[4],
+        stop_talea=[3, -1],
+        denominator=16,
+        ),
     )
 
 segment_maker.append_specifiers(
     (cl, stages(14, 15)),
-    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    faberge.tools.make_glowing_wind_rhythm_specifier(
+        counts=faberge.materials.wind_counts_a,
+        count_rotation=-1,
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -247,23 +246,22 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(17, 18)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(count_rotation=0),
+    (cl, stages(17, 27)),
+    faberge.tools.make_glowing_wind_rhythm_specifier(
+        counts=faberge.materials.wind_counts_a,
+        count_rotation=-1,
+        extra_counts_per_division_rotation=-1,
+        ),
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(19, 20)),
-    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
+    (cl, stages(28, 31)),
+    faberge.tools.make_successive_tapers_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(21, 22)),
-    faberge.tools.make_agitated_wind_rhythm_specifier(count_rotation=0),
-    )
-
-segment_maker.append_specifiers(
-    (cl, stages(24, 31)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(count_rotation=0),
+    (cl, stages(33)),
+    faberge.tools.make_successive_tapers_rhythm_specifier(),
     )
 
 ### piano (time) ###
@@ -707,6 +705,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(16)),
     [
+        baca.pitch.pitches('F#4'),
         baca.tools.SpecifierWrapper(
             prototype=scoretools.Note,
             scope_to_leaves=True,
