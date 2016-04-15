@@ -108,7 +108,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (fl, stages(16)),
-    baca.rhythm.make_tapered_pedal_rhythm_specifier(
+    baca.rhythm.make_single_taper_rhythm_specifier(
         start_talea=[4],
         stop_talea=[3, -1],
         denominator=16,
@@ -213,55 +213,59 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(9, 12)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(
-        counts=faberge.materials.wind_counts_a,
-        count_rotation=0,
+    faberge.tools.make_successive_tapers_rhythm_specifier(
+        denominator=16,
+        fuse_counts=(3, 3, 5, 3, 2, 5, 5),
+        start_talea=[4],
+        stop_talea=[3, -1],
         ),
     )
 
 segment_maker.append_specifiers(
     (cl, stages(13)),
-    baca.rhythm.make_tapered_pedal_rhythm_specifier(
+    baca.rhythm.make_single_taper_rhythm_specifier(
+        denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
-        denominator=16,
         ),
     )
 
 segment_maker.append_specifiers(
     (cl, stages(14, 15)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(
-        counts=faberge.materials.wind_counts_a,
-        count_rotation=-1,
+    faberge.tools.make_successive_tapers_rhythm_specifier(
+        denominator=16,
+        fuse_counts=(3, 3, 5, 3, 2, 5, 5),
+        start_talea=[4],
+        stop_talea=[3, -1],
         ),
     )
 
 segment_maker.append_specifiers(
     (cl, stages(16)),
-    baca.rhythm.make_tapered_pedal_rhythm_specifier(
+    baca.rhythm.make_single_taper_rhythm_specifier(
+        denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(17, 31)),
+    faberge.tools.make_successive_tapers_rhythm_specifier(
         denominator=16,
+        fuse_counts=(3, 3, 5, 3, 2, 5, 5),
+        start_talea=[4],
+        stop_talea=[3, -1],
         ),
-    )
-
-segment_maker.append_specifiers(
-    (cl, stages(17, 27)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(
-        counts=faberge.materials.wind_counts_a,
-        count_rotation=-1,
-        extra_counts_per_division_rotation=-1,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (cl, stages(28, 31)),
-    faberge.tools.make_successive_tapers_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (cl, stages(33)),
-    faberge.tools.make_successive_tapers_rhythm_specifier(),
+    baca.rhythm.make_single_taper_rhythm_specifier(
+        denominator=16,
+        start_talea=[4],
+        stop_talea=[3, -1],
+        ),
     )
 
 ### piano (time) ###
@@ -746,6 +750,48 @@ segment_maker.append_specifiers(
     (cl, stages(8)),
     [
         faberge.materials.instruments['bass clarinet'],
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(9, 17)),
+    [
+        baca.pitch.pitches('D2 D+2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(18, 26)),
+    [
+        baca.pitch.pitches('Eb2 F2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(27)),
+    [
+        baca.pitch.pitches('Eb2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(28, 30)),
+    [
+        baca.pitch.pitches('D2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(31)),
+    [
+        baca.pitch.pitches('C#2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(33)),
+    [
+        baca.pitch.pitches('C#2'),
         ],
     )
 
