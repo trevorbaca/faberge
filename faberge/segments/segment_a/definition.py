@@ -10,22 +10,22 @@ from faberge.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    4, # 1
-    8, # 2
-    4, # 3
-    2, # 4
+    12, # 1
+    4, # 2
+    6, # 3
+    4, # 4
     4, # 5
-    2, # 6
-    2, # 7
+    6, # 6
+    4, # 7
     4, # 8
-    2, # 9
+    6, # 9
     2, # 10
     2, # 11
     4, # 12
-    2, # 13
-    2, # 14
-    2, # 15
-    4, # 16
+    8, # 13
+    6, # 14
+    4, # 15
+    8, # 16
     4, # 17
     ])
 
@@ -59,7 +59,7 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(17)
-segment_maker.validate_measure_count(54)
+#segment_maker.validate_measure_count(54)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -283,7 +283,13 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(13)),
-    faberge.tools.make_spazzolati_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=-10,
+        division_masks=silence_except(indices=[
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+            -7, -6, -5, -4, -3, -2, -1
+            ]),
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -297,7 +303,13 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(16)),
-    faberge.tools.make_spazzolati_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=-11,
+        division_masks=silence_except(indices=[
+            0, 1, 2, 3, 4, 5, 6, 7,
+            -6, -5, -4, -3, -2, -1,
+            ]),
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -318,7 +330,15 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(13)),
-    faberge.tools.make_spazzolati_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=-11,
+        denominator=8,
+        division_masks=silence_except(indices=[
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+            -7, -6, -5, -4, -3, -2, -1
+            ]),
+        extra_counts_per_division=[1],
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -328,7 +348,15 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(16)),
-    faberge.tools.make_spazzolati_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=-12,
+        denominator=8,
+        division_masks=silence_except(indices=[
+            0, 1, 2, 3, 4, 5, 6, 7,
+            -6, -5, -4, -3, -2, -1,
+            ]),
+        extra_counts_per_division=[1],
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -347,175 +375,83 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-### ensemble color directives ###
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn], stages(1)),
-    [
-        baca.markup.make_boxed_markup('match sound of crotales'),
-        ],
-    )
-
-### beginning of ensemble dynamics ###
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(1)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(2)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < pp'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(3)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(4)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(5)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < pp'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(6)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, cl, vn, perc], stages(7)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, vn, perc], stages(8)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < pp'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, vn, perc], stages(9)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, vn, perc], stages(10)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([fl, vn, perc], stages(11)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([vn, perc], stages(12)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([vn, perc], stages(14)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < p', 'niente < mp', 'niente < mf', 'niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([vn, perc], stages(15)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < f'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    ([vn, perc], stages(17)),
-    [
-        baca.dynamics.make_hairpins(
-            ['niente < pp'],
-            include_following_rests=True,
-            ),
-        ],
-    )
-
-### end of ensemble dynamics ###
-    
 ### flute (color) ###
 
 segment_maker.append_specifiers(
     (fl, stages(1, 11)),
     [
         baca.pitch.pitches('F#6'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(1)),
+    [
+        faberge.materials.markup.match_sound_of_crotales(),
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(2)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(3)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(4)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(5)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(6)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(7)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(8)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(9)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(10, 11)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
         ],
     )
 
@@ -530,19 +466,7 @@ segment_maker.append_specifiers(
     (fl, stages(16)),
     [
         baca.pitch.pitches('F#4'),
-        baca.tools.SpecifierWrapper(
-            prototype=scoretools.Note,
-            scope_to_leaves=True,
-            specifier=Hairpin('niente < p', include_rests=True),
-            stop_index=2,
-            ),
-        baca.tools.SpecifierWrapper(
-            prototype=scoretools.Note,
-            scope_to_leaves=True,
-            specifier=Hairpin('p > niente', include_rests=True),
-            start_index=-1,
-            with_next_leaf=True,
-            ),
+        faberge.tools.make_niente_swells(['p']),
         ],
     )
 
@@ -551,7 +475,6 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(2)),
     [
-        baca.markup.make_boxed_markup('NB: some durations cross barlines'),
         baca.pitch.pitches('E4 E4 Eb~4 E4 E#+4'),
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
@@ -587,7 +510,57 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(1, 7)),
     [
+        faberge.materials.markup.match_sound_of_crotales(),
         baca.pitch.pitches('F#6'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(1)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(2)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(3)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(4)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(5)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(6)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(7)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
         ],
     )
 
@@ -608,50 +581,35 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(9, 12)),
     [
-        baca.dynamics.make_hairpins(
-            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
-            include_following_rests=True,
-            ),
+        faberge.tools.make_niente_swells(['p']),
         ],
     )
 
 segment_maker.append_specifiers(
     (cl, stages(13)),
     [
-        baca.dynamics.make_hairpins(
-            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['ppp']),
-            include_following_rests=True,
-            ),
+        faberge.tools.make_niente_swells(['ppp']),
         ],
     )
 
 segment_maker.append_specifiers(
     (cl, stages(14, 15)),
     [
-        baca.dynamics.make_hairpins(
-            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
-            include_following_rests=True,
-            ),
+        faberge.tools.make_niente_swells(['p']),
         ],
     )
 
 segment_maker.append_specifiers(
     (cl, stages(16)),
     [
-        baca.dynamics.make_hairpins(
-            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
-            include_following_rests=True,
-            ),
+        faberge.tools.make_niente_swells(['p']),
         ],
     )
 
 segment_maker.append_specifiers(
     (cl, stages(17)),
     [
-        baca.dynamics.make_hairpins(
-            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
-            include_following_rests=True,
-            ),
+        faberge.tools.make_niente_swells(['p']),
         ],
     )
 
@@ -676,6 +634,104 @@ segment_maker.append_specifiers(
 ### percussion (color) ###
 
 segment_maker.append_specifiers(
+    (perc, stages(1)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(2)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(3)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(4)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(5)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(6)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(7)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(8)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(9)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(10, 11)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(12)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(14)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(15)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(17)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (perc, stages(1, 17)),
     [
         baca.articulations.laissez_vibrer(),
@@ -687,9 +743,136 @@ segment_maker.append_specifiers(
 ### violin (color) ###
 
 segment_maker.append_specifiers(
-    (vn, stages(1, 17)),
+    (vn, stages(1, 12)),
     [
         baca.pitch.pitches('F#6'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(1)),
+    [
+        faberge.materials.markup.match_sound_of_crotales(),
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(2)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(3)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(4)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(5)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(6)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(7)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(8)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(9)),
+    [
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(10, 11)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(12)),
+    [
+        faberge.tools.make_dal_niente_hairpins('pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(13)),
+    [
+        baca.dynamics.make_effort_dynamic('f'),
+        baca.markup.spazz(),
+        baca.pitch.pitches('E4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(14, 15)),
+    [
+        baca.pitch.pitches('F#6'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(14)),
+    [
+        baca.markup.non_spazz(),
+        faberge.tools.make_increasing_dal_niente_hairpins(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(15)),
+    [
+        faberge.tools.make_dal_niente_hairpins('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(16)),
+    [
+        baca.dynamics.make_effort_dynamic('f'),
+        baca.markup.spazz(),
+        baca.pitch.pitches('E4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(17)),
+    [
+        baca.markup.non_spazz(),
+        baca.pitch.pitches('F#6'),
+        faberge.tools.make_dal_niente_hairpins('pp'),
         ],
     )
 
@@ -701,12 +884,6 @@ segment_maker.append_specifiers(
         baca.articulations.stem_tremolo(),
         baca.markup.XFB_sempre(),
         baca.pitch.pitches('D3'),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(1)),
-    [
         Dynamic('mp'),
         ],
     )
@@ -881,7 +1058,7 @@ segment_maker.append_specifiers(
             ),
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
-            specifier=Dynamic('mf'),
+            specifier=baca.dynamics.make_effort_dynamic('f'),
             ),
         ],
     )
@@ -923,7 +1100,7 @@ segment_maker.append_specifiers(
             ),
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
-            specifier=Dynamic('mf'),
+            specifier=baca.dynamics.make_effort_dynamic('f'),
             ),
         ],
     )

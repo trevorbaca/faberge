@@ -46,11 +46,11 @@
     )
     system-system-spacing = #'(
         (basic-distance . 0)
-        (minimum-distance . 24) % space after each system
+        (minimum-distance . 0) % space after each system
         (padding . 0)
         (stretchability . 0)
     )
-    %systems-per-page = 3
+    systems-per-page = 1
     top-markup-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 18)
@@ -235,6 +235,8 @@
         \accepts FluteMusicStaff
         \accepts EnglishHornMusicStaff
         \accepts ClarinetMusicStaff
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 16
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 24
     }
 
     % PIANO
@@ -281,6 +283,7 @@
         \accepts PianoRHMusicStaff
         \accepts PianoLHMusicStaff
         \override StaffGrouper.staff-staff-spacing.minimum-distance = 12
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 20
     }
 
     % PERCUSSION
@@ -308,6 +311,8 @@
         \alias StaffGroup
         \accepts PianoStaffGroup
         \accepts PercussionMusicStaff
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 20
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 24
     }
 
     % VIOLIN
@@ -370,6 +375,7 @@
         \accepts ViolinMusicStaff
         \accepts ViolaMusicStaff
         \accepts CelloMusicStaff
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 20
     }
 
     % MUSIC

@@ -7,6 +7,7 @@ from abjad.tools import sequencetools
 def make_spazzolati_rhythm_specifier(
     counts_rotation=None,
     denominator=16,
+    division_masks=None,
     extra_counts_per_division=None,
     ):
     counts = [
@@ -25,6 +26,7 @@ def make_spazzolati_rhythm_specifier(
     counts = counts.rotate(index=counts_rotation)
     counts = counts.flatten()
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+        division_masks=division_masks,
         extra_counts_per_division=extra_counts_per_division,
         talea=rhythmmakertools.Talea(
             counts=counts,
