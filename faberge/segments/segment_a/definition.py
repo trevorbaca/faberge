@@ -101,10 +101,9 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (fl, stages(17)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(
-        counts=faberge.materials.wind_counts_a,
-        count_rotation=0,
-        extra_counts_per_division_rotation=0,
+    faberge.tools.make_glow_rhythm_specifier(
+        division_masks=sustain_every(indices=[1], period=2),
+        tuplet_ratio_rotation=0,
         ),
     )
 
@@ -286,7 +285,7 @@ segment_maker.append_specifiers(
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-10,
         division_masks=silence_except(indices=[
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+            0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
         ),
@@ -306,7 +305,7 @@ segment_maker.append_specifiers(
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-11,
         division_masks=silence_except(indices=[
-            0, 1, 2, 3, 4, 5, 6, 7,
+            0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),
         ),
@@ -334,7 +333,7 @@ segment_maker.append_specifiers(
         counts_rotation=-11,
         denominator=8,
         division_masks=silence_except(indices=[
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+            0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
         extra_counts_per_division=[1],
@@ -352,7 +351,7 @@ segment_maker.append_specifiers(
         counts_rotation=-12,
         denominator=8,
         division_masks=silence_except(indices=[
-            0, 1, 2, 3, 4, 5, 6, 7,
+            0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),
         extra_counts_per_division=[1],

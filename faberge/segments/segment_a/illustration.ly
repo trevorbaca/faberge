@@ -1128,7 +1128,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1398,7 +1398,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1416,7 +1416,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1427,7 +1427,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1438,7 +1438,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1830,42 +1830,61 @@
                         \once \override Hairpin #'circled-tip = ##t
                         fs''8. \repeatTie \> \p
                         r16 \!
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''2...
-                        }
-                        \times 4/7 {
-                            c''2... \repeatTie
-                            r16
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \times 4/5 {
                             c''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16
+                            c''16
                             c''16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''16 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''4
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4 \repeatTie
+                        {
+                            c''8 \repeatTie [
                             c''8 ]
+                        }
+                        c''4 \repeatTie
+                        \times 4/5 {
+                            c''16 \repeatTie [
+                            c''16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''8. ]
+                        }
+                        c''4 \repeatTie
+                        \times 2/3 {
+                            c''4 \repeatTie
+                            c''8
+                        }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4 \repeatTie
+                        \times 4/5 {
+                            c''16 \repeatTie [
+                            c''16
+                            c''16
+                            c''16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                        }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4 \repeatTie
+                        \times 4/5 {
+                            c''16 \repeatTie [
+                            c''16
+                            c''16
+                            c''16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                        }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4 \repeatTie
+                        \times 2/3 {
+                            c''8 \repeatTie
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''4
-                            r16
-                            r16
-                            c''4..
                         }
-                        \times 4/5 {
-                            r1
-                            r4
-                            \bar "|"
-                        }
+                        c''4 \repeatTie
+                        \bar "|"
                     }
                 }
                 \tag english_horn
@@ -3789,19 +3808,9 @@
                         e'16 [
                         e'16
                         e'16 ]
-                        r8
-                        e'16 [
-                        e'16 ]
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
+                        r1
+                        r2.
+                        r1
                         r16
                         e'16 [
                         e'16
@@ -3934,7 +3943,8 @@
                         e'16 [
                         e'16 ]
                         e'16
-                        r8
+                        r16
+                        r16
                         e'16
                         e'16 [
                         e'16
@@ -3951,17 +3961,9 @@
                         r8
                         e'16 [
                         e'16 ]
-                        r8
-                        e'16 [
-                        e'16 ]
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
+                        r1
+                        r2
+                        r2.
                         r16
                         e'16 [
                         e'16 ]
@@ -3977,7 +3979,8 @@
                         e'16 [
                         e'16 ]
                         e'16
-                        r8
+                        r16
+                        r16
                         e'16
                         e'16 [
                         e'16
@@ -4330,20 +4333,9 @@
                             r4
                             e'8
                         }
-                        \times 2/3 {
-                            e'8
-                            r4
-                        }
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
+                        r1
+                        r2.
+                        r1
                         \times 2/3 {
                             e'8 [
                             e'8
@@ -4465,18 +4457,9 @@
                             e'8 [
                             e'8 ]
                         }
-                        \times 2/3 {
-                            e'8
-                            r4
-                        }
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
+                        r1
+                        r2
+                        r2.
                         \times 2/3 {
                             e'8 [
                             e'8 ]
