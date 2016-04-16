@@ -313,6 +313,84 @@
                 {
                     R1 * 1/2
                 }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
@@ -425,13 +503,6 @@
                                 #-2
                                 0'15''
                             }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A3]
-                            }
                 }
                 {
                     \time 2/4
@@ -473,7 +544,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A4]
+                                    [A3]
                             }
                 }
                 {
@@ -492,13 +563,6 @@
                             \fontsize
                                 #-2
                                 0'25''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A5]
                             }
                 }
                 {
@@ -523,7 +587,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A6]
+                                    [A4]
                             }
                 }
                 {
@@ -548,7 +612,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A7]
+                                    [A5]
                             }
                 }
                 {
@@ -566,13 +630,6 @@
                             \fontsize
                                 #-2
                                 0'37''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A8]
                             }
                 }
                 {
@@ -597,7 +654,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A9]
+                                    [A6]
                             }
                 }
                 {
@@ -621,7 +678,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A10]
+                                    [A7]
                             }
                 }
                 {
@@ -645,7 +702,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A11]
+                                    [A8]
                             }
                 }
                 {
@@ -664,13 +721,6 @@
                             \fontsize
                                 #-2
                                 0'53''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A12]
                             }
                 }
                 {
@@ -694,7 +744,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A13]
+                                    [A9]
                             }
                 }
                 {
@@ -719,7 +769,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A14]
+                                    [A10]
                             }
                 }
                 {
@@ -744,7 +794,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A15]
+                                    [A11]
                             }
                 }
                 {
@@ -769,7 +819,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A16]
+                                    [A12]
                             }
                 }
                 {
@@ -812,7 +862,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A17]
+                                    [A13]
                             }
                 }
                 {
@@ -831,6 +881,13 @@
                             \fontsize
                                 #-2
                                 1'19''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A14]
                             }
                 }
                 {
@@ -854,7 +911,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A18]
+                                    [A15]
                             }
                 }
                 {
@@ -878,7 +935,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A19]
+                                    [A16]
                             }
                 }
                 {
@@ -897,13 +954,6 @@
                             \fontsize
                                 #-2
                                 1'30''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A20]
                             }
                 }
                 {
@@ -927,7 +977,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A21]
+                                    [A17]
                             }
                 }
                 {
@@ -946,13 +996,6 @@
                             \fontsize
                                 #-2
                                 1'37''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A22]
                             }
                 }
                 {
@@ -977,7 +1020,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A23]
+                                    [A18]
                             }
                 }
                 {
@@ -1002,7 +1045,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A24]
+                                    [A19]
                             }
                 }
                 {
@@ -1027,7 +1070,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A25]
+                                    [A20]
                             }
                 }
                 {
@@ -1052,7 +1095,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A26]
+                                    [A21]
                             }
                 }
                 {
@@ -1071,13 +1114,6 @@
                             \fontsize
                                 #-2
                                 1'55''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A27]
                             }
                 }
                 {
@@ -1102,7 +1138,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A28]
+                                    [A22]
                             }
                 }
                 {
@@ -1127,7 +1163,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A29]
+                                    [A23]
                             }
                 }
                 {
@@ -1145,13 +1181,6 @@
                             \fontsize
                                 #-2
                                 2'07''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A30]
                             }
                 }
                 {
@@ -1176,7 +1205,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A31]
+                                    [A24]
                             }
                 }
                 {
@@ -1194,13 +1223,6 @@
                             \fontsize
                                 #-2
                                 2'15''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A32]
                             }
                 }
                 {
@@ -1224,7 +1246,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A33]
+                                    [A25]
                             }
                 }
                 {
@@ -1244,6 +1266,239 @@
                                 #-2
                                 2'23''
                             }
+                }
+                {
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'24''
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'25''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A26]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'27''
+                            }
+                }
+                {
+                    \time 2/4
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'30''
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'31''
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'33''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A27]
+                            }
+                }
+                {
+                    \time 2/4
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'35''
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'36''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A28]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'38''
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'40''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A29]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'42''
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'45''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A30]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'46''
+                            }
+                }
+                {
+                    \time 2/4
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'49''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A31]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'50''
+                            }
+                }
+                {
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'52''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A32]
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'55''
+                            }
+                }
+                {
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'57''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A33]
+                            }
+                }
+                {
+                    \time 2/4
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'58''
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                3'00''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -1253,11 +1508,12 @@
                             }
                 }
                 {
-                    s1 * 1/2
+                    \time 4/4
+                    s1 * 1
                         ^ \markup {
                             \fontsize
                                 #-2
-                                2'24''
+                                3'01''
                             }
                 }
             }
@@ -1333,14 +1589,14 @@
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \p
+                            r2 \pp
                             r8
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \mp
+                            r4 \pp
                         }
                         {
                             r1
@@ -1349,7 +1605,7 @@
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \mf
+                            r4 \pp
                         }
                         {
                             r2.
@@ -1359,46 +1615,78 @@
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4. \f
+                            r4. \p
                         }
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \pp
+                            r2 \mp
                             r8
                         }
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4. \pp
+                            r4. \mf
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \pp
+                            r4 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                         }
                         {
-                            r2. \pp
+                            r2. \p
                         }
                         {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \p
+                            r2 \f
                             r8
                         }
                         {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r8 \f
+                            r8 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
+                            r4. \pp
+                        }
+                        {
+                            r1
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r2 \pp
+                            r8
+                        }
+                        {
+                            r2
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \p
+                        }
+                        {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r2 \f
+                        }
+                        {
+                            r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
                             r4. \f
+                            fs'''8 \niente
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
@@ -1418,42 +1706,51 @@
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \p
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r2 \mp
+                            r4 \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                         }
                         {
-                            r2. \mf
+                            r2 \pp
                         }
                         {
+                            r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4. \p
+                            r2 \p
+                        }
+                        {
+                            r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4. \mp
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \f
-                            r8
+                            r8 \mf
+                        }
+                        {
+                            r2
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r2 \p
+                        }
+                        {
+                            r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4. \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
+                            r4 \f
+                        }
+                        {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         \set Staff.instrumentName = \markup {
                             \hcenter-in
@@ -1473,33 +1770,39 @@
                                         fl.
                                     }
                             }
-                        r2 \f
+                        r2.
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.75)
                                     \box
                                         "to bass flute"
                                 }
-                        r2
-                        R1 * 9/2
+                        r1
+                        r2.
+                        r1
+                        R1 * 5
                         \once \override Hairpin #'circled-tip = ##t
                         fs''4 \<
                         fs''2 \repeatTie \p
-                        fs''1 \repeatTie
+                        fs''2 \repeatTie
                         fs''2. \repeatTie
                         fs''2. \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
                         fs''8. \repeatTie \> \p
                         r16 \!
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
+                        \times 4/5 {
                             r16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''2...
+                            c''1
+                            c''8. \repeatTie
                         }
-                        \times 4/7 {
-                            c''2... \repeatTie
+                        \times 2/3 {
+                            c''2 \repeatTie
+                            c''8. \repeatTie
                             r16
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
                             r4
                             r16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -1510,155 +1813,234 @@
                             c''16 ]
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''4
+                            c''16 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''8
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
                         }
                         \times 2/3 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''8. \repeatTie
+                            r16
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''4..
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c''1 \repeatTie
+                            c''4 \repeatTie
+                        }
+                        \times 4/5 {
+                            c''8. \repeatTie
+                            r16
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''4..
+                            c''2
+                        }
+                        {
+                            c''2.
+                        }
+                        \times 2/3 {
+                            c''2.
+                        }
+                        \times 4/5 {
+                            c''8. \repeatTie
+                            r16
+                            r1
+                        }
+                        {
+                            r2
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r2
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''4..
+                        }
+                        \times 4/7 {
+                            c''1 \repeatTie
+                            c''4.. \repeatTie
+                            r16
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''4
                             c''16 [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''8 ]
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''4
                             r16
+                        }
+                        \times 4/5 {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''1
+                            c''8. \repeatTie
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            c''2 \repeatTie
+                            c''8. \repeatTie
+                            r16
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''4..
+                        }
+                        \times 4/5 {
+                            c''2
+                            c''2.
+                        }
+                        \times 2/3 {
+                            c''2.
+                        }
+                        \times 4/5 {
+                            c''8. \repeatTie
+                            r16
+                            r1
+                        }
+                        \times 4/5 {
+                            r1
                             r16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''8.
                         }
-                        \times 4/5 {
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
                             c''1 \repeatTie
                             c''4 \repeatTie
                         }
                         \times 2/3 {
                             c''4.. \repeatTie
                             r16
+                            r4
+                        }
+                        {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''4
+                            c''16 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''8
+                            c''16 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''8. \repeatTie
+                            r16
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''2
+                            c''8. \repeatTie
+                        }
+                        \times 4/5 {
+                            c''1 \repeatTie
+                            c''8. \repeatTie
+                            r16
+                        }
+                        \times 2/3 {
                             r16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''4..
                             c''2
+                            c''2
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
+                            c''4 \repeatTie
                             c''2.
-                            c''4
                         }
-                        {
-                            c''2 \repeatTie
+                        \times 2/3 {
                             c''8. \repeatTie
                             r16
+                            r2
                         }
                         \times 2/3 {
                             r2.
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            r1
+                            r2.
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''8.
                         }
                         \times 2/3 {
+                            c''1. \repeatTie
+                        }
+                        \times 2/3 {
+                            c''8. \repeatTie
+                            r16
                             r4
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                        }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''4
+                            c''16 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c''8 ]
+                            c''4
+                            r16
+                        }
+                        \times 4/5 {
                             r16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c''1
                             c''8. \repeatTie
                         }
-                        \times 4/5 {
+                        \times 2/3 {
                             c''2 \repeatTie
                             c''8. \repeatTie
                             r16
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''16 ]
                         }
-                        \times 2/3 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''4
-                            c''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''8 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''4
-                            r16
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''2...
-                        }
-                        \times 2/3 {
-                            c''2. \repeatTie
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/5 {
-                            c''8. \repeatTie
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''4..
-                            c''2
-                        }
-                        \times 4/5 {
-                            c''2.
-                            c''2
-                        }
-                        {
-                            c''4.. \repeatTie
-                            r16
-                            r4
-                        }
-                        \times 2/3 {
-                            r2.
-                        }
-                        \times 4/5 {
-                            r1
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''8.
-                        }
-                        {
-                            c''2 \repeatTie
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c''1 \repeatTie
-                        }
-                        \times 4/7 {
-                            c''8. \repeatTie
-                            r16
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''16 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''4
-                            c''16 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''8 ]
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''4
-                            r16
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''8.
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c''1 \repeatTie
-                        }
-                        \times 4/5 {
-                            c''2 \repeatTie
-                            c''8. \repeatTie
-                            r16
-                            r16
-                            r4..
-                        }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4
+                        c''4 \repeatTie
+                        c''8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4
+                        c''2 \repeatTie
+                        c''8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4
+                        c''4 \repeatTie
+                        c''8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4
+                        c''2 \repeatTie
+                        c''8. \repeatTie
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
                         c''4 \repeatTie
                         c''8. \repeatTie
@@ -1675,38 +2057,18 @@
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
                         c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''4 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''4 \repeatTie
                         c''8. \repeatTie
                         r16
                         R1 * 7/4
                         c''4
-                        c''2 \repeatTie
+                        c''4 \repeatTie
                         c''8. \repeatTie
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
-                        c''4 \repeatTie
                         c''8. \repeatTie
                         r16
-                        R1 * 1
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -1733,57 +2095,144 @@
                     }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         R1 * 13/4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4
-                            g'2 \f \startTrillSpan
-                                ^ \markup {
-                                    \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "NB: some durations cross barlines"
-                                    }
-                            r4 \stopTrillSpan
-                            g'8. \startTrillSpan
-                            r16 \stopTrillSpan
-                            g'8. \startTrillSpan
-                            r16 \stopTrillSpan
-                            g'8. \startTrillSpan
-                            r16 \stopTrillSpan
-                        }
-                        {
-                            r1
-                        }
-                        R1 * 9/2
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 7/6 {
-                            r4
-                            g'2
-                            r4
-                            g'8.
+                        r2
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        b'8. \f \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "NB: some durations cross barlines"
+                                }
+                        b'4 \repeatTie
+                        r4 \stopTrillSpan
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        b'8. \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        btqf'8. \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        b'8. \startTrillSpan
+                        r1 \stopTrillSpan
+                        r2.
+                        r2
+                        r1
+                        r2
+                        R1 * 21/4
+                        r4
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \f \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan
+                        g'2 \stopTrillSpan \startTrillSpan
+                        r4 \stopTrillSpan
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan
+                        r2. \stopTrillSpan
+                        r2.
+                        R1 * 3
+                        r4
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'2 \f \startTrillSpan \startTrillSpan
+                        g'8. \repeatTie
+                        g'4 \repeatTie
+                        r16 \stopTrillSpan \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan \startTrillSpan
+                        r16 \stopTrillSpan \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan \startTrillSpan
+                        r2 \stopTrillSpan \stopTrillSpan
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'4.. \startTrillSpan \startTrillSpan
+                        R1 * 9/2 \stopTrillSpan \stopTrillSpan
+                        r4
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'4.. \f \startTrillSpan
+                        g'2 \repeatTie
+                        r4 \stopTrillSpan
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan
+                        g'2. \repeatTie
+                        r1 \stopTrillSpan
+                        R1 * 5
+                        r4
+                        \times 4/7 {
                             r16
-                            g'8.
-                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
                         }
-                        R1 * 13/4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 7/6 {
-                            r4
-                            g'2
-                            r4
-                            g'8.
+                        \times 4/5 {
                             r16
-                            g'8.
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        r4
+                        \times 2/3 {
                             r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
                         }
-                        R1 * 19/4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r4
-                            g'2
+                        r4
+                        r4
+                        \times 4/5 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
                         }
-                        R1 * 9/2
+                        r4
+                        \times 2/3 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        r4
+                        r4
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'4.. \f \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan
+                        g'4 \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan
+                        g'2. \stopTrillSpan \startTrillSpan
+                        g'4 \repeatTie
+                        r4 \stopTrillSpan
                         r4
                         \times 4/7 {
                             r16
@@ -1844,82 +2293,6 @@
                             g'16 ]
                         }
                         r4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 9/8 {
-                            r4
-                            g'2
-                            r4
-                            g'8.
-                            r16
-                            g'8.
-                            r16
-                            g'8.
-                            r4
-                            r16
-                        }
-                        {
-                            r1
-                        }
-                        r4
-                        \times 4/7 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        r4
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
                         r4
                         \times 4/5 {
                             r16
@@ -1936,65 +2309,79 @@
                             g'16
                             g'16 ]
                         }
-                        {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16 ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4
-                            g'2
-                            r4
-                            g'8.
-                            r16
-                        }
                         r4
-                        \times 4/7 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 10/9 {
-                            r4
-                            g'2
-                            r4
-                            g'8.
-                            r16
-                            g'8.
-                            r16
-                            g'8.
-                            r2
-                            r16
-                        }
-                        {
-                            r\breve
-                        }
-                        g'2.
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \f \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan
+                        g'2 \stopTrillSpan \startTrillSpan
+                        g'2 \stopTrillSpan \startTrillSpan
+                        g'2 \repeatTie
+                        g'4 \stopTrillSpan \startTrillSpan
                         g'1 \repeatTie
+                        r4 \stopTrillSpan
+                        \times 4/7 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
                         r4
+                        \times 2/3 {
+                            r16
+                            g'16 [
+                            g'16
+                            g'16
+                            g'16
+                            g'16 ]
+                        }
+                        r4
+                        r4
+                        r4
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \ff \startTrillSpan
+                        g'1 \repeatTie
+                        g'4 \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8. \startTrillSpan
+                        g'2 \stopTrillSpan \startTrillSpan
+                        g'2. \repeatTie
+                        g'2 \repeatTie
+                        g'2 \repeatTie
+                        g'4 \stopTrillSpan \startTrillSpan
+                        g'2. \repeatTie
+                        g'1 \repeatTie
+                        g'4 \fff \stopTrillSpan \startTrillSpan
+                        g'2 \stopTrillSpan \startTrillSpan
+                        g'4 \stopTrillSpan \startTrillSpan
+                        g'2. \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'4.. \startTrillSpan
+                        g'2 \repeatTie
+                        g'2. \repeatTie
+                        g'4 \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'2 \startTrillSpan
+                        g'8. \repeatTie
+                        g'2 \repeatTie
+                        g'2. \repeatTie
+                        r4 \stopTrillSpan
                         \times 4/7 {
                             r16
                             g'16 [
@@ -2127,7 +2514,8 @@
                             g'16
                             g'16 ]
                         }
-                        R1 * 9/2
+                        r4
+                        R1 * 19/4
                         \bar "|"
                     }
                 }
@@ -2202,20 +2590,20 @@
                             r8 \pp
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r2 \p
+                            r2 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r8 \mp
+                            r8 \pp
                         }
                         {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r2 \mf
+                            r2 \pp
                             r8
                         }
                         {
@@ -2225,7 +2613,7 @@
                         \times 6/5 {
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r2 \f
+                            r2 \p
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
@@ -2234,44 +2622,74 @@
                             gs'''8 \<
                         }
                         {
-                            r4 \f
+                            r4 \mp
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r4. \pp
+                            r4. \mf
                         }
                         {
                             r2
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r4 \pp
+                            r4 \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r4 \p
+                            r4 \f
                         }
                         {
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
-                            r4. \mp
+                            r4. \f
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
                         }
                         {
-                            r4 \mf
+                            r4 \f
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r2. \f
+                            r2. \pp
                             \once \override Hairpin #'circled-tip = ##t
                             gs'''8 \<
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4. \pp
+                            \once \override Hairpin #'circled-tip = ##t
+                            gs'''8 \<
+                            r4. \pp
+                        }
+                        {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            gs'''8 \<
+                            r2 \pp
+                        }
+                        {
+                            r2
+                        }
+                        {
+                            r2.
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            gs'''8 \<
+                            r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            gs'''8 \<
+                            r8 \f
+                        }
+                        {
+                            r1
                         }
                         \set Staff.instrumentName = \markup {
                             \hcenter-in
@@ -2291,7 +2709,7 @@
                                         cl.
                                     }
                             }
-                        r1 \f
+                        r1
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.75)
@@ -2299,99 +2717,158 @@
                                         "to bass clarinet"
                                 }
                         r2.
-                        e4
-                        e1. \repeatTie
-                        e8. \repeatTie
+                        r2
+                        r2
+                        \once \override Hairpin #'circled-tip = ##t
+                        e4 \<
+                        e1.. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        eqs4
-                        eqs\breve \repeatTie
-                        eqs4 \repeatTie
-                        eqs8. \repeatTie
+                        eqs4 \<
+                        eqs1.. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        eqs8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        e4
-                        e2 \repeatTie
-                        e8. \repeatTie
+                        e4 \<
+                        e\breve. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        eqs4
-                        eqs2 \repeatTie
+                        eqs4 \<
+                        eqs2 \repeatTie \ppp
                         eqs2. \repeatTie
-                        eqs8. \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        eqs8. \repeatTie \! \> \ppp
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        e4
-                        e1.. \repeatTie
-                        e8. \repeatTie
+                        e4 \<
+                        e\breve \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        eqs4
-                        eqs8. \repeatTie
+                        eqs4 \<
+                        eqs4 \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        eqs8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        e4
+                        e4 \<
+                        e2 \repeatTie \p
                         e2 \repeatTie
-                        e1 \repeatTie
                         e2. \repeatTie
                         e2. \repeatTie
-                        e8. \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        eqs4
-                        eqs1.. \repeatTie
-                        eqs8. \repeatTie
+                        eqs4 \<
+                        eqs1.. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        eqs8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        e4
-                        e\breve \repeatTie
-                        e4 \repeatTie
-                        e8. \repeatTie
+                        e4 \<
+                        e1.. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        f4
-                        f\breve.. \repeatTie
-                        f8. \repeatTie
+                        f4 \<
+                        f\breve. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        f8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g4
-                        g1 \repeatTie
+                        g4 \<
+                        g\breve \repeatTie \p
                         g4 \repeatTie
-                        g8. \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        f4
-                        f1 \repeatTie
+                        f4 \<
+                        f1 \repeatTie \p
                         f4 \repeatTie
-                        f8. \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        f8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g4
-                        g\breve. \repeatTie
-                        g8. \repeatTie
+                        g4 \<
+                        g\breve. \repeatTie \p
+                        g4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        f4
-                        f\longa \repeatTie
-                        f8. \repeatTie
+                        f4 \<
+                        f\breve... \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        f8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        e4
-                        e\breve \repeatTie
-                        e8. \repeatTie
+                        g4 \<
+                        g1 \repeatTie \p
+                        g4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g8. \repeatTie \! \> \p
                         r16
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        e4
-                        e1. \repeatTie
-                        e8. \repeatTie
+                        f4 \<
+                        f1.. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        f8. \repeatTie \! \> \p
+                        r16
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        f4 \<
+                        f\breve.. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        f8. \repeatTie \! \> \p
+                        r16
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        e4 \<
+                        e\breve \repeatTie \ppp
+                        e4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \! \> \ppp
+                        r16
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        ds4 \<
+                        ds1 \repeatTie \pppp
+                        \once \override Hairpin #'circled-tip = ##t
+                        ds8. \repeatTie \! \> \pppp
                         r16
                         R1 * 7/4
-                        ds4
-                        ds2. \repeatTie
-                        ds2 \repeatTie
-                        ds8. \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        ds4 \<
+                        ds2 \repeatTie \pppp
+                        ds4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        ds8. \repeatTie \! \> \pppp
                         r16
-                        R1 * 1
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -2501,7 +2978,7 @@
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1
+                            c'1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
@@ -2536,6 +3013,46 @@
                             c'2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
                             \set PianoStaffGroup.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -2546,15 +3063,15 @@
                                     #10
                                     Hpschd.
                                 }
-                            r2.
+                            r1
                                 ^ \markup {
                                     \override
                                         #'(box-padding . 0.75)
                                         \box
                                             "to harpsichord"
                                     }
-                            r1
-                            R1 * 43/4
+                            r2
+                            R1 * 23/2
                             \bar "|"
                         }
                     }
@@ -2650,7 +3167,7 @@
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1
+                            c'1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
@@ -2685,9 +3202,49 @@
                             c'2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
-                            r2.
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            c'2. \repeatTie
                             r1
-                            R1 * 43/4
+                            r2
+                            R1 * 23/2
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -2737,8 +3294,7 @@
                             s1
                             s2
                             s1
-                            cs,16 -\marcato
-                            s2...
+                            s1
                             s2.
                             s2.
                             s2
@@ -2758,7 +3314,28 @@
                             s2
                             s2.
                             s1
-                            R1 * 25/2
+                            s2.
+                            s1
+                            s2.
+                            s1
+                            cs,16 -\marcato
+                            s4..
+                            s1
+                            s1
+                            s2.
+                            s2
+                            s2.
+                            s2.
+                            s1
+                            s1
+                            s2.
+                            s2
+                            s2
+                            s2.
+                            s1
+                            s2
+                            s2.
+                            R1 * 13
                             \bar "|"
                         }
                     >>
@@ -2830,7 +3407,7 @@
                             r2
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r8 \p
+                            r8 \pp
                         }
                         {
                             r2
@@ -2841,7 +3418,7 @@
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r4. \mp
+                            r4. \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
@@ -2851,10 +3428,10 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r4 \f
+                            r4 \p
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r2 \f
+                            r2 \mp
                         }
                         {
                             r2
@@ -2863,10 +3440,10 @@
                             fs'8 -\laissezVibrer \<
                         }
                         {
-                            r8 \pp
+                            r8 \mf
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r2. \pp
+                            r2. \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
@@ -2875,7 +3452,7 @@
                             fs'8 -\laissezVibrer \<
                         }
                         {
-                            r1 \p
+                            r1 \f
                         }
                         {
                             r2
@@ -2885,7 +3462,41 @@
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
+                            r2 \pp
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r2
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \pp
+                        }
+                        {
+                            r2
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        {
+                            r4. \pp
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        {
+                            r2. \p
+                        }
+                        {
+                            r2.
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                             r2 \f
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
@@ -2904,51 +3515,70 @@
                             r8 \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r4 \p
+                            r4 \pp
+                        }
+                        {
+                            r2
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r2 \p
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        {
+                            r1 \mp
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            r4.
+                            r4. \p
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r8 \mp
                         }
                         {
-                            r4.
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r4 \p
-                        }
-                        {
-                            r1
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
+                            r2
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4. \f
+                        }
+                        {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r4 \f
+                            r4. \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r8
+                            fs'8 -\laissezVibrer
+                            r4
+                            fs'8 -\laissezVibrer
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
                             r4.
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r8 \f
+                            fs'8 -\laissezVibrer
+                            r4.
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r8
+                        {
                             fs'8 -\laissezVibrer
                             r8
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r8
                             fs'8 -\laissezVibrer
-                            r8
+                            r4
+                            fs'8 -\laissezVibrer
+                        }
+                        {
+                            r4.
+                            fs'8 -\laissezVibrer
+                            r4.
+                            fs'8 -\laissezVibrer
                         }
                         R1 * 7/4
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -2959,47 +3589,52 @@
                             r8 \p
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 8/7 {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4. \mp
-                        }
-                        {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
+                            r8 \mf
+                        }
+                        {
+                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        {
                             r4. \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r8 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r8 \f
-                        }
-                        {
-                            r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4 \f
                         }
-                        R1 * 7/2
+                        R1 * 3
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 8/7 {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4 \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
+                            r4 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4. \pp
+                        \times 4/3 {
+                            r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r4. \pp
+                            r8 \pp
                         }
                         {
+                            r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r8 \pp
@@ -3009,9 +3644,6 @@
                         }
                         {
                             r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r4. \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4 \pp
@@ -3022,9 +3654,61 @@
                                 \upright
                                     "l.v. possibile"
                                 }
-                        r4 \ff
-                        r2.
-                        R1 * 23/4
+                        r1 \ff
+                        R1 * 8
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 63/32 [
+                            c'16 * 125/64
+                            c'16 * 61/32
+                            c'16 * 117/64
+                            c'16 * 111/64
+                            c'16 * 13/8
+                            c'16 * 49/32
+                            c'16 * 91/64
+                            c'16 * 43/32
+                            c'16 * 5/4
+                            c'16 * 19/16
+                            c'16 * 9/8
+                            c'16 * 69/64
+                            c'16 * 67/64
+                            c'16 * 65/64
+                            c'16 * 1
+                            c'16 * 63/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         \override TupletNumber #'text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -3056,28 +3740,29 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
+                            \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 63/32 [
-                            c'16 * 125/64
-                            c'16 * 61/32
-                            c'16 * 119/64
-                            c'16 * 57/32
-                            c'16 * 109/64
-                            c'16 * 103/64
-                            c'16 * 49/32
-                            c'16 * 23/16
-                            c'16 * 87/64
-                            c'16 * 41/32
-                            c'16 * 39/32
-                            c'16 * 75/64
-                            c'16 * 9/8
-                            c'16 * 69/64
-                            c'16 * 67/64
-                            c'16 * 65/64
-                            c'16 * 1
+                            c'16 * 15/16 [
+                            c'16 * 15/16
+                            c'16 * 61/64
+                            c'16 * 31/32
                             c'16 * 63/64
-                            c'16 * 31/32 ]
+                            c'16 * 65/64
+                            c'16 * 67/64
+                            c'16 * 35/32
+                            c'16 * 73/64
+                            c'16 * 19/16
+                            c'16 * 5/4
+                            c'16 * 85/64
+                            c'16 * 89/64
+                            c'16 * 47/32
+                            c'16 * 99/64
+                            c'16 * 105/64
+                            c'16 * 109/64
+                            c'16 * 57/32
+                            c'16 * 117/64
+                            c'16 * 15/8
+                            c'16 * 123/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -3102,8 +3787,49 @@
                                                 \override TupletNumber #'text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
-                                                c'1 ~
-                                                c'4
+                                                c'2
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 59/32 [
+                            c'16 * 109/64
+                            c'16 * 45/32
+                            c'16 * 73/64
+                            c'16 * 63/64
+                            c'16 * 59/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1.
                                             }
                                         >>
                                         \layout {
@@ -3118,18 +3844,125 @@
                             c'16 * 61/64 [
                             c'16 * 61/64
                             c'16 * 31/32
-                            c'16 * 1
+                            c'16 * 63/64
+                            c'16 * 65/64
                             c'16 * 67/64
                             c'16 * 35/32
-                            c'16 * 75/64
-                            c'16 * 5/4
-                            c'16 * 43/32
-                            c'16 * 93/64
+                            c'16 * 37/32
+                            c'16 * 39/32
+                            c'16 * 83/64
+                            c'16 * 11/8
+                            c'16 * 47/32
                             c'16 * 25/16
-                            c'16 * 107/64
-                            c'16 * 57/32
+                            c'16 * 53/32
+                            c'16 * 111/64
+                            c'16 * 29/16
                             c'16 * 119/64
-                            c'16 * 121/64 ]
+                            c'16 * 59/32 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'\breve
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 125/64 [
+                            c'16 * 125/64
+                            c'16 * 123/64
+                            c'16 * 15/8
+                            c'16 * 29/16
+                            c'16 * 7/4
+                            c'16 * 107/64
+                            c'16 * 51/32
+                            c'16 * 97/64
+                            c'16 * 93/64
+                            c'16 * 11/8
+                            c'16 * 21/16
+                            c'16 * 5/4
+                            c'16 * 77/64
+                            c'16 * 37/32
+                            c'16 * 71/64
+                            c'16 * 69/64
+                            c'16 * 67/64
+                            c'16 * 65/64
+                            c'16 * 1
+                            c'16 * 63/64
+                            c'16 * 63/64
+                            c'16 * 63/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'2.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 31/32 [
+                            c'16 * 63/64
+                            c'16 * 33/32
+                            c'16 * 9/8
+                            c'16 * 79/64
+                            c'16 * 89/64
+                            c'16 * 101/64
+                            c'16 * 113/64
+                            c'16 * 123/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -3201,8 +4034,7 @@
                                                 \override TupletNumber #'text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
-                                                c'1 ~
-                                                c'4
+                                                c'1..
                                             }
                                         >>
                                         \layout {
@@ -3214,21 +4046,69 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 61/64 [
+                            c'16 * 15/16 [
+                            c'16 * 15/16
                             c'16 * 61/64
                             c'16 * 31/32
-                            c'16 * 1
+                            c'16 * 63/64
+                            c'16 * 65/64
                             c'16 * 67/64
                             c'16 * 35/32
-                            c'16 * 75/64
+                            c'16 * 73/64
+                            c'16 * 19/16
                             c'16 * 5/4
-                            c'16 * 43/32
-                            c'16 * 93/64
-                            c'16 * 25/16
-                            c'16 * 107/64
+                            c'16 * 85/64
+                            c'16 * 89/64
+                            c'16 * 47/32
+                            c'16 * 99/64
+                            c'16 * 105/64
+                            c'16 * 109/64
                             c'16 * 57/32
-                            c'16 * 119/64
-                            c'16 * 121/64 ]
+                            c'16 * 117/64
+                            c'16 * 15/8
+                            c'16 * 123/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'2
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 59/32 [
+                            c'16 * 109/64
+                            c'16 * 45/32
+                            c'16 * 73/64
+                            c'16 * 63/64
+                            c'16 * 59/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -3263,28 +4143,80 @@
                                     }
                             }
                         \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 15/16 [
+                            c'16 * 15/16
+                            c'16 * 61/64
+                            c'16 * 31/32
+                            c'16 * 63/64
+                            c'16 * 65/64
+                            c'16 * 67/64
+                            c'16 * 35/32
+                            c'16 * 73/64
+                            c'16 * 19/16
+                            c'16 * 5/4
+                            c'16 * 85/64
+                            c'16 * 89/64
+                            c'16 * 47/32
+                            c'16 * 99/64
+                            c'16 * 105/64
+                            c'16 * 109/64
+                            c'16 * 57/32
+                            c'16 * 117/64
+                            c'16 * 15/8
+                            c'16 * 123/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1 ~
+                                                c'4
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 63/32 [
+                            c'16 * 127/64 [
                             c'16 * 125/64
-                            c'16 * 61/32
-                            c'16 * 119/64
+                            c'16 * 121/64
                             c'16 * 57/32
-                            c'16 * 109/64
-                            c'16 * 103/64
+                            c'16 * 53/32
                             c'16 * 49/32
-                            c'16 * 23/16
-                            c'16 * 87/64
-                            c'16 * 41/32
+                            c'16 * 45/32
+                            c'16 * 21/16
                             c'16 * 39/32
-                            c'16 * 75/64
-                            c'16 * 9/8
+                            c'16 * 73/64
                             c'16 * 69/64
-                            c'16 * 67/64
+                            c'16 * 33/32
                             c'16 * 65/64
-                            c'16 * 1
-                            c'16 * 63/64
-                            c'16 * 31/32 ]
+                            c'16 * 1 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -3413,7 +4345,7 @@
                                                 \override TupletNumber #'text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
-                                                c'1.
+                                                c'1..
                                             }
                                         >>
                                         \layout {
@@ -3425,24 +4357,69 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 61/64 [
+                            c'16 * 15/16 [
+                            c'16 * 15/16
                             c'16 * 61/64
                             c'16 * 31/32
                             c'16 * 63/64
                             c'16 * 65/64
                             c'16 * 67/64
                             c'16 * 35/32
-                            c'16 * 37/32
-                            c'16 * 39/32
-                            c'16 * 83/64
-                            c'16 * 11/8
+                            c'16 * 73/64
+                            c'16 * 19/16
+                            c'16 * 5/4
+                            c'16 * 85/64
+                            c'16 * 89/64
                             c'16 * 47/32
-                            c'16 * 25/16
-                            c'16 * 53/32
-                            c'16 * 111/64
-                            c'16 * 29/16
-                            c'16 * 119/64
-                            c'16 * 59/32 ]
+                            c'16 * 99/64
+                            c'16 * 105/64
+                            c'16 * 109/64
+                            c'16 * 57/32
+                            c'16 * 117/64
+                            c'16 * 15/8
+                            c'16 * 123/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'2
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 59/32 [
+                            c'16 * 109/64
+                            c'16 * 45/32
+                            c'16 * 73/64
+                            c'16 * 63/64
+                            c'16 * 59/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -3477,120 +4454,24 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 2 [
-                            c'16 * 125/64
-                            c'16 * 119/64
-                            c'16 * 109/64
-                            c'16 * 99/64
-                            c'16 * 89/64
-                            c'16 * 81/64
-                            c'16 * 37/32
-                            c'16 * 35/32
-                            c'16 * 33/32
-                            c'16 * 1 ]
-                            \revert Staff.Stem #'stemlet-length
-                        }
-                        \revert TupletNumber #'text
-                        \override TupletNumber #'text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'1 ~
-                                                c'4
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
                             \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
                             c'16 * 61/64 [
-                            c'16 * 61/64
                             c'16 * 31/32
                             c'16 * 1
                             c'16 * 67/64
-                            c'16 * 35/32
-                            c'16 * 75/64
-                            c'16 * 5/4
-                            c'16 * 43/32
-                            c'16 * 93/64
-                            c'16 * 25/16
-                            c'16 * 107/64
-                            c'16 * 57/32
-                            c'16 * 119/64
-                            c'16 * 121/64 ]
-                            \revert Staff.Stem #'stemlet-length
-                        }
-                        \revert TupletNumber #'text
-                        \override TupletNumber #'text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'2.
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 119/64 [
-                            c'16 * 115/64
-                            c'16 * 105/64
-                            c'16 * 23/16
-                            c'16 * 5/4
                             c'16 * 71/64
-                            c'16 * 65/64
-                            c'16 * 61/64
-                            c'16 * 15/16 ]
+                            c'16 * 19/16
+                            c'16 * 83/64
+                            c'16 * 91/64
+                            c'16 * 25/16
+                            c'16 * 109/64
+                            c'16 * 117/64
+                            c'16 * 123/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 9/2
+                        R1 * 19/4
                         \bar "|"
                     }
                 }
@@ -3663,7 +4544,7 @@
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \p
+                            r4 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
@@ -3672,11 +4553,11 @@
                             fs'''8 \<
                         }
                         {
-                            r2 \mp
+                            r2 \pp
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \mf
+                            r4 \pp
                         }
                         {
                             r2
@@ -3686,21 +4567,21 @@
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r8 \f
+                            r8 \p
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \f
+                            r2 \mp
                             r8
                         }
                         {
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \pp
+                            r4 \mf
                         }
                         {
                             r1
@@ -3710,18 +4591,18 @@
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r8 \p
+                            r8 \f
                         }
                         {
                             r2.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r8 \mp
+                            r8 \f
                         }
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r8 \f
+                            r8 \pp
                             r4
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -3729,8 +4610,40 @@
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \f
+                            r2 \pp
                             r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \pp
+                        }
+                        {
+                            r2
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \pp
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4. \p
+                        }
+                        {
+                            r2.
+                        }
+                        {
+                            r2
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                        }
+                        {
+                            r1 \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
@@ -3752,36 +4665,49 @@
                             r2
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 4/3 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \p
+                            r4 \pp
                         }
                         {
+                            r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r2 \p
+                            r4. \p
+                        }
+                        {
+                            r2
                             r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \mp
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \p
+                        }
+                        {
+                            r2.
+                        }
+                        {
+                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         {
                             r4.
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4. \mp
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
                         }
-                        {
-                            r1 \mf
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4. \f
-                        }
-                        R1 * 1
+                        R1 * 7/2 \f
                         fs'''16 [
                         fs'''16
                         fs'''16 ]
@@ -3814,27 +4740,33 @@
                             r4 \p
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 8/7 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r8 \mp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \mf
-                        }
-                        {
-                            r8
+                            r4. \mf
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
+                        }
+                        {
                             r4. \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         {
+                            r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4. \f
+                            r8 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         fs'''16 [
                         fs'''16
@@ -3878,48 +4810,34 @@
                         fs'''16 [
                         fs'''16 ]
                         r8
-                        fs'''16 [
-                        fs'''16
-                        fs'''16 ]
-                        r16
-                        r16
-                        fs'''16 [
-                        fs'''16 ]
-                        r16
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4 \pp
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r8 \pp
-                        }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4. \pp
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
                             r4 \pp
-                        }
-                        {
-                            r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4 \pp
-                        }
-                        {
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4. \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r8 \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r8 \pp
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                        }
+                        {
+                            r4. \pp
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \pp
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
                         }
                         \once \override Hairpin #'circled-tip = ##t
                         g'''2. \<
@@ -3927,8 +4845,7 @@
                                 \upright
                                     "l.v. possibile"
                                 }
-                        r4 \ff
-                        r2.
+                        r1 \ff
                         c'16 [
                         c'16 ]
                         r8
@@ -4006,21 +4923,59 @@
                         c'16
                         r8
                         c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
+                        r16
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        c'16
+                        r8
+                        c'16
+                        c'16
+                        r8
+                        c'16
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16 ]
+                        r8
+                        c'16 [
+                        c'16
+                        c'16 ]
+                        r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2.
+                        c'2
+                        c'1 \repeatTie
                         c'1 \repeatTie
                         c'2. \repeatTie
                         c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
                         c'1 \repeatTie
                         c'2 \repeatTie
                         c'2. \repeatTie
                         c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
+                        c'2 \repeatTie
                         c'2. \repeatTie
                         c'1 \repeatTie
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
+                        \times 7/8 {
                             c'8 [
                             c'8
                             c'8
@@ -4031,7 +4986,9 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
+                            r8
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 7/8 {
@@ -4049,16 +5006,18 @@
                             r2
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 5/6 {
+                        \times 6/7 {
                             c'8 [
                             c'8
                             c'8
                             c'8 ]
                             r2.
                             c'8 [
+                            c'8
+                            c'8
                             c'8 ]
                         }
-                        R1 * 9/2
+                        R1 * 19/4
                         \bar "|"
                     }
                 }
@@ -4130,6 +5089,10 @@
                         d2 :32 \repeatTie
                         d2. :32 \repeatTie
                         d1 :32 \repeatTie
+                        d2. :32 \repeatTie
+                        d2 :32 \repeatTie
+                        d1 :32 \repeatTie
+                        d2 :32 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4152,9 +5115,9 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
-                        d2 :32 \repeatTie
                         d1 :32 \repeatTie
-                        d2 :32 \repeatTie
+                        d2. :32 \repeatTie
+                        d1 :32 \repeatTie
                         d2. :32 \repeatTie \mp
                         d1 :32 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -4178,55 +5141,9 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d2 :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
                         d1 :32 \repeatTie
-                        \once \override TextSpanner.arrow-width = 0.25
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-                        \once \override TextSpanner.bound-details.left.text = \markup {
-                            \concat
-                                {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \upright
-                                            tasto
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0
-                        \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-                        \once \override TextSpanner.dash-fraction = 0.25
-                        \once \override TextSpanner.dash-period = 1.5
-                        d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
                         d1 :32 \repeatTie
-                        d2 :32 \repeatTie \mp
-                        d1 :32 \repeatTie
-                        \once \override TextSpanner.arrow-width = 0.25
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-                        \once \override TextSpanner.bound-details.left.text = \markup {
-                            \concat
-                                {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \upright
-                                            "pochiss. pont."
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0
-                        \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-                        \once \override TextSpanner.dash-fraction = 0.25
-                        \once \override TextSpanner.dash-period = 1.5
-                        d1 :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
                         d2. :32 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -4253,8 +5170,6 @@
                         d2. :32 \repeatTie
                         d2. :32 \repeatTie \mp
                         d1 :32 \repeatTie
-                        d1 :32 \repeatTie
-                        d2. :32 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4276,8 +5191,62 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d2 :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
-                        d2 :32 \repeatTie \stopTextSpan ^ \markup {
+                        d1 :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d2. :32 \repeatTie
+                        d2 :32 \repeatTie
+                        d2 :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            tasto
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
+                        d1 :32 \repeatTie
+                        d2 :32 \repeatTie \mp
+                        d2. :32 \repeatTie
+                        d1 :32 \repeatTie
+                        d2 :32 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \override
+                                        #'(font-name . "Palatino")
+                                        \upright
+                                            "pochiss. pont."
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d1 :32 \repeatTie
+                        d2. :32 \repeatTie
+                        d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
@@ -4339,9 +5308,9 @@
                                 \upright
                                     XFB
                                 }
-                        d2. :32 \repeatTie
+                        d1 :32 \repeatTie
                         d1 :32 \repeatTie \mp
-                        d2 :32 \repeatTie \stopTextSpan ^ \markup {
+                        d2. :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
@@ -4393,14 +5362,6 @@
                         e'16 [
                         e'16 ]
                         r8
-                        e'16 [
-                        e'16
-                        e'16 ]
-                        r16
-                        r16
-                        e'16 [
-                        e'16 ]
-                        r16
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4422,22 +5383,21 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d2. :32 \pp \startTextSpan
+                        d1 :32 \pp \startTextSpan
                             ^ \markup {
                                 \upright
                                     XFB
                                 }
-                        d1 :32 \repeatTie
                         d2 :32 \repeatTie
-                        d1 :32 \repeatTie
-                        ef1 :32 \stopTextSpan ^ \markup {
+                        d2. :32 \repeatTie
+                        d2 :32 \repeatTie
+                        ef2. :32 \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
                                     tasto
                             }
-                        ef2. :32 \repeatTie
+                        ef1 :32 \repeatTie
                         ef'16 \ff [
                             ^ \markup {
                                 \upright
@@ -4522,25 +5482,67 @@
                         ef'16 [
                         ef'16 ]
                         ef'16 [
-                        ef'16 \! ]
+                        ef'16 ]
                         r8
-                        g2. \pp
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16 ]
+                        r8
+                        ef'16 [
+                        ef'16
+                        ef'16 ]
+                        r16
+                        r16
+                        ef'16 [
+                        ef'16 \! ]
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g2 \pp
                             ^ \markup {
                                 \upright
                                     "tasto + pochiss. scratch"
                                 }
                         g1 \repeatTie
+                        g1 \repeatTie
                         g2. \repeatTie
                         g2 \repeatTie
+                        g2. \repeatTie
+                        g2. \repeatTie
                         g1 \repeatTie
+                        g1 \repeatTie
+                        g2. \repeatTie
+                        g2 \repeatTie
                         g2 \repeatTie
                         g2. \repeatTie \< \pp
                         g1 \repeatTie
-                        g2. \repeatTie \mf \> \mf
-                        g1 \repeatTie
+                        g2 \repeatTie
+                        g2. \repeatTie
+                        g1 \repeatTie \mf \> \mf
+                        g2 \repeatTie
                         g2. \repeatTie
                         g1 \repeatTie \ppp
-                        \times 2/3 {
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
                             r2
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
@@ -4563,82 +5565,94 @@
                                                 }
                                         }
                                     }
+                            c'8 -\staccato
+                            c'8 -\staccato
                             c'8 -\staccato ]
                         }
                         \times 4/7 {
                             c'8 -\staccato [
-                            c'8 -\staccato
-                            c'8 -\staccato
                             c'8 -\staccato ]
                             r4
                             b8 -\staccato [
                             b8 -\staccato
                             d'8 -\staccato
                             d'8 -\staccato ]
-                            r2
+                            r2.
                         }
-                        \times 4/5 {
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
                             r4
                             d'8 -\staccato [
                             d'8 -\staccato
                             d'8 -\staccato
                             d'8 -\staccato ]
-                            r2
-                        }
-                        {
                             r4
+                        }
+                        \times 4/7 {
+                            r2
                             c'8 -\staccato [
                             c'8 -\staccato
                             d'8 -\staccato
-                            d'8 -\staccato \mf ]
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato \mf ]
                         }
                         \times 2/3 {
                             r2.
                         }
-                        \times 2/3 {
-                            d'8 -\staccato [
-                            d'8 -\staccato
-                            d'8 -\staccato
-                            d'8 -\staccato
-                            b8 -\staccato
-                            b8 -\staccato
-                            c'8 -\staccato
-                            c'8 -\staccato
-                            b8 -\staccato
-                            b8 -\staccato ]
-                            r1
-                        }
-                        \times 8/9 {
-                            b8 -\staccato [
-                            b8 -\staccato
-                            b8 -\staccato
-                            b8 -\staccato
-                            c'8 -\staccato
-                            c'8 -\staccato ]
-                            r2
+                        \times 8/11 {
                             c'8 -\staccato [
                             c'8 -\staccato
                             b8 -\staccato
                             b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
                             c'8 -\staccato
                             c'8 -\staccato ]
+                            r1
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'8 -\staccato [
+                            c'8 -\staccato ]
+                            r2
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato ]
                             r4
                         }
                         {
                             r2
-                            c'8 -\staccato [
-                            c'8 -\staccato ]
                         }
-                        \times 2/3 {
-                            c'8 -\staccato [
-                            c'8 -\staccato
-                            b8 -\staccato ]
-                            r2
-                            b8 -\staccato [
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 7/9 {
+                            d'8 -\staccato [
                             d'8 -\staccato
                             d'8 -\staccato
                             d'8 -\staccato
                             d'8 -\staccato ]
+                            r2
+                            d'8 -\staccato [
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
+                            r4
+                            d'8 -\staccato
                             \bar "|"
                             \stopStaff
                             \startStaff
@@ -4688,15 +5702,19 @@
                         d,2 \repeatTie
                         d,2. \repeatTie
                         d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie
                         d,2. \repeatTie \f \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
                                     "PO (+poco vib.)"
                             }
-                        d,2 \repeatTie
                         d,1 \repeatTie
-                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4720,11 +5738,13 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d,2. \repeatTie \> \f \startTextSpan
                         d,1 \repeatTie
-                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,1 \repeatTie
                         d,1 \repeatTie
                         d,2. \repeatTie
-                        d,1 \repeatTie
-                        d,2 \repeatTie \p \stopTextSpan ^ \markup {
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,2. \repeatTie \p \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
@@ -4733,6 +5753,8 @@
                         d,1 \repeatTie
                         d,1 \repeatTie
                         d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,2 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4754,19 +5776,21 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d,2 \repeatTie \< \p \startTextSpan
-                        d,2. \repeatTie
-                        d,2. \repeatTie
+                        d,2. \repeatTie \< \p \startTextSpan
                         d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
                         d,1 \repeatTie \ff \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
                                     "poco pont. + vib. mod."
                             }
+                        d,2 \repeatTie
                         d,2. \repeatTie
-                        d,2 \repeatTie
-                        d,2 \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
                         d,2. \ppp \repeatTie
                             ^ \markup {
                                 \upright
@@ -4795,9 +5819,9 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d,2 \repeatTie \> \ff \startTextSpan
-                        d,2. \repeatTie
                         d,1 \repeatTie
-                        d,2 \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4820,20 +5844,20 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d,2. \repeatTie \pp \stopTextSpan \< \pp \startTextSpan \startTextSpan
-                        d,1 \repeatTie
+                        d,2 \repeatTie
                         d,2. \repeatTie
                         d,1 \repeatTie
-                        d,2. \repeatTie \p \stopTextSpan ^ \markup {
+                        d,1 \repeatTie \p \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
                                     "(tasto+) poco vib."
                             }
-                        d,1 \repeatTie
                         d,2 \repeatTie
-                        d,1 \repeatTie
-                        ef,1
-                        ef,2. \repeatTie
+                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        ef,2.
+                        ef,1 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4857,17 +5881,19 @@
                         \once \override TextSpanner.dash-period = 1.5
                         ef,2. \repeatTie \< \p \startTextSpan
                         ef,2 \repeatTie
-                        ef,2. \repeatTie
                         ef,1 \repeatTie
-                        ef,1 \repeatTie \ff \stopTextSpan ^ \markup {
+                        ef,2 \repeatTie
+                        ef,2. \repeatTie \ff \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
                                     "molto pont. + vib. molto"
                             }
-                        ef,2 \repeatTie
+                        ef,1 \repeatTie
                         ef,2. \repeatTie
-                        ef,2 \repeatTie
+                        ef,1 \repeatTie
+                        ef,2. \repeatTie
+                        ef,1 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4889,8 +5915,10 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef,2. \repeatTie \> \ff \startTextSpan
+                        ef,2 \repeatTie \> \ff \startTextSpan
                         ef,1 \repeatTie
+                        ef,1 \repeatTie
+                        ef,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4912,16 +5940,21 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef,2. \repeatTie \p \stopTextSpan \startTextSpan \startTextSpan
-                        ef,2 \repeatTie
+                        ef,2 \repeatTie \p \stopTextSpan \startTextSpan \startTextSpan
+                        ef,2. \repeatTie
+                        ef,2. \repeatTie
+                        ef,1 \repeatTie
                         ef,1 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
                                     "(tasto+) non vib."
                             }
+                        ef,2. \repeatTie
                         ef,2 \repeatTie
-                        {
+                        ef,2 \repeatTie
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4943,7 +5976,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            ef,\breve.. \glissando \< \p \startTextSpan
+                            ef,\longa. \glissando \< \p \startTextSpan
                                 ^ \markup {
                                     \column
                                         {
@@ -4959,7 +5992,7 @@
                                     }
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 5/6 {
+                        \times 7/8 {
                             \once \override Hairpin #'circled-tip = ##t
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -4985,7 +6018,7 @@
                             d,\longa. \f \stopTextSpan \glissando \> \f \startTextSpan \startTextSpan
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 5/8 {
+                        \times 3/4 {
                             cs,1.... \glissando
                             bs,,16 \! \stopTextSpan ^ \markup {
                                 \override
@@ -4994,7 +6027,7 @@
                                         tasto
                                 }
                         }
-                        R1 * 9/2
+                        R1 * 19/4
                         \bar "|"
                     }
                 }
