@@ -50,6 +50,7 @@ segment_maker = baca.tools.SegmentMaker(
     label_clock_time=True,
     label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=faberge,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
@@ -58,7 +59,7 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(17)
-segment_maker.validate_measure_count(1000)
+segment_maker.validate_measure_count(44)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -68,7 +69,7 @@ segment_maker.validate_measures_per_stage()
 ### flute (time) ###
 
 segment_maker.append_specifiers(
-    (fl, stages(18, 27)),
+    (fl, stages(1, 10)),
     faberge.tools.make_glowing_wind_rhythm_specifier(
         counts=faberge.materials.wind_counts_a,
         count_rotation=0,
@@ -77,37 +78,37 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(28, 31)),
+    (fl, stages(11, 14)),
     faberge.tools.make_successive_tapers_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(33)),
+    (fl, stages(16)),
     faberge.tools.make_successive_tapers_rhythm_specifier(),
     )
 
 ### english horn (time) ###
 
 segment_maker.append_specifiers(
-    (eh, stages(18, 20)),
+    (eh, stages(1, 3)),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (eh, stages(21)),
+    (eh, stages(4)),
     faberge.tools.make_eh_trill_rhythm_specifier(
         counts=[-4, -1, 3, -1, 3, 8, 16, 24, -4],
         ),
     )
 
 segment_maker.append_specifiers(
-    (eh, stages(22)),
+    (eh, stages(5)),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 # approach
 segment_maker.append_specifiers(
-    (eh, stages(23, 24)),
+    (eh, stages(6, 7)),
     faberge.tools.make_eh_trill_rhythm_specifier(
         counts=[-4, -1, 23, -1, 3, 36, 48],
         ),
@@ -115,21 +116,21 @@ segment_maker.append_specifiers(
 
 # apotheosis
 segment_maker.append_specifiers(
-    (eh, stages(25, 26)),
+    (eh, stages(8, 9)),
     faberge.tools.make_eh_trill_rhythm_specifier(
         counts=[4, 8, 16, -1, 31, -1, 63, -1, 127],
         ),
     )
 
 segment_maker.append_specifiers(
-    (eh, stages(27, 31)),
+    (eh, stages(10, 14)),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
 
 segment_maker.append_specifiers(
-    (cl, stages(18, 31)),
+    (cl, stages(1, 14)),
     faberge.tools.make_successive_tapers_rhythm_specifier(
         denominator=16,
         fuse_counts=(3, 3, 5, 3, 2, 5, 5),
@@ -139,7 +140,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(33)),
+    (cl, stages(16)),
     baca.rhythm.make_single_taper_rhythm_specifier(
         denominator=16,
         start_talea=[4],
@@ -150,48 +151,48 @@ segment_maker.append_specifiers(
 ### piano (time) ###
 
 segment_maker.append_specifiers(
-    (pf_attack, [stages(18, 22), stages(23, 26)]),
+    (pf_attack, [stages(1, 5), stages(6, 9)]),
     faberge.tools.make_piano_attack_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (pf_music, stages(27)),
+    (pf_music, stages(10)),
     baca.rhythm.make_rest_rhythm_specifier(),
     )
 
 ### percussion (time) ###
 
 segment_maker.append_specifiers(
-    (perc, stages(18)),
+    (perc, stages(1)),
     baca.rhythm.make_single_attack_rhythm_specifier(Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
-    (perc, stages(23, 31)),
+    (perc, stages(6, 14)),
     faberge.tools.make_marimba_pedal_rhythm_specifier(fuse_counts=[2, 2, 1]),
     )
 
 ### violin (time) ###
 
 segment_maker.append_specifiers(
-    (vn, stages(18)),
+    (vn, stages(1)),
     baca.rhythm.make_single_attack_rhythm_specifier(Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(19, 22)),
+    (vn, stages(2, 5)),
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-2,
         ),
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(23, 28)),
+    (vn, stages(6, 11)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(29)),
+    (vn, stages(12)),
     #faberge.tools.make_clb_rhythm_specifier(density='sparse'),
     faberge.tools.make_clb_rhythm_specifier(
         count_rotation=0,
@@ -200,7 +201,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(30)),
+    (vn, stages(13)),
     #faberge.tools.make_clb_rhythm_specifier(density='moderate'),
     faberge.tools.make_clb_rhythm_specifier(
         count_rotation=-2,
@@ -209,7 +210,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(31)),
+    (vn, stages(14)),
     #faberge.tools.make_clb_rhythm_specifier(density='continuous'),
     faberge.tools.make_clb_rhythm_specifier(
         count_rotation=-4,
@@ -220,22 +221,22 @@ segment_maker.append_specifiers(
 ### viola (time) ###
 
 segment_maker.append_specifiers(
-    (va, stages(18)),
+    (va, stages(1)),
     faberge.tools.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (va, stages(19, 22)),
+    (va, stages(2, 5)),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (va, stages(23, 28)),
+    (va, stages(6, 11)),
     faberge.tools.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (va, stages(29)),
+    (va, stages(12)),
     # sparse
     faberge.tools.make_clb_rhythm_specifier(
         count_rotation=-1,
@@ -244,7 +245,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(30)),
+    (va, stages(13)),
     # medium
     faberge.tools.make_clb_rhythm_specifier(
         count_rotation=-3,
@@ -253,7 +254,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(31, 34)),
+    (va, stages(14, 17)),
     # continuous
     faberge.tools.make_clb_rhythm_specifier(
         count_rotation=-5,
@@ -264,22 +265,22 @@ segment_maker.append_specifiers(
 ### cello (time) ###
 
 segment_maker.append_specifiers(
-    (vc, stages(18, 25)),
+    (vc, stages(1, 8)),
     faberge.tools.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(26, 27)),
+    (vc, stages(9, 10)),
     baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(28, 30)),
+    (vc, stages(11, 13)),
     baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(31)),
+    (vc, stages(14)),
     baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(
         tuplet_ratio=Ratio((31, 1)),
         ),
@@ -294,7 +295,7 @@ segment_maker.append_specifiers(
 ### english horn (color) ###
 
 segment_maker.append_specifiers(
-    (eh, [stages(21)]),
+    (eh, [stages(4)]),
     [
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
@@ -302,7 +303,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (eh, stages(23, 24)),
+    (eh, stages(6, 7)),
     [
         baca.spanners.pervasive_trills(),
         Dynamic('ff'),
@@ -310,7 +311,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (eh, stages(25, 26)),
+    (eh, stages(8, 9)),
     [
         baca.spanners.pervasive_trills(),
         Dynamic('fff'),
@@ -320,7 +321,7 @@ segment_maker.append_specifiers(
 ### clarinet (color) ###
 
 segment_maker.append_specifiers(
-    (cl, stages(18, 27)),
+    (cl, stages(1, 10)),
     [
         baca.dynamics.make_hairpins(
             hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
@@ -330,28 +331,28 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(18, 26)),
+    (cl, stages(1, 9)),
     [
         baca.pitch.pitches('Eb2 F2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(27)),
+    (cl, stages(10)),
     [
         baca.pitch.pitches('Eb2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(28, 30)),
+    (cl, stages(11, 13)),
     [
         baca.pitch.pitches('D2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(28)),
+    (cl, stages(11)),
     [
         baca.dynamics.make_hairpins(
             hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['pp']),
@@ -361,7 +362,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(29)),
+    (cl, stages(12)),
     [
         baca.dynamics.make_hairpins(
             hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['ppp']),
@@ -371,7 +372,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(30, 31)),
+    (cl, stages(13, 14)),
     [
         baca.dynamics.make_hairpins(
             hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['pppp']),
@@ -381,21 +382,21 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(31)),
+    (cl, stages(14)),
     [
         baca.pitch.pitches('C#2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(33)),
+    (cl, stages(16)),
     [
         baca.pitch.pitches('C#2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(33)),
+    (cl, stages(16)),
     [
         baca.dynamics.make_hairpins(
             hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['pppp']),
@@ -407,14 +408,14 @@ segment_maker.append_specifiers(
 ### piano (color) ###
 
 segment_maker.append_specifiers(
-    (pf_music, stages(18, 26)),
+    (pf_music, stages(1, 9)),
     [
         baca.overrides.natural_harmonics(),
         ],
     )
 
 segment_maker.append_specifiers(
-    (pf_attack, stages(18, 26)),
+    (pf_attack, stages(1, 9)),
     [
         baca.articulations.marcati(),
         baca.pitch.pitches('C#2'),
@@ -423,7 +424,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (pf_rh, stages(27)),
+    (pf_rh, stages(10)),
     [
         faberge.materials.instruments['harpsichord'],
         ],
@@ -432,7 +433,7 @@ segment_maker.append_specifiers(
 ### percussion (color) ###
 
 segment_maker.append_specifiers(
-    (perc, stages(18)),
+    (perc, stages(1)),
     [
         baca.articulations.laissez_vibrer(),
         baca.dynamics.make_hairpins(
@@ -447,7 +448,7 @@ segment_maker.append_specifiers(
 ### violin (color) ###
 
 segment_maker.append_specifiers(
-    (vn, stages(18)),
+    (vn, stages(1)),
     [
         baca.dynamics.make_hairpins(
             ['niente < ff'],
@@ -461,7 +462,7 @@ segment_maker.append_specifiers(
 ### viola (color) ###
 
 segment_maker.append_specifiers(
-    (va, stages(18)),
+    (va, stages(1)),
     [
         baca.articulations.stem_tremolo(),
         baca.pitch.pitches('Eb3'),
@@ -469,14 +470,14 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(19, 22)),
+    (va, stages(2, 5)),
     [
         baca.pitch.pitches('Eb4'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (va, stages(19)),
+    (va, stages(2)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -490,7 +491,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(20, 22)),
+    (va, stages(3, 5)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -500,7 +501,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(23, 28)),
+    (va, stages(6, 11)),
     [
         baca.markup.tasto_plus_pochiss_scratch(),
         baca.pitch.pitches('G3'),
@@ -509,7 +510,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(26)),
+    (va, stages(9)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -520,7 +521,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(27, 28)),
+    (va, stages(10, 11)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -530,7 +531,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(29, 34)),
+    (va, stages(12, 17)),
     [
         baca.articulations.staccati(),
         baca.markup.make_markup_lines([
@@ -544,7 +545,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(29, 30)),
+    (va, stages(12, 13)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -556,14 +557,14 @@ segment_maker.append_specifiers(
 ### cello (color) ###
 
 segment_maker.append_specifiers(
-    (vc, stages(18, 25)),
+    (vc, stages(1, 8)),
     [
         baca.pitch.pitches('Eb2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(19, 20)),
+    (vc, stages(2, 3)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -582,7 +583,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(23)),
+    (vc, stages(6)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -601,7 +602,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(24)),
+    (vc, stages(7)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -615,7 +616,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(26, 27)),
+    (vc, stages(9, 10)),
     [
         baca.markup.make_markup_lines([
             'glissando lentissimo',
@@ -626,7 +627,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(26, 27)),
+    (vc, stages(9, 10)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -645,21 +646,21 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(28, 30)),
+    (vc, stages(11, 13)),
     [
         baca.pitch.pitches('D2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(31)),
+    (vc, stages(14)),
     [
         baca.pitch.pitches('C#2 B#1'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(28, 31)),
+    (vc, stages(11, 14)),
     [
         baca.tools.SpecifierWrapper(
             scope_to_leaves=True,
@@ -676,7 +677,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(26, 31)),
+    (vc, stages(9, 14)),
     [
         baca.spanners.glissandi(),
         ],

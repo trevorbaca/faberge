@@ -36,6 +36,7 @@ segment_maker = baca.tools.SegmentMaker(
     label_clock_time=True,
     label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='I',
     score_package=faberge,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
