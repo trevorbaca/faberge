@@ -8,7 +8,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #103
+        currentBarNumber = #59
     } <<
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context TimeSignatureContext = "Time Signature Context" <<
@@ -1301,89 +1301,89 @@
                         f\breve \repeatTie \p
                         f4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \! \> \p
-                        r16
+                        f8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         g4 \<
                         g1 \repeatTie \p
                         g4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        g8. \repeatTie \! \> \p
-                        r16
+                        g8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         f4 \<
                         f\breve.. \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \! \> \p
-                        r16
+                        f8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         g4 \<
                         g1.. \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
-                        g8. \repeatTie \! \> \p
-                        r16
+                        g8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         f4 \<
                         f1 \repeatTie \p
                         f4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \! \> \p
-                        r16
+                        f8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         g4 \<
                         g\breve... \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
-                        g8. \repeatTie \! \> \p
-                        r16
+                        g8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         f4 \<
                         f\breve. \repeatTie \p
                         f4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \! \> \p
-                        r16
+                        f8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         g4 \<
                         g1.. \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
-                        g8. \repeatTie \! \> \p
-                        r16
+                        g8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         f4 \<
                         f1.. \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \! \> \p
-                        r16
+                        f8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         e4 \<
                         e\breve. \repeatTie \ppp
                         \once \override Hairpin #'circled-tip = ##t
-                        e8. \repeatTie \! \> \ppp
-                        r16
+                        e8. \repeatTie \> \ppp
+                        r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         ds4 \<
                         ds2 \repeatTie \pppp
                         \once \override Hairpin #'circled-tip = ##t
-                        ds8. \repeatTie \! \> \pppp
-                        r16
+                        ds8. \repeatTie \> \pppp
+                        r16 \!
                         R1 * 7/4
                         \once \override Hairpin #'circled-tip = ##t
                         ds4 \<
                         ds2 \repeatTie \pppp
                         ds2. \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        ds8. \repeatTie \! \> \pppp
-                        r16
+                        ds8. \repeatTie \> \pppp
+                        r16 \!
                         R1 * 3/2
                         \bar "|"
                     }
@@ -1395,12 +1395,12 @@
                     \set PianoStaffGroup.instrumentName = \markup {
                     \hcenter-in
                         #16
-                        Harpsichord
+                        Piano
                     }
                     \set PianoStaffGroup.shortInstrumentName = \markup {
                     \hcenter-in
                         #10
-                        Hpschd.
+                        Pf.
                     }
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
@@ -1417,6 +1417,12 @@
                                     Hpschd.
                                 }
                             r2
+                                ^ \markup {
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to harpsichord"
+                                    }
                             r2
                             R1 * 45/4
                             \bar "|"

@@ -108,6 +108,7 @@ def make_shell_exchange_rhythm_specifier(
 
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=extras,
+        logical_tie_masks=rhythmmakertools.silence_last(),
         talea=rhythmmakertools.Talea(
             counts=counts,
             denominator=8,
