@@ -462,10 +462,10 @@ eh tacet.
 no pause.
 
     bfl: tapered pedal
-        niente < p > niente
+        p swells
     eh: keynoise
     bcl: tapered pedal
-        niente < p > niente
+        p swells
     pf: [resonance]
     perc: castanets, struck bd
     vn: spazzolati
@@ -507,11 +507,12 @@ no pause.
         (tasto +) poco vib. ...
 
 [A18]
+[A2.1]
 (short stage.)
 shell (β) pf attacks field.
 shell (β) vn, bowed crotale attack final note simultaneously ff.
 shell (β) va XFB continues pp.
-jewelers' desk (γ) eh keynoise.
+jewelers' desk (γ) eh keynoise begins.
 jewlers' desk (γ) bfl, bcl, vc continue [1].
 no players tacet.
 no pause.
@@ -520,7 +521,7 @@ no pause.
         ... p swells
     eh: keynoise
     bcl: ... glowing wind (a) ...
-        ... p swells
+        ... p swells ...
     pf: attack sfz
     perc: two-part exchange (simultaneous)
         single ff
@@ -537,6 +538,7 @@ no pause.
         ... (tasto +) poco vib. ...
 
 [A19]
+[A2.2]
 shell (β) pf resonance, bowed crotale resonance continue.
 jewelers' desk (γ) eh keynoise continues.
 jewelers' desk (γ) bfl, bcl, vc begin transition from [1] to [2.3].
@@ -546,7 +548,7 @@ no pause.
 
     bfl: ... glowing wind (a) ...
         p swells -> f swells ...
-    eh: [keynoise]
+    eh: ... keynoise ...
     bcl: ... glowing wind (a) ...
         ... p swells ...
     pf: [resonance]
@@ -561,6 +563,7 @@ no pause.
         (tasto + poco vib.) -> molto pont. + vib. molto ...
 
 [A20]
+[A2.3]
 gears (α) vn spazzolati, va spazzolati begin decrescendo from ff to niente.
 jewelers' desk (γ) eh keynoise continues.
 jewelers' desk (γ) bfl, bcl, vc continue transition from [1] to [2.3].
@@ -569,7 +572,7 @@ no pause.
 
     bfl: ... glowing wind (a) ...
         ... p swells -> f swells
-    eh: [keynoise]
+    eh: ... keynoise
     bcl: ... glowing wind (a) ...
         ... p swells ...
     pf: [resonance]
@@ -584,6 +587,7 @@ no pause.
         ... (tasto + poco vib.) -> molto pont. + vib. molto ...
 
 [A21]
+[A2.4]
 shell (β) pf resonance continues.
 shell (β) eh trills return.
 gears (α) vn, va spazzolati continue decrescendo.
@@ -608,6 +612,7 @@ no pause.
         ... molto pont. + vib. molto ...
 
 [A22]
+[A2.5]
 shell (β) pf resonance continues.
 gears (α) vn, va spazzolati complete decrescendo.
 jewelers' desk (γ) eh keynoise.
@@ -631,8 +636,9 @@ perc tacet.
         ... molto pont. + vib. molto ...
 
 [A23]
+[A2.6]
 shell (β) pf attacks same pitch as marimba and sustains with middle pedal.
-shell (β) eh trills.
+shell (β) eh trills begin approaching apotheosis.
 jewelers' desk (γ) bfl, bcl, vc transitions from [2.3] to [1].
 jewelers' desk (γ) vn, va begin poccissimo scratch pedals.
 jewelers' desk (γ) lowregister attackless marimba pedal begins.
@@ -641,7 +647,7 @@ no pause.
 
     bfl: ... glowing wind (a) ...
         f swells -> p swells
-    eh: even more trills
+    eh: approaching trill apotheosis ...
     bcl: ... glowing wind (a) ...
         ... p swells ...
     pf: attack
@@ -657,15 +663,16 @@ no pause.
         (molto pont. + vib. molto) -> tasto + poco vib.
 
 [A24]
-jewelers' desk (γ) bfl glowing multiphonics, eh keynoise,
-marimba, vn, va reilluminates with mf swell enveloping.
+[A2.7]
+jewelers' desk (γ) bfl glow, marimba, vn, va reilluminates with mf swells.
 jewelers' desk (γ) pf resonance continues.
 jewelers' desk (γ) bcl, vc achieve [1].
 jewelers' desk (γ) vc begins transition to non vibrato.
+shell (β) eh trills continue approaching apotheosis.
 
     bfl: ... glowing wind (a) ...
         p swells ...
-    eh: [even more trills]
+    eh: ... approaching trill apotheosis
     bcl: ... glowing wind (a) ...
         ... p swells ...
     pf: [resonance]
@@ -681,6 +688,7 @@ jewelers' desk (γ) vc begins transition to non vibrato.
         [[tasto + poco vib.]] -> (tasto +) non. vib. ...
 
 [A25]
+[A2.8]
 long stage.
 
     bfl: ... glowing wind (a) ...
@@ -701,6 +709,7 @@ long stage.
         ... (tasto +) non vib. ...
 
 [A26]
+[A2.9]
 long stage.
 
     bfl: ... glowing wind (a) ...
@@ -722,6 +731,7 @@ long stage.
         (tasto +) non vib -> PO (+ non vib.) ...
 
 [A27]
+[A2.10]
 
     bfl: ... glowing wind (a)
         f swells -> p swells
@@ -742,6 +752,7 @@ long stage.
         ... (tasto +) non vib -> PO (+ non vib.) ...
 
 [A28]
+[A2.11]
 
     bfl: successive tapers ...
         p swells
@@ -762,6 +773,7 @@ long stage.
         [[PO (+ non vib)]] -> tasto (+ non vib) ...
 
 [A29]
+[A2.12]
 
     bfl: ... successive tapers ...
         pp swells
@@ -780,6 +792,7 @@ long stage.
         ... PO (+ non vib) -> tasto (+ non vib) ...
 
 [A30]
+[A2.13]
 
     bfl: ... successive tapers ...
         ppp swells ...
@@ -798,6 +811,7 @@ long stage.
         ... PO (+ non vib) -> tasto (+ non vib) ...
 
 [A31]
+[A2.14]
 
     bfl: ... successive tapers 
         ... ppp swells
@@ -816,6 +830,7 @@ long stage.
         C#2 -> B#1
 
 [A32]
+[A2.15]
 lead-in to prefigurement.
 
     bfl: --
@@ -829,6 +844,7 @@ lead-in to prefigurement.
     vc: continuous clb ...
 
 [A33]
+[A2.16]
 composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
 
     bfl: successive tapers
@@ -846,6 +862,7 @@ composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
     vc: ... continuous clb ...
 
 [A34]
+[A2.17]
 after prefigurement.
 
     bfl: --

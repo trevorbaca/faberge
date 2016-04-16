@@ -11,17 +11,17 @@ from faberge.materials.__abbreviations__ import *
 
 stage_specifier = baca.tools.StageSpecifier([
     4, # 1
-    4, # 2
+    8, # 2
     4, # 3
     2, # 4
-    2, # 5
+    4, # 5
     2, # 6
     2, # 7
-    2, # 8
+    4, # 8
     2, # 9
     2, # 10
     2, # 11
-    2, # 12
+    4, # 12
     2, # 13
     2, # 14
     2, # 15
@@ -30,12 +30,12 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 18
     2, # 19
     2, # 20
-    2, # 21
+    4, # 21
     2, # 22
-    2, # 23
-    2, # 24
-    2, # 25
-    2, # 26
+    4, # 23
+    4, # 24
+    4, # 25
+    4, # 26
     2, # 27
     2, # 28
     2, # 29
@@ -75,7 +75,7 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(34)
-segment_maker.validate_measure_count(78)
+segment_maker.validate_measure_count(98)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -137,43 +137,55 @@ segment_maker.append_specifiers(
 ### english horn (time) ###
 
 segment_maker.append_specifiers(
-    (eh, [stages(2)]),
-    faberge.tools.make_eh_trill_rhythm_specifier(),
+    (eh, stages(2)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
+        ),
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(5)]),
-    faberge.tools.make_eh_trill_rhythm_specifier(),
+    (eh, stages(5)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[-4, -1, 3, -1, 3, 8, -4, -1, 3],
+        ),
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(8)]),
-    faberge.tools.make_eh_trill_rhythm_specifier(),
+    (eh, stages(8)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 15],
+        ),
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(12)]),
-    faberge.tools.make_eh_trill_rhythm_specifier(),
+    (eh, stages(12)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[-4, -1, 15, -4, -1, 15],
+        ),
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(16)]),
+    (eh, stages(16)),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(17)]),
-    faberge.tools.make_eh_trill_rhythm_specifier(),
+    (eh, stages(17)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[-4, -1, 7, -1, 7, -1, 3, 16],
+        ),
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(18, 20)]),
+    (eh, stages(18, 20)),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(21)]),
-    faberge.tools.make_eh_trill_rhythm_specifier(),
+    (eh, stages(21)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[-4, -1, 3, -1, 3, 8, 16, 24, -4],
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -181,14 +193,20 @@ segment_maker.append_specifiers(
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
+# approach
 segment_maker.append_specifiers(
-    (eh, stages(23, 25)),
-    faberge.tools.make_eh_trill_rhythm_specifier(),
+    (eh, stages(23, 24)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[-4, -1, 23, -1, 3, 36, 48],
+        ),
     )
 
+# apotheosis
 segment_maker.append_specifiers(
-    (eh, stages(26)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (eh, stages(25, 26)),
+    faberge.tools.make_eh_trill_rhythm_specifier(
+        counts=[4, 8, 16, -1, 31, -1, 63, -1, 127],
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -732,8 +750,49 @@ segment_maker.append_specifiers(
     (eh, stages(2)),
     [
         baca.markup.make_boxed_markup('NB: some durations cross barlines'),
+        baca.pitch.pitches('E4 E4 Eb~4 E4 E#+4'),
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(5)),
+    [
+        baca.spanners.pervasive_trills(),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(8)),
+    [
+        baca.spanners.pervasive_trills(),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, [stages(8), stages(12), stages(17), stages(21)]),
+    [
+        baca.spanners.pervasive_trills(),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(23, 24)),
+    [
+        baca.spanners.pervasive_trills(),
+        Dynamic('ff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(25, 26)),
+    [
+        baca.spanners.pervasive_trills(),
+        Dynamic('fff'),
         ],
     )
 
@@ -746,17 +805,68 @@ segment_maker.append_specifiers(
         ],
     )
 
-segment_maker.append_specifiers(
-    (cl, stages(8)),
-    [
-        faberge.materials.instruments['bass clarinet'],
-        ],
-    )
+# TODO: uncomment after checking right-displacement of flute part
+#segment_maker.append_specifiers(
+#    (cl, stages(8)),
+#    [
+#        faberge.materials.instruments['bass clarinet'],
+#        ],
+#    )
 
 segment_maker.append_specifiers(
     (cl, stages(9, 17)),
     [
         baca.pitch.pitches('D2 D+2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(9, 12)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(13)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['ppp']),
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(14, 15)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(16)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(17, 27)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['p']),
+            include_following_rests=True,
+            ),
         ],
     )
 
@@ -782,6 +892,36 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (cl, stages(28)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['pp']),
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(29)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['ppp']),
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(30, 31)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['pppp']),
+            include_following_rests=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (cl, stages(31)),
     [
         baca.pitch.pitches('C#2'),
@@ -792,6 +932,16 @@ segment_maker.append_specifiers(
     (cl, stages(33)),
     [
         baca.pitch.pitches('C#2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (cl, stages(33)),
+    [
+        baca.dynamics.make_hairpins(
+            hairpin_tokens=baca.dynamics.make_niente_swell_specifiers(['pppp']),
+            include_following_rests=True,
+            ),
         ],
     )
 
