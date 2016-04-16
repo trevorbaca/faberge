@@ -506,7 +506,6 @@ no pause.
         p ...
         (tasto +) poco vib. ...
 
-[A18]
 [A2.1]
 (short stage.)
 shell (β) pf attacks field.
@@ -537,7 +536,6 @@ no pause.
         ... p ...
         ... (tasto +) poco vib. ...
 
-[A19]
 [A2.2]
 shell (β) pf resonance, bowed crotale resonance continue.
 jewelers' desk (γ) eh keynoise continues.
@@ -562,7 +560,6 @@ no pause.
         p < ff ...
         (tasto + poco vib.) -> molto pont. + vib. molto ...
 
-[A20]
 [A2.3]
 gears (α) vn spazzolati, va spazzolati begin decrescendo from ff to niente.
 jewelers' desk (γ) eh keynoise continues.
@@ -586,7 +583,6 @@ no pause.
         ... p < ff ...
         ... (tasto + poco vib.) -> molto pont. + vib. molto ...
 
-[A21]
 [A2.4]
 shell (β) pf resonance continues.
 shell (β) eh trills return.
@@ -611,7 +607,6 @@ no pause.
         ... ff ...
         ... molto pont. + vib. molto ...
 
-[A22]
 [A2.5]
 shell (β) pf resonance continues.
 gears (α) vn, va spazzolati complete decrescendo.
@@ -635,7 +630,6 @@ perc tacet.
         ... ff ...
         ... molto pont. + vib. molto ...
 
-[A23]
 [A2.6]
 shell (β) pf attacks same pitch as marimba and sustains with middle pedal.
 shell (β) eh trills begin approaching apotheosis.
@@ -662,7 +656,6 @@ no pause.
         ff > p
         (molto pont. + vib. molto) -> tasto + poco vib.
 
-[A24]
 [A2.7]
 jewelers' desk (γ) bfl glow, marimba, vn, va reilluminates with mf swells.
 jewelers' desk (γ) pf resonance continues.
@@ -687,7 +680,6 @@ shell (β) eh trills continue approaching apotheosis.
         ... p ...
         [[tasto + poco vib.]] -> (tasto +) non. vib. ...
 
-[A25]
 [A2.8]
 long stage.
 
@@ -708,7 +700,6 @@ long stage.
         ... p ...
         ... (tasto +) non vib. ...
 
-[A26]
 [A2.9]
 long stage.
 
@@ -730,7 +721,6 @@ long stage.
         p < f ...
         (tasto +) non vib -> PO (+ non vib.) ...
 
-[A27]
 [A2.10]
 
     bfl: ... glowing wind (a)
@@ -751,7 +741,6 @@ long stage.
         ... p < f ...
         ... (tasto +) non vib -> PO (+ non vib.) ...
 
-[A28]
 [A2.11]
 
     bfl: successive tapers ...
@@ -772,7 +761,6 @@ long stage.
         f > niente ...
         [[PO (+ non vib)]] -> tasto (+ non vib) ...
 
-[A29]
 [A2.12]
 
     bfl: ... successive tapers ...
@@ -791,7 +779,6 @@ long stage.
         ... f > niente ...
         ... PO (+ non vib) -> tasto (+ non vib) ...
 
-[A30]
 [A2.13]
 
     bfl: ... successive tapers ...
@@ -810,7 +797,6 @@ long stage.
         ... f > niente ...
         ... PO (+ non vib) -> tasto (+ non vib) ...
 
-[A31]
 [A2.14]
 
     bfl: ... successive tapers 
@@ -829,7 +815,6 @@ long stage.
         ... PO (+ non vib) -> tasto (+ non vib)
         C#2 -> B#1
 
-[A32]
 [A2.15]
 lead-in to prefigurement.
 
@@ -843,7 +828,6 @@ lead-in to prefigurement.
         ... mf ...
     vc: continuous clb ...
 
-[A33]
 [A2.16]
 composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
 
@@ -861,7 +845,6 @@ composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
         ... mf ...
     vc: ... continuous clb ...
 
-[A34]
 [A2.17]
 after prefigurement.
 

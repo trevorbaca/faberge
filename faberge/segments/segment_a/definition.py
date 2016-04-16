@@ -272,15 +272,14 @@ segment_maker.append_specifiers(
         ),
     )
 
-# TODO: figure out why this displaces over barlines, then uncomment:
-#segment_maker.append_specifiers(
-#    (vn, stages(12)),
-#    faberge.tools.make_shell_exchange_rhythm_specifier(
-#        extra_counts_per_division_rotation=2,
-#        total_parts=2,
-#        this_part=0,
-#        ),
-#    )
+segment_maker.append_specifiers(
+    (vn, stages(12)),
+    faberge.tools.make_shell_exchange_rhythm_specifier(
+        extra_counts_per_division_rotation=2,
+        total_parts=2,
+        this_part=0,
+        ),
+    )
 
 segment_maker.append_specifiers(
     (vn, stages(13)),
@@ -469,16 +468,15 @@ segment_maker.append_specifiers(
         ],
     )
 
-# TODO: uncomment after violin rhythm exists again
-#segment_maker.append_specifiers(
-#    ([vn, perc], stages(12)),
-#    [
-#        baca.dynamics.make_hairpins(
-#            ['niente < f'],
-#            include_following_rests=True,
-#            ),
-#        ],
-#    )
+segment_maker.append_specifiers(
+    ([vn, perc], stages(12)),
+    [
+        baca.dynamics.make_hairpins(
+            ['niente < f'],
+            include_following_rests=True,
+            ),
+        ],
+    )
 
 segment_maker.append_specifiers(
     ([vn, perc], stages(14)),
@@ -593,13 +591,12 @@ segment_maker.append_specifiers(
         ],
     )
 
-# TODO: uncomment after checking right-displacement of flute part
-#segment_maker.append_specifiers(
-#    (cl, stages(8)),
-#    [
-#        faberge.materials.instruments['bass clarinet'],
-#        ],
-#    )
+segment_maker.append_specifiers(
+    (cl, stages(8)),
+    [
+        faberge.materials.instruments['bass clarinet'],
+        ],
+    )
 
 segment_maker.append_specifiers(
     (cl, stages(9, 17)),
