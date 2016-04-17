@@ -353,6 +353,22 @@
                     \time 4/4
                     R1 * 1
                 }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
@@ -713,7 +729,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -723,7 +739,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -908,20 +924,13 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
                                 #-2
                                 1'22''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.9]
                             }
                 }
                 {
@@ -936,13 +945,20 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
                                 #-2
                                 1'27''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.9]
                             }
                 }
                 {
@@ -958,7 +974,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -969,7 +985,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -987,17 +1003,10 @@
                                 #-2
                                 1'34''
                             }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.10]
-                            }
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1021,7 +1030,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A.11]
+                                    [A.10]
                             }
                 }
                 {
@@ -1037,7 +1046,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1050,12 +1059,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A.12]
+                                    [A.11]
                             }
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1066,7 +1075,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1074,10 +1083,17 @@
                                 #-2
                                 1'45''
                             }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.12]
+                            }
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1096,13 +1112,6 @@
                                 #-2
                                 1'48''
                             }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.13]
-                            }
                 }
                 {
                     \time 2/4
@@ -1117,7 +1126,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1128,7 +1137,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1139,7 +1148,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1147,10 +1156,17 @@
                                 #-2
                                 1'55''
                             }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.13]
+                            }
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1172,7 +1188,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1190,13 +1206,6 @@
                             \fontsize
                                 #-2
                                 2'04''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.14]
                             }
                 }
                 {
@@ -1222,7 +1231,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1241,10 +1250,17 @@
                                 #-2
                                 2'12''
                             }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.14]
+                            }
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1254,20 +1270,13 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
                                 #-2
                                 2'15''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.15]
                             }
                 }
                 {
@@ -1304,7 +1313,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1317,11 +1326,11 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [A.16]
+                                    [A.15]
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -1332,7 +1341,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1343,7 +1352,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -1362,10 +1371,17 @@
                                 #-2
                                 2'30''
                             }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.16]
+                            }
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -1398,13 +1414,57 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
                                 #-2
                                 2'36''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'38''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'40''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'42''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'45''
                             }
                         - \markup {
                             \fontsize
@@ -1422,18 +1482,18 @@
                         ^ \markup {
                             \fontsize
                                 #-2
-                                2'38''
+                                2'46''
                             }
                 }
                 {
-                    \time 3/4
+                    \time 2/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
-                    s1 * 3/4
+                    s1 * 1/2
                         ^ \markup {
                             \fontsize
                                 #-2
-                                2'40''
+                                2'49''
                             }
                 }
                 {
@@ -1444,7 +1504,7 @@
                         ^ \markup {
                             \fontsize
                                 #-2
-                                2'42''
+                                2'50''
                             }
                 }
             }
@@ -1731,37 +1791,37 @@
                             r2
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r4. \p
+                            r4. \pp
                         }
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r2 \mp
+                            r2 \pp
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
                         }
                         {
-                            r2. \mf
+                            r2. \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r4 \mf
+                            r4 \p
                         }
                         {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r4. \f
+                            r4. \mp
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
                         }
                         {
-                            r4 \f
+                            r4 \mf
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r2 \f
+                            r2 \mf
                             r8
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -1788,6 +1848,21 @@
                         {
                             r2 \f
                         }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'''8 \<
+                            r2 \f
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'''8 \<
+                            r8 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'''8 \<
+                            r2 \f
+                            r8
+                        }
                         \set Staff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -1813,20 +1888,22 @@
                                     \box
                                         "to bass flute"
                                 }
-                        r1
-                        r2.
                         r2
-                        R1 * 59/4
+                        r1
+                        r2
+                        r2.
+                        r1
+                        R1 * 57/4
                         \once \override Hairpin #'circled-tip = ##t
                         fs''4 \<
                         fs''4 \repeatTie \p
-                        fs''2 \repeatTie
                         fs''2. \repeatTie
                         fs''1 \repeatTie
                         fs''2 \repeatTie
                         fs''2. \repeatTie
                         fs''1 \repeatTie
-                        fs''4 \repeatTie
+                        fs''2. \repeatTie
+                        fs''2. \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
                         fs''8. \repeatTie \> \p
                         r16 \!
@@ -1867,7 +1944,7 @@
                                     }
                         }
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fs''2 \repeatTie
+                        fs''4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
                         fs''2. \repeatTie \> \p
                         r4 \!
@@ -1905,10 +1982,10 @@
                         r4 \stopTrillSpan
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        b'8. \startTrillSpan
+                        btqf'8. \startTrillSpan
                         r16 \stopTrillSpan
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        btqf'8. \startTrillSpan
+                        bqf'8. \startTrillSpan
                         r16 \stopTrillSpan
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         b'8. \startTrillSpan
@@ -1918,151 +1995,254 @@
                         r4
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'8. \f \startTrillSpan
+                        cs''8. \f \startTrillSpan
                         r16 \stopTrillSpan
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'8. \startTrillSpan
-                        g'4 \stopTrillSpan \startTrillSpan
-                        g'4 \repeatTie
+                        ctqs''4.. \startTrillSpan
+                        ctqs''16 \repeatTie [
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        bs'8. ] \stopTrillSpan \startTrillSpan
                         r4 \stopTrillSpan
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'8. \startTrillSpan
+                        btqs'8. \startTrillSpan
+                        btqs'16 \repeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        cs''4.. \stopTrillSpan \startTrillSpan
+                        cs''4 \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        ctqs''8. \startTrillSpan
+                        R1 * 8 \stopTrillSpan
+                        r4
+                        r16
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        ds''4.. \f \startTrillSpan
+                        ds''2 \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        ctqs''8. \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        d''8. \startTrillSpan
                         r2 \stopTrillSpan
-                        r2
-                        R1 * 8
+                        r16
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        dqs''2... \startTrillSpan
+                        dqs''16 \repeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        dtqs''2... \stopTrillSpan \startTrillSpan
+                        r2. \stopTrillSpan
+                        R1 * 15/2
                         r4
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4.. \f \startTrillSpan \startTrillSpan
-                        g'2 \repeatTie
-                        r16 \stopTrillSpan \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'8. \startTrillSpan \startTrillSpan
-                        r16 \stopTrillSpan \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'8. \startTrillSpan \startTrillSpan
-                        r2 \stopTrillSpan \stopTrillSpan
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2... \startTrillSpan \startTrillSpan
-                        R1 * 15/2 \stopTrillSpan \stopTrillSpan
-                        r4
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4.. \f \startTrillSpan
-                        g'2 \repeatTie
+                        es''4.. \f \startTrillSpan
+                        es''2 \repeatTie
                         r4 \stopTrillSpan
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'8. \startTrillSpan
-                        g'2. \repeatTie
-                        r2 \stopTrillSpan
-                        R1 * 59/4
-                        r4
-                        \times 4/7 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
+                        eqs''4 \startTrillSpan
+                        etqs''4.. \stopTrillSpan \startTrillSpan
+                        etqs''2 \repeatTie
+                        etqs''2 \repeatTie
+                        r4 \stopTrillSpan
+                        r1
+                        R1 * 57/4
+                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
                             r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        r4
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
+                            \once \override NoteHead #'style = #'cross
+                            fqs'16 [
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                keynoise
+                                    }
+                                _ \markup {
+                                    \larger
+                                        \italic
+                                            “
+                                    \dynamic
+                                        \override
+                                            #'(font-name . #f)
+                                            f
+                                    \larger
+                                        \italic
+                                            ”
+                                    }
+                            \once \override NoteHead #'style = #'cross
+                            f'16
+                            \once \override NoteHead #'style = #'cross
+                            d'16
+                            \once \override NoteHead #'style = #'cross
+                            cs'16 ]
                         }
                         {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16 ]
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            ef'8
                         }
+                        \times 2/3 {
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            e'4
+                        }
+                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
                             r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
+                            \once \override NoteHead #'style = #'cross
+                            eqs'4
                         }
+                        \times 2/3 {
+                            \once \override NoteHead #'style = #'cross
+                            r4
+                            \once \override NoteHead #'style = #'cross
+                            gs'8
+                        }
+                        {
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            aqf'16 [
+                            \once \override NoteHead #'style = #'cross
+                            bf'16 ]
+                        }
+                        \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
+                            r16
+                            \once \override NoteHead #'style = #'cross
+                            a'16 [
+                            \once \override NoteHead #'style = #'cross
+                            eqs'16
+                            \once \override NoteHead #'style = #'cross
+                            ef'16
+                            \once \override NoteHead #'style = #'cross
+                            e'16 ]
+                        }
+                        \once \override NoteHead #'style = #'cross
                         r4
+                        \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
+                            r16
+                            \once \override NoteHead #'style = #'cross
+                            a'16 [
+                            \once \override NoteHead #'style = #'cross
+                            gs'16
+                            \once \override NoteHead #'style = #'cross
+                            aqf'16
+                            \once \override NoteHead #'style = #'cross
+                            bf'16 ]
+                        }
+                        {
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            cs'8
+                        }
+                        \times 2/3 {
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            fqs'4
+                        }
+                        \once \override NoteHead #'style = #'cross
+                        r4
+                        \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
+                            r16
+                            \once \override NoteHead #'style = #'cross
+                            f'4
+                        }
+                        \times 2/3 {
+                            \once \override NoteHead #'style = #'cross
+                            r4
+                            \once \override NoteHead #'style = #'cross
+                            d'8
+                        }
+                        {
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            bf'16 [
+                            \once \override NoteHead #'style = #'cross
+                            a'16 ]
+                        }
+                        \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
+                            r16
+                            \once \override NoteHead #'style = #'cross
+                            gs'16 [
+                            \once \override NoteHead #'style = #'cross
+                            aqf'16
+                            \once \override NoteHead #'style = #'cross
+                            d'16
+                            \once \override NoteHead #'style = #'cross
+                            cs'16 ]
+                        }
+                        \once \override NoteHead #'style = #'cross
+                        r4
+                        \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
+                            r16
+                            \once \override NoteHead #'style = #'cross
+                            fqs'16 [
+                            \once \override NoteHead #'style = #'cross
+                            f'16
+                            \once \override NoteHead #'style = #'cross
+                            e'16
+                            \once \override NoteHead #'style = #'cross
+                            eqs'16 ]
+                        }
+                        {
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            ef'8
+                        }
+                        \times 2/3 {
+                            \once \override NoteHead #'style = #'cross
+                            r8
+                            \once \override NoteHead #'style = #'cross
+                            f'4
+                        }
+                        \once \override NoteHead #'style = #'cross
+                        r4
+                        \times 4/5 {
+                            \once \override NoteHead #'style = #'cross
+                            r16
+                            \once \override NoteHead #'style = #'cross
+                            d'4
+                        }
+                        \times 2/3 {
+                            \once \override NoteHead #'style = #'cross
+                            r4
+                            \once \override NoteHead #'style = #'cross
+                            cs'8
+                        }
                         r4
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g'4.. \f \startTrillSpan
                         r16 \stopTrillSpan
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4.. \startTrillSpan
+                        gqs'4.. \startTrillSpan
                         r16 \stopTrillSpan
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'8. \startTrillSpan
-                        g'4 \stopTrillSpan \startTrillSpan
-                        g'2. \repeatTie
-                        r1 \stopTrillSpan
+                        gqf'4.. \startTrillSpan
+                        gqf'2 \repeatTie
+                        gqf'16 \repeatTie [
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        gs'8. ] \stopTrillSpan \startTrillSpan
+                        r2. \stopTrillSpan
                         \bar "|"
                     }
                 }
@@ -2354,46 +2534,13 @@
                         r1
                         r2
                         r1
+                        r1
+                        r2.
                         \once \override Hairpin #'circled-tip = ##t
                         e4 \<
-                        e\breve \repeatTie \p
+                        e1. \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
                         e8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqs4 \<
-                        eqs1.. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        eqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e4 \<
-                        e\breve. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        e8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqs4 \<
-                        eqs1.. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        eqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e4 \<
-                        e2. \repeatTie \ppp
-                        e2 \repeatTie
-                        e2. \repeatTie
-                        e1 \repeatTie
-                        e2. \repeatTie
-                        e1 \repeatTie
-                        e2. \repeatTie
-                        e2. \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        e8. \repeatTie \> \ppp
                         r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2401,6 +2548,43 @@
                         eqs\breve \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
                         eqs8. \repeatTie \> \p
+                        r16 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        e4 \<
+                        e\breve. \repeatTie \p
+                        e4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \> \p
+                        r16 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        eqs4 \<
+                        eqs1. \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        eqs8. \repeatTie \> \p
+                        r16 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        e4 \<
+                        e1 \repeatTie \p
+                        e4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        e8. \repeatTie \> \p
+                        r16 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        eqs4 \<
+                        eqs2 \repeatTie \ppp
+                        eqs1 \repeatTie
+                        eqs2. \repeatTie
+                        eqs1 \repeatTie
+                        eqs2 \repeatTie
+                        eqs1 \repeatTie
+                        eqs1 \repeatTie
+                        eqs2 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        eqs8. \repeatTie \> \ppp
                         r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2412,20 +2596,15 @@
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4 \<
-                        eqs\breve. \repeatTie \p
+                        eqs\breve \repeatTie \p
+                        eqs4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
                         eqs8. \repeatTie \> \p
                         r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4 \<
-                        e4 \repeatTie \p
-                        e2 \repeatTie
-                        e2. \repeatTie
-                        e1 \repeatTie
-                        e2 \repeatTie
-                        e2. \repeatTie
-                        e1 \repeatTie
+                        e\breve \repeatTie \p
                         e4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
                         e8. \repeatTie \> \p
@@ -2433,16 +2612,30 @@
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4 \<
-                        eqs\breve \repeatTie \p
+                        eqs4 \repeatTie \p
+                        eqs2. \repeatTie
+                        eqs1 \repeatTie
+                        eqs2 \repeatTie
+                        eqs2. \repeatTie
+                        eqs1 \repeatTie
+                        eqs2. \repeatTie
+                        eqs2. \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
                         eqs8. \repeatTie \> \p
                         r16 \!
                         \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4 \<
-                        e2 \repeatTie \p
+                        e1.. \repeatTie \p
                         \once \override Hairpin #'circled-tip = ##t
                         e8. \repeatTie \> \p
+                        r16 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        eqs4 \<
+                        eqs2 \repeatTie \p
+                        \once \override Hairpin #'circled-tip = ##t
+                        eqs8. \repeatTie \> \p
                         r16 \!
                         \bar "|"
                     }
@@ -2465,367 +2658,322 @@
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
                             \once \override NoteHead #'style = #'harmonic
-                            c'2.
+                            <d' e' fs' c'' d''>2.
+                                ^ \markup {
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            \column
+                                                {
+                                                    \line
+                                                        {
+                                                            "depress silently;"
+                                                        }
+                                                    \line
+                                                        {
+                                                            "sustain with middle pedal"
+                                                        }
+                                                }
+                                    }
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
+                            <d' e' fs' c'' d''>2 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
+                            <d' e' fs' c'' d''>2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
+                            <d' e' fs' c'' d''>1 \repeatTie
                             \bar "|"
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2.
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            c'1 \repeatTie
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1/2
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 3/4
+                            R1 * 1
+                            R1 * 1/2
+                            R1 * 1
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
-                            cs,16 -\marcato \sfz
+                            \once \override Accidental.stencil = ##f
+                            \once \override AccidentalCautionary.stencil = ##f
+                            \once \override Arpeggio.X-offset = #-2
+                            \once \override NoteHead.stencil = #ly:text-interface::print
+                            \once \override NoteHead.text = \markup {
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            }
+                            <c, e, g, b,>16
+                                ^ \markup {
+                                    \center-align
+                                        \concat
+                                            {
+                                                \natural
+                                                \flat
+                                            }
+                                    }
                             s2
                             s8.
                             s1
@@ -2839,6 +2987,121 @@
                             s2
                             s1
                             s2
+                            \once \override Accidental.stencil = ##f
+                            \once \override AccidentalCautionary.stencil = ##f
+                            \once \override Arpeggio.X-offset = #-2
+                            \once \override NoteHead.stencil = #ly:text-interface::print
+                            \once \override NoteHead.text = \markup {
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            }
+                            <c, e, g, b,>16
+                                ^ \markup {
+                                    \center-align
+                                        \concat
+                                            {
+                                                \natural
+                                                \flat
+                                            }
+                                    }
+                            s2
+                            s8.
+                            s1
+                            s2.
+                            s1
+                            s2.
+                            s1
+                            s2
+                            s1
+                            s1
+                            s2.
+                            s2
+                            s2.
+                            s2.
+                            s1
+                            \once \override Accidental.stencil = ##f
+                            \once \override AccidentalCautionary.stencil = ##f
+                            \once \override Arpeggio.X-offset = #-2
+                            \once \override NoteHead.stencil = #ly:text-interface::print
+                            \once \override NoteHead.text = \markup {
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            }
+                            <c, e, g, b,>16
+                                ^ \markup {
+                                    \center-align
+                                        \concat
+                                            {
+                                                \natural
+                                                \flat
+                                            }
+                                    }
+                            s2...
+                            s2.
+                            s2
+                            s2
+                            s2.
+                            s1
+                            s2
+                            s2.
+                            s1
+                            s2
+                            s2.
+                            s1
+                            s2.
+                            s1
+                            \once \override Accidental.stencil = ##f
+                            \once \override AccidentalCautionary.stencil = ##f
+                            \once \override Arpeggio.X-offset = #-2
+                            \once \override NoteHead.stencil = #ly:text-interface::print
+                            \once \override NoteHead.text = \markup {
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            }
+                            <c, e, g, b,>16
+                                ^ \markup {
+                                    \center-align
+                                        \concat
+                                            {
+                                                \natural
+                                                \flat
+                                            }
+                                    }
+                            s2
+                            s8.
+                            s1
+                            s2
+                            s1
+                            s1
+                            s2.
+                            s2.
+                            s2
+                            s2.
+                            s1
+                            s1
+                            s2
+                            s2.
+                            s2
+                            s2.
+                            s1
+                            \once \override Accidental.stencil = ##f
+                            \once \override AccidentalCautionary.stencil = ##f
+                            \once \override Arpeggio.X-offset = #-2
+                            \once \override NoteHead.stencil = #ly:text-interface::print
+                            \once \override NoteHead.text = \markup {
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            }
+                            <c, e, g, b,>16
+                                ^ \markup {
+                                    \center-align
+                                        \concat
+                                            {
+                                                \natural
+                                                \flat
+                                            }
+                                    }
+                            s2
+                            s8.
+                            s2
+                            s1
+                            s2
                             s2.
                             s1
                             s2.
@@ -2867,53 +3130,26 @@
                             s1
                             s2.
                             s1
-                            s2.
+                            \once \override Accidental.stencil = ##f
+                            \once \override AccidentalCautionary.stencil = ##f
+                            \once \override Arpeggio.X-offset = #-2
+                            \once \override NoteHead.stencil = #ly:text-interface::print
+                            \once \override NoteHead.text = \markup {
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            }
+                            <c, e, g, b,>16
+                                ^ \markup {
+                                    \center-align
+                                        \concat
+                                            {
+                                                \natural
+                                                \flat
+                                            }
+                                    }
+                            s2
+                            s8.
                             s1
                             s2
-                            s1
-                            s1
-                            s2.
-                            s2.
-                            s2
-                            s2.
-                            s1
-                            s1
-                            s2
-                            s2.
-                            s2
-                            s2.
-                            s1
-                            s2.
-                            s2
-                            s1
-                            s2
-                            s2.
-                            s1
-                            s2.
-                            s1
-                            s2.
-                            s1
-                            s2
-                            s1
-                            s1
-                            s2.
-                            s2
-                            s2.
-                            s2.
-                            s1
-                            s1
-                            s2.
-                            s2
-                            s2
-                            s2.
-                            s1
-                            s2
-                            s2.
-                            s1
-                            s2
-                            s2.
-                            s1
-                            s2.
                             s1
                             \bar "|"
                         }
@@ -3175,20 +3411,20 @@
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             f'8 -\laissezVibrer \<
-                            r2. \p
+                            r2. \pp
                         }
                         {
                             r2
                             \once \override Hairpin #'circled-tip = ##t
                             f'8 -\laissezVibrer \<
-                            r8 \mp
+                            r8 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             f'8 -\laissezVibrer \<
-                            r4 \mf
+                            r4 \p
                         }
                         {
                             r2
@@ -3196,16 +3432,16 @@
                         {
                             \once \override Hairpin #'circled-tip = ##t
                             f'8 -\laissezVibrer \<
-                            r4. \mf
+                            r4. \mp
                             \once \override Hairpin #'circled-tip = ##t
                             f'8 -\laissezVibrer \<
-                            r8 \f
+                            r8 \mf
                         }
                         {
                             r2.
                             \once \override Hairpin #'circled-tip = ##t
                             f'8 -\laissezVibrer \<
-                            r8 \f
+                            r8 \mf
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 8/7 {
@@ -3230,6 +3466,22 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \f
+                        }
+                        {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r2 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \f
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
@@ -3237,26 +3489,41 @@
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4. \pp
+                        {
+                            r2 \pp
+                        }
+                        {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4. \pp
-                        }
-                        {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r8 \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r4 \pp
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
+                            r8 \pp
                         }
                         {
-                            r4. \pp
                             r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \pp
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \pp
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r2 \pp
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \pp
                         }
                         R1 * 27/4
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -3267,81 +3534,74 @@
                             r8 \p
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
+                        \times 6/5 {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4. \mp
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \mf
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r8 \mf
+                        }
+                        {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
                         }
                         {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r8 \mf
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r4 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
+                            r4. \f
                         }
                         {
-                            r4. \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r4 \f
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r8
+                            r8 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r8 \f
                         }
                         {
                             r2
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r8 \f
-                        }
-                        {
-                            r4
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r8 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r8 \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r2
+                        \times 6/5 {
+                            r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4 \f
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
+                        }
+                        {
                             r8 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r8 \f
-                        }
-                        {
-                            r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
-                            r4. \f
+                            r4 \f
                             r8
                         }
-                        R1 * 11/2
+                        R1 * 25/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
@@ -3364,16 +3624,16 @@
                             r8 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
-                            r4 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         {
-                            r4. \f
+                            r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             r4. \f
-                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \f
                             \bar "|"
                         }
                     }
@@ -3663,10 +3923,10 @@
                             f'''8 \<
                         }
                         {
-                            r4. \p
+                            r4. \pp
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r4 \mp
+                            r4 \pp
                         }
                         {
                             r2.
@@ -3676,22 +3936,22 @@
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r8 \mf
+                            r8 \p
                         }
                         {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r4. \mf
+                            r4. \mp
                         }
                         {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r8 \f
+                            r8 \mf
                             \once \override Hairpin #'circled-tip = ##t
                             f'''8 \<
-                            r2 \f
+                            r2 \mf
                         }
                         {
                             r1
@@ -3711,7 +3971,22 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'''8 \<
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'''8 \<
+                            r4 \f
+                        }
+                        {
+                            r2
                             r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            f'''8 \<
+                            r4 \f
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
@@ -3723,10 +3998,7 @@
                             r8 \pp
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4. \pp
+                        \times 4/3 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4 \pp
@@ -3735,16 +4007,31 @@
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \pp
+                            r4. \pp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r8 \pp
+                            r4 \pp
                         }
                         {
-                            r4
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r8 \pp
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \pp
+                        }
+                        {
+                            r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
+                            r8
                         }
                         e'16 [
                             ^ \markup {
@@ -3795,8 +4082,9 @@
                         e'16 [
                         e'16
                         e'16 ]
+                        r4
                         r1
-                        r2.
+                        r2
                         r1
                         r16
                         e'16 [
@@ -3834,78 +4122,76 @@
                             r4 \p
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
+                        \times 6/5 {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r8 \mp
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
+                            r4 \mf
+                        }
+                        {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
                             r4. \mf
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                         }
                         {
-                            r4. \mf
+                            r4 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r4 \f
+                            r4. \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r8 \f
                         }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r2 \f
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                        }
                         {
+                            r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
+                        }
+                        {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
                             r4
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
-                            r8 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r8 \f
-                        }
-                        {
-                            r2
-                        }
-                        {
-                            r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4. \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                        }
-                        {
-                            r4. \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
                             r4 \f
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4. \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r8 \f
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r8
+                        {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4 \f
-                        }
-                        {
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r8 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r4. \f
                         }
                         r8
                         e'16 [
@@ -3948,9 +4234,21 @@
                         r8
                         e'16 [
                         e'16 ]
-                        r1
+                        r2
                         r2
                         r2.
+                        r1
+                        r4.
+                        e'16 [
+                        e'16 ]
+                        e'16
+                        r16
+                        r16
+                        e'16
+                        e'16 [
+                        e'16
+                        e'16 ]
+                        r16
                         r16
                         e'16 [
                         e'16 ]
@@ -3962,17 +4260,6 @@
                         r8
                         e'16 [
                         e'16 ]
-                        r8
-                        e'16 [
-                        e'16 ]
-                        e'16
-                        r16
-                        r16
-                        e'16
-                        e'16 [
-                        e'16
-                        e'16 ]
-                        r16
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             \once \override Hairpin #'circled-tip = ##t
@@ -4000,18 +4287,17 @@
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4 \f
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r8 \f
                         }
                         {
-                            r4
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
-                            r8 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                             r4. \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                             \bar "|"
                         }
                     }
@@ -4204,6 +4490,8 @@
                         d1 :32 \repeatTie
                         d2 :32 \repeatTie
                         d1 :32 \repeatTie
+                        d1 :32 \repeatTie
+                        d2. :32 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4225,16 +4513,16 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d1 :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
-                        d2. :32 \repeatTie
-                        d2. :32 \repeatTie
+                        d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
                         d2 :32 \repeatTie
                         d2. :32 \repeatTie
                         d1 :32 \repeatTie
-                        d1 :32 \repeatTie \mp
+                        d1 :32 \repeatTie
+                        d2 :32 \repeatTie
+                        d2. :32 \repeatTie \mp
                         d2 :32 \repeatTie
                         d2. :32 \repeatTie
-                        d2 :32 \repeatTie
+                        d1 :32 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4257,9 +4545,11 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
+                        d2 :32 \repeatTie
                         d1 :32 \repeatTie
+                        d2 :32 \repeatTie
                         d2. :32 \repeatTie
-                        d2 :32 \repeatTie \stopTextSpan ^ \markup {
+                        d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
@@ -4320,8 +4610,9 @@
                             r4
                             e'8
                         }
+                        r4
                         r1
-                        r2.
+                        r2
                         r1
                         \times 2/3 {
                             e'8 [
@@ -4381,15 +4672,15 @@
                                 \upright
                                     XFB
                                 }
+                        d2. :32 \repeatTie
+                        d2. :32 \repeatTie
                         d1 :32 \repeatTie
                         d1 :32 \repeatTie
                         d2. :32 \repeatTie
+                        d2 :32 \repeatTie \mp
                         d2 :32 \repeatTie
                         d2. :32 \repeatTie
-                        d2. :32 \repeatTie \mp
-                        d1 :32 \repeatTie
-                        d1 :32 \repeatTie
-                        d2. :32 \repeatTie \stopTextSpan ^ \markup {
+                        d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
                                 \upright
@@ -4444,17 +4735,14 @@
                             e'8 [
                             e'8 ]
                         }
-                        r1
+                        r2
                         r2
                         r2.
+                        r1
+                        r4
                         \times 2/3 {
                             e'8 [
-                            e'8 ]
-                            r8
-                        }
-                        \times 2/3 {
-                            r8
-                            e'8 [
+                            e'8
                             e'8 ]
                         }
                         \times 2/3 {
@@ -4463,7 +4751,12 @@
                         }
                         \times 2/3 {
                             e'8 [
-                            e'8
+                            e'8 ]
+                            r8
+                        }
+                        \times 2/3 {
+                            r8
+                            e'8 [
                             e'8 ]
                         }
                         \times 2/3 {
@@ -4503,7 +4796,7 @@
                                     XFB
                                 }
                         d1 :32 \repeatTie
-                        d2. :32 \repeatTie
+                        d2 :32 \repeatTie
                         d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
@@ -4623,6 +4916,8 @@
                         d,1 \repeatTie
                         d,2 \repeatTie
                         d,1 \repeatTie
+                        d,1 \repeatTie
+                        d,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4644,13 +4939,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d,1 \repeatTie \< \p \startTextSpan
-                        d,2. \repeatTie
-                        d,2. \repeatTie
+                        d,2. \repeatTie \< \p \startTextSpan
                         d,2 \repeatTie
                         d,2. \repeatTie
                         d,1 \repeatTie
                         d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
                         d,2 \repeatTie
                         d,2. \repeatTie \ff \stopTextSpan ^ \markup {
                             \override
@@ -4658,23 +4953,25 @@
                                 \upright
                                     "poco pont. + vib. mod."
                             }
-                        d,2 \repeatTie
-                        d,2. \repeatTie
                         d,1 \repeatTie
                         d,2. \repeatTie
                         d,2 \repeatTie
-                        d,1 \ppp \repeatTie
+                        d,1 \repeatTie
+                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
+                        d,2. \ppp \repeatTie
                             ^ \markup {
                                 \upright
                                     "(poco pont.+) sub. non vib."
                                 }
+                        d,1 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
                         d,2 \repeatTie
-                        d,2. \repeatTie
+                        d,1 \repeatTie
                         d,1 \repeatTie
                         d,2. \repeatTie
-                        d,1 \repeatTie
-                        d,2. \repeatTie
-                        d,1 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4697,15 +4994,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d,2 \repeatTie \> \ff \startTextSpan
+                        d,2. \repeatTie
+                        d,2. \repeatTie
                         d,1 \repeatTie
                         d,1 \repeatTie
                         d,2. \repeatTie
                         d,2 \repeatTie
-                        d,2. \repeatTie
+                        d,2 \repeatTie
                         d,2. \repeatTie
                         d,1 \repeatTie
-                        d,1 \repeatTie
-                        d,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4728,13 +5025,13 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d,2 \repeatTie \pp \stopTextSpan \< \pp \startTextSpan \startTextSpan
-                        d,2 \repeatTie
                         d,2. \repeatTie
                         d,1 \repeatTie
                         d,2 \repeatTie
                         d,2. \repeatTie
                         d,1 \repeatTie
-                        d,2 \repeatTie
+                        d,2. \repeatTie
+                        d,1 \repeatTie
                         d,2. \repeatTie \p \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
@@ -4742,7 +5039,7 @@
                                     "(tasto+) poco vib."
                             }
                         d,1 \repeatTie
-                        d,2. \repeatTie
+                        d,2 \repeatTie
                         d,1 \repeatTie
                         \bar "|"
                     }

@@ -7,19 +7,12 @@ from abjad.tools import sequencetools
 
 def make_glow_rhythm_specifier(
     division_masks=None,
-    tuplet_ratios=(
-        [1, 1, 1, 1, 1],
-        [1, 1, 1, 1, 1],
-        [1, 1],
-        [1, 2],
-        [1, 1, 3],
-        [1, 4], 
-        [2, 1],
-        [2, 1, 1],
-        [1, 1, 1, 1, 1],
-        ),
+    tuplet_ratios=None,
     tuplet_ratio_rotation=None,
     ):
+    import faberge
+    if tuplet_ratios is None:
+        tuplet_ratios = faberge.materials.tuplet_ratios_a
     tuplet_ratios = [mathtools.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios = sequencetools.Sequence(tuplet_ratios)
     tuplet_ratios = tuplet_ratios.rotate(index=tuplet_ratio_rotation)

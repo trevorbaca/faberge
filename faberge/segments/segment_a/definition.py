@@ -17,11 +17,11 @@ stage_specifier = baca.tools.StageSpecifier([
     4, # 5
     6, # 6
     4, # 7
-    4, # 8
+    6, # 8
     6, # 9
     2, # 10
     2, # 11
-    4, # 12
+    6, # 12
     8, # 13
     6, # 14
     4, # 15
@@ -122,33 +122,36 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(5)),
     faberge.tools.make_eh_trill_rhythm_specifier(
-        counts=[-4, -1, 3, -1, 3, 8, -4, -1, 3],
+        counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
         ),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(8)),
     faberge.tools.make_eh_trill_rhythm_specifier(
-        counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 15],
+        counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
         ),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(12)),
     faberge.tools.make_eh_trill_rhythm_specifier(
-        counts=[-4, -1, 15, -4, -1, 15],
+        counts=[-4, -1, 15, -4, -1, 4, 23],
         ),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(16)),
-    faberge.tools.make_keynoise_rhythm_specifier(),
+    faberge.tools.make_keynoise_rhythm_specifier(
+        division_masks=silence_every(indices=[0, 4], period=9),
+        tuplet_ratio_rotation=0,
+        ),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(17)),
     faberge.tools.make_eh_trill_rhythm_specifier(
-        counts=[-4, -1, 7, -1, 7, -1, 3, 16],
+        counts=[-4, -1, 7, -1, 7, -1, 16, 3],
         ),
     )
 
@@ -218,12 +221,32 @@ segment_maker.append_specifiers(
 ### piano (time) ###
 
 segment_maker.append_specifiers(
-    (pf_music, stages(1, 17)),
+    (pf_rh, stages(1, 16)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (pf_attack, stages(1, 17)),
+    (pf_attack, stages(1)),
+    faberge.tools.make_piano_attack_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (pf_attack, stages(2, 4)),
+    faberge.tools.make_piano_attack_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (pf_attack, stages(5, 7)),
+    faberge.tools.make_piano_attack_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (pf_attack, stages(8, 11)),
+    faberge.tools.make_piano_attack_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (pf_attack, stages(12, 16)),
     faberge.tools.make_piano_attack_rhythm_specifier(),
     )
 
@@ -507,7 +530,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(2)),
     [
-        baca.pitch.pitches('E4 E4 Eb~4 E4 E#+4'),
+        baca.pitch.pitches('E4 Eb~4 E~4 E4 E#+4'),
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
         ],
@@ -516,6 +539,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(5)),
     [
+        baca.pitch.pitches('F#4 F#+4 E#4 E#+4'),
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
         ],
@@ -524,14 +548,35 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(8)),
     [
+        baca.pitch.pitches('G#4 F#+4 G4 G+4 G#+4'),
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (eh, [stages(8), stages(12), stages(17)]),
+    (eh, stages(12)),
     [
+        baca.pitch.pitches('A#4 A+4 A#+4'),
+        baca.spanners.pervasive_trills(),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(16)),
+    [
+        baca.dynamics.make_effort_dynamic('f'),
+        baca.markup.make_boxed_markup('keynoise'),
+        baca.overrides.cross_note_heads(),
+        faberge.tools.make_keynoise_pitches(rotation=0)
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(17)),
+    [
+        baca.pitch.pitches('C4 C+4 C~4 C#4'),
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
         ],
@@ -662,18 +707,23 @@ segment_maker.append_specifiers(
 ### piano (color) ###
 
 segment_maker.append_specifiers(
-    (pf_music, stages(1, 17)),
+    (pf_rh, stages(1, 16)),
     [
+        baca.markup.make_boxed_markup_lines([
+            'depress silently;',
+            'sustain with middle pedal',
+            ]),
         baca.overrides.natural_harmonics(),
+        faberge.tools.make_chord_pitch_specifier('D4 E4 F#4 C5 D5'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (pf_attack, stages(1, 17)),
+    (pf_attack, stages(1, 16)),
     [
         baca.articulations.marcati(),
-        baca.pitch.pitches('C#2'),
-        Dynamic('sfz'),
+        baca.dynamics.make_reiterated_dynamic('sfz'),
+        faberge.tools.make_piano_cluster_specifier(),
         ],
     )
 
