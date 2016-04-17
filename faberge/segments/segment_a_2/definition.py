@@ -480,11 +480,9 @@ segment_maker.append_specifiers(
     (va, stages(2)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=baca.markup.spazz(),
             ),
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Dynamic('ff'),
             ),
         ],
@@ -494,7 +492,6 @@ segment_maker.append_specifiers(
     (va, stages(3, 5)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('ff > niente'),
             ),
         ],
@@ -513,7 +510,6 @@ segment_maker.append_specifiers(
     (va, stages(9)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('pp < mf'),
             with_next_leaf=True,
             ),
@@ -524,7 +520,6 @@ segment_maker.append_specifiers(
     (va, stages(10, 11)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('mf > ppp'),
             ),
         ],
@@ -548,7 +543,6 @@ segment_maker.append_specifiers(
     (va, stages(12, 13)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('ppp < mf'),
             ),
         ],
@@ -567,7 +561,6 @@ segment_maker.append_specifiers(
     (vc, stages(2, 3)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_poco_vib(False, False),
                 baca.markup.molto_pont_plus_vib_molto(True, True),
@@ -575,7 +568,6 @@ segment_maker.append_specifiers(
             with_next_leaf=True,
             ),
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('p < ff'),
             with_next_leaf=True,
             ),
@@ -586,7 +578,6 @@ segment_maker.append_specifiers(
     (vc, stages(6)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=baca.spanners.make_transition(
                 baca.markup.molto_pont_plus_vib_molto(False, False),
                 baca.markup.tasto_plus_poco_vib(True, True),
@@ -594,7 +585,6 @@ segment_maker.append_specifiers(
             with_next_leaf=True,
             ),
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('ff > p'),
             with_next_leaf=True,
             ),
@@ -605,7 +595,6 @@ segment_maker.append_specifiers(
     (vc, stages(7)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto_plus_non_vib(False, True),
@@ -630,7 +619,6 @@ segment_maker.append_specifiers(
     (vc, stages(9, 10)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_non_vib(False, False),
                 baca.markup.PO(),
@@ -638,7 +626,6 @@ segment_maker.append_specifiers(
             with_next_leaf=True,
             ),
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('p < f'),
             with_next_leaf=True,
             ),
@@ -663,14 +650,12 @@ segment_maker.append_specifiers(
     (vc, stages(11, 14)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             ),
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=Hairpin('f > niente'),
             ),
         ],
