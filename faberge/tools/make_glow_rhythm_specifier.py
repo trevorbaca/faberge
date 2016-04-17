@@ -34,5 +34,6 @@ def make_glow_rhythm_specifier(
         )
     return baca.tools.RhythmSpecifier(
         division_expression=baca.rhythm.make_strict_quarter_divisions(),
+        rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )
