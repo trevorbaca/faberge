@@ -529,7 +529,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(17)),
     [
-        baca.pitch.pitches('F#4'),
+        baca.pitch.pitches('F#4 F#3'),
         faberge.tools.make_color_fingering_specifier(),
         faberge.tools.make_niente_swells(['p']),
         ],

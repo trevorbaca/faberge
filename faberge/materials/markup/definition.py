@@ -18,7 +18,15 @@ class MarkupAgent(object):
         return baca.markup.make_boxed_markup('castanets')
 
     @staticmethod
+    def marimba():
+        return baca.markup.make_boxed_markup('marimba')
+
+    @staticmethod
     def match_sound_of_crotales():
         return baca.markup.make_boxed_markup('match sound of crotales')
+
+    @staticmethod
+    def to_marimba():
+        return baca.markup.make_boxed_markup('to marimba')
 
 markup = MarkupAgent()
