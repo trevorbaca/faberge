@@ -683,7 +683,6 @@ segment_maker.append_specifiers(
     (eh, stages(18)),
     [
         baca.tools.SpecifierWrapper(
-            scope_to_leaves=True,
             specifier=baca.markup.remove_staple(),
             ),
         ],

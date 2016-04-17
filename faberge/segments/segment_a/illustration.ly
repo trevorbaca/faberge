@@ -2657,206 +2657,95 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2.
-                                ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            \column
-                                                {
-                                                    \line
-                                                        {
-                                                            "depress silently;"
-                                                        }
-                                                    \line
-                                                        {
-                                                            "sustain with middle pedal"
-                                                        }
-                                                }
-                                    }
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            <d' e' fs' c'' d''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            <d' e' fs' c'' d''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            <d' e' fs' c'' d''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
-                            <d' e' fs' c'' d''>1 \repeatTie
+                            R1 * 13/4
                             \bar "|"
                         }
                     }
@@ -3130,27 +3019,7 @@
                             s1
                             s2.
                             s1
-                            \once \override Accidental.stencil = ##f
-                            \once \override AccidentalCautionary.stencil = ##f
-                            \once \override Arpeggio.X-offset = #-2
-                            \once \override NoteHead.stencil = #ly:text-interface::print
-                            \once \override NoteHead.text = \markup {
-                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
-                            }
-                            <c, e, g, b,>16
-                                ^ \markup {
-                                    \center-align
-                                        \concat
-                                            {
-                                                \natural
-                                                \flat
-                                            }
-                                    }
-                            s2
-                            s8.
-                            s1
-                            s2
-                            s1
+                            R1 * 13/4
                             \bar "|"
                         }
                     >>
@@ -3601,12 +3470,52 @@
                             r4 \f
                             r8
                         }
-                        R1 * 25/4
+                        \clef "percussion"
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
+                        r2
+                        r2.
+                        r1
+                        r2
+                        r8
+                        d'2 \ff ~ \startTrillSpan
+                        d'8 \stopTrillSpan \startTrillSpan
+                        r16 \stopTrillSpan
+                        d'2... \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            castanets
+                                }
+                        r8 \stopTrillSpan
+                        b2 ~ \startTrillSpan
+                        b8 \stopTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "bass drum"
+                                }
+                        r1
+                        \stopStaff
+                        \startStaff
+                        \clef "treble"
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "bowed crotales"
+                                    }
                             r4 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
