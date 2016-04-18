@@ -1,4 +1,4 @@
-\version "2.19.39"
+\version "2.19.40"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -1913,7 +1913,7 @@
                         fs''2. \repeatTie \p
                         \times 2/3 {
                             fs''4 \repeatTie
-                            fs''8
+                            fs'8
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1924,7 +1924,7 @@
                         }
                         {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''8 \repeatTie [
+                            fs'8 \repeatTie [
                             fs''16
                                 ^ \markup {
                                     \override
@@ -1934,7 +1934,7 @@
                                                 2
                                     }
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''16 ]
+                            fs'16 ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1944,9 +1944,9 @@
                                     }
                         }
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fs''4 \repeatTie
+                        fs'4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        fs''2. \repeatTie \> \p
+                        fs'2. \repeatTie \> \p
                         r4 \!
                         \bar "|"
                     }
@@ -2051,30 +2051,30 @@
                         R1 * 57/4
                         \once \override NoteHead #'style = #'cross
                         r4
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            keynoise
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        f
+                                \larger
+                                    \italic
+                                        ”
+                                }
                         \times 4/5 {
                             \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             fqs'16 [
-                                ^ \markup {
-                                    \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                keynoise
-                                    }
-                                _ \markup {
-                                    \larger
-                                        \italic
-                                            “
-                                    \dynamic
-                                        \override
-                                            #'(font-name . #f)
-                                            f
-                                    \larger
-                                        \italic
-                                            ”
-                                    }
                             \once \override NoteHead #'style = #'cross
                             f'16
                             \once \override NoteHead #'style = #'cross
@@ -2262,8 +2262,6 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         {
                             r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            gs'''8 \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -2271,6 +2269,8 @@
                                             \box
                                                 "match sound of crotales"
                                     }
+                            \once \override Hairpin #'circled-tip = ##t
+                            gs'''8 \<
                             r2 \f
                         }
                         {
@@ -2657,93 +2657,198 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2.
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \column
+                                                    {
+                                                        \line
+                                                            {
+                                                                "depress silently;"
+                                                            }
+                                                        \line
+                                                            {
+                                                                "sustain with middle pedal"
+                                                            }
+                                                    }
+                                    }
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>2. \repeatTie
+                            \once \override NoteHead #'style = #'harmonic
                             <d' e' fs' c'' d''>1 \repeatTie
                             R1 * 13/4
                             \bar "|"
@@ -2854,7 +2959,7 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16
+                            <c, e, g, b,>16 \sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -2883,7 +2988,7 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16
+                            <c, e, g, b,>16 \sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -2914,7 +3019,7 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16
+                            <c, e, g, b,>16 \sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -2944,7 +3049,7 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16
+                            <c, e, g, b,>16 \sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -2977,7 +3082,7 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16
+                            <c, e, g, b,>16 \sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -3040,8 +3145,6 @@
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         {
                             r2
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -3049,6 +3152,8 @@
                                             \box
                                                 "BOWED CROTALES"
                                     }
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                             r8 \f
                         }
                         {
@@ -3478,11 +3583,8 @@
                         r2.
                         r1
                         r2
-                        r8
-                        d'2 \ff ~ \startTrillSpan
-                        d'8 \stopTrillSpan \startTrillSpan
-                        r16 \stopTrillSpan
-                        d'2... \startTrillSpan
+                        r4
+                        d'2 \ff \startTrillSpan
                             ^ \markup {
                                 \whiteout
                                     \override
@@ -3490,9 +3592,9 @@
                                         \box
                                             castanets
                                 }
-                        r8 \stopTrillSpan
-                        b2 ~ \startTrillSpan
-                        b8 \stopTrillSpan
+                        r16 \stopTrillSpan
+                        d'2... \startTrillSpan
+                        b2. -\accent \stopTrillSpan
                             ^ \markup {
                                 \whiteout
                                     \override
@@ -3507,8 +3609,6 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -3516,6 +3616,8 @@
                                             \box
                                                 "bowed crotales"
                                     }
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                             r4 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
@@ -3565,8 +3667,6 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         {
                             r4.
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -3574,6 +3674,8 @@
                                             \box
                                                 "match sound of crotales"
                                     }
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
                             r4 \f
                         }
                         {
@@ -3944,8 +4046,9 @@
                         }
                         e'16 [
                             ^ \markup {
-                                \upright
-                                    spazz.
+                                \whiteout
+                                    \upright
+                                        spazz.
                                 }
                             _ \markup {
                                 \larger
@@ -4025,8 +4128,9 @@
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                                 ^ \markup {
-                                    \upright
-                                        "non spazz."
+                                    \whiteout
+                                        \upright
+                                            "non spazz."
                                     }
                             r4 \p
                         }
@@ -4103,10 +4207,10 @@
                             r8 \f
                         }
                         r8
-                        e'16 [
                             ^ \markup {
-                                \upright
-                                    spazz.
+                                \whiteout
+                                    \upright
+                                        spazz.
                                 }
                             _ \markup {
                                 \larger
@@ -4120,6 +4224,7 @@
                                     \italic
                                         ”
                                 }
+                        e'16 [
                         e'16 ]
                         r8
                         e'16 [
@@ -4174,8 +4279,9 @@
                             \once \override Hairpin #'circled-tip = ##t
                             fs'''8 \<
                                 ^ \markup {
-                                    \upright
-                                        "non spazz."
+                                    \whiteout
+                                        \upright
+                                            "non spazz."
                                     }
                             r4 \f
                             \once \override Hairpin #'circled-tip = ##t
@@ -4233,8 +4339,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            tasto
+                                        \whiteout
+                                            \upright
+                                                tasto
                                     \hspace
                                         #0.5
                                 }
@@ -4248,8 +4355,9 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \mp \startTextSpan
                             ^ \markup {
-                                \upright
-                                    "XFB sempre"
+                                \whiteout
+                                    \upright
+                                        "XFB sempre"
                                 }
                         d1 :32 \repeatTie
                         d1 :32 \repeatTie
@@ -4270,8 +4378,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "pochiss. pont."
+                                        \whiteout
+                                            \upright
+                                                "pochiss. pont."
                                     \hspace
                                         #0.5
                                 }
@@ -4295,8 +4404,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            tasto
+                                        \whiteout
+                                            \upright
+                                                tasto
                                     \hspace
                                         #0.5
                                 }
@@ -4326,8 +4436,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "pochiss. pont."
+                                        \whiteout
+                                            \upright
+                                                "pochiss. pont."
                                     \hspace
                                         #0.5
                                 }
@@ -4351,8 +4462,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            tasto
+                                        \whiteout
+                                            \upright
+                                                tasto
                                     \hspace
                                         #0.5
                                 }
@@ -4382,8 +4494,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "pochiss. pont."
+                                        \whiteout
+                                            \upright
+                                                "pochiss. pont."
                                     \hspace
                                         #0.5
                                 }
@@ -4409,8 +4522,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            tasto
+                                        \whiteout
+                                            \upright
+                                                tasto
                                     \hspace
                                         #0.5
                                 }
@@ -4440,8 +4554,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "pochiss. pont."
+                                        \whiteout
+                                            \upright
+                                                "pochiss. pont."
                                     \hspace
                                         #0.5
                                 }
@@ -4461,14 +4576,16 @@
                         d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
-                                \upright
-                                    tasto
+                                \whiteout
+                                    \upright
+                                        tasto
                             }
                         \times 2/3 {
                             r4
                                 ^ \markup {
-                                    \upright
-                                        spazz.
+                                    \whiteout
+                                        \upright
+                                            spazz.
                                     }
                                 _ \markup {
                                     \larger
@@ -4562,8 +4679,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            tasto
+                                        \whiteout
+                                            \upright
+                                                tasto
                                     \hspace
                                         #0.5
                                 }
@@ -4578,8 +4696,9 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         d2 :32 \< \pp \startTextSpan
                             ^ \markup {
-                                \upright
-                                    XFB
+                                \whiteout
+                                    \upright
+                                        XFB
                                 }
                         d2. :32 \repeatTie
                         d2. :32 \repeatTie
@@ -4592,14 +4711,16 @@
                         d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
-                                \upright
-                                    "pochiss. pont."
+                                \whiteout
+                                    \upright
+                                        "pochiss. pont."
                             }
                         \times 2/3 {
                             e'8 [
                                 ^ \markup {
-                                    \upright
-                                        spazz.
+                                    \whiteout
+                                        \upright
+                                            spazz.
                                     }
                                 _ \markup {
                                     \larger
@@ -4685,8 +4806,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "pochiss. pont."
+                                        \whiteout
+                                            \upright
+                                                "pochiss. pont."
                                     \hspace
                                         #0.5
                                 }
@@ -4701,16 +4823,18 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         d2. :32 \pp \startTextSpan
                             ^ \markup {
-                                \upright
-                                    XFB
+                                \whiteout
+                                    \upright
+                                        XFB
                                 }
                         d1 :32 \repeatTie
                         d2 :32 \repeatTie
                         d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
-                                \upright
-                                    tasto
+                                \whiteout
+                                    \upright
+                                        tasto
                             }
                         \bar "|"
                     }
@@ -4737,8 +4861,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "tasto + poco vib."
+                                        \whiteout
+                                            \upright
+                                                "tasto + poco vib."
                                     \hspace
                                         #0.5
                                 }
@@ -4769,8 +4894,9 @@
                         d,2. \repeatTie \f \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
-                                \upright
-                                    "PO (+poco vib.)"
+                                \whiteout
+                                    \upright
+                                        "PO (+poco vib.)"
                             }
                         d,1 \repeatTie
                         d,2 \repeatTie
@@ -4785,8 +4911,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "(PO + poco vib.)"
+                                        \whiteout
+                                            \upright
+                                                "(PO + poco vib.)"
                                     \hspace
                                         #0.5
                                 }
@@ -4815,8 +4942,9 @@
                         d,2. \repeatTie \p \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
-                                \upright
-                                    "tasto (+poco vib.)"
+                                \whiteout
+                                    \upright
+                                        "tasto (+poco vib.)"
                             }
                         d,1 \repeatTie
                         d,2. \repeatTie
@@ -4835,8 +4963,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "(tasto + poco vib.)"
+                                        \whiteout
+                                            \upright
+                                                "(tasto + poco vib.)"
                                     \hspace
                                         #0.5
                                 }
@@ -4859,8 +4988,9 @@
                         d,2. \repeatTie \ff \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
-                                \upright
-                                    "poco pont. + vib. mod."
+                                \whiteout
+                                    \upright
+                                        "poco pont. + vib. mod."
                             }
                         d,1 \repeatTie
                         d,2. \repeatTie
@@ -4871,8 +5001,9 @@
                         d,1 \repeatTie
                         d,2. \ppp \repeatTie
                             ^ \markup {
-                                \upright
-                                    "(poco pont.+) sub. non vib."
+                                \whiteout
+                                    \upright
+                                        "(poco pont.+) sub. non vib."
                                 }
                         d,1 \repeatTie
                         d,2. \repeatTie
@@ -4889,8 +5020,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "(poco pont.+) sub. vib. mod."
+                                        \whiteout
+                                            \upright
+                                                "(poco pont.+) sub. vib. mod."
                                     \hspace
                                         #0.5
                                 }
@@ -4920,8 +5052,9 @@
                                 {
                                     \override
                                         #'(font-name . "Palatino")
-                                        \upright
-                                            "tasto + non vib."
+                                        \whiteout
+                                            \upright
+                                                "tasto + non vib."
                                     \hspace
                                         #0.5
                                 }
@@ -4944,8 +5077,9 @@
                         d,2. \repeatTie \p \stopTextSpan ^ \markup {
                             \override
                                 #'(font-name . "Palatino")
-                                \upright
-                                    "(tasto+) poco vib."
+                                \whiteout
+                                    \upright
+                                        "(tasto+) poco vib."
                             }
                         d,1 \repeatTie
                         d,2 \repeatTie
