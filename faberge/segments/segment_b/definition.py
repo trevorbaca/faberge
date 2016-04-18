@@ -99,7 +99,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (fl, stages(1, 2)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    faberge.tools.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(

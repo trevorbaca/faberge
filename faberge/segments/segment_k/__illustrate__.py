@@ -22,7 +22,7 @@ if __name__ == '__main__':
             traceback.print_exc()
             sys.exit(1)
         try:
-            from faberge.segments.segment_a_2.__metadata__ import metadata as previous_segment_metadata
+            from faberge.segments.segment_j.__metadata__ import metadata as previous_segment_metadata
         except ImportError:
             traceback.print_exc()
             sys.exit(1)

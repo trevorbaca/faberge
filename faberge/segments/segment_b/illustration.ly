@@ -1,4 +1,4 @@
-\version "2.19.39"
+\version "2.19.40"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -8,7 +8,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #71
+        currentBarNumber = #177
     } <<
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context TimeSignatureContext = "Time Signature Context" <<
@@ -486,6 +486,8 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     \mark #2
                     s1 * 1/2
                         ^ \markup {
@@ -498,7 +500,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B1]
+                                    [B.1]
                             }
                         ^ \markup {
                         \fontsize
@@ -519,6 +521,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -528,6 +532,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -539,11 +545,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B2]
+                                    [B.2]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -553,6 +561,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -564,11 +574,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B3]
+                                    [B.3]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -578,6 +590,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -589,11 +603,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B4]
+                                    [B.4]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -603,6 +619,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -612,6 +630,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -621,6 +641,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -632,11 +654,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B5]
+                                    [B.5]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -646,6 +670,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -657,11 +683,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B6]
+                                    [B.6]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -671,6 +699,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -682,11 +712,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B7]
+                                    [B.7]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -696,6 +728,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -707,10 +741,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B8]
+                                    [B.8]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -720,6 +756,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -731,11 +769,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B9]
+                                    [B.9]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -745,17 +785,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B10]
+                                    [B.10]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -767,10 +811,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B11]
+                                    [B.11]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -780,17 +826,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B12]
+                                    [B.12]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -802,10 +852,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B13]
+                                    [B.13]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -815,6 +867,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -826,11 +880,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B14]
+                                    [B.14]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -839,6 +895,8 @@
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -848,6 +906,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -857,6 +917,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -866,6 +928,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -875,6 +939,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -884,6 +950,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -893,6 +961,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -902,6 +972,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -911,6 +983,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -922,11 +996,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B15]
+                                    [B.15]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -936,6 +1012,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -945,6 +1023,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -954,6 +1034,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -963,6 +1045,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -972,6 +1056,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -980,6 +1066,8 @@
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -989,6 +1077,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -997,6 +1087,8 @@
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1006,6 +1098,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1017,11 +1111,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B16]
+                                    [B.16]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1031,17 +1127,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B17]
+                                    [B.17]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1053,10 +1153,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B18]
+                                    [B.18]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1066,6 +1168,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1077,11 +1181,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B19]
+                                    [B.19]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1091,17 +1197,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B20]
+                                    [B.20]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 15 256)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1113,11 +1223,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B21]
+                                    [B.21]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 57 1024)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1127,17 +1239,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B22]
+                                    [B.22]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 63 1024)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1149,11 +1265,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B23]
+                                    [B.23]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 57 1024)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1163,17 +1281,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B24]
+                                    [B.24]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1185,11 +1307,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B25]
+                                    [B.25]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1199,6 +1323,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1210,11 +1336,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B26]
+                                    [B.26]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1224,17 +1352,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B27]
+                                    [B.27]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1246,11 +1378,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B28]
+                                    [B.28]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1260,17 +1394,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B29]
+                                    [B.29]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1282,11 +1420,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B30]
+                                    [B.30]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1296,17 +1436,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B31]
+                                    [B.31]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1318,11 +1462,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B32]
+                                    [B.32]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1332,6 +1478,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1343,10 +1491,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B33]
+                                    [B.33]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1356,6 +1506,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1367,11 +1519,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B34]
+                                    [B.34]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1381,17 +1535,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B35]
+                                    [B.35]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1403,10 +1561,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B36]
+                                    [B.36]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1416,17 +1576,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B37]
+                                    [B.37]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1438,10 +1602,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B38]
+                                    [B.38]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1451,17 +1617,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B39]
+                                    [B.39]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1473,11 +1643,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B40]
+                                    [B.40]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1487,17 +1659,21 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
                                 #-3
                                 \with-color
                                     #blue
-                                    [B41]
+                                    [B.41]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1509,11 +1685,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B42]
+                                    [B.42]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1523,6 +1701,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1534,11 +1714,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B43]
+                                    [B.43]
                             }
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1548,6 +1730,8 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1559,11 +1743,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B44]
+                                    [B.44]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1573,6 +1759,8 @@
                 }
                 {
                     \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
                             \fontsize
@@ -1584,11 +1772,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B45]
+                                    [B.45]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1598,6 +1788,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -1609,11 +1801,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [B46]
+                                    [B.46]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -1647,27 +1841,71 @@
                             }
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        \times 2/3 {
-                            r16
-                            c''2
-                            c''8. ~
-                        }
-                        {
-                            c''2 ~
+                        \times 4/5 {
                             c''16 [
-                            c''8. ~ ]
-                        }
-                        \times 2/3 {
-                            c''2 ~
                             c''16
-                            r16
-                            c''16 [
+                            c''16
+                            c''16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                        }
+                        \times 4/5 {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''16 \repeatTie [
+                            c''16
+                            c''16
+                            c''16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c''16 ]
                         }
                         {
-                            c''2
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''8 \repeatTie [
+                            c''8 ]
+                        }
+                        \times 2/3 {
+                            c''8 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''4
+                        }
+                        \times 4/5 {
+                            c''16 \repeatTie [
                             c''16
-                            r8.
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''8. ]
+                        }
+                        \times 4/5 {
+                            c''16 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''4
+                        }
+                        \times 2/3 {
+                            c''4 \repeatTie
+                            c''8
+                        }
+                        {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''8 \repeatTie [
+                            c''16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                        }
+                        \times 4/5 {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''16 \repeatTie [
+                            c''16
+                            c''16
+                            c''16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''16 ]
+                        }
+                        \times 4/5 {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            c''16 \repeatTie [
+                            c''16
+                            c''16
+                            c''16
+                            c''16 ]
                         }
                         \set Staff.instrumentName = \markup {
                             \hcenter-in
@@ -1707,7 +1945,7 @@
                 }
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \clef "treble"
+                    \clef "percussion"
                     \set EnglishHornMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -1727,12 +1965,9 @@
                             }
                     }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        r4
-                        \times 4/7 {
+                        \times 4/5 {
                             r16
                             g'16 [
-                            g'16
-                            g'16
                             g'16
                             g'16
                             g'16 ]
@@ -1744,29 +1979,35 @@
                             g'16
                             g'16 ]
                         }
-                        r4
+                        {
+                            r8
+                            g'8
+                        }
                         \times 2/3 {
-                            r16
-                            g'16 [
-                            g'16
-                            g'16
-                            g'16
-                            g'16 ]
+                            r8
+                            g'4
                         }
-                        r4
-                        r4
                         \times 4/5 {
                             r16
                             g'16 [
-                            g'16
-                            g'16
-                            g'16 ]
+                            g'8. ]
                         }
-                        r4
+                        \times 4/5 {
+                            r16
+                            g'4
+                        }
                         \times 2/3 {
+                            r4
+                            g'8
+                        }
+                        {
+                            r8
+                            g'16 [
+                            g'16 ]
+                        }
+                        \times 4/5 {
                             r16
                             g'16 [
-                            g'16
                             g'16
                             g'16
                             g'16 ]
@@ -1778,7 +2019,6 @@
                             g'16
                             g'16 ]
                         }
-                        r4
                         \times 4/5 {
                             r16
                             g'16 [
@@ -1786,16 +2026,32 @@
                             g'16
                             g'16 ]
                         }
-                        r4
-                        r4
+                        {
+                            r8
+                            g'8
+                        }
+                        \times 2/3 {
+                            r8
+                            g'4
+                        }
                         \times 4/5 {
                             r16
                             g'16 [
-                            g'16
-                            g'16
+                            g'8. ]
+                        }
+                        \times 4/5 {
+                            r16
+                            g'4
+                        }
+                        \times 2/3 {
+                            r4
+                            g'8
+                        }
+                        {
+                            r8
+                            g'16 [
                             g'16 ]
                         }
-                        r4
                         R1 * 15
                         g'2. ~
                         g'2 ~
@@ -1863,7 +2119,6 @@
                                     }
                             }
                         \times 1/1 {
-                            \clef "percussion"
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
                             \stopStaff
@@ -2009,7 +2264,6 @@
                             \stopStaff
                             \startStaff
                             \revert Staff.Stem #'stemlet-length
-                            \clef "treble"
                         }
                         \revert TupletNumber #'text
                         R1 * 35/4
@@ -2102,7 +2356,7 @@
                             r8
                             d'8
                             r4.
-                            d'8
+                            r8
                         }
                         R1 * 27/4
                         {
@@ -2117,7 +2371,7 @@
                             r8
                             d'8
                             r4.
-                            d'8
+                            r8
                         }
                         R1 * 81/4
                         \bar "|"
@@ -2130,12 +2384,12 @@
                     \set PianoStaffGroup.instrumentName = \markup {
                     \hcenter-in
                         #16
-                        Harpsichord
+                        Piano
                     }
                     \set PianoStaffGroup.shortInstrumentName = \markup {
                     \hcenter-in
                         #10
-                        Hpschd.
+                        Pf.
                     }
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
@@ -2145,12 +2399,14 @@
                                 c'8
                                 c'8
                                 c'8
+                                c'8
                                 c'8 ]
-                                r8
                             }
                             {
-                                r4.
                                 c'8 [
+                                c'8
+                                c'8
+                                c'8
                                 c'8
                                 c'8 ]
                             }
@@ -2159,140 +2415,169 @@
                                 c'8
                                 c'8
                                 c'8
+                                c'8
                                 c'8 ]
-                                r8
                             }
                             {
-                                r4.
                                 c'8 [
+                                c'8
+                                c'8
+                                c'8
                                 c'8
                                 c'8 ]
                             }
                             \times 4/5 {
                                 c'8 [
                                 c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
                                 c'8 ]
-                                r4
+                            }
+                            {
                                 c'8 [
                                 c'8
                                 c'8
-                                c'8 ]
-                                r8
-                            }
-                            {
-                                r2
-                                r8
                                 c'8
+                                c'8
+                                c'8 ]
                             }
                             \times 2/3 {
                                 c'8 [
                                 c'8
                                 c'8
                                 c'8
-                                c'8 ]
-                                r8
-                            }
-                            \times 4/7 {
-                                r4.
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8
                                 c'8
                                 c'8 ]
-                                r4
-                                c'8 [
-                                c'8
-                                c'8 ]
-                            }
-                            \times 2/3 {
-                                c'8
-                                r2
-                                r8
-                            }
-                            {
-                                r8
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8
-                                c'8 ]
-                            }
-                            \times 4/5 {
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8
-                                c'8 ]
-                                r2
-                                c'8
-                            }
-                            {
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8
-                                c'8 ]
-                                r8
-                            }
-                            \times 4/5 {
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8
-                                c'8 ]
-                                r2
-                                c'8
-                            }
-                            {
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8
-                                c'8 ]
-                                r8
-                            }
-                            \times 4/5 {
-                                r8
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8 ]
-                                r2
-                                r8
-                            }
-                            {
-                                r8
-                                c'8 [
-                                c'8
-                                c'8 ]
-                            }
-                            \times 4/5 {
-                                c'8 [
-                                c'8
-                                c'8
-                                c'8
-                                c'8 ]
-                                r2
-                                c'8
                             }
                             \times 4/7 {
                                 c'8 [
                                 c'8
                                 c'8
                                 c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
                                 c'8 ]
-                                r4
+                            }
+                            \times 2/3 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \times 4/5 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \times 4/5 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \times 4/5 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            {
                                 c'8 [
                                 c'8
                                 c'8
                                 c'8 ]
-                                r4.
+                            }
+                            \times 4/5 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
+                            }
+                            \times 4/7 {
+                                c'8 [
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
                             }
                             \tweak #'text #tuplet-number::calc-fraction-text
                             \times 3/4 {
-                                r4.
                                 c'8 [
+                                c'8
+                                c'8
+                                c'8
                                 c'8
                                 c'8
                                 c'8
@@ -2311,12 +2596,14 @@
                                 c'8
                                 c'8
                                 c'8
+                                c'8
+                                c'8
+                                c'8
                                 c'8 ]
-                                r4.
                             }
                             {
-                                r8
                                 c'8 [
+                                c'8
                                 c'8
                                 c'8
                                 c'8
@@ -2328,12 +2615,14 @@
                                 c'8
                                 c'8
                                 c'8
+                                c'8
                                 c'8 ]
-                                r8
                             }
                             {
-                                r4.
                                 c'8 [
+                                c'8
+                                c'8
+                                c'8
                                 c'8
                                 c'8 ]
                             }
@@ -2343,12 +2632,14 @@
                                 c'8
                                 c'8
                                 c'8
+                                c'8
                                 c'8 ]
-                                r8
                             }
                             {
-                                r4.
                                 c'8 [
+                                c'8
+                                c'8
+                                c'8
                                 c'8
                                 c'8 ]
                             }
@@ -2358,17 +2649,20 @@
                                 c'8
                                 c'8
                                 c'8
-                                c'8 ]
-                                r2
                                 c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8
+                                c'8 ]
                             }
                             {
                                 c'8 [
                                 c'8
                                 c'8
                                 c'8
+                                c'8
                                 c'8 ]
-                                r8
                             }
                             R1 * 23/4
                             \tweak #'text #tuplet-number::calc-fraction-text
@@ -2377,12 +2671,14 @@
                                 c'8
                                 c'8
                                 c'8
+                                c'8
+                                c'8
+                                c'8
                                 c'8 ]
-                                r4.
                             }
                             \times 2/3 {
-                                r8
                                 c'8 [
+                                c'8
                                 c'8
                                 c'8
                                 c'8
@@ -2394,12 +2690,14 @@
                                 c'8
                                 c'8
                                 c'8
+                                c'8
                                 c'8 ]
-                                r8
                             }
                             {
-                                r4.
                                 c'8 [
+                                c'8
+                                c'8
+                                c'8
                                 c'8
                                 c'8 ]
                             }
@@ -2414,12 +2712,6 @@
                                     Pf.
                                 }
                             r1
-                                ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.75)
-                                        \box
-                                            "to piano"
-                                    }
                             r2
                             R1 * 19/4
                             \bar "|"
@@ -2631,7 +2923,7 @@
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \clef "treble"
+                    \clef "percussion"
                     \set PercussionMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -2709,7 +3001,7 @@
             \context StringSectionStaffGroup = "String Section Staff Group" <<
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
-                    \clef "treble"
+                    \clef "percussion"
                     \set ViolinMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -2726,31 +3018,38 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
                         \times 2/3 {
                             c'8 [
                             c'8
-                            c'8 ]
-                            r4
                             c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         {
                             c'8 [
                             c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
                         }
                         \times 2/3 {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -2762,120 +3061,149 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
+                            c'8 [
                             c'8
-                            r2..
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         \times 2/3 {
                             c'8 [
                             c'8
                             c'8
                             c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/7 {
-                            r4.
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
                             c'8
                             c'8 ]
-                            r4
-                            c'8 [
-                            c'8
-                            c'8 ]
-                        }
-                        \times 2/3 {
-                            c'8
-                            r2
-                            r8
-                        }
-                        {
-                            r8
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        \times 2/3 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
                         }
                         \times 4/7 {
                             c'8 [
                             c'8
                             c'8
                             c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4
+                        }
+                        \times 2/3 {
                             c'8 [
                             c'8
                             c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 2/3 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -2894,12 +3222,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
                         }
                         {
-                            r8
                             c'8 [
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -2911,12 +3241,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
@@ -2945,12 +3277,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
@@ -2960,17 +3294,20 @@
                             c'8
                             c'8
                             c'8
-                            c'8 ]
-                            r2
                             c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         {
                             c'8 [
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         R1 * 23/4
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -2979,12 +3316,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
                         }
                         \times 2/3 {
-                            r8
                             c'8 [
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -2996,12 +3335,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
@@ -3054,7 +3395,7 @@
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "alto"
+                    \clef "percussion"
                     \set ViolaMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -3071,31 +3412,38 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
                         \times 2/3 {
                             c'8 [
                             c'8
-                            c'8 ]
-                            r4
                             c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         {
                             c'8 [
                             c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
                         }
                         \times 2/3 {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -3107,120 +3455,149 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
+                            c'8 [
                             c'8
-                            r2..
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         \times 2/3 {
                             c'8 [
                             c'8
                             c'8
                             c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/7 {
-                            r4.
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
                             c'8
                             c'8 ]
-                            r4
-                            c'8 [
-                            c'8
-                            c'8 ]
-                        }
-                        \times 2/3 {
-                            c'8
-                            r2
-                            r8
-                        }
-                        {
-                            r8
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        \times 2/3 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
                         }
                         \times 4/7 {
                             c'8 [
                             c'8
                             c'8
                             c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4
+                        }
+                        \times 2/3 {
                             c'8 [
                             c'8
                             c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 2/3 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/7 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -3239,12 +3616,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
                         }
                         {
-                            r8
                             c'8 [
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -3256,12 +3635,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
@@ -3286,13 +3667,13 @@
                         r8
                         R1 * 1/4
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'2.
                         c'2. \repeatTie
                         R1 * 1/4
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4
                         c'1 \repeatTie
@@ -3301,12 +3682,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
@@ -3316,32 +3699,35 @@
                             c'8
                             c'8
                             c'8
-                            c'8 ]
-                            r2
                             c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         {
                             c'8 [
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         R1 * 1/4
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'2.
                         c'2. \repeatTie
                         R1 * 1/4
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'2.
                         c'2 \repeatTie
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
@@ -3352,12 +3738,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
                         }
                         \times 2/3 {
-                            r8
                             c'8 [
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -3365,44 +3753,44 @@
                         }
                         R1 * 1/4
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'2
                         c'2. \repeatTie
                         R1 * 1/4
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
                         r1
                         R1 * 1/4
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r8
                         r2
                         R1 * 3/2
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'2.
                         c'2 \repeatTie
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'2
                         c'1 \repeatTie
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4
                         c'8 \repeatTie
                         r8
                         r2
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
@@ -3412,7 +3800,7 @@
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
+                    \clef "percussion"
                     \set CelloMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -3429,31 +3817,38 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
                         \times 2/3 {
                             c'8 [
                             c'8
-                            c'8 ]
-                            r4
                             c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         {
                             c'8 [
                             c'8
+                            c'8
+                            c'8
+                            c'8
                             c'8 ]
-                            r4.
                         }
                         \times 2/3 {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8
                             c'8
@@ -3465,93 +3860,114 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
+                            c'8 [
                             c'8
-                            r2..
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         \times 2/3 {
                             c'8 [
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         \times 4/7 {
-                            r4.
                             c'8 [
                             c'8
                             c'8
                             c'8
                             c'8
-                            c'8 ]
-                            r4
-                            c'8 [
                             c'8
-                            c'8 ]
-                        }
-                        \times 2/3 {
                             c'8
-                            r2
-                            r8
-                        }
-                        {
-                            r8
-                            c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8
                             c'8
                             c'8 ]
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
-                        }
-                        {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r8
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'8
-                            c'8
-                            c'8
-                            c'8 ]
-                            r2
-                            c'8
                         }
                         \times 2/3 {
                             c'8 [
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
+                        }
+                        \times 2/3 {
+                            c'8 [
+                            c'8
+                            c'8
+                            c'8
+                            c'8
+                            c'8 ]
                         }
                         R1 * 2
                         c'2.
@@ -3600,12 +4016,14 @@
                             c'8
                             c'8
                             c'8
+                            c'8
                             c'8 ]
-                            r8
                         }
                         {
-                            r4.
                             c'8 [
+                            c'8
+                            c'8
+                            c'8
                             c'8
                             c'8 ]
                         }
