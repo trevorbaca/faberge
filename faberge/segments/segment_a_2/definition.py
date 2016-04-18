@@ -47,7 +47,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
-    final_barline=True,
+    final_barline='|.',
     final_markup=faberge.materials.colophon_markup,
     final_markup_extra_offset=(-12, -24),
     label_clock_time=True,
@@ -295,7 +295,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(6, 7)),
     faberge.tools.make_eh_trill_rhythm_specifier(
-        counts=[-4, -1, 23, -1, 3, 36, 48],
+        counts=[-4, -1, 23, -1, 3, -1, 35, -1, 47],
         division_masks=silence_last(),
         ),
     )
@@ -546,6 +546,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(4, 5)),
     [
+        baca.articulations.stem_tremolo(),
+        baca.markup.fluttertongue(),
         faberge.tools.make_niente_swells(['f']),
         ],
     )
@@ -553,6 +555,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(6)),
     [
+        baca.markup.non_flutt(),
         faberge.tools.make_niente_swells(['mf']),
         ],
     )
@@ -567,20 +570,23 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(8)),
     [
-        faberge.tools.make_niente_swells(['p']),
+        faberge.tools.make_niente_swells(['mf']),
         ],
     )
 
 segment_maker.append_specifiers(
     (fl, stages(9)),
     [
-        faberge.tools.make_niente_swells(['mp']),
+        baca.articulations.stem_tremolo(),
+        baca.markup.fluttertongue(),
+        faberge.tools.make_niente_swells(['f']),
         ],
     )
 
 segment_maker.append_specifiers(
     (fl, stages(10)),
     [
+        baca.markup.non_flutt(),
         faberge.tools.make_niente_swells(['mf']),
         ],
     )
@@ -950,6 +956,16 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (vn, stages(12, 13)),
+    [
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('ppp < mf'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (vn, stages(16)),
     [
         baca.dynamics.make_effort_dynamic('mf'),
@@ -1023,7 +1039,7 @@ segment_maker.append_specifiers(
     (va, stages(9)),
     [
         baca.tools.SpecifierWrapper(
-            specifier=Hairpin('pp < mf'),
+            specifier=Hairpin('pp < f'),
             with_next_leaf=True,
             ),
         ],
@@ -1033,7 +1049,7 @@ segment_maker.append_specifiers(
     (va, stages(10, 11)),
     [
         baca.tools.SpecifierWrapper(
-            specifier=Hairpin('mf > ppp'),
+            specifier=Hairpin('f > ppp'),
             ),
         ],
     )
@@ -1054,6 +1070,7 @@ segment_maker.append_specifiers(
     [
         baca.tools.SpecifierWrapper(
             specifier=Hairpin('ppp < mf'),
+            with_next_leaf=True,
             ),
         ],
     )
@@ -1176,7 +1193,7 @@ segment_maker.append_specifiers(
         baca.tools.SpecifierWrapper(
             specifier=baca.spanners.make_transition(
                 None,
-                baca.markup.tasto(),
+                baca.markup.tasto_poss(),
                 ),
             ),
         baca.tools.SpecifierWrapper(
