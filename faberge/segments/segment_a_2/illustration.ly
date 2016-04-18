@@ -237,6 +237,46 @@
                     \time 2/4
                     R1 * 1/2
                 }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 2/4
+                    R1 * 1/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
@@ -361,7 +401,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -372,7 +412,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -474,7 +514,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -492,7 +532,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -503,7 +543,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -542,7 +582,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -553,7 +593,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -574,7 +614,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -592,7 +632,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -602,7 +642,7 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -624,7 +664,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -656,7 +696,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -667,7 +707,7 @@
                 }
                 {
                     \time 2/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/2
                         ^ \markup {
@@ -678,7 +718,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -948,7 +988,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
@@ -966,7 +1006,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -985,13 +1025,6 @@
                                 #-2
                                 2'11''
                             }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A2.17]
-                            }
                 }
                 {
                     \time 2/4
@@ -1002,6 +1035,123 @@
                             \fontsize
                                 #-2
                                 2'13''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'15''
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'18''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'19''
+                            }
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A2.17]
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'21''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'24''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'27''
+                            }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'30''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'32''
+                            }
+                }
+                {
+                    \time 2/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'35''
+                            }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                2'36''
                             }
                 }
             }
@@ -1031,52 +1181,10 @@
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
                         \once \override Hairpin #'circled-tip = ##t
-                        g''2. \<
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \repeatTie \p \> \p
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''1 \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \mp \> \mp
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \mf \> \mf
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2. \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        g'2. \repeatTie \f
-                        \times 2/3 {
-                            g'4 \repeatTie
-                            g''8
-                        }
+                        g''2 \<
                         {
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 \repeatTie [
-                            g'16
+                            g''8 \repeatTie \p [
+                            g''8 ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1084,8 +1192,11 @@
                                             \finger
                                                 1
                                     }
+                        }
+                        \times 2/3 {
+                            g''8 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 ]
+                            g''4
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1094,10 +1205,8 @@
                                                 2
                                     }
                         }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \> \f
+                        g''2 \repeatTie \> \p
                         r4 \!
                         \once \override Hairpin #'circled-tip = ##t
                         g'1 \<
@@ -1109,14 +1218,13 @@
                                             1
                                 }
                         \once \override Hairpin #'circled-tip = ##t
-                        g'4 \repeatTie \f \> \f
+                        g'4 \repeatTie \mp \> \mp
                         r4 \!
                         \once \override Hairpin #'circled-tip = ##t
-                        g'2. \<
-                        g'2. \repeatTie \mf
-                        \times 2/3 {
-                            g'4 \repeatTie
-                            g'8
+                        g''2 \<
+                        \times 4/5 {
+                            g''16 \repeatTie \mf [
+                            g'16
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1124,10 +1232,40 @@
                                             \finger
                                                 1
                                     }
-                        }
-                        {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8 \repeatTie [
+                            g''8. ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''4 \repeatTie \> \mf
+                        r4 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'2. \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        g'2. \repeatTie \f
+                        \times 4/5 {
+                            g'16 \repeatTie [
+                            g'16
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
                             g''16
                                 ^ \markup {
                                     \override
@@ -1146,17 +1284,11 @@
                                                 1
                                     }
                         }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \repeatTie \> \mf
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \<
-                        g''2. \repeatTie \mp
-                        \times 2/3 {
-                            g''4 \repeatTie
-                            g'8
+                        \times 4/5 {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 \repeatTie [
+                            g''16
+                            g'16
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1164,10 +1296,6 @@
                                             \finger
                                                 1
                                     }
-                        }
-                        {
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8 \repeatTie [
                             g''16
                                 ^ \markup {
                                     \override
@@ -1186,17 +1314,284 @@
                                                 1
                                     }
                         }
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 \repeatTie \> \f
+                        r2 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''2 \<
+                        \times 2/3 {
+                            g''4 \repeatTie \f
+                            g'8
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8 \repeatTie [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'4 \repeatTie \> \f
+                        r4 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''2. \<
+                        g''2. \repeatTie \mf
+                        {
+                            g''8 \repeatTie [
+                            g''8 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 2/3 {
+                            g''8 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''2 \repeatTie \> \mf
+                        r4 \!
+                        g'2 \mf
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        r4
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''2 \<
+                        \times 4/5 {
+                            g''16 \repeatTie \mp [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 ]
+                        }
+                        \times 4/5 {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 \repeatTie [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            g''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 ]
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''2 \repeatTie
+                        \times 2/3 {
+                            g''8 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        g'2 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'4 \repeatTie \> \mp
+                        r4 \!
+                        g''4 \mp
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        r4
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'1 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        g'2 \repeatTie \p
+                        \times 4/5 {
+                            g'16 \repeatTie [
+                            g''16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8. ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 4/5 {
+                            g'16 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
                         g'4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'4 \repeatTie \> \p
+                        r2 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'2 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 4/5 {
+                            g'16 \repeatTie \mp [
+                            g''16
+                            g''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8 \repeatTie [
+                            g''8 ]
+                        }
+                        g''2 \repeatTie
+                        \times 4/5 {
+                            g''16 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
                         \once \override Hairpin #'circled-tip = ##t
                         g'2. \repeatTie \> \mp
                         r4 \!
                         \once \override Hairpin #'circled-tip = ##t
-                        g''1 \<
-                        g''2 \repeatTie \p
-                        \times 2/3 {
-                            g''4 \repeatTie
-                            g'8
+                        g''4 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        {
+                            g''8 \repeatTie \mp [
+                            g'8 ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1205,10 +1600,30 @@
                                                 1
                                     }
                         }
-                        {
+                        g'4 \repeatTie
+                        g'4 \repeatTie
+                        \times 4/5 {
+                            g'16 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8 \repeatTie [
-                            g'16
+                            g'4
+                        }
+                        g'2 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'2. \repeatTie \> \mp
+                        r4 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'2 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 4/5 {
+                            g'16 \repeatTie \mp
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1216,70 +1631,20 @@
                                             \finger
                                                 2
                                     }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                         }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2 \repeatTie \> \p
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \<
-                        g''2. \repeatTie \mp
-                        \times 2/3 {
-                            g''4 \repeatTie
-                            g''8
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        {
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 \repeatTie [
+                        g''2 \repeatTie
+                        g''2 \repeatTie
+                        \times 4/5 {
+                            g''16 \repeatTie [
                             g''16
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
                                         \circle
                                             \finger
-                                                2
-                                    }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
                                                 1
                                     }
-                        }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2. \repeatTie
-                        g'2. \repeatTie
-                        g'2 \repeatTie
-                        g'2 \repeatTie
-                        g'2. \repeatTie
-                        g'2. \repeatTie
-                        \times 2/3 {
-                            g'4 \repeatTie
-                            g''8
-                        }
-                        {
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 \repeatTie [
+                            g''16
                             g'16
                                 ^ \markup {
                                     \override
@@ -1298,12 +1663,25 @@
                                                 2
                                     }
                         }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''4 \repeatTie
-                        g''2. \repeatTie
-                        g''1 \repeatTie
+                        {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''8 \repeatTie [
+                            g'8 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
                         \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \> \mp
+                        g'4 \repeatTie \> \mp
+                        r4 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''4 \<
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''4 \repeatTie \mp \> \mp
                         r4 \!
                         \once \override Hairpin #'circled-tip = ##t
                         g'2. \<
@@ -1318,11 +1696,211 @@
                         \times 2/3 {
                             g'4 \repeatTie
                             g'8
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
                         }
                         {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'8 \repeatTie [
                             g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 ]
+                        }
+                        \once \override Hairpin #'circled-tip = ##t
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''2 \repeatTie \> \mf
+                        r4 \!
+                        g''2 \mf
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        r4
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''2 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        \times 2/3 {
+                            g''8 \repeatTie \p
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 4/5 {
+                            g'16 \repeatTie [
+                            g''16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8. ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        g'2 \repeatTie
+                        {
+                            g'8 \repeatTie [
+                            g''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'4 \repeatTie \> \p
+                        r4 \!
+                        g'4 \p
+                        r4
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'1 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'2 \repeatTie \pp \> \pp
+                        r4 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''2 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        \times 4/5 {
+                            g''16 \repeatTie \ppp
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 2/3 {
+                            g''4 \repeatTie
+                            g''8
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''4 \repeatTie
+                        g''4 \repeatTie
+                        \times 4/5 {
+                            g''16 \repeatTie [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 ]
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''4 \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        g''2 \repeatTie \> \ppp
+                        r4 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        g'4 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 2/3 {
+                            g'4 \repeatTie \ppp
+                            g'8
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 \repeatTie
+                        \times 4/5 {
+                            g'16 \repeatTie [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g''16
+                            g''16
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1340,78 +1918,102 @@
                                                 2
                                     }
                         }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        g''2. \repeatTie \> \mf
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''4 \repeatTie \> \ppp
                         r4 \!
-                        c''4
-                        c''4 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''4 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''4 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''4 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''8. \repeatTie
-                        r16
                         R1 * 5/4
-                        c''4
-                        c''4 \repeatTie
-                        c''8. \repeatTie
-                        r16
+                        \once \override Hairpin #'circled-tip = ##t
+                        cs''2. \<
+                        cs''2. \repeatTie \ppp
+                        \times 4/5 {
+                            cs''16 \repeatTie [
+                            cs''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            cs''16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            cs'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            cs''16 ]
+                        }
+                        {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            cs''8 \repeatTie [
+                            cs'8 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \once \override Hairpin #'circled-tip = ##t
+                        cs'2 \repeatTie \> \ppp
+                        r4 \!
+                        \once \override Hairpin #'circled-tip = ##t
+                        cs''4 \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        cs''2. \repeatTie \ppp
+                        \times 4/5 {
+                            cs''16 \repeatTie [
+                            cs'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            cs'16
+                            cs'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            cs''16 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c''4
-                        c''2 \repeatTie
-                        c''8. \repeatTie
-                        r16
-                        R1 * 5/4
+                        cs''4 \repeatTie \> \ppp
+                        r4 \!
+                        R1 * 27/4
                         \bar "|"
                     }
                 }
@@ -1964,7 +2566,7 @@
                             r4
                             g'8
                         }
-                        R1 * 17/4
+                        R1 * 25/2
                         \bar "|"
                     }
                 }
@@ -2110,11 +2712,15 @@
                         \once \override Hairpin #'circled-tip = ##t
                         ds4 \<
                         ds2 \repeatTie \pppp
+                        ds1 \repeatTie
                         ds2. \repeatTie
+                        ds2 \repeatTie
+                        ds1 \repeatTie
+                        ds4 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
                         ds8. \repeatTie \> \pppp
                         r16 \!
-                        R1 * 5/4
+                        R1 * 27/4
                         \bar "|"
                     }
                 }
@@ -2227,7 +2833,7 @@
                             r1
                             r2.
                             r1
-                            R1 * 55/4
+                            R1 * 22
                             \bar "|"
                         }
                     }
@@ -2239,7 +2845,7 @@
                             r1
                             r2.
                             r1
-                            R1 * 55/4
+                            R1 * 22
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -2313,7 +2919,7 @@
                             s2.
                             s1
                             s2
-                            R1 * 69/4
+                            R1 * 51/2
                             \bar "|"
                         }
                     >>
@@ -2394,7 +3000,7 @@
                         ef,1 :32 \repeatTie
                         ef,1 :32 \repeatTie \p \> \p
                         ef,2 :32 \repeatTie \pp
-                        R1 * 17/4
+                        R1 * 25/2
                         \bar "|"
                     }
                 }
@@ -2618,7 +3224,7 @@
                             c'8
                             c'8 ]
                         }
-                        R1 * 17/4
+                        R1 * 25/2
                         \bar "|"
                     }
                 }
@@ -2894,6 +3500,76 @@
                             c'8 -\staccato [
                             d'8 -\staccato
                             d'8 -\staccato ]
+                        }
+                        \times 4/7 {
+                            d'8 -\staccato [
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            c'8 -\staccato ]
+                            r2..
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            r8
+                            c'8 -\staccato [
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato ]
+                            r2
+                            b8 -\staccato
+                        }
+                        {
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            c'8 -\staccato
+                            b8 -\staccato ]
+                            r2.
+                            b8 -\staccato [
+                            c'8 -\staccato
+                            c'8 -\staccato ]
+                        }
+                        \times 2/3 {
+                            c'8 -\staccato [
+                            c'8 -\staccato ]
+                            r2
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 7/8 {
+                            r4
+                            d'8 -\staccato [
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
+                            r2.
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato ]
+                        }
+                        \times 2/3 {
+                            d'8 -\staccato [
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            d'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato ]
+                            r1
+                            c'8 -\staccato [
+                            c'8 -\staccato
+                            b8 -\staccato
+                            b8 -\staccato ]
                             \bar "|"
                             \stopStaff
                             \startStaff
@@ -3085,7 +3761,7 @@
                                         tasto
                                 }
                         }
-                        R1 * 17/4
+                        R1 * 25/2
                         \bar "|"
                     }
                 }
