@@ -71,7 +71,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (fl, stages(2, 5)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    faberge.tools.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -100,7 +100,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(2, 7)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    faberge.tools.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -112,7 +112,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_rh, stages(3, 9)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    faberge.tools.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(

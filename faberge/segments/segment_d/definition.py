@@ -62,7 +62,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (fl, stages(2)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    faberge.tools.make_glow_rhythm_specifier(),
     )
 
 ### english horn (time) ###
@@ -81,7 +81,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(2)),
-    faberge.tools.make_glowing_wind_rhythm_specifier(),
+    faberge.tools.make_glow_rhythm_specifier(),
     )
 
 ### piano (time) ###

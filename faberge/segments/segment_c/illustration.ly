@@ -1,4 +1,4 @@
-\version "2.19.39"
+\version "2.19.40"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -8,7 +8,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #168
+        currentBarNumber = #274
     } <<
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context TimeSignatureContext = "Time Signature Context" <<
@@ -123,6 +123,8 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     \mark #3
                     s1 * 1
                         ^ \markup {
@@ -135,7 +137,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C1]
+                                    [C.1]
                             }
                         ^ \markup {
                         \fontsize
@@ -156,6 +158,8 @@
                 }
                 {
                     \time 7/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 7/4
                         ^ \markup {
                             \fontsize
@@ -165,6 +169,8 @@
                 }
                 {
                     \time 5/12
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -176,11 +182,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C2]
+                                    [C.2]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -192,11 +200,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C3]
+                                    [C.3]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -206,6 +216,8 @@
                 }
                 {
                     \time 5/12
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -217,11 +229,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C4]
+                                    [C.4]
                             }
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -233,11 +247,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C5]
+                                    [C.5]
                             }
                 }
                 {
                     \time 7/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 7/4
                         ^ \markup {
                             \fontsize
@@ -247,6 +263,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -258,11 +276,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C6]
+                                    [C.6]
                             }
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -272,6 +292,8 @@
                 }
                 {
                     \time 5/12
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -283,11 +305,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C7]
+                                    [C.7]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -299,11 +323,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C8]
+                                    [C.8]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -313,6 +339,8 @@
                 }
                 {
                     \time 5/12
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -324,11 +352,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C9]
+                                    [C.9]
                             }
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -340,11 +370,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C10]
+                                    [C.10]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -354,6 +386,8 @@
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -365,11 +399,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C11]
+                                    [C.11]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -379,6 +415,8 @@
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -390,11 +428,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C12]
+                                    [C.12]
                             }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         ^ \markup {
                             \fontsize
@@ -404,6 +444,8 @@
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -415,10 +457,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C13]
+                                    [C.13]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/2
                         ^ \markup {
                             \fontsize
@@ -428,6 +472,8 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -439,10 +485,12 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C14]
+                                    [C.14]
                             }
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -452,6 +500,8 @@
                 }
                 {
                     \time 7/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 7/4
                         ^ \markup {
                             \fontsize
@@ -463,11 +513,13 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C15]
+                                    [C.15]
                             }
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         ^ \markup {
                             \fontsize
@@ -477,6 +529,8 @@
                 }
                 {
                     \time 5/12
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/12
                         ^ \markup {
                             \fontsize
@@ -488,7 +542,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [C16]
+                                    [C.16]
                             }
                 }
             }
@@ -553,7 +607,7 @@
                 }
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \clef "treble"
+                    \clef "percussion"
                     \set EnglishHornMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -688,7 +742,7 @@
                                 c'8 \repeatTie
                             }
                             \once \override NoteHead #'style = #'harmonic
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
@@ -700,7 +754,7 @@
                                 c'8 \repeatTie
                             }
                             \once \override NoteHead #'style = #'harmonic
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'1. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
@@ -744,7 +798,7 @@
                                 c'8 \repeatTie
                             }
                             \once \override NoteHead #'style = #'harmonic
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'2. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
@@ -756,7 +810,7 @@
                                 c'8 \repeatTie
                             }
                             \once \override NoteHead #'style = #'harmonic
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'1. \repeatTie
                             \once \override NoteHead #'style = #'harmonic
                             c'1 \repeatTie
@@ -797,7 +851,7 @@
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \clef "treble"
+                    \clef "percussion"
                     \set PercussionMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -833,7 +887,7 @@
             \context StringSectionStaffGroup = "String Section Staff Group" <<
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
-                    \clef "treble"
+                    \clef "percussion"
                     \set ViolinMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -902,7 +956,7 @@
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "alto"
+                    \clef "percussion"
                     \set ViolaMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -915,57 +969,57 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
                         r1..
                         R1 * 31/12
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r2..
                         r1..
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
                         r1.
                         R1 * 31/12
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r2..
                         r1
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r2..
                         r1
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r2..
                         r2.
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r2..
                         r1.
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r4.
                         r1
                         r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
                         c'4.
                         r8
@@ -977,7 +1031,7 @@
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
+                    \clef "percussion"
                     \set CelloMusicStaff.instrumentName = \markup {
                     \hcenter-in
                         #16
