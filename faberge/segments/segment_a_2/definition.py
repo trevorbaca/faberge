@@ -10,22 +10,22 @@ from faberge.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    2, # 1
+    8, # 1
     2, # 2
     2, # 3
     4, # 4
-    2, # 5
+    6, # 5
     4, # 6
     4, # 7
-    4, # 8
-    12, # 9
+    6, # 8
+    8, # 9
     4, # 10
     4, # 11
     2, # 12
     2, # 13
     4, # 14
-    2, # 15
-    6, # 16
+    8, # 15
+    4, # 16
     8, # 17
     ])
 
@@ -47,6 +47,9 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    final_barline=True,
+    final_markup=faberge.materials.colophon_markup,
+    final_markup_extra_offset=(-12, -24),
     label_clock_time=True,
     label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
@@ -268,13 +271,15 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, stages(1, 3)),
-    faberge.tools.make_keynoise_rhythm_specifier(),
+    faberge.tools.make_keynoise_rhythm_specifier(
+        division_masks=silence_every(indices=[0, 4], period=9),
+        ),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(4)),
     faberge.tools.make_eh_trill_rhythm_specifier(
-        counts=[-4, -1, 3, -1, 3, 8, 16, 24, -4],
+        counts=[-4, -1, 3, -1, 4, 8, 16, 23],
         ),
     )
 
@@ -291,20 +296,37 @@ segment_maker.append_specifiers(
     (eh, stages(6, 7)),
     faberge.tools.make_eh_trill_rhythm_specifier(
         counts=[-4, -1, 23, -1, 3, 36, 48],
+        division_masks=silence_last(),
         ),
     )
 
 # apotheosis
 segment_maker.append_specifiers(
-    (eh, stages(8, 9)),
-    faberge.tools.make_eh_trill_rhythm_specifier(
-        counts=[4, 8, 16, -1, 31, -1, 63, -1, 127],
-        ),
+    (eh, stages(8)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+# apotheosis cont
+segment_maker.append_specifiers(
+    (eh, stages(9)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(10, 14)),
-    faberge.tools.make_keynoise_rhythm_specifier(),
+    faberge.tools.make_keynoise_rhythm_specifier(
+        division_masks=silence_every(indices=[0, 4], period=9),
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(15)),
+    baca.rhythm.make_rest_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(16)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
@@ -346,13 +368,13 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (pf_attack, [stages(1, 5), stages(6, 9)]),
+    (pf_attack, stages(1, 5)),
     faberge.tools.make_piano_attack_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (pf_music, stages(10)),
-    baca.rhythm.make_rest_rhythm_specifier(),
+    (pf_attack, stages(6, 17)),
+    faberge.tools.make_piano_attack_rhythm_specifier(),
     )
 
 ### percussion (time) ###
@@ -368,8 +390,28 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (perc, stages(6, 14)),
+    (perc, stages(6, 10)),
     faberge.tools.make_marimba_pedal_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(11, 13)),
+    faberge.tools.make_marimba_pedal_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(14)),
+    faberge.tools.make_marimba_pedal_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(15)),
+    baca.rhythm.make_rest_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(16)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### violin (time) ###
@@ -382,7 +424,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(2, 5)),
     faberge.tools.make_spazzolati_rhythm_specifier(
-        counts_rotation=-2,
+        counts_rotation=-20,
         ),
     )
 
@@ -392,30 +434,18 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(12)),
-    #faberge.tools.make_clb_rhythm_specifier(density='sparse'),
-    faberge.tools.make_clb_rhythm_specifier(
-        count_rotation=0,
-        fuse_counts=[2, 2, 1],
-        ),
+    (vn, stages(12, 15)),
+    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[2, 2, 1]),
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(13)),
-    #faberge.tools.make_clb_rhythm_specifier(density='moderate'),
-    faberge.tools.make_clb_rhythm_specifier(
-        count_rotation=-2,
-        fuse_counts=[2, 2, 1],
-        ),
+    (vn, stages(16)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vn, stages(14)),
-    #faberge.tools.make_clb_rhythm_specifier(density='continuous'),
-    faberge.tools.make_clb_rhythm_specifier(
-        count_rotation=-4,
-        fuse_counts=[2, 2, 1],
-        ),
+    (vn, stages(17)),
+    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[2, 2, 1]),
     )
 
 ### viola (time) ###
@@ -427,7 +457,11 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(2, 5)),
-    faberge.tools.make_spazzolati_rhythm_specifier(),
+    faberge.tools.make_spazzolati_rhythm_specifier(
+        counts_rotation=-21,
+        denominator=8,
+        extra_counts_per_division=[1],
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -436,30 +470,8 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(12)),
-    # sparse
-    faberge.tools.make_clb_rhythm_specifier(
-        count_rotation=-1,
-        fuse_counts=[1, 2, 2],
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(13)),
-    # medium
-    faberge.tools.make_clb_rhythm_specifier(
-        count_rotation=-3,
-        fuse_counts=[1, 2, 2],
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(14, 17)),
-    # continuous
-    faberge.tools.make_clb_rhythm_specifier(
-        count_rotation=-5,
-        fuse_counts=[1, 2, 2],
-        ),
+    (va, stages(12, 17)),
+    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[1, 2, 2]),
     )
 
 ### cello (time) ###
@@ -470,7 +482,12 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(9, 10)),
+    (vc, stages(9)),
+    baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(10)),
     baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(),
     )
 
@@ -484,6 +501,11 @@ segment_maker.append_specifiers(
     baca.rhythm.make_fused_tuplet_monad_rhythm_specifier(
         tuplet_ratio=Ratio((31, 1)),
         ),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(15, 17)),
+    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[3]),
     )
 
 ###############################################################################
@@ -587,7 +609,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(16)),
     [
-        baca.pitch.pitches('C#4 C#4 C#4 C#3 C#4 C#3 C#4 C#3 C#3 C#3'),
+        baca.pitch.pitches('G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3'),
         faberge.tools.make_color_fingering_specifier(),
         faberge.tools.make_niente_swells(['ppp']),
         ],
@@ -598,8 +620,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(1, 3)),
     [
-        baca.dynamics.make_effort_dynamic('f'),
         baca.overrides.cross_note_heads(),
+        baca.tools.SpecifierWrapper(
+            prototype=Note,
+            specifier=baca.dynamics.make_effort_dynamic('f'),
+            ),
         faberge.tools.make_keynoise_pitches(rotation=-1)
         ],
     )
@@ -607,6 +632,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(4)),
     [
+        baca.pitch.pitches('Db4 Db~4 Db4 Db~4 D~4'),
         baca.spanners.pervasive_trills(),
         Dynamic('f'),
         ],
@@ -615,8 +641,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(5)),
     [
-        baca.dynamics.make_effort_dynamic('f'),
         baca.overrides.cross_note_heads(),
+        baca.tools.SpecifierWrapper(
+            prototype=Note,
+            specifier=baca.dynamics.make_effort_dynamic('f'),
+            ),
         faberge.tools.make_keynoise_pitches(rotation=-2)
         ],
     )
@@ -624,16 +653,59 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(6, 7)),
     [
+        baca.pitch.pitches('D4 D+4 D~4 Db4 D~4'),
         baca.spanners.pervasive_trills(),
         Dynamic('ff'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (eh, stages(8, 9)),
+    (eh, stages(8)),
     [
+        baca.pitch.pitches('Eb4'),
         baca.spanners.pervasive_trills(),
+        faberge.materials.markup.doubletrill(),
         Dynamic('fff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(9)),
+    [
+        baca.pitch.pitches('E4'),
+        baca.spanners.pervasive_trills(),
+        faberge.materials.markup.doubletrill(),
+        Dynamic('fff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(10, 14)),
+    [
+        baca.overrides.cross_note_heads(),
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('f > niente'),
+            ),
+        faberge.tools.make_keynoise_pitches(rotation=-3)
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(15, 17)),
+    [
+        baca.markup.remove_staple(),
+        baca.spanners.one_line_staff(),
+        Clef('percussion'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (eh, stages(16)),
+    [
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.airtone(),
+        baca.overrides.repeat_tie_up(),
+        baca.pitch.pitches('F3'),
         ],
     )
 
@@ -649,7 +721,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(1, 9)),
     [
-        baca.pitch.pitches('Eb2 F2'),
+        baca.pitch.pitches('Eb2 E~2'),
         ],
     )
 
@@ -668,23 +740,16 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(11)),
+    (cl, stages(11, 12)),
     [
         faberge.tools.make_niente_swells(['pp']),
         ],
     )
 
 segment_maker.append_specifiers(
-    (cl, stages(12)),
-    [
-        faberge.tools.make_niente_swells(['ppp']),
-        ],
-    )
-
-segment_maker.append_specifiers(
     (cl, stages(13, 14)),
     [
-        faberge.tools.make_niente_swells(['pppp']),
+        faberge.tools.make_niente_swells(['ppp']),
         ],
     )
 
@@ -698,14 +763,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(16)),
     [
-        baca.pitch.pitches('C#2'),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (cl, stages(16)),
-    [
-        faberge.tools.make_niente_swells(['pppp']),
+        baca.pitch.pitches('C2'),
+        faberge.tools.make_niente_swells(['ppp']),
         ],
     )
 
@@ -724,14 +783,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.marcati(),
         faberge.tools.make_piano_cluster_specifier(),
-        Dynamic('sfz'),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (pf_rh, stages(10)),
-    [
-        faberge.materials.instruments['harpsichord'],
+        baca.dynamics.make_reiterated_dynamic('sfz'),
         ],
     )
 
@@ -759,13 +811,57 @@ segment_maker.append_specifiers(
     (perc, stages(6, 14)),
     [
         baca.articulations.stem_tremolo(),
+        baca.markup.make_markup('as attackless as possible'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(6, 10)),
+    [
         baca.dynamics.make_hairpins(
             ['ppp < pp', 'pp > ppp', 'ppp < p', 'p > pp', 'pp < p', 'p > ppp'],
             enchain_hairpins=True,
             span=[4, 3],
             ),
         baca.pitch.pitches('Eb2'),
-        baca.markup.make_markup('as attackless as possible'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(11, 13)),
+    [
+        baca.pitch.pitches('D2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(12, 14)),
+    [
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('pp > niente', include_rests=True),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(14)),
+    [
+        baca.pitch.pitches('C#2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (perc, stages(16)),
+    [
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.make_boxed_markup_lines([
+            'rub sponge on bass drum head;',
+            'noise only: no pitch',
+            ]),
+        baca.pitch.pitches('B3'),
+        baca.spanners.two_line_staff(),
+        Clef('percussion'),
         ],
     )
 
@@ -777,6 +873,102 @@ segment_maker.append_specifiers(
         baca.markup.lv_possibile(),
         baca.pitch.pitches('G6'),
         faberge.tools.make_dal_niente_hairpins('ff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(2, 5)),
+    [
+        baca.pitch.pitches('F4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(2)),
+    [
+        baca.tools.SpecifierWrapper(
+            specifier=baca.markup.spazz(),
+            ),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.dynamics.make_effort_dynamic('ff'),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(3, 5)),
+    [
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('ff > niente'),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(6, 11)),
+    [
+        baca.markup.pochiss_scratch(),
+        baca.pitch.pitches('E~4'),
+        Dynamic('ppp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(9)),
+    [
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('ppp < f'),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(10, 11)),
+    [
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('f > ppp'),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(12, 17)),
+    [
+        baca.spanners.one_line_staff(),
+        Clef('percussion'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(12, 15)),
+    [
+        baca.articulations.staccati(),
+        faberge.materials.markup.col_legno_battuto_first_appearance(),
+        faberge.tools.make_clb_pitch_specifier(rotation=-3),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(16)),
+    [
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.make_boxed_markup_lines([
+            'bow directly on bridge;',
+            'noise only: no pitch',
+            ]),
+        baca.overrides.repeat_tie_up(),
+        baca.pitch.pitches('C4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn, stages(17)),
+    [
+        baca.articulations.staccati(),
+        baca.markup.make_markup('col legno battuto'),
+        faberge.tools.make_clb_pitch_specifier(rotation=-3),
+        Hairpin('mf > ppp'),
         ],
     )
 
@@ -793,7 +985,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(2, 5)),
     [
-        baca.pitch.pitches('Eb4'),
+        baca.pitch.pitches('F4'),
         ],
     )
 
@@ -804,7 +996,7 @@ segment_maker.append_specifiers(
             specifier=baca.markup.spazz(),
             ),
         baca.tools.SpecifierWrapper(
-            specifier=Dynamic('ff'),
+            specifier=baca.dynamics.make_effort_dynamic('ff'),
             ),
         ],
     )
@@ -850,13 +1042,10 @@ segment_maker.append_specifiers(
     (va, stages(12, 17)),
     [
         baca.articulations.staccati(),
-        baca.markup.make_markup_lines([
-            'col legno battuto:',
-            'as bright and pointlike as possible;',
-            '(mute string with left hand)',
-            ]),
         baca.spanners.one_line_staff(),
-        faberge.tools.make_clb_pitch_specifier(rotation=-3),
+        faberge.materials.markup.col_legno_battuto_first_appearance(),
+        faberge.tools.make_clb_pitch_specifier(rotation=-4),
+        Clef('percussion'),
         ],
     )
 
@@ -866,6 +1055,13 @@ segment_maker.append_specifiers(
         baca.tools.SpecifierWrapper(
             specifier=Hairpin('ppp < mf'),
             ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(17)),
+    [
+        Hairpin('mf > ppp'),
         ],
     )
 
@@ -926,13 +1122,20 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(9, 10)),
+    (vc, stages(9)),
     [
         baca.markup.make_markup_lines([
             'glissando lentissimo',
-            '(NB: durations cross barlines)',
+            'do not reattack note heads',
             ]),
         baca.pitch.pitches('Eb2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(10)),
+    [
+        baca.pitch.pitches('Fb2'),
         ],
     )
 
@@ -947,7 +1150,7 @@ segment_maker.append_specifiers(
             with_next_leaf=True,
             ),
         baca.tools.SpecifierWrapper(
-            specifier=Hairpin('p < f'),
+            specifier=Hairpin('p < ff'),
             with_next_leaf=True,
             ),
         ],
@@ -977,7 +1180,7 @@ segment_maker.append_specifiers(
                 ),
             ),
         baca.tools.SpecifierWrapper(
-            specifier=Hairpin('f > niente'),
+            specifier=Hairpin('ff > niente'),
             ),
         ],
     )
@@ -986,5 +1189,24 @@ segment_maker.append_specifiers(
     (vc, stages(9, 14)),
     [
         baca.spanners.glissandi(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(15, 17)),
+    [
+        baca.articulations.staccati(),
+        baca.spanners.one_line_staff(),
+        faberge.materials.markup.col_legno_battuto_first_appearance(),
+        faberge.tools.make_clb_pitch_specifier(rotation=-5),
+        Clef('percussion'),
+        Dynamic('mf'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(17)),
+    [
+        Hairpin('mf > ppp'),
         ],
     )

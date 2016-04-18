@@ -6,6 +6,7 @@ from abjad.tools import rhythmmakertools
 def make_eh_trill_rhythm_specifier(
     counts,
     division_fuse_counts=None,
+    division_masks=None,
     extra_counts_per_division=None,
     ):
     counts.append(-1000)
@@ -21,6 +22,7 @@ def make_eh_trill_rhythm_specifier(
         division_expression = division_expression.sum()
         division_expression = division_expression.flatten()
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+        division_masks=division_masks,
         extra_counts_per_division=extra_counts_per_division,
         read_talea_once_only=True,
         talea=rhythmmakertools.Talea(

@@ -18,6 +18,18 @@ class MarkupAgent(object):
         return baca.markup.make_boxed_markup('castanets')
 
     @staticmethod
+    def col_legno_battuto_first_appearance():
+        return baca.markup.make_boxed_markup_lines([
+            'col legno battuto:',
+            'as bright and pointlike as possible;',
+            '(mute string with left hand)',
+            ])
+
+    @staticmethod
+    def doubletrill():
+        return baca.markup.make_boxed_markup('doubletrill!')
+
+    @staticmethod
     def marimba():
         return baca.markup.make_boxed_markup('marimba')
 
