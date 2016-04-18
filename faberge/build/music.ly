@@ -1,6 +1,6 @@
 % Fabergé Investigations (2016) for eight players
 
-\version "2.19.39"
+\version "2.19.40"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -10,6 +10,7 @@
     {
     \include "segment--introduction.ly"
     \include "segment-a.ly"
+    \include "segment-a-2.ly"
 %    \include "segment-b.ly"
 %    \include "segment-c.ly"
 %    \include "segment-d.ly"
