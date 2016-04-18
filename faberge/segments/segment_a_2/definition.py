@@ -25,8 +25,8 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 13
     4, # 14
     2, # 15
-    2, # 16
-    2, # 17
+    6, # 16
+    8, # 17
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -72,7 +72,10 @@ segment_maker.append_specifiers(
     (fl, stages(1)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
         tuplet_ratio_rotation=0,
@@ -83,10 +86,13 @@ segment_maker.append_specifiers(
     (fl, stages(2)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-1,
         ),
     )
 
@@ -94,10 +100,13 @@ segment_maker.append_specifiers(
     (fl, stages(3)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-2,
         ),
     )
 
@@ -105,10 +114,13 @@ segment_maker.append_specifiers(
     (fl, stages(4)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-3,
         ),
     )
 
@@ -116,10 +128,13 @@ segment_maker.append_specifiers(
     (fl, stages(5)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-4,
         ),
     )
 
@@ -127,10 +142,13 @@ segment_maker.append_specifiers(
     (fl, stages(6)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-5,
         ),
     )
 
@@ -138,10 +156,13 @@ segment_maker.append_specifiers(
     (fl, stages(7)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-6,
         ),
     )
 
@@ -149,10 +170,13 @@ segment_maker.append_specifiers(
     (fl, stages(8)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-7,
         ),
     )
 
@@ -160,10 +184,13 @@ segment_maker.append_specifiers(
     (fl, stages(9)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-8,
         ),
     )
 
@@ -171,21 +198,70 @@ segment_maker.append_specifiers(
     (fl, stages(10)),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
+            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
             silence_last(),
             ],
-        tuplet_ratio_rotation=0,
+        tuplet_ratio_rotation=-9,
         ),
     )
 
 segment_maker.append_specifiers(
-    (fl, stages(11, 14)),
-    faberge.tools.make_successive_tapers_rhythm_specifier(),
+    (fl, stages(11)),
+    faberge.tools.make_glow_rhythm_specifier(
+        division_masks=[
+            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
+            silence_last(),
+            ],
+        tuplet_ratio_rotation=-10,
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(12)),
+    faberge.tools.make_glow_rhythm_specifier(
+        division_masks=[
+            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
+            silence_last(),
+            ],
+        tuplet_ratio_rotation=-11,
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(13, 14)),
+    faberge.tools.make_glow_rhythm_specifier(
+        division_masks=[
+            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
+            silence_last(),
+            ],
+        tuplet_ratio_rotation=-12,
+        ),
     )
 
 segment_maker.append_specifiers(
     (fl, stages(16)),
-    faberge.tools.make_successive_tapers_rhythm_specifier(),
+    faberge.tools.make_glow_rhythm_specifier(
+        division_masks=[
+            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            sustain(indices=[0, -2]),
+            silence_every(indices=[10], period=11),
+            sustain_every(indices=[9, 11], period=11),
+            silence_last(),
+            ],
+        tuplet_ratio_rotation=-13,
+        ),
     )
 
 ### english horn (time) ###
@@ -417,7 +493,7 @@ segment_maker.append_specifiers(
 ### flute (color) ###
 
 segment_maker.append_specifiers(
-    (fl, stages(1, 10)),
+    (fl, stages(1, 14)),
     [
         baca.pitch.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3'),
         faberge.tools.make_color_fingering_specifier(),
@@ -484,6 +560,36 @@ segment_maker.append_specifiers(
     (fl, stages(10)),
     [
         faberge.tools.make_niente_swells(['mf']),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(11)),
+    [
+        faberge.tools.make_niente_swells(['p']),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(12)),
+    [
+        faberge.tools.make_niente_swells(['pp']),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(13, 14)),
+    [
+        faberge.tools.make_niente_swells(['ppp']),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (fl, stages(16)),
+    [
+        baca.pitch.pitches('C#4 C#4 C#4 C#3 C#4 C#3 C#4 C#3 C#3 C#3'),
+        faberge.tools.make_color_fingering_specifier(),
+        faberge.tools.make_niente_swells(['ppp']),
         ],
     )
 

@@ -752,7 +752,7 @@ long stage.
 
 [A2.11]
 
-    bfl: successive tapers ...
+    bfl: glow
         [p swells]*
         multiphonic ...
     eh: [keynoise]
@@ -772,7 +772,7 @@ long stage.
 
 [A2.12]
 
-    bfl: ... successive tapers ...
+    bfl: glow
         pp swells
         ... multiphonic ...
     eh: [keynoise]
@@ -790,8 +790,8 @@ long stage.
 
 [A2.13]
 
-    bfl: ... successive tapers ...
-        ppp swells ...
+    bfl: glow ...
+        [ppp swells]* ...
         ... multiphonic ...
     eh: [keynoise]
     bcl: ... successive tapers ...
@@ -808,8 +808,8 @@ long stage.
 
 [A2.14]
 
-    bfl: ... successive tapers 
-        ... ppp swells
+    bfl: ... glow
+        ... [ppp swells]*
         ... multiphonic
     eh: [keynoise]
     bcl: ... successive tapers
@@ -841,7 +841,7 @@ lead-in to prefigurement.
 composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
 
     bfl: successive tapers
-        C#2
+        C#3
         ppp swells
         multiphonic
     eh: airtone pedal
