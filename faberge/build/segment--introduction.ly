@@ -5,15 +5,42 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 2/4
-                    R1 * 1/2
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
-                    s1 * 1/2 ^ \markup {
+                    s1 * 3/4 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -26,9 +53,27 @@
                         \upright
                             {
                                 =
-                                98
+                                100
                             }
                         }
+                }
+                {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 63 1024)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
                 }
             }
         >>
@@ -48,7 +93,10 @@
                         Fl.
                     }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/4
+                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -74,7 +122,64 @@
                             }
                     }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        R1 * 1/2
+                        R1 * 1
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \clef "percussion"
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
+                            c'16 * 187/32 [
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                ratchet
+                                    }
+                            c'16 * 139/32
+                            c'16 * 73/32
+                            c'16 * 23/16
+                            c'16 * 71/64
+                            c'16 * 63/64 ]
+                            \stopStaff
+                            \startStaff
+                            \revert Staff.Stem #'stemlet-length
+                            \clef "treble"
+                        }
+                        \revert TupletNumber #'text
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -92,7 +197,10 @@
                         Cl.
                     }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/4
+                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -113,17 +221,30 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1/4
+                            R1 * 1
+                            R1 * 1/4
                             \bar "|"
                         }
                     }
-                    \context PianoLHMusicStaff = "Piano LH Music Staff" {
+                    \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            R1 * 1/2
+                            R1 * 3/4
+                            R1 * 1/4
+                            R1 * 1
+                            R1 * 1/4
                             \bar "|"
                         }
-                    }
+                        \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                            R1 * 3/4
+                            R1 * 1/4
+                            R1 * 1
+                            R1 * 1/4
+                            \bar "|"
+                        }
+                    >>
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
@@ -139,7 +260,10 @@
                         Perc.
                     }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/4
+                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -159,7 +283,36 @@
                         Vn.
                     }
                     \context ViolinMusicVoice = "Violin Music Voice" {
-                        R1 * 1/2
+                        e'16 [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        spazzolato
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        f
+                                \larger
+                                    \italic
+                                        ”
+                                }
+                        e'16
+                        e'16 ]
+                        r16
+                        r16
+                        e'16 [
+                        e'16 ]
+                        r16
+                        r16
+                        e'16 [
+                        e'16
+                        e'16 ]
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
@@ -177,7 +330,37 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 1/2
+                        \times 2/3 {
+                            r4
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            spazzolato
+                                    }
+                                _ \markup {
+                                    \larger
+                                        \italic
+                                            “
+                                    \dynamic
+                                        \override
+                                            #'(font-name . #f)
+                                            f
+                                    \larger
+                                        \italic
+                                            ”
+                                    }
+                            e'8
+                        }
+                        \times 2/3 {
+                            e'8
+                            r4
+                        }
+                        \times 2/3 {
+                            e'8 [
+                            e'8
+                            e'8 ]
+                        }
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
@@ -195,7 +378,10 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 1/2
+                        R1 * 3/4
+                        R1 * 1/4
+                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

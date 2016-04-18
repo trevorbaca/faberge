@@ -47,8 +47,8 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
-    label_clock_time=True,
-    label_stage_numbers=True,
+    #label_clock_time=True,
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='A',
     score_package=faberge,
