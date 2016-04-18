@@ -40,7 +40,7 @@ def make_clb_rhythm_specifier(
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[2, 6, 2, 0, 4],
         talea=rhythmmakertools.Talea(
-            counts=counts,
+            counts=[1],
             denominator=8,
             ),
         )
