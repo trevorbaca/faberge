@@ -284,7 +284,11 @@ segment_maker.append_specifiers(
         division_masks=[
             silence_except(indices=[-4, -3, -2]),
             ],
-        start_rest_durations=[Duration(1, 8), Duration(1, 16)],
+        start_rest_durations=[
+            Duration(0, 1), Duration(0, 1), Duration(0, 1), Duration(0, 1),
+            Duration(1, 4), Duration(1, 16), Duration(0, 1),
+            Duration(0, 1),
+            ],
         ),
     )
 
@@ -719,21 +723,20 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (pf_rh, stages(1, 16)),
     [
+        faberge.tools.make_chord_pitch_specifier('D4 E4 F#4 C5 D5'),
         baca.markup.make_boxed_markup_lines([
             'depress silently;',
             'sustain with middle pedal',
             ]),
         baca.overrides.natural_harmonics(),
-        faberge.tools.make_chord_pitch_specifier('D4 E4 F#4 C5 D5'),
         ],
     )
 
 segment_maker.append_specifiers(
     (pf_attack, stages(1, 16)),
     [
-        baca.articulations.marcati(),
-        baca.dynamics.make_reiterated_dynamic('sfz'),
         faberge.tools.make_piano_cluster_specifier(),
+        baca.dynamics.make_reiterated_dynamic('sfz'),
         ],
     )
 

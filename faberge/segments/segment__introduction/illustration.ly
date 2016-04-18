@@ -1,4 +1,4 @@
-\version "2.19.39"
+\version "2.19.40"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -293,8 +293,9 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         e'16 [
                             ^ \markup {
-                                \upright
-                                    "spazzolato (1/2 clt)"
+                                \whiteout
+                                    \upright
+                                        spazzolato
                                 }
                             _ \markup {
                                 \larger
@@ -339,10 +340,10 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \times 2/3 {
                             r4
-                            e'8
                                 ^ \markup {
-                                    \upright
-                                        "spazzolato (1/2 clt)"
+                                    \whiteout
+                                        \upright
+                                            spazzolato
                                     }
                                 _ \markup {
                                     \larger
@@ -356,6 +357,7 @@
                                         \italic
                                             ”
                                     }
+                            e'8
                         }
                         \times 2/3 {
                             e'8
