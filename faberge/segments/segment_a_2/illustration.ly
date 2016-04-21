@@ -2981,7 +2981,7 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16 \sfz
+                            <c, e, g, b, d f>16 \sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -3020,7 +3020,7 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16 \sfz
+                            <c, e, g, b, d f>16 \sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
