@@ -55,6 +55,7 @@ segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     rehearsal_letter='',
     score_package=faberge,
+    score_template=faberge.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -62,7 +63,7 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(17)
-#segment_maker.validate_measure_count(44)
+segment_maker.validate_measure_count(80)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
