@@ -16,7 +16,7 @@ stage_specifier = baca.tools.StageSpecifier([
     Fermata(), # 4
     ])
 
-tempo_map = baca.tools.TempoMap([
+tempo_specifier = baca.tools.TempoSpecifier([
     (1, faberge.materials.tempi[100]),
     ])
 
@@ -24,9 +24,9 @@ maker = baca.tools.TimeSignatureMaker(
     faberge.materials.time_signatures_b,
     rotation=0,
     stage_specifier=stage_specifier,
-    tempo_map=tempo_map,
+    tempo_specifier=tempo_specifier,
     )
-measures_per_stage, tempo_map, time_signatures = maker()
+measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
     fermata_measure_width=Duration(1, 4),
@@ -40,7 +40,7 @@ segment_maker = baca.tools.SegmentMaker(
     rehearsal_letter='',
     score_package=faberge,
     spacing_specifier=spacing_specifier,
-    tempo_map=tempo_map,
+    tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
     )
 
