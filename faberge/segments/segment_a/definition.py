@@ -546,7 +546,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('E4 Eb~4 E~4 E4 E#+4'),
         baca.spanners.pervasive_trills(),
-        Dynamic('f'),
+        baca.select_.first_note(Dynamic('f')),
         ],
     )
 
@@ -555,7 +555,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('F#4 F#+4 E#4 E#+4'),
         baca.spanners.pervasive_trills(),
-        Dynamic('f'),
+        baca.select_.first_note(Dynamic('f')),
         ],
     )
 
@@ -564,7 +564,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('G#4 F#+4 G4 G+4 G#+4'),
         baca.spanners.pervasive_trills(),
-        Dynamic('f'),
+        baca.select_.first_note(Dynamic('f')),
         ],
     )
 
@@ -573,7 +573,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('A#4 A+4 A#+4'),
         baca.spanners.pervasive_trills(),
-        Dynamic('f'),
+        baca.select_.first_note(Dynamic('f')),
         ],
     )
 
@@ -592,7 +592,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('C4 C+4 C~4 C#4'),
         baca.spanners.pervasive_trills(),
-        Dynamic('f'),
+        baca.select_.first_note(Dynamic('f')),
         ],
     )
 
@@ -894,7 +894,7 @@ segment_maker.append_specifiers(
             faberge.materials.markup.bass_drum(),
             start=-1,
             ),
-        Dynamic('ff'),
+        baca.select_.first_note(Dynamic('ff')),
         ],
     )
 
@@ -1074,7 +1074,7 @@ segment_maker.append_specifiers(
         baca.articulations.stem_tremolo(),
         baca.markup.XFB_sempre(),
         baca.pitch.pitches('D3'),
-        Dynamic('mp'),
+        baca.select_.first_note(Dynamic('mp')),
         ],
     )
 

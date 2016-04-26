@@ -638,7 +638,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('Db4 Db~4 Db4 Db~4 D~4'),
         baca.spanners.pervasive_trills(),
-        Dynamic('f'),
+        baca.select_.first_note(Dynamic('f')),
         ],
     )
 
@@ -656,7 +656,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('D4 D+4 D~4 Db4 D~4'),
         baca.spanners.pervasive_trills(),
-        Dynamic('ff'),
+        baca.select_.first_note(Dynamic('ff')),
         ],
     )
 
@@ -666,7 +666,7 @@ segment_maker.append_specifiers(
         baca.pitch.pitches('Eb4'),
         baca.spanners.pervasive_trills(),
         faberge.materials.markup.doubletrill(),
-        Dynamic('fff'),
+        baca.select_.first_note(Dynamic('fff')),
         ],
     )
 
@@ -676,7 +676,7 @@ segment_maker.append_specifiers(
         baca.pitch.pitches('E4'),
         baca.spanners.pervasive_trills(),
         faberge.materials.markup.doubletrill(),
-        Dynamic('fff'),
+        baca.select_.first_note(Dynamic('fff')),
         ],
     )
 
@@ -902,7 +902,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.pochiss_scratch(),
         baca.pitch.pitches('E~4'),
-        Dynamic('ppp'),
+        baca.select_.first_note(Dynamic('ppp')),
         ],
     )
 
@@ -1010,7 +1010,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto_plus_pochiss_scratch(),
         baca.pitch.pitches('G3'),
-        Dynamic('pp'),
+        baca.select_.first_note(Dynamic('pp')),
         ],
     )
 
@@ -1192,7 +1192,7 @@ segment_maker.append_specifiers(
         faberge.materials.markup.col_legno_battuto_first_appearance(),
         faberge.tools.make_clb_pitch_specifier(rotation=-5),
         Clef('percussion'),
-        Dynamic('mf'),
+        baca.select_.first_note(Dynamic('mf')),
         ],
     )
 
