@@ -426,7 +426,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(1)),
     [
-        faberge.materials.markup.match_sound_of_crotales(),
+        baca.select_.first_note(
+            faberge.materials.markup.match_sound_of_crotales(),
+            ),
         faberge.tools.make_dal_niente_hairpins('f'),
         ],
     )
@@ -518,7 +520,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(12)),
     [
-        faberge.materials.instruments['bass flute'],
+        baca.select_.first_leaf(faberge.materials.instruments['bass flute']),
         ],
     )
 
@@ -580,8 +582,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(16)),
     [
-        baca.dynamics.make_effort_dynamic('f'),
-        baca.markup.make_boxed_markup('keynoise'),
+        baca.select_.first_note(baca.dynamics.make_effort_dynamic('f')),
+        baca.select_.first_note(baca.markup.make_boxed_markup('keynoise')),
         baca.overrides.cross_note_heads(),
         faberge.tools.make_keynoise_pitches(rotation=0)
         ],
@@ -601,7 +603,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(1)),
     [
-        faberge.materials.markup.match_sound_of_crotales(),
+        baca.select_.first_note(
+            faberge.materials.markup.match_sound_of_crotales(),
+            ),
         baca.pitch.pitches('F#6'),
         ],
     )
@@ -672,7 +676,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(8)),
     [
-        faberge.materials.instruments['bass clarinet'],
+        baca.select_.first_leaf(
+            faberge.materials.instruments['bass clarinet'],
+            ),
         ],
     )
 
@@ -724,10 +730,12 @@ segment_maker.append_specifiers(
     (pf_rh, stages(1, 16)),
     [
         faberge.tools.make_chord_pitch_specifier('D4 E4 F#4 C5 D5'),
-        baca.markup.make_boxed_markup_lines([
-            'depress silently;',
-            'sustain with middle pedal',
-            ]),
+        baca.select_.first_note(
+            baca.markup.make_boxed_markup_lines([
+                'depress silently;',
+                'sustain with middle pedal',
+                ]),
+            ),
         baca.overrides.natural_harmonics(),
         ],
     )
@@ -746,7 +754,9 @@ segment_maker.append_specifiers(
     (perc, stages(1, 15)),
     [
         baca.articulations.laissez_vibrer(),
-        baca.markup.make_boxed_markup('BOWED CROTALES'),
+        baca.select_.first_note(
+            baca.markup.make_boxed_markup('BOWED CROTALES'),
+            ),
         ],
     )
 
@@ -903,7 +913,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.laissez_vibrer(),
         baca.pitch.pitches('F#4'),
-        faberge.materials.markup.bowed_crotales(),
+        baca.select_.first_note(faberge.materials.markup.bowed_crotales()),
         faberge.tools.make_dal_niente_hairpins('f'),
         ],
     )
@@ -914,7 +924,9 @@ segment_maker.append_specifiers(
     (vn, stages(1)),
     [
         baca.pitch.pitches('F#6'),
-        faberge.materials.markup.match_sound_of_crotales(),
+        baca.select_.first_note(
+            faberge.materials.markup.match_sound_of_crotales(),
+            ),
         faberge.tools.make_dal_niente_hairpins('f'),
         ],
     )
@@ -1020,8 +1032,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(13)),
     [
-        baca.dynamics.make_effort_dynamic('f'),
-        baca.markup.spazz(),
+        baca.select_.first_note(baca.dynamics.make_effort_dynamic('f')),
+        baca.select_.first_note(baca.markup.spazz()),
         baca.pitch.pitches('E4'),
         ],
     )
@@ -1036,7 +1048,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(14)),
     [
-        baca.markup.non_spazz(),
+        baca.select_.first_note(baca.markup.non_spazz()),
         faberge.tools.make_increasing_dal_niente_hairpins(),
         ],
     )
@@ -1051,8 +1063,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(16)),
     [
-        baca.dynamics.make_effort_dynamic('f'),
-        baca.markup.spazz(),
+        baca.select_.first_note(baca.dynamics.make_effort_dynamic('f')),
+        baca.select_.first_note(baca.markup.spazz()),
         baca.pitch.pitches('E4'),
         ],
     )
@@ -1060,7 +1072,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(17)),
     [
-        baca.markup.non_spazz(),
+        baca.select_.first_note(baca.markup.non_spazz()),
         baca.pitch.pitches('F#6'),
         faberge.tools.make_dal_niente_hairpins('f'),
         ],
@@ -1072,7 +1084,7 @@ segment_maker.append_specifiers(
     (va, stages(1, 12)),
     [
         baca.articulations.stem_tremolo(),
-        baca.markup.XFB_sempre(),
+        baca.select_.first_note(baca.markup.XFB_sempre()),
         baca.pitch.pitches('D3'),
         baca.select_.first_note(Dynamic('mp')),
         ],
@@ -1228,7 +1240,7 @@ segment_maker.append_specifiers(
     (va, stages(14, 15)),
     [
         baca.articulations.stem_tremolo(),
-        baca.markup.XFB(),
+        baca.select_.first_note(baca.markup.XFB()),
         baca.pitch.pitches('D3'),
         baca.select_.leaves(
             baca.spanners.make_transition(
@@ -1262,7 +1274,7 @@ segment_maker.append_specifiers(
     (va, stages(17)),
     [
         baca.articulations.stem_tremolo(),
-        baca.markup.XFB(),
+        baca.select_.first_note(baca.markup.XFB()),
         baca.pitch.pitches('D3'),
         baca.select_.leaves(
             baca.spanners.make_transition(
