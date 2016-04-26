@@ -628,7 +628,7 @@ segment_maker.append_specifiers(
     (eh, stages(1, 3)),
     [
         baca.overrides.cross_note_heads(),
-        baca.select.notes(baca.dynamics.make_effort_dynamic('f')),
+        baca.select_.notes(baca.dynamics.make_effort_dynamic('f')),
         faberge.tools.make_keynoise_pitches(rotation=-1)
         ],
     )
@@ -646,7 +646,7 @@ segment_maker.append_specifiers(
     (eh, stages(5)),
     [
         baca.overrides.cross_note_heads(),
-        baca.select.notes(baca.dynamics.make_effort_dynamic('f')),
+        baca.select_.notes(baca.dynamics.make_effort_dynamic('f')),
         faberge.tools.make_keynoise_pitches(rotation=-2)
         ],
     )
@@ -684,7 +684,7 @@ segment_maker.append_specifiers(
     (eh, stages(10, 14)),
     [
         baca.overrides.cross_note_heads(),
-        baca.select.leaves(Hairpin('f > niente')),
+        baca.select_.leaves(Hairpin('f > niente')),
         faberge.tools.make_keynoise_pitches(rotation=-3)
         ],
     )
@@ -693,7 +693,7 @@ segment_maker.append_specifiers(
     (eh, stages(15, 17)),
     [
         baca.markup.remove_staple(),
-        baca.select.leaves(baca.spanners.one_line_staff()),
+        baca.select_.leaves(baca.spanners.one_line_staff()),
         Clef('percussion'),
         ],
     )
@@ -836,7 +836,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (perc, stages(12, 14)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('pp > niente', include_rests=True),
             with_next_leaf=True,
             ),
@@ -859,7 +859,7 @@ segment_maker.append_specifiers(
             'noise only: no pitch',
             ]),
         baca.pitch.pitches('B3'),
-        baca.select.leaves(baca.spanners.two_line_staff()),
+        baca.select_.leaves(baca.spanners.two_line_staff()),
         Clef('percussion'),
         ],
     )
@@ -885,15 +885,15 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(2)),
     [
-        baca.select.leaves(baca.markup.spazz()),
-        baca.select.leaves(baca.dynamics.make_effort_dynamic('ff')),
+        baca.select_.leaves(baca.markup.spazz()),
+        baca.select_.leaves(baca.dynamics.make_effort_dynamic('ff')),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn, stages(3, 5)),
     [
-        baca.select.leaves(Hairpin('ff > niente')),
+        baca.select_.leaves(Hairpin('ff > niente')),
         ],
     )
 
@@ -909,7 +909,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(9)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('ppp < f'),
             with_next_leaf=True,
             ),
@@ -919,14 +919,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(10, 11)),
     [
-        baca.select.leaves(Hairpin('f > ppp')),
+        baca.select_.leaves(Hairpin('f > ppp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn, stages(12, 17)),
     [
-        baca.select.leaves(baca.spanners.one_line_staff()),
+        baca.select_.leaves(baca.spanners.one_line_staff()),
         Clef('percussion'),
         ],
     )
@@ -943,7 +943,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(12, 13)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('ppp < mf'),
             with_next_leaf=True,
             ),
@@ -969,7 +969,7 @@ segment_maker.append_specifiers(
         baca.articulations.staccati(),
         baca.markup.make_markup('col legno battuto'),
         faberge.tools.make_clb_pitch_specifier(rotation=-3),
-        baca.select.leaves(Hairpin('mf > ppp')),
+        baca.select_.leaves(Hairpin('mf > ppp')),
         ],
     )
 
@@ -993,15 +993,15 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(2)),
     [
-        baca.select.leaves(baca.markup.spazz()),
-        baca.select.leaves(baca.dynamics.make_effort_dynamic('ff')),
+        baca.select_.leaves(baca.markup.spazz()),
+        baca.select_.leaves(baca.dynamics.make_effort_dynamic('ff')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(3, 5)),
     [
-        baca.select.leaves(Hairpin('ff > niente')),
+        baca.select_.leaves(Hairpin('ff > niente')),
         ],
     )
 
@@ -1017,7 +1017,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(9)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('pp < f'),
             with_next_leaf=True,
             ),
@@ -1027,7 +1027,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(10, 11)),
     [
-        baca.select.leaves(Hairpin('f > ppp')),
+        baca.select_.leaves(Hairpin('f > ppp')),
         ],
     )
 
@@ -1035,7 +1035,7 @@ segment_maker.append_specifiers(
     (va, stages(12, 17)),
     [
         baca.articulations.staccati(),
-        baca.select.leaves(baca.spanners.one_line_staff()),
+        baca.select_.leaves(baca.spanners.one_line_staff()),
         faberge.materials.markup.col_legno_battuto_first_appearance(),
         faberge.tools.make_clb_pitch_specifier(rotation=-4),
         Clef('percussion'),
@@ -1045,7 +1045,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(12, 13)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('ppp < mf'),
             with_next_leaf=True,
             ),
@@ -1055,7 +1055,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(17)),
     [
-        baca.select.leaves(Hairpin('mf > ppp')),
+        baca.select_.leaves(Hairpin('mf > ppp')),
         ],
     )
 
@@ -1071,14 +1071,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(2, 3)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_poco_vib(False, False),
                 baca.markup.molto_pont_plus_vib_molto(True, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('p < ff'),
             with_next_leaf=True,
             ),
@@ -1088,14 +1088,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(6)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.molto_pont_plus_vib_molto(False, False),
                 baca.markup.tasto_plus_poco_vib(True, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('ff > p'),
             with_next_leaf=True,
             ),
@@ -1105,7 +1105,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(7)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto_plus_non_vib(False, True),
@@ -1136,14 +1136,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9, 10)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_non_vib(False, False),
                 baca.markup.PO(),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('p < ff'),
             with_next_leaf=True,
             ),
@@ -1167,13 +1167,13 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(11, 14)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto_poss(),
                 ),
             ),
-        baca.select.leaves(Hairpin('ff > niente')),
+        baca.select_.leaves(Hairpin('ff > niente')),
         ],
     )
 
@@ -1188,7 +1188,7 @@ segment_maker.append_specifiers(
     (vc, stages(15, 17)),
     [
         baca.articulations.staccati(),
-        baca.select.leaves(baca.spanners.one_line_staff()),
+        baca.select_.leaves(baca.spanners.one_line_staff()),
         faberge.materials.markup.col_legno_battuto_first_appearance(),
         faberge.tools.make_clb_pitch_specifier(rotation=-5),
         Clef('percussion'),
@@ -1199,6 +1199,6 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(17)),
     [
-        baca.select.leaves(Hairpin('mf > ppp')),
+        baca.select_.leaves(Hairpin('mf > ppp')),
         ],
     )
