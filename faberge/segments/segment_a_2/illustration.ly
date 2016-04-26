@@ -2562,6 +2562,9 @@
                             \once \override NoteHead #'style = #'cross
                             d'8 \!
                         }
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "percussion"
                         r2.
                             ^ \markup {
@@ -2579,9 +2582,6 @@
                         r2
                         r1
                         \once \override RepeatTie #'direction = #up
-                        \stopStaff
-                        \once \override Staff.StaffSymbol.line-count = 1
-                        \startStaff
                         c'1
                             ^ \markup {
                                 \whiteout
@@ -2606,10 +2606,10 @@
                         c'2 \repeatTie
                         \once \override RepeatTie #'direction = #up
                         c'2. \repeatTie
-                        \stopStaff
-                        \startStaff
                         R1 * 25/4
                         \bar "|."
+                        \stopStaff
+                        \startStaff
                     }
                 }
                 \tag clarinet
