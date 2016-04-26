@@ -1471,30 +1471,30 @@
                         R1 * 57/4
                         \once \override NoteHead #'style = #'cross
                         r4
-                            ^ \markup {
-                                \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            keynoise
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        f
-                                \larger
-                                    \italic
-                                        ”
-                                }
                         \times 4/5 {
                             \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             fqs'16 [
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                keynoise
+                                    }
+                                _ \markup {
+                                    \larger
+                                        \italic
+                                            “
+                                    \dynamic
+                                        \override
+                                            #'(font-name . #f)
+                                            f
+                                    \larger
+                                        \italic
+                                            ”
+                                    }
                             \once \override NoteHead #'style = #'cross
                             f'16
                             \once \override NoteHead #'style = #'cross
@@ -1682,6 +1682,8 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         {
                             r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            gs'''8 \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -1689,8 +1691,6 @@
                                             \box
                                                 "match sound of crotales"
                                     }
-                            \once \override Hairpin #'circled-tip = ##t
-                            gs'''8 \<
                             r2 \f
                         }
                         {
@@ -2565,6 +2565,8 @@
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         {
                             r2
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -2572,8 +2574,6 @@
                                             \box
                                                 "BOWED CROTALES"
                                     }
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
                             r8 \f
                         }
                         {
@@ -3029,6 +3029,8 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -3036,8 +3038,6 @@
                                             \box
                                                 "bowed crotales"
                                     }
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'8 -\laissezVibrer \<
                             r4 \f
                             \once \override Hairpin #'circled-tip = ##t
                             fs'8 -\laissezVibrer \<
@@ -3087,6 +3087,8 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         {
                             r4.
+                            \once \override Hairpin #'circled-tip = ##t
+                            fs'''8 \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -3094,8 +3096,6 @@
                                             \box
                                                 "match sound of crotales"
                                     }
-                            \once \override Hairpin #'circled-tip = ##t
-                            fs'''8 \<
                             r4 \f
                         }
                         {
@@ -3627,6 +3627,7 @@
                             r8 \f
                         }
                         r8
+                        e'16 [
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -3644,7 +3645,6 @@
                                     \italic
                                         ”
                                 }
-                        e'16 [
                         e'16 ]
                         r8
                         e'16 [
