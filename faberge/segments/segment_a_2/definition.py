@@ -628,10 +628,7 @@ segment_maker.append_specifiers(
     (eh, stages(1, 3)),
     [
         baca.overrides.cross_note_heads(),
-        baca.tools.SpecifierWrapper(
-            prototype=Note,
-            specifier=baca.dynamics.make_effort_dynamic('f'),
-            ),
+        baca.select.notes(baca.dynamics.make_effort_dynamic('f')),
         faberge.tools.make_keynoise_pitches(rotation=-1)
         ],
     )
@@ -649,10 +646,7 @@ segment_maker.append_specifiers(
     (eh, stages(5)),
     [
         baca.overrides.cross_note_heads(),
-        baca.tools.SpecifierWrapper(
-            prototype=Note,
-            specifier=baca.dynamics.make_effort_dynamic('f'),
-            ),
+        baca.select.notes(baca.dynamics.make_effort_dynamic('f')),
         faberge.tools.make_keynoise_pitches(rotation=-2)
         ],
     )
@@ -891,12 +885,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(2)),
     [
-        baca.tools.SpecifierWrapper(
-            specifier=baca.markup.spazz(),
-            ),
-        baca.tools.SpecifierWrapper(
-            specifier=baca.dynamics.make_effort_dynamic('ff'),
-            ),
+        baca.select.leaves(baca.markup.spazz()),
+        baca.select.leaves(baca.dynamics.make_effort_dynamic('ff')),
         ],
     )
 
@@ -1003,12 +993,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(2)),
     [
-        baca.tools.SpecifierWrapper(
-            specifier=baca.markup.spazz(),
-            ),
-        baca.tools.SpecifierWrapper(
-            specifier=baca.dynamics.make_effort_dynamic('ff'),
-            ),
+        baca.select.leaves(baca.markup.spazz()),
+        baca.select.leaves(baca.dynamics.make_effort_dynamic('ff')),
         ],
     )
 
@@ -1085,7 +1071,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(2, 3)),
     [
-        baca.tools.SpecifierWrapper(
+        baca.select.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_poco_vib(False, False),
                 baca.markup.molto_pont_plus_vib_molto(True, True),
@@ -1102,7 +1088,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(6)),
     [
-        baca.tools.SpecifierWrapper(
+        baca.select.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.molto_pont_plus_vib_molto(False, False),
                 baca.markup.tasto_plus_poco_vib(True, True),
@@ -1119,7 +1105,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(7)),
     [
-        baca.tools.SpecifierWrapper(
+        baca.select.leaves(
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto_plus_non_vib(False, True),
@@ -1150,7 +1136,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9, 10)),
     [
-        baca.tools.SpecifierWrapper(
+        baca.select.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_non_vib(False, False),
                 baca.markup.PO(),
@@ -1181,7 +1167,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(11, 14)),
     [
-        baca.tools.SpecifierWrapper(
+        baca.select.leaves(
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto_poss(),
