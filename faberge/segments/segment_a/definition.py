@@ -875,22 +875,22 @@ segment_maker.append_specifiers(
     (perc, stages(16)),
     [
         baca.pitch.fixed_pitches('D4 D4 B3'),
-        baca.select.leaves(baca.spanners.two_line_staff()),
-        baca.select.leaves(baca.spanners.clef_spanner('percussion')),
-        baca.select.notes(
+        baca.select_.leaves(baca.spanners.two_line_staff()),
+        baca.select_.leaves(baca.spanners.clef_spanner('percussion')),
+        baca.select_.notes(
             baca.spanners.pervasive_trills(),
             stop=-1,
             ),
-        baca.select.notes(
+        baca.select_.notes(
             faberge.materials.markup.castanets(),
             start=-3,
             stop=-1,
             ),
-        baca.select.notes(
+        baca.select_.notes(
             baca.articulations.accents(),
             start=-1,
             ),
-        baca.select.notes(
+        baca.select_.notes(
             faberge.materials.markup.bass_drum(),
             start=-1,
             ),
@@ -1081,7 +1081,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 baca.markup.tasto(),
                 baca.markup.pochiss_pont(),
@@ -1094,21 +1094,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(2)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(Dynamic('pp')),
+        baca.select_.leaves(Dynamic('pp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(3, 4)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.pochiss_pont(),
@@ -1121,7 +1121,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(3)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1131,21 +1131,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(5)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(Dynamic('pp')),
+        baca.select_.leaves(Dynamic('pp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(6, 7)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.pochiss_pont(),
@@ -1158,7 +1158,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(6)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1168,21 +1168,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(8)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(Dynamic('pp')),
+        baca.select_.leaves(Dynamic('pp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(9, 11)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.pochiss_pont(),
@@ -1195,7 +1195,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(9)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1205,13 +1205,13 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(12)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             ),
-        baca.select.leaves(Dynamic('pp')),
+        baca.select_.leaves(Dynamic('pp')),
         ],
     )
 
@@ -1219,8 +1219,8 @@ segment_maker.append_specifiers(
     (va, stages(13)),
     [
         baca.pitch.pitches('E4'),
-        baca.select.leaves(baca.markup.spazz()),
-        baca.select.leaves(baca.dynamics.make_effort_dynamic('f')),
+        baca.select_.leaves(baca.markup.spazz()),
+        baca.select_.leaves(baca.dynamics.make_effort_dynamic('f')),
         ],
     )
 
@@ -1230,7 +1230,7 @@ segment_maker.append_specifiers(
         baca.articulations.stem_tremolo(),
         baca.markup.XFB(),
         baca.pitch.pitches('D3'),
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 baca.markup.tasto(),
                 baca.markup.pochiss_pont(),
@@ -1242,7 +1242,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(14)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1253,8 +1253,8 @@ segment_maker.append_specifiers(
     (va, stages(16)),
     [
         baca.pitch.pitches('E4'),
-        baca.select.leaves(baca.markup.spazz()),
-        baca.select.leaves(baca.dynamics.make_effort_dynamic('f')),
+        baca.select_.leaves(baca.markup.spazz()),
+        baca.select_.leaves(baca.dynamics.make_effort_dynamic('f')),
         ],
     )
 
@@ -1264,13 +1264,13 @@ segment_maker.append_specifiers(
         baca.articulations.stem_tremolo(),
         baca.markup.XFB(),
         baca.pitch.pitches('D3'),
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 baca.markup.pochiss_pont(),
                 baca.markup.tasto(),
                 ),
             ),
-        baca.select.leaves(Dynamic('pp')),
+        baca.select_.leaves(Dynamic('pp')),
         ],
     )
 
@@ -1286,14 +1286,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1, 2)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             baca.spanners.make_transition(
                 baca.markup.tasto_plus_poco_vib(),
                 baca.markup.PO_plus_poco_vib(True, False),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('p < f'),
             with_next_leaf=True,
             ),
@@ -1303,14 +1303,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(4, 6)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.PO_plus_poco_vib(False, False),
                 baca.markup.tasto_plus_poco_vib(True, False),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('f > p'),
             with_next_leaf=True,
             ),
@@ -1320,14 +1320,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9, 10)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_poco_vib(False, False),
                 baca.markup.poco_pont_plus_vib_mod(True, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('p < ff'),
             with_next_leaf=True,
             ),
@@ -1337,22 +1337,22 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(13)),
     [
-        baca.select.leaves(baca.markup.poco_pont_plus_sub_non_vib(False, True)),
-        baca.select.leaves(Dynamic('ppp')),
+        baca.select_.leaves(baca.markup.poco_pont_plus_sub_non_vib(False, True)),
+        baca.select_.leaves(Dynamic('ppp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14, 15)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.poco_pont_plus_sub_vib_mod(False, True),
                 baca.markup.tasto_plus_non_vib(True, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('ff > pp'),
             with_next_leaf=True,
             ),
@@ -1362,14 +1362,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(16)),
     [
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto_plus_poco_vib(False, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select.leaves(
+        baca.select_.leaves(
             specifier=Hairpin('pp < p'),
             with_next_leaf=True,
             ),
