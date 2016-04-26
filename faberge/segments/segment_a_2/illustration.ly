@@ -1783,10 +1783,8 @@
                             }
                     }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             ef'16 [
@@ -1810,33 +1808,27 @@
                             gs'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             aqf'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             bf'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             a'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             eqs'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             ef'16 [
@@ -1844,7 +1836,6 @@
                             e'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             a'16 [
@@ -1855,10 +1846,8 @@
                             \once \override NoteHead #'style = #'cross
                             bf'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             cs'16 [
@@ -1870,33 +1859,27 @@
                             d'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             bf'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             a'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             gs'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             aqf'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             d'16 [
@@ -1904,7 +1887,6 @@
                             cs'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             fqs'16 [
@@ -1915,10 +1897,8 @@
                             \once \override NoteHead #'style = #'cross
                             eqs'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             ef'16 [
@@ -1930,33 +1910,27 @@
                             cs'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             fqs'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             ef'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             e'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             eqs'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             aqf'16 [
@@ -1964,7 +1938,6 @@
                             bf'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             a'16 [
@@ -1975,10 +1948,8 @@
                             \once \override NoteHead #'style = #'cross
                             ef'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             e'16 [
@@ -1990,33 +1961,27 @@
                             bf'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             a'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             fqs'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             f'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             d'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             cs'16 [
@@ -2024,7 +1989,6 @@
                             a'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             gs'16 [
@@ -2051,10 +2015,8 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         aqf'8. ] \stopTrillSpan \startTrillSpan
                         aqf'1 \repeatTie
-                        \once \override NoteHead #'style = #'cross
                         r4 \stopTrillSpan
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             gs'8
@@ -2072,29 +2034,24 @@
                                     }
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             aqf'4
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             bf'16 [
                             \once \override NoteHead #'style = #'cross
                             a'8. ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             eqs'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             ef'16 [
@@ -2102,7 +2059,6 @@
                             e'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             a'16 [
@@ -2114,7 +2070,6 @@
                             bf'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             cs'16 [
@@ -2125,38 +2080,31 @@
                             \once \override NoteHead #'style = #'cross
                             d'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             bf'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             a'4
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             gs'16 [
                             \once \override NoteHead #'style = #'cross
                             aqf'8. ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             d'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             cs'16 [
@@ -2164,7 +2112,6 @@
                             fqs'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             f'16 [
@@ -2176,7 +2123,6 @@
                             ef'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             f'16 [
@@ -2187,10 +2133,8 @@
                             \once \override NoteHead #'style = #'cross
                             fqs'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             ef'8
@@ -2242,10 +2186,8 @@
                         b'2 \repeatTie
                         b'1 \repeatTie
                         \once \override Hairpin #'circled-tip = ##t
-                        \once \override NoteHead #'style = #'cross
                         r4 \stopTrillSpan
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             eqs'16 \> \f [
@@ -2257,33 +2199,27 @@
                             a'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             gs'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             aqf'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             bf'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             cs'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             fqs'16 [
@@ -2291,7 +2227,6 @@
                             f'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             d'16 [
@@ -2302,10 +2237,8 @@
                             \once \override NoteHead #'style = #'cross
                             gs'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             aqf'16 [
@@ -2317,33 +2250,27 @@
                             fqs'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             f'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             e'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             eqs'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             ef'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             f'16 [
@@ -2351,7 +2278,6 @@
                             d'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             cs'16 [
@@ -2362,10 +2288,8 @@
                             \once \override NoteHead #'style = #'cross
                             e'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             eqs'16 [
@@ -2377,33 +2301,27 @@
                             a'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             gs'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             eqs'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             ef'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             e'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             gs'16 [
@@ -2411,7 +2329,6 @@
                             aqf'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             bf'16 [
@@ -2422,10 +2339,8 @@
                             \once \override NoteHead #'style = #'cross
                             f'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             d'16 [
@@ -2437,33 +2352,27 @@
                             gs'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             aqf'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             bf'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             cs'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             fqs'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             f'16 [
@@ -2471,7 +2380,6 @@
                             d'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             e'16 [
@@ -2482,10 +2390,8 @@
                             \once \override NoteHead #'style = #'cross
                             d'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             cs'16 [
@@ -2497,33 +2403,27 @@
                             ef'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             e'8
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             eqs'4
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             bf'4
                         }
                         \times 2/3 {
-                            \once \override NoteHead #'style = #'cross
                             r4
                             \once \override NoteHead #'style = #'cross
                             a'8
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             gs'16 [
@@ -2531,7 +2431,6 @@
                             aqf'16 ]
                         }
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             eqs'16 [
@@ -2542,10 +2441,8 @@
                             \once \override NoteHead #'style = #'cross
                             aqf'16 ]
                         }
-                        \once \override NoteHead #'style = #'cross
                         r4
                         \times 4/5 {
-                            \once \override NoteHead #'style = #'cross
                             r16
                             \once \override NoteHead #'style = #'cross
                             bf'16 [
@@ -2557,7 +2454,6 @@
                             f'16 ]
                         }
                         {
-                            \once \override NoteHead #'style = #'cross
                             r8
                             \once \override NoteHead #'style = #'cross
                             d'8 \!
