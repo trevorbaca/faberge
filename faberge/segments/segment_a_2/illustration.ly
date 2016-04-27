@@ -3795,6 +3795,7 @@
                         ef1 :32 \repeatTie
                         \times 2/3 {
                             r4
+                            f'8
                                 ^ \markup {
                                     \whiteout
                                         \upright
@@ -3812,7 +3813,6 @@
                                         \italic
                                             ”
                                     }
-                            f'8
                         }
                         \times 2/3 {
                             f'8
