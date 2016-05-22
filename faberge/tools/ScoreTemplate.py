@@ -65,16 +65,16 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
                             \tag english_horn
                             \context EnglishHornMusicStaff = "English Horn Music Staff" {
                                 \clef "treble"
-                                \set Staff.instrumentName = \markup { English horn }
-                                \set Staff.shortInstrumentName = \markup { Eng. hn. }
+                                \set Staff.instrumentName = \markup { "English horn" }
+                                \set Staff.shortInstrumentName = \markup { "Eng. hn." }
                                 \context EnglishHornMusicVoice = "English Horn Music Voice" {
                                 }
                             }
                             \tag clarinet
                             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                                 \clef "treble"
-                                \set Staff.instrumentName = \markup { Clarinet in B-flat }
-                                \set Staff.shortInstrumentName = \markup { Cl. in B-flat }
+                                \set Staff.instrumentName = \markup { "Clarinet in B-flat" }
+                                \set Staff.shortInstrumentName = \markup { "Cl. in B-flat" }
                                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                                 }
                             }
@@ -138,24 +138,6 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
         Returns score.
         '''
 
-#        time_signature_context_multimeasure_rests = scoretools.Context(
-#            context_name='TimeSignatureContextMultimeasureRests',
-#            name='Time Signature Context Multimeasure Rests',
-#            )
-#        time_signature_context_skips = scoretools.Context(
-#            context_name='TimeSignatureContextSkips',
-#            name='Time Signature Context Skips',
-#            )
-#        time_signature_context = scoretools.Context(
-#            [
-#                time_signature_context_multimeasure_rests,
-#                time_signature_context_skips,
-#            ],
-#            context_name='TimeSignatureContext',
-#            is_simultaneous=True,
-#            name='Time Signature Context',
-#            )
-
         time_signature_context = self._make_time_signature_context()
 
         instrument_tags = (
@@ -169,10 +151,6 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
             'cello',
             )
         tag_string = '.'.join(instrument_tags)
-
-#        tag_string = 'tag {}'.format(tag_string)
-#        tag_command = indicatortools.LilyPondCommand(tag_string, 'before')
-#        attach(tag_command, time_signature_context)
 
         self._attach_tag(tag_string, time_signature_context)
 
@@ -366,11 +344,3 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
             )
 
         return score
-
-#    ### PRIVATE METHODS ###
-#
-#    def _attach_tag(self, instrument_tag, context):
-#        assert isinstance(instrument_tag, str), repr(str)
-#        tag_string = 'tag {}'.format(instrument_tag)
-#        tag_command = indicatortools.LilyPondCommand(tag_string, 'before')
-#        attach(tag_command, context)
