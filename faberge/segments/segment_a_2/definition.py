@@ -47,7 +47,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
-    final_barline='|.',
+    final_bar_line='|.',
     final_markup=faberge.materials.colophon_markup,
     final_markup_extra_offset=(-12, -24),
     #label_clock_time=True,
