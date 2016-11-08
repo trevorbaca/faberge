@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad import *
 
 
 def make_chord_pitch_specifier(pitch_name_string):
     pitch_names = pitch_name_string.split()
-    named_pitches = [NamedPitch(_) for _ in pitch_names]
-    pitch_segment = pitchtools.PitchSegment(
+    named_pitches = [abjad.NamedPitch(_) for _ in pitch_names]
+    pitch_segment = abjad.pitchtools.PitchSegment(
         items=named_pitches,
-        item_class=NamedPitch,
+        item_class=abjad.NamedPitch,
         )
     pitch_specifier = baca.tools.PitchSpecifier(
         mutates_score=True,

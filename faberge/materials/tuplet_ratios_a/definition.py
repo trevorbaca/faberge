@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from abjad import *
 
 
 tuplet_ratios_a = (
