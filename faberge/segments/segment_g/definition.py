@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
 import faberge
-from abjad import *
 from faberge.materials.__abbreviations__ import *
 
 
@@ -10,15 +10,15 @@ from faberge.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    TimeSignature((4, 4)), 6, 6, TimeSignature((5, 4)), # 1-4 at 80
-    TimeSignature((4, 4)), 4, 4, TimeSignature((4, 4)), # 5-8 at 64
-    TimeSignature((4, 4)), 2, 2, TimeSignature((4, 4)), # 9-12 at 80
-    TimeSignature((4, 4)), 6, 6, TimeSignature((5, 4)), # 13-16 at 100
-    TimeSignature((4, 4)), 4, 4, TimeSignature((4, 4)), # 17-20 at 80
-    TimeSignature((4, 4)), 2, 2, TimeSignature((4, 4)), # 21-24 at 100
-    TimeSignature((4, 4)), 6, 6, TimeSignature((5, 4)), # 25-28 at 125
-    TimeSignature((4, 4)), 4, 4, TimeSignature((4, 4)), # 29-32 at 100
-    TimeSignature((4, 4)), 4, 4, TimeSignature((4, 4)), # 33-36 at 125
+    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)), # 1-4 at 80
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 5-8 at 64
+    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)), # 9-12 at 80
+    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)), # 13-16 at 100
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 17-20 at 80
+    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)), # 21-24 at 100
+    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)), # 25-28 at 125
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 29-32 at 100
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 33-36 at 125
     ])
 
 tempo_specifier = baca.tools.TempoSpecifier([
@@ -31,11 +31,11 @@ tempo_specifier = baca.tools.TempoSpecifier([
     (25, faberge.materials.tempi[125]),
     (29, faberge.materials.tempi[100]),
     (33, faberge.materials.tempi[125]),
-    (33, Accelerando()),
+    (33, abjad.Accelerando()),
     (36, faberge.materials.tempi[156]),
     ])
 
-maker = baca.tools.TimeSignatureMaker(
+maker = baca.tools.abjad.TimeSignatureMaker(
     faberge.materials.time_signatures_b,
     rotation=-5,
     stage_specifier=stage_specifier,
@@ -44,8 +44,8 @@ maker = baca.tools.TimeSignatureMaker(
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
-    fermata_measure_width=Duration(1, 4),
-    minimum_width=Duration(1, 12),
+    fermata_measure_width=abjad.Duration(1, 4),
+    minimum_width=abjad.Duration(1, 12),
     )
 
 segment_maker = baca.tools.SegmentMaker(

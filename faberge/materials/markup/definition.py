@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import baca
-from abjad import *
 
 
 class MarkupAgent(object):

@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from abjad import *
 
 
 # 1 count == 1 sixteenth

@@ -1,23 +1,23 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad import *
 
 
 def make_front_incised_notes_rhythm_specifier(
     division_masks=None,
     start_rest_durations=None,
     ):
-    start_rest_durations = [Duration(_) for _ in start_rest_durations]
+    start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
-    lcm = mathtools.least_common_multiple(*denominators)
+    lcm = abjad.mathtools.least_common_multiple(*denominators)
     start_rest_durations = [
         _.with_denominator(lcm) for _ in start_rest_durations
         ]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
     rhythm_specifier = baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             division_masks=division_masks,
-            incise_specifier=rhythmmakertools.InciseSpecifier(
+            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
                 prefix_talea=prefix_talea,
                 prefix_counts=[1],
                 talea_denominator=lcm,

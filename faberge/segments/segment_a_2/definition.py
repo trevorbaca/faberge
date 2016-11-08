@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
 import faberge
-from abjad import *
 from faberge.materials.__abbreviations__ import *
 
 
@@ -42,8 +42,8 @@ maker = baca.tools.TimeSignatureMaker(
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
-    fermata_measure_width=Duration(1, 4),
-    minimum_width=Duration(1, 12),
+    fermata_measure_width=abjad.Duration(1, 4),
+    minimum_width=abjad.Duration(1, 12),
     )
 
 segment_maker = baca.tools.SegmentMaker(
@@ -382,7 +382,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(1)),
-    baca.rhythm.make_single_attack_rhythm_specifier(Duration(3, 4)),
+    baca.rhythm.make_single_attack_rhythm_specifier(abjad.Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
@@ -419,7 +419,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(1)),
-    baca.rhythm.make_single_attack_rhythm_specifier(Duration(3, 4)),
+    baca.rhythm.make_single_attack_rhythm_specifier(abjad.Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
