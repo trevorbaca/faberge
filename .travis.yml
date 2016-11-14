@@ -20,8 +20,8 @@ install:
     - pip install -e .
 
 script:
-    - ajv doctest ./faberge -x
-    - py.test -rf ./faberge -x
+    - ajv doctest -x ./faberge
+    - py.test -xrf ./faberge
     - python ./faberge/test/test_segments.py
 
 notifications:
