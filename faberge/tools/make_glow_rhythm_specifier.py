@@ -15,7 +15,7 @@ def make_glow_rhythm_specifier(
         tuplet_ratios = faberge.materials.tuplet_ratios_a
     tuplet_ratios = [mathtools.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios = sequencetools.Sequence(tuplet_ratios)
-    tuplet_ratios = tuplet_ratios.rotate(index=tuplet_ratio_rotation)
+    tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     tuplet_ratios = list(tuplet_ratios)
     rhythm_maker = rhythmmakertools.TupletRhythmMaker(
         division_masks=division_masks,

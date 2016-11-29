@@ -19,7 +19,7 @@ def make_airtone_chain_rhythm_specifier(
     my_event_indices = my_event_indices or []
     assert isinstance(my_event_indices, (list, tuple)), repr(my_event_indices)
     counts = sequencetools.Sequence(counts)
-    counts = counts.rotate(index=event_rotation)
+    counts = counts.rotate(n=event_rotation)
     counts = counts.flatten()
     counts = datastructuretools.CyclicTuple(counts)
 

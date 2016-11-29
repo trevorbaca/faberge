@@ -44,7 +44,7 @@ def make_keynoise_rhythm_specifier(
         negated_tuplet_ratios.append(negated_tuplet_ratio)
     tuplet_ratios = negated_tuplet_ratios
     tuplet_ratios = sequencetools.Sequence(tuplet_ratios)
-    tuplet_ratios = tuplet_ratios.rotate(index=tuplet_ratio_rotation)
+    tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     tuplet_ratios = list(tuplet_ratios)
     rhythm_maker = rhythmmakertools.TupletRhythmMaker(
         division_masks=division_masks,
