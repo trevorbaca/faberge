@@ -17,7 +17,7 @@ def make_clb_pitch_specifier(rotation=None):
         [0, 0],
         ]
     staff_positions = sequencetools.Sequence(staff_positions)
-    staff_positions = staff_positions.rotate(index=rotation)
+    staff_positions = staff_positions.rotate(n=rotation)
     staff_positions = staff_positions.flatten()
     staff_position_to_pitch = {
         -1: 'B3',

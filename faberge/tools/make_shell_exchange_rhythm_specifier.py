@@ -49,7 +49,7 @@ def make_shell_exchange_rhythm_specifier(
         [1, 1, 1, -1],
         ]
     counts = sequencetools.Sequence(counts)
-    counts = counts.rotate(index=rotation)
+    counts = counts.rotate(n=rotation)
     counts = counts.flatten()
 
     if total_parts == 2:
@@ -104,7 +104,7 @@ def make_shell_exchange_rhythm_specifier(
 
     extras = [0, 0, -1, 0, 0, -1, -1]
     extras = sequencetools.Sequence(extras)
-    extras = extras.rotate(index=extra_counts_per_division_rotation)
+    extras = extras.rotate(n=extra_counts_per_division_rotation)
 
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=extras,

@@ -23,7 +23,7 @@ def make_spazzolati_rhythm_specifier(
         [-2],
         ]
     counts = sequencetools.Sequence(counts)
-    counts = counts.rotate(index=counts_rotation)
+    counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         division_masks=division_masks,

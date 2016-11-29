@@ -11,7 +11,7 @@ def make_agitated_wind_rhythm_specifier(
     counts = sequencetools.Sequence(
         [1, 4, 6, 6, -1, 1, 1, 4, 1, 6, -1, 1, 1, 1, 6]
         ) 
-    counts = counts.rotate(index=count_rotation)
+    counts = counts.rotate(n=count_rotation)
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         burnish_specifier=rhythmmakertools.BurnishSpecifier(
             left_classes=[scoretools.Rest],

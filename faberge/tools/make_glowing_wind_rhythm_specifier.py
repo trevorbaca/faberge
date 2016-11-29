@@ -12,13 +12,13 @@ def make_glowing_wind_rhythm_specifier(
     extra_counts_per_division_rotation=None,
     ):
     counts = sequencetools.Sequence(counts)
-    counts = counts.rotate(index=count_rotation)
+    counts = counts.rotate(n=count_rotation)
     counts = counts.flatten()
     extra_counts_per_division = sequencetools.Sequence(
         extra_counts_per_division
         )
     extra_counts_per_division = extra_counts_per_division.rotate(
-        index=extra_counts_per_division_rotation
+        n=extra_counts_per_division_rotation
         )
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         burnish_specifier=rhythmmakertools.BurnishSpecifier(

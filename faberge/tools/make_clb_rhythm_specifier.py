@@ -35,7 +35,7 @@ def make_clb_rhythm_specifier(
         [1, 1, 1, 1, 1, 1],
         [-6],
         ]) 
-    counts = counts.rotate(index=count_rotation)
+    counts = counts.rotate(n=count_rotation)
     counts = counts.flatten()
     rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[2, 6, 2, 0, 4],
