@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-import collections
-from abjad.tools import instrumenttools
 
 
-harpsichord = instrumenttools.Harpsichord(
+harpsichord = abjad.instrumenttools.Harpsichord(
     instrument_name_markup=\
         baca.markup.make_instrument_name_markup('Harpsichord'),
     short_instrument_name_markup=\
@@ -12,7 +11,7 @@ harpsichord = instrumenttools.Harpsichord(
     )
 harpsichord._default_scope = 'PianoStaffGroup'
 
-piano = instrumenttools.Piano(
+piano = abjad.instrumenttools.Piano(
     instrument_name_markup=\
         baca.markup.make_instrument_name_markup('Piano'),
     short_instrument_name_markup=\
@@ -23,7 +22,7 @@ piano._default_scope = 'PianoStaffGroup'
 instruments = collections.OrderedDict([
     (
         'flute', 
-        instrumenttools.Flute(
+        abjad.instrumenttools.Flute(
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Flute'),
             short_instrument_name_markup=\
@@ -32,7 +31,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'bass flute', 
-        instrumenttools.BassFlute(
+        abjad.instrumenttools.BassFlute(
             instrument_name='bass flute',
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Bass flute',
@@ -47,7 +46,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'English horn', 
-        instrumenttools.EnglishHorn(
+        abjad.instrumenttools.EnglishHorn(
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'English horn'),
             short_instrument_name_markup=\
@@ -59,7 +58,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'clarinet in B-flat', 
-        instrumenttools.ClarinetInBFlat(
+        abjad.instrumenttools.ClarinetInBFlat(
             instrument_name_markup=\
                 baca.markup.make_instrument_name_markup('Clarinet'),
             short_instrument_name_markup=\
@@ -68,7 +67,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'bass clarinet', 
-        instrumenttools.BassClarinet(
+        abjad.instrumenttools.BassClarinet(
             instrument_name='bass clarinet',
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Bass clarinet',
@@ -91,7 +90,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'percussion', 
-        instrumenttools.Percussion(
+        abjad.instrumenttools.Percussion(
             instrument_name_markup=\
                 baca.markup.make_instrument_name_markup('Percussion'),
             short_instrument_name_markup=\
@@ -100,7 +99,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'violin', 
-        instrumenttools.Violin(
+        abjad.instrumenttools.Violin(
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Violin'),
             short_instrument_name_markup=\
@@ -109,7 +108,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'viola', 
-        instrumenttools.Viola(
+        abjad.instrumenttools.Viola(
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Viola'),
             short_instrument_name_markup=\
@@ -118,7 +117,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'cello', 
-        instrumenttools.Cello(
+        abjad.instrumenttools.Cello(
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Cello'),
             short_instrument_name_markup=\
