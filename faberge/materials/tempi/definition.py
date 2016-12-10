@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 import abjad
-import collections
 
 
-tempi = collections.OrderedDict([
+tempi = abjad.datastructuretools.TypedOrderedDict([
     (
         41,
         abjad.Tempo(abjad.Duration(1, 4), 41),
