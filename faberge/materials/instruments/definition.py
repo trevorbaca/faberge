@@ -19,7 +19,7 @@ piano = abjad.instrumenttools.Piano(
     )
 piano._default_scope = 'PianoStaffGroup'
 
-instruments = collections.OrderedDict([
+instruments = abjad.datastructuretools.TypedOrderedDict([
     (
         'flute', 
         abjad.instrumenttools.Flute(
