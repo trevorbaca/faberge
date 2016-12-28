@@ -426,7 +426,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(1)),
     [
-        baca.select_.first_note(
+        baca.wrap.first_note(
             faberge.materials.markup.match_sound_of_crotales(),
             ),
         faberge.tools.make_dal_niente_hairpins('f'),
@@ -520,7 +520,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(12)),
     [
-        baca.select_.first_leaf(faberge.materials.instruments['bass flute']),
+        baca.wrap.first_leaf(faberge.materials.instruments['bass flute']),
         ],
     )
 
@@ -548,7 +548,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('E4 Eb~4 E~4 E4 E#+4'),
         baca.spanners.pervasive_trills(),
-        baca.select_.first_note(Dynamic('f')),
+        baca.wrap.first_note(Dynamic('f')),
         ],
     )
 
@@ -557,7 +557,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('F#4 F#+4 E#4 E#+4'),
         baca.spanners.pervasive_trills(),
-        baca.select_.first_note(Dynamic('f')),
+        baca.wrap.first_note(Dynamic('f')),
         ],
     )
 
@@ -566,7 +566,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('G#4 F#+4 G4 G+4 G#+4'),
         baca.spanners.pervasive_trills(),
-        baca.select_.first_note(Dynamic('f')),
+        baca.wrap.first_note(Dynamic('f')),
         ],
     )
 
@@ -575,15 +575,15 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('A#4 A+4 A#+4'),
         baca.spanners.pervasive_trills(),
-        baca.select_.first_note(Dynamic('f')),
+        baca.wrap.first_note(Dynamic('f')),
         ],
     )
 
 segment_maker.append_specifiers(
     (eh, stages(16)),
     [
-        baca.select_.first_note(baca.dynamics.make_effort_dynamic('f')),
-        baca.select_.first_note(baca.markup.make_boxed_markup('keynoise')),
+        baca.wrap.first_note(baca.dynamics.make_effort_dynamic('f')),
+        baca.wrap.first_note(baca.markup.make_boxed_markup('keynoise')),
         baca.overrides.cross_note_heads(),
         faberge.tools.make_keynoise_pitches(rotation=0)
         ],
@@ -594,7 +594,7 @@ segment_maker.append_specifiers(
     [
         baca.pitch.pitches('C4 C+4 C~4 C#4'),
         baca.spanners.pervasive_trills(),
-        baca.select_.first_note(Dynamic('f')),
+        baca.wrap.first_note(Dynamic('f')),
         ],
     )
 
@@ -603,7 +603,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(1)),
     [
-        baca.select_.first_note(
+        baca.wrap.first_note(
             faberge.materials.markup.match_sound_of_crotales(),
             ),
         baca.pitch.pitches('F#6'),
@@ -676,7 +676,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(8)),
     [
-        baca.select_.first_leaf(
+        baca.wrap.first_leaf(
             faberge.materials.instruments['bass clarinet'],
             ),
         ],
@@ -730,7 +730,7 @@ segment_maker.append_specifiers(
     (pf_rh, stages(1, 16)),
     [
         faberge.tools.make_chord_pitch_specifier('D4 E4 F#4 C5 D5'),
-        baca.select_.first_note(
+        baca.wrap.first_note(
             baca.markup.make_boxed_markup_lines([
                 'depress silently;',
                 'sustain with middle pedal',
@@ -754,7 +754,7 @@ segment_maker.append_specifiers(
     (perc, stages(1, 15)),
     [
         baca.articulations.laissez_vibrer(),
-        baca.select_.first_note(
+        baca.wrap.first_note(
             baca.markup.make_boxed_markup('BOWED CROTALES'),
             ),
         ],
@@ -885,26 +885,26 @@ segment_maker.append_specifiers(
     (perc, stages(16)),
     [
         baca.pitch.fixed_pitches('D4 D4 B3'),
-        baca.select_.leaves(baca.spanners.two_line_staff()),
-        baca.select_.leaves(baca.spanners.clef_spanner('percussion')),
-        baca.select_.notes(
+        baca.wrap.leaves(baca.spanners.two_line_staff()),
+        baca.wrap.leaves(baca.spanners.clef_spanner('percussion')),
+        baca.wrap.notes(
             baca.spanners.pervasive_trills(),
             stop=-1,
             ),
-        baca.select_.notes(
+        baca.wrap.notes(
             faberge.materials.markup.castanets(),
             start=-3,
             stop=-1,
             ),
-        baca.select_.notes(
+        baca.wrap.notes(
             baca.articulations.accents(),
             start=-1,
             ),
-        baca.select_.notes(
+        baca.wrap.notes(
             faberge.materials.markup.bass_drum(),
             start=-1,
             ),
-        baca.select_.first_note(Dynamic('ff')),
+        baca.wrap.first_note(Dynamic('ff')),
         ],
     )
 
@@ -913,7 +913,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.laissez_vibrer(),
         baca.pitch.pitches('F#4'),
-        baca.select_.first_note(faberge.materials.markup.bowed_crotales()),
+        baca.wrap.first_note(faberge.materials.markup.bowed_crotales()),
         faberge.tools.make_dal_niente_hairpins('f'),
         ],
     )
@@ -924,7 +924,7 @@ segment_maker.append_specifiers(
     (vn, stages(1)),
     [
         baca.pitch.pitches('F#6'),
-        baca.select_.first_note(
+        baca.wrap.first_note(
             faberge.materials.markup.match_sound_of_crotales(),
             ),
         faberge.tools.make_dal_niente_hairpins('f'),
@@ -1032,8 +1032,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(13)),
     [
-        baca.select_.first_note(baca.dynamics.make_effort_dynamic('f')),
-        baca.select_.first_note(baca.markup.spazz()),
+        baca.wrap.first_note(baca.dynamics.make_effort_dynamic('f')),
+        baca.wrap.first_note(baca.markup.spazz()),
         baca.pitch.pitches('E4'),
         ],
     )
@@ -1048,7 +1048,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(14)),
     [
-        baca.select_.first_note(baca.markup.non_spazz()),
+        baca.wrap.first_note(baca.markup.non_spazz()),
         faberge.tools.make_increasing_dal_niente_hairpins(),
         ],
     )
@@ -1063,8 +1063,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(16)),
     [
-        baca.select_.first_note(baca.dynamics.make_effort_dynamic('f')),
-        baca.select_.first_note(baca.markup.spazz()),
+        baca.wrap.first_note(baca.dynamics.make_effort_dynamic('f')),
+        baca.wrap.first_note(baca.markup.spazz()),
         baca.pitch.pitches('E4'),
         ],
     )
@@ -1072,7 +1072,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(17)),
     [
-        baca.select_.first_note(baca.markup.non_spazz()),
+        baca.wrap.first_note(baca.markup.non_spazz()),
         baca.pitch.pitches('F#6'),
         faberge.tools.make_dal_niente_hairpins('f'),
         ],
@@ -1084,16 +1084,16 @@ segment_maker.append_specifiers(
     (va, stages(1, 12)),
     [
         baca.articulations.stem_tremolo(),
-        baca.select_.first_note(baca.markup.XFB_sempre()),
+        baca.wrap.first_note(baca.markup.XFB_sempre()),
         baca.pitch.pitches('D3'),
-        baca.select_.first_note(Dynamic('mp')),
+        baca.wrap.first_note(Dynamic('mp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 baca.markup.tasto(),
                 baca.markup.pochiss_pont(),
@@ -1106,21 +1106,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(2)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(Dynamic('pp')),
+        baca.wrap.leaves(Dynamic('pp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(3, 4)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.pochiss_pont(),
@@ -1133,7 +1133,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(3)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1143,21 +1143,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(5)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(Dynamic('pp')),
+        baca.wrap.leaves(Dynamic('pp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(6, 7)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.pochiss_pont(),
@@ -1170,7 +1170,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(6)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1180,21 +1180,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(8)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(Dynamic('pp')),
+        baca.wrap.leaves(Dynamic('pp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(9, 11)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.pochiss_pont(),
@@ -1207,7 +1207,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(9)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1217,13 +1217,13 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(12)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 None,
                 baca.markup.tasto(),
                 ),
             ),
-        baca.select_.leaves(Dynamic('pp')),
+        baca.wrap.leaves(Dynamic('pp')),
         ],
     )
 
@@ -1231,8 +1231,8 @@ segment_maker.append_specifiers(
     (va, stages(13)),
     [
         baca.pitch.pitches('E4'),
-        baca.select_.leaves(baca.markup.spazz()),
-        baca.select_.leaves(baca.dynamics.make_effort_dynamic('f')),
+        baca.wrap.leaves(baca.markup.spazz()),
+        baca.wrap.leaves(baca.dynamics.make_effort_dynamic('f')),
         ],
     )
 
@@ -1240,9 +1240,9 @@ segment_maker.append_specifiers(
     (va, stages(14, 15)),
     [
         baca.articulations.stem_tremolo(),
-        baca.select_.first_note(baca.markup.XFB()),
+        baca.wrap.first_note(baca.markup.XFB()),
         baca.pitch.pitches('D3'),
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 baca.markup.tasto(),
                 baca.markup.pochiss_pont(),
@@ -1254,7 +1254,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(14)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=Hairpin('pp < mp'),
             with_next_leaf=True,
             ),
@@ -1265,8 +1265,8 @@ segment_maker.append_specifiers(
     (va, stages(16)),
     [
         baca.pitch.pitches('E4'),
-        baca.select_.leaves(baca.markup.spazz()),
-        baca.select_.leaves(baca.dynamics.make_effort_dynamic('f')),
+        baca.wrap.leaves(baca.markup.spazz()),
+        baca.wrap.leaves(baca.dynamics.make_effort_dynamic('f')),
         ],
     )
 
@@ -1274,15 +1274,15 @@ segment_maker.append_specifiers(
     (va, stages(17)),
     [
         baca.articulations.stem_tremolo(),
-        baca.select_.first_note(baca.markup.XFB()),
+        baca.wrap.first_note(baca.markup.XFB()),
         baca.pitch.pitches('D3'),
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 baca.markup.pochiss_pont(),
                 baca.markup.tasto(),
                 ),
             ),
-        baca.select_.leaves(Dynamic('pp')),
+        baca.wrap.leaves(Dynamic('pp')),
         ],
     )
 
@@ -1298,14 +1298,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1, 2)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             baca.spanners.make_transition(
                 baca.markup.tasto_plus_poco_vib(),
                 baca.markup.PO_plus_poco_vib(True, False),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=Hairpin('p < f'),
             with_next_leaf=True,
             ),
@@ -1315,14 +1315,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(4, 6)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.PO_plus_poco_vib(False, False),
                 baca.markup.tasto_plus_poco_vib(True, False),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=Hairpin('f > p'),
             with_next_leaf=True,
             ),
@@ -1332,14 +1332,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9, 10)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.tasto_plus_poco_vib(False, False),
                 baca.markup.poco_pont_plus_vib_mod(True, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=Hairpin('p < ff'),
             with_next_leaf=True,
             ),
@@ -1349,22 +1349,22 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(13)),
     [
-        baca.select_.leaves(baca.markup.poco_pont_plus_sub_non_vib(False, True)),
-        baca.select_.leaves(Dynamic('ppp')),
+        baca.wrap.leaves(baca.markup.poco_pont_plus_sub_non_vib(False, True)),
+        baca.wrap.leaves(Dynamic('ppp')),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14, 15)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=baca.spanners.make_transition(
                 baca.markup.poco_pont_plus_sub_vib_mod(False, True),
                 baca.markup.tasto_plus_non_vib(True, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=Hairpin('ff > pp'),
             with_next_leaf=True,
             ),
@@ -1374,14 +1374,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(16)),
     [
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=baca.spanners.make_transition(
                 None,
                 baca.markup.tasto_plus_poco_vib(False, True),
                 ),
             with_next_leaf=True,
             ),
-        baca.select_.leaves(
+        baca.wrap.leaves(
             specifier=Hairpin('pp < p'),
             with_next_leaf=True,
             ),
