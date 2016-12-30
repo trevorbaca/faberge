@@ -8,6 +8,11 @@ import baca
 
 class ScoreTemplate(baca.tools.ScoreTemplate):
     r'''Score template.
+
+    ::
+
+        >>> import faberge
+
     '''
 
     ### CLASS VARIABLES ###
@@ -30,11 +35,7 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
 
         ..  container:: example
 
-            **Example.** Calls score template:
-
-            ::
-
-                >>> import faberge
+            Calls score template:
 
             ::
 
