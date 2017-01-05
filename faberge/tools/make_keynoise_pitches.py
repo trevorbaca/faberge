@@ -9,5 +9,5 @@ def make_keynoise_pitches(rotation=None):
     keynoise_pitches = abjad.sequencetools.Sequence(keynoise_pitches)
     keynoise_pitches = keynoise_pitches.rotate(n=rotation)
     keynoise_pitches = keynoise_pitches.flatten()
-    pitch_specifier = baca.tools.PitchSpecifier(source=keynoise_pitches)
+    pitch_specifier = baca.tools.ScorePitchSpecifier(source=keynoise_pitches)
     return pitch_specifier
