@@ -2875,7 +2875,7 @@
                             \once \override Arpeggio.X-offset = #-2
                             \once \override NoteHead.stencil = #ly:text-interface::print
                             \once \override NoteHead.text = \markup {
-                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                                \filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
                             <c, e, g, b,>16 \sfz
                                 ^ \markup {
@@ -2914,7 +2914,7 @@
                             \once \override Arpeggio.X-offset = #-2
                             \once \override NoteHead.stencil = #ly:text-interface::print
                             \once \override NoteHead.text = \markup {
-                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                                \filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
                             <c, e, g, b,>16 \sfz
                                 ^ \markup {
