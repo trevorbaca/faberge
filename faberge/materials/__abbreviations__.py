@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from baca.tools import stages
 from abjad.tools.rhythmmakertools import silence
 from abjad.tools.rhythmmakertools import silence_all
 from abjad.tools.rhythmmakertools import silence_every
