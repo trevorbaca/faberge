@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import mathtools
-from abjad.tools import rhythmmakertools
-from abjad.tools import scoretools
-from abjad.tools import sequencetools
 
 
 def make_meccanico_rhythm_specifier(attack_count, fuse_counts=None):
@@ -17,10 +14,10 @@ def make_meccanico_rhythm_specifier(attack_count, fuse_counts=None):
         division_expression = division_expression.map()
         division_expression = division_expression.sum()
         division_expression = division_expression.flatten()
-    tuplet_ratio = mathtools.Ratio(attack_count * [1])
-    rhythm_maker = rhythmmakertools.TupletRhythmMaker(
+    tuplet_ratio = abjad.Ratio(attack_count * [1])
+    rhythm_maker = abjad.rhythmmakertools.TupletRhythmMaker(
         tuplet_ratios=[tuplet_ratio],
-        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+        tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
             avoid_dots=True,
             ),
         )

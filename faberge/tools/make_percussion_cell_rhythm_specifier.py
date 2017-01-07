@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_percussion_cell_rhythm_specifier():
-    rhythm_maker = rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
         )
     return baca.tools.RhythmSpecifier(
         rewrite_meter=True,

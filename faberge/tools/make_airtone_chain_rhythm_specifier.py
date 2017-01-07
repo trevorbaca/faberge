@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import datastructuretools
-from abjad.tools import mathtools
-from abjad.tools import rhythmmakertools
-from abjad.tools import sequencetools
 
 
 def make_airtone_chain_rhythm_specifier(
@@ -18,10 +15,10 @@ def make_airtone_chain_rhythm_specifier(
     assert isinstance(total_events, int), repr(total_events)
     my_event_indices = my_event_indices or []
     assert isinstance(my_event_indices, (list, tuple)), repr(my_event_indices)
-    counts = sequencetools.Sequence(counts)
+    counts = abjad.sequencetools.Sequence(counts)
     counts = counts.rotate(n=event_rotation)
     counts = counts.flatten()
-    counts = datastructuretools.CyclicTuple(counts)
+    counts = abjad.datastructuretools.CyclicTuple(counts)
 
     my_counts = []
     if silence_termination:
@@ -72,13 +69,13 @@ def make_airtone_chain_rhythm_specifier(
 
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
 
-    rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         read_talea_once_only=True,
-        talea=rhythmmakertools.Talea(
+        talea=abjad.rhythmmakertools.Talea(
             counts=my_counts,
             denominator=16,
             ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
         )

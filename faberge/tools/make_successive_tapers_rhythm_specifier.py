@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
-from abjad.tools import sequencetools
 
 
 def make_successive_tapers_rhythm_specifier(
@@ -21,15 +20,15 @@ def make_successive_tapers_rhythm_specifier(
         division_expression = division_expression.map()
         division_expression = division_expression.sum()
         division_expression = division_expression.flatten()
-    rhythm_maker = rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier = rhythmmakertools.InciseSpecifier(
+    rhythm_maker = abjad.rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier = abjad.rhythmmakertools.InciseSpecifier(
             prefix_talea=start_talea,
             prefix_counts=[len(start_talea)],
             suffix_talea=stop_talea,
             suffix_counts=[len(stop_talea)],
             talea_denominator=denominator,
             ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_consecutive_notes=True,
             use_messiaen_style_ties=True,
             ),

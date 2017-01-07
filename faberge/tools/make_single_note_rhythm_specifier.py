@@ -1,15 +1,14 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import durationtools
-from abjad.tools import rhythmmakertools
 
 
 def make_single_note_rhythm_specifier(duration):
-    duration = durationtools.Duration(duration)
+    duration = abjad.Duration(duration)
     numerator = duration.numerator
     denominator = duration.denominator
-    rhythm_maker = rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
+    rhythm_maker = abjad.rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             fill_with_notes=False,
             outer_divisions_only=True,
             prefix_talea=[numerator],

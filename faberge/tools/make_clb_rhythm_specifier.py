@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
-from abjad.tools import scoretools
-from abjad.tools import sequencetools
 
 
 def make_clb_rhythm_specifier(
@@ -20,7 +18,7 @@ def make_clb_rhythm_specifier(
         expression = expression.map()
         expression = expression.sum()
         expression = expression.flatten()
-    counts = sequencetools.Sequence([
+    counts = abjad.sequencetools.Sequence([
         [1, 1, 1, 1, 1],
         [-4],
         [1, 1, 1, 1, 1, 1],
@@ -37,9 +35,9 @@ def make_clb_rhythm_specifier(
         ]) 
     counts = counts.rotate(n=count_rotation)
     counts = counts.flatten()
-    rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[2, 6, 2, 0, 4],
-        talea=rhythmmakertools.Talea(
+        talea=abjad.rhythmmakertools.Talea(
             counts=[1],
             denominator=8,
             ),
