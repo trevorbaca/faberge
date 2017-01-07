@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
-from abjad.tools import sequencetools
 
 
 def make_spazzolati_rhythm_specifier(
@@ -22,13 +21,13 @@ def make_spazzolati_rhythm_specifier(
         [1, 1],
         [-2],
         ]
-    counts = sequencetools.Sequence(counts)
+    counts = abjad.sequence(counts)
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
-    rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         division_masks=division_masks,
         extra_counts_per_division=extra_counts_per_division,
-        talea=rhythmmakertools.Talea(
+        talea=abjad.rhythmmakertools.Talea(
             counts=counts,
             denominator=denominator,
             ),

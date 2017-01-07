@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_electricity_rhythm_specifier():

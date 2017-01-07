@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_stop_release_rhythm_specifier():
-    rhythm_maker = rhythmmakertools.IncisedRhythmMaker(
-        division_masks=rhythmmakertools.silence_except(indices=[0, -1]),
-        incise_specifier=rhythmmakertools.InciseSpecifier(
+    rhythm_maker = abjad.rhythmmakertools.IncisedRhythmMaker(
+        division_masks=abjad.rhythmmakertools.silence_except(indices=[0, -1]),
+        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             fill_with_notes=False,
             prefix_talea=[1],
             prefix_counts=[0, 1],

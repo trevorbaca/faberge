@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import datastructuretools
-from abjad.tools import mathtools
-from abjad.tools import rhythmmakertools
-from abjad.tools import sequencetools
 
 
 def make_shell_exchange_rhythm_specifier(
@@ -48,7 +45,7 @@ def make_shell_exchange_rhythm_specifier(
         [1, 1, -2],
         [1, 1, 1, -1],
         ]
-    counts = sequencetools.Sequence(counts)
+    counts = abjad.sequence(counts)
     counts = counts.rotate(n=rotation)
     counts = counts.flatten()
 
@@ -70,7 +67,8 @@ def make_shell_exchange_rhythm_specifier(
             ]
     else:
         raise ValueError(total_parts)
-    interaction_series = datastructuretools.CyclicTuple(interaction_series)
+    interaction_series = abjad.datastructuretools.CyclicTuple(
+        interaction_series)
 
     filtered_counts = []
     positive_count_index = -1
@@ -86,10 +84,11 @@ def make_shell_exchange_rhythm_specifier(
             filtered_counts.append(count)
 
     assert len(filtered_counts) == len(counts)
-    assert mathtools.weight(filtered_counts) == mathtools.weight(counts)
+    assert abjad.mathtools.weight(filtered_counts) == \
+        abjad.mathtools.weight(counts)
     counts = filtered_counts
 
-    grouped_counts = sequencetools.partition_sequence_by_sign_of_elements(
+    grouped_counts = abjad.sequencetools.partition_sequence_by_sign_of_elements(
         counts)
     grouped_rests = []
     for group in grouped_counts:
@@ -99,21 +98,22 @@ def make_shell_exchange_rhythm_specifier(
             rest_count = sum(group)
             grouped_rests.append(rest_count)
 
-    assert mathtools.weight(grouped_rests) == mathtools.weight(counts)
+    assert abjad.mathtools.weight(grouped_rests) == \
+        abjad.mathtools.weight(counts)
     counts = grouped_rests
 
     extras = [0, 0, -1, 0, 0, -1, -1]
-    extras = sequencetools.Sequence(extras)
+    extras = abjad.sequence(extras)
     extras = extras.rotate(n=extra_counts_per_division_rotation)
 
-    rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=extras,
-        logical_tie_masks=rhythmmakertools.silence_last(),
-        talea=rhythmmakertools.Talea(
+        logical_tie_masks=abjad.rhythmmakertools.silence_last(),
+        talea=abjad.rhythmmakertools.Talea(
             counts=counts,
             denominator=8,
             ),
-        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+        tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
             rewrite_rest_filled_tuplets=True,
             simplify_redundant_tuplets=True,
             ),

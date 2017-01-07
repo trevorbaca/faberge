@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_sparse_pegs_rhythm_specifier():
-#    rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
-#        talea=rhythmmakertools.Talea(
+#    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
+#        talea=abjad.rhythmmakertools.Talea(
 #            counts=counts,
 #            denominator=16,
 #            ),

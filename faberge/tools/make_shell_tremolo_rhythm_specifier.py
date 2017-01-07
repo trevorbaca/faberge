@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_shell_tremolo_rhythm_specifier():
-    rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=None,
-        talea=rhythmmakertools.Talea(
+        talea=abjad.rhythmmakertools.Talea(
             counts=[8],
             denominator=8,
             ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             )
         )
