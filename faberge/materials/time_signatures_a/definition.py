@@ -9,8 +9,7 @@ assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
 numerators = baca.Sequence(numerator_groups).flatten()
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_groups = abjad.sequencetools.partition_sequence_by_counts(
-    time_signatures_a,
+time_signature_groups = baca.Sequence(time_signatures_a).partition_by_counts(
     lengths,
     )
 time_signatures_a = time_signature_groups
