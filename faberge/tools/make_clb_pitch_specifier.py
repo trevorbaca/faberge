@@ -26,4 +26,4 @@ def make_clb_pitch_specifier(rotation=None):
         }
     pitches = [staff_position_to_pitch[_] for _ in staff_positions]
     pitches = ' '.join(pitches)
-    return baca.pitch.pitches(pitches)
+    return baca.pitches(pitches)

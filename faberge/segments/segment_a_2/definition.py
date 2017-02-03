@@ -518,7 +518,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(1, 14)),
     [
-        baca.pitch.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3'),
+        baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3'),
         faberge.tools.make_color_fingering_specifier(),
         ],
     )
@@ -616,7 +616,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (fl, stages(16)),
     [
-        baca.pitch.pitches('G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3'),
+        baca.pitches('G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3'),
         faberge.tools.make_color_fingering_specifier(),
         faberge.tools.make_niente_swells(['ppp']),
         ],
@@ -636,7 +636,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(4)),
     [
-        baca.pitch.pitches('Db4 Db~4 Db4 Db~4 D~4'),
+        baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
         baca.spanners.pervasive_trills(),
         baca.wrap.first_note(Dynamic('f')),
         ],
@@ -654,7 +654,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(6, 7)),
     [
-        baca.pitch.pitches('D4 D+4 D~4 Db4 D~4'),
+        baca.pitches('D4 D+4 D~4 Db4 D~4'),
         baca.spanners.pervasive_trills(),
         baca.wrap.first_note(Dynamic('ff')),
         ],
@@ -663,7 +663,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(8)),
     [
-        baca.pitch.pitches('Eb4'),
+        baca.pitches('Eb4'),
         baca.spanners.pervasive_trills(),
         baca.wrap.first_note(faberge.materials.markup.doubletrill()),
         baca.wrap.first_note(Dynamic('fff')),
@@ -673,7 +673,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(9)),
     [
-        baca.pitch.pitches('E4'),
+        baca.pitches('E4'),
         baca.spanners.pervasive_trills(),
         baca.wrap.first_note(faberge.materials.markup.doubletrill()),
         baca.wrap.first_note(Dynamic('fff')),
@@ -704,7 +704,7 @@ segment_maker.append_specifiers(
         baca.wrap.first_note(baca.dynamics.make_effort_dynamic('mf')),
         baca.wrap.first_note(baca.markup.airtone()),
         baca.overrides.repeat_tie_up(),
-        baca.pitch.pitches('F3'),
+        baca.pitches('F3'),
         ],
     )
 
@@ -720,21 +720,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(1, 9)),
     [
-        baca.pitch.pitches('Eb2 E~2'),
+        baca.pitches('Eb2 E~2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (cl, stages(10)),
     [
-        baca.pitch.pitches('Eb2'),
+        baca.pitches('Eb2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (cl, stages(11, 13)),
     [
-        baca.pitch.pitches('D2'),
+        baca.pitches('D2'),
         ],
     )
 
@@ -755,14 +755,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (cl, stages(14)),
     [
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (cl, stages(16)),
     [
-        baca.pitch.pitches('C2'),
+        baca.pitches('C2'),
         faberge.tools.make_niente_swells(['ppp']),
         ],
     )
@@ -793,7 +793,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.laissez_vibrer(),
         baca.wrap.first_note(baca.markup.lv_possibile()),
-        baca.pitch.pitches('G4'),
+        baca.pitches('G4'),
         faberge.tools.make_dal_niente_hairpins('ff'),
         ],
     )
@@ -824,14 +824,14 @@ segment_maker.append_specifiers(
             enchain_hairpins=True,
             span=[4, 3],
             ),
-        baca.pitch.pitches('Eb2'),
+        baca.pitches('Eb2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (perc, stages(11, 13)),
     [
-        baca.pitch.pitches('D2'),
+        baca.pitches('D2'),
         ],
     )
 
@@ -848,7 +848,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (perc, stages(14)),
     [
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         ],
     )
 
@@ -862,7 +862,7 @@ segment_maker.append_specifiers(
                 'noise only: no pitch',
                 ]),
             ),
-        baca.pitch.pitches('B3'),
+        baca.pitches('B3'),
         baca.wrap.leaves(baca.spanners.two_line_staff()),
         baca.wrap.first_leaf(Clef('percussion')),
         ],
@@ -874,7 +874,7 @@ segment_maker.append_specifiers(
     (vn, stages(1)),
     [
         baca.wrap.first_note(baca.markup.lv_possibile()),
-        baca.pitch.pitches('G6'),
+        baca.pitches('G6'),
         faberge.tools.make_dal_niente_hairpins('ff'),
         ],
     )
@@ -882,7 +882,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(2, 5)),
     [
-        baca.pitch.pitches('F4'),
+        baca.pitches('F4'),
         ],
     )
 
@@ -905,7 +905,7 @@ segment_maker.append_specifiers(
     (vn, stages(6, 11)),
     [
         baca.wrap.first_note(baca.markup.pochiss_scratch()),
-        baca.pitch.pitches('E~4'),
+        baca.pitches('E~4'),
         baca.wrap.first_note(Dynamic('ppp')),
         ],
     )
@@ -967,7 +967,7 @@ segment_maker.append_specifiers(
                 ]),
             ),
         baca.overrides.repeat_tie_up(),
-        baca.pitch.pitches('C4'),
+        baca.pitches('C4'),
         ],
     )
 
@@ -987,14 +987,14 @@ segment_maker.append_specifiers(
     (va, stages(1)),
     [
         baca.articulations.stem_tremolo(),
-        baca.pitch.pitches('Eb3'),
+        baca.pitches('Eb3'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(2, 5)),
     [
-        baca.pitch.pitches('F4'),
+        baca.pitches('F4'),
         ],
     )
 
@@ -1017,7 +1017,7 @@ segment_maker.append_specifiers(
     (va, stages(6, 11)),
     [
         baca.wrap.first_note(baca.markup.tasto_plus_pochiss_scratch()),
-        baca.pitch.pitches('G3'),
+        baca.pitches('G3'),
         baca.wrap.first_note(Dynamic('pp')),
         ],
     )
@@ -1074,7 +1074,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1, 8)),
     [
-        baca.pitch.pitches('Eb2'),
+        baca.pitches('Eb2'),
         ],
     )
 
@@ -1134,14 +1134,14 @@ segment_maker.append_specifiers(
                 'do not reattack note heads',
                 ]),
             ),
-        baca.pitch.pitches('Eb2'),
+        baca.pitches('Eb2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10)),
     [
-        baca.pitch.pitches('Fb2'),
+        baca.pitches('Fb2'),
         ],
     )
 
@@ -1165,14 +1165,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(11, 13)),
     [
-        baca.pitch.pitches('D2'),
+        baca.pitches('D2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14)),
     [
-        baca.pitch.pitches('C#2 B#1'),
+        baca.pitches('C#2 B#1'),
         ],
     )
 

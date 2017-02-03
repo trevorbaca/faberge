@@ -692,7 +692,7 @@ segment_maker.append_specifiers(
     (eh, stages(21, 23)),
     [
         baca.markup.make_boxed_markup('ratchet'),
-        #baca.pitch.pitches('C4'),
+        #baca.pitches('C4'),
         baca.spanners.one_line_staff(),
         spannertools.ClefSpanner(clef='percussion'),
         ],
