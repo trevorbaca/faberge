@@ -402,7 +402,7 @@ segment_maker.append_specifiers(
     (pf_attack, [stages(5), stages(8)]),
     [
         baca.articulations.marcati(),
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         Dynamic('sfz'),
         ],
     )

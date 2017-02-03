@@ -101,7 +101,7 @@ segment_maker.append_specifiers(
     (eh, stages(3)),
     [
         baca.markup.make_boxed_markup('ratchet'),
-        baca.pitch.pitches('C4'),
+        baca.pitches('C4'),
         baca.spanners.one_line_staff(),
         abjad.spanenrtools.ClefSpanner(clef='percussion'),
         ],
@@ -119,7 +119,7 @@ segment_maker.append_specifiers(
     [
         baca.dynamics.make_effort_dynamic('f'),
         baca.markup.spazzolato(),
-        baca.pitch.pitches('E4'),
+        baca.pitches('E4'),
         ],
     )
 
@@ -130,7 +130,7 @@ segment_maker.append_specifiers(
     [
         baca.dynamics.make_effort_dynamic('f'),
         baca.markup.spazzolato(),
-        baca.pitch.pitches('E4'),
+        baca.pitches('E4'),
         ],
     )
 
