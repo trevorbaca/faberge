@@ -227,7 +227,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_music, stages(5, 14)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -239,12 +239,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(3)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(8)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -280,12 +280,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(6)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vn, stages(12, 15)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 ### viola (time) ###
@@ -371,12 +371,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(6)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(12, 15)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -394,14 +394,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (pf_music, stages(5, 14)),
     [
-        baca.overrides.natural_harmonics(),
+        baca.natural_harmonics(),
         ],
     )
 
 segment_maker.append_specifiers(
     (pf_attack, [stages(5), stages(8)]),
     [
-        baca.articulations.marcati(),
+        baca.marcati(),
         baca.pitches('C#2'),
         Dynamic('sfz'),
         ],
@@ -412,7 +412,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (perc, stages(12, 14)),
     [
-        baca.articulations.stem_tremolo(),
+        baca.stem_tremolo(),
         ],
     )
 

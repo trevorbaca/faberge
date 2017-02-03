@@ -14,4 +14,4 @@ def make_sparse_pegs_rhythm_specifier():
 #        rewrite_meter=True,
 #        rhythm_maker=rhythm_maker,
 #        )
-    return baca.rhythm.make_messiaen_tied_note_rhythm_specifier()
+    return baca.make_messiaen_tied_note_rhythm_specifier()
