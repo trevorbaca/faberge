@@ -104,7 +104,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (fl, stages(3)),
-    baca.rhythm.make_rest_rhythm_specifier(),
+    baca.make_rest_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -134,12 +134,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, stages(16)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(18)),
-    baca.rhythm.make_rest_rhythm_specifier(),
+    baca.make_rest_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -196,12 +196,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(1, 2)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (cl, stages(3)),
-    baca.rhythm.make_rest_rhythm_specifier(),
+    baca.make_rest_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -292,7 +292,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_rh, stages(43)),
-    baca.rhythm.make_rest_rhythm_specifier(),
+    baca.make_rest_rhythm_specifier(),
     )
 
 ### percussion (time) ###
@@ -314,12 +314,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(9)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(11)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -339,12 +339,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(16)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(18)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -616,12 +616,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(11)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -693,7 +693,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.make_boxed_markup('ratchet'),
         #baca.pitches('C4'),
-        baca.spanners.one_line_staff(),
+        baca.one_line_staff(),
         spannertools.ClefSpanner(clef='percussion'),
         ],
     )

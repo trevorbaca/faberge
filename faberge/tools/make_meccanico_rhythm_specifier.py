@@ -4,7 +4,7 @@ import baca
 
 
 def make_meccanico_rhythm_specifier(attack_count, fuse_counts=None):
-    division_expression = baca.rhythm.make_strict_quarter_divisions()
+    division_expression = baca.make_strict_quarter_divisions()
     if fuse_counts is not None:
         division_expression = division_expression.partition_by_counts(
             counts=fuse_counts,
