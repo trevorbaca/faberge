@@ -10,7 +10,7 @@ import faberge
 #            left_classes=[abjad.Rest],
 #            left_counts=[1],
 #            ),
-#        division_masks=abjad.rhythmmakertools.silence_every(
+#        division_masks=abjad.silence_every(
 #            indices=[0, 3, 5, 6],
 #            period=8,
 #            ),
