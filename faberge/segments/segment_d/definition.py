@@ -193,16 +193,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_rh, stages(1)),
-    [
-        faberge.materials.instruments['harpsichord'],
-        ],
+    faberge.materials.instruments['harpsichord'],
     )
 
 segment_maker.append_specifiers(
     (pf_rh, stages(5)),
-    [
-        faberge.materials.instruments['piano'],
-        ],
+    faberge.materials.instruments['piano'],
     )
 
 ### percussion (color) ###

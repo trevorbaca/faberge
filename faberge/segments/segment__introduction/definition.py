@@ -99,12 +99,10 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, stages(3)),
-    [
-        baca.markup.make_boxed_markup('ratchet'),
-        baca.pitches('C4'),
-        baca.one_line_staff(),
-        abjad.spanenrtools.ClefSpanner(clef='percussion'),
-        ],
+    baca.markup.make_boxed_markup('ratchet'),
+    baca.pitches('C4'),
+    baca.one_line_staff(),
+    abjad.spanenrtools.ClefSpanner(clef='percussion'),
     )
 ### clarinet (color) ###
 
@@ -116,22 +114,18 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(1)),
-    [
-        baca.make_effort_dynamic('f'),
-        baca.markup.spazzolato(),
-        baca.pitches('E4'),
-        ],
+    baca.make_effort_dynamic('f'),
+    baca.markup.spazzolato(),
+    baca.pitches('E4'),
     )
 
 ### viola (color) ###
 
 segment_maker.append_specifiers(
     (va, stages(1)),
-    [
-        baca.make_effort_dynamic('f'),
-        baca.markup.spazzolato(),
-        baca.pitches('E4'),
-        ],
+    baca.make_effort_dynamic('f'),
+    baca.markup.spazzolato(),
+    baca.pitches('E4'),
     )
 
 ### cello (color) ###

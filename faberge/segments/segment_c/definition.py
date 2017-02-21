@@ -393,27 +393,21 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_music, stages(5, 14)),
-    [
-        baca.natural_harmonics(),
-        ],
+    baca.natural_harmonics(),
     )
 
 segment_maker.append_specifiers(
     (pf_attack, [stages(5), stages(8)]),
-    [
-        baca.marcati(),
-        baca.pitches('C#2'),
-        Dynamic('sfz'),
-        ],
+    baca.marcati(),
+    baca.pitches('C#2'),
+    Dynamic('sfz'),
     )
 
 ### percussion (color) ###
 
 segment_maker.append_specifiers(
     (perc, stages(12, 14)),
-    [
-        baca.stem_tremolo(),
-        ],
+    baca.stem_tremolo(),
     )
 
 ### violin (color) ###
