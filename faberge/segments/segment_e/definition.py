@@ -691,9 +691,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_rh, stages(1)),
-    [
-        faberge.materials.instruments['piano']
-        ],
+    faberge.materials.instruments['piano']
     )
 
 ### percussion (color) ###

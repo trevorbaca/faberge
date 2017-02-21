@@ -672,48 +672,38 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (fl, stages(3)),
-    [
-        faberge.materials.instruments['flute'],
-        ],
+    faberge.materials.instruments['flute'],
     )
 
 ### english horn (color) ###
 
 segment_maker.append_specifiers(
     (eh, stages(18)),
-    [
-        baca.tools.SpecifierWrapper(
-            specifier=baca.markup.remove_staple(),
-            ),
-        ],
+    baca.tools.SpecifierWrapper(
+        specifier=baca.markup.remove_staple(),
+        ),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(21, 23)),
-    [
-        baca.markup.make_boxed_markup('ratchet'),
-        #baca.pitches('C4'),
-        baca.one_line_staff(),
-        spannertools.ClefSpanner(clef='percussion'),
-        ],
+    baca.markup.make_boxed_markup('ratchet'),
+    #baca.pitches('C4'),
+    baca.one_line_staff(),
+    spannertools.ClefSpanner(clef='percussion'),
     )
 
 ### clarinet (color) ###
 
 segment_maker.append_specifiers(
     (cl, stages(3)),
-    [
-        faberge.materials.instruments['clarinet in B-flat'],
-        ],
+    faberge.materials.instruments['clarinet in B-flat'],
     )
 
 ### piano (color) ###
 
 segment_maker.append_specifiers(
     (pf_rh, stages(43)),
-    [
-        faberge.materials.instruments['piano'],
-        ],
+    faberge.materials.instruments['piano'],
     )
 
 ### percussion (color) ###
