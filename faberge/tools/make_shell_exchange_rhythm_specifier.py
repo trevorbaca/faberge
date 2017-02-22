@@ -67,7 +67,7 @@ def make_shell_exchange_rhythm_specifier(
             ]
     else:
         raise ValueError(total_parts)
-    interaction_series = abjad.datastructuretools.CyclicTuple(
+    interaction_series = abjad.CyclicTuple(
         interaction_series)
 
     filtered_counts = []
