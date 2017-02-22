@@ -18,7 +18,7 @@ def make_airtone_chain_rhythm_specifier(
     counts = abjad.sequencetools.Sequence(counts)
     counts = counts.rotate(n=event_rotation)
     counts = counts.flatten()
-    counts = abjad.datastructuretools.CyclicTuple(counts)
+    counts = abjad.CyclicTuple(counts)
 
     my_counts = []
     if silence_termination:
