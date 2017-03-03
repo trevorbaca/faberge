@@ -10,7 +10,7 @@ def make_increasing_dal_niente_hairpins():
         'niente < mf',
         ]
     descriptors += 20 * ['niente < f']
-    return baca.make_hairpins(
+    return baca.hairpins(
         descriptors,
         include_following_rests=True,
         )

@@ -304,13 +304,13 @@ segment_maker.append_specifiers(
 # apotheosis
 segment_maker.append_specifiers(
     (eh, stages(8)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 # apotheosis cont
 segment_maker.append_specifiers(
     (eh, stages(9)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -322,12 +322,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, stages(15)),
-    baca.make_rest_rhythm_specifier(),
+    baca.rest_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(16)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
@@ -354,7 +354,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(16)),
-    baca.make_single_taper_rhythm_specifier(
+    baca.single_taper_rhythm_specifier(
         denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
@@ -365,7 +365,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_rh, stages(1, 9)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -382,12 +382,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(1)),
-    baca.make_single_attack_rhythm_specifier(abjad.Duration(3, 4)),
+    baca.single_attack_rhythm_specifier(abjad.Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(2)),
-    baca.make_rest_rhythm_specifier(),
+    baca.rest_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -407,19 +407,19 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(15)),
-    baca.make_rest_rhythm_specifier(),
+    baca.rest_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(16)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 ### violin (time) ###
 
 segment_maker.append_specifiers(
     (vn, stages(1)),
-    baca.make_single_attack_rhythm_specifier(abjad.Duration(3, 4)),
+    baca.single_attack_rhythm_specifier(abjad.Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
@@ -431,7 +431,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(6, 11)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -441,7 +441,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(16)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -484,22 +484,22 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.make_fused_tuplet_monad_rhythm_specifier(),
+    baca.fused_tuplet_monad_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10)),
-    baca.make_fused_tuplet_monad_rhythm_specifier(),
+    baca.fused_tuplet_monad_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(11, 13)),
-    baca.make_fused_tuplet_monad_rhythm_specifier(),
+    baca.fused_tuplet_monad_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14)),
-    baca.make_fused_tuplet_monad_rhythm_specifier(
+    baca.fused_tuplet_monad_rhythm_specifier(
         tuplet_ratio=Ratio((31, 1)),
         ),
     )
@@ -599,7 +599,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(1, 3)),
     baca.cross_note_heads(),
-    baca.wrap_first_note(baca.make_effort_dynamic('f')),
+    baca.wrap_first_note(baca.effort_dynamic('f')),
     faberge.tools.make_keynoise_pitches(rotation=-1)
     )
 
@@ -613,7 +613,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(5)),
     baca.cross_note_heads(),
-    baca.wrap_first_note(baca.make_effort_dynamic('f')),
+    baca.wrap_first_note(baca.effort_dynamic('f')),
     faberge.tools.make_keynoise_pitches(rotation=-2)
     )
 
@@ -656,7 +656,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, stages(16)),
-    baca.wrap_first_note(baca.make_effort_dynamic('mf')),
+    baca.wrap_first_note(baca.effort_dynamic('mf')),
     baca.wrap_first_note(baca.markup.airtone()),
     baca.repeat_tie_up(),
     baca.pitches('F3'),
@@ -717,7 +717,7 @@ segment_maker.append_specifiers(
     (pf_attack, stages(1, 9)),
     baca.marcati(),
     faberge.tools.make_piano_cluster_specifier(),
-    baca.make_reiterated_dynamic('sfz'),
+    baca.reiterated_dynamic('sfz'),
     )
 
 ### percussion (color) ###
@@ -746,7 +746,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(6, 10)),
-    baca.make_hairpins(
+    baca.hairpins(
         ['ppp < pp', 'pp > ppp', 'ppp < p', 'p > pp', 'pp < p', 'p > ppp'],
         enchain_hairpins=True,
         span=[4, 3],
@@ -774,7 +774,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(16)),
-    baca.wrap_first_note(baca.make_effort_dynamic('mf')),
+    baca.wrap_first_note(baca.effort_dynamic('mf')),
     baca.wrap_first_note(
         baca.markup.make_boxed_markup_lines([
             'rub sponge on bass drum head;',
@@ -803,7 +803,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn, stages(2)),
     baca.wrap_first_note(baca.markup.spazz()),
-    baca.wrap_first_note(baca.make_effort_dynamic('ff')),
+    baca.wrap_first_note(baca.effort_dynamic('ff')),
     )
 
 segment_maker.append_specifiers(
@@ -856,7 +856,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(16)),
-    baca.wrap_first_note(baca.make_effort_dynamic('mf')),
+    baca.wrap_first_note(baca.effort_dynamic('mf')),
     baca.wrap_first_note(
         baca.markup.make_boxed_markup_lines([
             'bow directly on bridge;',
@@ -891,7 +891,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(2)),
     baca.wrap_first_note(baca.markup.spazz()),
-    baca.wrap_first_note(baca.make_effort_dynamic('ff')),
+    baca.wrap_first_note(baca.effort_dynamic('ff')),
     )
 
 segment_maker.append_specifiers(
@@ -953,7 +953,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(2, 3)),
     baca.wrap_leaves(
-        specifier=baca.make_transition(
+        specifier=baca.transition_spanner(
             baca.markup.tasto_plus_poco_vib(False, False),
             baca.markup.molto_pont_plus_vib_molto(True, True),
             ),
@@ -968,7 +968,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(6)),
     baca.wrap_leaves(
-        specifier=baca.make_transition(
+        specifier=baca.transition_spanner(
             baca.markup.molto_pont_plus_vib_molto(False, False),
             baca.markup.tasto_plus_poco_vib(True, True),
             ),
@@ -983,7 +983,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(7)),
     baca.wrap_leaves(
-        specifier=baca.make_transition(
+        specifier=baca.transition_spanner(
             None,
             baca.markup.tasto_plus_non_vib(False, True),
             ),
@@ -994,7 +994,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9)),
     baca.wrap_first_note(
-        baca.markup.make_markup_lines([
+        baca.markup.lines([
             'glissando lentissimo',
             'do not reattack note heads',
             ]),
@@ -1010,7 +1010,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9, 10)),
     baca.wrap_leaves(
-        specifier=baca.make_transition(
+        specifier=baca.transition_spanner(
             baca.markup.tasto_plus_non_vib(False, False),
             baca.markup.PO(),
             ),
@@ -1035,7 +1035,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(11, 14)),
     baca.wrap_leaves(
-        specifier=baca.make_transition(
+        specifier=baca.transition_spanner(
             None,
             baca.markup.tasto_poss(),
             ),

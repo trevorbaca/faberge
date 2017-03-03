@@ -14,4 +14,4 @@ def make_jewelers_twilight_rhythm_specifier():
 #        rewrite_meter=True,
 #        rhythm_maker=rhythm_maker,
 #        )
-    return baca.make_messiaen_tied_note_rhythm_specifier()
+    return baca.messiaen_tied_note_rhythm_specifier()

@@ -114,7 +114,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(1)),
-    baca.make_effort_dynamic('f'),
+    baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
     baca.pitches('E4'),
     )
@@ -123,7 +123,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(1)),
-    baca.make_effort_dynamic('f'),
+    baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
     baca.pitches('E4'),
     )

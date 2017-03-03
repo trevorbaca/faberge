@@ -21,7 +21,7 @@ import faberge
 #            ),
 #        )
 #    return baca.tools.RhythmSpecifier(
-#        division_expression=baca.make_strict_quarter_divisions(),
+#        division_expression=baca.strict_quarter_divisions(),
 #        rhythm_maker=rhythm_maker,
 #        )
 
@@ -49,7 +49,7 @@ def make_keynoise_rhythm_specifier(
         tuplet_ratios=tuplet_ratios,
         )
     return baca.tools.RhythmSpecifier(
-        division_expression=baca.make_strict_quarter_divisions(),
+        division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )
