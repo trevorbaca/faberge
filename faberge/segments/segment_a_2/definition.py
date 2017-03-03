@@ -776,7 +776,7 @@ segment_maker.append_specifiers(
     (perc, stages(16)),
     baca.wrap_first_note(baca.effort_dynamic('mf')),
     baca.wrap_first_note(
-        baca.markup.make_boxed_markup_lines([
+        baca.markup.boxed_lines([
             'rub sponge on bass drum head;',
             'noise only: no pitch',
             ]),
@@ -858,7 +858,7 @@ segment_maker.append_specifiers(
     (vn, stages(16)),
     baca.wrap_first_note(baca.effort_dynamic('mf')),
     baca.wrap_first_note(
-        baca.markup.make_boxed_markup_lines([
+        baca.markup.boxed_lines([
             'bow directly on bridge;',
             'noise only: no pitch',
             ]),

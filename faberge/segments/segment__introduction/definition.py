@@ -99,7 +99,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, stages(3)),
-    baca.markup.make_boxed_markup('ratchet'),
+    baca.markup.boxed('ratchet'),
     baca.pitches('C4'),
     baca.one_line_staff(),
     abjad.spanenrtools.ClefSpanner(clef='percussion'),
