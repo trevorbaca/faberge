@@ -540,7 +540,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (eh, stages(16)),
     baca.wrap_first_note(baca.effort_dynamic('f')),
-    baca.wrap_first_note(baca.markup.make_boxed_markup('keynoise')),
+    baca.wrap_first_note(baca.markup.boxed('keynoise')),
     baca.cross_note_heads(),
     faberge.tools.make_keynoise_pitches(rotation=0)
     )
@@ -650,7 +650,7 @@ segment_maker.append_specifiers(
     (pf_rh, stages(1, 16)),
     faberge.tools.make_chord_pitch_specifier('D4 E4 F#4 C5 D5'),
     baca.wrap_first_note(
-        baca.markup.make_boxed_markup_lines([
+        baca.markup.boxed_lines([
             'depress silently;',
             'sustain with middle pedal',
             ]),
@@ -670,7 +670,7 @@ segment_maker.append_specifiers(
     (perc, stages(1, 15)),
     baca.laissez_vibrer(),
     baca.wrap_first_note(
-        baca.markup.make_boxed_markup('BOWED CROTALES'),
+        baca.markup.boxed('BOWED CROTALES'),
         ),
     )
 
