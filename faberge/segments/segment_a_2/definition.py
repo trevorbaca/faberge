@@ -658,7 +658,7 @@ segment_maker.append_specifiers(
     (eh, stages(16)),
     baca.wrap_first_note(baca.effort_dynamic('mf')),
     baca.wrap_first_note(baca.markup.airtone()),
-    baca.repeat_tie_up(),
+    baca.repeat_ties_up(),
     baca.pitches('F3'),
     )
 
@@ -863,7 +863,7 @@ segment_maker.append_specifiers(
             'noise only: no pitch',
             ]),
         ),
-    baca.repeat_tie_up(),
+    baca.repeat_ties_up(),
     baca.pitches('C4'),
     )
 
