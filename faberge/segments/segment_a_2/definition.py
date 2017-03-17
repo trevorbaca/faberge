@@ -304,13 +304,13 @@ segment_maker.append_specifiers(
 # apotheosis
 segment_maker.append_specifiers(
     (eh, stages(8)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 # apotheosis cont
 segment_maker.append_specifiers(
     (eh, stages(9)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -322,12 +322,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (eh, stages(15)),
-    baca.rest_rhythm_specifier(),
+    baca.rests(),
     )
 
 segment_maker.append_specifiers(
     (eh, stages(16)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 ### clarinet (time) ###
@@ -354,7 +354,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(16)),
-    baca.single_taper_rhythm_specifier(
+    baca.single_taper(
         denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
@@ -365,7 +365,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_rh, stages(1, 9)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -382,12 +382,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(1)),
-    baca.single_attack_rhythm_specifier(abjad.Duration(3, 4)),
+    baca.single_attack(abjad.Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(2)),
-    baca.rest_rhythm_specifier(),
+    baca.rests(),
     )
 
 segment_maker.append_specifiers(
@@ -407,19 +407,19 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(15)),
-    baca.rest_rhythm_specifier(),
+    baca.rests(),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(16)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 ### violin (time) ###
 
 segment_maker.append_specifiers(
     (vn, stages(1)),
-    baca.single_attack_rhythm_specifier(abjad.Duration(3, 4)),
+    baca.single_attack(abjad.Duration(3, 4)),
     )
 
 segment_maker.append_specifiers(
@@ -431,7 +431,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(6, 11)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -441,7 +441,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(16)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -484,22 +484,22 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.fused_tuplet_monad_rhythm_specifier(),
+    baca.fused_tuplet_monads(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10)),
-    baca.fused_tuplet_monad_rhythm_specifier(),
+    baca.fused_tuplet_monads(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(11, 13)),
-    baca.fused_tuplet_monad_rhythm_specifier(),
+    baca.fused_tuplet_monads(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14)),
-    baca.fused_tuplet_monad_rhythm_specifier(
+    baca.fused_tuplet_monads(
         tuplet_ratio=Ratio((31, 1)),
         ),
     )

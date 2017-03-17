@@ -227,7 +227,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_music, stages(5, 14)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -239,12 +239,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (perc, stages(3)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     (perc, stages(8)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -280,12 +280,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn, stages(6)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 segment_maker.append_specifiers(
     (vn, stages(12, 15)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 ### viola (time) ###
@@ -371,12 +371,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(6)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(12, 15)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 ###############################################################################

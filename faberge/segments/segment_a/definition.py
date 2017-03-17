@@ -87,12 +87,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (fl, stages(12)),
-    baca.rest_rhythm_specifier(),
+    baca.rests(),
     )
 
 segment_maker.append_specifiers(
     (fl, stages(16)),
-    baca.single_taper_rhythm_specifier(
+    baca.single_taper(
         start_talea=[4],
         stop_talea=[3, -1],
         denominator=16,
@@ -167,7 +167,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(8)),
-    baca.rest_rhythm_specifier(),
+    baca.rests(),
     )
 
 segment_maker.append_specifiers(
@@ -182,7 +182,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(13)),
-    baca.single_taper_rhythm_specifier(
+    baca.single_taper(
         denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
@@ -201,7 +201,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (cl, stages(16)),
-    baca.single_taper_rhythm_specifier(
+    baca.single_taper(
         denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
@@ -222,7 +222,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (pf_rh, stages(1, 16)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
