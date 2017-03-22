@@ -60,99 +60,114 @@ segment_maker.validate_measures_per_stage()
 
 ### flute (time) ###
 
-segment_maker.append_specifiers(
-    (fl, stages(2)),
+segment_maker.append_commands(
+    fl,
+    stages(2),
     faberge.tools.make_glow_rhythm_specifier(),
     )
 
 ### english horn (time) ###
 
-segment_maker.append_specifiers(
-    (eh, stages(2)),
+segment_maker.append_commands(
+    eh,
+    stages(2),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(6, 7)),
+segment_maker.append_commands(
+    eh,
+    stages(6, 7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
 
-segment_maker.append_specifiers(
-    (cl, stages(2)),
+segment_maker.append_commands(
+    cl,
+    stages(2),
     faberge.tools.make_glow_rhythm_specifier(),
     )
 
 ### piano (time) ###
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(1)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(1),
     baca.rests(),
     )
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(4)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=7,
         fuse_counts=[3],
         )
     )
 
-segment_maker.append_specifiers(
-    (pf_lh, stages(4)),
+segment_maker.append_commands(
+    pf_lh,
+    stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=5,
         fuse_counts=[3],
         )
     )
 
-segment_maker.append_specifiers(
-    (pf_music, stages(5)),
+segment_maker.append_commands(
+    pf_music,
+    stages(5),
     baca.rests(),
     )
 
 ### percussion (time) ###
 
-segment_maker.append_specifiers(
-    (perc, stages(2)),
+segment_maker.append_commands(
+    perc,
+    stages(2),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(4)),
+segment_maker.append_commands(
+    perc, 
+    stages(4),
     faberge.tools.make_meccanico_percussion_cell_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(6, 7)),
+segment_maker.append_commands(
+    perc,
+    stages(6, 7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
 ### violin (time) ###
 
-segment_maker.append_specifiers(
-    (vn, stages(2)),
+segment_maker.append_commands(
+    vn,
+    stages(2),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(4)),
+segment_maker.append_commands(
+    vn,
+    stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=7,
         fuse_counts=[2],
         )
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(7)),
+segment_maker.append_commands(
+    vn,
+    stages(7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
 ### viola (time) ###
 
-segment_maker.append_specifiers(
-    (va, stages(1, 8)),
+segment_maker.append_commands(
+    va,
+    stages(1, 8),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -161,21 +176,24 @@ segment_maker.append_specifiers(
 
 ### cello (time) ###
 
-segment_maker.append_specifiers(
-    (vc, stages(2)),
+segment_maker.append_commands(
+    vc,
+    stages(2),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(4)),
+segment_maker.append_commands(
+    vc,
+    stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=10,
         fuse_counts=[3],
         )
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(7)),
+segment_maker.append_commands(
+    vc,
+    stages(7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
@@ -191,13 +209,15 @@ segment_maker.append_specifiers(
 
 ### piano (color) ###
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(1)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(1),
     faberge.materials.instruments['harpsichord'],
     )
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(5)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(5),
     faberge.materials.instruments['piano'],
     )
 

@@ -54,152 +54,179 @@ segment_maker.validate_measures_per_stage()
 
 ### flute (time) ###
 
-segment_maker.append_specifiers(
-    (fl, stages(1, 4)),
+segment_maker.append_commands(
+    fl,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(5, 8)),
+segment_maker.append_commands(
+    fl,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(9, 12)),
+segment_maker.append_commands(
+    fl,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
 ### english horn (time) ###
 
-segment_maker.append_specifiers(
-    (eh, stages(1, 4)),
+segment_maker.append_commands(
+    eh,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(5, 8)),
+segment_maker.append_commands(
+    eh,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(9, 12)),
+segment_maker.append_commands(
+    eh,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
 
-segment_maker.append_specifiers(
-    (cl, stages(1, 4)),
+segment_maker.append_commands(
+    cl,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (cl, stages(5, 8)),
+segment_maker.append_commands(
+    cl,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (cl, stages(9, 12)),
+segment_maker.append_commands(
+    cl,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
 ### piano (time) ###
 
-segment_maker.append_specifiers(
-    (pf_music, stages(1, 4)),
+segment_maker.append_commands(
+    pf_music,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_music, stages(5, 8)),
+segment_maker.append_commands(
+    pf_music,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_music, stages(9, 12)),
+segment_maker.append_commands(
+    pf_music,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_attack, stages(1, 4)),
+segment_maker.append_commands(
+    pf_attack,
+    stages(1, 4),
     faberge.tools.make_piano_attack_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_attack, stages(5, 8)),
+segment_maker.append_commands(
+    pf_attack,
+    stages(5, 8),
     faberge.tools.make_piano_attack_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_attack, stages(9, 12)),
+segment_maker.append_commands(
+    pf_attack,
+    stages(9, 12),
     faberge.tools.make_piano_attack_rhythm_specifier(),
     )
 
 ### percussion (time) ###
 
-segment_maker.append_specifiers(
-    (perc, stages(1, 4)),
+segment_maker.append_commands(
+    perc,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(5, 8)),
+segment_maker.append_commands(
+    perc,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(9, 12)),
+segment_maker.append_commands(
+    perc,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
 ### violin (time) ###
 
-segment_maker.append_specifiers(
-    (vn, stages(1, 4)),
+segment_maker.append_commands(
+    vn,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(5, 8)),
+segment_maker.append_commands(
+    vn,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(9, 12)),
+segment_maker.append_commands(
+    vn,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
 ### viola (time) ###
 
-segment_maker.append_specifiers(
-    (va, stages(1, 4)),
+segment_maker.append_commands(
+    va,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(5, 8)),
+segment_maker.append_commands(
+    va,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(9, 12)),
+segment_maker.append_commands(
+    va,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
 ### cello (time) ###
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 4)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 4),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(5, 8)),
+segment_maker.append_commands(
+    vc,
+    stages(5, 8),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(9, 12)),
+segment_maker.append_commands(
+    vc,
+    stages(9, 12),
     faberge.tools.make_shell_transition_rhythm_specifier(),
     )
 

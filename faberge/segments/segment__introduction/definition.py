@@ -56,8 +56,9 @@ segment_maker.validate_measures_per_stage()
 
 ### english horn (time) ###
 
-segment_maker.append_specifiers(
-    (eh, stages(3)),
+segment_maker.append_commands(
+    eh,
+    stages(3),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
@@ -69,8 +70,9 @@ segment_maker.append_specifiers(
 
 ### violin (time) ###
 
-segment_maker.append_specifiers(
-    (vn, stages(1)),
+segment_maker.append_commands(
+    vn,
+    stages(1),
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=0,
         ),
@@ -78,8 +80,9 @@ segment_maker.append_specifiers(
 
 ### viola (time) ###
 
-segment_maker.append_specifiers(
-    (va, stages(1)),
+segment_maker.append_commands(
+    va,
+    stages(1),
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-1,
         extra_counts_per_division=[1],
@@ -97,8 +100,9 @@ segment_maker.append_specifiers(
 
 ### english horn (color) ###
 
-segment_maker.append_specifiers(
-    (eh, stages(3)),
+segment_maker.append_commands(
+    eh,
+    stages(3),
     baca.markup.boxed('ratchet'),
     baca.pitches('C4'),
     baca.one_line_staff(),
@@ -112,8 +116,9 @@ segment_maker.append_specifiers(
 
 ### violin (color) ###
 
-segment_maker.append_specifiers(
-    (vn, stages(1)),
+segment_maker.append_commands(
+    vn,
+    stages(1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
     baca.pitches('E4'),
@@ -121,8 +126,9 @@ segment_maker.append_specifiers(
 
 ### viola (color) ###
 
-segment_maker.append_specifiers(
-    (va, stages(1)),
+segment_maker.append_commands(
+    va,
+    stages(1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
     baca.pitches('E4'),

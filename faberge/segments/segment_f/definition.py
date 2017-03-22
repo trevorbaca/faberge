@@ -86,68 +86,77 @@ segment_maker.validate_measures_per_stage()
 
 ### flute (time) ###
 
-segment_maker.append_specifiers(
-    (fl, stages(13)),
+segment_maker.append_commands(
+    fl,
+    stages(13),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(15)),
+segment_maker.append_commands(
+    fl,
+    stages(15),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(17)),
+segment_maker.append_commands(
+    fl,
+    stages(17),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(19)),
+segment_maker.append_commands(
+    fl,
+    stages(19),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(22)),
-    faberge.tools.make_flute_gears_rhythm_specifier(
-        include_fluttertongue=True,
-        include_colortrill=True,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (fl, stages(24)),
+segment_maker.append_commands(
+    fl,
+    stages(22),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(26)),
+segment_maker.append_commands(
+    fl,
+    stages(24),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(28)),
+segment_maker.append_commands(
+    fl,
+    stages(26),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, stages(34)),
+segment_maker.append_commands(
+    fl,
+    stages(28),
+    faberge.tools.make_flute_gears_rhythm_specifier(
+        include_fluttertongue=True,
+        include_colortrill=True,
+        ),
+    )
+
+segment_maker.append_commands(
+    fl,
+    stages(34),
     faberge.tools.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
@@ -156,98 +165,114 @@ segment_maker.append_specifiers(
 
 ### english horn (time) ###
 
-segment_maker.append_specifiers(
-    (eh, stages(1)),
+segment_maker.append_commands(
+    eh,
+    stages(1),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(13)),
+segment_maker.append_commands(
+    eh,
+    stages(13),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(15)),
+segment_maker.append_commands(
+    eh,
+    stages(15),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(17)),
+segment_maker.append_commands(
+    eh,
+    stages(17),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(19)),
+segment_maker.append_commands(
+    eh,
+    stages(19),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(22)),
+segment_maker.append_commands(
+    eh,
+    stages(22),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(24)),
+segment_maker.append_commands(
+    eh,
+    stages(24),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(26)),
+segment_maker.append_commands(
+    eh,
+    stages(26),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(30)),
+segment_maker.append_commands(
+    eh,
+    stages(30),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (eh, stages(34)),
+segment_maker.append_commands(
+    eh,
+    stages(34),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
 
-segment_maker.append_specifiers(
-    (cl, stages(19)),
+segment_maker.append_commands(
+    cl,
+    stages(19),
     faberge.tools.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (cl, stages(22)),
+segment_maker.append_commands(
+    cl,
+    stages(22),
     faberge.tools.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (cl, stages(24)),
-    faberge.tools.make_clarinet_gears_rhythm_specifier(
-        include_colortrill=True,
-        include_tone=True,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (cl, stages(26)),
+segment_maker.append_commands(
+    cl,
+    stages(24),
     faberge.tools.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (cl, stages(28)),
+segment_maker.append_commands(
+    cl,
+    stages(26),
     faberge.tools.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (cl, stages(34)),
+segment_maker.append_commands(
+    cl,
+    stages(28),
+    faberge.tools.make_clarinet_gears_rhythm_specifier(
+        include_colortrill=True,
+        include_tone=True,
+        ),
+    )
+
+segment_maker.append_commands(
+    cl,
+    stages(34),
     faberge.tools.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
@@ -256,97 +281,113 @@ segment_maker.append_specifiers(
 
 ### piano (time) ###
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(22)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(22),
     faberge.tools.make_lateral_click_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(24)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(24),
     faberge.tools.make_lateral_click_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(26)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(26),
     faberge.tools.make_lateral_click_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(30)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(30),
     faberge.tools.make_lateral_click_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (pf_rh, stages(34)),
+segment_maker.append_commands(
+    pf_rh,
+    stages(34),
     faberge.tools.make_lateral_click_rhythm_specifier(),
     )
 
 ### percussion (time) ###
 
-segment_maker.append_specifiers(
-    (perc, stages(1)),
+segment_maker.append_commands(
+    perc,
+    stages(1),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(7)),
+segment_maker.append_commands(
+    perc,
+    stages(7),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(9)),
+segment_maker.append_commands(
+    perc,
+    stages(9),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(13)),
+segment_maker.append_commands(
+    perc,
+    stages(13),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(15)),
+segment_maker.append_commands(
+    perc,
+    stages(15),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(21)),
+segment_maker.append_commands(
+    perc,
+    stages(21),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(22)),
+segment_maker.append_commands(
+    perc,
+    stages(22),
     faberge.tools.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(24)),
+segment_maker.append_commands(
+    perc,
+    stages(24),
     faberge.tools.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(26)),
+segment_maker.append_commands(
+    perc,
+    stages(26),
     faberge.tools.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(30)),
+segment_maker.append_commands(
+    perc,
+    stages(30),
     faberge.tools.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (perc, stages(34)),
+segment_maker.append_commands(
+    perc,
+    stages(34),
     faberge.tools.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
@@ -355,67 +396,66 @@ segment_maker.append_specifiers(
 
 ### violin (time) ###
 
-segment_maker.append_specifiers(
-    (vn, stages(1)),
+segment_maker.append_commands(
+    vn,
+    stages(1),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(3)),
+segment_maker.append_commands(
+    vn,
+    stages(3),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(7)),
+segment_maker.append_commands(
+    vn,
+    stages(7),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(9)),
+segment_maker.append_commands(
+    vn,
+    stages(9),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(13)),
+segment_maker.append_commands(
+    vn,
+    stages(13),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(15)),
+segment_maker.append_commands(
+    vn,
+    stages(15),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(22)),
+segment_maker.append_commands(
+    vn,
+    stages(22),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(24)),
-    faberge.tools.make_violin_gears_rhythm_specifier(
-        include_spazzolati=True,
-        include_rimbalzando=True,
-        include_xfb=True,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (vn, stages(26)),
+segment_maker.append_commands(
+    vn,
+    stages(24),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -423,8 +463,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(30)),
+segment_maker.append_commands(
+    vn,
+    stages(26),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -432,15 +473,27 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(32)),
+segment_maker.append_commands(
+    vn,
+    stages(30),
+    faberge.tools.make_violin_gears_rhythm_specifier(
+        include_spazzolati=True,
+        include_rimbalzando=True,
+        include_xfb=True,
+        ),
+    )
+
+segment_maker.append_commands(
+    vn,
+    stages(32),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn, stages(34)),
+segment_maker.append_commands(
+    vn,
+    stages(34),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -450,64 +503,63 @@ segment_maker.append_specifiers(
 
 ### viola (time) ###
 
-segment_maker.append_specifiers(
-    (va, stages(1)),
+segment_maker.append_commands(
+    va,
+    stages(1),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(3)),
+segment_maker.append_commands(
+    va,
+    stages(3),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(5)),
+segment_maker.append_commands(
+    va,
+    stages(5),
     faberge.tools.make_single_note_rhythm_specifier(abjad.Duration(1, 4)),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(9)),
+segment_maker.append_commands(
+    va,
+    stages(9),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(13)),
+segment_maker.append_commands(
+    va,
+    stages(13),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(15)),
+segment_maker.append_commands(
+    va,
+    stages(15),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(22)),
+segment_maker.append_commands(
+    va,
+    stages(22),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(24)),
-    faberge.tools.make_violin_gears_rhythm_specifier(
-        include_spazzolati=True,
-        include_rimbalzando=True,
-        include_xfb=True,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(26)),
+segment_maker.append_commands(
+    va,
+    stages(24),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -515,8 +567,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(30)),
+segment_maker.append_commands(
+    va,
+    stages(26),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -524,15 +577,27 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(32)),
+segment_maker.append_commands(
+    va,
+    stages(30),
+    faberge.tools.make_violin_gears_rhythm_specifier(
+        include_spazzolati=True,
+        include_rimbalzando=True,
+        include_xfb=True,
+        ),
+    )
+
+segment_maker.append_commands(
+    va,
+    stages(32),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(34)),
+segment_maker.append_commands(
+    va,
+    stages(34),
     faberge.tools.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -542,44 +607,50 @@ segment_maker.append_specifiers(
 
 ### cello (time) ###
 
-segment_maker.append_specifiers(
-    (vc, stages(21)),
+segment_maker.append_commands(
+    vc,
+    stages(21),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(22)),
+segment_maker.append_commands(
+    vc,
+    stages(22),
     faberge.tools.make_cello_gears_rhythm_specifier(
         include_glissando=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(24)),
-    faberge.tools.make_cello_gears_rhythm_specifier(
-        include_glissando=True,
-        include_tremolo=True,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(26)),
+segment_maker.append_commands(
+    vc,
+    stages(24),
     faberge.tools.make_cello_gears_rhythm_specifier(
         include_glissando=True,
         include_tremolo=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(30)),
+segment_maker.append_commands(
+    vc,
+    stages(26),
     faberge.tools.make_cello_gears_rhythm_specifier(
         include_glissando=True,
         include_tremolo=True,
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(34)),
+segment_maker.append_commands(
+    vc,
+    stages(30),
+    faberge.tools.make_cello_gears_rhythm_specifier(
+        include_glissando=True,
+        include_tremolo=True,
+        ),
+    )
+
+segment_maker.append_commands(
+    vc,
+    stages(34),
     faberge.tools.make_cello_gears_rhythm_specifier(
         include_glissando=True,
         include_tremolo=True,
