@@ -2,7 +2,7 @@
 import abjad
 
 
-metadata = abjad.TypedOrderedDict(
+metadata = abjad.datastructuretools.TypedOrderedDict(
     [
         ('first_bar_number', 667),
         ('name', 'K'),
