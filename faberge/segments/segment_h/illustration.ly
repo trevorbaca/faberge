@@ -1,4 +1,4 @@
-\version "2.19.40"
+\version "2.19.58"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -53,11 +53,11 @@
                 }
                 {
                     \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest #'transparent = ##t
-                    \once \override Score.TimeSignature #'stencil = ##f
+                    \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest.transparent = ##t
+                    \once \override Score.TimeSignature.stencil = ##f
                     R1 * 1/4
-                        ^ \markup {
+                        - \markup {
                             \musicglyph
                                 #"scripts.ufermata"
                             }
@@ -72,11 +72,11 @@
                 }
                 {
                     \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest #'transparent = ##t
-                    \once \override Score.TimeSignature #'stencil = ##f
+                    \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest.transparent = ##t
+                    \once \override Score.TimeSignature.stencil = ##f
                     R1 * 1/4
-                        ^ \markup {
+                        - \markup {
                             \musicglyph
                                 #"scripts.ufermata"
                             }
@@ -90,11 +90,11 @@
                 }
                 {
                     \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest #'transparent = ##t
-                    \once \override Score.TimeSignature #'stencil = ##f
+                    \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest.transparent = ##t
+                    \once \override Score.TimeSignature.stencil = ##f
                     R1 * 1/4
-                        ^ \markup {
+                        - \markup {
                             \musicglyph
                                 #"scripts.ufermata"
                             }
@@ -109,11 +109,11 @@
                 }
                 {
                     \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest #'transparent = ##t
-                    \once \override Score.TimeSignature #'stencil = ##f
+                    \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest.transparent = ##t
+                    \once \override Score.TimeSignature.stencil = ##f
                     R1 * 1/4
-                        ^ \markup {
+                        - \markup {
                             \musicglyph
                                 #"scripts.ufermata"
                             }
@@ -836,281 +836,801 @@
             \context WindSectionStaffGroup = "Wind Section Staff Group" <<
                 \tag flute
                 \context FluteMusicStaff = "Flute Music Staff" {
-                    \clef "treble"
-                    \set FluteMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Flute
-                    }
-                    \set FluteMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Fl.
-                    }
                     \context FluteMusicVoice = "Flute Music Voice" {
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8 ]
                         }
                         \times 2/3 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8. ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
                         \times 2/3 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'4 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8 ]
                         }
                         \times 2/3 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8. ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
                         \times 2/3 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'4 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'16 ]
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8 ]
                         }
                         \times 2/3 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'8. ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
                         \times 2/3 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'4 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             c'8
                         }
-                        R1 * 2
+                        s1 * 2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8.
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8.
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 7/2
+                        s1 * 7/2
                         \bar "|"
                     }
                 }
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \clef "percussion"
-                    \set EnglishHornMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        \center-column
-                            {
-                                English
-                                horn
-                            }
-                    }
-                    \set EnglishHornMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        \line
-                            {
-                                Eng.
-                                hn.
-                            }
-                    }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        R1 * 33/4
-                        g'2..
+                        s1 * 33/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2..
                         r8
                         r4.
-                        g'4.
-                        R1 * 7/2
-                        \override TupletNumber #'text = \markup {
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4.
+                        s1 * 7/2
+                        \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
                                 \score
                                     {
                                         \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            \override SpacingSpanner.spacing-increment = #0.5
                                             proportionalNotationDuration = ##f
                                         } <<
                                             \new RhythmicStaff \with {
                                                 \remove Time_signature_engraver
                                                 \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
                                                 c'2.
@@ -1123,35 +1643,55 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            g'16 * 381/64 [
-                            g'16 * 111/32
-                            g'16 * 3/2
-                            g'16 * 69/64 ]
-                            \revert Staff.Stem #'stemlet-length
+                            \once \override Beam.color = #blue
+                            \once \override Beam.grow-direction = #right
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            \override Staff.Stem.stemlet-length = #0.75
+                            c'16 * 381/64 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 111/32
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 3/2
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 69/64 ]
+                            \revert Staff.Stem.stemlet-length
                         }
-                        \revert TupletNumber #'text
-                        R1 * 1/8
-                        \override TupletNumber #'text = \markup {
+                        \revert TupletNumber.text
+                        s1 * 1/8
+                        \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
                                 \score
                                     {
                                         \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            \override SpacingSpanner.spacing-increment = #0.5
                                             proportionalNotationDuration = ##f
                                         } <<
                                             \new RhythmicStaff \with {
                                                 \remove Time_signature_engraver
                                                 \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
                                                 c'2.
@@ -1164,35 +1704,55 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            g'16 * 381/64 [
-                            g'16 * 111/32
-                            g'16 * 3/2
-                            g'16 * 69/64 ]
-                            \revert Staff.Stem #'stemlet-length
+                            \once \override Beam.color = #blue
+                            \once \override Beam.grow-direction = #right
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            \override Staff.Stem.stemlet-length = #0.75
+                            c'16 * 381/64 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 111/32
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 3/2
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 69/64 ]
+                            \revert Staff.Stem.stemlet-length
                         }
-                        \revert TupletNumber #'text
-                        R1 * 1/8
-                        \override TupletNumber #'text = \markup {
+                        \revert TupletNumber.text
+                        s1 * 1/8
+                        \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
                                 \score
                                     {
                                         \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            \override SpacingSpanner.spacing-increment = #0.5
                                             proportionalNotationDuration = ##f
                                         } <<
                                             \new RhythmicStaff \with {
                                                 \remove Time_signature_engraver
                                                 \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
                                                 c'2.
@@ -1205,35 +1765,55 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            g'16 * 381/64 [
-                            g'16 * 111/32
-                            g'16 * 3/2
-                            g'16 * 69/64 ]
-                            \revert Staff.Stem #'stemlet-length
+                            \once \override Beam.color = #blue
+                            \once \override Beam.grow-direction = #right
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            \override Staff.Stem.stemlet-length = #0.75
+                            c'16 * 381/64 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 111/32
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 3/2
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 69/64 ]
+                            \revert Staff.Stem.stemlet-length
                         }
-                        \revert TupletNumber #'text
-                        R1 * 1/8
-                        \override TupletNumber #'text = \markup {
+                        \revert TupletNumber.text
+                        s1 * 1/8
+                        \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
                                 \score
                                     {
                                         \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            \override SpacingSpanner.spacing-increment = #0.5
                                             proportionalNotationDuration = ##f
                                         } <<
                                             \new RhythmicStaff \with {
                                                 \remove Time_signature_engraver
                                                 \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
                                                 c'2.
@@ -1246,35 +1826,55 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            g'16 * 381/64 [
-                            g'16 * 111/32
-                            g'16 * 3/2
-                            g'16 * 69/64 ]
-                            \revert Staff.Stem #'stemlet-length
+                            \once \override Beam.color = #blue
+                            \once \override Beam.grow-direction = #right
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            \override Staff.Stem.stemlet-length = #0.75
+                            c'16 * 381/64 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 111/32
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 3/2
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 69/64 ]
+                            \revert Staff.Stem.stemlet-length
                         }
-                        \revert TupletNumber #'text
-                        R1 * 1/8
-                        \override TupletNumber #'text = \markup {
+                        \revert TupletNumber.text
+                        s1 * 1/8
+                        \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
                                 \score
                                     {
                                         \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            \override SpacingSpanner.spacing-increment = #0.5
                                             proportionalNotationDuration = ##f
                                         } <<
                                             \new RhythmicStaff \with {
                                                 \remove Time_signature_engraver
                                                 \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
                                                 c'2.
@@ -1287,35 +1887,55 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            g'16 * 381/64 [
-                            g'16 * 111/32
-                            g'16 * 3/2
-                            g'16 * 69/64 ]
-                            \revert Staff.Stem #'stemlet-length
+                            \once \override Beam.color = #blue
+                            \once \override Beam.grow-direction = #right
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            \override Staff.Stem.stemlet-length = #0.75
+                            c'16 * 381/64 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 111/32
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 3/2
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 69/64 ]
+                            \revert Staff.Stem.stemlet-length
                         }
-                        \revert TupletNumber #'text
-                        R1 * 1/8
-                        \override TupletNumber #'text = \markup {
+                        \revert TupletNumber.text
+                        s1 * 1/8
+                        \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
                                 \score
                                     {
                                         \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            \override SpacingSpanner.spacing-increment = #0.5
                                             proportionalNotationDuration = ##f
                                         } <<
                                             \new RhythmicStaff \with {
                                                 \remove Time_signature_engraver
                                                 \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
                                                 c'2.
@@ -1328,234 +1948,763 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam #'grow-direction = #right
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            g'16 * 381/64 [
-                            g'16 * 111/32
-                            g'16 * 3/2
-                            g'16 * 69/64 ]
-                            \revert Staff.Stem #'stemlet-length
+                            \once \override Beam.color = #blue
+                            \once \override Beam.grow-direction = #right
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            \override Staff.Stem.stemlet-length = #0.75
+                            c'16 * 381/64 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 111/32
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 3/2
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 * 69/64 ]
+                            \revert Staff.Stem.stemlet-length
                         }
-                        \revert TupletNumber #'text
-                        R1 * 1/8
-                        g'2
-                        g'2. \repeatTie
-                        g'1 \repeatTie
-                        g'2 \repeatTie
-                        g'2. \repeatTie
-                        g'1 \repeatTie
-                        R1 * 7/4
+                        \revert TupletNumber.text
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'1 \repeatTie
+                        s1 * 7/4
                         \bar "|"
                     }
                 }
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                    \clef "treble"
-                    \set ClarinetMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Clarinet
-                    }
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Cl.
-                    }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         \times 4/5 {
-                            d'16 [
-                            d'16
-                            d'16
-                            d'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 \repeatTie [
-                            d'16
-                            d'16
-                            d'16
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8 \repeatTie [
-                            d'8 ]
+                            c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8 ]
                         }
                         \times 2/3 {
-                            d'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'4
+                            c'4
                         }
                         \times 4/5 {
-                            d'16 \repeatTie [
-                            d'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8. ]
+                            c'8. ]
                         }
                         \times 4/5 {
-                            d'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'4
+                            c'4
                         }
                         \times 2/3 {
-                            d'4 \repeatTie
-                            d'8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8 \repeatTie [
-                            d'16
+                            c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 \repeatTie [
-                            d'16
-                            d'16
-                            d'16
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 \repeatTie [
-                            d'16
-                            d'16
-                            d'16
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 \repeatTie [
-                            d'16
-                            d'16
-                            d'16
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8 \repeatTie [
-                            d'8 ]
+                            c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8 ]
                         }
                         \times 2/3 {
-                            d'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'4
+                            c'4
                         }
                         \times 4/5 {
-                            d'16 \repeatTie [
-                            d'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8. ]
+                            c'8. ]
                         }
                         \times 4/5 {
-                            d'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'4
+                            c'4
                         }
                         \times 2/3 {
-                            d'4 \repeatTie
-                            d'8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8 \repeatTie [
-                            d'16
+                            c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 \repeatTie [
-                            d'16
-                            d'16
-                            d'16
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 \repeatTie [
-                            d'16
-                            d'16
-                            d'16
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         \times 4/5 {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 \repeatTie [
-                            d'16
-                            d'16
-                            d'16
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'16 ]
+                            c'16 ]
                         }
                         {
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8 \repeatTie [
-                            d'8 ]
+                            c'8 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8 ]
                         }
                         \times 2/3 {
-                            d'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'4
+                            c'4
                         }
                         \times 4/5 {
-                            d'16 \repeatTie [
-                            d'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 \repeatTie [
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'8. ]
+                            c'8. ]
                         }
                         \times 4/5 {
-                            d'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'16 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d'4
+                            c'4
                         }
                         \times 2/3 {
-                            d'4 \repeatTie
-                            d'8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4 \repeatTie
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'8
                         }
-                        R1 * 2
-                        d'2...
+                        s1 * 2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2...
                         r16
-                        d'2.
-                        R1 * 1/4
-                        d'2 ~
-                        d'4..
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4..
                         r16
-                        R1 * 1/4
-                        d'2. ~
-                        d'8.
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2. ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'8.
                         r16
-                        d'2.
-                        R1 * 1/4
-                        d'2.
-                        R1 * 1/8
-                        d'2.
-                        R1 * 1/8
-                        d'2.
-                        R1 * 1/8
-                        d'2.
-                        R1 * 1/8
-                        d'2.
-                        R1 * 1/8
-                        d'2.
-                        R1 * 1/8
-                        d'2 ~
-                        d'4..
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4..
                         r16
-                        d'4 ~
-                        d'2.
-                        d'4 ~
-                        d'2
-                        R1 * 7/2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2.
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'4 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
+                        c'2
+                        s1 * 7/2
                         \bar "|"
                     }
                 }
@@ -1564,91 +2713,424 @@
                 \tag piano
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                        \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 13/4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/4
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/8
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/8
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/8
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/8
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/8
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 1/8
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
-                            R1 * 7/2
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 13/4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 1/8
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            \once \override Beam.color = #blue
+                            \once \override Dots.color = #blue
+                            \once \override Flag.color = #blue
+                            \once \override NoteHead.color = #blue
+                            \once \override Stem.color = #blue
+                            c'4
+                            s1 * 7/2
                             \bar "|"
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                        \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
                             R1 * 3/4
                             R1 * 1
@@ -1739,72 +3221,221 @@
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \clef "percussion"
-                    \set PercussionMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Percussion
-                    }
-                    \set PercussionMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Perc.
-                    }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2.
-                        R1 * 13/4
+                        s1 * 13/4
                         r2.
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
                         r4
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
-                        R1 * 7/4
+                        s1 * 7/4
                         \bar "|"
                     }
                 }
@@ -1812,351 +3443,1358 @@
             \context StringSectionStaffGroup = "String Section Staff Group" <<
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
-                    \clef "percussion"
-                    \set ViolinMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Violin
-                    }
-                    \set ViolinMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Vn.
-                    }
                     \context ViolinMusicVoice = "Violin Music Voice" {
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2.
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
-                        R1 * 1/4
+                        s1 * 1/4
                         r1
                         r2.
-                        R1 * 1/4
+                        s1 * 1/4
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4.
-                        R1 * 1/4
+                        s1 * 1/4
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2..
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8
-                        R1 * 1/4
+                        s1 * 1/4
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
                         \bar "|"
                     }
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "percussion"
-                    \set ViolaMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Viola
-                    }
-                    \set ViolaMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Va.
-                    }
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2.
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
-                        R1 * 1/4
+                        s1 * 1/4
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4. ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/4
+                        s1 * 1/4
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4.
-                        R1 * 1/4
+                        s1 * 1/4
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2..
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8
-                        R1 * 1/4
+                        s1 * 1/4
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
                         r8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ~ [
                         c'8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8 ]
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
                         \bar "|"
                     }
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "percussion"
-                    \set CelloMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Cello
-                    }
-                    \set CelloMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Vc.
-                    }
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2.
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4 ~
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'8.
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1
-                        R1 * 1/4
+                        s1 * 1/4
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 [
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'16 ]
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'4..
                         r16
-                        R1 * 1/8
+                        s1 * 1/8
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'2. \repeatTie
+                        \once \override Beam.color = #blue
+                        \once \override Dots.color = #blue
+                        \once \override Flag.color = #blue
+                        \once \override NoteHead.color = #blue
+                        \once \override Stem.color = #blue
                         c'1 \repeatTie
                         \bar "|"
                     }
