@@ -15,7 +15,7 @@ def make_airtone_chain_rhythm_specifier(
     assert isinstance(total_events, int), repr(total_events)
     my_event_indices = my_event_indices or []
     assert isinstance(my_event_indices, (list, tuple)), repr(my_event_indices)
-    counts = abjad.sequencetools.Sequence(counts)
+    counts = baca.Sequence(counts)
     counts = counts.rotate(n=event_rotation)
     counts = counts.flatten()
     counts = abjad.CyclicTuple(counts)
