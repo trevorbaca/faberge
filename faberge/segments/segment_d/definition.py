@@ -13,12 +13,12 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 1
     2, # 2
     2, # 3
-    6 * [TimeSignature((5, 4))], # 4
+    6 * [abjad.TimeSignature((5, 4))], # 4
     2, # 5
     2, # 6
     2, # 7
     2, # 8
-    Fermata('shortfermata'), # 9
+    abjad.Fermata('shortfermata'), # 9
     ])
 
 tempo_specifier = baca.tools.TempoSpecifier([
@@ -43,7 +43,7 @@ segment_maker = baca.tools.SegmentMaker(
     label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='D',
-    score_package=faberge,
+    score_template=faberge.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -62,7 +62,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_commands(
     fl,
-    stages(2),
+    baca.select_stages(2),
     faberge.tools.make_glow_rhythm_specifier(),
     )
 
@@ -70,13 +70,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     eh,
-    stages(2),
+    baca.select_stages(2),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(6, 7),
+    baca.select_stages(6, 7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
@@ -84,7 +84,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     cl,
-    stages(2),
+    baca.select_stages(2),
     faberge.tools.make_glow_rhythm_specifier(),
     )
 
@@ -92,13 +92,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     pf_rh,
-    stages(1),
+    baca.select_stages(1),
     baca.rests(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=7,
         fuse_counts=[3],
@@ -107,7 +107,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     pf_lh,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=5,
         fuse_counts=[3],
@@ -116,7 +116,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     pf_music,
-    stages(5),
+    baca.select_stages(5),
     baca.rests(),
     )
 
@@ -124,19 +124,19 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     perc,
-    stages(2),
+    baca.select_stages(2),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     perc, 
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_meccanico_percussion_cell_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(6, 7),
+    baca.select_stages(6, 7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
@@ -144,13 +144,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn,
-    stages(2),
+    baca.select_stages(2),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=7,
         fuse_counts=[2],
@@ -159,7 +159,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn,
-    stages(7),
+    baca.select_stages(7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
@@ -167,7 +167,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(1, 8),
+    baca.select_stages(1, 8),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -178,13 +178,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(2),
+    baca.select_stages(2),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_meccanico_rhythm_specifier(
         attack_count=10,
         fuse_counts=[3],
@@ -193,7 +193,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(7),
+    baca.select_stages(7),
     faberge.tools.make_electricity_rhythm_specifier(),
     )
 
@@ -211,14 +211,16 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     pf_rh,
-    stages(1),
-    faberge.materials.instruments['harpsichord'],
+    baca.select_stages(1),
+    # TODO: implement baca.instrument_change():
+    #faberge.materials.instruments['harpsichord'],
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(5),
-    faberge.materials.instruments['piano'],
+    baca.select_stages(5),
+    # TODO: implement baca.instrument_change():
+    #faberge.materials.instruments['piano'],
     )
 
 ### percussion (color) ###

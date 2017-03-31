@@ -11,8 +11,7 @@ def make_meccanico_rhythm_specifier(attack_count, fuse_counts=None):
             cyclic=True,
             overhang=True,
             )
-        division_expression = division_expression.map()
-        division_expression = division_expression.sum()
+        division_expression = division_expression.map(baca.sequence().sum())
         division_expression = division_expression.flatten()
     tuplet_ratio = abjad.Ratio(attack_count * [1])
     rhythm_maker = abjad.rhythmmakertools.TupletRhythmMaker(

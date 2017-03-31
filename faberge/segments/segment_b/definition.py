@@ -19,38 +19,38 @@ stage_specifier = baca.tools.StageSpecifier([
     2, # 7
     2, # 8
     2, # 9
-    Fermata(), # 10
+    abjad.Fermata(), # 10
     2, # 11
-    Fermata(), # 12
+    abjad.Fermata(), # 12
     2, # 13
     10, # 14
     10, # 15
     2, # 16
-    Fermata(), # 17
+    abjad.Fermata(), # 17
     2, # 18
     2, # 19
-    Fermata('shortfermata'), # 20
+    abjad.Fermata('shortfermata'), # 20
     2, # 21
-    Fermata('shortfermata'), # 22
+    abjad.Fermata('shortfermata'), # 22
     2, # 23
-    Fermata('shortfermata'), # 24
+    abjad.Fermata('shortfermata'), # 24
     2, # 25
     2, # 26
-    Fermata('shortfermata'), # 27
+    abjad.Fermata('shortfermata'), # 27
     2, # 28
-    Fermata('shortfermata'), # 29
+    abjad.Fermata('shortfermata'), # 29
     2, # 30
-    Fermata('shortfermata'), # 31
+    abjad.Fermata('shortfermata'), # 31
     2, # 32
     2, # 33
     2, # 34
-    Fermata('shortfermata'), # 35
+    abjad.Fermata('shortfermata'), # 35
     2, # 36
-    Fermata('shortfermata'), # 37
+    abjad.Fermata('shortfermata'), # 37
     2, # 38
-    Fermata('shortfermata'), # 39
+    abjad.Fermata('shortfermata'), # 39
     2, # 40
-    Fermata('shortfermata'), # 41
+    abjad.Fermata('shortfermata'), # 41
     2, # 42
     2, # 43
     2, # 44
@@ -80,7 +80,7 @@ segment_maker = baca.tools.SegmentMaker(
     label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='B',
-    score_package=faberge,
+    score_template=faberge.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -99,19 +99,19 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_commands(
     fl,
-    stages(1, 2),
+    baca.select_stages(1, 2),
     faberge.tools.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     fl,
-    stages(3),
+    baca.select_stages(3),
     baca.rests(),
     )
 
 segment_maker.append_commands(
     fl,
-    stages(7),
+    baca.select_stages(7),
     faberge.tools.make_shell_exchange_rhythm_specifier(
         total_parts=2,
         this_part=0,
@@ -122,49 +122,49 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     eh,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     faberge.tools.make_keynoise_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(14),
+    baca.select_stages(14),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(15),
+    baca.select_stages(15),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(16),
+    baca.select_stages(16),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(18),
+    baca.select_stages(18),
     baca.rests(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(21),
+    baca.select_stages(21),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(23),
+    baca.select_stages(23),
     faberge.tools.make_ratchet_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(33),
+    baca.select_stages(33),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         my_event_indices=[1],
         total_events=2,
@@ -173,7 +173,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     eh,
-    stages(38),
+    baca.select_stages(38),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         my_event_indices=[1],
         total_events=2,
@@ -182,7 +182,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     eh,
-    stages(40),
+    baca.select_stages(40),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         my_event_indices=[1],
         total_events=2,
@@ -191,7 +191,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     eh,
-    stages(45),
+    baca.select_stages(45),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         my_event_indices=[1],
         total_events=3,
@@ -200,7 +200,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     eh,
-    stages(46),
+    baca.select_stages(46),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         my_event_indices=[1],
         total_events=3,
@@ -211,19 +211,19 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     cl,
-    stages(1, 2),
+    baca.select_stages(1, 2),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cl,
-    stages(3),
+    baca.select_stages(3),
     baca.rests(),
     )
 
 segment_maker.append_commands(
     cl,
-    stages(7),
+    baca.select_stages(7),
     faberge.tools.make_shell_exchange_rhythm_specifier(
         total_parts=2,
         this_part=0,
@@ -232,7 +232,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     cl,
-    stages(19),
+    baca.select_stages(19),
     faberge.tools.make_shell_exchange_rhythm_specifier(
         total_parts=2,
         this_part=0,
@@ -241,7 +241,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     cl,
-    stages(28),
+    baca.select_stages(28),
     faberge.tools.make_shell_exchange_rhythm_specifier(
         total_parts=2,
         this_part=0,
@@ -252,79 +252,79 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     pf_rh,
-    stages(1),
+    baca.select_stages(1),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(2, 3),
+    baca.select_stages(2, 3),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(5),
+    baca.select_stages(5),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(6, 7),
+    baca.select_stages(6, 7),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(8, 9),
+    baca.select_stages(8, 9),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(11),
+    baca.select_stages(11),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(19),
+    baca.select_stages(19),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(26),
+    baca.select_stages(26),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(28),
+    baca.select_stages(28),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(34),
+    baca.select_stages(34),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(42),
+    baca.select_stages(42),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
-    stages(43),
+    baca.select_stages(43),
     baca.rests(),
     )
 
@@ -332,73 +332,73 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     perc,
-    stages(4)n,
+    baca.select_stages(4),
     faberge.tools.make_stop_release_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(5),
+    baca.select_stages(5),
     faberge.tools.make_stop_release_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(6),
+    baca.select_stages(6),
     faberge.tools.make_stop_release_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(9),
+    baca.select_stages(9),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(11),
+    baca.select_stages(11),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(13),
+    baca.select_stages(13),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(14),
+    baca.select_stages(14),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(15),
+    baca.select_stages(15),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(16),
+    baca.select_stages(16),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(18),
+    baca.select_stages(18),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(26),
+    baca.select_stages(26),
     faberge.tools.make_percussion_cell_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
-    stages(34),
+    baca.select_stages(34),
     faberge.tools.make_percussion_cell_rhythm_specifier(),
     )
 
@@ -406,85 +406,85 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(5),
+    baca.select_stages(5),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(6),
+    baca.select_stages(6),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(7),
+    baca.select_stages(7),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(8, 9),
+    baca.select_stages(8, 9),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(11),
+    baca.select_stages(11),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(19),
+    baca.select_stages(19),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(21),
+    baca.select_stages(21),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(26),
+    baca.select_stages(26),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(28),
+    baca.select_stages(28),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(34),
+    baca.select_stages(34),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(42),
+    baca.select_stages(42),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
-    stages(44, 45),
+    baca.select_stages(44, 45),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
@@ -492,61 +492,61 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(5),
+    baca.select_stages(5),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(6),
+    baca.select_stages(6),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(7),
+    baca.select_stages(7),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(8, 9),
+    baca.select_stages(8, 9),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(11),
+    baca.select_stages(11),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(19),
+    baca.select_stages(19),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(21),
+    baca.select_stages(21),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(23),
+    baca.select_stages(23),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -555,7 +555,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(25),
+    baca.select_stages(25),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -564,19 +564,19 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(26),
+    baca.select_stages(26),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(28),
+    baca.select_stages(28),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(30),
+    baca.select_stages(30),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -585,7 +585,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(32),
+    baca.select_stages(32),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -594,7 +594,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(33),
+    baca.select_stages(33),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=2,
         my_event_indices=[0],
@@ -603,13 +603,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(34),
+    baca.select_stages(34),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(36),
+    baca.select_stages(36),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -618,7 +618,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(38),
+    baca.select_stages(38),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=2,
         my_event_indices=[0],
@@ -627,7 +627,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(40),
+    baca.select_stages(40),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=2,
         my_event_indices=[0],
@@ -636,7 +636,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(43),
+    baca.select_stages(43),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -645,7 +645,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(44),
+    baca.select_stages(44),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=1,
         my_event_indices=[0],
@@ -654,7 +654,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(45),
+    baca.select_stages(45),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=3,
         my_event_indices=[0],
@@ -663,7 +663,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(46),
+    baca.select_stages(46),
     faberge.tools.make_airtone_chain_rhythm_specifier(
         total_events=3,
         my_event_indices=[0],
@@ -674,91 +674,91 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(4),
+    baca.select_stages(4),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(5),
+    baca.select_stages(5),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(6),
+    baca.select_stages(6),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(7),
+    baca.select_stages(7),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(9),
+    baca.select_stages(9),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(11),
+    baca.select_stages(11),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(13),
+    baca.select_stages(13),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(14),
+    baca.select_stages(14),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(15),
+    baca.select_stages(15),
     faberge.tools.make_rest_terminated_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(19),
+    baca.select_stages(19),
     faberge.tools.make_percussion_cell_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(26),
+    baca.select_stages(26),
     faberge.tools.make_percussion_cell_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(34),
+    baca.select_stages(34),
     faberge.tools.make_percussion_cell_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(42),
+    baca.select_stages(42),
     faberge.tools.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(44, 45),
+    baca.select_stages(44, 45),
     faberge.tools.make_spazzolati_rhythm_specifier(),
     )
 
@@ -770,43 +770,44 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     fl,
-    stages(3),
-    faberge.materials.instruments['flute'],
+    baca.select_stages(3),
+    # TODO: implement baca.instrument_change()
+    #faberge.materials.instruments['flute'],
     )
 
 ### english horn (color) ###
 
 segment_maker.append_commands(
     eh,
-    stages(18),
-    baca.tools.SpecifierWrapper(
-        specifier=baca.markup.remove_staple(),
-        ),
+    baca.select_stages(18),
+    baca.markup.remove_staple(selector=baca.select_leaf(0)),
     )
 
 segment_maker.append_commands(
     eh,
-    stages(21, 23),
+    baca.select_stages(21, 23),
+    baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
-    #baca.pitches('C4'),
     baca.one_line_staff(),
-    spannertools.ClefSpanner(clef='percussion'),
+    #baca.pitches('C4'),
     )
 
 ### clarinet (color) ###
 
 segment_maker.append_commands(
     cl,
-    stages(3),
-    faberge.materials.instruments['clarinet in B-flat'],
+    baca.select_stages(3),
+    # TODO: implement baca.instrument_change()
+    #faberge.materials.instruments['clarinet in B-flat'],
     )
 
 ### piano (color) ###
 
 segment_maker.append_commands(
     pf_rh,
-    stages(43),
-    faberge.materials.instruments['piano'],
+    baca.select_stages(43),
+    # TODO: implement baca.instrument_change()
+    #faberge.materials.instruments['piano'],
     )
 
 ### percussion (color) ###
