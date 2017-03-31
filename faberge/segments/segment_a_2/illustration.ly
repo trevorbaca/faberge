@@ -1,4 +1,4 @@
-\version "2.19.40"
+\version "2.19.58"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -812,382 +812,11 @@
             \context WindSectionStaffGroup = "Wind Section Staff Group" <<
                 \tag flute
                 \context FluteMusicStaff = "Flute Music Staff" {
-                    \clef "treble"
-                    \set FluteMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        \center-column
-                            {
-                                Bass
-                                flute
-                            }
-                    }
-                    \set FluteMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        \line
-                            {
-                                B.
-                                fl.
-                            }
-                    }
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2 \<
-                        {
-                            g''8 \repeatTie \p [
-                            g''8 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \times 2/3 {
-                            g''8 \repeatTie
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''4
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                        }
-                        g''2 \repeatTie
-                        \times 2/3 {
-                            g''4 \repeatTie
-                            g'8
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2. \repeatTie \> \p
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 \<
-                        \times 2/3 {
-                            g''8 \repeatTie \p
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        g'2 \repeatTie
-                        \times 2/3 {
-                            g'4 \repeatTie
-                            g''8
-                        }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \repeatTie \> \p
-                        r4 \!
-                        g'2 \p
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        r4
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2. \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'4 \repeatTie \mp \> \mp
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        \once \override Hairpin.circled-tip = ##t
                         g'2 \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        \times 4/5 {
-                            g'16 \repeatTie \mf [
-                            g''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8. ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \times 4/5 {
-                            g''16 \repeatTie
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''4
-                        }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \> \mf
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2. :32 \<
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        fluttertongue
-                                }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        g'2. :32 \repeatTie \f
-                        \times 4/5 {
-                            g'16 :32 \repeatTie [
-                            g''16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            g'16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            g''16 :32
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \times 4/5 {
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 \repeatTie [
-                            g'16 :32
-                            g'16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            g''16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 :32 \repeatTie \> \f
-                        r4 \!
-                        g''2 :32 \f
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        r4
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2 :32 \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        \times 2/3 {
-                            g'4 :32 \repeatTie \f
-                            g''8 :32
-                        }
                         {
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 :32 \repeatTie [
-                            g'16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                        }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 :32 \repeatTie
-                        \times 4/5 {
-                            g''16 :32 \repeatTie [
-                            g'16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            g'16 :32
-                            g'16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
-                        }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 :32 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 :32 \repeatTie \> \f
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 :32 \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        {
-                            g''8 :32 \repeatTie \f [
-                            g''16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 :32 \repeatTie
-                        \times 4/5 {
-                            g'16 :32 \repeatTie [
-                            g''16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            g'16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            g''16 :32
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4 :32 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2 :32 \repeatTie \> \f
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2 \<
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "non flutt."
-                                }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        g'2. \repeatTie \mf
-                        g'4 \repeatTie
-                        {
-                            g'8 \repeatTie [
+                            g'8 \repeatTie \p [
                             g'8 ]
                                 ^ \markup {
                                     \override
@@ -1200,32 +829,7 @@
                         \times 2/3 {
                             g'8 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''4
-                        }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2 \repeatTie \> \mf
-                        r2 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2 \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        \times 4/5 {
-                            g''16 \repeatTie \mp [
-                            g''16
-                            g'16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            g''16
+                            g'4
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1233,38 +837,11 @@
                                             \finger
                                                 2
                                     }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                         }
-                        \times 4/5 {
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 \repeatTie [
-                            g''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            g'16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            g'16
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
+                        g'2 \repeatTie
+                        \times 2/3 {
+                            g'4 \repeatTie
+                            g8
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1274,25 +851,31 @@
                                     }
                         }
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 \repeatTie
+                        g2. \repeatTie
+                        r4
+                        g'4
                         \times 2/3 {
                             g'8 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''4
+                            g4
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
                                         \circle
                                             \finger
-                                                2
+                                                1
                                     }
                         }
-                        g''2 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \> \mp
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \<
+                        g2 \repeatTie
+                        \times 2/3 {
+                            g4 \repeatTie
+                            g'8
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 \repeatTie
+                        g'2. \repeatTie
+                        r4
+                        g2
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1300,10 +883,39 @@
                                         \finger
                                             1
                                 }
-                        g''2. \repeatTie \mf
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \p
+                        \once \override Hairpin.circled-tip = ##t
+                        g2. \! \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        g4 \repeatTie \mp
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \mp
+                        \once \override Hairpin.circled-tip = ##t
+                        g2 \! \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         \times 4/5 {
-                            g''16 \repeatTie [
-                            g''16
+                            g16 \repeatTie \mf [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'8. ]
                                 ^ \markup {
@@ -1317,14 +929,345 @@
                         \times 4/5 {
                             g'16 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''4
+                            g'4
                         }
-                        g''4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \> \mf
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'4 \<
+                        g'4 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \mf
+                        \once \override Hairpin.circled-tip = ##t
+                        g2. :32 \! \<
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        fluttertongue
+                                }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        g2. :32 \repeatTie \f
+                        \times 4/5 {
+                            g16 :32 \repeatTie [
+                            g'16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            g16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g'16 :32
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 :32 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 4/5 {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 :32 \repeatTie [
+                            g16 :32
+                            g16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g'16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 :32 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 :32 \repeatTie
+                        r4
+                        g'2 :32
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        r4
+                        g2 :32
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 2/3 {
+                            g4 :32 \repeatTie
+                            g'8 :32
+                        }
+                        {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8 :32 \repeatTie [
+                            g16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 :32 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 :32 \repeatTie
+                        \times 4/5 {
+                            g'16 :32 \repeatTie [
+                            g16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g16 :32
+                            g16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 :32 ]
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 :32 \repeatTie
+                        g'4 :32 \repeatTie
+                        r4
+                        g'4 :32
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        {
+                            g'8 :32 \repeatTie [
+                            g'16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 :32 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g2 :32 \repeatTie
+                        \times 4/5 {
+                            g16 :32 \repeatTie [
+                            g'16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            g16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g'16 :32
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 :32 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g4 :32 \repeatTie
+                        g2 :32 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \f
+                        \once \override Hairpin.circled-tip = ##t
+                        g2 \! \<
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "non flutt."
+                                }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        g2. \repeatTie \mf
+                        g4 \repeatTie
+                        {
+                            g8 \repeatTie [
+                            g8 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 2/3 {
+                            g8 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                        }
+                        g'2 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r2 \> \mf
+                        \once \override Hairpin.circled-tip = ##t
+                        g'2 \! \<
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 4/5 {
+                            g'16 \repeatTie \mp [
+                            g'16
+                            g16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 4/5 {
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 \repeatTie [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            g16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g2 \repeatTie
+                        \times 2/3 {
+                            g8 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        g'2 \repeatTie
+                        g'4 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \mp
+                        \once \override Hairpin.circled-tip = ##t
+                        g'2. \! \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1335,16 +1278,9 @@
                         g'2. \repeatTie \mf
                         \times 4/5 {
                             g'16 \repeatTie [
-                            g''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            g'16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8. ]
+                            g8. ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1353,11 +1289,48 @@
                                                 1
                                     }
                         }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'4 \repeatTie \> \mf
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'2 :32 \<
+                        \times 4/5 {
+                            g16 \repeatTie
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                        }
+                        g'4 \repeatTie
+                        g'4 \repeatTie
+                        r4
+                        g4
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        g2. \repeatTie
+                        \times 4/5 {
+                            g16 \repeatTie [
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g8. ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        g4 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \mf
+                        \once \override Hairpin.circled-tip = ##t
+                        g2 :32 \! \<
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1371,7 +1344,16 @@
                                             2
                                 }
                         \times 4/5 {
-                            g'16 :32 \repeatTie \f [
+                            g16 :32 \repeatTie \f [
+                            g16 :32
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g'16 :32
                             g'16 :32
                                 ^ \markup {
                                     \override
@@ -1380,17 +1362,8 @@
                                             \finger
                                                 1
                                     }
-                            g''16 :32
-                            g''16 :32
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
+                            g'16 :32 ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1401,8 +1374,8 @@
                         }
                         {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 :32 \repeatTie [
-                            g'8 :32 ]
+                            g'8 :32 \repeatTie [
+                            g8 :32 ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1411,17 +1384,15 @@
                                                 1
                                     }
                         }
-                        g'2 :32 \repeatTie
+                        g2 :32 \repeatTie
                         \times 4/5 {
-                            g'16 :32 \repeatTie
+                            g16 :32 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''4 :32
+                            g'4 :32
                         }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. :32 \repeatTie \> \f
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'4 :32 \<
+                        g'2. :32 \repeatTie
+                        r4
+                        g4 :32
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1430,15 +1401,15 @@
                                             1
                                 }
                         {
-                            g'8 :32 \repeatTie \f [
-                            g''8 :32 ]
+                            g8 :32 \repeatTie [
+                            g'8 :32 ]
                         }
-                        g''4 :32 \repeatTie
-                        g''4 :32 \repeatTie
+                        g'4 :32 \repeatTie
+                        g'4 :32 \repeatTie
                         \times 4/5 {
-                            g''16 :32 \repeatTie
+                            g'16 :32 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4 :32
+                            g4 :32
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1447,12 +1418,10 @@
                                                 1
                                     }
                         }
-                        g'4 :32 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'1 :32 \repeatTie \> \f
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'4 :32 \<
+                        g4 :32 \repeatTie
+                        g1 :32 \repeatTie
+                        r4
+                        g4 :32
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1460,11 +1429,11 @@
                                         \finger
                                             2
                                 }
-                        g'4 :32 \repeatTie \f
+                        g4 :32 \repeatTie
                         \times 4/5 {
-                            g'16 :32 \repeatTie
+                            g16 :32 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4 :32
+                            g4 :32
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1473,11 +1442,11 @@
                                                 1
                                     }
                         }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'4 :32 \repeatTie \> \f
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''1 \<
+                        g4 :32 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \f
+                        \once \override Hairpin.circled-tip = ##t
+                        g'1 \! \<
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1490,10 +1459,10 @@
                                         \finger
                                             2
                                 }
-                        g''2 \repeatTie \mf
+                        g'2 \repeatTie \mf
                         \times 2/3 {
-                            g''4 \repeatTie
-                            g''8
+                            g'4 \repeatTie
+                            g'8
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1504,62 +1473,10 @@
                         }
                         {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 \repeatTie [
-                            g''16
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 \repeatTie \> \mf
-                        r2 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2 \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        \times 2/3 {
-                            g''8 \repeatTie \p
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \times 4/5 {
-                            g'16 \repeatTie [
-                            g''16
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8. ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        g'2 \repeatTie
-                        {
                             g'8 \repeatTie [
                             g'16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
+                            g16 ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1568,11 +1485,12 @@
                                                 1
                                     }
                         }
-                        \once \override Hairpin #'circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2. \repeatTie \> \p
-                        r4 \!
-                        g''4 \p
+                        g2 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r2 \> \mf
+                        \once \override Hairpin.circled-tip = ##t
+                        g'2 \! \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1580,9 +1498,60 @@
                                         \finger
                                             2
                                 }
+                        \times 2/3 {
+                            g'8 \repeatTie \p
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g4
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 4/5 {
+                            g16 \repeatTie [
+                            g'16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g8. ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        g2 \repeatTie
+                        {
+                            g8 \repeatTie [
+                            g16
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 ]
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g2. \repeatTie
                         r4
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2. \<
+                        g'4
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \p
+                        \once \override Hairpin.circled-tip = ##t
+                        g'2. \! \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1590,11 +1559,11 @@
                                         \finger
                                             1
                                 }
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''4 \repeatTie \pp \> \pp
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g''2 \<
+                        g'4 \repeatTie \pp
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \pp
+                        \once \override Hairpin.circled-tip = ##t
+                        g'2 \! \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1603,9 +1572,9 @@
                                             2
                                 }
                         \times 4/5 {
-                            g''16 \repeatTie \ppp
+                            g'16 \repeatTie \ppp
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4
+                            g4
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1615,13 +1584,59 @@
                                     }
                         }
                         \times 2/3 {
-                            g'4 \repeatTie
-                            g''8
+                            g4 \repeatTie
+                            g'8
                         }
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
+                        g'2 \repeatTie
                         \times 4/5 {
-                            g''16 \repeatTie [
+                            g'16 \repeatTie [
+                            g16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            g'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            g16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g16 ]
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g2. \repeatTie
+                        r4
+                        g4
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 2/3 {
+                            g4 \repeatTie
+                            g'8
+                        }
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 \repeatTie
+                        \times 4/5 {
+                            g'16 \repeatTie [
                             g'16
                                 ^ \markup {
                                     \override
@@ -1630,7 +1645,7 @@
                                             \finger
                                                 1
                                     }
-                            g''16
+                            g'16
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1638,7 +1653,7 @@
                                             \finger
                                                 2
                                     }
-                            g'16
+                            g16
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1648,88 +1663,24 @@
                                     }
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'16 ]
-                        }
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2. \repeatTie \> \ppp
-                        r4 \!
-                        \once \override Hairpin #'circled-tip = ##t
-                        g'4 \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        \times 2/3 {
-                            g'4 \repeatTie \ppp
-                            g''8
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
                         }
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
+                        g'4 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r4 \> \ppp
+                        s1 * 27/4 \!
+                        \once \override Hairpin.circled-tip = ##t
+                        gs'1 \<
+                        gs'2 \repeatTie \ppp
                         \times 4/5 {
-                            g''16 \repeatTie [
-                            g''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            g''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            g'16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 ]
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                        }
-                        \once \override Hairpin #'circled-tip = ##t
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''4 \repeatTie \> \ppp
-                        r4 \!
-                        R1 * 27/4
-                        \once \override Hairpin #'circled-tip = ##t
-                        gs''1 \<
-                        gs''2 \repeatTie \ppp
-                        \times 4/5 {
-                            gs''16 \repeatTie [
-                            gs''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            gs''16
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            gs'16 \repeatTie [
                             gs'16
                                 ^ \markup {
                                     \override
@@ -1738,13 +1689,29 @@
                                             \finger
                                                 1
                                     }
+                            gs'16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            gs16
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            gs''16 ]
+                            gs'16 ]
                         }
                         {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            gs''8 \repeatTie [
-                            gs'8 ]
+                            gs'8 \repeatTie [
+                            gs8 ]
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -1753,41 +1720,22 @@
                                                 1
                                     }
                         }
-                        gs'4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        gs'4 \repeatTie \> \ppp
-                        r2 \!
-                        R1 * 25/4
+                        gs4 \repeatTie
+                        gs4 \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r2 \> \ppp
+                        s1 * 25/4 \!
                         \bar "|."
                     }
                 }
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \clef "treble"
-                    \set EnglishHornMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        \center-column
-                            {
-                                English
-                                horn
-                            }
-                    }
-                    \set EnglishHornMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        \line
-                            {
-                                Eng.
-                                hn.
-                            }
-                    }
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         r4
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            ef'16 [
+                            \override NoteHead.style = #'cross
+                            af16 [
                                 _ \markup {
                                     \larger
                                         \italic
@@ -1800,676 +1748,513 @@
                                         \italic
                                             ”
                                     }
-                            \once \override NoteHead #'style = #'cross
-                            e'16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16
-                            \once \override NoteHead #'style = #'cross
-                            gs'16 ]
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            aqf'8
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            bf'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            a'4
-                        }
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            eqs'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            ef'16 [
-                            \once \override NoteHead #'style = #'cross
-                            e'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            a'16 [
-                            \once \override NoteHead #'style = #'cross
-                            gs'16
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16
-                            \once \override NoteHead #'style = #'cross
-                            f'16
-                            \once \override NoteHead #'style = #'cross
-                            d'16 ]
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            bf'8
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            a'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            gs'4
-                        }
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            aqf'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            d'16 [
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            f'16
-                            \once \override NoteHead #'style = #'cross
-                            e'16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            ef'16 [
-                            \once \override NoteHead #'style = #'cross
-                            f'16
-                            \once \override NoteHead #'style = #'cross
-                            d'16
-                            \once \override NoteHead #'style = #'cross
+                            a16
+                            aqs16
                             cs'16 ]
                         }
                         {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            fqs'8
+                            dqf'8
                         }
                         \times 2/3 {
                             r8
-                            \once \override NoteHead #'style = #'cross
                             ef'4
                         }
                         r4
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            e'4
+                            d'4
                         }
                         \times 2/3 {
                             r4
-                            \once \override NoteHead #'style = #'cross
-                            eqs'8
+                            aqs8
                         }
                         {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16 [
-                            \once \override NoteHead #'style = #'cross
-                            bf'16 ]
+                            af16 [
+                            a16 ]
                         }
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            a'16 [
-                            \once \override NoteHead #'style = #'cross
-                            gs'16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16
-                            \once \override NoteHead #'style = #'cross
+                            d'16 [
+                            cs'16
+                            dqf'16
                             ef'16 ]
                         }
                         r4
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            e'16 [
-                            \once \override NoteHead #'style = #'cross
-                            gs'16
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16 ]
+                            fs16 [
+                            bqf16
+                            bf16
+                            g16 ]
                         }
                         {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            a'8
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            fqs'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            f'4
-                        }
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            d'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            a'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            gs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 ]
-                        }
-                        r4
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        af'8. \f \startTrillSpan
-                        r16 \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        atqf'8. \startTrillSpan
-                        atqf'16 \repeatTie
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        af'2 \stopTrillSpan \startTrillSpan
-                        atqf'4.. \stopTrillSpan \startTrillSpan
-                        atqf'2 \repeatTie
-                        atqf'16 \repeatTie [
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqf'8. ] \stopTrillSpan \startTrillSpan
-                        aqf'1 \repeatTie
-                        r4 \stopTrillSpan
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            gs'8
-                                _ \markup {
-                                    \larger
-                                        \italic
-                                            “
-                                    \dynamic
-                                        \override
-                                            #'(font-name . #f)
-                                            f
-                                    \larger
-                                        \italic
-                                            ”
-                                    }
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            aqf'4
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16 [
-                            \once \override NoteHead #'style = #'cross
-                            a'8. ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            eqs'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            ef'16 [
-                            \once \override NoteHead #'style = #'cross
-                            e'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            a'16 [
-                            \once \override NoteHead #'style = #'cross
-                            gs'16
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16
-                            \once \override NoteHead #'style = #'cross
-                            f'16
-                            \once \override NoteHead #'style = #'cross
-                            d'16 ]
-                        }
-                        r4
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            bf'8
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            a'4
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            gs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            aqf'8. ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            d'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            f'16 [
-                            \once \override NoteHead #'style = #'cross
-                            e'16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16
-                            \once \override NoteHead #'style = #'cross
-                            ef'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            f'16 [
-                            \once \override NoteHead #'style = #'cross
-                            d'16
-                            \once \override NoteHead #'style = #'cross
-                            cs'16
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16 ]
-                        }
-                        r4
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
                             ef'8
                         }
-                        r4
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        a'8. \ff \startTrillSpan
-                        a'2. \repeatTie
-                        a'2 \repeatTie
-                        r16 \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqs'8. \startTrillSpan
-                        r16 \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqf'2... \startTrillSpan
-                        aqf'1 \repeatTie
-                        aqf'4 \repeatTie
-                        r16 \stopTrillSpan
-                        af'4.. \startTrillSpan
-                        aqf'2 \stopTrillSpan \startTrillSpan
-                        r2 \stopTrillSpan
-                        bf'2. \fff \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            doubletrill!
-                                }
-                        bf'1 \repeatTie
-                        bf'2 \repeatTie
-                        bf'2. \repeatTie
-                        bf'1 \repeatTie
-                        bf'2 \repeatTie
-                        b'2. \fff \stopTrillSpan \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            doubletrill!
-                                }
-                        b'1 \repeatTie
-                        b'2. \repeatTie
-                        b'1 \repeatTie
-                        b'2. \repeatTie
-                        b'1 \repeatTie
-                        b'2 \repeatTie
-                        b'1 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        r4 \stopTrillSpan
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16 \> \f [
-                            \once \override NoteHead #'style = #'cross
-                            ef'16
-                            \once \override NoteHead #'style = #'cross
-                            e'16
-                            \once \override NoteHead #'style = #'cross
-                            a'16 ]
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            gs'8
-                        }
                         \times 2/3 {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            aqf'4
+                            d'4
                         }
                         r4
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            bf'4
-                        }
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            cs'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            f'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            d'16 [
-                            \once \override NoteHead #'style = #'cross
-                            bf'16
-                            \once \override NoteHead #'style = #'cross
-                            a'16
-                            \once \override NoteHead #'style = #'cross
-                            gs'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16 [
-                            \once \override NoteHead #'style = #'cross
-                            d'16
-                            \once \override NoteHead #'style = #'cross
-                            cs'16
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16 ]
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            f'8
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            e'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'4
-                        }
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            ef'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            f'16 [
-                            \once \override NoteHead #'style = #'cross
-                            d'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16
-                            \once \override NoteHead #'style = #'cross
-                            ef'16
-                            \once \override NoteHead #'style = #'cross
-                            e'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16
-                            \once \override NoteHead #'style = #'cross
-                            a'16 ]
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            gs'8
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            eqs'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            ef'4
-                        }
-                        \times 2/3 {
-                            r4
-                            \once \override NoteHead #'style = #'cross
-                            e'8
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            gs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16 [
-                            \once \override NoteHead #'style = #'cross
-                            a'16
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16
-                            \once \override NoteHead #'style = #'cross
-                            f'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
-                            d'16 [
-                            \once \override NoteHead #'style = #'cross
-                            cs'16
-                            \once \override NoteHead #'style = #'cross
-                            a'16
-                            \once \override NoteHead #'style = #'cross
-                            gs'16 ]
-                        }
-                        {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            aqf'8
-                        }
-                        \times 2/3 {
-                            r8
-                            \once \override NoteHead #'style = #'cross
-                            bf'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            \once \override NoteHead #'style = #'cross
                             cs'4
                         }
                         \times 2/3 {
                             r4
-                            \once \override NoteHead #'style = #'cross
-                            fqs'8
+                            dqf'8
                         }
                         {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            f'16 [
-                            \once \override NoteHead #'style = #'cross
-                            d'16 ]
+                            g16 [
+                            fs16 ]
                         }
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            e'16 [
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16
-                            \once \override NoteHead #'style = #'cross
-                            ef'16
-                            \once \override NoteHead #'style = #'cross
-                            d'16 ]
+                            bqf16 [
+                            bf16
+                            a16
+                            aqs16 ]
                         }
                         r4
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            cs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            fqs'16
-                            \once \override NoteHead #'style = #'cross
-                            f'16
-                            \once \override NoteHead #'style = #'cross
+                            af16 [
+                            bf16
+                            g16
+                            fs16 ]
+                        }
+                        {
+                            r8
+                            bqf8
+                        }
+                        \times 2/3 {
+                            r8
+                            af4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            a4
+                        }
+                        \times 2/3 {
+                            r4
+                            aqs8
+                        }
+                        {
+                            r8
+                            dqf'16 [
+                            ef'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            d'16 [
+                            cs'16
+                            aqs16
+                            af16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            a16 [
+                            cs'16
+                            dqf'16
                             ef'16 ]
                         }
                         {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            e'8
+                            d'8
                         }
                         \times 2/3 {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            eqs'4
+                            bqf4
                         }
                         r4
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            bf'4
+                            bf4
                         }
                         \times 2/3 {
                             r4
-                            \once \override NoteHead #'style = #'cross
-                            a'8
+                            g8
                         }
                         {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            gs'16 [
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16 ]
+                            fs16 [
+                            d'16 ]
                         }
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            eqs'16 [
-                            \once \override NoteHead #'style = #'cross
+                            cs'16 [
+                            dqf'16
                             ef'16
-                            \once \override NoteHead #'style = #'cross
-                            e'16
-                            \once \override NoteHead #'style = #'cross
-                            aqf'16 ]
+                            fs16 ]
+                            \revert NoteHead.style
+                        }
+                        r4
+                        r16
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        df'8. \f \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        dtqf'8. \startTrillSpan
+                        dtqf'16 \repeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        df'2 \stopTrillSpan \startTrillSpan
+                        dtqf'4.. \stopTrillSpan \startTrillSpan
+                        dtqf'2 \repeatTie
+                        dtqf'16 \repeatTie [
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        dqf'8. ] \stopTrillSpan \startTrillSpan
+                        dqf'1 \repeatTie
+                        r4 \stopTrillSpan
+                        {
+                            r8
+                            \override NoteHead.style = #'cross
+                            cs'8
+                                _ \markup {
+                                    \larger
+                                        \italic
+                                            “
+                                    \dynamic
+                                        \override
+                                            #'(font-name . #f)
+                                            f
+                                    \larger
+                                        \italic
+                                            ”
+                                    }
+                        }
+                        \times 2/3 {
+                            r8
+                            dqf'4
+                        }
+                        \times 4/5 {
+                            r16
+                            ef'16 [
+                            d'8. ]
+                        }
+                        r4
+                        \times 2/3 {
+                            r4
+                            aqs8
+                        }
+                        {
+                            r8
+                            af16 [
+                            a16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            d'16 [
+                            cs'16
+                            dqf'16
+                            ef'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            fs16 [
+                            bqf16
+                            bf16
+                            g16 ]
+                        }
+                        r4
+                        {
+                            r8
+                            ef'8
+                        }
+                        \times 2/3 {
+                            r8
+                            d'4
+                        }
+                        \times 4/5 {
+                            r16
+                            cs'16 [
+                            dqf'8. ]
+                        }
+                        r4
+                        \times 2/3 {
+                            r4
+                            g8
+                        }
+                        {
+                            r8
+                            fs16 [
+                            bqf16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            bf16 [
+                            a16
+                            aqs16
+                            af16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            bf16 [
+                            g16
+                            fs16
+                            bqf16 ]
+                        }
+                        r4
+                        {
+                            r8
+                            af8
+                            \revert NoteHead.style
+                        }
+                        r4
+                        r16
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        d'8. \ff \startTrillSpan
+                        d'2. \repeatTie
+                        d'2 \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        dqs'8. \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        dqf'2... \startTrillSpan
+                        dqf'1 \repeatTie
+                        dqf'4 \repeatTie
+                        r16 \stopTrillSpan
+                        df'4.. \startTrillSpan
+                        dqf'2 \stopTrillSpan \startTrillSpan
+                        r2 \stopTrillSpan
+                        ef'2. \fff \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            doubletrill!
+                                }
+                        ef'1 \repeatTie
+                        ef'2 \repeatTie
+                        ef'2. \repeatTie
+                        ef'1 \repeatTie
+                        ef'2 \repeatTie
+                        e'2. \fff \stopTrillSpan \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            doubletrill!
+                                }
+                        e'1 \repeatTie
+                        e'2. \repeatTie
+                        e'1 \repeatTie
+                        e'2. \repeatTie
+                        e'1 \repeatTie
+                        e'2 \repeatTie
+                        e'1 \repeatTie
+                        r4 \stopTrillSpan
+                        \times 4/5 {
+                            r16
+                            \once \override Hairpin.circled-tip = ##t
+                            \override NoteHead.style = #'cross
+                            aqs16 \> [
+                            af16
+                            a16
+                            d'16 ]
+                        }
+                        {
+                            r8
+                            cs'8
+                        }
+                        \times 2/3 {
+                            r8
+                            dqf'4
                         }
                         r4
                         \times 4/5 {
                             r16
-                            \once \override NoteHead #'style = #'cross
-                            bf'16 [
-                            \once \override NoteHead #'style = #'cross
-                            a'16
-                            \once \override NoteHead #'style = #'cross
-                            gs'16
-                            \once \override NoteHead #'style = #'cross
-                            f'16 ]
+                            ef'4
+                        }
+                        \times 2/3 {
+                            r4
+                            fs8
                         }
                         {
                             r8
-                            \once \override NoteHead #'style = #'cross
-                            d'8 \!
+                            bqf16 [
+                            bf16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            g16 [
+                            ef'16
+                            d'16
+                            cs'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            dqf'16 [
+                            g16
+                            fs16
+                            bqf16 ]
+                        }
+                        {
+                            r8
+                            bf8
+                        }
+                        \times 2/3 {
+                            r8
+                            a4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            aqs4
+                        }
+                        \times 2/3 {
+                            r4
+                            af8
+                        }
+                        {
+                            r8
+                            bf16 [
+                            g16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            fs16 [
+                            bqf16
+                            af16
+                            a16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            aqs16 [
+                            dqf'16
+                            ef'16
+                            d'16 ]
+                        }
+                        {
+                            r8
+                            cs'8
+                        }
+                        \times 2/3 {
+                            r8
+                            aqs4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            af4
+                        }
+                        \times 2/3 {
+                            r4
+                            a8
+                        }
+                        {
+                            r8
+                            cs'16 [
+                            dqf'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            ef'16 [
+                            d'16
+                            bqf16
+                            bf16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            g16 [
+                            fs16
+                            d'16
+                            cs'16 ]
+                        }
+                        {
+                            r8
+                            dqf'8
+                        }
+                        \times 2/3 {
+                            r8
+                            ef'4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            fs4
+                        }
+                        \times 2/3 {
+                            r4
+                            bqf8
+                        }
+                        {
+                            r8
+                            bf16 [
+                            g16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            a16 [
+                            aqs16
+                            af16
+                            g16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            fs16 [
+                            bqf16
+                            bf16
+                            af16 ]
+                        }
+                        {
+                            r8
+                            a8
+                        }
+                        \times 2/3 {
+                            r8
+                            aqs4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            ef'4
+                        }
+                        \times 2/3 {
+                            r4
+                            d'8
+                        }
+                        {
+                            r8
+                            cs'16 [
+                            dqf'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            aqs16 [
+                            af16
+                            a16
+                            dqf'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            ef'16 [
+                            d'16
+                            cs'16
+                            bf16 ]
+                        }
+                        {
+                            r8
+                            g8 \!
+                            \revert NoteHead.style
                         }
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
                         \clef "percussion"
                         r2.
-                            ^ \markup {
-                                \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            "remove staple"
-                                }
                         r1
                         r2.
                         r1
@@ -2477,12 +2262,26 @@
                         r1
                         r2
                         r1
-                        \once \override RepeatTie #'direction = #up
-                        c'1
+                        \override RepeatTie.direction = #up
+                        f1
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        airtone
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \override
+                                                        #'(box-padding . 0.5)
+                                                        \box
+                                                            "remove staple"
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        airtone
+                                            }
+                                    }
                                 }
                             _ \markup {
                                 \larger
@@ -2496,13 +2295,11 @@
                                     \italic
                                         ”
                                 }
-                        \once \override RepeatTie #'direction = #up
-                        c'2. \repeatTie
-                        \once \override RepeatTie #'direction = #up
-                        c'2 \repeatTie
-                        \once \override RepeatTie #'direction = #up
-                        c'2. \repeatTie
-                        R1 * 25/4
+                        f2. \repeatTie
+                        f2 \repeatTie
+                        f2. \repeatTie
+                        \revert RepeatTie.direction
+                        s1 * 25/4
                         \bar "|."
                         \stopStaff
                         \startStaff
@@ -2510,168 +2307,119 @@
                 }
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                    \clef "treble"
-                    \set ClarinetMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        \center-column
-                            {
-                                Bass
-                                clarinet
-                            }
-                    }
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        \line
-                            {
-                                B.
-                                cl.
-                            }
-                    }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        \once \override Hairpin #'circled-tip = ##t
-                        f4 \<
-                        f\breve \repeatTie \p
-                        f4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        \once \override Hairpin.circled-tip = ##t
+                        ef,4 \<
+                        ef,\breve \repeatTie \p
+                        ef,4 \repeatTie
+                        ef,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs4 \<
-                        fqs1 \repeatTie \p
-                        fqs4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        fqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        eqf,4
+                        eqf,1 \repeatTie
+                        eqf,4 \repeatTie
+                        eqf,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f4 \<
-                        f\breve.. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        ef,4
+                        ef,\breve.. \repeatTie
+                        ef,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs4 \<
-                        fqs1.. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        fqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        eqf,4
+                        eqf,1.. \repeatTie
+                        eqf,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f4 \<
-                        f1 \repeatTie \p
-                        f4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        ef,4
+                        ef,1 \repeatTie
+                        ef,4 \repeatTie
+                        ef,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs4 \<
-                        fqs\breve... \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        fqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        eqf,4
+                        eqf,\breve... \repeatTie
+                        eqf,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f4 \<
-                        f\breve. \repeatTie \p
-                        f4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        ef,4
+                        ef,\breve. \repeatTie
+                        ef,4 \repeatTie
+                        ef,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs4 \<
-                        fqs1.. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        fqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        eqf,4
+                        eqf,1.. \repeatTie
+                        eqf,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f4 \<
-                        f1.. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        ef,4
+                        ef,1.. \repeatTie
+                        ef,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs4 \<
-                        fqs\breve. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        fqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        eqf,4
+                        eqf,\breve. \repeatTie
+                        eqf,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f4 \<
-                        f\breve \repeatTie \p
-                        f4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        ef,4
+                        ef,\breve \repeatTie
+                        ef,4 \repeatTie
+                        ef,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs4 \<
-                        fqs1 \repeatTie \p
-                        fqs4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        fqs8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        eqf,4
+                        eqf,1 \repeatTie
+                        eqf,4 \repeatTie
+                        eqf,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f4 \<
-                        f\breve.. \repeatTie \p
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        ef,4
+                        ef,\breve.. \repeatTie
+                        ef,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f4 \<
-                        f\breve. \repeatTie \p
-                        f4 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        f8. \repeatTie \> \p
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        ef,4
+                        \once \override Hairpin.circled-tip = ##t
+                        ef,\breve. \repeatTie \> \p
+                        \once \override Hairpin.circled-tip = ##t
+                        ef,4 \repeatTie \! \<
+                        ef,8. \repeatTie \pp
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e4 \<
-                        e1. \repeatTie \pp
-                        \once \override Hairpin #'circled-tip = ##t
-                        e8. \repeatTie \> \pp
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        d,4
+                        \once \override Hairpin.circled-tip = ##t
+                        d,1. \repeatTie \> \pp
+                        \once \override Hairpin.circled-tip = ##t
+                        d,8. \repeatTie \! \<
+                        r16 \ppp
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e4 \<
-                        e2 \repeatTie \ppp
-                        \once \override Hairpin #'circled-tip = ##t
-                        e8. \repeatTie \> \ppp
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        d,4
+                        d,2 \repeatTie
+                        d,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ds4 \<
-                        ds1.. \repeatTie \ppp
-                        \once \override Hairpin #'circled-tip = ##t
-                        ds8. \repeatTie \> \ppp
-                        r16 \!
-                        \once \override Hairpin #'circled-tip = ##t
+                        cs,4
+                        cs,1.. \repeatTie
+                        cs,8. \repeatTie
+                        r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ds4 \<
-                        \once \override Hairpin #'circled-tip = ##t
-                        ds8. \repeatTie \ppp \> \ppp
-                        r16 \!
-                        R1 * 27/4
-                        \once \override Hairpin #'circled-tip = ##t
-                        d4 \<
-                        d2. \repeatTie \ppp
-                        d2. \repeatTie
-                        d2 \repeatTie
-                        d2 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
-                        d8. \repeatTie \> \ppp
-                        r16 \!
-                        R1 * 25/4
+                        cs,4
+                        cs,8. \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r16 \> \ppp
+                        s1 * 27/4 \!
+                        \once \override Hairpin.circled-tip = ##t
+                        c,4 \<
+                        c,2. \repeatTie \ppp
+                        c,2. \repeatTie
+                        c,2 \repeatTie
+                        c,2 \repeatTie
+                        c,8. \repeatTie
+                        \once \override Hairpin.circled-tip = ##t
+                        r16 \> \ppp
+                        s1 * 25/4 \!
                         \bar "|."
                     }
                 }
@@ -2679,113 +2427,59 @@
             \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
                 \tag piano
                 \context PianoStaffGroup = "Piano Staff Group" <<
-                    \set PianoStaffGroup.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Piano
-                    }
-                    \set PianoStaffGroup.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Pf.
-                    }
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                        \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            \once \override NoteHead #'style = #'harmonic
+                            \override NoteHead.style = #'harmonic
                             <ef' f' g' df'' ef''>2.
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            \once \override NoteHead #'style = #'harmonic
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            R1 * 28
+                            \revert NoteHead.style
+                            s1 * 28
                             \bar "|."
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                        \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
                             R1 * 3/4
                             R1 * 1
@@ -2875,9 +2569,9 @@
                             \once \override Arpeggio.X-offset = #-2
                             \once \override NoteHead.stencil = #ly:text-interface::print
                             \once \override NoteHead.text = \markup {
-                                \filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16 \sfz
+                            <c, e, g, b,>16 -\sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -2914,9 +2608,9 @@
                             \once \override Arpeggio.X-offset = #-2
                             \once \override NoteHead.stencil = #ly:text-interface::print
                             \once \override NoteHead.text = \markup {
-                                \filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
+                            	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16 \sfz
+                            <c, e, g, b,>16 -\sfz
                                 ^ \markup {
                                     \center-align
                                         \concat
@@ -2989,26 +2683,15 @@
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \clef "treble"
-                    \set PercussionMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Percussion
-                    }
-                    \set PercussionMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Perc.
-                    }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        \once \override Hairpin #'circled-tip = ##t
+                        \once \override Hairpin.circled-tip = ##t
                         g'2. -\laissezVibrer \<
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "l.v. possibile"
                                 }
-                        r1 \ff
+                        r1
                         r1
                         r2
                         r2.
@@ -3016,7 +2699,7 @@
                         r2.
                         r1
                         \clef "bass"
-                        r2.
+                        r2. \ff
                             ^ \markup {
                                 \whiteout
                                     \override
@@ -3025,8 +2708,8 @@
                                             "to marimba"
                                 }
                         r2
-                        R1 * 10
-                        ef,2 :32 \< \ppp
+                        s1 * 10
+                        ef,2 :32
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -3034,34 +2717,34 @@
                                 }
                         ef,2. :32 \repeatTie
                         ef,2. :32 \repeatTie
-                        ef,1 :32 \repeatTie \pp \> \pp
                         ef,1 :32 \repeatTie
-                        ef,2. :32 \repeatTie \ppp \< \ppp
+                        ef,1 :32 \repeatTie
+                        ef,2. :32 \repeatTie
                         ef,2 :32 \repeatTie
                         ef,2 :32 \repeatTie
-                        ef,2. :32 \repeatTie \p \> \p
-                        ef,1 :32 \repeatTie
-                        ef,2 :32 \repeatTie \pp \< \pp
                         ef,2. :32 \repeatTie
                         ef,1 :32 \repeatTie
-                        ef,2 :32 \repeatTie \p \> \p
-                        ef,2. :32 \repeatTie
-                        ef,1 :32 \repeatTie \ppp \< \ppp
+                        ef,2 :32 \repeatTie
                         ef,2. :32 \repeatTie
                         ef,1 :32 \repeatTie
-                        ef,2. :32 \repeatTie \pp \> \pp
-                        ef,1 :32 \repeatTie
-                        ef,2 :32 \repeatTie \ppp \< \ppp
-                        ef,1 :32 \repeatTie
-                        ef,1 :32 \repeatTie
-                        ef,2. :32 \repeatTie \p \> \p
+                        ef,2 :32 \repeatTie
                         ef,2. :32 \repeatTie
-                        ef,2 :32 \repeatTie \pp
+                        ef,1 :32 \repeatTie
+                        ef,2. :32 \repeatTie
+                        ef,1 :32 \repeatTie
+                        ef,2. :32 \repeatTie
+                        ef,1 :32 \repeatTie
+                        ef,2 :32 \repeatTie
+                        ef,1 :32 \repeatTie
+                        ef,1 :32 \repeatTie
+                        ef,2. :32 \repeatTie
+                        ef,2. :32 \repeatTie
+                        ef,2 :32 \repeatTie
                         d,2. :32
                         d,1 :32 \repeatTie
                         d,1 :32 \repeatTie
                         d,2 :32 \repeatTie
-                        \once \override Hairpin #'circled-tip = ##t
+                        \once \override Hairpin.circled-tip = ##t
                         d,2. :32 \repeatTie \> \pp
                         d,2 :32 \repeatTie
                         d,2. :32 \repeatTie
@@ -3090,14 +2773,8 @@
                                         \box
                                             \column
                                                 {
-                                                    \line
-                                                        {
-                                                            "rub sponge on bass drum head;"
-                                                        }
-                                                    \line
-                                                        {
-                                                            "noise only: no pitch"
-                                                        }
+                                                    "rub sponge on bass drum head;"
+                                                    "noise only: no pitch"
                                                 }
                                 }
                             _ \markup {
@@ -3117,7 +2794,7 @@
                         b2. \repeatTie
                         \stopStaff
                         \startStaff
-                        R1 * 25/4
+                        s1 * 25/4
                         \bar "|."
                     }
                 }
@@ -3125,33 +2802,22 @@
             \context StringSectionStaffGroup = "String Section Staff Group" <<
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
-                    \clef "treble"
-                    \set ViolinMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Violin
-                    }
-                    \set ViolinMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Vn.
-                    }
                     \context ViolinMusicVoice = "Violin Music Voice" {
-                        \once \override Hairpin #'circled-tip = ##t
+                        \once \override Hairpin.circled-tip = ##t
                         g'''2. \<
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "l.v. possibile"
                                 }
-                        r1 \ff
+                        r1
                         r1
                         r2
                         r2.
                         r2
                         r2.
                         r1
-                        f'16 [
+                        f'16 \ff [
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -3186,7 +2852,7 @@
                         f'16 [
                         f'16 ]
                         r8
-                        \once \override Hairpin #'circled-tip = ##t
+                        \once \override Hairpin.circled-tip = ##t
                         f'16 \> \ff [
                         f'16 ]
                         r8
@@ -3364,7 +3030,7 @@
                         eqf'1 \repeatTie
                         eqf'1 \repeatTie
                         eqf'2 \repeatTie \ppp
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
@@ -3378,18 +3044,9 @@
                                             \box
                                                 \column
                                                     {
-                                                        \line
-                                                            {
-                                                                "col legno battuto:"
-                                                            }
-                                                        \line
-                                                            {
-                                                                "as bright and pointlike as possible;"
-                                                            }
-                                                        \line
-                                                            {
-                                                                "(mute string with left hand)"
-                                                            }
+                                                        "col legno battuto:"
+                                                        "as bright and pointlike as possible;"
+                                                        "(mute string with left hand)"
                                                     }
                                     }
                             c'8 -\staccato
@@ -3404,7 +3061,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             d'8 -\staccato [
                             d'8 -\staccato
@@ -3427,7 +3084,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             c'8 -\staccato \mf [
                             c'8 -\staccato
@@ -3452,7 +3109,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
                             c'8 -\staccato [
                             c'8 -\staccato
@@ -3481,7 +3138,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             c'8 -\staccato [
                             c'8 -\staccato
@@ -3504,7 +3161,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             d'8 -\staccato [
                             d'8 -\staccato
@@ -3543,7 +3200,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \once \override RepeatTie #'direction = #up
+                        \override RepeatTie.direction = #up
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'1
                             ^ \markup {
@@ -3553,14 +3210,8 @@
                                         \box
                                             \column
                                                 {
-                                                    \line
-                                                        {
-                                                            "bow directly on bridge;"
-                                                        }
-                                                    \line
-                                                        {
-                                                            "noise only: no pitch"
-                                                        }
+                                                    "bow directly on bridge;"
+                                                    "noise only: no pitch"
                                                 }
                                 }
                             _ \markup {
@@ -3575,13 +3226,11 @@
                                     \italic
                                         ”
                                 }
-                        \once \override RepeatTie #'direction = #up
                         c'2. \repeatTie
-                        \once \override RepeatTie #'direction = #up
                         c'2 \repeatTie
-                        \once \override RepeatTie #'direction = #up
                         c'2. \repeatTie
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \revert RepeatTie.direction
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             c'8 -\staccato \> \mf [
                                 ^ \markup {
@@ -3605,7 +3254,7 @@
                             c'8 -\staccato
                             c'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             d'8 -\staccato [
                             d'8 -\staccato
@@ -3669,17 +3318,6 @@
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "alto"
-                    \set ViolaMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Viola
-                    }
-                    \set ViolaMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Va.
-                    }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         ef2. :32
                         ef1 :32 \repeatTie
@@ -3729,8 +3367,8 @@
                             f'8 ]
                         }
                         \times 2/3 {
-                            \once \override Hairpin #'circled-tip = ##t
                             r4
+                            \once \override Hairpin.circled-tip = ##t
                             f'8 \> \ff
                         }
                         \times 2/3 {
@@ -3940,7 +3578,7 @@
                         g1 \repeatTie
                         g1 \repeatTie
                         g2 \repeatTie \ppp
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
@@ -3954,18 +3592,9 @@
                                             \box
                                                 \column
                                                     {
-                                                        \line
-                                                            {
-                                                                "col legno battuto:"
-                                                            }
-                                                        \line
-                                                            {
-                                                                "as bright and pointlike as possible;"
-                                                            }
-                                                        \line
-                                                            {
-                                                                "(mute string with left hand)"
-                                                            }
+                                                        "col legno battuto:"
+                                                        "as bright and pointlike as possible;"
+                                                        "(mute string with left hand)"
                                                     }
                                     }
                             b8 -\staccato
@@ -3976,7 +3605,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
                             c'8 -\staccato [
                             c'8 -\staccato
@@ -3995,7 +3624,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             b8 -\staccato [
                             b8 -\staccato
@@ -4020,7 +3649,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             d'8 -\staccato [
                             d'8 -\staccato
@@ -4039,7 +3668,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             b8 -\staccato [
                             b8 -\staccato
@@ -4066,7 +3695,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             d'8 -\staccato [
                             d'8 -\staccato
@@ -4113,7 +3742,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             c'8 -\staccato [
                             c'8 -\staccato
@@ -4132,7 +3761,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
                             b8 -\staccato [
                             b8 -\staccato
@@ -4151,7 +3780,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             d'8 -\staccato \> \mf [
                             d'8 -\staccato
@@ -4180,7 +3809,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
                             c'8 -\staccato [
                             c'8 -\staccato
@@ -4205,7 +3834,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             c'8 -\staccato [
                             c'8 -\staccato
@@ -4235,17 +3864,6 @@
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
-                    \set CelloMusicStaff.instrumentName = \markup {
-                    \hcenter-in
-                        #16
-                        Cello
-                    }
-                    \set CelloMusicStaff.shortInstrumentName = \markup {
-                    \hcenter-in
-                        #10
-                        Vc.
-                    }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         ef,2.
                         ef,1 \repeatTie
@@ -4361,7 +3979,7 @@
                         ef,2. \repeatTie
                         ef,1 \repeatTie
                         ef,2 \repeatTie
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 27/28 {
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -4389,23 +4007,17 @@
                                 ^ \markup {
                                     \column
                                         {
-                                            \line
-                                                {
-                                                    "glissando lentissimo"
-                                                }
-                                            \line
-                                                {
-                                                    "do not reattack note heads"
-                                                }
+                                            "glissando lentissimo"
+                                            "do not reattack note heads"
                                         }
                                     }
                         }
                         {
                             ff,\breve. \glissando
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 25/28 {
-                            \once \override Hairpin #'circled-tip = ##t
+                            \once \override Hairpin.circled-tip = ##t
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4430,24 +4042,18 @@
                             \once \override TextSpanner.dash-period = 1.5
                             d,\longa.. \ff \stopTextSpan \glissando \> \ff \startTextSpan \startTextSpan
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 11/16 {
                             cs,\breve.... \glissando
-                            bs,,8 \! \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "tasto poss."
-                                }
+                            bs,,8
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
                             \clef "percussion"
-                            d'8 -\staccato \mf [
+                            d'8 -\staccato \mf \stopTextSpan [
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -4455,20 +4061,18 @@
                                             \box
                                                 \column
                                                     {
-                                                        \line
-                                                            {
-                                                                "col legno battuto:"
-                                                            }
-                                                        \line
-                                                            {
-                                                                "as bright and pointlike as possible;"
-                                                            }
-                                                        \line
-                                                            {
-                                                                "(mute string with left hand)"
-                                                            }
+                                                        "col legno battuto:"
+                                                        "as bright and pointlike as possible;"
+                                                        "(mute string with left hand)"
                                                     }
                                     }
+                                ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            "tasto poss."
+                                }
                             d'8 -\staccato
                             d'8 -\staccato
                             d'8 -\staccato
@@ -4491,7 +4095,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 11/14 {
                             b8 -\staccato [
                             b8 -\staccato
@@ -4522,7 +4126,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
                             d'8 -\staccato [
                             d'8 -\staccato
@@ -4565,7 +4169,7 @@
                             d'8 -\staccato
                             d'8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 11/13 {
                             d'8 -\staccato \> \mf [
                             d'8 -\staccato
@@ -4594,7 +4198,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             d'8 -\staccato [
                             d'8 -\staccato
@@ -4613,7 +4217,7 @@
                             b8 -\staccato
                             b8 -\staccato ]
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             c'8 -\staccato [
                             c'8 -\staccato
@@ -4634,9 +4238,9 @@
                             c'8 -\staccato
                             c'8 -\staccato
                             c'8 -\staccato
-                            \once \override TextScript #'extra-offset = #'(-12 . -24)
+                            \once \override TextScript.extra-offset = #'(-12 . -24)
                             c'8 -\staccato \ppp ]
-                                ^ \markup {
+                                - \markup {
                                     \italic
                                         \right-column
                                             {

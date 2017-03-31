@@ -9,16 +9,16 @@ def make_clb_rhythm_specifier(
     ):
     expression = None
     if fuse_counts is not None:
-        expression = baca.tools.DivisionSequenceExpression()
+        #expression = baca.tools.DivisionSequenceExpression()
+        expression = baca.sequence()
         expression = expression.partition_by_counts(
             fuse_counts,
             cyclic=True,
             overhang=True,
             )
-        expression = expression.map()
-        expression = expression.sum()
+        expression = expression.map(baca.sequence().sum())
         expression = expression.flatten()
-    counts = abjad.sequencetools.Sequence([
+    counts = baca.Sequence([
         [1, 1, 1, 1, 1],
         [-4],
         [1, 1, 1, 1, 1, 1],
