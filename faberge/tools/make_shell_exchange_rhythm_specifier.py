@@ -45,7 +45,7 @@ def make_shell_exchange_rhythm_specifier(
         [1, 1, -2],
         [1, 1, 1, -1],
         ]
-    counts = abjad.sequence(counts)
+    counts = baca.sequence(counts)
     counts = counts.rotate(n=rotation)
     counts = counts.flatten()
 
@@ -67,8 +67,7 @@ def make_shell_exchange_rhythm_specifier(
             ]
     else:
         raise ValueError(total_parts)
-    interaction_series = abjad.CyclicTuple(
-        interaction_series)
+    interaction_series = abjad.CyclicTuple(interaction_series)
 
     filtered_counts = []
     positive_count_index = -1
@@ -88,8 +87,7 @@ def make_shell_exchange_rhythm_specifier(
         abjad.mathtools.weight(counts)
     counts = filtered_counts
 
-    grouped_counts = abjad.sequencetools.partition_sequence_by_sign_of_elements(
-        counts)
+    grouped_counts = baca.tools.partition_sequence_by_sign_of_elements(counts)
     grouped_rests = []
     for group in grouped_counts:
         if 0 < group[0]:

@@ -8,34 +8,25 @@ metadata = abjad.datastructuretools.TypedOrderedDict(
             'end_clefs_by_staff',
             abjad.datastructuretools.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'bass'),
-                    ('Clarinet Music Staff', 'treble'),
-                    ('English Horn Music Staff', 'treble'),
-                    ('Flute Music Staff', 'treble'),
-                    ('Percussion Music Staff', 'treble'),
-                    ('Piano LH Music Staff', 'bass'),
-                    ('Piano RH Music Staff', 'treble'),
-                    ('Viola Music Staff', 'alto'),
-                    ('Violin Music Staff', 'treble'),
+                    ('Cello Music Staff', None),
+                    ('Clarinet Music Staff', None),
+                    ('English Horn Music Staff', None),
+                    ('Flute Music Staff', None),
+                    ('Percussion Music Staff', None),
+                    ('Piano LH Music Staff', None),
+                    ('Piano RH Music Staff', None),
+                    ('Viola Music Staff', None),
+                    ('Violin Music Staff', None),
                     ]
                 ),
             ),
         (
             'end_instruments_by_context',
             abjad.datastructuretools.TypedOrderedDict(
-                [
-                    ('Cello Music Staff', 'cello'),
-                    ('Clarinet Music Staff', 'bass clarinet'),
-                    ('English Horn Music Staff', 'English horn'),
-                    ('Flute Music Staff', 'bass flute'),
-                    ('Percussion Music Staff', 'percussion'),
-                    ('Piano Staff Group', 'piano'),
-                    ('Viola Music Staff', 'viola'),
-                    ('Violin Music Staff', 'violin'),
-                    ]
+                []
                 ),
             ),
-        ('end_tempo', 100),
+        ('end_tempo', None),
         ('end_time_signature', '4/4'),
         ('first_bar_number', 5),
         ('measure_count', 92),

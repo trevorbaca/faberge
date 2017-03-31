@@ -11,14 +11,14 @@ def make_successive_tapers_rhythm_specifier(
     ):
     division_expression = None
     if fuse_counts is not None:
-        division_expression = baca.tools.DivisionSequenceExpression()
+        #division_expression = baca.tools.DivisionSequenceExpression()
+        division_expression = baca.sequence()
         division_expression = division_expression.partition_by_counts(
             fuse_counts,
             cyclic=True,
             overhang=True,
             )
-        division_expression = division_expression.map()
-        division_expression = division_expression.sum()
+        division_expression = division_expression.map(baca.sequence().sum())
         division_expression = division_expression.flatten()
     rhythm_maker = abjad.rhythmmakertools.IncisedRhythmMaker(
         incise_specifier = abjad.rhythmmakertools.InciseSpecifier(
