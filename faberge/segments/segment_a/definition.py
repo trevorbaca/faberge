@@ -469,7 +469,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(1),
     baca.wrap_first_note(
-        faberge.materials.markup.match_sound_of_crotales(),
+        faberge.markup.match_sound_of_crotales(),
         ),
     faberge.tools.make_dal_niente_hairpins('f'),
     )
@@ -572,7 +572,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(2),
-    #baca.wrap_first_note(Dynamic('f')),
     baca.dynamic('f'),
     baca.pervasive_trills(),
     baca.pitches('E4 Eb~4 E~4 E4 E#+4'),
@@ -581,7 +580,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(5),
-    #baca.wrap_first_note(Dynamic('f')),
     baca.dynamic('f'),
     baca.pervasive_trills(),
     baca.pitches('F#4 F#+4 E#4 E#+4'),
@@ -590,7 +588,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(8),
-    #baca.wrap_first_note(Dynamic('f')),
     baca.dynamic('f'),
     baca.pervasive_trills(),
     baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
@@ -599,7 +596,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(12),
-    #baca.wrap_first_note(Dynamic('f')),
     baca.dynamic('f'),
     baca.pervasive_trills(),
     baca.pitches('A#4 A+4 A#+4'),
@@ -609,9 +605,7 @@ segment_maker.append_commands(
     eh,
     baca.select_stages(16),
     baca.cross_note_heads(),
-    #baca.wrap_first_note(baca.effort_dynamic('f')),
     baca.dynamic('f'),
-    #baca.wrap_first_note(baca.markup.boxed('keynoise')),
     baca.markup.boxed('keynoise'),
     faberge.tools.make_keynoise_pitches(rotation=0)
     )
@@ -619,7 +613,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(17),
-    #baca.wrap_first_note(Dynamic('f')),
     baca.dynamic('f'),
     baca.pervasive_trills(),
     baca.pitches('C4 C+4 C~4 C#4'),
@@ -631,10 +624,7 @@ segment_maker.append_commands(
     cl,
     baca.select_stages(1),
     baca.pitches('F#6'),
-#    baca.wrap_first_note(
-#        faberge.materials.markup.match_sound_of_crotales(),
-#        ),
-    faberge.materials.markup.match_sound_of_crotales(),
+    faberge.markup.match_sound_of_crotales(),
     )
 
 segment_maker.append_commands(
@@ -875,35 +865,15 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(16),
-    #baca.wrap_first_note(Dynamic('ff')),
     baca.dynamic('ff'),
     baca.fixed_pitches('D4 D4 B3'),
-    #baca.wrap_leaves(baca.two_line_staff()),
     baca.two_line_staff(),
-    #baca.wrap_leaves(baca.clef_spanner('percussion')),
     baca.clef_spanner('percussion'),
-#    baca.wrap_notes(
-#        baca.pervasive_trills(),
-#        stop=-1,
-#        ),
     baca.pervasive_trills(selector=baca.select_leaves(stop=-1)),
-#    baca.wrap_notes(
-#        faberge.materials.markup.castanets(),
-#        start=-3,
-#        stop=-1,
-#        ),
     # TODO: check selector:
-    faberge.materials.markup.castanets(),
-#    baca.wrap_notes(
-#        baca.accents(),
-#        start=-1,
-#        ),
+    faberge.markup.castanets(),
     baca.accents(),
-#    baca.wrap_notes(
-#        faberge.materials.markup.bass_drum(),
-#        start=-1,
-#        ),
-    faberge.materials.markup.bass_drum(),
+    faberge.markup.bass_drum(),
     )
 
 segment_maker.append_commands(
@@ -911,7 +881,7 @@ segment_maker.append_commands(
     baca.select_stages(17),
     baca.laissez_vibrer(),
     baca.pitches('F#4'),
-    baca.wrap_first_note(faberge.materials.markup.bowed_crotales()),
+    baca.wrap_first_note(faberge.markup.bowed_crotales()),
     faberge.tools.make_dal_niente_hairpins('f'),
     )
 
@@ -922,7 +892,7 @@ segment_maker.append_commands(
     baca.select_stages(1),
     baca.pitches('F#6'),
     baca.wrap_first_note(
-        faberge.materials.markup.match_sound_of_crotales(),
+        faberge.markup.match_sound_of_crotales(),
         ),
     faberge.tools.make_dal_niente_hairpins('f'),
     )
@@ -1059,9 +1029,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 12),
-    #baca.wrap_first_note(Dynamic('mp')),
     baca.dynamic('mp'),
-    #baca.wrap_first_note(baca.markup.XFB_sempre()),
     baca.markup.XFB_sempre(),
     baca.pitches('D3'),
     baca.stem_tremolo(),
@@ -1070,13 +1038,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.tasto(),
-#            baca.markup.pochiss_pont(),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         baca.markup.tasto(),
         baca.markup.pochiss_pont(),
@@ -1087,15 +1048,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(2),
-    #baca.wrap_leaves(Dynamic('pp')),
     baca.dynamic('pp', selector=baca.select_pl(0)),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            None,
-#            baca.markup.tasto(),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -1106,13 +1059,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(3, 4),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            None,
-#            baca.markup.pochiss_pont(),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.pochiss_pont(),
@@ -1123,10 +1069,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(3),
-#    baca.wrap_leaves(
-#        Hairpin('pp < mp'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['pp < mp'],
         selector=baca.select_leaves(leak=Right),
@@ -1136,15 +1078,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(5),
-    #baca.wrap_leaves(Dynamic('pp')),
     baca.dynamic('pp', selector=baca.select_pl(0)),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            None,
-#            baca.markup.tasto(),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -1155,13 +1089,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(6, 7),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            None,
-#            baca.markup.pochiss_pont(),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.pochiss_pont(),
@@ -1172,10 +1099,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(6),
-#    baca.wrap_leaves(
-#        specifier=Hairpin('pp < mp'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['pp < mp'],
         selector=baca.select_leaves(leak=Right),
@@ -1185,15 +1108,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(8),
-    #baca.wrap_leaves(Dynamic('pp')),
     baca.dynamic('pp', selector=baca.select_pl(0)),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            None,
-#            baca.markup.tasto(),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -1204,13 +1119,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(9, 11),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            None,
-#            baca.markup.pochiss_pont(),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.pochiss_pont(),
@@ -1221,10 +1129,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(9),
-#    baca.wrap_leaves(
-#        Hairpin('pp < mp'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['pp < mp'],
         selector=baca.select_leaves(leak=Right),
@@ -1234,14 +1138,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(12),
-    #baca.wrap_leaves(Dynamic('pp')),
     baca.dynamic('pp', selector=baca.select_pl(0)),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            None,
-#            baca.markup.tasto(),
-#            ),
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -1272,10 +1169,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(14),
-#    baca.wrap_leaves(
-#        specifier=Hairpin('pp < mp'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['pp < mp'],
         selector=baca.select_leaves(leak=Right),
@@ -1314,21 +1207,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 2),
-#    baca.wrap_leaves(
-#        specifier=Hairpin('p < f'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['p < f'],
         selector=baca.select_leaves(leak=Right),
         ),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.tasto_plus_poco_vib(),
-#            baca.markup.PO_plus_poco_vib(True, False),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         baca.markup.tasto_plus_poco_vib(),
         baca.markup.PO_plus_poco_vib(True, False),
@@ -1339,21 +1221,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(4, 6),
-#    baca.wrap_leaves(
-#        specifier=Hairpin('f > p'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['f > p'],
         selector=baca.select_leaves(leak=Right),
         ),
-#    baca.wrap_leaves(
-#        specifier=baca.transition_spanner(
-#            baca.markup.PO_plus_poco_vib(False, False),
-#            baca.markup.tasto_plus_poco_vib(True, False),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         baca.markup.PO_plus_poco_vib(False, False),
         baca.markup.tasto_plus_poco_vib(True, False),
@@ -1364,21 +1235,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(9, 10),
-#    baca.wrap_leaves(
-#        specifier=Hairpin('p < ff'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['p < ff'],
         selector=baca.select_leaves(leak=Right),
         ),
-#    baca.wrap_leaves(
-#        specifier=baca.transition_spanner(
-#            baca.markup.tasto_plus_poco_vib(False, False),
-#            baca.markup.poco_pont_plus_vib_mod(True, True),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         baca.markup.tasto_plus_poco_vib(False, False),
         baca.markup.poco_pont_plus_vib_mod(True, True),
@@ -1390,28 +1250,16 @@ segment_maker.append_commands(
     vc,
     baca.select_stages(13),
     baca.dynamic('ppp'),
-    #baca.wrap_leaves(baca.markup.poco_pont_plus_sub_non_vib(False, True)),
     baca.markup.poco_pont_plus_sub_non_vib(False, True),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(14, 15),
-#    baca.wrap_leaves(
-#        specifier=Hairpin('ff > pp'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['ff > pp'],
         selector=baca.select_leaves(leak=Right),
         ),
-#    baca.wrap_leaves(
-#        specifier=baca.transition_spanner(
-#            baca.markup.poco_pont_plus_sub_vib_mod(False, True),
-#            baca.markup.tasto_plus_non_vib(True, True),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         baca.markup.poco_pont_plus_sub_vib_mod(False, True),
         baca.markup.tasto_plus_non_vib(True, True),
@@ -1422,21 +1270,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(16),
-#    baca.wrap_leaves(
-#        specifier=Hairpin('pp < p'),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['pp < p'],
         selector=baca.select_leaves(leak=Right),
         ),
-#    baca.wrap_leaves(
-#        specifier=baca.transition_spanner(
-#            None,
-#            baca.markup.tasto_plus_poco_vib(False, True),
-#            ),
-#        with_next_leaf=True,
-#        ),
     baca.transition_spanner(
         None,
         baca.markup.tasto_plus_poco_vib(False, True),
