@@ -1,8 +1,18 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
 
 
-class MarkupAgent(object):
+class MarkupLibrary(abjad.abctools.AbjadObject):
+    r'''Markup library.
+    '''
+
+    ### CLASS VARIABLES ###
+
+    __slots__ = (
+        )
+
+    ### PUBLIC METHODS ###
 
     @staticmethod
     def bass_drum(selector=None):
@@ -62,5 +72,3 @@ class MarkupAgent(object):
             'to marimba',
             selector=selector,
             )
-
-markup = MarkupAgent()
