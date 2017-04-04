@@ -673,7 +673,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(4),
-    #baca.wrap_first_note(Dynamic('f')),
     baca.dynamic('f'),
     baca.pervasive_trills(),
     baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
@@ -683,7 +682,6 @@ segment_maker.append_commands(
     eh,
     baca.select_stages(5),
     baca.cross_note_heads(),
-    #baca.wrap_first_note(baca.effort_dynamic('f')),
     baca.effort_dynamic('f'),
     faberge.tools.make_keynoise_pitches(rotation=-2)
     )
@@ -691,7 +689,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(6, 7),
-    #baca.wrap_first_note(Dynamic('ff')),
     baca.dynamic('ff'),
     baca.pervasive_trills(),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
@@ -700,10 +697,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(8),
-    #baca.wrap_first_note(Dynamic('fff')),
     baca.dynamic('fff'),
-    #baca.wrap_first_note(faberge.materials.markup.doubletrill()),
-    faberge.materials.markup.doubletrill(),
+    faberge.markup.doubletrill(),
     baca.pitches('Eb4'),
     baca.pervasive_trills(),
     )
@@ -711,19 +706,16 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(9),
-    #baca.wrap_first_note(Dynamic('fff')),
     baca.dynamic('fff'),
     baca.pitches('E4'),
     baca.pervasive_trills(),
-    #baca.wrap_first_note(faberge.materials.markup.doubletrill()),
-    faberge.materials.markup.doubletrill(),
+    faberge.markup.doubletrill(),
     )
 
 segment_maker.append_commands(
     eh,
     baca.select_stages(10, 14),
     baca.cross_note_heads(),
-    #baca.wrap_leaves(Hairpin('f > niente')),
     baca.hairpins(['> niente']),
     faberge.tools.make_keynoise_pitches(rotation=-3)
     )
@@ -731,9 +723,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(15, 17),
-    #baca.wrap_first_leaf(Clef('percussion')),
     baca.clef('percussion'),
-    #baca.wrap_first_leaf(baca.markup.remove_staple()),
     baca.markup.remove_staple(),
     baca.one_line_staff(),
     )
@@ -741,9 +731,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(16),
-    #baca.wrap_first_note(baca.effort_dynamic('mf')),
     baca.effort_dynamic('mf'),
-    #baca.wrap_first_note(baca.markup.airtone()),
     baca.markup.airtone(),
     baca.pitches('F3'),
     baca.repeat_ties_up(),
@@ -823,7 +811,6 @@ segment_maker.append_commands(
     perc,
     baca.select_stages(1),
     baca.laissez_vibrer(),
-    #baca.wrap_first_note(baca.markup.lv_possibile()),
     baca.markup.lv_possibile(),
     baca.pitches('G4'),
     faberge.tools.make_dal_niente_hairpins('ff'),
@@ -832,18 +819,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(2),
-    #baca.wrap_first_leaf(Clef('bass')),
     baca.clef('bass'),
-    #baca.wrap_first_leaf(faberge.materials.markup.to_marimba()),
-    faberge.materials.markup.to_marimba(selector=baca.select_leaf(0)),
+    faberge.markup.to_marimba(selector=baca.select_leaf(0)),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(6, 14),
-#    baca.wrap_first_note(
-#        baca.markup.make_markup('as attackless as possible'),
-#        ),
     baca.markup.make_markup('as attackless as possible'),
     baca.stem_tremolo(),
     )
@@ -869,10 +851,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(12, 14),
-#    baca.wrap_leaves(
-#        Hairpin('pp > niente', include_rests=True),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['pp > niente'],
         include_rests=True,
@@ -962,7 +940,7 @@ segment_maker.append_commands(
     vn,
     baca.select_stages(12, 15),
     baca.staccati(),
-    faberge.materials.markup.col_legno_battuto_first_appearance(),
+    faberge.markup.col_legno_battuto_first_appearance(),
     faberge.tools.make_clb_pitch_specifier(rotation=-3),
     )
 
@@ -1053,7 +1031,7 @@ segment_maker.append_commands(
     baca.clef('percussion'),
     baca.one_line_staff(),
     baca.staccati(),
-    faberge.materials.markup.col_legno_battuto_first_appearance(),
+    faberge.markup.col_legno_battuto_first_appearance(),
     faberge.tools.make_clb_pitch_specifier(rotation=-4),
     )
 
@@ -1187,7 +1165,7 @@ segment_maker.append_commands(
     baca.dynamic('mf'),
     baca.one_line_staff(),
     baca.staccati(),
-    faberge.materials.markup.col_legno_battuto_first_appearance(),
+    faberge.markup.col_legno_battuto_first_appearance(),
     faberge.tools.make_clb_pitch_specifier(rotation=-5),
     )
 
