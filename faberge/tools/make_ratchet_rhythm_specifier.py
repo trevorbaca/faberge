@@ -16,7 +16,7 @@ def make_ratchet_rhythm_specifier():
             written_duration=abjad.Duration(1, 16),
             ),
         ]
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
                 beam_rests=True,

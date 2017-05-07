@@ -23,7 +23,7 @@ def make_glow_rhythm_specifier(
             ),
         tuplet_ratios=tuplet_ratios,
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,

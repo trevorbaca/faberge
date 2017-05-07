@@ -10,7 +10,7 @@ def make_chord_pitch_specifier(pitch_name_string):
         items=named_pitches,
         item_class=abjad.NamedPitch,
         )
-    pitch_specifier = baca.tools.ScorePitchCommand(
+    pitch_specifier = baca.ScorePitchCommand(
         source=[pitch_segment],
         )
     return pitch_specifier

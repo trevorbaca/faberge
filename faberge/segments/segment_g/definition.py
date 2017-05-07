@@ -9,7 +9,7 @@ from faberge.materials.__abbreviations__ import *
 ##################################### [G] #####################################
 ###############################################################################
 
-stage_specifier = baca.tools.StageSpecifier([
+stage_specifier = baca.StageSpecifier([
     abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)), # 1-4 at 80
     abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 5-8 at 64
     abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)), # 9-12 at 80
@@ -21,7 +21,7 @@ stage_specifier = baca.tools.StageSpecifier([
     abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 33-36 at 125
     ])
 
-tempo_specifier = baca.tools.TempoSpecifier([
+tempo_specifier = baca.TempoSpecifier([
     (1, faberge.materials.tempi[80]),
     (5, faberge.materials.tempi[64]),
     (9, faberge.materials.tempi[80]),
@@ -35,7 +35,7 @@ tempo_specifier = baca.tools.TempoSpecifier([
     (36, faberge.materials.tempi[156]),
     ])
 
-maker = baca.tools.TimeSignatureMaker(
+maker = baca.TimeSignatureMaker(
     faberge.materials.time_signatures_b,
     rotation=-5,
     stage_specifier=stage_specifier,
@@ -43,12 +43,12 @@ maker = baca.tools.TimeSignatureMaker(
     )
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
-spacing_specifier = baca.tools.HorizontalSpacingCommand(
+spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
     minimum_width=abjad.Duration(1, 12),
     )
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     label_clock_time=True,
     label_stages=True,
     measures_per_stage=measures_per_stage,
