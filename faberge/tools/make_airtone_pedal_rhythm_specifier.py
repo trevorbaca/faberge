@@ -10,7 +10,7 @@ def make_airtone_pedal_rhythm_specifier():
 #            denominator=16,
 #            ),
 #        )
-#    return baca.tools.RhythmSpecifier(
+#    return baca.RhythmSpecifier(
 #        rewrite_meter=True,
 #        rhythm_maker=rhythm_maker,
 #        )

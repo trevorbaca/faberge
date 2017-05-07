@@ -33,6 +33,6 @@ def make_glowing_wind_rhythm_specifier(
             use_messiaen_style_ties=True,
             ),
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         rhythm_maker=rhythm_maker,
         )

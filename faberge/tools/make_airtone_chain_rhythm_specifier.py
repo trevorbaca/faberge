@@ -79,7 +79,7 @@ def make_airtone_chain_rhythm_specifier(
             use_messiaen_style_ties=True,
             ),
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

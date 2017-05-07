@@ -9,7 +9,7 @@ def make_clb_rhythm_specifier(
     ):
     expression = None
     if fuse_counts is not None:
-        #expression = baca.tools.DivisionSequenceExpression()
+        #expression = baca.DivisionSequenceExpression()
         expression = baca.sequence()
         expression = expression.partition_by_counts(
             fuse_counts,
@@ -42,7 +42,7 @@ def make_clb_rhythm_specifier(
             denominator=8,
             ),
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         division_expression=expression,
         rhythm_maker=rhythm_maker,
         )

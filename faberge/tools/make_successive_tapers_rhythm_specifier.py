@@ -11,7 +11,7 @@ def make_successive_tapers_rhythm_specifier(
     ):
     division_expression = None
     if fuse_counts is not None:
-        #division_expression = baca.tools.DivisionSequenceExpression()
+        #division_expression = baca.DivisionSequenceExpression()
         division_expression = baca.sequence()
         division_expression = division_expression.partition_by_counts(
             fuse_counts,
@@ -33,7 +33,7 @@ def make_successive_tapers_rhythm_specifier(
             use_messiaen_style_ties=True,
             ),
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         division_expression=division_expression,
         rhythm_maker=rhythm_maker,
         )

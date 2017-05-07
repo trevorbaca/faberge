@@ -12,7 +12,7 @@ def make_eh_trill_rhythm_specifier(
     counts.append(-1000)
     division_expression = None
     if division_fuse_counts is not None:
-        division_expression = baca.tools.DivisionSequenceExpression()
+        division_expression = baca.DivisionSequenceExpression()
         division_expression = division_expression.partition_by_counts(
             counts=division_fuse_counts,
             cyclic=True,
@@ -37,7 +37,7 @@ def make_eh_trill_rhythm_specifier(
             simplify_redundant_tuplets=True,
             ),
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         division_expression=division_expression,
         rhythm_maker=rhythm_maker,
         )

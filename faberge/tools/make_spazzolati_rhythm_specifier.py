@@ -32,7 +32,7 @@ def make_spazzolati_rhythm_specifier(
             denominator=denominator,
             ),
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,

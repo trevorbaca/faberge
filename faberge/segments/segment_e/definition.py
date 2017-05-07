@@ -51,7 +51,7 @@ vortex_2_time_signatures = [
 
 assert len(vortex_2_time_signatures) == 24
 
-stage_specifier = baca.tools.StageSpecifier([
+stage_specifier = baca.StageSpecifier([
     6, # 1
     abjad.Fermata('longfermata'), # 2
     vortex_1_time_signatures, # 3
@@ -93,13 +93,13 @@ stage_specifier = baca.tools.StageSpecifier([
     abjad.Fermata('longfermata'), # 39
     ])
 
-tempo_specifier = baca.tools.TempoSpecifier([
+tempo_specifier = baca.TempoSpecifier([
     (1, faberge.materials.tempi[100]),
     (13, faberge.materials.tempi[125]),
     (14, faberge.materials.tempi[100]),
     ])
 
-maker = baca.tools.TimeSignatureMaker(
+maker = baca.TimeSignatureMaker(
     faberge.materials.time_signatures_b,
     rotation=-3,
     stage_specifier=stage_specifier,
@@ -107,12 +107,12 @@ maker = baca.tools.TimeSignatureMaker(
     )
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
-spacing_specifier = baca.tools.HorizontalSpacingCommand(
+spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
     minimum_width=abjad.Duration(1, 12),
     )
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     label_clock_time=True,
     label_stages=True,
     measures_per_stage=measures_per_stage,

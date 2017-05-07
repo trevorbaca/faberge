@@ -16,7 +16,7 @@ def make_single_note_rhythm_specifier(duration):
             talea_denominator=denominator,
             ),
         )
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )
