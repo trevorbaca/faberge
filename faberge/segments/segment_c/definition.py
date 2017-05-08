@@ -2,8 +2,21 @@
 import abjad
 import baca
 import faberge
-from faberge.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+fl = 'Flute Music Voice'
+eh = 'English Horn Music Voice'
+cl = 'Clarinet Music Voice'
+pf_rh = 'Piano RH Music Voice'
+pf_lh = 'Piano LH Music Voice'
+pf_music = [pf_rh, pf_lh]
+pf_attack = 'Piano LH Attack Voice'
+perc = 'Percussion Music Voice'
+vn = 'Violin Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 
 ###############################################################################
 ##################################### [C] #####################################

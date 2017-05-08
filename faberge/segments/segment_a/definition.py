@@ -2,8 +2,21 @@
 import abjad
 import baca
 import faberge
-from faberge.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+fl = 'Flute Music Voice'
+eh = 'English Horn Music Voice'
+cl = 'Clarinet Music Voice'
+pf_rh = 'Piano RH Music Voice'
+pf_lh = 'Piano LH Music Voice'
+pf_music = [pf_rh, pf_lh]
+pf_attack = 'Piano LH Attack Voice'
+perc = 'Percussion Music Voice'
+vn = 'Violin Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 
 ###############################################################################
 ##################################### [A] #####################################
@@ -111,8 +124,8 @@ segment_maker.append_commands(
     baca.select_stages(17),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[6, 7], period=18, inverted=True),
-            silence_last(),
+            abjad.sustain_every(indices=[6, 7], period=18, inverted=True),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=0,
         ),
@@ -156,7 +169,7 @@ segment_maker.append_commands(
     eh,
     baca.select_stages(16),
     faberge.tools.make_keynoise_rhythm_specifier(
-        division_masks=silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence_every(indices=[0, 4], period=9),
         tuplet_ratio_rotation=0,
         ),
     )
@@ -312,7 +325,7 @@ segment_maker.append_commands(
     baca.select_stages(16),
     faberge.tools.make_front_incised_notes_rhythm_specifier(
         division_masks=[
-            silence_except(indices=[-4, -3, -2]),
+            abjad.silence_except(indices=[-4, -3, -2]),
             ],
         start_rest_durations=[
             abjad.Duration(0, 1), abjad.Duration(0, 1), abjad.Duration(0, 1), abjad.Duration(0, 1),
@@ -358,7 +371,7 @@ segment_maker.append_commands(
     baca.select_stages(13),
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-10,
-        division_masks=silence_except(indices=[
+        division_masks=abjad.silence_except(indices=[
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -380,7 +393,7 @@ segment_maker.append_commands(
     baca.select_stages(16),
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-11,
-        division_masks=silence_except(indices=[
+        division_masks=abjad.silence_except(indices=[
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),
@@ -411,7 +424,7 @@ segment_maker.append_commands(
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-11,
         denominator=8,
-        division_masks=silence_except(indices=[
+        division_masks=abjad.silence_except(indices=[
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -431,7 +444,7 @@ segment_maker.append_commands(
     faberge.tools.make_spazzolati_rhythm_specifier(
         counts_rotation=-12,
         denominator=8,
-        division_masks=silence_except(indices=[
+        division_masks=abjad.silence_except(indices=[
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),

@@ -2,8 +2,21 @@
 import abjad
 import baca
 import faberge
-from faberge.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+fl = 'Flute Music Voice'
+eh = 'English Horn Music Voice'
+cl = 'Clarinet Music Voice'
+pf_rh = 'Piano RH Music Voice'
+pf_lh = 'Piano LH Music Voice'
+pf_music = [pf_rh, pf_lh]
+pf_attack = 'Piano LH Attack Voice'
+perc = 'Percussion Music Voice'
+vn = 'Violin Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 
 ###############################################################################
 ##################################### [A2] ####################################
@@ -77,11 +90,11 @@ segment_maker.append_commands(
     baca.select_stages(1),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=0,
         ),
@@ -92,11 +105,11 @@ segment_maker.append_commands(
     baca.select_stages(2),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-1,
         ),
@@ -107,11 +120,11 @@ segment_maker.append_commands(
     baca.select_stages(3),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-2,
         ),
@@ -122,11 +135,11 @@ segment_maker.append_commands(
     baca.select_stages(4),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-3,
         ),
@@ -137,11 +150,11 @@ segment_maker.append_commands(
     baca.select_stages(5),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-4,
         ),
@@ -152,11 +165,11 @@ segment_maker.append_commands(
     baca.select_stages(6),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-5,
         ),
@@ -167,11 +180,11 @@ segment_maker.append_commands(
     baca.select_stages(7),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-6,
         ),
@@ -182,11 +195,11 @@ segment_maker.append_commands(
     baca.select_stages(8),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-7,
         ),
@@ -197,11 +210,11 @@ segment_maker.append_commands(
     baca.select_stages(9),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-8,
         ),
@@ -212,11 +225,11 @@ segment_maker.append_commands(
     baca.select_stages(10),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-9,
         ),
@@ -227,11 +240,11 @@ segment_maker.append_commands(
     baca.select_stages(11),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-10,
         ),
@@ -242,11 +255,11 @@ segment_maker.append_commands(
     baca.select_stages(12),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-11,
         ),
@@ -257,11 +270,11 @@ segment_maker.append_commands(
     baca.select_stages(13, 14),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-12,
         ),
@@ -272,11 +285,11 @@ segment_maker.append_commands(
     baca.select_stages(16),
     faberge.tools.make_glow_rhythm_specifier(
         division_masks=[
-            sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            sustain(indices=[0, -2]),
-            silence_every(indices=[10], period=11),
-            sustain_every(indices=[9, 11], period=11),
-            silence_last(),
+            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
+            abjad.sustain(indices=[0, -2]),
+            abjad.silence_every(indices=[10], period=11),
+            abjad.sustain_every(indices=[9, 11], period=11),
+            abjad.silence_last(),
             ],
         tuplet_ratio_rotation=-13,
         ),
@@ -288,7 +301,7 @@ segment_maker.append_commands(
     eh,
     baca.select_stages(1, 3),
     faberge.tools.make_keynoise_rhythm_specifier(
-        division_masks=silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence_every(indices=[0, 4], period=9),
         ),
     )
 
@@ -304,7 +317,7 @@ segment_maker.append_commands(
     eh,
     baca.select_stages(5),
     faberge.tools.make_keynoise_rhythm_specifier(
-        division_masks=silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence_every(indices=[0, 4], period=9),
         tuplet_ratio_rotation=-1,
         ),
     )
@@ -315,7 +328,7 @@ segment_maker.append_commands(
     baca.select_stages(6, 7),
     faberge.tools.make_eh_trill_rhythm_specifier(
         counts=[-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        division_masks=silence_last(),
+        division_masks=abjad.silence_last(),
         ),
     )
 
@@ -337,7 +350,7 @@ segment_maker.append_commands(
     eh,
     baca.select_stages(10, 14),
     faberge.tools.make_keynoise_rhythm_specifier(
-        division_masks=silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence_every(indices=[0, 4], period=9),
         ),
     )
 
