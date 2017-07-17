@@ -54,25 +54,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
                             \tag flute
                             \context FluteMusicStaff = "Flute Music Staff" {
-                                \clef "treble"
-                                \set Staff.instrumentName = \markup { Flute }
-                                \set Staff.shortInstrumentName = \markup { Fl. }
                                 \context FluteMusicVoice = "Flute Music Voice" {
                                 }
                             }
                             \tag english_horn
                             \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                                \clef "treble"
-                                \set Staff.instrumentName = \markup { "English horn" }
-                                \set Staff.shortInstrumentName = \markup { "Eng. hn." }
                                 \context EnglishHornMusicVoice = "English Horn Music Voice" {
                                 }
                             }
                             \tag clarinet
                             \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                                \clef "treble"
-                                \set Staff.instrumentName = \markup { "Clarinet in B-flat" }
-                                \set Staff.shortInstrumentName = \markup { "Cl. in B-flat" }
                                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                                 }
                             }
@@ -80,15 +71,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
                             \tag piano
                             \context PianoStaffGroup = "Piano Staff Group" <<
-                                \set PianoStaffGroup.instrumentName = \markup { Piano }
-                                \set PianoStaffGroup.shortInstrumentName = \markup { Pf. }
                                 \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                                    \clef "treble"
                                     \context PianoRHMusicVoice = "Piano RH Music Voice" {
                                     }
                                 }
                                 \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                                    \clef "bass"
                                     \context PianoLHMusicVoice = "Piano LH Music Voice" {
                                     }
                                     \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -97,9 +84,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                             >>
                             \tag percussion
                             \context PercussionMusicStaff = "Percussion Music Staff" {
-                                \clef "treble"
-                                \set Staff.instrumentName = \markup { Percussion }
-                                \set Staff.shortInstrumentName = \markup { Perc. }
                                 \context PercussionMusicVoice = "Percussion Music Voice" {
                                 }
                             }
@@ -107,25 +91,16 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \context StringSectionStaffGroup = "String Section Staff Group" <<
                             \tag violin
                             \context ViolinMusicStaff = "Violin Music Staff" {
-                                \clef "treble"
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
                                 \context ViolinMusicVoice = "Violin Music Voice" {
                                 }
                             }
                             \tag viola
                             \context ViolaMusicStaff = "Viola Music Staff" {
-                                \clef "alto"
-                                \set Staff.instrumentName = \markup { Viola }
-                                \set Staff.shortInstrumentName = \markup { Va. }
                                 \context ViolaMusicVoice = "Viola Music Voice" {
                                 }
                             }
                             \tag cello
                             \context CelloMusicStaff = "Cello Music Staff" {
-                                \clef "bass"
-                                \set Staff.instrumentName = \markup { Cello }
-                                \set Staff.shortInstrumentName = \markup { Vc. }
                                 \context CelloMusicVoice = "Cello Music Voice" {
                                 }
                             }
