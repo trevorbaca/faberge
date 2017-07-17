@@ -163,8 +163,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Flute Music Staff',
             )
         flute = abjad.instrumenttools.Flute()
-        abjad.attach(flute, flute_music_staff)
-        abjad.attach(abjad.Clef('treble'), flute_music_staff)
+        #abjad.attach(flute, flute_music_staff)
+        #abjad.attach(abjad.Clef('treble'), flute_music_staff)
         self._attach_tag('flute', flute_music_staff)
 
         english_horn_music_voice = abjad.Voice(
@@ -178,8 +178,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='English Horn Music Staff',
             )
         english_horn = abjad.instrumenttools.EnglishHorn()
-        abjad.attach(english_horn, english_horn_music_staff)
-        abjad.attach(abjad.Clef('treble'), english_horn_music_staff)
+        #abjad.attach(english_horn, english_horn_music_staff)
+        #abjad.attach(abjad.Clef('treble'), english_horn_music_staff)
         self._attach_tag('english_horn', english_horn_music_staff)
 
         clarinet_music_voice = abjad.Voice(
@@ -193,8 +193,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Clarinet Music Staff',
             )
         clarinet = abjad.instrumenttools.ClarinetInBFlat()
-        abjad.attach(clarinet, clarinet_music_staff)
-        abjad.attach(abjad.Clef('treble'), clarinet_music_staff)
+        #abjad.attach(clarinet, clarinet_music_staff)
+        #abjad.attach(abjad.Clef('treble'), clarinet_music_staff)
         self._attach_tag('clarinet', clarinet_music_staff)
 
         wind_section_staff_group = abjad.StaffGroup(
@@ -240,9 +240,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         piano = abjad.instrumenttools.Piano()
         piano._default_scope = 'PianoStaffGroup'
-        abjad.attach(piano, piano_staff_group)
-        abjad.attach(abjad.Clef('treble'), piano_rh_music_staff)
-        abjad.attach(abjad.Clef('bass'), piano_lh_music_staff)
+        #abjad.attach(piano, piano_staff_group)
+        #abjad.attach(abjad.Clef('treble'), piano_rh_music_staff)
+        #abjad.attach(abjad.Clef('bass'), piano_lh_music_staff)
         self._attach_tag('piano', piano_staff_group)
 
         percussion_music_voice = abjad.Voice(
@@ -256,8 +256,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Percussion Music Staff',
             )
         percussion = abjad.instrumenttools.Percussion()
-        abjad.attach(percussion, percussion_music_staff)
-        abjad.attach(abjad.Clef('treble'), percussion_music_staff)
+        #abjad.attach(percussion, percussion_music_staff)
+        #abjad.attach(abjad.Clef('treble'), percussion_music_staff)
         self._attach_tag('percussion', percussion_music_staff)
 
         percussion_section_staff_group = abjad.StaffGroup(
@@ -280,8 +280,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Violin Music Staff',
             )
         violin = abjad.instrumenttools.Violin()
-        abjad.attach(violin, violin_music_staff)
-        abjad.attach(abjad.Clef('treble'), violin_music_staff)
+        #abjad.attach(violin, violin_music_staff)
+        #abjad.attach(abjad.Clef('treble'), violin_music_staff)
         self._attach_tag('violin', violin_music_staff)
 
         viola_music_voice = abjad.Voice(
@@ -294,8 +294,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='ViolaMusicStaff',
             name='Viola Music Staff',
             )
-        abjad.attach(abjad.instrumenttools.Viola(), viola_music_staff)
-        abjad.attach(abjad.Clef('alto'), viola_music_staff)
+        #abjad.attach(abjad.instrumenttools.Viola(), viola_music_staff)
+        #abjad.attach(abjad.Clef('alto'), viola_music_staff)
         self._attach_tag('viola', viola_music_staff)
 
         cello_music_voice = abjad.Voice(
@@ -308,8 +308,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='CelloMusicStaff',
             name='Cello Music Staff',
             )
-        abjad.attach(abjad.instrumenttools.Cello(), cello_music_staff)
-        abjad.attach(abjad.Clef('bass'), cello_music_staff)
+        #abjad.attach(abjad.instrumenttools.Cello(), cello_music_staff)
+        #abjad.attach(abjad.Clef('bass'), cello_music_staff)
         self._attach_tag('cello', cello_music_staff)
 
         string_section_staff_group = abjad.StaffGroup(
