@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -124,14 +124,9 @@
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     \mark #3
+                    \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'00''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -161,22 +156,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 7/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'02''
-                            }
                 }
                 {
                     \time 5/12
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/12
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'06''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -190,11 +175,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'07''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -208,22 +188,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'09''
-                            }
                 }
                 {
                     \time 5/12
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/12
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'11''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -237,11 +207,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'12''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -255,22 +220,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'16''
-                            }
                 }
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'20''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -284,22 +239,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'23''
-                            }
                 }
                 {
                     \time 5/12
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/12
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'26''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -313,11 +258,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'27''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -331,22 +271,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'29''
-                            }
                 }
                 {
                     \time 5/12
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/12
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'31''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -360,11 +290,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'32''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -378,22 +303,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'36''
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'38''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -407,22 +322,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'42''
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'44''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -436,22 +341,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'48''
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'50''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -464,22 +359,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'53''
-                            }
                 }
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'57''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -492,22 +377,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'59''
-                            }
                 }
                 {
                     \time 7/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 7/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'02''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -521,22 +396,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'06''
-                            }
                 }
                 {
                     \time 5/12
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/12
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'08''
-                            }
                         - \markup {
                             \fontsize
                                 #-3

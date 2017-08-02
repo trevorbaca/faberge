@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -89,7 +89,6 @@
             \context WindSectionStaffGroup = "Wind Section Staff Group" <<
                 \tag flute
                 \context FluteMusicStaff = "Flute Music Staff" {
-                    \clef "treble"
                     \context FluteMusicVoice = "Flute Music Voice" {
                         R1 * 3/4
                         R1 * 1/4
@@ -100,7 +99,6 @@
                 }
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \clef "treble"
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         s1 * 1
                         \override TupletNumber.text = \markup {
@@ -134,12 +132,12 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
+                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
-                            \clef "percussion"
+                            \once \override Beam.grow-direction = #right
+                            \override Staff.Stem.stemlet-length = #0.75
                             c'16 * 187/32 [
                                 ^ \markup {
                                     \whiteout
@@ -152,10 +150,10 @@
                             c'16 * 73/32
                             c'16 * 23/16
                             c'16 * 71/64
+                            \revert Staff.Stem.stemlet-length
                             c'16 * 63/64 ]
                             \stopStaff
                             \startStaff
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -164,7 +162,6 @@
                 }
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                    \clef "treble"
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         R1 * 3/4
                         R1 * 1/4
@@ -178,7 +175,6 @@
                 \tag piano
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                        \clef "treble"
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
                             R1 * 3/4
                             R1 * 1/4
@@ -188,7 +184,6 @@
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                        \clef "bass"
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
                             R1 * 3/4
                             R1 * 1/4
@@ -207,7 +202,6 @@
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \clef "treble"
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         R1 * 3/4
                         R1 * 1/4
@@ -220,7 +214,6 @@
             \context StringSectionStaffGroup = "String Section Staff Group" <<
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
-                    \clef "treble"
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         e'16 [
                             ^ \markup {
@@ -257,7 +250,6 @@
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "alto"
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \times 2/3 {
                             r4
@@ -295,7 +287,6 @@
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
                     \context CelloMusicVoice = "Cello Music Voice" {
                         R1 * 3/4
                         R1 * 1/4
