@@ -89,7 +89,7 @@ spacing_specifier = baca.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.SegmentMaker(
-    label_clock_time=True,
+    #label_clock_time=True,
     label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='B',

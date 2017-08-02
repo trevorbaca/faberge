@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -2250,10 +2250,10 @@
                             g8 \!
                             \revert NoteHead.style
                         }
+                        \clef "percussion"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "percussion"
                         r2.
                         r1
                         r2.
@@ -2265,23 +2265,9 @@
                         \override RepeatTie.direction = #up
                         f1
                             ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \override
-                                                        #'(box-padding . 0.5)
-                                                        \box
-                                                            "remove staple"
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        airtone
-                                            }
-                                    }
+                                \whiteout
+                                    \upright
+                                        airtone
                                 }
                             _ \markup {
                                 \larger
@@ -2761,10 +2747,10 @@
                         r1
                         r2
                         r1
+                        \clef "percussion"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
-                        \clef "percussion"
                         b1
                             ^ \markup {
                                 \whiteout
@@ -3032,10 +3018,10 @@
                         eqf'2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
-                            \clef "percussion"
                             c'8 -\staccato \< \ppp [
                                 ^ \markup {
                                     \whiteout
@@ -3580,10 +3566,10 @@
                         g2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
+                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
-                            \clef "percussion"
                             b8 -\staccato \< \ppp [
                                 ^ \markup {
                                     \whiteout
@@ -4049,10 +4035,10 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
+                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
-                            \clef "percussion"
                             d'8 -\staccato \mf \stopTextSpan [
                                 ^ \markup {
                                     \whiteout

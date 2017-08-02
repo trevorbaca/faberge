@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -352,14 +352,9 @@
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     \mark #6
+                    \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'00''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -389,11 +384,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'03''
-                            }
                 }
                 {
                     \time 1/4
@@ -413,11 +403,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'05''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -431,11 +416,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'07''
-                            }
                 }
                 {
                     \time 1/4
@@ -455,11 +435,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'11''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -473,11 +448,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'13''
-                            }
                 }
                 {
                     \time 1/4
@@ -497,11 +467,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'17''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -515,11 +480,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'19''
-                            }
                 }
                 {
                     \time 1/4
@@ -539,11 +499,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'23''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -557,11 +512,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'24''
-                            }
                 }
                 {
                     \time 1/4
@@ -581,11 +531,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'28''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -599,11 +544,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'31''
-                            }
                 }
                 {
                     \time 1/4
@@ -623,11 +563,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'34''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -641,11 +576,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'36''
-                            }
                 }
                 {
                     \time 1/4
@@ -665,11 +595,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'39''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -683,11 +608,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'41''
-                            }
                 }
                 {
                     \time 1/4
@@ -707,11 +627,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'45''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -725,11 +640,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'48''
-                            }
                 }
                 {
                     \time 1/4
@@ -749,11 +659,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'51''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -766,11 +671,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'52''
-                            }
                 }
                 {
                     \time 1/4
@@ -790,11 +690,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'54''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -807,41 +702,21 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'57''
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'59''
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'01''
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'03''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -855,11 +730,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'06''
-                            }
                 }
                 {
                     \time 1/4
@@ -879,11 +749,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'09''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -897,11 +762,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'11''
-                            }
                 }
                 {
                     \time 1/4
@@ -921,11 +781,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'14''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -939,11 +794,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'17''
-                            }
                 }
                 {
                     \time 1/4
@@ -963,11 +813,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'19''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -981,11 +826,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'21''
-                            }
                 }
                 {
                     \time 1/4
@@ -1005,11 +845,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'25''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -1023,11 +858,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'27''
-                            }
                 }
                 {
                     \time 1/4
@@ -1047,11 +877,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'31''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -1065,11 +890,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'33''
-                            }
                 }
                 {
                     \time 1/4
@@ -1089,11 +909,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'37''
-                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -1107,11 +922,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'39''
-                            }
                 }
                 {
                     \time 1/4
@@ -1417,13 +1227,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 71/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 63/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -1483,13 +1293,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 67/32
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 225/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 10
@@ -1538,13 +1348,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 101/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 15/16 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -1610,13 +1420,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 11/4
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 285/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -1671,13 +1481,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 3/2
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 69/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -1755,13 +1565,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 223/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 151/32 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -1828,13 +1638,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 71/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 63/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -1900,13 +1710,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 11/4
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 285/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -1955,13 +1765,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 101/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 15/16 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -2021,13 +1831,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 67/32
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 225/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 13/4
@@ -2082,13 +1892,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 3/2
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 69/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -2166,13 +1976,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 223/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 151/32 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -2221,13 +2031,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 101/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 15/16 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -2293,13 +2103,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 11/4
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 285/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -2366,13 +2176,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 71/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 63/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -2432,13 +2242,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 67/32
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 225/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 9/4
@@ -2493,13 +2303,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 3/2
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 69/64 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -2577,13 +2387,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 223/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 151/32 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 9/4
@@ -2632,13 +2442,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 101/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 15/16 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -2716,13 +2526,13 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 223/64
+                            \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'16 * 151/32 ]
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -2902,13 +2712,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 3/2
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 69/64 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -2986,13 +2796,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 223/64
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 151/32 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             s1 * 1/4
@@ -3041,13 +2851,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 101/64
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 15/16 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -3113,13 +2923,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 11/4
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 285/64 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             s1 * 1/4
@@ -3186,13 +2996,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 71/64
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 63/64 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -3252,13 +3062,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 67/32
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 225/64 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             s1 * 9/4
@@ -3313,13 +3123,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 3/2
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 69/64 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -3397,13 +3207,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 223/64
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 151/32 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             s1 * 9/4
@@ -3452,13 +3262,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 101/64
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 15/16 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -3536,13 +3346,13 @@
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 223/64
+                                \revert Staff.Stem.stemlet-length
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'16 * 151/32 ]
-                                \revert Staff.Stem.stemlet-length
                             }
                             \revert TupletNumber.text
                             s1 * 1/4
