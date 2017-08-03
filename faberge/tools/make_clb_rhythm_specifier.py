@@ -18,7 +18,7 @@ def make_clb_rhythm_specifier(
             )
         expression = expression.map(baca.sequence().sum())
         expression = expression.flatten()
-    counts = baca.Sequence([
+    counts = baca.sequence([
         [1, 1, 1, 1, 1],
         [-4],
         [1, 1, 1, 1, 1, 1],

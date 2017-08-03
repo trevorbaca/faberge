@@ -12,7 +12,7 @@ def make_glowing_wind_rhythm_specifier(
     counts = abjad.sequence(counts)
     counts = counts.rotate(n=count_rotation)
     counts = counts.flatten()
-    extra_counts_per_division = baca.Sequence(extra_counts_per_division)
+    extra_counts_per_division = baca.sequence(extra_counts_per_division)
     extra_counts_per_division = extra_counts_per_division.rotate(
         n=extra_counts_per_division_rotation
         )
