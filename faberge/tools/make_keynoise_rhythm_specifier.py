@@ -32,7 +32,7 @@ def make_keynoise_rhythm_specifier(
     ):
     import faberge
     if tuplet_ratios is None:
-        tuplet_ratios = faberge.materials.tuplet_ratios_a
+        tuplet_ratios = faberge.tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     negated_tuplet_ratios = []
     for tuplet_ratio in tuplet_ratios:

@@ -57,11 +57,11 @@ stage_specifier = baca.StageSpecifier([
     ])
 
 tempo_specifier = baca.TempoSpecifier([
-    (1, faberge.materials.tempi[156]),
+    (1, faberge.tempi[156]),
     ])
 
 maker = baca.TimeSignatureMaker(
-    faberge.materials.time_signatures_b,
+    faberge.time_signatures_b,
     rotation=-6,
     stage_specifier=stage_specifier,
     tempo_specifier=tempo_specifier,
@@ -78,7 +78,7 @@ segment_maker = baca.SegmentMaker(
     label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='H',
-    score_template=faberge.tools.ScoreTemplate(),
+    score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -98,13 +98,13 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     fl,
     baca.select_stages(1, 4),
-    faberge.tools.make_glow_rhythm_specifier(),
+    faberge.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(7),
-    faberge.tools.make_flute_gears_rhythm_specifier(
+    faberge.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -114,7 +114,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(9),
-    faberge.tools.make_flute_gears_rhythm_specifier(
+    faberge.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -124,7 +124,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(11),
-    faberge.tools.make_flute_gears_rhythm_specifier(
+    faberge.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -133,7 +133,7 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     (fl,fortissimo_repetition_stages),
-    faberge.tools.make_flute_gears_rhythm_specifier(
+    faberge.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -143,7 +143,7 @@ segment_maker.append_specifiers(
 segment_maker.append_commands(
     fl,
     baca.select_stages(25, 26),
-    faberge.tools.make_flute_gears_rhythm_specifier(
+    faberge.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -155,10 +155,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(7),
-    faberge.tools.make_airtone_chain_rhythm_specifier(
+    faberge.make_airtone_chain_rhythm_specifier(
         total_events=99,
         my_event_indices=[0, 2, 7],
-        counts=faberge.materials.decreasing_counts,
+        counts=faberge.decreasing_counts,
         silence_termination=True,
         tremolo_initiation=False,
         ),
@@ -166,13 +166,13 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     (eh, fortissimo_repetition_stages),
-    faberge.tools.make_ratchet_rhythm_specifier(),
+    faberge.make_ratchet_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     eh,
     baca.select_stages(25, 27),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
@@ -180,13 +180,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 4),
-    faberge.tools.make_glow_rhythm_specifier(),
+    faberge.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     cl,
     baca.select_stages(7),
-    faberge.tools.make_clarinet_gears_rhythm_specifier(
+    faberge.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -195,7 +195,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(9),
-    faberge.tools.make_clarinet_gears_rhythm_specifier(
+    faberge.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -204,7 +204,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(11),
-    faberge.tools.make_clarinet_gears_rhythm_specifier(
+    faberge.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -212,7 +212,7 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     (cl, fortissimo_repetition_stages),
-    faberge.tools.make_clarinet_gears_rhythm_specifier(
+    faberge.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -221,7 +221,7 @@ segment_maker.append_specifiers(
 segment_maker.append_commands(
     cl,
     baca.select_stages(25, 26),
-    faberge.tools.make_clarinet_gears_rhythm_specifier(
+    faberge.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -232,36 +232,36 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf_rh,
     baca.select_stages(1, 3),
-    faberge.tools.make_piano_gears_rhythm_specifier(),
+    faberge.make_piano_gears_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
     baca.select_stages(7),
-    faberge.tools.make_piano_gears_rhythm_specifier(),
+    faberge.make_piano_gears_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
     baca.select_stages(9),
-    faberge.tools.make_piano_gears_rhythm_specifier(),
+    faberge.make_piano_gears_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
     baca.select_stages(11),
-    faberge.tools.make_piano_gears_rhythm_specifier(),
+    faberge.make_piano_gears_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (pf_rh, fortissimo_repetition_stages),
-    faberge.tools.make_piano_gears_rhythm_specifier(),
+    faberge.make_piano_gears_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_rh,
     baca.select_stages(25, 26),
-    faberge.tools.make_piano_gears_rhythm_specifier(),
+    faberge.make_piano_gears_rhythm_specifier(),
     )
 
 ### percussion (time) ###
@@ -269,7 +269,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(1, 3),
-    faberge.tools.make_percussion_gears_rhythm_specifier(
+    faberge.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -278,10 +278,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(7),
-    faberge.tools.make_airtone_chain_rhythm_specifier(
+    faberge.make_airtone_chain_rhythm_specifier(
         total_events=99,
         my_event_indices=[1, 3, 5],
-        counts=faberge.materials.decreasing_counts,
+        counts=faberge.decreasing_counts,
         silence_termination=True,
         tremolo_initiation=False,
         ),
@@ -290,7 +290,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(9),
-    faberge.tools.make_percussion_gears_rhythm_specifier(
+    faberge.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -299,7 +299,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(11),
-    faberge.tools.make_percussion_gears_rhythm_specifier(
+    faberge.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -307,7 +307,7 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     (perc, fortissimo_repetition_stages),
-    faberge.tools.make_percussion_gears_rhythm_specifier(
+    faberge.make_percussion_gears_rhythm_specifier(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -316,7 +316,7 @@ segment_maker.append_specifiers(
 segment_maker.append_commands(
     perc,
     baca.select_stages(25, 27),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 ### violin (time) ###
@@ -324,16 +324,16 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1, 5),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn,
     baca.select_stages(7),
-    faberge.tools.make_airtone_chain_rhythm_specifier(
+    faberge.make_airtone_chain_rhythm_specifier(
         total_events=99,
         my_event_indices=[4, 6],
-        counts=faberge.materials.decreasing_counts,
+        counts=faberge.decreasing_counts,
         silence_termination=True,
         tremolo_initiation=False,
         ),
@@ -342,7 +342,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(9),
-    faberge.tools.make_violin_gears_rhythm_specifier(
+    faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -352,7 +352,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(11),
-    faberge.tools.make_violin_gears_rhythm_specifier(
+    faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -361,7 +361,7 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     (vn, fortissimo_repetition_stages),
-    faberge.tools.make_violin_gears_rhythm_specifier(
+    faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -371,7 +371,7 @@ segment_maker.append_specifiers(
 segment_maker.append_commands(
     vn,
     baca.select_stages(25, 28),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 ### viola (time) ###
@@ -379,13 +379,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 5),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(7),
-    faberge.tools.make_violin_gears_rhythm_specifier(
+    faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -395,7 +395,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(9),
-    faberge.tools.make_violin_gears_rhythm_specifier(
+    faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -405,7 +405,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(11),
-    faberge.tools.make_violin_gears_rhythm_specifier(
+    faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -414,7 +414,7 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     (va, fortissimo_repetition_stages),
-    faberge.tools.make_violin_gears_rhythm_specifier(
+    faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -424,7 +424,7 @@ segment_maker.append_specifiers(
 segment_maker.append_commands(
     va,
     baca.select_stages(25, 28),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 ### cello (time) ###
@@ -432,7 +432,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 3),
-    faberge.tools.make_cello_gears_rhythm_specifier(
+    faberge.make_cello_gears_rhythm_specifier(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -442,13 +442,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(4, 5),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(7),
-    faberge.tools.make_cello_gears_rhythm_specifier(
+    faberge.make_cello_gears_rhythm_specifier(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -458,7 +458,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(9),
-    faberge.tools.make_cello_gears_rhythm_specifier(
+    faberge.make_cello_gears_rhythm_specifier(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -468,7 +468,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(11),
-    faberge.tools.make_cello_gears_rhythm_specifier(
+    faberge.make_cello_gears_rhythm_specifier(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -477,7 +477,7 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     (vc, fortissimo_repetition_stages),
-    faberge.tools.make_cello_gears_rhythm_specifier(
+    faberge.make_cello_gears_rhythm_specifier(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -487,7 +487,7 @@ segment_maker.append_specifiers(
 segment_maker.append_commands(
     vc,
     baca.select_stages(25, 28),
-    faberge.tools.make_electricity_rhythm_specifier(),
+    faberge.make_electricity_rhythm_specifier(),
     )
 
 ###############################################################################

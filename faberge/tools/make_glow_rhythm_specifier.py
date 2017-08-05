@@ -10,7 +10,7 @@ def make_glow_rhythm_specifier(
     tuplet_ratio_rotation=None,
     ):
     if tuplet_ratios is None:
-        tuplet_ratios = faberge.materials.tuplet_ratios_a
+        tuplet_ratios = faberge.tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios = abjad.sequence(tuplet_ratios)
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)

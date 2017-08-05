@@ -30,11 +30,11 @@ stage_specifier = baca.StageSpecifier([
     ])
 
 tempo_specifier = baca.TempoSpecifier([
-    (1, faberge.materials.tempi[100]),
+    (1, faberge.tempi[100]),
     ])
 
 maker = baca.TimeSignatureMaker(
-    faberge.materials.time_signatures_b,
+    faberge.time_signatures_b,
     rotation=0,
     stage_specifier=stage_specifier,
     tempo_specifier=tempo_specifier,
@@ -51,7 +51,7 @@ segment_maker = baca.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='',
-    score_template=faberge.tools.ScoreTemplate(),
+    score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -72,7 +72,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     eh,
     baca.select_stages(3),
-    faberge.tools.make_ratchet_rhythm_specifier(),
+    faberge.make_ratchet_rhythm_specifier(),
     )
 
 ### clarinet (time) ###
@@ -86,7 +86,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1),
-    faberge.tools.make_spazzolati_rhythm_specifier(
+    faberge.make_spazzolati_rhythm_specifier(
         counts_rotation=0,
         ),
     )
@@ -96,7 +96,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1),
-    faberge.tools.make_spazzolati_rhythm_specifier(
+    faberge.make_spazzolati_rhythm_specifier(
         counts_rotation=-1,
         extra_counts_per_division=[1],
         denominator=8,

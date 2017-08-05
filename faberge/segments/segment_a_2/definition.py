@@ -43,11 +43,11 @@ stage_specifier = baca.StageSpecifier([
     ])
 
 tempo_specifier = baca.TempoSpecifier([
-    (1, faberge.materials.tempi[80]),
+    (1, faberge.tempi[80]),
     ])
 
 maker = baca.TimeSignatureMaker(
-    faberge.materials.time_signatures_b,
+    faberge.time_signatures_b,
     rotation=0,
     stage_specifier=stage_specifier,
     tempo_specifier=tempo_specifier,
@@ -62,13 +62,13 @@ spacing_specifier = baca.HorizontalSpacingCommand(
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     final_barline='|.',
-    final_markup=faberge.materials.colophon_markup,
+    final_markup=faberge.colophon_markup,
     final_markup_extra_offset=(-12, -24),
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='',
-    score_template=faberge.tools.ScoreTemplate(),
+    score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -88,7 +88,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     fl,
     baca.select_stages(1),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -103,7 +103,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(2),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -118,7 +118,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(3),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -133,7 +133,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(4),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -148,7 +148,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(5),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -163,7 +163,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(6),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -178,7 +178,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(7),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -193,7 +193,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(8),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -208,7 +208,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(9),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -223,7 +223,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(10),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -238,7 +238,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(11),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -253,7 +253,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(12),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -268,7 +268,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(13, 14),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -283,7 +283,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(16),
-    faberge.tools.make_glow_rhythm_specifier(
+    faberge.make_glow_rhythm_specifier(
         division_masks=[
             abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
             abjad.sustain(indices=[0, -2]),
@@ -300,7 +300,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(1, 3),
-    faberge.tools.make_keynoise_rhythm_specifier(
+    faberge.make_keynoise_rhythm_specifier(
         division_masks=abjad.silence_every(indices=[0, 4], period=9),
         ),
     )
@@ -308,7 +308,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(4),
-    faberge.tools.make_eh_trill_rhythm_specifier(
+    faberge.make_eh_trill_rhythm_specifier(
         counts=[-4, -1, 3, -1, 4, 8, 16, 23],
         ),
     )
@@ -316,7 +316,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(5),
-    faberge.tools.make_keynoise_rhythm_specifier(
+    faberge.make_keynoise_rhythm_specifier(
         division_masks=abjad.silence_every(indices=[0, 4], period=9),
         tuplet_ratio_rotation=-1,
         ),
@@ -326,7 +326,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(6, 7),
-    faberge.tools.make_eh_trill_rhythm_specifier(
+    faberge.make_eh_trill_rhythm_specifier(
         counts=[-4, -1, 23, -1, 3, -1, 35, -1, 47],
         division_masks=abjad.silence_last(),
         ),
@@ -349,7 +349,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     eh,
     baca.select_stages(10, 14),
-    faberge.tools.make_keynoise_rhythm_specifier(
+    faberge.make_keynoise_rhythm_specifier(
         division_masks=abjad.silence_every(indices=[0, 4], period=9),
         ),
     )
@@ -371,7 +371,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 13),
-    faberge.tools.make_successive_tapers_rhythm_specifier(
+    faberge.make_successive_tapers_rhythm_specifier(
         denominator=16,
         fuse_counts=(3, 3, 5, 3, 2, 5, 5),
         start_talea=[4],
@@ -382,7 +382,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(14),
-    faberge.tools.make_successive_tapers_rhythm_specifier(
+    faberge.make_successive_tapers_rhythm_specifier(
         denominator=16,
         fuse_counts=(3, 3, 5, 3, 2, 5, 5),
         start_talea=[4],
@@ -411,13 +411,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf_attack,
     baca.select_stages(1, 5),
-    faberge.tools.make_piano_attack_rhythm_specifier(),
+    faberge.make_piano_attack_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     pf_attack,
     baca.select_stages(6, 17),
-    faberge.tools.make_piano_attack_rhythm_specifier(),
+    faberge.make_piano_attack_rhythm_specifier(),
     )
 
 ### percussion (time) ###
@@ -437,19 +437,19 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(6, 10),
-    faberge.tools.make_marimba_pedal_rhythm_specifier(),
+    faberge.make_marimba_pedal_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(11, 13),
-    faberge.tools.make_marimba_pedal_rhythm_specifier(),
+    faberge.make_marimba_pedal_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(14),
-    faberge.tools.make_marimba_pedal_rhythm_specifier(),
+    faberge.make_marimba_pedal_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
@@ -475,7 +475,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(2, 5),
-    faberge.tools.make_spazzolati_rhythm_specifier(
+    faberge.make_spazzolati_rhythm_specifier(
         counts_rotation=-20,
         ),
     )
@@ -489,7 +489,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(12, 15),
-    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[2, 2, 1]),
+    faberge.make_clb_rhythm_specifier(fuse_counts=[2, 2, 1]),
     )
 
 segment_maker.append_commands(
@@ -501,7 +501,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(17),
-    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[2, 2, 1]),
+    faberge.make_clb_rhythm_specifier(fuse_counts=[2, 2, 1]),
     )
 
 ### viola (time) ###
@@ -509,13 +509,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1),
-    faberge.tools.make_jewelers_twilight_rhythm_specifier(),
+    faberge.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(2, 5),
-    faberge.tools.make_spazzolati_rhythm_specifier(
+    faberge.make_spazzolati_rhythm_specifier(
         counts_rotation=-21,
         denominator=8,
         extra_counts_per_division=[1],
@@ -525,13 +525,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(6, 11),
-    faberge.tools.make_jewelers_twilight_rhythm_specifier(),
+    faberge.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(12, 17),
-    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[1, 2, 2]),
+    faberge.make_clb_rhythm_specifier(fuse_counts=[1, 2, 2]),
     )
 
 ### cello (time) ###
@@ -539,7 +539,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 8),
-    faberge.tools.make_jewelers_twilight_rhythm_specifier(),
+    faberge.make_jewelers_twilight_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
@@ -571,7 +571,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(15, 17),
-    faberge.tools.make_clb_rhythm_specifier(fuse_counts=[3]),
+    faberge.make_clb_rhythm_specifier(fuse_counts=[3]),
     )
 
 ###############################################################################
@@ -584,25 +584,25 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(1, 14),
     baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3'),
-    faberge.tools.make_color_fingering_specifier(),
+    faberge.make_color_fingering_specifier(),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(1),
-    faberge.tools.make_niente_swells(['p']),
+    faberge.make_niente_swells(['p']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(2),
-    faberge.tools.make_niente_swells(['mp']),
+    faberge.make_niente_swells(['mp']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(3),
-    faberge.tools.make_niente_swells(['mf']),
+    faberge.make_niente_swells(['mf']),
     )
 
 segment_maker.append_commands(
@@ -610,26 +610,26 @@ segment_maker.append_commands(
     baca.select_stages(4, 5),
     baca.markup.fluttertongue(),
     baca.stem_tremolo(),
-    faberge.tools.make_niente_swells(['f']),
+    faberge.make_niente_swells(['f']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(6),
     baca.markup.non_flutt(),
-    faberge.tools.make_niente_swells(['mf']),
+    faberge.make_niente_swells(['mf']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(7),
-    faberge.tools.make_niente_swells(['mp']),
+    faberge.make_niente_swells(['mp']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(8),
-    faberge.tools.make_niente_swells(['mf']),
+    faberge.make_niente_swells(['mf']),
     )
 
 segment_maker.append_commands(
@@ -637,40 +637,40 @@ segment_maker.append_commands(
     baca.select_stages(9),
     baca.markup.fluttertongue(),
     baca.stem_tremolo(),
-    faberge.tools.make_niente_swells(['f']),
+    faberge.make_niente_swells(['f']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(10),
     baca.markup.non_flutt(),
-    faberge.tools.make_niente_swells(['mf']),
+    faberge.make_niente_swells(['mf']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(11),
-    faberge.tools.make_niente_swells(['p']),
+    faberge.make_niente_swells(['p']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(12),
-    faberge.tools.make_niente_swells(['pp']),
+    faberge.make_niente_swells(['pp']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(13, 14),
-    faberge.tools.make_niente_swells(['ppp']),
+    faberge.make_niente_swells(['ppp']),
     )
 
 segment_maker.append_commands(
     fl,
     baca.select_stages(16),
     baca.pitches('G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3'),
-    faberge.tools.make_color_fingering_specifier(),
-    faberge.tools.make_niente_swells(['ppp']),
+    faberge.make_color_fingering_specifier(),
+    faberge.make_niente_swells(['ppp']),
     )
 
 ### english horn (color) ###
@@ -680,7 +680,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 3),
     baca.cross_note_heads(),
     baca.effort_dynamic('f'),
-    faberge.tools.make_keynoise_pitches(rotation=-1)
+    faberge.make_keynoise_pitches(rotation=-1)
     )
 
 segment_maker.append_commands(
@@ -696,7 +696,7 @@ segment_maker.append_commands(
     baca.select_stages(5),
     baca.cross_note_heads(),
     baca.effort_dynamic('f'),
-    faberge.tools.make_keynoise_pitches(rotation=-2)
+    faberge.make_keynoise_pitches(rotation=-2)
     )
 
 segment_maker.append_commands(
@@ -730,7 +730,7 @@ segment_maker.append_commands(
     baca.select_stages(10, 14),
     baca.cross_note_heads(),
     baca.hairpins(['> niente']),
-    faberge.tools.make_keynoise_pitches(rotation=-3)
+    faberge.make_keynoise_pitches(rotation=-3)
     )
 
 segment_maker.append_commands(
@@ -755,7 +755,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 10),
-    faberge.tools.make_niente_swells(['p']),
+    faberge.make_niente_swells(['p']),
     )
 
 segment_maker.append_commands(
@@ -779,13 +779,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(11, 12),
-    faberge.tools.make_niente_swells(['pp']),
+    faberge.make_niente_swells(['pp']),
     )
 
 segment_maker.append_commands(
     cl,
     baca.select_stages(13, 14),
-    faberge.tools.make_niente_swells(['ppp']),
+    faberge.make_niente_swells(['ppp']),
     )
 
 segment_maker.append_commands(
@@ -798,7 +798,7 @@ segment_maker.append_commands(
     cl,
     baca.select_stages(16),
     baca.pitches('C2'),
-    faberge.tools.make_niente_swells(['ppp']),
+    faberge.make_niente_swells(['ppp']),
     )
 
 ### piano (color) ###
@@ -806,7 +806,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf_rh,
     baca.select_stages(1, 9),
-    faberge.tools.make_chord_pitch_specifier('Eb4 F4 G4 Db5 Eb5'),
+    faberge.make_chord_pitch_specifier('Eb4 F4 G4 Db5 Eb5'),
     baca.natural_harmonics(),
     )
 
@@ -814,7 +814,7 @@ segment_maker.append_commands(
     pf_attack,
     baca.select_stages(1, 9),
     baca.marcati(),
-    faberge.tools.make_piano_cluster_specifier(),
+    faberge.make_piano_cluster_specifier(),
     baca.reiterated_dynamic('sfz'),
     )
 
@@ -826,7 +826,7 @@ segment_maker.append_commands(
     baca.laissez_vibrer(),
     baca.markup.lv_possibile(),
     baca.pitches('G4'),
-    faberge.tools.make_dal_niente_hairpins('ff'),
+    faberge.make_dal_niente_hairpins('ff'),
     )
 
 segment_maker.append_commands(
@@ -897,7 +897,7 @@ segment_maker.append_commands(
     baca.select_stages(1),
     baca.markup.lv_possibile(),
     baca.pitches('G6'),
-    faberge.tools.make_dal_niente_hairpins('ff'),
+    faberge.make_dal_niente_hairpins('ff'),
     )
 
 segment_maker.append_commands(
@@ -954,7 +954,7 @@ segment_maker.append_commands(
     baca.select_stages(12, 15),
     baca.staccati(),
     faberge.markup.col_legno_battuto_first_appearance(),
-    faberge.tools.make_clb_pitch_specifier(rotation=-3),
+    faberge.make_clb_pitch_specifier(rotation=-3),
     )
 
 segment_maker.append_commands(
@@ -984,7 +984,7 @@ segment_maker.append_commands(
     baca.hairpins(['mf > ppp']),
     baca.markup.make_markup('col legno battuto'),
     baca.staccati(),
-    faberge.tools.make_clb_pitch_specifier(rotation=-3),
+    faberge.make_clb_pitch_specifier(rotation=-3),
     )
 
 ### viola (color) ###
@@ -1045,7 +1045,7 @@ segment_maker.append_commands(
     baca.one_line_staff(),
     baca.staccati(),
     faberge.markup.col_legno_battuto_first_appearance(),
-    faberge.tools.make_clb_pitch_specifier(rotation=-4),
+    faberge.make_clb_pitch_specifier(rotation=-4),
     )
 
 segment_maker.append_commands(
@@ -1179,7 +1179,7 @@ segment_maker.append_commands(
     baca.one_line_staff(),
     baca.staccati(),
     faberge.markup.col_legno_battuto_first_appearance(),
-    faberge.tools.make_clb_pitch_specifier(rotation=-5),
+    faberge.make_clb_pitch_specifier(rotation=-5),
     )
 
 segment_maker.append_commands(

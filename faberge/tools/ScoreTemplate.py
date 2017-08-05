@@ -36,7 +36,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             ::
 
-                >>> template = faberge.tools.ScoreTemplate()
+                >>> template = faberge.ScoreTemplate()
                 >>> score = template()
 
             ::

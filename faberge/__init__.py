@@ -8,7 +8,7 @@ if not (
     raise ImportError('Requires Python 3.5.')
 del distutils
 del platform
-from faberge import tools
+from faberge.tools import *
 from faberge.tools import MarkupLibrary as markup
-from faberge import materials
+from faberge.materials import *
 from faberge import segments
