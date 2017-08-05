@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import abjad
 import baca
+import faberge
 
 
 class ScoreTemplate(baca.ScoreTemplate):
@@ -137,10 +138,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='FluteMusicStaff',
             name='Flute Music Staff',
             )
-        flute = abjad.instrumenttools.Flute()
-        #abjad.attach(flute, flute_music_staff)
-        #abjad.attach(abjad.Clef('treble'), flute_music_staff)
         self._attach_tag('flute', flute_music_staff)
+        abjad.annotate(
+            flute_music_staff,
+            'default_instrument',
+            faberge.instruments['flute'],
+            )
+        abjad.annotate(
+            flute_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
 
         english_horn_music_voice = abjad.Voice(
             [], 
@@ -152,10 +160,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='EnglishHornMusicStaff',
             name='English Horn Music Staff',
             )
-        english_horn = abjad.instrumenttools.EnglishHorn()
-        #abjad.attach(english_horn, english_horn_music_staff)
-        #abjad.attach(abjad.Clef('treble'), english_horn_music_staff)
         self._attach_tag('english_horn', english_horn_music_staff)
+        abjad.annotate(
+            english_horn_music_staff,
+            'default_instrument',
+            faberge.instruments['English horn'],
+            )
+        abjad.annotate(
+            english_horn_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
 
         clarinet_music_voice = abjad.Voice(
             [], 
@@ -167,10 +182,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='ClarinetMusicStaff',
             name='Clarinet Music Staff',
             )
-        clarinet = abjad.instrumenttools.ClarinetInBFlat()
-        #abjad.attach(clarinet, clarinet_music_staff)
-        #abjad.attach(abjad.Clef('treble'), clarinet_music_staff)
         self._attach_tag('clarinet', clarinet_music_staff)
+        abjad.annotate(
+            clarinet_music_staff,
+            'default_instrument',
+            faberge.instruments['clarinet in B-flat'],
+            )
+        abjad.annotate(
+            clarinet_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
 
         wind_section_staff_group = abjad.StaffGroup(
             [
@@ -215,10 +237,22 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         piano = abjad.instrumenttools.Piano()
         piano._default_scope = 'PianoStaffGroup'
-        #abjad.attach(piano, piano_staff_group)
-        #abjad.attach(abjad.Clef('treble'), piano_rh_music_staff)
-        #abjad.attach(abjad.Clef('bass'), piano_lh_music_staff)
         self._attach_tag('piano', piano_staff_group)
+        abjad.annotate(
+            piano_staff_group,
+            'default_instrument',
+            faberge.instruments['piano'],
+            )
+        abjad.annotate(
+            piano_rh_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
+        abjad.annotate(
+            piano_lh_music_staff,
+            'default_clef',
+            abjad.Clef('bass'),
+            )
 
         percussion_music_voice = abjad.Voice(
             [], 
@@ -231,9 +265,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Percussion Music Staff',
             )
         percussion = abjad.instrumenttools.Percussion()
-        #abjad.attach(percussion, percussion_music_staff)
-        #abjad.attach(abjad.Clef('treble'), percussion_music_staff)
         self._attach_tag('percussion', percussion_music_staff)
+        abjad.annotate(
+            percussion_music_staff,
+            'default_instrument',
+            faberge.instruments['percussion'],
+            )
+        abjad.annotate(
+            percussion_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
 
         percussion_section_staff_group = abjad.StaffGroup(
             [
@@ -255,9 +297,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Violin Music Staff',
             )
         violin = abjad.instrumenttools.Violin()
-        #abjad.attach(violin, violin_music_staff)
-        #abjad.attach(abjad.Clef('treble'), violin_music_staff)
         self._attach_tag('violin', violin_music_staff)
+        abjad.annotate(
+            violin_music_staff,
+            'default_instrument',
+            faberge.instruments['violin'],
+            )
+        abjad.annotate(
+            violin_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
 
         viola_music_voice = abjad.Voice(
             [], 
@@ -269,9 +319,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='ViolaMusicStaff',
             name='Viola Music Staff',
             )
-        #abjad.attach(abjad.instrumenttools.Viola(), viola_music_staff)
-        #abjad.attach(abjad.Clef('alto'), viola_music_staff)
         self._attach_tag('viola', viola_music_staff)
+        abjad.annotate(
+            viola_music_staff,
+            'default_instrument',
+            faberge.instruments['viola'],
+            )
+        abjad.annotate(
+            viola_music_staff,
+            'default_clef',
+            abjad.Clef('alto'),
+            )
 
         cello_music_voice = abjad.Voice(
             [], 
@@ -283,9 +341,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='CelloMusicStaff',
             name='Cello Music Staff',
             )
-        #abjad.attach(abjad.instrumenttools.Cello(), cello_music_staff)
-        #abjad.attach(abjad.Clef('bass'), cello_music_staff)
         self._attach_tag('cello', cello_music_staff)
+        abjad.annotate(
+            cello_music_staff,
+            'default_instrument',
+            faberge.instruments['cello'],
+            )
+        abjad.annotate(
+            cello_music_staff,
+            'default_clef',
+            abjad.Clef('bass'),
+            )
 
         string_section_staff_group = abjad.StaffGroup(
             [

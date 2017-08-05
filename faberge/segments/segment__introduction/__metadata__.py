@@ -8,22 +8,31 @@ metadata = abjad.TypedOrderedDict(
             'end_clefs_by_staff',
             abjad.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', None),
-                    ('Clarinet Music Staff', None),
+                    ('Cello Music Staff', 'bass'),
+                    ('Clarinet Music Staff', 'treble'),
                     ('English Horn Music Staff', 'percussion'),
-                    ('Flute Music Staff', None),
-                    ('Percussion Music Staff', None),
-                    ('Piano LH Music Staff', None),
-                    ('Piano RH Music Staff', None),
-                    ('Viola Music Staff', None),
-                    ('Violin Music Staff', None),
+                    ('Flute Music Staff', 'treble'),
+                    ('Percussion Music Staff', 'treble'),
+                    ('Piano LH Music Staff', 'bass'),
+                    ('Piano RH Music Staff', 'treble'),
+                    ('Viola Music Staff', 'alto'),
+                    ('Violin Music Staff', 'treble'),
                     ]
                 ),
             ),
         (
             'end_instruments_by_context',
             abjad.TypedOrderedDict(
-                []
+                [
+                    ('Cello Music Staff', 'cello'),
+                    ('Clarinet Music Staff', 'clarinet in B-flat'),
+                    ('English Horn Music Staff', 'English horn'),
+                    ('Flute Music Staff', 'flute'),
+                    ('Percussion Music Staff', 'percussion'),
+                    ('Piano Staff Group', 'piano'),
+                    ('Viola Music Staff', 'viola'),
+                    ('Violin Music Staff', 'violin'),
+                    ]
                 ),
             ),
         ('end_tempo', None),
