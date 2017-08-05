@@ -814,7 +814,24 @@
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \context FluteMusicVoice = "Flute Music Voice" {
                         \once \override Hairpin.circled-tip = ##t
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Flute
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Fl.
+                            }
+                        \clef "treble"
                         g'2 \<
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to flute"
+                                }
                         {
                             g'8 \repeatTie \p [
                             g'8 ]
@@ -1731,11 +1748,36 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        English
+                                        horn
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Eng.
+                                        hn.
+                                    }
+                            }
+                        \clef "treble"
                         r4
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to English horn"
+                                }
                         \times 4/5 {
                             r16
                             \override NoteHead.style = #'cross
-                            af16 [
+                            ef'16 [
                                 _ \markup {
                                     \larger
                                         \italic
@@ -1748,13 +1790,87 @@
                                         \italic
                                             ”
                                     }
-                            a16
-                            aqs16
+                            e'16
+                            eqs'16
+                            gs'16 ]
+                        }
+                        {
+                            r8
+                            aqf'8
+                        }
+                        \times 2/3 {
+                            r8
+                            bf'4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            a'4
+                        }
+                        \times 2/3 {
+                            r4
+                            eqs'8
+                        }
+                        {
+                            r8
+                            ef'16 [
+                            e'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            a'16 [
+                            gs'16
+                            aqf'16
+                            bf'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            cs'16 [
+                            fqs'16
+                            f'16
+                            d'16 ]
+                        }
+                        {
+                            r8
+                            bf'8
+                        }
+                        \times 2/3 {
+                            r8
+                            a'4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            gs'4
+                        }
+                        \times 2/3 {
+                            r4
+                            aqf'8
+                        }
+                        {
+                            r8
+                            d'16 [
+                            cs'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            fqs'16 [
+                            f'16
+                            e'16
+                            eqs'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            ef'16 [
+                            f'16
+                            d'16
                             cs'16 ]
                         }
                         {
                             r8
-                            dqf'8
+                            fqs'8
                         }
                         \times 2/3 {
                             r8
@@ -1763,39 +1879,347 @@
                         r4
                         \times 4/5 {
                             r16
-                            d'4
+                            e'4
                         }
                         \times 2/3 {
                             r4
-                            aqs8
+                            eqs'8
                         }
                         {
                             r8
-                            af16 [
-                            a16 ]
+                            aqf'16 [
+                            bf'16 ]
                         }
                         \times 4/5 {
                             r16
-                            d'16 [
-                            cs'16
-                            dqf'16
+                            a'16 [
+                            gs'16
+                            eqs'16
                             ef'16 ]
                         }
                         r4
                         \times 4/5 {
                             r16
-                            fs16 [
-                            bqf16
-                            bf16
-                            g16 ]
+                            e'16 [
+                            gs'16
+                            aqf'16
+                            bf'16 ]
                         }
                         {
                             r8
-                            ef'8
+                            a'8
                         }
                         \times 2/3 {
                             r8
-                            d'4
+                            fqs'4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            f'4
+                        }
+                        \times 2/3 {
+                            r4
+                            d'8
+                        }
+                        {
+                            r8
+                            cs'16 [
+                            a'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            gs'16 [
+                            aqf'16
+                            bf'16
+                            cs'16 ]
+                            \revert NoteHead.style
+                        }
+                        r4
+                        r16
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        af'8. \f \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        atqf'8. \startTrillSpan
+                        atqf'16 \repeatTie
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        af'2 \stopTrillSpan \startTrillSpan
+                        atqf'4.. \stopTrillSpan \startTrillSpan
+                        atqf'2 \repeatTie
+                        atqf'16 \repeatTie [
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        aqf'8. ] \stopTrillSpan \startTrillSpan
+                        aqf'1 \repeatTie
+                        r4 \stopTrillSpan
+                        {
+                            r8
+                            \override NoteHead.style = #'cross
+                            gs'8
+                                _ \markup {
+                                    \larger
+                                        \italic
+                                            “
+                                    \dynamic
+                                        \override
+                                            #'(font-name . #f)
+                                            f
+                                    \larger
+                                        \italic
+                                            ”
+                                    }
+                        }
+                        \times 2/3 {
+                            r8
+                            aqf'4
+                        }
+                        \times 4/5 {
+                            r16
+                            bf'16 [
+                            a'8. ]
+                        }
+                        r4
+                        \times 2/3 {
+                            r4
+                            eqs'8
+                        }
+                        {
+                            r8
+                            ef'16 [
+                            e'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            a'16 [
+                            gs'16
+                            aqf'16
+                            bf'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            cs'16 [
+                            fqs'16
+                            f'16
+                            d'16 ]
+                        }
+                        r4
+                        {
+                            r8
+                            bf'8
+                        }
+                        \times 2/3 {
+                            r8
+                            a'4
+                        }
+                        \times 4/5 {
+                            r16
+                            gs'16 [
+                            aqf'8. ]
+                        }
+                        r4
+                        \times 2/3 {
+                            r4
+                            d'8
+                        }
+                        {
+                            r8
+                            cs'16 [
+                            fqs'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            f'16 [
+                            e'16
+                            eqs'16
+                            ef'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            f'16 [
+                            d'16
+                            cs'16
+                            fqs'16 ]
+                        }
+                        r4
+                        {
+                            r8
+                            ef'8
+                            \revert NoteHead.style
+                        }
+                        r4
+                        r16
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        a'8. \ff \startTrillSpan
+                        a'2. \repeatTie
+                        a'2 \repeatTie
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        aqs'8. \startTrillSpan
+                        r16 \stopTrillSpan
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        aqf'2... \startTrillSpan
+                        aqf'1 \repeatTie
+                        aqf'4 \repeatTie
+                        r16 \stopTrillSpan
+                        af'4.. \startTrillSpan
+                        aqf'2 \stopTrillSpan \startTrillSpan
+                        r2 \stopTrillSpan
+                        bf'2. \fff \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            doubletrill!
+                                }
+                        bf'1 \repeatTie
+                        bf'2 \repeatTie
+                        bf'2. \repeatTie
+                        bf'1 \repeatTie
+                        bf'2 \repeatTie
+                        b'2. \fff \stopTrillSpan \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            doubletrill!
+                                }
+                        b'1 \repeatTie
+                        b'2. \repeatTie
+                        b'1 \repeatTie
+                        b'2. \repeatTie
+                        b'1 \repeatTie
+                        b'2 \repeatTie
+                        b'1 \repeatTie
+                        r4 \stopTrillSpan
+                        \times 4/5 {
+                            r16
+                            \once \override Hairpin.circled-tip = ##t
+                            \override NoteHead.style = #'cross
+                            eqs'16 \> [
+                            ef'16
+                            e'16
+                            a'16 ]
+                        }
+                        {
+                            r8
+                            gs'8
+                        }
+                        \times 2/3 {
+                            r8
+                            aqf'4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            bf'4
+                        }
+                        \times 2/3 {
+                            r4
+                            cs'8
+                        }
+                        {
+                            r8
+                            fqs'16 [
+                            f'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            d'16 [
+                            bf'16
+                            a'16
+                            gs'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            aqf'16 [
+                            d'16
+                            cs'16
+                            fqs'16 ]
+                        }
+                        {
+                            r8
+                            f'8
+                        }
+                        \times 2/3 {
+                            r8
+                            e'4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            eqs'4
+                        }
+                        \times 2/3 {
+                            r4
+                            ef'8
+                        }
+                        {
+                            r8
+                            f'16 [
+                            d'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            cs'16 [
+                            fqs'16
+                            ef'16
+                            e'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            eqs'16 [
+                            aqf'16
+                            bf'16
+                            a'16 ]
+                        }
+                        {
+                            r8
+                            gs'8
+                        }
+                        \times 2/3 {
+                            r8
+                            eqs'4
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            ef'4
+                        }
+                        \times 2/3 {
+                            r4
+                            e'8
+                        }
+                        {
+                            r8
+                            gs'16 [
+                            aqf'16 ]
+                        }
+                        \times 4/5 {
+                            r16
+                            bf'16 [
+                            a'16
+                            fqs'16
+                            f'16 ]
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            d'16 [
+                            cs'16
+                            a'16
+                            gs'16 ]
+                        }
+                        {
+                            r8
+                            aqf'8
+                        }
+                        \times 2/3 {
+                            r8
+                            bf'4
                         }
                         r4
                         \times 4/5 {
@@ -1804,456 +2228,74 @@
                         }
                         \times 2/3 {
                             r4
-                            dqf'8
+                            fqs'8
                         }
                         {
                             r8
-                            g16 [
-                            fs16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            bqf16 [
-                            bf16
-                            a16
-                            aqs16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            af16 [
-                            bf16
-                            g16
-                            fs16 ]
-                        }
-                        {
-                            r8
-                            bqf8
-                        }
-                        \times 2/3 {
-                            r8
-                            af4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            a4
-                        }
-                        \times 2/3 {
-                            r4
-                            aqs8
-                        }
-                        {
-                            r8
-                            dqf'16 [
-                            ef'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            d'16 [
-                            cs'16
-                            aqs16
-                            af16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            a16 [
-                            cs'16
-                            dqf'16
-                            ef'16 ]
-                        }
-                        {
-                            r8
-                            d'8
-                        }
-                        \times 2/3 {
-                            r8
-                            bqf4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            bf4
-                        }
-                        \times 2/3 {
-                            r4
-                            g8
-                        }
-                        {
-                            r8
-                            fs16 [
+                            f'16 [
                             d'16 ]
                         }
                         \times 4/5 {
                             r16
-                            cs'16 [
-                            dqf'16
+                            e'16 [
+                            eqs'16
                             ef'16
-                            fs16 ]
-                            \revert NoteHead.style
+                            d'16 ]
                         }
                         r4
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        df'8. \f \startTrillSpan
-                        r16 \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        dtqf'8. \startTrillSpan
-                        dtqf'16 \repeatTie
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        df'2 \stopTrillSpan \startTrillSpan
-                        dtqf'4.. \stopTrillSpan \startTrillSpan
-                        dtqf'2 \repeatTie
-                        dtqf'16 \repeatTie [
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        dqf'8. ] \stopTrillSpan \startTrillSpan
-                        dqf'1 \repeatTie
-                        r4 \stopTrillSpan
-                        {
-                            r8
-                            \override NoteHead.style = #'cross
-                            cs'8
-                                _ \markup {
-                                    \larger
-                                        \italic
-                                            “
-                                    \dynamic
-                                        \override
-                                            #'(font-name . #f)
-                                            f
-                                    \larger
-                                        \italic
-                                            ”
-                                    }
-                        }
-                        \times 2/3 {
-                            r8
-                            dqf'4
-                        }
                         \times 4/5 {
                             r16
-                            ef'16 [
-                            d'8. ]
-                        }
-                        r4
-                        \times 2/3 {
-                            r4
-                            aqs8
-                        }
-                        {
-                            r8
-                            af16 [
-                            a16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            d'16 [
-                            cs'16
-                            dqf'16
+                            cs'16 [
+                            fqs'16
+                            f'16
                             ef'16 ]
                         }
-                        \times 4/5 {
-                            r16
-                            fs16 [
-                            bqf16
-                            bf16
-                            g16 ]
-                        }
-                        r4
                         {
                             r8
-                            ef'8
+                            e'8
                         }
                         \times 2/3 {
                             r8
-                            d'4
-                        }
-                        \times 4/5 {
-                            r16
-                            cs'16 [
-                            dqf'8. ]
+                            eqs'4
                         }
                         r4
+                        \times 4/5 {
+                            r16
+                            bf'4
+                        }
                         \times 2/3 {
                             r4
-                            g8
+                            a'8
                         }
                         {
                             r8
-                            fs16 [
-                            bqf16 ]
+                            gs'16 [
+                            aqf'16 ]
                         }
                         \times 4/5 {
                             r16
-                            bf16 [
-                            a16
-                            aqs16
-                            af16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            bf16 [
-                            g16
-                            fs16
-                            bqf16 ]
+                            eqs'16 [
+                            ef'16
+                            e'16
+                            aqf'16 ]
                         }
                         r4
+                        \times 4/5 {
+                            r16
+                            bf'16 [
+                            a'16
+                            gs'16
+                            f'16 ]
+                        }
                         {
                             r8
-                            af8
+                            d'8 \!
                             \revert NoteHead.style
                         }
-                        r4
-                        r16
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        d'8. \ff \startTrillSpan
-                        d'2. \repeatTie
-                        d'2 \repeatTie
-                        r16 \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        dqs'8. \startTrillSpan
-                        r16 \stopTrillSpan
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        dqf'2... \startTrillSpan
-                        dqf'1 \repeatTie
-                        dqf'4 \repeatTie
-                        r16 \stopTrillSpan
-                        df'4.. \startTrillSpan
-                        dqf'2 \stopTrillSpan \startTrillSpan
-                        r2 \stopTrillSpan
-                        ef'2. \fff \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            doubletrill!
-                                }
-                        ef'1 \repeatTie
-                        ef'2 \repeatTie
-                        ef'2. \repeatTie
-                        ef'1 \repeatTie
-                        ef'2 \repeatTie
-                        e'2. \fff \stopTrillSpan \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            doubletrill!
-                                }
-                        e'1 \repeatTie
-                        e'2. \repeatTie
-                        e'1 \repeatTie
-                        e'2. \repeatTie
-                        e'1 \repeatTie
-                        e'2 \repeatTie
-                        e'1 \repeatTie
-                        r4 \stopTrillSpan
-                        \times 4/5 {
-                            r16
-                            \once \override Hairpin.circled-tip = ##t
-                            \override NoteHead.style = #'cross
-                            aqs16 \> [
-                            af16
-                            a16
-                            d'16 ]
-                        }
-                        {
-                            r8
-                            cs'8
-                        }
-                        \times 2/3 {
-                            r8
-                            dqf'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            ef'4
-                        }
-                        \times 2/3 {
-                            r4
-                            fs8
-                        }
-                        {
-                            r8
-                            bqf16 [
-                            bf16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            g16 [
-                            ef'16
-                            d'16
-                            cs'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            dqf'16 [
-                            g16
-                            fs16
-                            bqf16 ]
-                        }
-                        {
-                            r8
-                            bf8
-                        }
-                        \times 2/3 {
-                            r8
-                            a4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            aqs4
-                        }
-                        \times 2/3 {
-                            r4
-                            af8
-                        }
-                        {
-                            r8
-                            bf16 [
-                            g16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            fs16 [
-                            bqf16
-                            af16
-                            a16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            aqs16 [
-                            dqf'16
-                            ef'16
-                            d'16 ]
-                        }
-                        {
-                            r8
-                            cs'8
-                        }
-                        \times 2/3 {
-                            r8
-                            aqs4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            af4
-                        }
-                        \times 2/3 {
-                            r4
-                            a8
-                        }
-                        {
-                            r8
-                            cs'16 [
-                            dqf'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            ef'16 [
-                            d'16
-                            bqf16
-                            bf16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            g16 [
-                            fs16
-                            d'16
-                            cs'16 ]
-                        }
-                        {
-                            r8
-                            dqf'8
-                        }
-                        \times 2/3 {
-                            r8
-                            ef'4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            fs4
-                        }
-                        \times 2/3 {
-                            r4
-                            bqf8
-                        }
-                        {
-                            r8
-                            bf16 [
-                            g16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            a16 [
-                            aqs16
-                            af16
-                            g16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            fs16 [
-                            bqf16
-                            bf16
-                            af16 ]
-                        }
-                        {
-                            r8
-                            a8
-                        }
-                        \times 2/3 {
-                            r8
-                            aqs4
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            ef'4
-                        }
-                        \times 2/3 {
-                            r4
-                            d'8
-                        }
-                        {
-                            r8
-                            cs'16 [
-                            dqf'16 ]
-                        }
-                        \times 4/5 {
-                            r16
-                            aqs16 [
-                            af16
-                            a16
-                            dqf'16 ]
-                        }
-                        r4
-                        \times 4/5 {
-                            r16
-                            ef'16 [
-                            d'16
-                            cs'16
-                            bf16 ]
-                        }
-                        {
-                            r8
-                            g8 \!
-                            \revert NoteHead.style
-                        }
-                        \clef "percussion"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \clef "percussion"
                         r2.
                         r1
                         r2.
@@ -2263,7 +2305,7 @@
                         r2
                         r1
                         \override RepeatTie.direction = #up
-                        f1
+                        c'1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -2281,9 +2323,9 @@
                                     \italic
                                         ”
                                 }
-                        f2. \repeatTie
-                        f2 \repeatTie
-                        f2. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
                         \revert RepeatTie.direction
                         s1 * 25/4
                         \bar "|."
@@ -2295,114 +2337,131 @@
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         \once \override Hairpin.circled-tip = ##t
-                        ef,4 \<
-                        ef,\breve \repeatTie \p
-                        ef,4 \repeatTie
-                        ef,8. \repeatTie
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Clarinet
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Cl.
+                            }
+                        \clef "treble"
+                        f,4 \<
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to clarinet in B-flat"
+                                }
+                        f,\breve \repeatTie \p
+                        f,4 \repeatTie
+                        f,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqf,4
-                        eqf,1 \repeatTie
-                        eqf,4 \repeatTie
-                        eqf,8. \repeatTie
+                        fqs,4
+                        fqs,1 \repeatTie
+                        fqs,4 \repeatTie
+                        fqs,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ef,4
-                        ef,\breve.. \repeatTie
-                        ef,8. \repeatTie
+                        f,4
+                        f,\breve.. \repeatTie
+                        f,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqf,4
-                        eqf,1.. \repeatTie
-                        eqf,8. \repeatTie
+                        fqs,4
+                        fqs,1.. \repeatTie
+                        fqs,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ef,4
-                        ef,1 \repeatTie
-                        ef,4 \repeatTie
-                        ef,8. \repeatTie
+                        f,4
+                        f,1 \repeatTie
+                        f,4 \repeatTie
+                        f,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqf,4
-                        eqf,\breve... \repeatTie
-                        eqf,8. \repeatTie
+                        fqs,4
+                        fqs,\breve... \repeatTie
+                        fqs,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ef,4
-                        ef,\breve. \repeatTie
-                        ef,4 \repeatTie
-                        ef,8. \repeatTie
+                        f,4
+                        f,\breve. \repeatTie
+                        f,4 \repeatTie
+                        f,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqf,4
-                        eqf,1.. \repeatTie
-                        eqf,8. \repeatTie
+                        fqs,4
+                        fqs,1.. \repeatTie
+                        fqs,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ef,4
-                        ef,1.. \repeatTie
-                        ef,8. \repeatTie
+                        f,4
+                        f,1.. \repeatTie
+                        f,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqf,4
-                        eqf,\breve. \repeatTie
-                        eqf,8. \repeatTie
+                        fqs,4
+                        fqs,\breve. \repeatTie
+                        fqs,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ef,4
-                        ef,\breve \repeatTie
-                        ef,4 \repeatTie
-                        ef,8. \repeatTie
+                        f,4
+                        f,\breve \repeatTie
+                        f,4 \repeatTie
+                        f,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqf,4
-                        eqf,1 \repeatTie
-                        eqf,4 \repeatTie
-                        eqf,8. \repeatTie
+                        fqs,4
+                        fqs,1 \repeatTie
+                        fqs,4 \repeatTie
+                        fqs,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ef,4
-                        ef,\breve.. \repeatTie
-                        ef,8. \repeatTie
+                        f,4
+                        f,\breve.. \repeatTie
+                        f,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ef,4
+                        f,4
                         \once \override Hairpin.circled-tip = ##t
-                        ef,\breve. \repeatTie \> \p
+                        f,\breve. \repeatTie \> \p
                         \once \override Hairpin.circled-tip = ##t
-                        ef,4 \repeatTie \! \<
-                        ef,8. \repeatTie \pp
+                        f,4 \repeatTie \! \<
+                        f,8. \repeatTie \pp
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        d,4
+                        e,4
                         \once \override Hairpin.circled-tip = ##t
-                        d,1. \repeatTie \> \pp
+                        e,1. \repeatTie \> \pp
                         \once \override Hairpin.circled-tip = ##t
-                        d,8. \repeatTie \! \<
+                        e,8. \repeatTie \! \<
                         r16 \ppp
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        d,4
-                        d,2 \repeatTie
-                        d,8. \repeatTie
+                        e,4
+                        e,2 \repeatTie
+                        e,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        cs,4
-                        cs,1.. \repeatTie
-                        cs,8. \repeatTie
+                        ds,4
+                        ds,1.. \repeatTie
+                        ds,8. \repeatTie
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        cs,4
-                        cs,8. \repeatTie
+                        ds,4
+                        ds,8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
                         r16 \> \ppp
                         s1 * 27/4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        c,4 \<
-                        c,2. \repeatTie \ppp
-                        c,2. \repeatTie
-                        c,2 \repeatTie
-                        c,2 \repeatTie
-                        c,8. \repeatTie
+                        d,4 \<
+                        d,2. \repeatTie \ppp
+                        d,2. \repeatTie
+                        d,2 \repeatTie
+                        d,2 \repeatTie
+                        d,8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
                         r16 \> \ppp
                         s1 * 25/4 \!
@@ -2415,8 +2474,25 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                            \set PianoStaffGroup.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Piano
+                                }
+                            \set PianoStaffGroup.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Pf.
+                                }
+                            \clef "treble"
                             \override NoteHead.style = #'harmonic
                             <ef' f' g' df'' ef''>2.
+                                ^ \markup {
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to piano"
+                                    }
                             <ef' f' g' df'' ef''>1 \repeatTie
                             <ef' f' g' df'' ef''>1 \repeatTie
                             <ef' f' g' df'' ef''>2 \repeatTie
@@ -2467,6 +2543,7 @@
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                            \clef "bass"
                             R1 * 3/4
                             R1 * 1
                             R1 * 1
@@ -2671,11 +2748,35 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         \once \override Hairpin.circled-tip = ##t
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Percussion
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Perc.
+                            }
+                        \clef "treble"
                         g'2. -\laissezVibrer \<
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "l.v. possibile"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "l.v. possibile"
+                                            }
+                                        \line
+                                            {
+                                                \override
+                                                    #'(box-padding . 0.75)
+                                                    \box
+                                                        "to percussion"
+                                            }
+                                    }
                                 }
                         r1
                         r1
@@ -2747,10 +2848,10 @@
                         r1
                         r2
                         r1
-                        \clef "percussion"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
+                        \clef "percussion"
                         b1
                             ^ \markup {
                                 \whiteout
@@ -2790,11 +2891,35 @@
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         \once \override Hairpin.circled-tip = ##t
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Violin
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vn.
+                            }
+                        \clef "treble"
                         g'''2. \<
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "l.v. possibile"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "l.v. possibile"
+                                            }
+                                        \line
+                                            {
+                                                \override
+                                                    #'(box-padding . 0.75)
+                                                    \box
+                                                        "to violin"
+                                            }
+                                    }
                                 }
                         r1
                         r1
@@ -3018,10 +3143,10 @@
                         eqf'2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
-                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
+                            \clef "percussion"
                             c'8 -\staccato \< \ppp [
                                 ^ \markup {
                                     \whiteout
@@ -3305,7 +3430,24 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
+                        \clef "alto"
                         ef2. :32
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to viola"
+                                }
                         ef1 :32 \repeatTie
                         ef1 :32 \repeatTie
                         ef2 :32 \repeatTie
@@ -3566,10 +3708,10 @@
                         g2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
+                            \clef "percussion"
                             b8 -\staccato \< \ppp [
                                 ^ \markup {
                                     \whiteout
@@ -3851,7 +3993,24 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
+                        \clef "bass"
                         ef,2.
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to cello"
+                                }
                         ef,1 \repeatTie
                         ef,1 \repeatTie
                         ef,2 \repeatTie
@@ -4035,10 +4194,10 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
-                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
+                            \clef "percussion"
                             d'8 -\staccato \mf \stopTextSpan [
                                 ^ \markup {
                                     \whiteout

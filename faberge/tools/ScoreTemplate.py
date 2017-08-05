@@ -11,6 +11,272 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         >>> import faberge
 
+
+    ..  container:: example
+
+        Calls score template:
+
+        ::
+
+            >>> template = faberge.ScoreTemplate()
+            >>> lilypond_file = template.__illustrate__()
+            >>> path = '/Users/trevorbaca/Scores/faberge/faberge'
+            >>> path += '/stylesheets/stylesheet.ily'
+            >>> lilypond_file = abjad.new(lilypond_file, includes=[path])
+            >>> show(lilypond_file) # doctest: +SKIP
+
+        ..  docs::
+
+            >>> f(lilypond_file[abjad.Score])
+            \context Score = "Score" <<
+                \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
+                \context TimeSignatureContext = "Time Signature Context" <<
+                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                    }
+                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    }
+                >>
+                \context MusicContext = "Music Context" <<
+                    \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+                        \tag flute
+                        \context FluteMusicStaff = "Flute Music Staff" {
+                            \context FluteMusicVoice = "Flute Music Voice" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        Flute
+                                    }
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        Fl.
+                                    }
+                                \clef "treble"
+                                s1
+                            }
+                        }
+                        \tag english_horn
+                        \context EnglishHornMusicStaff = "English Horn Music Staff" {
+                            \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        \center-column
+                                            {
+                                                English
+                                                horn
+                                            }
+                                    }
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        \line
+                                            {
+                                                Eng.
+                                                hn.
+                                            }
+                                    }
+                                \clef "treble"
+                                s1
+                            }
+                        }
+                        \tag clarinet
+                        \context ClarinetMusicStaff = "Clarinet Music Staff" {
+                            \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        Clarinet
+                                    }
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        Cl.
+                                    }
+                                \clef "treble"
+                                s1
+                            }
+                        }
+                    >>
+                    \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+                        \tag piano
+                        \context PianoStaffGroup = "Piano Staff Group" <<
+                            \context PianoRHMusicStaff = "Piano RH Music Staff" {
+                                \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                                    \set PianoStaffGroup.instrumentName = \markup {
+                                        \hcenter-in
+                                            #16
+                                            Piano
+                                        }
+                                    \set PianoStaffGroup.shortInstrumentName = \markup {
+                                        \hcenter-in
+                                            #10
+                                            Pf.
+                                        }
+                                    \clef "treble"
+                                    s1
+                                }
+                            }
+                            \context PianoLHMusicStaff = "Piano LH Music Staff" <<
+                                \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                                    \clef "bass"
+                                    s1
+                                }
+                                \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                                    s1
+                                }
+                            >>
+                        >>
+                        \tag percussion
+                        \context PercussionMusicStaff = "Percussion Music Staff" {
+                            \context PercussionMusicVoice = "Percussion Music Voice" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        Percussion
+                                    }
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        Perc.
+                                    }
+                                \clef "treble"
+                                s1
+                            }
+                        }
+                    >>
+                    \context StringSectionStaffGroup = "String Section Staff Group" <<
+                        \tag violin
+                        \context ViolinMusicStaff = "Violin Music Staff" {
+                            \context ViolinMusicVoice = "Violin Music Voice" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        Violin
+                                    }
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        Vn.
+                                    }
+                                \clef "treble"
+                                s1
+                            }
+                        }
+                        \tag viola
+                        \context ViolaMusicStaff = "Viola Music Staff" {
+                            \context ViolaMusicVoice = "Viola Music Voice" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        Viola
+                                    }
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        Va.
+                                    }
+                                \clef "alto"
+                                s1
+                            }
+                        }
+                        \tag cello
+                        \context CelloMusicStaff = "Cello Music Staff" {
+                            \context CelloMusicVoice = "Cello Music Voice" {
+                                \set Staff.instrumentName = \markup {
+                                    \hcenter-in
+                                        #16
+                                        Cello
+                                    }
+                                \set Staff.shortInstrumentName = \markup {
+                                    \hcenter-in
+                                        #10
+                                        Vc.
+                                    }
+                                \clef "bass"
+                                s1
+                            }
+                        }
+                    >>
+                >>
+            >>
+
+    ..  container:: example
+
+        ::
+
+            >>> template = faberge.ScoreTemplate()
+            >>> score = template()
+
+        ::
+
+            >>> f(score)
+            \context Score = "Score" <<
+                \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
+                \context TimeSignatureContext = "Time Signature Context" <<
+                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                    }
+                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    }
+                >>
+                \context MusicContext = "Music Context" <<
+                    \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+                        \tag flute
+                        \context FluteMusicStaff = "Flute Music Staff" {
+                            \context FluteMusicVoice = "Flute Music Voice" {
+                            }
+                        }
+                        \tag english_horn
+                        \context EnglishHornMusicStaff = "English Horn Music Staff" {
+                            \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                            }
+                        }
+                        \tag clarinet
+                        \context ClarinetMusicStaff = "Clarinet Music Staff" {
+                            \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                            }
+                        }
+                    >>
+                    \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+                        \tag piano
+                        \context PianoStaffGroup = "Piano Staff Group" <<
+                            \context PianoRHMusicStaff = "Piano RH Music Staff" {
+                                \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                                }
+                            }
+                            \context PianoLHMusicStaff = "Piano LH Music Staff" <<
+                                \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                                }
+                                \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                                }
+                            >>
+                        >>
+                        \tag percussion
+                        \context PercussionMusicStaff = "Percussion Music Staff" {
+                            \context PercussionMusicVoice = "Percussion Music Voice" {
+                            }
+                        }
+                    >>
+                    \context StringSectionStaffGroup = "String Section Staff Group" <<
+                        \tag violin
+                        \context ViolinMusicStaff = "Violin Music Staff" {
+                            \context ViolinMusicVoice = "Violin Music Voice" {
+                            }
+                        }
+                        \tag viola
+                        \context ViolaMusicStaff = "Viola Music Staff" {
+                            \context ViolaMusicVoice = "Viola Music Voice" {
+                            }
+                        }
+                        \tag cello
+                        \context CelloMusicStaff = "Cello Music Staff" {
+                            \context CelloMusicVoice = "Cello Music Voice" {
+                            }
+                        }
+                    >>
+                >>
+            >>
+
     '''
 
     ### CLASS VARIABLES ###
@@ -31,83 +297,6 @@ class ScoreTemplate(baca.ScoreTemplate):
     def __call__(self):
         r'''Calls score template.
 
-        ..  container:: example
-
-            Calls score template:
-
-            ::
-
-                >>> template = faberge.ScoreTemplate()
-                >>> score = template()
-
-            ::
-
-                >>> f(score)
-                \context Score = "Score" <<
-                    \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
-                    \context TimeSignatureContext = "Time Signature Context" <<
-                        \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
-                        }
-                        \context TimeSignatureContextSkips = "Time Signature Context Skips" {
-                        }
-                    >>
-                    \context MusicContext = "Music Context" <<
-                        \context WindSectionStaffGroup = "Wind Section Staff Group" <<
-                            \tag flute
-                            \context FluteMusicStaff = "Flute Music Staff" {
-                                \context FluteMusicVoice = "Flute Music Voice" {
-                                }
-                            }
-                            \tag english_horn
-                            \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                                \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                                }
-                            }
-                            \tag clarinet
-                            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                                \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                                }
-                            }
-                        >>
-                        \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
-                            \tag piano
-                            \context PianoStaffGroup = "Piano Staff Group" <<
-                                \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                                    \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                                    }
-                                }
-                                \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                                    \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                                    }
-                                    \context PianoLHAttackVoice = "Piano LH Attack Voice" {
-                                    }
-                                >>
-                            >>
-                            \tag percussion
-                            \context PercussionMusicStaff = "Percussion Music Staff" {
-                                \context PercussionMusicVoice = "Percussion Music Voice" {
-                                }
-                            }
-                        >>
-                        \context StringSectionStaffGroup = "String Section Staff Group" <<
-                            \tag violin
-                            \context ViolinMusicStaff = "Violin Music Staff" {
-                                \context ViolinMusicVoice = "Violin Music Voice" {
-                                }
-                            }
-                            \tag viola
-                            \context ViolaMusicStaff = "Viola Music Staff" {
-                                \context ViolaMusicVoice = "Viola Music Voice" {
-                                }
-                            }
-                            \tag cello
-                            \context CelloMusicStaff = "Cello Music Staff" {
-                                \context CelloMusicVoice = "Cello Music Voice" {
-                                }
-                            }
-                        >>
-                    >>
-                >>
 
         Returns score.
         '''
