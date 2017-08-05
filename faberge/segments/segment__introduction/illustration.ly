@@ -90,6 +90,17 @@
                 \tag flute
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \context FluteMusicVoice = "Flute Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Flute
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Fl.
+                            }
+                        \clef "treble"
                         R1 * 3/4
                         R1 * 1/4
                         R1 * 1
@@ -100,6 +111,25 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        English
+                                        horn
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Eng.
+                                        hn.
+                                    }
+                            }
+                        \clef "treble"
                         s1 * 1
                         \override TupletNumber.text = \markup {
                             \scale
@@ -132,12 +162,12 @@
                                     }
                             }
                         \times 1/1 {
-                            \clef "percussion"
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
+                            \clef "percussion"
                             c'16 * 187/32 [
                                 ^ \markup {
                                     \whiteout
@@ -163,6 +193,17 @@
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Clarinet
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Cl.
+                            }
+                        \clef "treble"
                         R1 * 3/4
                         R1 * 1/4
                         R1 * 1
@@ -176,6 +217,17 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                            \set PianoStaffGroup.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Piano
+                                }
+                            \set PianoStaffGroup.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Pf.
+                                }
+                            \clef "treble"
                             R1 * 3/4
                             R1 * 1/4
                             R1 * 1
@@ -185,6 +237,7 @@
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                            \clef "bass"
                             R1 * 3/4
                             R1 * 1/4
                             R1 * 1
@@ -203,6 +256,17 @@
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Percussion
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Perc.
+                            }
+                        \clef "treble"
                         R1 * 3/4
                         R1 * 1/4
                         R1 * 1
@@ -215,6 +279,17 @@
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Violin
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vn.
+                            }
+                        \clef "treble"
                         e'16 [
                             ^ \markup {
                                 \whiteout
@@ -252,6 +327,17 @@
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \times 2/3 {
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Viola
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Va.
+                                }
+                            \clef "alto"
                             r4
                             e'8
                                 ^ \markup {
@@ -288,6 +374,17 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
+                        \clef "bass"
                         R1 * 3/4
                         R1 * 1/4
                         R1 * 1
