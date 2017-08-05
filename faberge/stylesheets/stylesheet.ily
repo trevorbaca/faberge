@@ -2,7 +2,7 @@
 #(set-global-staff-size 12)
 
 \include "/Users/trevorbaca/baca/baca/stylesheets/scheme.ily"
-\include "default-instrument-names.ily"
+\include "/Users/trevorbaca/Score/faberge/faberge/stylesheets/default-instrument-names.ily"
 
 \paper {
     %bottom-margin = 10\mm
