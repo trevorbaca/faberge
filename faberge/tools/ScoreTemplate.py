@@ -30,7 +30,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  docs::
+        ::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
@@ -200,82 +200,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     }
                                 \clef "bass"
                                 s1
-                            }
-                        }
-                    >>
-                >>
-            >>
-
-    ..  container:: example
-
-        ::
-
-            >>> template = faberge.ScoreTemplate()
-            >>> score = template()
-
-        ::
-
-            >>> f(score)
-            \context Score = "Score" <<
-                \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
-                    }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
-                    }
-                >>
-                \context MusicContext = "Music Context" <<
-                    \context WindSectionStaffGroup = "Wind Section Staff Group" <<
-                        \tag flute
-                        \context FluteMusicStaff = "Flute Music Staff" {
-                            \context FluteMusicVoice = "Flute Music Voice" {
-                            }
-                        }
-                        \tag english_horn
-                        \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                            \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                            }
-                        }
-                        \tag clarinet
-                        \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                            \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                            }
-                        }
-                    >>
-                    \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
-                        \tag piano
-                        \context PianoStaffGroup = "Piano Staff Group" <<
-                            \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                                \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                                }
-                            }
-                            \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                                \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                                }
-                                \context PianoLHAttackVoice = "Piano LH Attack Voice" {
-                                }
-                            >>
-                        >>
-                        \tag percussion
-                        \context PercussionMusicStaff = "Percussion Music Staff" {
-                            \context PercussionMusicVoice = "Percussion Music Voice" {
-                            }
-                        }
-                    >>
-                    \context StringSectionStaffGroup = "String Section Staff Group" <<
-                        \tag violin
-                        \context ViolinMusicStaff = "Violin Music Staff" {
-                            \context ViolinMusicVoice = "Violin Music Voice" {
-                            }
-                        }
-                        \tag viola
-                        \context ViolaMusicStaff = "Viola Music Staff" {
-                            \context ViolaMusicVoice = "Viola Music Voice" {
-                            }
-                        }
-                        \tag cello
-                        \context CelloMusicStaff = "Cello Music Staff" {
-                            \context CelloMusicVoice = "Cello Music Voice" {
                             }
                         }
                     >>
