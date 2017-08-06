@@ -9,8 +9,9 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ::
 
+        >>> import abjad
+        >>> import baca
         >>> import faberge
-
 
     ..  container:: example
 
@@ -21,8 +22,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> template = faberge.ScoreTemplate()
             >>> lilypond_file = template.__illustrate__()
             >>> path = '/Users/trevorbaca/Scores/faberge/faberge'
-            >>> path += '/stylesheets/stylesheet.ily'
-            >>> lilypond_file = abjad.new(lilypond_file, includes=[path])
+            >>> path += '/stylesheets/context-definitions.ily'
+            >>> lilypond_file = abjad.new(
+            ...     lilypond_file,
+            ...     global_staff_size=14,
+            ...     includes=[path],
+            ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
