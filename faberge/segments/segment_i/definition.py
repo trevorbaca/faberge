@@ -46,6 +46,7 @@ spacing_specifier = baca.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.SegmentMaker(
+    instruments=faberge.instruments,
     #label_clock_time=True,
     label_stages=True,
     measures_per_stage=measures_per_stage,

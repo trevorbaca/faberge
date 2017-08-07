@@ -936,37 +936,13 @@
                     \context FluteMusicVoice = "Flute Music Voice" {
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Flute
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Fl.
-                                }
-                            \clef "treble"
                             fs'''8 \<
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "match sound of crotales"
-                                                }
-                                            \line
-                                                {
-                                                    \override
-                                                        #'(box-padding . 0.75)
-                                                        \box
-                                                            "to flute"
-                                                }
-                                        }
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "match sound of crotales"
                                     }
                             r2
                             fs'''8
@@ -1343,32 +1319,7 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        English
-                                        horn
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \line
-                                    {
-                                        Eng.
-                                        hn.
-                                    }
-                            }
-                        \clef "treble"
                         s1 * 9
-                            ^ \markup {
-                                \override
-                                    #'(box-padding . 0.75)
-                                    \box
-                                        "to English horn"
-                                }
                         r2
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1575,24 +1526,7 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Clarinet
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Cl.
-                                }
-                            \clef "treble"
                             r8 \<
-                                ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.75)
-                                        \box
-                                            "to clarinet in B-flat"
-                                    }
                             gs'''8
                                 ^ \markup {
                                     \whiteout
@@ -1932,42 +1866,18 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            \set PianoStaffGroup.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Piano
-                                }
-                            \set PianoStaffGroup.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Pf.
-                                }
-                            \clef "treble"
                             \override NoteHead.style = #'harmonic
                             <d' e' fs' c'' d''>2.
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                \column
-                                                                    {
-                                                                        "depress silently;"
-                                                                        "sustain with middle pedal"
-                                                                    }
-                                                }
-                                            \line
-                                                {
-                                                    \override
-                                                        #'(box-padding . 0.75)
-                                                        \box
-                                                            "to piano"
-                                                }
-                                        }
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \column
+                                                    {
+                                                        "depress silently;"
+                                                        "sustain with middle pedal"
+                                                    }
                                     }
                             <d' e' fs' c'' d''>1 \repeatTie
                             <d' e' fs' c'' d''>1 \repeatTie
@@ -2063,7 +1973,6 @@
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            \clef "bass"
                             R1 * 3/4
                             R1 * 1
                             R1 * 1
@@ -2341,24 +2250,7 @@
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Percussion
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Perc.
-                                }
-                            \clef "treble"
                             r2 \<
-                                ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.75)
-                                        \box
-                                            "to percussion"
-                                    }
                             fs'8 -\laissezVibrer
                                 ^ \markup {
                                     \whiteout
@@ -2801,24 +2693,7 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Violin
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Vn.
-                                }
-                            \clef "treble"
                             r4. \<
-                                ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.75)
-                                        \box
-                                            "to violin"
-                                    }
                             fs'''8
                                 ^ \markup {
                                     \whiteout
@@ -3425,35 +3300,11 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Viola
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Va.
-                            }
-                        \clef "alto"
                         d2. :32 \mp \startTextSpan
                             ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "XFB sempre"
-                                            }
-                                        \line
-                                            {
-                                                \override
-                                                    #'(box-padding . 0.75)
-                                                    \box
-                                                        "to viola"
-                                            }
-                                    }
+                                \whiteout
+                                    \upright
+                                        "XFB sempre"
                                 }
                         d1 :32 \repeatTie
                         d1 :32 \repeatTie
@@ -3960,35 +3811,11 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Cello
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Vc.
-                            }
-                        \clef "bass"
                         d,2. \ppp \< \p \startTextSpan
                             ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "(poco pont.+) sub. non vib."
-                                            }
-                                        \line
-                                            {
-                                                \override
-                                                    #'(box-padding . 0.75)
-                                                    \box
-                                                        "to cello"
-                                            }
-                                    }
+                                \whiteout
+                                    \upright
+                                        "(poco pont.+) sub. non vib."
                                 }
                         d,1 \repeatTie
                         d,1 \repeatTie
