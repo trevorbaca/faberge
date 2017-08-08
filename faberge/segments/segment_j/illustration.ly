@@ -971,7 +971,7 @@
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        \bar "|"
+                        \bar "|."
                     }
                 }
                 \tag english_horn
@@ -1075,7 +1075,7 @@
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. \repeatTie
-                        \bar "|"
+                        \bar "|."
                     }
                 }
                 \tag clarinet
@@ -1932,7 +1932,7 @@
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         d'2. \repeatTie
-                        \bar "|"
+                        \bar "|."
                     }
                 }
             >>
@@ -2918,7 +2918,7 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'2. \repeatTie
-                            \bar "|"
+                            \bar "|."
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
@@ -2948,7 +2948,7 @@
                             R1 * 1
                             R1 * 1
                             R1 * 3/4
-                            \bar "|"
+                            \bar "|."
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
                             R1 * 1/2
@@ -2976,7 +2976,7 @@
                             R1 * 1
                             R1 * 1
                             R1 * 3/4
-                            \bar "|"
+                            \bar "|."
                         }
                     >>
                 >>
@@ -3044,7 +3044,7 @@
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        \bar "|"
+                        \bar "|."
                     }
                 }
             >>
@@ -3781,7 +3781,7 @@
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        \bar "|"
+                        \bar "|."
                     }
                 }
                 \tag viola
@@ -3872,7 +3872,7 @@
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        \bar "|"
+                        \bar "|."
                     }
                 }
                 \tag cello
@@ -3951,7 +3951,7 @@
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        \bar "|"
+                        \bar "|."
                     }
                 }
             >>

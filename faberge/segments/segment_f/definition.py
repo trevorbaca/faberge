@@ -82,6 +82,7 @@ segment_maker = baca.SegmentMaker(
     #label_clock_time=True,
     label_stages=True,
     measures_per_stage=measures_per_stage,
+    metronome_marks=faberge.materials.tempi,
     rehearsal_letter='F',
     score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
