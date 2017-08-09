@@ -11,8 +11,8 @@
         currentBarNumber = #274
     } <<
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
-        \context TimeSignatureContext = "Time Signature Context" <<
-            \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+        \context GlobalContext = "Global Context" <<
+            \context GlobalRests = "Global Rests" {
                 {
                     \time 4/4
                     R1 * 1
@@ -120,7 +120,7 @@
                     R1 * 5/12
                 }
             }
-            \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+            \context GlobalSkips = "Global Skips" {
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
