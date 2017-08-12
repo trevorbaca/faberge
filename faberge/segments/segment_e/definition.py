@@ -23,11 +23,11 @@ tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 ###############################################################################
 
 vortex_1_time_signatures = [
-        abjad.TimeSignature((3, 4)),
-        abjad.TimeSignature((4, 4)),
-        abjad.TimeSignature((3, 4)),
-        abjad.TimeSignature((4, 4)),
-        ]
+    abjad.TimeSignature((3, 4)),
+    abjad.TimeSignature((4, 4)),
+    abjad.TimeSignature((3, 4)),
+    abjad.TimeSignature((4, 4)),
+    ]
 assert len(vortex_1_time_signatures) == 4
 
 vortex_2_time_signatures = [
@@ -40,7 +40,7 @@ vortex_2_time_signatures = [
     abjad.TimeSignature((4, 4)),
     abjad.TimeSignature((4, 4)),
     abjad.TimeSignature((3, 4)),
-    # 
+    #
     abjad.TimeSignature((2, 4)),
     abjad.TimeSignature((3, 4)),
     abjad.TimeSignature((3, 4)),
@@ -65,45 +65,56 @@ vortex_2_time_signatures = [
 assert len(vortex_2_time_signatures) == 24
 
 stage_specifier = baca.StageSpecifier([
-    6, # 1
-    abjad.Fermata('longfermata'), # 2
-    vortex_1_time_signatures, # 3
-    abjad.Fermata(), # 4
-    vortex_1_time_signatures, # 5
-    abjad.Fermata(), # 6
-    vortex_2_time_signatures, # 7
-    2, # 8
-    2, # 9
-    abjad.Fermata('shortfermata'), # 10
-    2, # 11
-    abjad.Fermata('shortfermata'), # 12
-    vortex_2_time_signatures[:12], # 13
-    2, # 14
-    2, # 15
-    abjad.Fermata('shortfermata'), # 16
-    2, # 17
-    abjad.Fermata('shortfermata'), # 18
-    2, # 19
-    2, # 20
-    2, # 21
-    2, # 22
-    2, # 23
-    2, # 24
-    2, # 25
-    2, # 26
-    2, # 27
-    2, # 28
-    2, # 29
-    2, # 30
-    2, # 31
-    2, # 32
-    abjad.Fermata(), # 33
-    2, # 34
-    abjad.Fermata(), # 35
-    2, # 36
-    abjad.Fermata(), # 37
-    2, # 38
-    abjad.Fermata('longfermata'), # 39
+    # 1-3
+    6,
+    abjad.Fermata('longfermata'),
+    vortex_1_time_signatures,
+    # 4-6
+    abjad.Fermata(),
+    vortex_1_time_signatures,
+    abjad.Fermata(),
+    # 7-9
+    vortex_2_time_signatures,
+    2,
+    2,
+    # 10-12
+    abjad.Fermata('shortfermata'),
+    2,
+    abjad.Fermata('shortfermata'),
+    # 13-15
+    vortex_2_time_signatures[:12],
+    2,
+    2,
+    # 16-17
+    abjad.Fermata('shortfermata'),
+    2,
+    # 18-31
+    abjad.Fermata('shortfermata'),
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    # 32-33
+    2,
+    abjad.Fermata(),
+    # 34-35
+    2,
+    abjad.Fermata(),
+    # 36-37
+    2,
+    abjad.Fermata(),
+    # 38-39
+    2,
+    abjad.Fermata('longfermata'),
     ])
 
 tempo_specifier = baca.TempoSpecifier([

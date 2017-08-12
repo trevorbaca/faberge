@@ -32,28 +32,39 @@ fortissimo_repetition_stages = [
     ]
 
 stage_specifier = baca.StageSpecifier([
-    2, # 1
-    2, # 2
-    2, # 3
-    2, # 4
-    2, # 5
-    abjad.Fermata(), # 6
-    2, # 7
-    abjad.Fermata(), # 8
-    2, # 9
-    abjad.Fermata(), # 10
-    2, # 11
-    abjad.Fermata(), # 12
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)), # 13-14
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)), # 15-16
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)), # 17-18
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)), # 19-20
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)), # 21-22
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)), # 23-24
-    2, # 25
-    2, # 26
-    2, # 27
-    2, # 28
+    # 1-6
+    2,
+    2,
+    2,
+    2,
+    2,
+    abjad.Fermata(),
+    # 7-8
+    2,
+    abjad.Fermata(),
+    # 9-10
+    2,
+    abjad.Fermata(),
+    # 11-12
+    2,
+    abjad.Fermata(),
+    # 13-14
+    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
+    # 15-16
+    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
+    # 17-18
+    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
+    # 19-20
+    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
+    # 21-22
+    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
+    # 23-24
+    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
+    # 25-28
+    2,
+    2,
+    2,
+    2,
     ])
 
 tempo_specifier = baca.TempoSpecifier([

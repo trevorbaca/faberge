@@ -23,15 +23,24 @@ tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)), # 1-4 at 80
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 5-8 at 64
-    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)), # 9-12 at 80
-    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)), # 13-16 at 100
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 17-20 at 80
-    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)), # 21-24 at 100
-    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)), # 25-28 at 125
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 29-32 at 100
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)), # 33-36 at 125
+    # 1-4 at 80
+    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)),
+    # 5-8 at 64
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
+    # 9-12 at 80
+    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)),
+    # 13-16 at 100
+    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)),
+    # 17-20 at 80
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
+    # 21-24 at 100
+    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)),
+    # 25-28 at 125
+    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)),
+    # 29-32 at 100
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
+    # 33-36 at 125
+    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
