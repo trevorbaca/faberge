@@ -23,9 +23,12 @@ tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    2, 2, 2, 2, # 1-4
-    2, 2, 2, 2, # 5-8
-    2, 2, 2, 2, # 9-12
+    # 1-4
+    2, 2, 2, 2,
+    # 5-8
+    2, 2, 2, 2,
+    # 9-12
+    2, 2, 2, 2,
     ])
 
 tempo_specifier = baca.TempoSpecifier([

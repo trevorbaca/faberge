@@ -23,19 +23,21 @@ tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    2, # 1
-    2, # 2
-    2, # 3
-    2, # 4
-    2, # 5
-    2, # 6
-    2, # 7
-    2, # 8
-    2, # 9
-    2, # 10
-    abjad.Fermata('shortfermata'), # 11
-    2, # 12
-    2, # 13
+    # 1-11
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    abjad.Fermata('shortfermata'),
+    # 12-13
+    2,
+    2,
     ])
 
 tempo_specifier = baca.TempoSpecifier([

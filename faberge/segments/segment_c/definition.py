@@ -23,22 +23,26 @@ tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    2, # 1
-    abjad.TimeSignature((5, 12)), # 2
-    2, # 3
-    abjad.TimeSignature((5, 12)), # 4
-    2, # 5
-    2, # 6
-    abjad.TimeSignature((5, 12)), # 7
-    2, # 8
-    abjad.TimeSignature((5, 12)), # 9
-    2, # 10
-    2, # 11
-    2, # 12
-    2, # 13
-    2, # 14
-    2, # 15
-    abjad.TimeSignature((5, 12)), # 16
+    # 1-4
+    2,
+    abjad.TimeSignature((5, 12)),
+    2,
+    abjad.TimeSignature((5, 12)),
+    # 5-8
+    2,
+    2,
+    abjad.TimeSignature((5, 12)),
+    2,
+    # 9-12
+    abjad.TimeSignature((5, 12)),
+    2,
+    2,
+    2,
+    # 13-16
+    2,
+    2,
+    2,
+    abjad.TimeSignature((5, 12)),
     ])
 
 tempo_specifier = baca.TempoSpecifier([

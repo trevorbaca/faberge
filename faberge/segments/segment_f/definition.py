@@ -23,41 +23,58 @@ tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    2, # 1
-    abjad.Fermata(), # 2
-    2, # 3
-    abjad.Fermata(), # 4
-    2, # 5
-    abjad.Fermata(), # 6
-    2, # 7
-    abjad.Fermata(), # 8
-    2, # 9
-    abjad.Fermata(), # 10
-    2, # 11
-    abjad.Fermata(), # 12
-    2, # 13
-    abjad.Fermata(), # 14
-    2, # 15
-    abjad.Fermata(), # 16
-    2, # 17
-    abjad.Fermata('shortfermata'), # 18
-    2, # 19
-    abjad.Fermata(), # 20
-    4 * [abjad.TimeSignature((3, 4))], # 21
-    2, # 22
-    abjad.Fermata('shortfermata'), # 23
-    2, # 24
-    abjad.Fermata(), # 25
-    2, # 26
-    abjad.Fermata(), # 27
-    2, # 28
-    abjad.Fermata('shortfermata'), # 29
-    2, # 30
-    abjad.Fermata(), # 31
-    2, # 32
-    abjad.Fermata('longfermata'), # 33
-    2, # 34
-    abjad.Fermata('longfermata'), # 35
+    # 1-2
+    2,
+    abjad.Fermata(),
+    # 3-4
+    2,
+    abjad.Fermata(),
+    # 5-6
+    2,
+    abjad.Fermata(),
+    # 7-8
+    2,
+    abjad.Fermata(),
+    # 9-10
+    2,
+    abjad.Fermata(),
+    # 11-12
+    2,
+    abjad.Fermata(),
+    # 13-14
+    2,
+    abjad.Fermata(),
+    # 15-16
+    2,
+    abjad.Fermata(),
+    # 17-18
+    2,
+    abjad.Fermata('shortfermata'),
+    # 19-20
+    2,
+    abjad.Fermata(),
+    # 21-23
+    4 * [abjad.TimeSignature((3, 4))],
+    2,
+    abjad.Fermata('shortfermata'),
+    # 24-25
+    2,
+    abjad.Fermata(),
+    # 26-27
+    2,
+    abjad.Fermata(),
+    # 28-29
+    2,
+    abjad.Fermata('shortfermata'),
+    # 30-31
+    2,
+    abjad.Fermata(),
+    # 32-33
+    2,
+    abjad.Fermata('longfermata'),
+    # 34-35
+    2,
+    abjad.Fermata('longfermata'),
     ])
 
 tempo_specifier = baca.TempoSpecifier([

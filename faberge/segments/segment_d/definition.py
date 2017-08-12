@@ -23,15 +23,18 @@ tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    2, # 1
-    2, # 2
-    2, # 3
-    6 * [abjad.TimeSignature((5, 4))], # 4
-    2, # 5
-    2, # 6
-    2, # 7
-    2, # 8
-    abjad.Fermata('shortfermata'), # 9
+    # 1-3
+    2,
+    2,
+    2,
+    # 4-8
+    6 * [abjad.TimeSignature((5, 4))],
+    2,
+    2,
+    2,
+    2,
+    # 9
+    abjad.Fermata('shortfermata'),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -144,7 +147,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    perc, 
+    perc,
     baca.select_stages(4),
     faberge.make_meccanico_percussion_cell_rhythm_specifier(),
     )
