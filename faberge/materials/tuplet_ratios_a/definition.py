@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 
 tuplet_ratios_a = (
