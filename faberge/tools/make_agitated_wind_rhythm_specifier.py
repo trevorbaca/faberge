@@ -5,13 +5,13 @@ import baca
 def make_agitated_wind_rhythm_specifier(
     count_rotation=None,
     ):
-    counts = baca.sequence([1, 4, 6, 6, -1, 1, 1, 4, 1, 6, -1, 1, 1, 1, 6]) 
+    counts = baca.sequence([1, 4, 6, 6, -1, 1, 1, 4, 1, 6, -1, 1, 1, 1, 6])
     counts = counts.rotate(n=count_rotation)
     rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         burnish_specifier=abjad.rhythmmakertools.BurnishSpecifier(
-            left_classes=[abajd.Rest],
+            left_classes=[abjad.Rest],
             left_counts=[1],
-            right_classes=[abajd.Rest],
+            right_classes=[abjad.Rest],
             right_counts=[1],
             outer_divisions_only=True,
             ),

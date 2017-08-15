@@ -31,7 +31,7 @@ def make_clb_rhythm_specifier(
         [-4],
         [1, 1, 1, 1, 1, 1],
         [-6],
-        ]) 
+        ])
     counts = counts.rotate(n=count_rotation)
     counts = counts.flatten()
     rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
