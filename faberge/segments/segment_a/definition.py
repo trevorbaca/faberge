@@ -68,7 +68,7 @@ segment_maker = baca.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=faberge.materials.tempi,
+    metronome_marks=faberge.tempi,
     rehearsal_letter='A',
     score_template=faberge.ScoreTemplate(),
     # TODO: set to false
@@ -315,7 +315,7 @@ segment_maker.append_commands(
         this_part=2,
         ),
     )
-    
+
 segment_maker.append_specifiers(
     (perc, [baca.select_stages(12), baca.select_stages(14, 15), baca.select_stages(17)]),
     faberge.make_shell_exchange_rhythm_specifier(

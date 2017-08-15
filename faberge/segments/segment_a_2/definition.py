@@ -71,7 +71,7 @@ segment_maker = baca.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=faberge.materials.tempi,
+    metronome_marks=faberge.tempi,
     rehearsal_letter='',
     score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
@@ -852,11 +852,11 @@ segment_maker.append_commands(
     perc,
     baca.select_stages(6, 10),
     # TODO: make work again after extending baca.hairpins():
-#    baca.hairpins(
-#        ['ppp < pp', 'pp > ppp', 'ppp < p', 'p > pp', 'pp < p', 'p > ppp'],
-#        enchain_hairpins=True,
-#        span=[4, 3],
-#        ),
+    #baca.hairpins(
+    #    ['ppp < pp', 'pp > ppp', 'ppp < p', 'p > pp', 'pp < p', 'p > ppp'],
+    #    enchain_hairpins=True,
+    #    span=[4, 3],
+    #    ),
     baca.pitches('Eb2'),
     )
 
