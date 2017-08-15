@@ -20,8 +20,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> template = faberge.ScoreTemplate()
             >>> lilypond_file = template.__illustrate__()
-            >>> path = '/Users/trevorbaca/Scores/faberge/faberge'
-            >>> path += '/stylesheets/context-definitions.ily'
+            >>> path = pathlib.Path(faberge.__path__[0], 'stylesheets')
+            >>> path = path.joinpath('context-definitions.ily')
             >>> lilypond_file = abjad.new(
             ...     lilypond_file,
             ...     global_staff_size=14,
@@ -246,12 +246,12 @@ class ScoreTemplate(baca.ScoreTemplate):
         self._attach_tag(tag_string, time_signature_context)
 
         flute_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='FluteMusicVoice',
             name='Flute Music Voice',
             )
         flute_music_staff = abjad.Staff(
-            [flute_music_voice], 
+            [flute_music_voice],
             context_name='FluteMusicStaff',
             name='Flute Music Staff',
             )
@@ -268,12 +268,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
 
         english_horn_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='EnglishHornMusicVoice',
             name='English Horn Music Voice',
             )
         english_horn_music_staff = abjad.Staff(
-            [english_horn_music_voice], 
+            [english_horn_music_voice],
             context_name='EnglishHornMusicStaff',
             name='English Horn Music Staff',
             )
@@ -290,12 +290,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
 
         clarinet_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='ClarinetMusicVoice',
             name='Clarinet Music Voice',
             )
         clarinet_music_staff = abjad.Staff(
-            [clarinet_music_voice], 
+            [clarinet_music_voice],
             context_name='ClarinetMusicStaff',
             name='Clarinet Music Staff',
             )
@@ -316,33 +316,33 @@ class ScoreTemplate(baca.ScoreTemplate):
                 flute_music_staff,
                 english_horn_music_staff,
                 clarinet_music_staff,
-                ], 
+                ],
             context_name='WindSectionStaffGroup',
             name='Wind Section Staff Group',
             )
 
         piano_rh_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='PianoRHMusicVoice',
             name='Piano RH Music Voice',
             )
         piano_rh_music_staff = abjad.Staff(
-            [piano_rh_music_voice], 
+            [piano_rh_music_voice],
             context_name='PianoRHMusicStaff',
             name='Piano RH Music Staff',
             )
         piano_lh_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='PianoLHMusicVoice',
             name='Piano LH Music Voice',
             )
         piano_lh_attack_voice = abjad.Voice(
-            [], 
+            [],
             context_name='PianoLHAttackVoice',
             name='Piano LH Attack Voice',
             )
         piano_lh_music_staff = abjad.Staff(
-            [piano_lh_music_voice, piano_lh_attack_voice], 
+            [piano_lh_music_voice, piano_lh_attack_voice],
             context_name='PianoLHMusicStaff',
             is_simultaneous=True,
             name='Piano LH Music Staff',
@@ -372,16 +372,15 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
 
         percussion_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='PercussionMusicVoice',
             name='Percussion Music Voice',
             )
         percussion_music_staff = abjad.Staff(
-            [percussion_music_voice], 
+            [percussion_music_voice],
             context_name='PercussionMusicStaff',
             name='Percussion Music Staff',
             )
-        percussion = abjad.instrumenttools.Percussion()
         self._attach_tag('percussion', percussion_music_staff)
         abjad.annotate(
             percussion_music_staff,
@@ -398,22 +397,21 @@ class ScoreTemplate(baca.ScoreTemplate):
             [
                 piano_staff_group,
                 percussion_music_staff,
-                ], 
+                ],
             context_name='PercussionSectionStaffGroup',
             name='Percussion Section Staff Group',
             )
 
         violin_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='ViolinMusicVoice',
             name='Violin Music Voice',
             )
         violin_music_staff = abjad.Staff(
-            [violin_music_voice], 
+            [violin_music_voice],
             context_name='ViolinMusicStaff',
             name='Violin Music Staff',
             )
-        violin = abjad.instrumenttools.Violin()
         self._attach_tag('violin', violin_music_staff)
         abjad.annotate(
             violin_music_staff,
@@ -427,12 +425,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
 
         viola_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='ViolaMusicVoice',
             name='Viola Music Voice',
             )
         viola_music_staff = abjad.Staff(
-            [viola_music_voice], 
+            [viola_music_voice],
             context_name='ViolaMusicStaff',
             name='Viola Music Staff',
             )
@@ -449,12 +447,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
 
         cello_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='CelloMusicVoice',
             name='Cello Music Voice',
             )
         cello_music_staff = abjad.Staff(
-            [cello_music_voice], 
+            [cello_music_voice],
             context_name='CelloMusicStaff',
             name='Cello Music Staff',
             )
@@ -472,10 +470,10 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         string_section_staff_group = abjad.StaffGroup(
             [
-                violin_music_staff, 
-                viola_music_staff, 
+                violin_music_staff,
+                viola_music_staff,
                 cello_music_staff,
-                ], 
+                ],
             context_name='StringSectionStaffGroup',
             name='String Section Staff Group',
             )
@@ -493,8 +491,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         score = abjad.Score(
             [
-            time_signature_context,
-            music_context,
+                time_signature_context,
+                music_context,
             ],
             name='Score',
             )

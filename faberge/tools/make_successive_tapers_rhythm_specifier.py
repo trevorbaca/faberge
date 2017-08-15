@@ -20,7 +20,7 @@ def make_successive_tapers_rhythm_specifier(
         division_expression = division_expression.map(baca.sequence().sum())
         division_expression = division_expression.flatten()
     rhythm_maker = abjad.rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier = abjad.rhythmmakertools.InciseSpecifier(
+        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             prefix_talea=start_talea,
             prefix_counts=[len(start_talea)],
             suffix_talea=stop_talea,

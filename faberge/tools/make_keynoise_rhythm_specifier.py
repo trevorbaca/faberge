@@ -29,7 +29,6 @@ def make_keynoise_rhythm_specifier(
     tuplet_ratios=None,
     tuplet_ratio_rotation=None,
     ):
-    import faberge
     if tuplet_ratios is None:
         tuplet_ratios = faberge.tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
