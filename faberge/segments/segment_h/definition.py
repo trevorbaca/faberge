@@ -88,7 +88,7 @@ segment_maker = baca.SegmentMaker(
     #label_clock_time=True,
     label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=faberge.materials.tempi,
+    metronome_marks=faberge.tempi,
     rehearsal_letter='H',
     score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
@@ -144,7 +144,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    (fl,fortissimo_repetition_stages),
+    (fl, fortissimo_repetition_stages),
     faberge.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
         include_colortrill=True,
