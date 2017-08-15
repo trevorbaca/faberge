@@ -9,8 +9,8 @@ class ScoreTemplate(baca.ScoreTemplate):
     ::
 
         >>> import abjad
-        >>> import baca
         >>> import faberge
+        >>> import pathlib
 
     ..  container:: example
 
