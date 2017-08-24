@@ -110,7 +110,7 @@ def make_shell_exchange_rhythm_specifier(
             counts=counts,
             denominator=8,
             ),
-        tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+        tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
             rewrite_rest_filled_tuplets=True,
             simplify_redundant_tuplets=True,
             ),

@@ -23,7 +23,7 @@ def make_lateral_click_rhythm_specifier():
                 use_feather_beams=True,
                 ),
             interpolation_specifiers=interpolation_specifiers,
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),

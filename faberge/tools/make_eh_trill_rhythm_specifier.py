@@ -31,7 +31,7 @@ def make_eh_trill_rhythm_specifier(
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
-        tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+        tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
             rewrite_rest_filled_tuplets=True,
             simplify_redundant_tuplets=True,
             ),

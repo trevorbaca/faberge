@@ -15,7 +15,7 @@ def make_meccanico_rhythm_specifier(attack_count, fuse_counts=None):
     tuplet_ratio = abjad.Ratio(attack_count * [1])
     rhythm_maker = abjad.rhythmmakertools.TupletRhythmMaker(
         tuplet_ratios=[tuplet_ratio],
-        tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+        tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
             avoid_dots=True,
             ),
         )
