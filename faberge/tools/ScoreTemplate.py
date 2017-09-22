@@ -19,7 +19,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> template = faberge.ScoreTemplate()
             >>> path = pathlib.Path(faberge.__path__[0])
-            >>> path = path / 'stylesheets' / 'context-definitions.ily'
+            >>> path = path / 'stylesheets' / 'contexts.ily'
             >>> lilypond_file = template.__illustrate__(
             ...     global_staff_size=14,
             ...     includes=[path],
