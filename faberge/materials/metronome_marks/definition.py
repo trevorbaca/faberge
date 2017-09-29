@@ -1,7 +1,7 @@
 import abjad
 
 
-tempi = abjad.TypedOrderedDict([
+metronome_marks = abjad.MetronomeMarkDictionary([
     (
         41,
         abjad.MetronomeMark(abjad.Duration(1, 4), 41),
