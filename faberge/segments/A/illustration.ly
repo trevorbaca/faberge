@@ -1228,7 +1228,7 @@
                             r2
                             r8
                         }
-                        \set Staff.instrumentName = \markup {
+                        \set FluteMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 \center-column
@@ -1237,7 +1237,7 @@
                                         flute
                                     }
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set FluteMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 \line
@@ -1740,7 +1740,7 @@
                             gs'''8
                             r4.
                         }
-                        \set Staff.instrumentName = \markup {
+                        \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 \center-column
@@ -1749,7 +1749,7 @@
                                         clarinet
                                     }
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set ClarinetMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 \line

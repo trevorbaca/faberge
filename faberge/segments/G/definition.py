@@ -43,17 +43,17 @@ stage_specifier = baca.StageSpecifier([
     ])
 
 tempo_specifier = baca.TempoSpecifier([
-    (1, faberge.tempi[80]),
-    (5, faberge.tempi[64]),
-    (9, faberge.tempi[80]),
-    (13, faberge.tempi[100]),
-    (17, faberge.tempi[80]),
-    (21, faberge.tempi[100]),
-    (25, faberge.tempi[125]),
-    (29, faberge.tempi[100]),
-    (33, faberge.tempi[125]),
+    (1, faberge.metronome_marks[80]),
+    (5, faberge.metronome_marks[64]),
+    (9, faberge.metronome_marks[80]),
+    (13, faberge.metronome_marks[100]),
+    (17, faberge.metronome_marks[80]),
+    (21, faberge.metronome_marks[100]),
+    (25, faberge.metronome_marks[125]),
+    (29, faberge.metronome_marks[100]),
+    (33, faberge.metronome_marks[125]),
     (33, abjad.Accelerando()),
-    (36, faberge.tempi[156]),
+    (36, faberge.metronome_marks[156]),
     ])
 
 maker = baca.TimeSignatureMaker(
@@ -74,7 +74,7 @@ segment_maker = baca.SegmentMaker(
     #label_clock_time=True,
     label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=faberge.tempi,
+    metronome_marks=faberge.metronome_marks,
     rehearsal_letter='G',
     score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,

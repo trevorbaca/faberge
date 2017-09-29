@@ -2,19 +2,7 @@ import abjad
 import baca
 
 
-harpsichord = abjad.Harpsichord(
-    name_markup=baca.markup.instrument('Harpsichord'),
-    short_name_markup=baca.markup.short_instrument('Hpschd.'),
-    )
-harpsichord._default_scope = 'PianoStaffGroup'
-
-piano = abjad.Piano(
-    name_markup=baca.markup.instrument('Piano'),
-    short_name_markup=baca.markup.short_instrument('Pf.'),
-    )
-piano._default_scope = 'PianoStaffGroup'
-
-instruments = abjad.TypedOrderedDict([
+instruments = abjad.InstrumentDictionary([
     (
         'flute',
         abjad.Flute(
@@ -67,11 +55,17 @@ instruments = abjad.TypedOrderedDict([
         ),
     (
         'piano',
-        piano,
+        abjad.Piano(
+            name_markup=baca.markup.instrument('Piano'),
+            short_name_markup=baca.markup.short_instrument('Pf.'),
+            )
         ),
     (
         'harpsichord',
-        harpsichord,
+        abjad.Harpsichord(
+            name_markup=baca.markup.instrument('Harpsichord'),
+            short_name_markup=baca.markup.short_instrument('Hpschd.'),
+            )
         ),
     (
         'percussion',

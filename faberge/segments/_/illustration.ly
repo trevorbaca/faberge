@@ -90,12 +90,12 @@
                 \tag flute
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set FluteMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Flute
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set FluteMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Fl.
@@ -111,7 +111,7 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set EnglishHornMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 \center-column
@@ -120,7 +120,7 @@
                                         horn
                                     }
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set EnglishHornMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 \line
@@ -193,12 +193,12 @@
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Clarinet
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set ClarinetMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Cl.
@@ -256,12 +256,12 @@
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set PercussionMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Percussion
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set PercussionMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Perc.
@@ -279,12 +279,12 @@
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set ViolinMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Violin
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set ViolinMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vn.
@@ -327,12 +327,12 @@
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \times 2/3 {
-                            \set Staff.instrumentName = \markup {
+                            \set ViolaMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Viola
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set ViolaMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Va.
@@ -374,12 +374,12 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Cello
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vc.
