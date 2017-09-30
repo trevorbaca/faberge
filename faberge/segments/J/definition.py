@@ -2,20 +2,6 @@ import abjad
 import baca
 import faberge
 
-### CONTEXT NAMES ###
-
-fl = 'Flute Music Voice'
-eh = 'English Horn Music Voice'
-cl = 'Clarinet Music Voice'
-pf_rh = 'Piano RH Music Voice'
-pf_lh = 'Piano LH Music Voice'
-pf_music = [pf_rh, pf_lh]
-pf_attack = 'Piano LH Attack Voice'
-perc = 'Percussion Music Voice'
-vn = 'Violin Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 
 ###############################################################################
 ##################################### [J] #####################################
@@ -81,19 +67,19 @@ segment_maker.validate_measures_per_stage()
 ### flute (time) ###
 
 segment_maker.append_commands(
-    fl,
+    'Flute Music Voice',
     baca.select_stages(1),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    fl,
+    'Flute Music Voice',
     baca.select_stages(2, 5),
     faberge.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    fl,
+    'Flute Music Voice',
     baca.select_stages(12, 13),
     faberge.make_airtone_pedal_rhythm_specifier(),
     )
@@ -101,13 +87,13 @@ segment_maker.append_commands(
 ### english horn (time) ###
 
 segment_maker.append_commands(
-    eh,
+    'English Horn Music Voice',
     baca.select_stages(5, 10),
     faberge.make_airtone_pedal_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    eh,
+    'English Horn Music Voice',
     baca.select_stages(12, 13),
     faberge.make_airtone_pedal_rhythm_specifier(),
     )
@@ -115,19 +101,19 @@ segment_maker.append_commands(
 ### clarinet (time) ###
 
 segment_maker.append_commands(
-    cl,
+    'Clarinet Music Voice',
     baca.select_stages(1),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    cl,
+    'Clarinet Music Voice',
     baca.select_stages(2, 7),
     faberge.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    cl,
+    'Clarinet Music Voice',
     baca.select_stages(12, 13),
     faberge.make_airtone_pedal_rhythm_specifier(),
     )
@@ -135,13 +121,13 @@ segment_maker.append_commands(
 ### piano (time) ###
 
 segment_maker.append_commands(
-    pf_rh,
+    'Piano RH Music Voice',
     baca.select_stages(3, 9),
     faberge.make_glow_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    pf_rh,
+    'Piano RH Music Voice',
     baca.select_stages(13),
     faberge.make_sparse_pegs_rhythm_specifier(),
     )
@@ -149,19 +135,19 @@ segment_maker.append_commands(
 ### percussion (time) ###
 
 segment_maker.append_commands(
-    perc,
+    'Percussion Music Voice',
     baca.select_stages(1, 2),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    perc,
+    'Percussion Music Voice',
     baca.select_stages(3),
     faberge.make_percussion_cell_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    perc,
+    'Percussion Music Voice',
     baca.select_stages(12, 13),
     faberge.make_airtone_pedal_rhythm_specifier(),
     )
@@ -169,19 +155,19 @@ segment_maker.append_commands(
 ### violin (time) ###
 
 segment_maker.append_commands(
-    vn,
+    'Violin Music Voice',
     baca.select_stages(1, 2),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    vn,
+    'Violin Music Voice',
     baca.select_stages(3, 9),
     faberge.make_clb_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    vn,
+    'Violin Music Voice',
     baca.select_stages(13),
     faberge.make_sparse_rimbalzandi_rhythm_specifier(),
     )
@@ -189,19 +175,19 @@ segment_maker.append_commands(
 ### viola (time) ###
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(1),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(2, 6),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(13),
     faberge.make_sparse_rimbalzandi_rhythm_specifier(),
     )
@@ -209,13 +195,13 @@ segment_maker.append_commands(
 ### cello (time) ###
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1, 4),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(12, 13),
     baca.messiaen_tied_notes(),
     )
