@@ -2,23 +2,9 @@ import abjad
 import baca
 import faberge
 
-### CONTEXT NAMES ###
-
-fl = 'Flute Music Voice'
-eh = 'English Horn Music Voice'
-cl = 'Clarinet Music Voice'
-pf_rh = 'Piano RH Music Voice'
-pf_lh = 'Piano LH Music Voice'
-pf_music = [pf_rh, pf_lh]
-pf_attack = 'Piano LH Attack Voice'
-perc = 'Percussion Music Voice'
-vn = 'Violin Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-tutti = [fl, eh, cl, pf_rh, pf_lh, perc, vn, va, vc]
 
 ###############################################################################
-################################ [introduction] ###############################
+##################################### [_] #####################################
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
@@ -75,7 +61,7 @@ segment_maker.validate_measures_per_stage()
 ### english horn (time) ###
 
 segment_maker.append_commands(
-    eh,
+    'English Horn Music Voice',
     baca.select_stages(3),
     faberge.make_ratchet_rhythm_specifier(),
     )
@@ -89,7 +75,7 @@ segment_maker.append_commands(
 ### violin (time) ###
 
 segment_maker.append_commands(
-    vn,
+    'Violin Music Voice',
     baca.select_stages(1),
     faberge.make_spazzolati_rhythm_specifier(
         counts_rotation=0,
@@ -99,7 +85,7 @@ segment_maker.append_commands(
 ### viola (time) ###
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(1),
     faberge.make_spazzolati_rhythm_specifier(
         counts_rotation=-1,
@@ -119,7 +105,7 @@ segment_maker.append_commands(
 ### english horn (color) ###
 
 segment_maker.append_commands(
-    eh,
+    'English Horn Music Voice',
     baca.select_stages(3),
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
@@ -136,7 +122,7 @@ segment_maker.append_commands(
 ### violin (color) ###
 
 segment_maker.append_commands(
-    vn,
+    'Violin Music Voice',
     baca.select_stages(1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
@@ -146,7 +132,7 @@ segment_maker.append_commands(
 ### viola (color) ###
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
