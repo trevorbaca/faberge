@@ -4215,15 +4215,31 @@
                         c'8 -\staccato
                         c'8 -\staccato
                         c'8 -\staccato
-                        \once \override TextScript.extra-offset = #'(-12 . -24)
+                        \once \override TextScript.extra-offset = #'(-12 . -4)
                         c'8 -\staccato \ppp ]
-                            - \markup {
-                                \italic
-                                    \right-column
-                                        {
-                                            "Madison, WI"
-                                            "Mar. - Apr. 2016"
-                                        }
+                            _ \markup {
+                                \whiteout
+                                    \upright
+                                        \with-color
+                                            #black
+                                            \right-column
+                                                {
+                                                    \line
+                                                        {
+                                                            "Madison, WI."
+                                                        }
+                                                    \line
+                                                        {
+                                                            April
+                                                            \hspace
+                                                                #0.75
+                                                            –
+                                                            \hspace
+                                                                #0.75
+                                                            May
+                                                            2016.
+                                                        }
+                                                }
                                 }
                         \bar "|."
                         \stopStaff
