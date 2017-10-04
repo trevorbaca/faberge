@@ -86,7 +86,7 @@ def make_shell_exchange_rhythm_specifier(
         abjad.mathtools.weight(counts)
     counts = filtered_counts
 
-    grouped_counts = baca.partition_sequence_by_sign_of_elements(counts)
+    grouped_counts = baca.sequence(counts).group_by_sign()
     grouped_rests = []
     for group in grouped_counts:
         if 0 < group[0]:
