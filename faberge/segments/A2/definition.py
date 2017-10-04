@@ -50,8 +50,8 @@ spacing_specifier = baca.HorizontalSpacingCommand(
 
 segment_maker = baca.SegmentMaker(
     final_barline='|.',
-    final_markup=faberge.colophon_markup,
-    final_markup_extra_offset=(-12, -24),
+    final_markup=(['Madison, WI.'], ['April', 'May 2016.']),
+    final_markup_extra_offset=(-12, -4),
     ignore_repeat_pitch_classes=True,
     instruments=faberge.instruments,
     #label_clock_time=True,
