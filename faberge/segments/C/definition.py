@@ -258,7 +258,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Piano LH Attack Voice', [baca.select_stages(5), baca.select_stages(8)]),
+    ('Piano LH Attack Voice',
+        [baca.select_stages(5), baca.select_stages(8)],
+        ),
     faberge.make_piano_attack_rhythm_specifier(),
     )
 
@@ -448,7 +450,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Piano LH Attack Voice', [baca.select_stages(5), baca.select_stages(8)]),
+    ('Piano LH Attack Voice',
+        [baca.select_stages(5), baca.select_stages(8)],
+        ),
     baca.dynamic('sfz'),
     baca.marcati(),
     baca.pitches('C#2'),

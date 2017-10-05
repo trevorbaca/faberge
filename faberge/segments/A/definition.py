@@ -303,7 +303,11 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Percussion Music Voice', [baca.select_stages(12), baca.select_stages(14, 15), baca.select_stages(17)]),
+    ('Percussion Music Voice',
+        [baca.select_stages(12),
+        baca.select_stages(14, 15),
+        baca.select_stages(17)],
+        ),
     faberge.make_shell_exchange_rhythm_specifier(
         extra_counts_per_division_rotation=2,
         total_parts=2,
