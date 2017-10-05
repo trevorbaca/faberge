@@ -158,7 +158,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Flute Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('Flute Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
         my_event_indices=[2, 4],
@@ -169,7 +171,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Flute Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('Flute Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[2, 4, 10, 12, 18, 20, 26, 28],
@@ -230,7 +234,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('English Horn Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('English Horn Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
         my_event_indices=[1, 5],
@@ -241,7 +247,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('English Horn Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('English Horn Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[1, 5, 9, 13, 17, 21, 25, 29],
@@ -308,7 +316,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Clarinet Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('Clarinet Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[2, 6, 10],
@@ -319,7 +329,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Clarinet Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('Clarinet Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[2, 6, 10, 32, 36, 40, 62, 66, 70],
@@ -368,7 +380,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Piano RH Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('Piano RH Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
         my_event_indices=[3],
@@ -379,7 +393,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Piano RH Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('Piano RH Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[3, 11, 19, 27],
@@ -416,7 +432,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Percussion Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('Percussion Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[0, 4, 8],
@@ -427,7 +445,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Percussion Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('Percussion Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[0, 4, 8, 30, 34, 38, 60, 64, 78],
@@ -494,7 +514,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Violin Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('Violin Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[3, 7, 11],
@@ -505,7 +527,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Violin Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('Violin Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[3, 7, 11, 33, 37, 41, 73, 77, 81],
@@ -632,7 +656,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Viola Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('Viola Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
         my_event_indices=[0, 6],
@@ -643,7 +669,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Viola Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('Viola Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[0, 6, 8, 14, 16, 22, 24, 30],
@@ -716,7 +744,9 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_specifiers(
-    ('Cello Music Voice', [baca.select_stages(3), baca.select_stages(5)]),
+    ('Cello Music Voice',
+        [baca.select_stages(3), baca.select_stages(5)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[1, 5, 9],
@@ -727,7 +757,9 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Cello Music Voice', [baca.select_stages(7), baca.select_stages(13)]),
+    ('Cello Music Voice',
+        [baca.select_stages(7), baca.select_stages(13)],
+        ),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
         my_event_indices=[1, 5, 9, 31, 35, 39, 61, 65, 69],
