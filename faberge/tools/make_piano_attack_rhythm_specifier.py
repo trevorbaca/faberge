@@ -13,7 +13,7 @@ def make_piano_attack_rhythm_specifier():
             ),
         replace_rests_with_skips=True,
         )
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         division_expression=None,
         rhythm_maker=rhythm_maker,
         )

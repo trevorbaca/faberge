@@ -9,7 +9,7 @@ def make_meccanico_percussion_cell_rhythm_specifier():
             denominator=4,
             ),
         )
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         #division_expression=baca.strict_quarter_divisions(),
         rhythm_maker=rhythm_maker,
         )
