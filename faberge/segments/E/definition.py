@@ -157,7 +157,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Flute Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -170,7 +170,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Flute Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),
@@ -233,7 +233,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('English Horn Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -246,7 +246,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('English Horn Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),
@@ -315,7 +315,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Clarinet Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -328,7 +328,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Clarinet Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),
@@ -379,7 +379,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Piano RH Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -392,7 +392,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Piano RH Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),
@@ -431,7 +431,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Percussion Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -444,7 +444,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Percussion Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),
@@ -513,7 +513,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Violin Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -526,7 +526,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Violin Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),
@@ -655,7 +655,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Viola Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -668,7 +668,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Viola Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),
@@ -743,7 +743,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Cello Music Voice',
         [baca.select_stages(3), baca.select_stages(5)],
         ),
@@ -756,7 +756,7 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Cello Music Voice',
         [baca.select_stages(7), baca.select_stages(13)],
         ),

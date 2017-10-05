@@ -302,7 +302,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Percussion Music Voice',
         [baca.select_stages(12),
         baca.select_stages(14, 15),
