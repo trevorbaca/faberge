@@ -7,7 +7,7 @@ import faberge
 ##################################### [G] #####################################
 ###############################################################################
 
-stage_specifier = baca.StageSpecifier([
+stage_measure_map = baca.StageMeasureMap([
     # 1-4 at 80
     abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)),
     # 5-8 at 64
@@ -28,7 +28,7 @@ stage_specifier = baca.StageSpecifier([
     abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
     ])
 
-tempo_specifier = baca.TempoSpecifier([
+metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, faberge.metronome_marks[80]),
     (5, faberge.metronome_marks[64]),
     (9, faberge.metronome_marks[80]),
@@ -45,10 +45,10 @@ tempo_specifier = baca.TempoSpecifier([
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
     rotation=-5,
-    stage_specifier=stage_specifier,
-    tempo_specifier=tempo_specifier,
+    stage_measure_map=stage_measure_map,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     )
-measures_per_stage, tempo_specifier, time_signatures = maker()
+measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
@@ -64,7 +64,7 @@ segment_maker = baca.SegmentMaker(
     rehearsal_letter='G',
     score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
-    tempo_specifier=tempo_specifier,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
     transpose_score=True,
     )
