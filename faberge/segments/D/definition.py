@@ -7,7 +7,7 @@ import faberge
 ##################################### [D] #####################################
 ###############################################################################
 
-stage_specifier = baca.StageSpecifier([
+stage_measure_map = baca.StageMeasureMap([
     # 1-3
     2,
     2,
@@ -22,17 +22,17 @@ stage_specifier = baca.StageSpecifier([
     abjad.Fermata('shortfermata'),
     ])
 
-tempo_specifier = baca.TempoSpecifier([
+metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, faberge.metronome_marks[80]),
     ])
 
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_a,
     rotation=-2,
-    stage_specifier=stage_specifier,
-    tempo_specifier=tempo_specifier,
+    stage_measure_map=stage_measure_map,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     )
-measures_per_stage, tempo_specifier, time_signatures = maker()
+measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
@@ -48,7 +48,7 @@ segment_maker = baca.SegmentMaker(
     rehearsal_letter='D',
     score_template=faberge.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
-    tempo_specifier=tempo_specifier,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
     transpose_score=True,
     )
