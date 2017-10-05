@@ -8,7 +8,7 @@ def make_sparse_rimbalzandi_rhythm_specifier():
     #        denominator=16,
     #        ),
     #    )
-    #return baca.RhythmSpecifier(
+    #return baca.RhythmCommand(
     #    rewrite_meter=True,
     #    rhythm_maker=rhythm_maker,
     #    )

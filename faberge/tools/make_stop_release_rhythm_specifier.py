@@ -14,7 +14,7 @@ def make_stop_release_rhythm_specifier():
             talea_denominator=4,
             ),
         )
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

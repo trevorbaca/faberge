@@ -41,7 +41,7 @@ def make_clb_rhythm_specifier(
             denominator=8,
             ),
         )
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         division_expression=expression,
         rhythm_maker=rhythm_maker,
         )
