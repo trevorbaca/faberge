@@ -202,19 +202,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     '''
 
-    ### CLASS VARIABLES ###
-
-    voice_abbreviations = {
-        'fl': 'Flute Music Voice',
-        'eh': 'English Horn Music Voice',
-        'cl': 'Clarinet Music Voice',
-        'pf': 'Piano Music Voice',
-        'perc': 'Percussion Music Voice',
-        'vn': 'Violin Music Voice',
-        'va': 'Viola Music Voice',
-        'vc': 'Cello Music Voice',
-        }
-
     ### SPECIAL METHODS ###
 
     def __call__(self):
