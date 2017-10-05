@@ -257,7 +257,7 @@ segment_maker.append_commands(
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Piano LH Attack Voice',
         [baca.select_stages(5), baca.select_stages(8)],
         ),
@@ -449,7 +449,7 @@ segment_maker.append_commands(
     baca.natural_harmonics(),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Piano LH Attack Voice',
         [baca.select_stages(5), baca.select_stages(8)],
         ),

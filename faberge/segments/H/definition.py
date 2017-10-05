@@ -129,7 +129,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Flute Music Voice', fortissimo_repetition_stages),
     faberge.make_flute_gears_rhythm_specifier(
         include_fluttertongue=True,
@@ -162,7 +162,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('English Horn Music Voice', fortissimo_repetition_stages),
     faberge.make_ratchet_rhythm_specifier(),
     )
@@ -208,7 +208,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Clarinet Music Voice', fortissimo_repetition_stages),
     faberge.make_clarinet_gears_rhythm_specifier(
         include_colortrill=True,
@@ -251,7 +251,7 @@ segment_maker.append_commands(
     faberge.make_piano_gears_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Piano RH Music Voice', fortissimo_repetition_stages),
     faberge.make_piano_gears_rhythm_specifier(),
     )
@@ -303,7 +303,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Percussion Music Voice', fortissimo_repetition_stages),
     faberge.make_percussion_gears_rhythm_specifier(
         include_superball=True,
@@ -357,7 +357,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Violin Music Voice', fortissimo_repetition_stages),
     faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
@@ -410,7 +410,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Viola Music Voice', fortissimo_repetition_stages),
     faberge.make_violin_gears_rhythm_specifier(
         include_spazzolati=True,
@@ -473,7 +473,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     ('Cello Music Voice', fortissimo_repetition_stages),
     faberge.make_cello_gears_rhythm_specifier(
         include_oscillando=True,
