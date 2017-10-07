@@ -29,17 +29,17 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, faberge.metronome_marks[80]),
-    (5, faberge.metronome_marks[64]),
-    (9, faberge.metronome_marks[80]),
-    (13, faberge.metronome_marks[100]),
-    (17, faberge.metronome_marks[80]),
-    (21, faberge.metronome_marks[100]),
-    (25, faberge.metronome_marks[125]),
-    (29, faberge.metronome_marks[100]),
-    (33, faberge.metronome_marks[125]),
+    (1, faberge.metronome_marks['80']),
+    (5, faberge.metronome_marks['64']),
+    (9, faberge.metronome_marks['80']),
+    (13, faberge.metronome_marks['100']),
+    (17, faberge.metronome_marks['80']),
+    (21, faberge.metronome_marks['100']),
+    (25, faberge.metronome_marks['125']),
+    (29, faberge.metronome_marks['100']),
+    (33, faberge.metronome_marks['125']),
     (33, abjad.Accelerando()),
-    (36, faberge.metronome_marks[156]),
+    (36, faberge.metronome_marks['156']),
     ])
 
 maker = baca.TimeSignatureMaker(
