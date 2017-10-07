@@ -23,7 +23,7 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, faberge.metronome_marks[80]),
+    (1, faberge.metronome_marks['80']),
     ])
 
 maker = baca.TimeSignatureMaker(
