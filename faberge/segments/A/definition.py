@@ -302,7 +302,7 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     baca.scopes(['Percussion Music Voice'], [12, (14, 15), 17]),
     faberge.make_shell_exchange_rhythm_specifier(
         extra_counts_per_division_rotation=2,

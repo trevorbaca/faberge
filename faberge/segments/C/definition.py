@@ -257,7 +257,7 @@ segment_maker.append_commands(
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     baca.scopes(['Piano LH Attack Voice'], [5, 8]),
     faberge.make_piano_attack_rhythm_specifier(),
     )
@@ -447,7 +447,7 @@ segment_maker.append_commands(
     baca.natural_harmonics(),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     baca.scopes(['Piano LH Attack Voice'], [5, 8]),
     baca.dynamic('sfz'),
     baca.marcati(),
