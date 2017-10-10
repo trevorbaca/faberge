@@ -145,7 +145,7 @@ segment_maker = baca.SegmentMaker(
 
 ### flute (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Flute Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -156,7 +156,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Flute Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
@@ -167,7 +167,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Flute Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -178,39 +178,39 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Flute Music Voice', 11),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Flute Music Voice', 15),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Flute Music Voice', 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Flute Music Voice', 19, 25),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Flute Music Voice', 27),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Flute Music Voice', 36),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 ### english horn (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -221,7 +221,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['English Horn Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
@@ -232,7 +232,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['English Horn Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -243,44 +243,44 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 8, 9),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 11),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 14, 15),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 19, 23),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 25),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('English Horn Music Voice', 27),
     baca.messiaen_tied_notes(),
     )
 
 ### clarinet (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Clarinet Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -291,7 +291,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Clarinet Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -302,7 +302,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Clarinet Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -313,29 +313,29 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Clarinet Music Voice', 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Clarinet Music Voice', 19, 25),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Clarinet Music Voice', 27),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Clarinet Music Voice', 36),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 ### piano (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Piano RH Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -346,7 +346,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Piano RH Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
@@ -357,7 +357,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Piano RH Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -368,19 +368,19 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Piano RH Music Voice', 20),
     faberge.make_clb_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Piano RH Music Voice', 22),
     faberge.make_clb_rhythm_specifier(),
     )
 
 ### percussion (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -391,7 +391,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Percussion Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -402,7 +402,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Percussion Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -413,44 +413,44 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 8, 9),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 11),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 14, 15),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 19, 32),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 34),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Percussion Music Voice', 36),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
 ### violin (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -461,7 +461,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Violin Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -472,7 +472,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Violin Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -483,94 +483,94 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 8, 9),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 11),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 14, 15),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 19),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 20),
     faberge.make_clb_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 21),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 22),
     faberge.make_clb_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 23),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 24),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 25),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 26),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 27),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 28),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 31),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 36),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Music Voice', 38),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
 ### viola (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -581,7 +581,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Viola Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=7,
@@ -592,7 +592,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Viola Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -603,49 +603,49 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 20),
     faberge.make_clb_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 22),
     faberge.make_clb_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 24),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 26),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 28),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 31),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 36),
     faberge.make_shell_transition_rhythm_specifier(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 38),
     faberge.make_spazzolati_rhythm_specifier(),
     )
 
 ### cello (time) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 1),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=8,
@@ -656,7 +656,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Cello Music Voice'], [3, 5]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -667,7 +667,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(['Cello Music Voice'], [7, 13]),
     faberge.make_airtone_chain_rhythm_specifier(
         total_events=100,
@@ -678,12 +678,12 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 19, 29),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 36),
     faberge.make_shell_transition_rhythm_specifier(),
     )
@@ -700,7 +700,7 @@ segment_maker.scope(
 
 ### piano (color) ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Piano RH Music Voice', 1),
     # TODO: implement baca.instrument_change()
     #faberge.instruments['piano']
