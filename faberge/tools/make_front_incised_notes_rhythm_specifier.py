@@ -13,7 +13,7 @@ def make_front_incised_notes_rhythm_specifier(
         _.with_denominator(lcm) for _ in start_rest_durations
         ]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
-    rhythm_specifier = baca.RhythmCommand(
+    rhythm_specifier = baca.RhythmBuilder(
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             division_masks=division_masks,
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(

@@ -15,7 +15,7 @@ def make_lateral_click_rhythm_specifier():
             written_duration=abjad.Duration(1, 16),
             ),
         ]
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
                 beam_rests=True,

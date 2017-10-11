@@ -21,7 +21,7 @@ def make_violin_gears_rhythm_specifier(
             denominator=16,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

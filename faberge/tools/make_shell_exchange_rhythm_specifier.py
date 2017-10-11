@@ -115,6 +115,6 @@ def make_shell_exchange_rhythm_specifier(
             simplify_redundant_tuplets=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         rhythm_maker=rhythm_maker,
         )
