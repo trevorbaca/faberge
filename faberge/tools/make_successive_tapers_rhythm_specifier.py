@@ -32,7 +32,7 @@ def make_successive_tapers_rhythm_specifier(
             use_messiaen_style_ties=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         division_expression=division_expression,
         rhythm_maker=rhythm_maker,
         )

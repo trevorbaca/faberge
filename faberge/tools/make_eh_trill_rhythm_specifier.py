@@ -36,7 +36,7 @@ def make_eh_trill_rhythm_specifier(
             simplify_redundant_tuplets=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         division_expression=division_expression,
         rhythm_maker=rhythm_maker,
         )

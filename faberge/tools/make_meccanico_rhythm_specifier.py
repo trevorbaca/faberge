@@ -19,7 +19,7 @@ def make_meccanico_rhythm_specifier(attack_count, fuse_counts=None):
             avoid_dots=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         division_expression=division_expression,
         rhythm_maker=rhythm_maker,
         )
