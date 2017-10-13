@@ -916,7 +916,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 2),
-    baca.dynamic('pp', selector=baca.select_pl(0)),
+    baca.dynamic('pp', target=baca.select_pl(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -937,13 +937,13 @@ segment_maker(
     baca.scope('Viola Music Voice', 3),
     baca.hairpins(
         ['pp < mp'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 5),
-    baca.dynamic('pp', selector=baca.select_pl(0)),
+    baca.dynamic('pp', target=baca.select_pl(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -964,13 +964,13 @@ segment_maker(
     baca.scope('Viola Music Voice', 6),
     baca.hairpins(
         ['pp < mp'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 8),
-    baca.dynamic('pp', selector=baca.select_pl(0)),
+    baca.dynamic('pp', target=baca.select_pl(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -991,13 +991,13 @@ segment_maker(
     baca.scope('Viola Music Voice', 9),
     baca.hairpins(
         ['pp < mp'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 12),
-    baca.dynamic('pp', selector=baca.select_pl(0)),
+    baca.dynamic('pp', target=baca.select_pl(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -1027,7 +1027,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 14),
     baca.hairpins(
         ['pp < mp'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     )
 
@@ -1061,7 +1061,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 1, 2),
     baca.hairpins(
         ['p < f'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     baca.transition_spanner(
         baca.markup.tasto_plus_poco_vib(),
@@ -1074,7 +1074,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 4, 6),
     baca.hairpins(
         ['f > p'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     baca.transition_spanner(
         baca.markup.PO_plus_poco_vib(False, False),
@@ -1087,7 +1087,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 9, 10),
     baca.hairpins(
         ['p < ff'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     baca.transition_spanner(
         baca.markup.tasto_plus_poco_vib(False, False),
@@ -1098,7 +1098,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 13),
-    baca.dynamic('ppp'),
+    baca.dynamic('ppp', target=baca.select_pl(0)),
     baca.markup.poco_pont_plus_sub_non_vib(False, True),
     )
 
@@ -1106,7 +1106,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 14, 15),
     baca.hairpins(
         ['ff > pp'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     baca.transition_spanner(
         baca.markup.poco_pont_plus_sub_vib_mod(False, True),
@@ -1119,7 +1119,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 16),
     baca.hairpins(
         ['pp < p'],
-        selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(leak=Right),
         ),
     baca.transition_spanner(
         None,
