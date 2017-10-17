@@ -6,6 +6,6 @@ def make_dal_niente_hairpins(stop_dynamic):
     return baca.hairpins(
         [descriptor],
         include_rests=True,
-        selector=baca.select_leaves(leak=Right),
-        target=baca.select_leaves(),
+        selector=baca.select().leaves(leak=Right),
+        target=baca.select().leaves(),
         )
