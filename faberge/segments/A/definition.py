@@ -764,7 +764,7 @@ segment_maker(
     baca.fixed_pitches('D4 D4 B3'),
     baca.two_line_staff(),
     baca.clef_spanner('percussion'),
-    baca.pervasive_trills(selector=baca.select_leaves(stop=-1)),
+    baca.pervasive_trills(selector=baca.select_leaves()[:-1]),
     # TODO: check selector:
     faberge.markup.castanets(),
     baca.accents(),
