@@ -88,12 +88,12 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('Flute Music Voice', 1, 4),
-    faberge.make_glow_rhythm_specifier(),
+    faberge.glow_rhythm(),
     )
 
 segment_maker(
     baca.scope('Flute Music Voice', 7),
-    faberge.make_flute_gears_rhythm_specifier(
+    faberge.flute_gears_rhythm(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -102,7 +102,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 9),
-    faberge.make_flute_gears_rhythm_specifier(
+    faberge.flute_gears_rhythm(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -111,7 +111,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 11),
-    faberge.make_flute_gears_rhythm_specifier(
+    faberge.flute_gears_rhythm(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -120,7 +120,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Flute Music Voice'], fortissimo_repetition_stages),
-    faberge.make_flute_gears_rhythm_specifier(
+    faberge.flute_gears_rhythm(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -129,7 +129,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 25, 26),
-    faberge.make_flute_gears_rhythm_specifier(
+    faberge.flute_gears_rhythm(
         include_fluttertongue=True,
         include_colortrill=True,
         include_tone=True,
@@ -140,7 +140,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('English Horn Music Voice', 7),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=99,
         my_event_indices=[0, 2, 7],
         counts=faberge.decreasing_counts,
@@ -151,24 +151,24 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['English Horn Music Voice'], fortissimo_repetition_stages),
-    faberge.make_ratchet_rhythm_specifier(),
+    faberge.ratchet_rhythm(),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 25, 27),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 ### clarinet (time) ###
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 1, 4),
-    faberge.make_glow_rhythm_specifier(),
+    faberge.glow_rhythm(),
     )
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 7),
-    faberge.make_clarinet_gears_rhythm_specifier(
+    faberge.clarinet_gears_rhythm(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -176,7 +176,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 9),
-    faberge.make_clarinet_gears_rhythm_specifier(
+    faberge.clarinet_gears_rhythm(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -184,7 +184,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 11),
-    faberge.make_clarinet_gears_rhythm_specifier(
+    faberge.clarinet_gears_rhythm(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -192,7 +192,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Clarinet Music Voice'], fortissimo_repetition_stages),
-    faberge.make_clarinet_gears_rhythm_specifier(
+    faberge.clarinet_gears_rhythm(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -200,7 +200,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 25, 26),
-    faberge.make_clarinet_gears_rhythm_specifier(
+    faberge.clarinet_gears_rhythm(
         include_colortrill=True,
         include_tone=True,
         ),
@@ -210,39 +210,39 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 1, 3),
-    faberge.make_piano_gears_rhythm_specifier(),
+    faberge.piano_gears_rhythm(),
     )
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 7),
-    faberge.make_piano_gears_rhythm_specifier(),
+    faberge.piano_gears_rhythm(),
     )
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 9),
-    faberge.make_piano_gears_rhythm_specifier(),
+    faberge.piano_gears_rhythm(),
     )
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 11),
-    faberge.make_piano_gears_rhythm_specifier(),
+    faberge.piano_gears_rhythm(),
     )
 
 segment_maker(
     baca.scopes(['Piano RH Music Voice'], fortissimo_repetition_stages),
-    faberge.make_piano_gears_rhythm_specifier(),
+    faberge.piano_gears_rhythm(),
     )
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 25, 26),
-    faberge.make_piano_gears_rhythm_specifier(),
+    faberge.piano_gears_rhythm(),
     )
 
 ### percussion (time) ###
 
 segment_maker(
     baca.scope('Percussion Music Voice', 1, 3),
-    faberge.make_percussion_gears_rhythm_specifier(
+    faberge.percussion_gears_rhythm(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -250,7 +250,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 7),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=99,
         my_event_indices=[1, 3, 5],
         counts=faberge.decreasing_counts,
@@ -261,7 +261,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 9),
-    faberge.make_percussion_gears_rhythm_specifier(
+    faberge.percussion_gears_rhythm(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -269,7 +269,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 11),
-    faberge.make_percussion_gears_rhythm_specifier(
+    faberge.percussion_gears_rhythm(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -277,7 +277,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Percussion Music Voice'], fortissimo_repetition_stages),
-    faberge.make_percussion_gears_rhythm_specifier(
+    faberge.percussion_gears_rhythm(
         include_superball=True,
         include_fingertapping=True,
         ),
@@ -285,19 +285,19 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 25, 27),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 ### violin (time) ###
 
 segment_maker(
     baca.scope('Violin Music Voice', 1, 5),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 7),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=99,
         my_event_indices=[4, 6],
         counts=faberge.decreasing_counts,
@@ -308,7 +308,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 9),
-    faberge.make_violin_gears_rhythm_specifier(
+    faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -317,7 +317,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 11),
-    faberge.make_violin_gears_rhythm_specifier(
+    faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -326,7 +326,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Violin Music Voice'], fortissimo_repetition_stages),
-    faberge.make_violin_gears_rhythm_specifier(
+    faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -335,19 +335,19 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 25, 28),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 ### viola (time) ###
 
 segment_maker(
     baca.scope('Viola Music Voice', 1, 5),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 7),
-    faberge.make_violin_gears_rhythm_specifier(
+    faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -356,7 +356,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 9),
-    faberge.make_violin_gears_rhythm_specifier(
+    faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -365,7 +365,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 11),
-    faberge.make_violin_gears_rhythm_specifier(
+    faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -374,7 +374,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Viola Music Voice'], fortissimo_repetition_stages),
-    faberge.make_violin_gears_rhythm_specifier(
+    faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
         include_xfb=True,
@@ -383,14 +383,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 25, 28),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 ### cello (time) ###
 
 segment_maker(
     baca.scope('Cello Music Voice', 1, 3),
-    faberge.make_cello_gears_rhythm_specifier(
+    faberge.cello_gears_rhythm(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -399,12 +399,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 4, 5),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 7),
-    faberge.make_cello_gears_rhythm_specifier(
+    faberge.cello_gears_rhythm(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -413,7 +413,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 9),
-    faberge.make_cello_gears_rhythm_specifier(
+    faberge.cello_gears_rhythm(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -422,7 +422,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 11),
-    faberge.make_cello_gears_rhythm_specifier(
+    faberge.cello_gears_rhythm(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -431,7 +431,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Cello Music Voice'], fortissimo_repetition_stages),
-    faberge.make_cello_gears_rhythm_specifier(
+    faberge.cello_gears_rhythm(
         include_oscillando=True,
         include_glissando=True,
         include_tremolo=True,
@@ -440,7 +440,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 25, 28),
-    faberge.make_electricity_rhythm_specifier(),
+    faberge.electricity_rhythm(),
     )
 
 ###############################################################################
