@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 
@@ -15,4 +16,7 @@ def make_niente_swells(dynamics):
     assert len(dynamics) == 1, repr(dynamics)
     assert isinstance(dynamics[0], str), repr(dynamics)
     dynamic = dynamics[0]
-    return baca.niente_swell(dynamic, selector=baca.select().leaves(leak=Right))
+    return baca.niente_swell(
+        dynamic,
+        selector=baca.select().leaves(leak=Right).wrap(),
+        )
