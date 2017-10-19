@@ -766,7 +766,6 @@ segment_maker(
     baca.scope('Percussion Music Voice', 12, 14),
     baca.hairpins(
         ['pp > niente'],
-        include_rests=True,
         selector=baca.select().leaves(leak=abjad.Right).wrap(),
         ),
     )
