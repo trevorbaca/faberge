@@ -12,5 +12,5 @@ def increasing_dal_niente_hairpins():
     descriptors += 20 * ['niente < f']
     return baca.hairpins(
         descriptors,
-        selector=baca.select().leaves(leak=abjad.Right).wrap(),
+        selector=baca.select().rleaves().wrap(),
         )
