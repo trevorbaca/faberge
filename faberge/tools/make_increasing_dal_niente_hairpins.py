@@ -13,5 +13,4 @@ def make_increasing_dal_niente_hairpins():
         descriptors,
         include_rests=True,
         selector=baca.select().leaves(leak=Right),
-        target=baca.select().leaves(),
         )
