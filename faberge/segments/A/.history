@@ -68,3 +68,13 @@ LilyPond runtime: 6 seconds
 Segment runtime: 96 seconds
 Abjad runtime: 4 seconds
 LilyPond runtime: 6 seconds
+
+2017-10-19 12:38:25
+Segment runtime: 87 seconds
+Abjad runtime: 3 seconds
+LilyPond runtime: 6 seconds
+
+2017-10-19 12:50:50
+Segment runtime: 164 seconds
+Abjad runtime: 9 seconds
+LilyPond runtime: 12 seconds

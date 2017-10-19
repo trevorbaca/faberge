@@ -517,28 +517,28 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 2),
     baca.dynamic('f'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.pitches('E4 Eb~4 E~4 E4 E#+4'),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 5),
     baca.dynamic('f'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.pitches('F#4 F#+4 E#4 E#+4'),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 8),
     baca.dynamic('f'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 12),
     baca.dynamic('f'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.pitches('A#4 A+4 A#+4'),
     )
 
@@ -553,7 +553,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 17),
     baca.dynamic('f'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.pitches('C4 C+4 C~4 C#4'),
     )
 
@@ -764,7 +764,8 @@ segment_maker(
     baca.fixed_pitches('D4 D4 B3'),
     baca.two_line_staff(),
     baca.clef_spanner('percussion'),
-    baca.pervasive_trills(selector=baca.select().leaves()[:-1]),
+    #baca.trills(selector=baca.select().leaves()[:-1]),
+    baca.trills(),
     # TODO: check selector:
     faberge.markup.castanets(),
     baca.accents(),
