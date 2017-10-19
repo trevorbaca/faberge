@@ -62,7 +62,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('English Horn Music Voice', 3),
-    faberge.make_ratchet_rhythm_specifier(),
+    faberge.ratchet_rhythm(),
     )
 
 ### clarinet (time) ###
@@ -75,7 +75,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 1),
-    faberge.make_spazzolati_rhythm_specifier(
+    faberge.spazzolati_rhythm(
         counts_rotation=0,
         ),
     )
@@ -84,7 +84,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 1),
-    faberge.make_spazzolati_rhythm_specifier(
+    faberge.spazzolati_rhythm(
         counts_rotation=-1,
         extra_counts_per_division=[1],
         denominator=8,

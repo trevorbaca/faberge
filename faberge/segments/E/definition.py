@@ -147,7 +147,7 @@ segment_maker = baca.SegmentMaker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[2],
         counts=faberge.decreasing_counts,
@@ -158,7 +158,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Flute Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[2, 4],
         counts=faberge.decreasing_counts,
@@ -169,7 +169,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Flute Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[2, 4, 10, 12, 18, 20, 26, 28],
         counts=faberge.decreasing_counts,
@@ -205,14 +205,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 36),
-    faberge.make_shell_transition_rhythm_specifier(),
+    faberge.shell_transition_rhythm(),
     )
 
 ### english horn (time) ###
 
 segment_maker(
     baca.scope('English Horn Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[1],
         counts=faberge.decreasing_counts,
@@ -223,7 +223,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['English Horn Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[1, 5],
         counts=faberge.decreasing_counts,
@@ -234,7 +234,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['English Horn Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[1, 5, 9, 13, 17, 21, 25, 29],
         counts=faberge.decreasing_counts,
@@ -282,7 +282,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[6],
         counts=faberge.decreasing_counts,
@@ -293,7 +293,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Clarinet Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[2, 6, 10],
         counts=faberge.irregular_counts,
@@ -304,7 +304,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Clarinet Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[2, 6, 10, 32, 36, 40, 62, 66, 70],
         counts=faberge.irregular_counts,
@@ -330,14 +330,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 36),
-    faberge.make_shell_transition_rhythm_specifier(),
+    faberge.shell_transition_rhythm(),
     )
 
 ### piano (time) ###
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[3],
         counts=faberge.decreasing_counts,
@@ -348,7 +348,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Piano RH Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[3],
         counts=faberge.decreasing_counts,
@@ -359,7 +359,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Piano RH Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[3, 11, 19, 27],
         counts=faberge.decreasing_counts,
@@ -370,19 +370,19 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 20),
-    faberge.make_clb_rhythm_specifier(),
+    faberge.clb_rhythm(),
     )
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 22),
-    faberge.make_clb_rhythm_specifier(),
+    faberge.clb_rhythm(),
     )
 
 ### percussion (time) ###
 
 segment_maker(
     baca.scope('Percussion Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[4],
         counts=faberge.decreasing_counts,
@@ -393,7 +393,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Percussion Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[0, 4, 8],
         counts=faberge.irregular_counts,
@@ -404,7 +404,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Percussion Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[0, 4, 8, 30, 34, 38, 60, 64, 78],
         counts=faberge.irregular_counts,
@@ -445,14 +445,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 36),
-    faberge.make_shell_transition_rhythm_specifier(),
+    faberge.shell_transition_rhythm(),
     )
 
 ### violin (time) ###
 
 segment_maker(
     baca.scope('Violin Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[7],
         counts=faberge.decreasing_counts,
@@ -463,7 +463,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Violin Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[3, 7, 11],
         counts=faberge.irregular_counts,
@@ -474,7 +474,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Violin Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[3, 7, 11, 33, 37, 41, 73, 77, 81],
         counts=faberge.irregular_counts,
@@ -510,7 +510,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 20),
-    faberge.make_clb_rhythm_specifier(),
+    faberge.clb_rhythm(),
     )
 
 segment_maker(
@@ -520,7 +520,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 22),
-    faberge.make_clb_rhythm_specifier(),
+    faberge.clb_rhythm(),
     )
 
 segment_maker(
@@ -530,7 +530,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 24),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
@@ -540,7 +540,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 26),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
@@ -550,29 +550,29 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 28),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 31),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 36),
-    faberge.make_shell_transition_rhythm_specifier(),
+    faberge.shell_transition_rhythm(),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 38),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 ### viola (time) ###
 
 segment_maker(
     baca.scope('Viola Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[0],
         counts=faberge.decreasing_counts,
@@ -583,7 +583,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Viola Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[0, 6],
         counts=faberge.decreasing_counts,
@@ -594,7 +594,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Viola Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[0, 6, 8, 14, 16, 22, 24, 30],
         counts=faberge.decreasing_counts,
@@ -605,49 +605,49 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 20),
-    faberge.make_clb_rhythm_specifier(),
+    faberge.clb_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 22),
-    faberge.make_clb_rhythm_specifier(),
+    faberge.clb_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 24),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 26),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 28),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 31),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 36),
-    faberge.make_shell_transition_rhythm_specifier(),
+    faberge.shell_transition_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 38),
-    faberge.make_spazzolati_rhythm_specifier(),
+    faberge.spazzolati_rhythm(),
     )
 
 ### cello (time) ###
 
 segment_maker(
     baca.scope('Cello Music Voice', 1),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=8,
         my_event_indices=[5],
         counts=faberge.decreasing_counts,
@@ -658,7 +658,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Cello Music Voice'], [3, 5]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[1, 5, 9],
         counts=faberge.irregular_counts,
@@ -669,7 +669,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Cello Music Voice'], [7, 13]),
-    faberge.make_airtone_chain_rhythm_specifier(
+    faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[1, 5, 9, 31, 35, 39, 61, 65, 69],
         counts=faberge.irregular_counts,
@@ -685,7 +685,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 36),
-    faberge.make_shell_transition_rhythm_specifier(),
+    faberge.shell_transition_rhythm(),
     )
 
 ###############################################################################
