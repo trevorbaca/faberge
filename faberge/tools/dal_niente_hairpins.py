@@ -6,5 +6,5 @@ def dal_niente_hairpins(stop_dynamic):
     descriptor = f'niente < {stop_dynamic}'
     return baca.hairpins(
         [descriptor],
-        selector=baca.select().rleaves().wrap(),
+        selector=baca.select().rleaves().group(),
         )
