@@ -917,7 +917,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 2),
-    baca.dynamic('pp', baca.select().pl(0)),
+    baca.dynamic('pp', baca.select().pleaf(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -944,7 +944,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 5),
-    baca.dynamic('pp', baca.select().pl(0)),
+    baca.dynamic('pp', baca.select().pleaf(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -971,7 +971,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 8),
-    baca.dynamic('pp', baca.select().pl(0)),
+    baca.dynamic('pp', baca.select().pleaf(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -998,7 +998,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 12),
-    baca.dynamic('pp', baca.select().pl(0)),
+    baca.dynamic('pp', baca.select().pleaf(0)),
     baca.transition_spanner(
         None,
         baca.markup.tasto(),
@@ -1099,7 +1099,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 13),
-    baca.dynamic('ppp', baca.select().pl(0)),
+    baca.dynamic('ppp', baca.select().pleaf(0)),
     baca.markup.poco_pont_plus_sub_non_vib(False, True),
     )
 
