@@ -111,7 +111,7 @@ segment_maker(
     faberge.glow_rhythm(
         division_masks=[
             abjad.sustain_every(indices=[6, 7], period=18, inverted=True),
-            abjad.silence_last(),
+            abjad.silence_last(1),
             ],
         tuplet_ratio_rotation=0,
         ),
