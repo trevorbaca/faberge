@@ -737,7 +737,7 @@ segment_maker(
 segment_maker(
     baca.scope('Percussion Music Voice', 2),
     baca.clef('bass'),
-    faberge.markup.to_marimba(baca.select().leaf()),
+    faberge.markup.to_marimba(baca.select().leaf(0)),
     )
 
 segment_maker(
