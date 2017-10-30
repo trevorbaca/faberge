@@ -1032,7 +1032,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 9, 14),
-    baca.glissandi(),
+    baca.glissando(),
     )
 
 segment_maker(
