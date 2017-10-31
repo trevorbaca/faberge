@@ -647,7 +647,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 10, 14),
     baca.cross_note_heads(),
-    baca.hairpins(['> niente']),
+    baca.hairpin('> niente'),
     faberge.keynoise_pitches(rotation=-3)
     )
 
@@ -764,10 +764,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 12, 14),
-    baca.hairpins(
-        ['pp > niente'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('pp > niente', baca.select().rleaves()),
     )
 
 segment_maker(
@@ -809,7 +806,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 3, 5),
-    baca.hairpins(['ff > niente']),
+    baca.hairpin('ff > niente'),
     )
 
 segment_maker(
@@ -821,15 +818,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 9),
-    baca.hairpins(
-        ['ppp < f'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('ppp < f', baca.select().rleaves()),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 10, 11),
-    baca.hairpins(['f > ppp']),
+    baca.hairpin('f > ppp'),
     )
 
 segment_maker(
@@ -847,10 +841,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 12, 13),
-    baca.hairpins(
-        ['ppp < mf'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('ppp < mf', baca.select().rleaves()),
     )
 
 segment_maker(
@@ -866,7 +857,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 17),
-    baca.hairpins(['mf > ppp']),
+    baca.hairpin('mf > ppp'),
     baca.markup.make_markup('col legno battuto'),
     baca.staccati(),
     faberge.clb_pitches(rotation=-3),
@@ -893,7 +884,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 3, 5),
-    baca.hairpins(['ff > niente']),
+    baca.hairpin('ff > niente'),
     )
 
 segment_maker(
@@ -905,15 +896,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 9),
-    baca.hairpins(
-        ['pp < f'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('pp < f', baca.select().rleaves()),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 10, 11),
-    baca.hairpins(['f > ppp']),
+    baca.hairpin('f > ppp'),
     )
 
 segment_maker(
@@ -927,15 +915,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 12, 13),
-    baca.hairpins(
-        ['ppp < mf'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('ppp < mf', baca.select().rleaves()),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 17),
-    baca.hairpins(['mf > ppp']),
+    baca.hairpin('mf > ppp'),
     )
 
 ### cello (color) ###
@@ -952,10 +937,7 @@ segment_maker(
         baca.markup.molto_pont_plus_vib_molto(True, True),
         selector=baca.select().rleaves().group(),
         ),
-    baca.hairpins(
-        ['p < ff'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('p < ff', baca.select().rleaves()),
     )
 
 segment_maker(
@@ -965,10 +947,7 @@ segment_maker(
         baca.markup.tasto_plus_poco_vib(True, True),
         selector=baca.select().rleaves().group(),
         ),
-    baca.hairpins(
-        ['ff > p'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('ff > p', baca.select().rleaves()),
     )
 
 segment_maker(
@@ -1001,10 +980,7 @@ segment_maker(
         baca.markup.PO(),
         selector=baca.select().rleaves().group(),
         ),
-    baca.hairpins(
-        ['p < ff'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('p < ff', baca.select().rleaves()),
     )
 
 segment_maker(
@@ -1024,10 +1000,7 @@ segment_maker(
         baca.markup.tasto_poss(),
         selector=baca.select().rleaves().group(),
         ),
-    baca.hairpins(
-        ['ff > niente'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('ff > niente', baca.select().rleaves()),
     )
 
 segment_maker(
@@ -1047,8 +1020,5 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 17),
-    baca.hairpins(
-        ['mf > ppp'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('mf > ppp', baca.select().rleaves()),
     )
