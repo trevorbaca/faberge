@@ -308,13 +308,13 @@ segment_maker(
 # apotheosis
 segment_maker(
     baca.scope('English Horn Music Voice', 8),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 # apotheosis cont
 segment_maker(
     baca.scope('English Horn Music Voice', 9),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -331,7 +331,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('English Horn Music Voice', 16),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ### clarinet (time) ###
@@ -369,7 +369,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 1, 9),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -416,7 +416,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 16),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ### violin (time) ###
@@ -435,7 +435,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 6, 11),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -445,7 +445,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 16),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(

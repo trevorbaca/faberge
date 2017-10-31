@@ -12,4 +12,4 @@ def sparse_rimbalzandi_rhythm():
     #    rewrite_meter=True,
     #    rhythm_maker=rhythm_maker,
     #    )
-    return baca.messiaen_tied_notes()
+    return baca.tied_notes(repeat_ties=True)

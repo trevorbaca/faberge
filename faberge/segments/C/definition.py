@@ -234,7 +234,7 @@ segment_maker(
         ['Piano RH Music Voice', 'Piano LH Music Voice'],
         [(5, 14)],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -246,12 +246,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 3),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Percussion Music Voice', 8),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -287,12 +287,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 6),
-    baca.messiaen_notes(),
+    baca.notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 12, 15),
-    baca.messiaen_notes(),
+    baca.notes(repeat_ties=True),
     )
 
 ### viola (time) ###
@@ -378,12 +378,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 6),
-    baca.messiaen_notes(),
+    baca.notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 12, 15),
-    baca.messiaen_notes(),
+    baca.notes(repeat_ties=True),
     )
 
 ###############################################################################
