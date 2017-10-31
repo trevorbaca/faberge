@@ -1347,14 +1347,14 @@
                         ctqs''4.. \startTrillSpan
                         ctqs''16 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        bs'8. ] \stopTrillSpan \startTrillSpan
+                        bs'8. ]
                         r4 \stopTrillSpan
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         btqs'8. \startTrillSpan
                         btqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        cs''4.. \stopTrillSpan \startTrillSpan
+                        cs''4..
                         cs''4 \repeatTie
                         r16 \stopTrillSpan
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1377,7 +1377,7 @@
                         dqs''2... \startTrillSpan
                         dqs''16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        dtqs''2... \stopTrillSpan \startTrillSpan
+                        dtqs''2...
                         r2. \stopTrillSpan
                         s1 * 15/2
                         r4
@@ -1389,7 +1389,7 @@
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs''4 \startTrillSpan
-                        etqs''4.. \stopTrillSpan \startTrillSpan
+                        etqs''4..
                         etqs''2 \repeatTie
                         etqs''2 \repeatTie
                         r4 \stopTrillSpan
@@ -1516,7 +1516,7 @@
                         gqf'2 \repeatTie
                         gqf'16 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        gs'8. ] \stopTrillSpan \startTrillSpan
+                        gs'8. ]
                         r2. \stopTrillSpan
                         \bar "|"
                     }
@@ -2640,12 +2640,19 @@
                                     \override
                                         #'(box-padding . 0.5)
                                         \box
-                                            "bass drum"
+                                            castanets
                                 }
                         r16 \stopTrillSpan
                         d'2... -\accent \startTrillSpan
-                        b2. -\accent \stopTrillSpan \startTrillSpan
-                        r1 \stopTrillSpan
+                        b2. -\accent \stopTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "bass drum"
+                                }
+                        r1
                         \clef "treble"
                         \stopStaff
                         \startStaff

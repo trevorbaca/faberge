@@ -1902,12 +1902,12 @@
                         atqf'8. \startTrillSpan
                         atqf'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        af'2 \stopTrillSpan \startTrillSpan
-                        atqf'4.. \stopTrillSpan \startTrillSpan
+                        af'2
+                        atqf'4..
                         atqf'2 \repeatTie
                         atqf'16 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqf'8. ] \stopTrillSpan \startTrillSpan
+                        aqf'8. ]
                         aqf'1 \repeatTie
                         r4 \stopTrillSpan
                         {
@@ -2020,7 +2020,7 @@
                         aqf'4 \repeatTie
                         r16 \stopTrillSpan
                         af'4.. \startTrillSpan
-                        aqf'2 \stopTrillSpan \startTrillSpan
+                        aqf'2
                         r2 \stopTrillSpan
                         bf'2. \fff \startTrillSpan
                             ^ \markup {

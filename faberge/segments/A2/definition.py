@@ -610,7 +610,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 4),
     baca.dynamic('f'),
-    baca.trills(),
+    baca.map(baca.trill(), baca.select().runs()),
     baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
     )
 
@@ -624,23 +624,23 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 6, 7),
     baca.dynamic('ff'),
-    baca.trills(),
+    baca.map(baca.trill(), baca.select().runs()),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 8),
     baca.dynamic('fff'),
-    faberge.markup.doubletrill(),
+    baca.map(baca.trill(), baca.select().runs()),
     baca.pitches('Eb4'),
-    baca.trills(),
+    faberge.markup.doubletrill(),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 9),
     baca.dynamic('fff'),
+    baca.map(baca.trill(), baca.select().runs()),
     baca.pitches('E4'),
-    baca.trills(),
     faberge.markup.doubletrill(),
     )
 
