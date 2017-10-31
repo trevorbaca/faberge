@@ -229,7 +229,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 1, 16),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(

@@ -2,4 +2,4 @@ import baca
 
 
 def marimba_pedal_rhythm():
-    return baca.messiaen_tied_notes()
+    return baca.tied_notes(repeat_ties=True)

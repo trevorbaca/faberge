@@ -302,27 +302,27 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Percussion Music Voice', 7),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Percussion Music Voice', 9),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Percussion Music Voice', 13),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Percussion Music Voice', 15),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
