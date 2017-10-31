@@ -29,7 +29,7 @@ def eh_trill_rhythm(
             denominator=16,
             ),
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+            repeat_ties=True,
             ),
         tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
             rewrite_rest_filled_tuplets=True,
