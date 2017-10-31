@@ -18,7 +18,7 @@ def glow_rhythm(
         division_masks=division_masks,
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
-            use_messiaen_style_ties=True,
+            repeat_ties=True,
             ),
         tuplet_ratios=tuplet_ratios,
         )

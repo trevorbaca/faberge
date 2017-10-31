@@ -29,7 +29,7 @@ def successive_tapers_rhythm(
             ),
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_consecutive_notes=True,
-            use_messiaen_style_ties=True,
+            repeat_ties=True,
             ),
         )
     return baca.RhythmBuilder(
