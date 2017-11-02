@@ -80,11 +80,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 1),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([2, 3, 6], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=0,
         ),
@@ -94,11 +94,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 2),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([0, 6, 7], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-1,
         ),
@@ -108,11 +108,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 3),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([2, 3, 6], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-2,
         ),
@@ -122,11 +122,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 4),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([0, 6, 7], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-3,
         ),
@@ -136,11 +136,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 5),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([2, 3, 6], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-4,
         ),
@@ -150,11 +150,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 6),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([0, 6, 7], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-5,
         ),
@@ -164,11 +164,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 7),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
+            ~abjad.sustain([2, 3, 6], 9),
             abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-6,
         ),
@@ -178,11 +178,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 8),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([0, 6, 7], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-7,
         ),
@@ -192,11 +192,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 9),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([2, 3, 6], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-8,
         ),
@@ -206,11 +206,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 10),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([0, 6, 7], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-9,
         ),
@@ -220,11 +220,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 11),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([2, 3, 6], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-10,
         ),
@@ -234,11 +234,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 12),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([0, 6, 7], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-11,
         ),
@@ -248,11 +248,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 13, 14),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[2, 3, 6], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([2, 3, 6], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-12,
         ),
@@ -262,11 +262,11 @@ segment_maker(
     baca.scope('Flute Music Voice', 16),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[0, 6, 7], period=9, inverted=True),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence_every(indices=[10], period=11),
-            abjad.sustain_every(indices=[9, 11], period=11),
-            abjad.silence_last(1),
+            ~abjad.sustain([0, 6, 7], 9),
+            abjad.sustain([0, -2]),
+            abjad.silence([10], 11),
+            abjad.sustain([9, 11], 11),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=-13,
         ),
@@ -277,7 +277,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 1, 3),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence([0, 4], 9),
         ),
     )
 
@@ -291,7 +291,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 5),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence([0, 4], 9),
         tuplet_ratio_rotation=-1,
         ),
     )
@@ -301,7 +301,7 @@ segment_maker(
     baca.scope('English Horn Music Voice', 6, 7),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        division_masks=abjad.silence_last(1),
+        division_masks=abjad.silence([-1]),
         ),
     )
 
@@ -320,7 +320,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 10, 14),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence([0, 4], 9),
         ),
     )
 
