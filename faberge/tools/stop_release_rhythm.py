@@ -4,7 +4,7 @@ import baca
 
 def stop_release_rhythm():
     rhythm_maker = abjad.rhythmmakertools.IncisedRhythmMaker(
-        division_masks=abjad.silence_except(indices=[0, -1]),
+        division_masks=~abjad.silence([0, -1]),
         incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             fill_with_notes=False,
             prefix_talea=[1],
