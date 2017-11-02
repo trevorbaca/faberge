@@ -289,7 +289,7 @@ segment_maker(
     baca.scope('Percussion Music Voice', 16),
     faberge.front_incised_notes(
         division_masks=[
-            abjad.silence_except(indices=[-4, -3, -2]),
+            ~abjad.silence([-4, -3, -2]),
             ],
         start_rest_durations=[
             abjad.Duration(0, 1), abjad.Duration(0, 1), abjad.Duration(0, 1), abjad.Duration(0, 1),
@@ -331,7 +331,7 @@ segment_maker(
     baca.scope('Violin Music Voice', 13),
     faberge.spazzolati_rhythm(
         counts_rotation=-10,
-        division_masks=abjad.silence_except(indices=[
+        division_masks=~abjad.silence([
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -351,7 +351,7 @@ segment_maker(
     baca.scope('Violin Music Voice', 16),
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
-        division_masks=abjad.silence_except(indices=[
+        division_masks=~abjad.silence([
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),
@@ -379,7 +379,7 @@ segment_maker(
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
         denominator=8,
-        division_masks=abjad.silence_except(indices=[
+        division_masks=~abjad.silence([
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -397,7 +397,7 @@ segment_maker(
     faberge.spazzolati_rhythm(
         counts_rotation=-12,
         denominator=8,
-        division_masks=abjad.silence_except(indices=[
+        division_masks=~abjad.silence([
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),
