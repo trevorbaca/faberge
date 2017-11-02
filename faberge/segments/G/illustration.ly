@@ -1351,6 +1351,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "treble"
                         c'4..
                         r16
                         \once \override Beam.color = #blue
@@ -2293,6 +2294,7 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                        \clef "percussion"
                         R1 * 1
                         R1 * 1
                         R1 * 3/4
@@ -2398,6 +2400,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "treble"
                         d'2...
                         r16
                         \once \override Beam.color = #blue
@@ -3200,6 +3203,7 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
+                            \clef "treble"
                             c'4
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -5920,6 +5924,7 @@
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
+                        \clef "percussion"
                         r16
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -7462,6 +7467,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "percussion"
                         r16
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9009,6 +9015,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "percussion"
                         c'16 [
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
