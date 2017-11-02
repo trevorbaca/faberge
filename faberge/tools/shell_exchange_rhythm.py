@@ -105,7 +105,7 @@ def shell_exchange_rhythm(
 
     rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=extras,
-        logical_tie_masks=abjad.silence_last(1),
+        logical_tie_masks=abjad.silence([-1]),
         talea=abjad.rhythmmakertools.Talea(
             counts=counts,
             denominator=8,

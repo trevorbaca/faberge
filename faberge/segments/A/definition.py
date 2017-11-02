@@ -110,8 +110,8 @@ segment_maker(
     baca.scope('Flute Music Voice', 17),
     faberge.glow_rhythm(
         division_masks=[
-            abjad.sustain_every(indices=[6, 7], period=18, inverted=True),
-            abjad.silence_last(1),
+            ~abjad.sustain([6, 7], 18),
+            abjad.silence([-1]),
             ],
         tuplet_ratio_rotation=0,
         ),
@@ -150,7 +150,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 16),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence_every(indices=[0, 4], period=9),
+        division_masks=abjad.silence([0, 4], 9),
         tuplet_ratio_rotation=0,
         ),
     )
