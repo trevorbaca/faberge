@@ -748,12 +748,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 6, 10),
-    # TODO: make work again after extending baca.hairpins():
-    #baca.hairpins(
-    #    ['ppp < pp', 'pp > ppp', 'ppp < p', 'p > pp', 'pp < p', 'p > ppp'],
-    #    enchain_hairpins=True,
-    #    span=[4, 3],
-    #    ),
+    baca.piecewise(
+        baca.hairpin(),
+        baca.dynamics('ppp pp'),
+        baca.select().runs().map(baca.select().enchain([3, 4])).flatten(),
+        bookend=True,
+        ),
     baca.pitches('Eb2'),
     )
 

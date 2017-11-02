@@ -2699,37 +2699,37 @@
                                 }
                         r2
                         s1 * 10
-                        ef,2 :32
+                        ef,2 :32 \< \ppp
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "as attackless as possible"
                                 }
                         ef,2. :32 \repeatTie
-                        ef,2. :32 \repeatTie
+                        ef,2. :32 \repeatTie \pp \>
                         ef,1 :32 \repeatTie
                         ef,1 :32 \repeatTie
-                        ef,2. :32 \repeatTie
+                        ef,2. :32 \repeatTie \ppp \<
                         ef,2 :32 \repeatTie
+                        ef,2 :32 \repeatTie \pp \>
+                        ef,2. :32 \repeatTie
+                        ef,1 :32 \repeatTie
+                        ef,2 :32 \repeatTie \ppp \<
+                        ef,2. :32 \repeatTie
+                        ef,1 :32 \repeatTie \pp \>
                         ef,2 :32 \repeatTie
                         ef,2. :32 \repeatTie
-                        ef,1 :32 \repeatTie
-                        ef,2 :32 \repeatTie
+                        ef,1 :32 \repeatTie \ppp \<
+                        ef,2. :32 \repeatTie
+                        ef,1 :32 \repeatTie \pp \>
                         ef,2. :32 \repeatTie
                         ef,1 :32 \repeatTie
-                        ef,2 :32 \repeatTie
-                        ef,2. :32 \repeatTie
+                        ef,2 :32 \repeatTie \ppp \<
                         ef,1 :32 \repeatTie
-                        ef,2. :32 \repeatTie
-                        ef,1 :32 \repeatTie
-                        ef,2. :32 \repeatTie
-                        ef,1 :32 \repeatTie
-                        ef,2 :32 \repeatTie
-                        ef,1 :32 \repeatTie
-                        ef,1 :32 \repeatTie
+                        ef,1 :32 \repeatTie \pp \>
                         ef,2. :32 \repeatTie
                         ef,2. :32 \repeatTie
-                        ef,2 :32 \repeatTie
+                        ef,2 :32 \repeatTie \ppp
                         d,2. :32
                         d,1 :32 \repeatTie
                         d,1 :32 \repeatTie
