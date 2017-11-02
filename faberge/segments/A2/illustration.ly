@@ -814,6 +814,7 @@
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \context FluteMusicVoice = "Flute Music Voice" {
                         \once \override Hairpin.circled-tip = ##t
+                        \clef "treble"
                         g'2 \<
                         {
                             g'8 \repeatTie \p [
@@ -1731,6 +1732,7 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                        \clef "percussion"
                         r4
                         \times 4/5 {
                             r16
@@ -2295,6 +2297,7 @@
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         \once \override Hairpin.circled-tip = ##t
+                        \clef "treble"
                         f,4 \<
                         f,\breve \repeatTie \p
                         f,4 \repeatTie
@@ -2415,6 +2418,7 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                            \clef "treble"
                             \override NoteHead.style = #'harmonic
                             <ef' f' g' df'' ef''>2.
                             <ef' f' g' df'' ef''>1 \repeatTie
@@ -2790,6 +2794,7 @@
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         \once \override Hairpin.circled-tip = ##t
+                        \clef "treble"
                         g'''2. \<
                             ^ \markup {
                                 \whiteout
@@ -3305,6 +3310,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "alto"
                         ef2. :32
                         ef1 :32 \repeatTie
                         ef1 :32 \repeatTie
@@ -3851,6 +3857,7 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \clef "bass"
                         ef,2.
                         ef,1 \repeatTie
                         ef,1 \repeatTie

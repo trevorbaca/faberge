@@ -384,6 +384,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "treble"
                         c'2
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -977,6 +978,7 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                        \clef "percussion"
                         s1 * 23/4
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1086,6 +1088,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "treble"
                         d'2
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1941,6 +1944,7 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                            \clef "treble"
                             s1 * 3
                             \times 4/5 {
                                 \once \override Beam.color = #blue
@@ -3057,6 +3061,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "percussion"
                         c'2
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3792,6 +3797,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "percussion"
                         c'2
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3883,6 +3889,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "percussion"
                         c'2
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue

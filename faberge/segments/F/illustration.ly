@@ -943,6 +943,7 @@
                 \tag flute
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \context FluteMusicVoice = "Flute Music Voice" {
+                        \clef "treble"
                         s1 * 23/2
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1202,6 +1203,7 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             \override Staff.Stem.stemlet-length = #0.75
+                            \clef "percussion"
                             g'16 * 187/32 [
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2542,6 +2544,7 @@
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                        \clef "treble"
                         s1 * 17
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2660,6 +2663,7 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                            \clef "treble"
                             s1 * 85/4
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3672,6 +3676,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "percussion"
                         c'16 [
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4521,6 +4526,7 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
+                        \clef "percussion"
                         c'16 [
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -5294,6 +5300,7 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \clef "percussion"
                         s1 * 73/4
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue

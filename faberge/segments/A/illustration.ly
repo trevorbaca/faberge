@@ -936,6 +936,7 @@
                     \context FluteMusicVoice = "Flute Music Voice" {
                         {
                             \once \override Hairpin.circled-tip = ##t
+                            \clef "treble"
                             fs'''8 \<
                                 ^ \markup {
                                     \whiteout
@@ -1319,6 +1320,7 @@
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                        \clef "percussion"
                         s1 * 9
                         r2
                         r16
@@ -1526,6 +1528,7 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         {
                             \once \override Hairpin.circled-tip = ##t
+                            \clef "treble"
                             r8 \<
                             gs'''8
                                 ^ \markup {
@@ -1866,6 +1869,7 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                            \clef "treble"
                             \override NoteHead.style = #'harmonic
                             <d' e' fs' c'' d''>2.
                                 ^ \markup {
@@ -2700,6 +2704,7 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         {
                             \once \override Hairpin.circled-tip = ##t
+                            \clef "treble"
                             r4. \<
                             fs'''8
                                 ^ \markup {
@@ -3307,6 +3312,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \clef "alto"
                         d2. :32 \mp \startTextSpan
                             ^ \markup {
                                 \whiteout
@@ -3818,6 +3824,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \clef "bass"
                         d,2. \< \p \startTextSpan
                         d,1 \repeatTie
                         d,1 \repeatTie
