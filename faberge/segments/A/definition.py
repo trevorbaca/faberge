@@ -8,27 +8,10 @@ import faberge
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    # 1-4
-    12,
-    4,
-    6,
-    4,
-    # 5-8
-    4,
-    6,
-    4,
-    6,
-    # 9-12
-    6,
-    2,
-    2,
-    6,
-    # 13-17
-    8,
-    6,
-    4,
-    8,
-    4,
+    12, 4, 6, 4,    # 1-4
+    4, 6, 4, 6,     # 5-8
+    6, 2, 2, 6,     # 9-12
+    8, 6, 4, 8, 4,  # 13-17
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -44,8 +27,8 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 spacing_specifier = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=abjad.Duration(1, 4),
-    minimum_width=abjad.Duration(1, 12),
+    fermata_measure_width=(1, 4),
+    minimum_width=(1, 12),
     )
 
 segment_maker = baca.SegmentMaker(
@@ -64,7 +47,7 @@ segment_maker = baca.SegmentMaker(
     )
 
 segment_maker.validate_stage_count(17)
-#segment_maker.validate_measure_count(54)
+segment_maker.validate_measure_count(92)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
