@@ -876,7 +876,8 @@
                         g'2 \repeatTie
                         g'2. \repeatTie
                         r4
-                        g2
+                        \once \override Hairpin.circled-tip = ##t
+                        g2 \> \p
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -884,10 +885,9 @@
                                         \finger
                                             1
                                 }
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \p
-                        \once \override Hairpin.circled-tip = ##t
-                        g2. \! \<
+                        g2. \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -895,11 +895,11 @@
                                         \finger
                                             2
                                 }
-                        g4 \repeatTie \mp
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \mp
+                        g4 \repeatTie \mp \> \mp
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g2 \! \<
+                        g2 \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -932,11 +932,11 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'4
                         }
-                        g'4 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \mf
+                        g'4 \repeatTie \> \mf
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g2. :32 \! \<
+                        g2. :32 \<
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1143,11 +1143,11 @@
                         }
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g4 :32 \repeatTie
-                        g2 :32 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \f
+                        g2 :32 \repeatTie \> \f
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g2 \! \<
+                        g2 \<
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1178,11 +1178,11 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'4
                         }
-                        g'2 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r2 \> \mf
+                        g'2 \repeatTie \> \mf
+                        r2 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g'2 \! \<
+                        g'2 \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1264,11 +1264,11 @@
                                     }
                         }
                         g'2 \repeatTie
-                        g'4 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \mp
+                        g'4 \repeatTie \> \mp
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g'2. \! \<
+                        g'2. \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1327,11 +1327,11 @@
                                                 1
                                     }
                         }
-                        g4 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \mf
+                        g4 \repeatTie \> \mf
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g2 :32 \! \<
+                        g2 :32 \<
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1443,11 +1443,11 @@
                                                 1
                                     }
                         }
-                        g4 :32 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \f
+                        g4 :32 \repeatTie \> \f
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g'1 \! \<
+                        g'1 \<
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1486,12 +1486,12 @@
                                                 1
                                     }
                         }
+                        \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2 \repeatTie
+                        g2 \repeatTie \> \mf
+                        r2 \!
                         \once \override Hairpin.circled-tip = ##t
-                        r2 \> \mf
-                        \once \override Hairpin.circled-tip = ##t
-                        g'2 \! \<
+                        g'2 \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1541,7 +1541,8 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g2. \repeatTie
                         r4
-                        g'4
+                        \once \override Hairpin.circled-tip = ##t
+                        g'4 \> \p
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1549,10 +1550,9 @@
                                         \finger
                                             2
                                 }
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \p
-                        \once \override Hairpin.circled-tip = ##t
-                        g'2. \! \<
+                        g'2. \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1560,11 +1560,11 @@
                                         \finger
                                             1
                                 }
-                        g'4 \repeatTie \pp
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \pp
+                        g'4 \repeatTie \pp \> \pp
+                        r4 \!
                         \once \override Hairpin.circled-tip = ##t
-                        g'2 \! \<
+                        g'2 \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -1672,11 +1672,11 @@
                                                 2
                                     }
                         }
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r4 \> \ppp
-                        s1 * 27/4 \!
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'4 \repeatTie \> \ppp
+                        r4 \!
+                        s1 * 27/4
                         \once \override Hairpin.circled-tip = ##t
                         gs'1 \<
                         gs'2 \repeatTie \ppp
@@ -1722,10 +1722,10 @@
                                     }
                         }
                         gs4 \repeatTie
-                        gs4 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r2 \> \ppp
-                        s1 * 25/4 \!
+                        gs4 \repeatTie \> \ppp
+                        r2 \!
+                        s1 * 25/4
                         \bar "|."
                     }
                 }
@@ -2395,20 +2395,20 @@
                         r16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ds,4
-                        ds,8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r16 \> \ppp
-                        s1 * 27/4 \!
+                        ds,8. \repeatTie \> \ppp
+                        r16 \!
+                        s1 * 27/4
                         \once \override Hairpin.circled-tip = ##t
                         d,4 \<
                         d,2. \repeatTie \ppp
                         d,2. \repeatTie
                         d,2 \repeatTie
                         d,2 \repeatTie
-                        d,8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r16 \> \ppp
-                        s1 * 25/4 \!
+                        d,8. \repeatTie \> \ppp
+                        r16 \!
+                        s1 * 25/4
                         \bar "|."
                     }
                 }

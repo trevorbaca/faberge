@@ -1314,12 +1314,12 @@
                         fs''1 \repeatTie
                         fs''2. \repeatTie
                         fs''2. \repeatTie
-                        fs''8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r16 \> \p
+                        fs''8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fs''2. \! \<
+                        fs''2. \<
                         fs''2. \repeatTie \p
                         \times 2/3 {
                             fs''4 \repeatTie
@@ -1872,12 +1872,12 @@
                         e4
                         e1 \repeatTie
                         e4 \repeatTie
-                        e8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r16 \> \p
+                        e8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqs4 \! \<
+                        eqs4 \<
                         eqs2 \repeatTie \ppp
                         eqs1 \repeatTie
                         eqs2. \repeatTie
@@ -1886,12 +1886,12 @@
                         eqs1 \repeatTie
                         eqs1 \repeatTie
                         eqs2 \repeatTie
-                        eqs8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r16 \> \ppp
+                        eqs8. \repeatTie \> \ppp
+                        r16 \!
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e4 \! \<
+                        e4 \<
                         e1. \repeatTie \p
                         e8. \repeatTie
                         r16
@@ -1905,12 +1905,12 @@
                         e4
                         e\breve \repeatTie
                         e4 \repeatTie
-                        e8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r16 \> \p
+                        e8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqs4 \! \<
+                        eqs4 \<
                         eqs4 \repeatTie \p
                         eqs2. \repeatTie
                         eqs1 \repeatTie
@@ -1919,12 +1919,12 @@
                         eqs1 \repeatTie
                         eqs2. \repeatTie
                         eqs2. \repeatTie
-                        eqs8. \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        r16 \> \p
+                        eqs8. \repeatTie \> \p
+                        r16 \!
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e4 \! \<
+                        e4 \<
                         e1.. \repeatTie \p
                         e8. \repeatTie
                         r16

@@ -3,7 +3,8 @@ import baca
 
 
 def niente_swell(dynamic):
-    return baca.niente_swells(
-        dynamic,
-        selector=baca.select().rleaves().group(),
-        )
+    rtleaves = baca.select().tleaves().rleak()
+    return baca.suite([
+        baca.hairpin(f'niente < {dynamic}', rtleaves[:2]),
+        baca.hairpin(f'{dynamic} > niente', rtleaves[-2:]),
+        ])
