@@ -1,7 +1,8 @@
-import abjad
 import baca
 
 
-def dal_niente_hairpins(stop_dynamic):
-    descriptor = f'niente < {stop_dynamic}'
-    return baca.hairpin(descriptor, baca.select().rleaves())
+def dal_niente_hairpins(stop):
+    return baca.map(
+        baca.hairpin(f'niente < {stop}', baca.select().leaves()),
+        baca.select().rruns(),
+        )
