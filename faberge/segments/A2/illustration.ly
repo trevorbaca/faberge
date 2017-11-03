@@ -3872,11 +3872,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "(tasto + poco vib.)"
+                                    \whiteout
+                                        \upright
+                                            "(tasto + poco vib.)"
                                     \hspace
                                         #0.5
                                 }
@@ -3893,11 +3891,9 @@
                         ef,1 \repeatTie
                         ef,2 \repeatTie
                         ef,2. \repeatTie \ff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "molto pont. + vib. molto"
+                            \whiteout
+                                \upright
+                                    "molto pont. + vib. molto"
                             }
                         ef,1 \repeatTie
                         ef,2. \repeatTie
@@ -3914,11 +3910,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "(molto pont. + vib. molto)"
+                                    \whiteout
+                                        \upright
+                                            "(molto pont. + vib. molto)"
                                     \hspace
                                         #0.5
                                 }
@@ -3940,11 +3934,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "tasto + poco vib."
+                                    \whiteout
+                                        \upright
+                                            "tasto + poco vib."
                                     \hspace
                                         #0.5
                                 }
@@ -3961,11 +3953,9 @@
                         ef,2 \repeatTie
                         ef,2 \repeatTie
                         ef,2. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "(tasto+) non vib."
+                            \whiteout
+                                \upright
+                                    "(tasto+) non vib."
                             }
                         ef,1 \repeatTie
                         ef,2 \repeatTie
@@ -3980,11 +3970,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    "(tasto + non vib.)"
+                                        \whiteout
+                                            \upright
+                                                "(tasto + non vib.)"
                                         \hspace
                                             #0.5
                                     }
@@ -4017,11 +4005,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    PO
+                                        \whiteout
+                                            \upright
+                                                PO
                                         \hspace
                                             #0.5
                                     }
@@ -4060,11 +4046,9 @@
                                                     }
                                     }
                                 ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "tasto poss."
+                                \whiteout
+                                    \upright
+                                        "tasto poss."
                                 }
                             d'8 -\staccato
                             d'8 -\staccato
