@@ -2681,7 +2681,7 @@
                                     \upright
                                         "l.v. possibile"
                                 }
-                        r1
+                        r1 \ff
                         r1
                         r2
                         r2.
@@ -2689,7 +2689,7 @@
                         r2.
                         r1
                         \clef "bass"
-                        r2. \ff
+                        r2.
                             ^ \markup {
                                 \whiteout
                                     \override
@@ -2801,14 +2801,14 @@
                                     \upright
                                         "l.v. possibile"
                                 }
-                        r1
+                        r1 \ff
                         r1
                         r2
                         r2.
                         r2
                         r2.
                         r1
-                        f'16 \ff [
+                        f'16 [
                             ^ \markup {
                                 \whiteout
                                     \upright

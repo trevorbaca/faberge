@@ -51,14 +51,12 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=faberge.instruments,
-    #label_clock_time=True,
-    #label_stages=True,
+    label_clock_time=False,
+    label_stages=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=faberge.metronome_marks,
     rehearsal_letter='A',
     score_template=faberge.ScoreTemplate(),
-    # TODO: set to false
-    skip_wellformedness_checks=True,
     spacing_specifier=spacing_specifier,
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,

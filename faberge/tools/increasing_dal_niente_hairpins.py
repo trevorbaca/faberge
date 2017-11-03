@@ -3,14 +3,14 @@ import baca
 
 
 def increasing_dal_niente_hairpins():
-    descriptors = [
+    hairpins = [
         'niente < p',
         'niente < mp',
         'niente < mf',
         'niente < mf',
         ]
-    descriptors += 20 * ['niente < f']
-    return baca.hairpins(
-        descriptors,
-        selector=baca.select().rleaves().group(),
+    hairpins += 20 * ['niente < f']
+    return baca.map(
+        [baca.hairpin(_, baca.select().leaves()) for _ in hairpins],
+        baca.select().rruns(),
         )

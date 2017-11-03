@@ -945,199 +945,226 @@
                                             \box
                                                 "match sound of crotales"
                                     }
-                            r2
-                            fs'''8
+                            r2 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
                         }
                         {
-                            r1
+                            r1 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4
-                            fs'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r2 \f
                         }
                         {
                             r2
                         }
                         {
                             r4.
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            fs'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         {
                             r2.
                         }
                         {
                             r8
-                            fs'''8
-                            r4.
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
-                            fs'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r2 \f
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
                             r1
                         }
                         {
                             r8
-                            fs'''8
-                            r4
-                        }
-                        {
                             \once \override Hairpin.circled-tip = ##t
-                            r2. \f \<
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4.
-                            f'''8
-                            r4.
-                        }
-                        {
-                            f'''8
-                            r2
-                            r8
-                        }
-                        {
-                            f'''8
-                            r4.
-                            f'''8
-                            r4
-                            f'''8
-                        }
-                        {
-                            \once \override Hairpin.circled-tip = ##t
-                            r2. \pp \<
-                        }
-                        {
-                            r4
-                            f'''8
-                            r2
-                            r8
-                        }
-                        {
-                            r4
-                            f'''8
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4.
-                            f'''8
-                            r4.
-                        }
-                        {
-                            r1
-                        }
-                        {
-                            f'''8
-                            r2
-                            r8
-                        }
-                        {
-                            \once \override Hairpin.circled-tip = ##t
-                            r2 \p \<
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4
-                            f'''8
-                            r4
-                        }
-                        {
-                            r8
-                            f'''8
-                            r2
-                        }
-                        {
-                            r4.
-                            f'''8
-                            r4.
-                            f'''8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            \once \override Hairpin.circled-tip = ##t
-                            r4 \f \<
-                            fs'''8
-                            r2
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r8
-                            fs'''8
-                            r4.
-                        }
-                        {
-                            r2
-                        }
-                        {
-                            r2
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            \once \override Hairpin.circled-tip = ##t
-                            fs'''8 \pp \<
-                            r2
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
                             r2.
-                            fs'''8
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \pp
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \pp
+                            r8
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                        }
+                        {
+                            r2. \pp
+                        }
+                        {
+                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \p
                             r8
                         }
                         {
                             r4
-                            fs'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \mp
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \mf
+                        }
+                        {
+                            r1
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \mf
                             r8
+                        }
+                        {
+                            r2
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \f
+                        }
+                        {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \f
+                        }
+                        {
+                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r2 \pp
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
+                        }
+                        {
+                            r2
+                        }
+                        {
+                            r2
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r2 \p
+                        }
+                        {
+                            r2.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \mp
+                        }
+                        {
+                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \mf
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r2
-                            fs'''8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4.
-                            fs'''8
-                            r4
-                            fs'''8
-                        }
-                        {
-                            r2
-                        }
-                        {
                             \once \override Hairpin.circled-tip = ##t
-                            r4. \p \<
-                            fs'''8
-                            r4
+                            fs'''8 \<
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4. \mf
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                        }
+                        {
+                            r2 \f
+                        }
+                        {
+                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r2
                             r8
-                            fs'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         {
                             r4.
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
                             r1
@@ -1145,88 +1172,105 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             \once \override Hairpin.circled-tip = ##t
-                            f'''8 \f \<
-                            r4.
-                            f'''8
+                            f'''8 \<
+                            r4. \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
                         }
                         {
-                            r4.
-                            f'''8
-                            r2
-                        }
-                        {
-                            f'''8
-                            r4
-                            f'''8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r2
-                            f'''8
-                            r4
-                        }
-                        {
-                            r2
-                            f'''8
-                            r4.
-                        }
-                        {
-                            f'''8
-                            r2
-                            f'''8
+                            r4. \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \pp
                         }
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            r2. \pp \<
+                            f'''8 \<
+                            r4 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r2 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \pp
+                        }
+                        {
+                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \pp
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                        }
+                        {
+                            r2. \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
-                            f'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \p
                         }
                         {
                             r8
-                            f'''8
-                            r4.
-                            f'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \mp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
                         }
                         {
-                            r4
-                            f'''8
-                            r2
+                            r4 \mf
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \mf
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r8
-                            f'''8
-                            r4.
-                            f'''8
-                            r8
-                        }
-                        {
-                            r2
-                        }
-                        {
                             \once \override Hairpin.circled-tip = ##t
-                            r8 \p \<
-                            f'''8
-                            r4.
-                            f'''8
+                            f'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \f
                         }
                         {
                             r2
+                        }
+                        {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                        }
+                        {
+                            r2 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            f'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \f
                         }
                         {
-                            f'''8
-                            r8
-                            f'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \f
                             r8
                         }
                         \set FluteMusicStaff.instrumentName = \markup {
@@ -1247,7 +1291,7 @@
                                         fl.
                                     }
                             }
-                        r2. \f
+                        r2.
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.75)
@@ -1527,10 +1571,10 @@
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         {
-                            \once \override Hairpin.circled-tip = ##t
                             \clef "treble"
-                            r8 \<
-                            gs'''8
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -1538,20 +1582,23 @@
                                             \box
                                                 "match sound of crotales"
                                     }
-                            r2
+                            r2 \f
                         }
                         {
                             r4
-                            gs'''8
-                            r4.
-                            gs'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r8 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4.
-                            gs'''8
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4. \f
                         }
                         {
                             r2
@@ -1561,34 +1608,40 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
-                            gs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
-                            gs'''8
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4. \f
                         }
                         {
                             r2..
-                            gs'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
                         }
                         {
-                            r8
-                            gs'''8
-                            r2
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r2 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            gs'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r8 \f
                         }
                         {
                             r4
-                            gs'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r2 \f
                             r8
                         }
                         {
@@ -1597,151 +1650,172 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             \once \override Hairpin.circled-tip = ##t
-                            g'''8 \f \<
-                            r2
+                            g'''8 \<
+                            r2 \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r2.
-                            g'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
                         }
                         {
-                            r4
-                            g'''8
-                            r4.
+                            r4 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
+                            r4. \pp
                         }
                         {
                             r2
                             r8
-                            g'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
+                            r4 \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r4
                             \once \override Hairpin.circled-tip = ##t
-                            r4 \pp \<
-                            g'''8
-                            r4
+                            g'''8 \<
+                            r4 \p
                         }
                         {
                             r4.
-                            g'''8
-                            r4.
-                            g'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
+                            r4. \mp
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
                         }
                         {
-                            r4
+                            r4 \mf
                             r8
-                            g'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r2.
-                            g'''8
+                            r2. \mf
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r4.
-                            g'''8
-                            r4.
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
+                            r4. \f
                         }
                         {
                             r8
-                            g'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
+                            r2 \f
+                        }
+                        {
                             r2
                         }
                         {
-                            \once \override Hairpin.circled-tip = ##t
-                            r2 \p \<
-                        }
-                        {
                             r2.
                         }
                         {
-                            g'''8
-                            r4.
-                            g'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            g'''8 \<
+                            r8 \f
                         }
                         {
                             r1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            \once \override Hairpin.circled-tip = ##t
-                            r8 \f \<
-                            gs'''8
                             r8
-                            gs'''8
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r8 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4. \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
-                            gs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4 \pp
                         }
                         {
                             r8
-                            gs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4 \pp
                         }
                         {
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r4.
                             \once \override Hairpin.circled-tip = ##t
-                            r4. \pp \<
-                            gs'''8
-                            r8
+                            gs'''8 \<
+                            r8 \p
                         }
                         {
                             r1
                         }
                         {
                             r8
-                            gs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4 \mp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            gs'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r2 \mf
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r2
-                            gs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4 \mf
                         }
                         {
                             r4
-                            gs'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r8 \f
+                        }
+                        {
+                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r8 \f
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4 \f
                             r8
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                        }
+                        {
+                            r2. \f
                         }
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            r2 \p \<
-                            gs'''8
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4
-                            gs'''8
-                            r4
-                            r8
-                            gs'''8
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            gs'''8
-                            r4.
-                            gs'''8
-                            r4.
+                            gs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            gs'''8 \<
+                            r4. \f
                         }
                         \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -1761,7 +1835,7 @@
                                         cl.
                                     }
                             }
-                        r2. \f
+                        r2.
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.75)
@@ -2253,9 +2327,9 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         {
+                            r2
                             \once \override Hairpin.circled-tip = ##t
-                            r2 \<
-                            fs'8 -\laissezVibrer
+                            fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -2263,23 +2337,26 @@
                                             \box
                                                 "BOWED CROTALES"
                                     }
-                            r8
+                            r8 \f
                         }
                         {
                             r1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            fs'8 -\laissezVibrer
-                            r2.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r2. \f
                         }
                         {
-                            fs'8 -\laissezVibrer
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
                         }
                         {
-                            fs'8 -\laissezVibrer
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r2 \f
                             r8
                         }
                         {
@@ -2288,18 +2365,21 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4.
-                            fs'8 -\laissezVibrer
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         {
                             r2
-                            fs'8 -\laissezVibrer
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
                         }
                         {
                             r2
-                            fs'8 -\laissezVibrer
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         {
                             r2
@@ -2308,308 +2388,353 @@
                             r1
                         }
                         {
-                            fs'8 -\laissezVibrer
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r2
                             \once \override Hairpin.circled-tip = ##t
-                            r2 \f \<
-                            f'8 -\laissezVibrer
+                            f'8 -\laissezVibrer \<
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r2 \pp
+                        }
+                        {
+                            r2
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                        }
+                        {
+                            r8 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r2. \pp
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                        }
+                        {
+                            r1 \p
+                        }
+                        {
+                            r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4
-                            f'8 -\laissezVibrer
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r2 \mp
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
                             r2
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \mf
                         }
                         {
                             r2
                             r8
-                            f'8 -\laissezVibrer
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
                         }
                         {
-                            r8
-                            f'8 -\laissezVibrer
+                            r4. \mf
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                        }
+                        {
+                            r2. \f
+                        }
+                        {
                             r2.
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r2 \f
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \f
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r2.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        {
+                            r2. \pp
+                        }
+                        {
+                            r2
+                        }
+                        {
+                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        {
+                            r2. \pp
+                        }
+                        {
+                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \p
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \mp
+                        }
+                        {
+                            r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r4.
                             \once \override Hairpin.circled-tip = ##t
-                            r2 \pp \<
-                            f'8 -\laissezVibrer
+                            fs'8 -\laissezVibrer \<
+                            r8 \mf
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r2. \mf
+                        }
+                        {
+                            r2
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r2 \f
+                            r8
                         }
                         {
                             r1
                         }
                         {
-                            r2
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
                             r4
-                            f'8 -\laissezVibrer
-                            r2
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r2
-                            r8
-                            f'8 -\laissezVibrer
-                            r8
-                        }
-                        {
-                            r2
-                            r8
-                            f'8 -\laissezVibrer
-                        }
-                        {
                             \once \override Hairpin.circled-tip = ##t
-                            r4. \p \<
-                            f'8 -\laissezVibrer
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
                         }
                         {
                             r2.
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            f'8 -\laissezVibrer
-                            r2
-                            r8
-                            f'8 -\laissezVibrer
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
                             \once \override Hairpin.circled-tip = ##t
-                            r2. \f \<
-                            fs'8 -\laissezVibrer
-                        }
-                        {
-                            r2.
-                        }
-                        {
-                            r2
-                        }
-                        {
-                            r4.
-                            fs'8 -\laissezVibrer
-                        }
-                        {
-                            \once \override Hairpin.circled-tip = ##t
-                            r2. \pp \<
-                        }
-                        {
-                            r4
-                            fs'8 -\laissezVibrer
-                            r4
-                            fs'8 -\laissezVibrer
-                            r4
-                        }
-                        {
-                            r2
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4.
-                            fs'8 -\laissezVibrer
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            fs'8 -\laissezVibrer
-                            r2.
-                        }
-                        {
-                            r2
-                        }
-                        {
                             \once \override Hairpin.circled-tip = ##t
-                            fs'8 -\laissezVibrer \p \<
-                            r2
-                            r8
-                        }
-                        {
-                            r1
-                        }
-                        {
-                            r4
-                            fs'8 -\laissezVibrer
-                            r4.
-                        }
-                        {
-                            r2.
-                            fs'8 -\laissezVibrer
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            \once \override Hairpin.circled-tip = ##t
-                            r4. \f \<
-                            f'8 -\laissezVibrer
-                            r8
+                            f'8 -\laissezVibrer \<
+                            r8 \pp
                         }
                         {
                             r2..
-                            f'8 -\laissezVibrer
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
                         }
                         {
-                            r8
-                            f'8 -\laissezVibrer
-                            r4
+                            r8 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r4 \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r4.
-                            f'8 -\laissezVibrer
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r4. \pp
                         }
                         {
                             r8
-                            f'8 -\laissezVibrer
-                            r2.
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r2. \pp
                         }
                         {
                             r2
-                            f'8 -\laissezVibrer
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            \once \override Hairpin.circled-tip = ##t
-                            r4 \pp \<
-                            f'8 -\laissezVibrer
                             r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r4 \p
                         }
                         {
                             r2
                         }
                         {
-                            f'8 -\laissezVibrer
-                            r4.
-                            f'8 -\laissezVibrer
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r4. \mp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \mf
                         }
                         {
                             r2.
-                            f'8 -\laissezVibrer
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \mf
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r2
-                            f'8 -\laissezVibrer
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r4 \f
                         }
                         {
                             r2
                         }
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            f'8 -\laissezVibrer \p \<
-                            r4.
-                            f'8 -\laissezVibrer
-                            r8
-                        }
-                        {
-                            r2
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4.
-                            f'8 -\laissezVibrer
-                            r8
-                        }
-                        {
-                            r8
-                            f'8 -\laissezVibrer
-                            r2
-                            f'8 -\laissezVibrer
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                            f'8 -\laissezVibrer \<
+                            r4. \f
                             \once \override Hairpin.circled-tip = ##t
-                            r8 \f \<
-                            fs'8 -\laissezVibrer
-                            r4
-                            fs'8 -\laissezVibrer
+                            f'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         {
                             r2
                         }
-                        {
-                            fs'8 -\laissezVibrer
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
                             r4.
-                            fs'8 -\laissezVibrer
-                            r8
-                            fs'8 -\laissezVibrer
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         {
                             r8
-                            fs'8 -\laissezVibrer
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r2 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            f'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
-                            fs'8 -\laissezVibrer
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                         }
                         {
-                            fs'8 -\laissezVibrer
-                            r2
-                            r8
-                            fs'8 -\laissezVibrer
-                            r8
+                            r2 \pp
                         }
-                        s1 * 27/4 \pp
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \pp
+                        }
+                        {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \pp
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \pp
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r2 \pp
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \pp
+                        }
+                        s1 * 27/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
-                            \once \override Hairpin.circled-tip = ##t
-                            r8 \<
-                            fs'8 -\laissezVibrer
                             r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \p
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
-                            fs'8 -\laissezVibrer
-                            r4.
-                        }
-                        {
-                            fs'8 -\laissezVibrer
-                            r4.
-                            fs'8 -\laissezVibrer
-                            r8
-                        }
-                        {
-                            fs'8 -\laissezVibrer
-                            r4
-                            fs'8 -\laissezVibrer
-                            r4.
-                            fs'8 -\laissezVibrer
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4.
-                            fs'8 -\laissezVibrer
-                            r4.
-                        }
-                        {
-                            r4
-                            fs'8 -\laissezVibrer
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \mp
                         }
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            fs'8 -\laissezVibrer \p \<
-                            r8
-                            fs'8 -\laissezVibrer
-                            r8
+                            fs'8 -\laissezVibrer \<
+                            r4. \mf
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \mf
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
+                        }
+                        {
+                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         {
                             r2
@@ -2617,23 +2742,27 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r8
-                            fs'8 -\laissezVibrer
-                            r4
-                            fs'8 -\laissezVibrer
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                         }
                         {
-                            r8
-                            fs'8 -\laissezVibrer
-                            r4
-                            fs'8 -\laissezVibrer
-                            r4
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4 \f
                             r8
                         }
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
                         \clef "percussion"
-                        r2 \f
+                        r2
                         r2.
                         r1
                         r2
@@ -2662,9 +2791,9 @@
                         \startStaff
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r8
                             \once \override Hairpin.circled-tip = ##t
-                            r8 \<
-                            fs'8 -\laissezVibrer
+                            fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -2672,26 +2801,32 @@
                                             \box
                                                 "bowed crotales"
                                     }
-                            r4
-                            fs'8 -\laissezVibrer
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r4.
-                            fs'8 -\laissezVibrer
-                            r4.
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
                         }
                         {
-                            fs'8 -\laissezVibrer
-                            r8
-                            fs'8 -\laissezVibrer
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r8 \f
                         }
                         {
                             r8
-                            fs'8 -\laissezVibrer
-                            r4.
-                            fs'8 -\laissezVibrer
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'8 -\laissezVibrer \<
                             r4 \f
                             \bar "|"
                         }
@@ -2703,10 +2838,10 @@
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         {
-                            \once \override Hairpin.circled-tip = ##t
                             \clef "treble"
-                            r4. \<
-                            fs'''8
+                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -2714,23 +2849,27 @@
                                             \box
                                                 "match sound of crotales"
                                     }
-                            r4
+                            r4 \f
                         }
                         {
                             r4.
-                            fs'''8
-                            r4.
-                            fs'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            r2.
-                            fs'''8
+                            r2. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
                         }
                         {
-                            r8
-                            fs'''8
-                            r4
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
                             r2.
@@ -2741,93 +2880,105 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
                             r1
                         }
                         {
                             r4.
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r4
-                            fs'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
                         }
                         {
-                            r2
+                            r2 \f
                             r8
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r4.
                             \once \override Hairpin.circled-tip = ##t
-                            r4. \f \<
-                            f'''8
-                            r8
+                            f'''8 \<
+                            r8 \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r8
-                            f'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \pp
                             r8
                         }
                         {
                             r4.
-                            f'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \pp
                         }
                         {
                             r1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r4.
                             \once \override Hairpin.circled-tip = ##t
-                            r4. \pp \<
-                            f'''8
-                            r8
+                            f'''8 \<
+                            r8 \p
                         }
                         {
                             r2.
-                            f'''8
-                            r8
-                        }
-                        {
-                            f'''8
-                            r8
-                            r4
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r8
-                            f'''8
-                            r2
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            f'''8
-                            r4.
-                            f'''8
-                            r4
-                        }
-                        {
-                            r2
-                            f'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \mp
                         }
                         {
                             \once \override Hairpin.circled-tip = ##t
-                            f'''8 \p \<
-                            r4.
+                            f'''8 \<
+                            r8 \mf
+                            r4
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \mf
+                            r8
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \f
+                        }
+                        {
+                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \f
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \f
                         }
                         {
                             r2.
@@ -2835,207 +2986,238 @@
                         {
                             r2
                             r8
-                            f'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                        }
+                        {
+                            r1 \f
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r2
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \pp
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \pp
+                        }
+                        {
+                            r2
+                        }
+                        {
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
+                        }
+                        {
+                            r2.
+                        }
+                        {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \p
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \mp
+                        }
+                        {
+                            r2
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \mf
                         }
                         {
                             r1
                         }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
+                        {
+                            r4.
                             \once \override Hairpin.circled-tip = ##t
-                            r2 \f \<
-                            r8
-                            fs'''8
-                            r8
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4.
-                            fs'''8
-                            r8
+                            fs'''8 \<
                         }
                         {
-                            r2
-                        }
-                        {
-                            fs'''8
-                            r4.
-                        }
-                        {
-                            \once \override Hairpin.circled-tip = ##t
-                            r2. \pp \<
-                        }
-                        {
-                            r8
-                            fs'''8
-                            r4
-                            fs'''8
-                            r4.
-                        }
-                        {
-                            r2
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r8
-                            fs'''8
-                            r4.
-                        }
-                        {
-                            r1
-                        }
-                        {
-                            r4.
-                            fs'''8
-                        }
-                        {
-                            \once \override Hairpin.circled-tip = ##t
-                            r2. \p \<
+                            r2. \mf
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             r8
-                            fs'''8
-                            r8
-                            fs'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                             r4
                         }
                         {
                             r8
-                            fs'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r2 \f
                         }
                         {
                             r8
-                            fs'''8
-                            r4.
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            r8
                             \once \override Hairpin.circled-tip = ##t
-                            r8 \f \<
-                            f'''8
-                            r4.
+                            f'''8 \<
+                            r4. \pp
                         }
                         {
-                            f'''8
-                            r4.
-                            f'''8
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \pp
                         }
                         {
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            f'''8
-                            r2
-                            f'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \pp
                         }
                         {
                             r2..
-                            f'''8
-                        }
-                        {
-                            r4.
-                            f'''8
-                            r4
-                        }
-                        {
                             \once \override Hairpin.circled-tip = ##t
-                            r2. \pp \<
+                            f'''8 \<
+                        }
+                        {
+                            r4. \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \pp
+                        }
+                        {
+                            r2.
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            f'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \p
                         }
                         {
                             r4
-                            f'''8
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4. \mp
                         }
                         {
                             r8
-                            f'''8
-                            r8
-                            f'''8
-                            r2
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r8 \mf
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r2 \mf
                         }
                         {
                             r1
                         }
                         {
                             r8
-                            f'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \f
                         }
                         {
+                            r4.
                             \once \override Hairpin.circled-tip = ##t
-                            r4. \p \<
-                            f'''8
-                            r4
+                            f'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r4
-                            f'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            r4
-                            f'''8
-                            r4
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \f
                         }
                         {
                             r2
                             r8
-                            f'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            f'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             \once \override Hairpin.circled-tip = ##t
-                            fs'''8 \f \<
-                            r4
-                            fs'''8
-                            r8
+                            fs'''8 \<
+                            r4 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \pp
                         }
                         {
                             r8
-                            fs'''8
-                            r4.
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \pp
                         }
                         {
-                            fs'''8
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            fs'''8
-                            r8
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \pp
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \pp
                         }
                         {
                             r4.
-                            fs'''8
-                            r4.
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \pp
                             r8
                         }
-                        e'16 \pp [
+                        e'16 [
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -3123,67 +3305,81 @@
                                         \upright
                                             "non spazz."
                                     }
-                            r4
+                            r4 \p
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            fs'''8
-                            r8
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \mp
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \mf
                         }
                         {
                             r8
-                            fs'''8
-                            r4.
-                            fs'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \mf
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
                         }
                         {
-                            r4
-                            fs'''8
-                            r4.
-                            fs'''8
-                            r8
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            fs'''8
-                            r2
-                            r8
-                            fs'''8
-                        }
-                        {
-                            r4.
-                            fs'''8
-                            r4
-                        }
-                        {
                             \once \override Hairpin.circled-tip = ##t
-                            r8 \p \<
-                            fs'''8
-                            r4
+                            fs'''8 \<
+                            r2 \f
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                        }
+                        {
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
+                        }
+                        {
+                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            fs'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
-                            fs'''8
-                            r4
-                            fs'''8
-                            r4
-                            fs'''8
-                            r8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
-                        r8 \f
+                        r8
                         e'16 [
                             ^ \markup {
                                 \whiteout
@@ -3260,28 +3456,35 @@
                                         \upright
                                             "non spazz."
                                     }
-                            r4
-                            fs'''8
-                            r8
+                            r4 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            fs'''8
-                            r4.
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
                             r8
-                            fs'''8
-                            r4
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4 \f
                         }
                         {
-                            fs'''8
-                            r4.
-                            fs'''8
-                            r8
-                            fs'''8
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r4. \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
+                            r8 \f
+                            \once \override Hairpin.circled-tip = ##t
+                            fs'''8 \<
                             r8 \f
                             \bar "|"
                         }
