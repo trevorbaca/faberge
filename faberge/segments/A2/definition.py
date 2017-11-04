@@ -326,7 +326,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('English Horn Music Voice', 15),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
@@ -391,7 +391,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 2),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
@@ -411,7 +411,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 15),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(

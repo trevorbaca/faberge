@@ -112,7 +112,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 3),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
@@ -147,7 +147,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('English Horn Music Voice', 18),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
@@ -209,7 +209,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 3),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
@@ -300,7 +300,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 43),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 ### percussion (time) ###

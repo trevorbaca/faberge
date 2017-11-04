@@ -91,7 +91,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 1),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
@@ -112,7 +112,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [5]),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 ### percussion (time) ###
