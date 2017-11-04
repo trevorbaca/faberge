@@ -287,12 +287,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 6),
-    baca.notes(repeat_ties=True),
+    baca.make_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 12, 15),
-    baca.notes(repeat_ties=True),
+    baca.make_notes(repeat_ties=True),
     )
 
 ### viola (time) ###
@@ -378,12 +378,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 6),
-    baca.notes(repeat_ties=True),
+    baca.make_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 12, 15),
-    baca.notes(repeat_ties=True),
+    baca.make_notes(repeat_ties=True),
     )
 
 ###############################################################################
