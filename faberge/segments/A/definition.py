@@ -498,28 +498,28 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 2),
     baca.dynamic('f'),
-    baca.map(baca.trill(), baca.select().runs()),
+    baca.map(baca.trill(), baca.runs()),
     baca.pitches('E4 Eb~4 E~4 E4 E#+4'),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 5),
     baca.dynamic('f'),
-    baca.map(baca.trill(), baca.select().runs()),
+    baca.map(baca.trill(), baca.runs()),
     baca.pitches('F#4 F#+4 E#4 E#+4'),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 8),
     baca.dynamic('f'),
-    baca.map(baca.trill(), baca.select().runs()),
+    baca.map(baca.trill(), baca.runs()),
     baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
     )
 
 segment_maker(
     baca.scope('English Horn Music Voice', 12),
     baca.dynamic('f'),
-    baca.map(baca.trill(), baca.select().runs()),
+    baca.map(baca.trill(), baca.runs()),
     baca.pitches('A#4 A+4 A#+4'),
     )
 
@@ -534,7 +534,7 @@ segment_maker(
 segment_maker(
     baca.scope('English Horn Music Voice', 17),
     baca.dynamic('f'),
-    baca.map(baca.trill(), baca.select().runs()),
+    baca.map(baca.trill(), baca.runs()),
     baca.pitches('C4 C+4 C~4 C#4'),
     )
 
@@ -745,9 +745,9 @@ segment_maker(
     baca.clef_spanner('percussion'),
     baca.dynamic('ff'),
     baca.fixed_pitches('D4 D4 B3'),
-    baca.map(baca.trill(), baca.select().plts()[:2]),
+    baca.map(baca.trill(), baca.plts()[:2]),
     baca.two_line_staff(),
-    faberge.markup.bass_drum(baca.select().plt(-1)),
+    faberge.markup.bass_drum(baca.plt(-1)),
     faberge.markup.castanets(),
     )
 
@@ -890,17 +890,17 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.tasto(),
         baca.markup.pochiss_pont(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 2),
-    baca.dynamic('pp', baca.select().pleaf(0)),
+    baca.dynamic('pp', baca.pleaf(0)),
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
@@ -909,22 +909,22 @@ segment_maker(
     baca.single_segment_transition(
         None,
         baca.markup.pochiss_pont(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 3),
-    baca.hairpin('pp < mp', baca.select().rleaves()),
+    baca.hairpin('pp < mp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 5),
-    baca.dynamic('pp', baca.select().pleaf(0)),
+    baca.dynamic('pp', baca.pleaf(0)),
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
@@ -933,22 +933,22 @@ segment_maker(
     baca.single_segment_transition(
         None,
         baca.markup.pochiss_pont(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 6),
-    baca.hairpin('pp < mp', baca.select().rleaves()),
+    baca.hairpin('pp < mp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 8),
-    baca.dynamic('pp', baca.select().pleaf(0)),
+    baca.dynamic('pp', baca.pleaf(0)),
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
@@ -957,22 +957,22 @@ segment_maker(
     baca.single_segment_transition(
         None,
         baca.markup.pochiss_pont(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 9),
-    baca.hairpin('pp < mp', baca.select().rleaves()),
+    baca.hairpin('pp < mp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 12),
-    baca.dynamic('pp', baca.select().pleaf(0)),
+    baca.dynamic('pp', baca.pleaf(0)),
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
@@ -996,7 +996,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 14),
-    baca.hairpin('pp < mp', baca.select().rleaves()),
+    baca.hairpin('pp < mp', baca.rleaves()),
     )
 
 segment_maker(
@@ -1027,56 +1027,56 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1, 2),
-    baca.hairpin('p < f', baca.select().rleaves()),
+    baca.hairpin('p < f', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.tasto_plus_poco_vib(),
         baca.markup.PO_plus_poco_vib(True, False),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 4, 6),
-    baca.hairpin('f > p', baca.select().rleaves()),
+    baca.hairpin('f > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.PO_plus_poco_vib(False, False),
         baca.markup.tasto_plus_poco_vib(True, False),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 9, 10),
-    baca.hairpin('p < ff', baca.select().rleaves()),
+    baca.hairpin('p < ff', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.tasto_plus_poco_vib(False, False),
         baca.markup.poco_pont_plus_vib_mod(True, True),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 13),
-    baca.dynamic('ppp', baca.select().pleaf(0)),
+    baca.dynamic('ppp', baca.pleaf(0)),
     baca.markup.poco_pont_plus_sub_non_vib(False, True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 14, 15),
-    baca.hairpin('ff > pp', baca.select().rleaves()),
+    baca.hairpin('ff > pp', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.poco_pont_plus_sub_vib_mod(False, True),
         baca.markup.tasto_plus_non_vib(True, True),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 16),
-    baca.hairpin('pp < p', baca.select().rleaves()),
+    baca.hairpin('pp < p', baca.rleaves()),
     baca.single_segment_transition(
         None,
         baca.markup.tasto_plus_poco_vib(False, True),
-        baca.select().rleaves().group(),
+        baca.rleaves().group(),
         ),
     )

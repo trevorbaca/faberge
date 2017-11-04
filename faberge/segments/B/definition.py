@@ -688,7 +688,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('English Horn Music Voice', 18),
-    baca.markup.remove_staple(baca.select().leaf(0)),
+    baca.markup.remove_staple(baca.leaf(0)),
     )
 
 segment_maker(
