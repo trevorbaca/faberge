@@ -75,7 +75,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 12),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
@@ -155,7 +155,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 8),
-    baca.rests(),
+    baca.make_rests(),
     )
 
 segment_maker(
