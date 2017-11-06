@@ -80,7 +80,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 16),
-    baca.single_taper(
+    faberge.single_taper(
         start_talea=[4],
         stop_talea=[3, -1],
         denominator=16,
@@ -170,7 +170,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 13),
-    baca.single_taper(
+    faberge.single_taper(
         denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
@@ -189,7 +189,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 16),
-    baca.single_taper(
+    faberge.single_taper(
         denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
