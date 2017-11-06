@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def glowing_wind_rhythm(
@@ -15,8 +16,8 @@ def glowing_wind_rhythm(
     extra_counts_per_division = extra_counts_per_division.rotate(
         n=extra_counts_per_division_rotation
         )
-    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
-        burnish_specifier=abjad.rhythmmakertools.BurnishSpecifier(
+    rhythm_maker = rhythmos.TaleaRhythmMaker(
+        burnish_specifier=rhythmos.BurnishSpecifier(
             left_classes=[abjad.Rest],
             left_counts=[1],
             right_classes=[abjad.Rest],
@@ -24,11 +25,11 @@ def glowing_wind_rhythm(
             outer_divisions_only=True,
             ),
         extra_counts_per_division=extra_counts_per_division,
-        talea=abjad.rhythmmakertools.Talea(
+        talea=rhythmos.Talea(
             counts=counts,
             denominator=16,
             ),
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        tie_specifier=rhythmos.TieSpecifier(
             repeat_ties=True,
             ),
         )

@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def spazzolati_rhythm(
@@ -23,10 +24,10 @@ def spazzolati_rhythm(
     counts = abjad.sequence(counts)
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
-    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = rhythmos.TaleaRhythmMaker(
         division_masks=division_masks,
         extra_counts_per_division=extra_counts_per_division,
-        talea=abjad.rhythmmakertools.Talea(
+        talea=rhythmos.Talea(
             counts=counts,
             denominator=denominator,
             ),

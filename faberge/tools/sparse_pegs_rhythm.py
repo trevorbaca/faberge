@@ -1,9 +1,10 @@
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def sparse_pegs_rhythm():
-    #rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
-    #    talea=abjad.rhythmmakertools.Talea(
+    #rhythm_maker = rhythmos.TaleaRhythmMaker(
+    #    talea=rhythmos.Talea(
     #        counts=counts,
     #        denominator=16,
     #        ),

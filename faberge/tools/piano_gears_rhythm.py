@@ -1,11 +1,12 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def piano_gears_rhythm():
     counts = [4]
-    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
-        talea=abjad.rhythmmakertools.Talea(
+    rhythm_maker = rhythmos.TaleaRhythmMaker(
+        talea=rhythmos.Talea(
             counts=counts,
             denominator=16,
             ),

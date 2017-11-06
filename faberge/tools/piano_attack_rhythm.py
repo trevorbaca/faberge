@@ -1,10 +1,11 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def piano_attack_rhythm():
-    rhythm_maker = abjad.rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+    rhythm_maker = rhythmos.IncisedRhythmMaker(
+        incise_specifier=rhythmos.InciseSpecifier(
             fill_with_notes=False,
             outer_divisions_only=True,
             prefix_talea=[1],

@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def airtone_chain_rhythm(
@@ -68,13 +69,13 @@ def airtone_chain_rhythm(
 
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
 
-    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = rhythmos.TaleaRhythmMaker(
         read_talea_once_only=True,
-        talea=abjad.rhythmmakertools.Talea(
+        talea=rhythmos.Talea(
             counts=my_counts,
             denominator=16,
             ),
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        tie_specifier=rhythmos.TieSpecifier(
             repeat_ties=True,
             ),
         )
