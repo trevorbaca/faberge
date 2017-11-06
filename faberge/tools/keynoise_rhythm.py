@@ -1,17 +1,18 @@
 import abjad
 import baca
 import faberge
+from abjad import rhythmmakertools as rhythmos
 
 
 #def keynoise_rhythm():
-#    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
-#        burnish_specifier=abjad.rhythmmakertools.BurnishSpecifier(
+#    rhythm_maker = rhythmos.TaleaRhythmMaker(
+#        burnish_specifier=rhythmos.BurnishSpecifier(
 #            left_classes=[abjad.Rest],
 #            left_counts=[1],
 #            ),
 #        division_masks=abjad.silence([0, 3, 5, 6], 8),
 #        extra_counts_per_division=[1, 3, 1, 0, 2],
-#        talea=abjad.rhythmmakertools.Talea(
+#        talea=rhythmos.Talea(
 #            counts=[1],
 #            denominator=16,
 #            ),
@@ -39,7 +40,7 @@ def keynoise_rhythm(
     tuplet_ratios = abjad.sequence(tuplet_ratios)
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     tuplet_ratios = list(tuplet_ratios)
-    rhythm_maker = abjad.rhythmmakertools.TupletRhythmMaker(
+    rhythm_maker = rhythmos.TupletRhythmMaker(
         division_masks=division_masks,
         tuplet_ratios=tuplet_ratios,
         )

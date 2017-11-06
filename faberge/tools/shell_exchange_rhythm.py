@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def shell_exchange_rhythm(
@@ -103,14 +104,14 @@ def shell_exchange_rhythm(
     extras = abjad.sequence(extras)
     extras = extras.rotate(n=extra_counts_per_division_rotation)
 
-    rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
+    rhythm_maker = rhythmos.TaleaRhythmMaker(
         extra_counts_per_division=extras,
         logical_tie_masks=abjad.silence([-1]),
-        talea=abjad.rhythmmakertools.Talea(
+        talea=rhythmos.Talea(
             counts=counts,
             denominator=8,
             ),
-        tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
+        tuplet_specifier=rhythmos.TupletSpecifier(
             rewrite_rest_filled_tuplets=True,
             simplify_redundant_tuplets=True,
             ),
