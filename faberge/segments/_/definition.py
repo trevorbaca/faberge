@@ -8,14 +8,10 @@ import faberge
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    # 1
-    1,
-    # 2
-    abjad.Fermata(),
-    # 3
-    1,
-    # 4
-    abjad.Fermata(),
+    1,                  # 1
+    abjad.Fermata(),    # 2
+    1,                  # 3
+    abjad.Fermata(),    # 4
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -106,7 +102,7 @@ segment_maker(
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
     baca.one_line_staff(),
-    baca.pitches('C4'),
+    baca.staff_positions([0], repeats=True),
     )
 
 ### clarinet (color) ###
@@ -121,7 +117,7 @@ segment_maker(
     baca.scope('Violin Music Voice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
-    baca.pitches('E4'),
+    baca.pitches('E4', repeats=True),
     )
 
 ### viola (color) ###
@@ -130,7 +126,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
-    baca.pitches('E4'),
+    baca.pitches('E4', repeats=True),
     )
 
 ### cello (color) ###
