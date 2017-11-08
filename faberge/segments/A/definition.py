@@ -744,7 +744,7 @@ segment_maker(
     baca.accents(),
     baca.clef_spanner('percussion'),
     baca.dynamic('ff'),
-    baca.fixed_pitches('D4 D4 B3'),
+    baca.pitches('D4 D4 B3', exact=True),
     baca.map(baca.trill(), baca.plts()[:2]),
     baca.two_line_staff(),
     faberge.markup.bass_drum(baca.plt(-1)),
