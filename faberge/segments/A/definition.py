@@ -258,7 +258,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(['Percussion Music Voice'], [12, (14, 15), 17]),
+    baca.make_scopes(['Percussion Music Voice'], [12, (14, 15), 17]),
     faberge.shell_exchange_rhythm(
         extra_counts_per_division_rotation=2,
         total_parts=2,
