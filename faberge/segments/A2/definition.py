@@ -488,22 +488,22 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 9),
-    baca.make_fused_tupled_monads(),
+    baca.make_fused_tuplet_monads(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 10),
-    baca.make_fused_tupled_monads(),
+    baca.make_fused_tuplet_monads(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 11, 13),
-    baca.make_fused_tupled_monads(),
+    baca.make_fused_tuplet_monads(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 14),
-    baca.make_fused_tupled_monads(
+    baca.make_fused_tuplet_monads(
         tuplet_ratio=abjad.Ratio((31, 1)),
         ),
     )
@@ -742,7 +742,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 6, 14),
-    baca.markup.make_markup('as attackless as possible'),
+    baca.make_markup('as attackless as possible'),
     baca.stem_tremolo(),
     )
 
@@ -858,7 +858,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Music Voice', 17),
     baca.hairpin('mf > ppp'),
-    baca.markup.make_markup('col legno battuto'),
+    baca.make_markup('col legno battuto'),
     baca.staccati(),
     faberge.clb_pitches(rotation=-3),
     )
