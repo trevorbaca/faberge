@@ -109,17 +109,17 @@ segment_maker(
 ### piano (time) ###
 
 segment_maker(
-    baca.scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(1, 4)]),
+    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(1, 4)]),
     faberge.shell_transition_rhythm(),
     )
 
 segment_maker(
-    baca.scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(5, 8)]),
+    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(5, 8)]),
     faberge.shell_transition_rhythm(),
     )
 
 segment_maker(
-    baca.scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(9, 12)]),
+    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(9, 12)]),
     faberge.shell_transition_rhythm(),
     )
 

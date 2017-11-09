@@ -111,7 +111,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [5]),
+    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [5]),
     baca.make_rests(),
     )
 

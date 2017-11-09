@@ -230,7 +230,7 @@ segment_maker(
 ### piano (time) ###
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Piano RH Music Voice', 'Piano LH Music Voice'],
         [(5, 14)],
         ),
@@ -238,7 +238,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(['Piano LH Attack Voice'], [5, 8]),
+    baca.make_scopes(['Piano LH Attack Voice'], [5, 8]),
     faberge.piano_attack_rhythm(),
     )
 
@@ -399,12 +399,12 @@ segment_maker(
 ### piano (color) ###
 
 segment_maker(
-    baca.scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(5, 14)]),
+    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(5, 14)]),
     baca.natural_harmonics(),
     )
 
 segment_maker(
-    baca.scopes(['Piano LH Attack Voice'], [5, 8]),
+    baca.make_scopes(['Piano LH Attack Voice'], [5, 8]),
     baca.dynamic('sfz'),
     baca.marcati(),
     baca.pitches('C#2'),
