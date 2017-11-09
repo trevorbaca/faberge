@@ -695,7 +695,7 @@ segment_maker(
     baca.scope('English Horn Music Voice', 21, 23),
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     #baca.pitches('C4'),
     )
 
