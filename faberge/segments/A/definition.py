@@ -746,7 +746,7 @@ segment_maker(
     baca.dynamic('ff'),
     baca.pitches('D4 D4 B3', exact=True),
     baca.map(baca.trill(), baca.plts()[:2]),
-    baca.two_line_staff(),
+    baca.staff_lines(2),
     faberge.markup.bass_drum(baca.plt(-1)),
     faberge.markup.castanets(),
     )

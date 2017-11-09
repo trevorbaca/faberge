@@ -655,7 +655,7 @@ segment_maker(
     baca.scope('English Horn Music Voice', 15, 17),
     baca.clef('percussion'),
     baca.markup.remove_staple(),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     )
 
 segment_maker(
@@ -781,7 +781,7 @@ segment_maker(
         'noise only: no pitch',
         ]),
     baca.pitches('B3'),
-    baca.two_line_staff(),
+    baca.staff_lines(2),
     )
 
 ### violin (color) ###
@@ -829,7 +829,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Music Voice', 12, 17),
     baca.clef('percussion'),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     )
 
 segment_maker(
@@ -907,7 +907,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 12, 17),
     baca.clef('percussion'),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     baca.staccati(),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-4),
@@ -1012,7 +1012,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 15, 17),
     baca.clef('percussion'),
     baca.dynamic('mf'),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     baca.staccati(),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-5),
