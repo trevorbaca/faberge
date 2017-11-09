@@ -308,13 +308,13 @@ segment_maker(
 # apotheosis
 segment_maker(
     baca.scope('English Horn Music Voice', 8),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 # apotheosis cont
 segment_maker(
     baca.scope('English Horn Music Voice', 9),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -331,7 +331,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('English Horn Music Voice', 16),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 ### clarinet (time) ###
@@ -369,7 +369,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano RH Music Voice', 1, 9),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -386,7 +386,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 1),
-    baca.single_attack(abjad.Duration(3, 4)),
+    baca.make_single_attack(abjad.Duration(3, 4)),
     )
 
 segment_maker(
@@ -416,14 +416,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 16),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 ### violin (time) ###
 
 segment_maker(
     baca.scope('Violin Music Voice', 1),
-    baca.single_attack(abjad.Duration(3, 4)),
+    baca.make_single_attack(abjad.Duration(3, 4)),
     )
 
 segment_maker(
@@ -435,7 +435,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 6, 11),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -445,7 +445,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 16),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -488,22 +488,22 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 9),
-    baca.fused_tuplet_monads(),
+    baca.make_fused_tupled_monads(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 10),
-    baca.fused_tuplet_monads(),
+    baca.make_fused_tupled_monads(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 11, 13),
-    baca.fused_tuplet_monads(),
+    baca.make_fused_tupled_monads(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 14),
-    baca.fused_tuplet_monads(
+    baca.make_fused_tupled_monads(
         tuplet_ratio=abjad.Ratio((31, 1)),
         ),
     )

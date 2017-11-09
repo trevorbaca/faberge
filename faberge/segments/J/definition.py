@@ -165,7 +165,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 2, 6),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -182,7 +182,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 12, 13),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 ###############################################################################

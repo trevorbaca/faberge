@@ -234,7 +234,7 @@ segment_maker(
         ['Piano RH Music Voice', 'Piano LH Music Voice'],
         [(5, 14)],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -246,12 +246,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 3),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Percussion Music Voice', 8),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
