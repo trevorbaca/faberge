@@ -742,7 +742,7 @@ segment_maker(
 segment_maker(
     baca.scope('Percussion Music Voice', 16),
     baca.accents(),
-    baca.clef_spanner('percussion'),
+    baca.clef('percussion'),
     baca.dynamic('ff'),
     baca.pitches('D4 D4 B3', exact=True),
     baca.map(baca.trill(), baca.plts()[:2]),
@@ -753,6 +753,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 17),
+    baca.clef('treble'),
     baca.laissez_vibrer(),
     baca.pitches('F#4'),
     faberge.markup.bowed_crotales(),
