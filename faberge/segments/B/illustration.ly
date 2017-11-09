@@ -2089,10 +2089,11 @@
                         r1
                             ^ \markup {
                                 \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            "remove staple"
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "remove staple"
                                 }
                         r1
                         s1 * 3/2
@@ -2141,10 +2142,11 @@
                             g'16 * 351/64 [
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                ratchet
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    ratchet
                                     }
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue

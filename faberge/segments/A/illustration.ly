@@ -940,10 +940,11 @@
                             fs'''8 \<
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "match sound of crotales"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "match sound of crotales"
                                     }
                             r2 \f
                             \once \override Hairpin.circled-tip = ##t
@@ -1511,10 +1512,11 @@
                             fqs'16 \f [
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                keynoise
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    keynoise
                                     }
                             f'16
                             d'16
@@ -1640,10 +1642,11 @@
                             gs'''8 \<
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "match sound of crotales"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "match sound of crotales"
                                     }
                             r2 \f
                         }
@@ -2011,14 +2014,15 @@
                             <d' e' fs' c'' d''>2.
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \column
-                                                    {
-                                                        "depress silently;"
-                                                        "sustain with middle pedal"
-                                                    }
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    \column
+                                                        {
+                                                            "depress silently;"
+                                                            "sustain with middle pedal"
+                                                        }
                                     }
                             <d' e' fs' c'' d''>1 \repeatTie
                             <d' e' fs' c'' d''>1 \repeatTie
@@ -2395,10 +2399,11 @@
                             fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "BOWED CROTALES"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "BOWED CROTALES"
                                     }
                             r8 \f
                         }
@@ -2833,20 +2838,22 @@
                         d'2 -\accent \ff \startTrillSpan
                             ^ \markup {
                                 \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            castanets
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                castanets
                                 }
                         r16 \stopTrillSpan
                         d'2... -\accent \startTrillSpan
                         b2. -\accent \stopTrillSpan
                             ^ \markup {
                                 \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            "bass drum"
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "bass drum"
                                 }
                         r1
                         \stopStaff
@@ -2859,10 +2866,11 @@
                             fs'8 -\laissezVibrer \<
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "bowed crotales"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "bowed crotales"
                                     }
                             r4 \f
                             \once \override Hairpin.circled-tip = ##t
@@ -2907,10 +2915,11 @@
                             fs'''8 \<
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "match sound of crotales"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "match sound of crotales"
                                     }
                             r4 \f
                         }

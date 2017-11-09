@@ -3319,10 +3319,11 @@
                         bf'2. \fff \startTrillSpan
                             ^ \markup {
                                 \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            doubletrill!
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                doubletrill!
                                 }
                         bf'1 \repeatTie
                         bf'2 \repeatTie
@@ -3332,10 +3333,11 @@
                         b'2. \fff \stopTrillSpan \startTrillSpan
                             ^ \markup {
                                 \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            doubletrill!
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                doubletrill!
                                 }
                         b'1 \repeatTie
                         b'2. \repeatTie
@@ -3984,10 +3986,11 @@
                         r2.
                             ^ \markup {
                                 \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            "to marimba"
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "to marimba"
                                 }
                         r2
                         s1 * 10
@@ -4050,14 +4053,15 @@
                         b1
                             ^ \markup {
                                 \whiteout
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            \column
-                                                {
-                                                    "rub sponge on bass drum head;"
-                                                    "noise only: no pitch"
-                                                }
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \column
+                                                    {
+                                                        "rub sponge on bass drum head;"
+                                                        "noise only: no pitch"
+                                                    }
                                 }
                             _ \markup {
                                 \larger
@@ -5081,15 +5085,16 @@
                                             \line
                                                 {
                                                     \whiteout
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                \column
-                                                                    {
-                                                                        "col legno battuto:"
-                                                                        "as bright and pointlike as possible;"
-                                                                        "(mute string with left hand)"
-                                                                    }
+                                                        \upright
+                                                            \override
+                                                                #'(box-padding . 0.5)
+                                                                \box
+                                                                    \column
+                                                                        {
+                                                                            "col legno battuto:"
+                                                                            "as bright and pointlike as possible;"
+                                                                            "(mute string with left hand)"
+                                                                        }
                                                 }
                                             \line
                                                 {
@@ -6151,14 +6156,15 @@
                                         \line
                                             {
                                                 \whiteout
-                                                    \override
-                                                        #'(box-padding . 0.5)
-                                                        \box
-                                                            \column
-                                                                {
-                                                                    "bow directly on bridge;"
-                                                                    "noise only: no pitch"
-                                                                }
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                \column
+                                                                    {
+                                                                        "bow directly on bridge;"
+                                                                        "noise only: no pitch"
+                                                                    }
                                             }
                                         \line
                                             {
@@ -7587,15 +7593,16 @@
                                             \line
                                                 {
                                                     \whiteout
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                \column
-                                                                    {
-                                                                        "col legno battuto:"
-                                                                        "as bright and pointlike as possible;"
-                                                                        "(mute string with left hand)"
-                                                                    }
+                                                        \upright
+                                                            \override
+                                                                #'(box-padding . 0.5)
+                                                                \box
+                                                                    \column
+                                                                        {
+                                                                            "col legno battuto:"
+                                                                            "as bright and pointlike as possible;"
+                                                                            "(mute string with left hand)"
+                                                                        }
                                                 }
                                             \line
                                                 {
@@ -9782,11 +9789,13 @@
                                         {
                                             \line
                                                 {
-                                                    \column
-                                                        {
-                                                            "glissando lentissimo"
-                                                            "do not reattack note heads"
-                                                        }
+                                                    \whiteout
+                                                        \upright
+                                                            \column
+                                                                {
+                                                                    "glissando lentissimo"
+                                                                    "do not reattack note heads"
+                                                                }
                                                 }
                                             \line
                                                 {
@@ -9846,15 +9855,16 @@
                                             \line
                                                 {
                                                     \whiteout
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                \column
-                                                                    {
-                                                                        "col legno battuto:"
-                                                                        "as bright and pointlike as possible;"
-                                                                        "(mute string with left hand)"
-                                                                    }
+                                                        \upright
+                                                            \override
+                                                                #'(box-padding . 0.5)
+                                                                \box
+                                                                    \column
+                                                                        {
+                                                                            "col legno battuto:"
+                                                                            "as bright and pointlike as possible;"
+                                                                            "(mute string with left hand)"
+                                                                        }
                                                 }
                                             \line
                                                 {
