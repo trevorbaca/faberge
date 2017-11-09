@@ -171,10 +171,11 @@
                             c'16 * 187/32 [
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                ratchet
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    ratchet
                                     }
                             c'16 * 139/32
                             c'16 * 73/32
