@@ -742,7 +742,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 6, 14),
-    baca.make_markup('as attackless as possible'),
+    baca.markup('as attackless as possible'),
     baca.stem_tremolo(),
     )
 
@@ -858,7 +858,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Music Voice', 17),
     baca.hairpin('mf > ppp'),
-    baca.make_markup('col legno battuto'),
+    baca.markup('col legno battuto'),
     baca.staccati(),
     faberge.clb_pitches(rotation=-3),
     )
