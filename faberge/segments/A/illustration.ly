@@ -2849,11 +2849,11 @@
                                             "bass drum"
                                 }
                         r1
-                        \clef "treble"
                         \stopStaff
                         \startStaff
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            \clef "treble"
                             r8
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
