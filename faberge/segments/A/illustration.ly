@@ -2831,10 +2831,25 @@
                         \startStaff
                         \clef "percussion"
                         r2
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         r2.
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         r1
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         r2
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         r4
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         d'2 -\accent \ff \startTrillSpan
                             ^ \markup {
                                 \whiteout
@@ -2844,8 +2859,17 @@
                                             \box
                                                 castanets
                                 }
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         r16 \stopTrillSpan
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         d'2... -\accent \startTrillSpan
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         b2. -\accent \stopTrillSpan
                             ^ \markup {
                                 \whiteout
@@ -2855,9 +2879,10 @@
                                             \box
                                                 "bass drum"
                                 }
-                        r1
                         \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
+                        r1
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             \clef "treble"
