@@ -177,14 +177,27 @@
                                                 \box
                                                     ratchet
                                     }
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             c'16 * 139/32
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             c'16 * 73/32
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             c'16 * 23/16
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             c'16 * 71/64
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \revert Staff.Stem.stemlet-length
                             c'16 * 63/64 ]
-                            \stopStaff
-                            \startStaff
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
