@@ -31,7 +31,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 12),
     )
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     instruments=faberge.instruments,
     label_clock_time=False,
     label_stages=False,
@@ -44,9 +44,9 @@ segment_maker = baca.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_stage_count(4)
-segment_maker.validate_measure_count(4)
-segment_maker.validate_measures_per_stage()
+maker.validate_stage_count(4)
+maker.validate_measure_count(4)
+maker.validate_measures_per_stage()
 
 ###############################################################################
 ##################################### TIME ####################################
@@ -56,7 +56,7 @@ segment_maker.validate_measures_per_stage()
 
 ### english horn (time) ###
 
-segment_maker(
+maker(
     baca.scope('English Horn Music Voice', 3),
     faberge.ratchet_rhythm(),
     )
@@ -69,7 +69,7 @@ segment_maker(
 
 ### violin (time) ###
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 1),
     faberge.spazzolati_rhythm(
         counts_rotation=0,
@@ -78,7 +78,7 @@ segment_maker(
 
 ### viola (time) ###
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
@@ -97,7 +97,7 @@ segment_maker(
 
 ### english horn (color) ###
 
-segment_maker(
+maker(
     baca.scope('English Horn Music Voice', 3),
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
@@ -113,7 +113,7 @@ segment_maker(
 
 ### violin (color) ###
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
@@ -122,7 +122,7 @@ segment_maker(
 
 ### viola (color) ###
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
