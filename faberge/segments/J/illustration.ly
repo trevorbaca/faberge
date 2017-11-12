@@ -13,109 +13,38 @@
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
-                {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    R1 * 1
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    R1 * 1/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest.transparent = ##t
-                    \once \override Score.TimeSignature.stencil = ##f
-                    R1 * 1/4
-                        - \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
-                    \time 2/4
-                    R1 * 1/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    R1 * 1
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
+                R1 * 1/2
+                R1 * 3/4
+                R1 * 3/4
+                R1 * 1
+                R1 * 1
+                R1 * 3/4
+                R1 * 1/2
+                R1 * 1/2
+                R1 * 3/4
+                R1 * 1
+                R1 * 1/2
+                R1 * 3/4
+                R1 * 1
+                R1 * 1/2
+                R1 * 3/4
+                R1 * 1
+                R1 * 3/4
+                R1 * 1
+                R1 * 3/4
+                R1 * 1
+                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+                \once \override Score.MultiMeasureRest.transparent = ##t
+                \once \override Score.TimeSignature.stencil = ##f
+                R1 * 1/4
+                    - \markup {
+                        \musicglyph
+                            #"scripts.ushortfermata"
+                        }
+                R1 * 1/2
+                R1 * 1
+                R1 * 1
+                R1 * 3/4
             }
             \context GlobalSkips = "Global Skips" {
                 {
