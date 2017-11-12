@@ -39,7 +39,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 12),
     )
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     instruments=faberge.instruments,
     label_clock_time=False,
     label_stages=True,
@@ -53,9 +53,9 @@ segment_maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-segment_maker.validate_stage_count(9)
-segment_maker.validate_measure_count(21)
-segment_maker.validate_measures_per_stage()
+maker.validate_stage_count(9)
+maker.validate_measure_count(21)
+maker.validate_measures_per_stage()
 
 ###############################################################################
 ##################################### TIME ####################################
@@ -63,38 +63,38 @@ segment_maker.validate_measures_per_stage()
 
 ### flute (time) ###
 
-segment_maker(
+maker(
     baca.scope('Flute Music Voice', 2),
     faberge.glow_rhythm(),
     )
 
 ### english horn (time) ###
 
-segment_maker(
+maker(
     baca.scope('English Horn Music Voice', 2),
     faberge.keynoise_rhythm(),
     )
 
-segment_maker(
+maker(
     baca.scope('English Horn Music Voice', 6, 7),
     faberge.electricity_rhythm(),
     )
 
 ### clarinet (time) ###
 
-segment_maker(
+maker(
     baca.scope('Clarinet Music Voice', 2),
     faberge.glow_rhythm(),
     )
 
 ### piano (time) ###
 
-segment_maker(
+maker(
     baca.scope('Piano RH Music Voice', 1),
     baca.make_rests(),
     )
 
-segment_maker(
+maker(
     baca.scope('Piano RH Music Voice', 4),
     faberge.meccanico_rhythm(
         attack_count=7,
@@ -102,7 +102,7 @@ segment_maker(
         )
     )
 
-segment_maker(
+maker(
     baca.scope('Piano LH Music Voice', 4),
     faberge.meccanico_rhythm(
         attack_count=5,
@@ -110,36 +110,36 @@ segment_maker(
         )
     )
 
-segment_maker(
+maker(
     baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [5]),
     baca.make_rests(),
     )
 
 ### percussion (time) ###
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 2),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 4),
     faberge.meccanico_percussion_cell_rhythm(),
     )
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 6, 7),
     faberge.electricity_rhythm(),
     )
 
 ### violin (time) ###
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 2),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 4),
     faberge.meccanico_rhythm(
         attack_count=7,
@@ -147,14 +147,14 @@ segment_maker(
         )
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 7),
     faberge.electricity_rhythm(),
     )
 
 ### viola (time) ###
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1, 8),
     faberge.airtone_chain_rhythm(
         total_events=1,
@@ -164,12 +164,12 @@ segment_maker(
 
 ### cello (time) ###
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 2),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 4),
     faberge.meccanico_rhythm(
         attack_count=10,
@@ -177,7 +177,7 @@ segment_maker(
         )
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 7),
     faberge.electricity_rhythm(),
     )
@@ -194,13 +194,13 @@ segment_maker(
 
 ### piano (color) ###
 
-segment_maker(
+maker(
     baca.scope('Piano RH Music Voice', 1),
     # TODO: implement baca.instrument_change():
     #faberge.instruments['harpsichord'],
     )
 
-segment_maker(
+maker(
     baca.scope('Piano RH Music Voice', 5),
     # TODO: implement baca.instrument_change():
     #faberge.instruments['piano'],
