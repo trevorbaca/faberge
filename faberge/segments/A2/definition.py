@@ -49,7 +49,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     )
 
 maker = baca.SegmentMaker(
-    final_barline='|.',
+    final_bar_line='|.',
     final_markup=(['Madison, WI.'], ['April', 'May 2016.']),
     final_markup_extra_offset=(-12, -4),
     ignore_repeat_pitch_classes=True,
