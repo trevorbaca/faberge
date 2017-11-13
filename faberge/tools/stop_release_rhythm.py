@@ -15,7 +15,7 @@ def stop_release_rhythm():
             talea_denominator=4,
             ),
         )
-    return baca.RhythmBuilder(
+    return baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

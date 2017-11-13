@@ -33,7 +33,7 @@ def successive_tapers_rhythm(
             repeat_ties=True,
             ),
         )
-    return baca.RhythmBuilder(
+    return baca.RhythmCommand(
         division_expression=division_expression,
         rhythm_maker=rhythm_maker,
         )

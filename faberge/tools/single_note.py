@@ -16,7 +16,7 @@ def single_note(duration):
             talea_denominator=denominator,
             ),
         )
-    return baca.RhythmBuilder(
+    return baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

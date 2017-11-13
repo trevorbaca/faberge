@@ -22,6 +22,6 @@ def agitated_wind_rhythm(
             denominator=16,
             ),
         )
-    return baca.RhythmBuilder(
+    return baca.RhythmCommand(
         rhythm_maker=rhythm_maker,
         )
