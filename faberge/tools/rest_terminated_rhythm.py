@@ -15,7 +15,7 @@ def rest_terminated_rhythm():
             tie_across_divisions=True,
             ),
         )
-    return baca.RhythmBuilder(
+    return baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

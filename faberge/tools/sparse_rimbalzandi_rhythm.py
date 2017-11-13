@@ -9,7 +9,7 @@ def sparse_rimbalzandi_rhythm():
     #        denominator=16,
     #        ),
     #    )
-    #return baca.RhythmBuilder(
+    #return baca.RhythmCommand(
     #    rewrite_meter=True,
     #    rhythm_maker=rhythm_maker,
     #    )
