@@ -258,7 +258,7 @@
                     \context FluteMusicVoice = "Flute Music Voice" {
                         % measure 301
                         \clef "treble"
-                        s1 * 7/4
+                        R1 * 7/4
                         \times 4/5 {
                             % measure 303
                             \once \override Beam.color = #blue
@@ -562,7 +562,7 @@
                             c'4
                         }
                         % measure 305
-                        s1 * 77/4
+                        R1 * 77/4
                         \bar "|"
                     }
                 }
@@ -571,7 +571,7 @@
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         % measure 301
                         \clef "percussion"
-                        s1 * 7/4
+                        R1 * 7/4
                         \times 4/5 {
                             % measure 303
                             r16
@@ -794,7 +794,7 @@
                             g'4
                         }
                         % measure 305
-                        s1 * 47/4
+                        R1 * 47/4
                         % measure 315
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -824,7 +824,7 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         % measure 319
-                        s1 * 5/2
+                        R1 * 5/2
                         \bar "|"
                     }
                 }
@@ -833,7 +833,7 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         % measure 301
                         \clef "treble"
-                        s1 * 7/4
+                        R1 * 7/4
                         \times 4/5 {
                             % measure 303
                             \once \override Beam.color = #blue
@@ -1137,7 +1137,7 @@
                             d'4
                         }
                         % measure 305
-                        s1 * 77/4
+                        R1 * 77/4
                         \bar "|"
                     }
                 }
@@ -1153,7 +1153,7 @@
                             % measure 302
                             r1
                             % measure 303
-                            s1 * 23/4
+                            R1 * 23/4
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
                                 % measure 307
@@ -1611,14 +1611,14 @@
                             % measure 314
                             r1
                             % measure 315
-                            s1 * 15/2
+                            R1 * 15/2
                             \bar "|"
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
                             % measure 301
-                            s1 * 15/2
+                            R1 * 15/2
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/5 {
                                 % measure 307
@@ -1956,7 +1956,7 @@
                             % measure 314
                             r1
                             % measure 315
-                            s1 * 15/2
+                            R1 * 15/2
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
@@ -2010,7 +2010,7 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         % measure 301
-                        s1 * 7/4
+                        R1 * 7/4
                         % measure 303
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2026,7 +2026,7 @@
                         \once \override Stem.color = #blue
                         c'1.. \repeatTie
                         % measure 305
-                        s1 * 5/2
+                        R1 * 5/2
                         % measure 307
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2112,7 +2112,7 @@
                         c'4
                         r2.
                         % measure 313
-                        s1 * 7/4
+                        R1 * 7/4
                         % measure 315
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2142,7 +2142,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 319
-                        s1 * 5/2
+                        R1 * 5/2
                         \bar "|"
                     }
                 }
@@ -2153,7 +2153,7 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         % measure 301
                         \clef "percussion"
-                        s1 * 7/4
+                        R1 * 7/4
                         % measure 303
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2169,7 +2169,7 @@
                         \once \override Stem.color = #blue
                         c'1.. \repeatTie
                         % measure 305
-                        s1 * 5/2
+                        R1 * 5/2
                         \times 4/7 {
                             % measure 307
                             \once \override Beam.color = #blue
@@ -2834,7 +2834,7 @@
                             c'8 ]
                         }
                         % measure 313
-                        s1 * 17/4
+                        R1 * 17/4
                         % measure 317
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2850,7 +2850,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 319
-                        s1 * 5/2
+                        R1 * 5/2
                         \bar "|"
                     }
                 }
@@ -3013,7 +3013,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 321
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -3022,7 +3022,7 @@
                     \context CelloMusicVoice = "Cello Music Voice" {
                         % measure 301
                         \clef "percussion"
-                        s1 * 7/4
+                        R1 * 7/4
                         % measure 303
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3038,7 +3038,7 @@
                         \once \override Stem.color = #blue
                         c'1.. \repeatTie
                         % measure 305
-                        s1 * 5/2
+                        R1 * 5/2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
                             % measure 307
@@ -3672,7 +3672,7 @@
                             c'8 ]
                         }
                         % measure 313
-                        s1 * 17/4
+                        R1 * 17/4
                         % measure 317
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3688,7 +3688,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 319
-                        s1 * 5/2
+                        R1 * 5/2
                         \bar "|"
                     }
                 }

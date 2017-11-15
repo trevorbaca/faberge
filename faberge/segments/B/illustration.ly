@@ -1377,7 +1377,7 @@
                         % measure 182
                         r2.
                         % measure 183
-                        s1 * 25/4
+                        R1 * 25/4
                         {
                             % measure 191
                             \once \override Beam.color = #blue
@@ -1414,7 +1414,7 @@
                             r4
                         }
                         % measure 193
-                        s1 * 225/4
+                        R1 * 225/4
                         \bar "|"
                     }
                 }
@@ -1696,7 +1696,7 @@
                             g'16 ]
                         }
                         % measure 183
-                        s1 * 15
+                        R1 * 15
                         % measure 203
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1854,7 +1854,7 @@
                         \once \override Stem.color = #blue
                         g'2. \repeatTie
                         % measure 225
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 226
                         r1
                             ^ \markup {
@@ -1868,7 +1868,7 @@
                         % measure 227
                         r1
                         % measure 228
-                        s1 * 3/2
+                        R1 * 3/2
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -2010,7 +2010,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 233
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -2158,7 +2158,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 236
-                        s1 * 35/4
+                        R1 * 35/4
                         % measure 250
                         r2
                         \once \override Beam.color = #blue
@@ -2175,7 +2175,7 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         % measure 252
-                        s1 * 13/4
+                        R1 * 13/4
                         % measure 258
                         r2
                         \once \override Beam.color = #blue
@@ -2192,7 +2192,7 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         % measure 260
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 261
                         r2
                         \once \override Beam.color = #blue
@@ -2209,7 +2209,7 @@
                         \once \override Stem.color = #blue
                         g'2 \repeatTie
                         % measure 263
-                        s1 * 19/4
+                        R1 * 19/4
                         % measure 270
                         r2
                         % measure 271
@@ -2275,7 +2275,7 @@
                         % measure 182
                         r2.
                         % measure 183
-                        s1 * 25/4
+                        R1 * 25/4
                         {
                             % measure 191
                             \once \override Beam.color = #blue
@@ -2312,7 +2312,7 @@
                             r4
                         }
                         % measure 193
-                        s1 * 105/4
+                        R1 * 105/4
                         {
                             % measure 228
                             \once \override Beam.color = #blue
@@ -2342,7 +2342,7 @@
                             r8
                         }
                         % measure 230
-                        s1 * 27/4
+                        R1 * 27/4
                         {
                             % measure 242
                             \once \override Beam.color = #blue
@@ -2380,7 +2380,7 @@
                             r8
                         }
                         % measure 244
-                        s1 * 81/4
+                        R1 * 81/4
                         \bar "|"
                     }
                 }
@@ -3377,7 +3377,7 @@
                                 c'8 ]
                             }
                             % measure 197
-                            s1 * 1/4
+                            R1 * 1/4
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/4 {
                                 % measure 198
@@ -3470,7 +3470,7 @@
                                 c'8 ]
                             }
                             % measure 200
-                            s1 * 85/4
+                            R1 * 85/4
                             \times 2/3 {
                                 % measure 228
                                 \once \override Beam.color = #blue
@@ -3550,7 +3550,7 @@
                                 c'8 ]
                             }
                             % measure 230
-                            s1 * 21/4
+                            R1 * 21/4
                             \times 2/3 {
                                 % measure 239
                                 \once \override Beam.color = #blue
@@ -3630,7 +3630,7 @@
                                 c'8 ]
                             }
                             % measure 241
-                            s1 * 1/4
+                            R1 * 1/4
                             \times 4/5 {
                                 % measure 242
                                 \once \override Beam.color = #blue
@@ -3734,7 +3734,7 @@
                                 c'8 ]
                             }
                             % measure 244
-                            s1 * 23/4
+                            R1 * 23/4
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/4 {
                                 % measure 252
@@ -3827,7 +3827,7 @@
                                 c'8 ]
                             }
                             % measure 254
-                            s1 * 23/4
+                            R1 * 23/4
                             \times 2/3 {
                                 % measure 264
                                 \once \override Beam.color = #blue
@@ -3911,7 +3911,7 @@
                             % measure 267
                             r2
                             % measure 268
-                            s1 * 19/4
+                            R1 * 19/4
                             \bar "|"
                         }
                     }
@@ -4316,7 +4316,7 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         % measure 177
-                        s1 * 17/4
+                        R1 * 17/4
                         % measure 183
                         r4
                         \once \override Beam.color = #blue
@@ -4370,7 +4370,7 @@
                         c'4
                         r2
                         % measure 191
-                        s1 * 7/2
+                        R1 * 7/2
                         % measure 195
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4386,7 +4386,7 @@
                         \once \override Stem.color = #blue
                         c'2 \repeatTie
                         % measure 197
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 198
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4402,7 +4402,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 200
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 201
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4575,7 +4575,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 225
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 226
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4591,7 +4591,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 228
-                        s1 * 13/2
+                        R1 * 13/2
                         % measure 239
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4607,7 +4607,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         % measure 241
-                        s1 * 31/4
+                        R1 * 31/4
                         % measure 252
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4623,7 +4623,7 @@
                         \once \override Stem.color = #blue
                         c'2
                         % measure 254
-                        s1 * 53/4
+                        R1 * 53/4
                         \bar "|"
                     }
                 }
@@ -5656,7 +5656,7 @@
                             c'8 ]
                         }
                         % measure 197
-                        s1 * 1/4
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             % measure 198
@@ -5749,7 +5749,7 @@
                             c'8 ]
                         }
                         % measure 200
-                        s1 * 85/4
+                        R1 * 85/4
                         \times 2/3 {
                             % measure 228
                             \once \override Beam.color = #blue
@@ -5829,7 +5829,7 @@
                             c'8 ]
                         }
                         % measure 230
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 231
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -5911,7 +5911,7 @@
                         c'16 ]
                         r8
                         % measure 233
-                        s1 * 15/4
+                        R1 * 15/4
                         \times 2/3 {
                             % measure 239
                             \once \override Beam.color = #blue
@@ -5991,7 +5991,7 @@
                             c'8 ]
                         }
                         % measure 241
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 4/5 {
                             % measure 242
                             \once \override Beam.color = #blue
@@ -6095,7 +6095,7 @@
                             c'8 ]
                         }
                         % measure 244
-                        s1 * 23/4
+                        R1 * 23/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             % measure 252
@@ -6188,7 +6188,7 @@
                             c'8 ]
                         }
                         % measure 254
-                        s1 * 23/4
+                        R1 * 23/4
                         \times 2/3 {
                             % measure 264
                             \once \override Beam.color = #blue
@@ -6268,7 +6268,7 @@
                             c'8 ]
                         }
                         % measure 266
-                        s1 * 3/2
+                        R1 * 3/2
                         % measure 268
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -6456,7 +6456,7 @@
                         c'16 ]
                         r8
                         % measure 272
-                        s1 * 7/4
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -7487,7 +7487,7 @@
                             c'8 ]
                         }
                         % measure 197
-                        s1 * 1/4
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             % measure 198
@@ -7580,7 +7580,7 @@
                             c'8 ]
                         }
                         % measure 200
-                        s1 * 85/4
+                        R1 * 85/4
                         \times 2/3 {
                             % measure 228
                             \once \override Beam.color = #blue
@@ -7660,7 +7660,7 @@
                             c'8 ]
                         }
                         % measure 230
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 231
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -7742,7 +7742,7 @@
                         c'16 ]
                         r8
                         % measure 233
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 234
                         r16
                         \once \override Beam.color = #blue
@@ -7766,7 +7766,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 236
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 237
                         r16
                         \once \override Beam.color = #blue
@@ -7868,7 +7868,7 @@
                             c'8 ]
                         }
                         % measure 241
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 4/5 {
                             % measure 242
                             \once \override Beam.color = #blue
@@ -7972,7 +7972,7 @@
                             c'8 ]
                         }
                         % measure 244
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 245
                         r16
                         \once \override Beam.color = #blue
@@ -7996,7 +7996,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 247
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 248
                         r16
                         \once \override Beam.color = #blue
@@ -8129,7 +8129,7 @@
                             c'8 ]
                         }
                         % measure 254
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 255
                         r16
                         \once \override Beam.color = #blue
@@ -8153,7 +8153,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 257
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 258
                         r16
                         \once \override Beam.color = #blue
@@ -8173,7 +8173,7 @@
                         % measure 259
                         r1
                         % measure 260
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 261
                         r16
                         \once \override Beam.color = #blue
@@ -8193,7 +8193,7 @@
                         % measure 262
                         r2
                         % measure 263
-                        s1 * 3/2
+                        R1 * 3/2
                         % measure 266
                         r16
                         \once \override Beam.color = #blue
@@ -9081,7 +9081,7 @@
                             c'8 ]
                         }
                         % measure 193
-                        s1 * 2
+                        R1 * 2
                         % measure 195
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9097,7 +9097,7 @@
                         \once \override Stem.color = #blue
                         c'2 \repeatTie
                         % measure 197
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 198
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9113,7 +9113,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 200
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 201
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9272,7 +9272,7 @@
                         c'2
                         r4
                         % measure 223
-                        s1 * 7/2
+                        R1 * 7/2
                         % measure 228
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9288,7 +9288,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         % measure 230
-                        s1 * 21/4
+                        R1 * 21/4
                         % measure 239
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9304,7 +9304,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         % measure 241
-                        s1 * 31/4
+                        R1 * 31/4
                         % measure 252
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9320,7 +9320,7 @@
                         \once \override Stem.color = #blue
                         c'2
                         % measure 254
-                        s1 * 23/4
+                        R1 * 23/4
                         \times 2/3 {
                             % measure 264
                             \once \override Beam.color = #blue
@@ -9400,7 +9400,7 @@
                             c'8 ]
                         }
                         % measure 266
-                        s1 * 3/2
+                        R1 * 3/2
                         % measure 268
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -9588,7 +9588,7 @@
                         c'16 ]
                         r8
                         % measure 272
-                        s1 * 7/4
+                        R1 * 7/4
                         \bar "|"
                     }
                 }

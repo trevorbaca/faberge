@@ -303,7 +303,7 @@
                         c'8 \repeatTie
                         r2..
                         % measure 276
-                        s1 * 31/12
+                        R1 * 31/12
                         % measure 280
                         r2.
                         r2
@@ -339,7 +339,7 @@
                         r8
                         r2
                         % measure 284
-                        s1 * 31/12
+                        R1 * 31/12
                         % measure 288
                         r2.
                         r2
@@ -357,7 +357,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 290
-                        s1 * 5/2
+                        R1 * 5/2
                         % measure 292
                         r2.
                         r2
@@ -411,7 +411,7 @@
                         c'8 \repeatTie
                         r8
                         % measure 298
-                        s1 * 19/6
+                        R1 * 19/6
                         \bar "|"
                     }
                 }
@@ -437,7 +437,7 @@
                         r4.
                         r1
                         % measure 276
-                        s1 * 31/12
+                        R1 * 31/12
                         % measure 280
                         r2
                         \once \override Beam.color = #blue
@@ -469,7 +469,7 @@
                         r4.
                         r2.
                         % measure 284
-                        s1 * 31/12
+                        R1 * 31/12
                         % measure 288
                         r2
                         \once \override Beam.color = #blue
@@ -558,7 +558,7 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         % measure 300
-                        s1 * 5/12
+                        R1 * 5/12
                         \bar "|"
                     }
                 }
@@ -577,7 +577,7 @@
                         \once \override Stem.color = #blue
                         d'1
                         % measure 276
-                        s1 * 35/6
+                        R1 * 35/6
                         % measure 282
                         r1
                         % measure 283
@@ -589,7 +589,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 284
-                        s1 * 77/6
+                        R1 * 77/6
                         % measure 296
                         r1
                         % measure 297
@@ -601,7 +601,7 @@
                         \once \override Stem.color = #blue
                         d'4
                         % measure 298
-                        s1 * 19/6
+                        R1 * 19/6
                         \bar "|"
                     }
                 }
@@ -613,7 +613,7 @@
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
                             % measure 274
                             \clef "treble"
-                            s1 * 16/3
+                            R1 * 16/3
                             % measure 280
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -763,14 +763,14 @@
                             c'1 \repeatTie
                             \revert NoteHead.style
                             % measure 298
-                            s1 * 19/6
+                            R1 * 19/6
                             \bar "|"
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
                             % measure 274
-                            s1 * 16/3
+                            R1 * 16/3
                             % measure 280
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -920,12 +920,12 @@
                             c'1 \repeatTie
                             \revert NoteHead.style
                             % measure 298
-                            s1 * 19/6
+                            R1 * 19/6
                             \bar "|"
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
                             % measure 274
-                            s1 * 16/3
+                            R1 * 16/3
                             % measure 280
                             cs,16 -\marcato \sfz
                             s1
@@ -933,7 +933,7 @@
                             % measure 281
                             s1..
                             % measure 282
-                            s1 * 35/12
+                            R1 * 35/12
                             % measure 285
                             cs,16 -\marcato \sfz
                             s2
@@ -941,7 +941,7 @@
                             % measure 286
                             s1
                             % measure 287
-                            s1 * 95/6
+                            R1 * 95/6
                             \bar "|"
                         }
                     >>
@@ -950,7 +950,7 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         % measure 274
-                        s1 * 19/6
+                        R1 * 19/6
                         % measure 277
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -966,7 +966,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 279
-                        s1 * 79/12
+                        R1 * 79/12
                         % measure 285
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -982,7 +982,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 287
-                        s1 * 65/12
+                        R1 * 65/12
                         % measure 292
                         r1.
                         % measure 293
@@ -1009,7 +1009,7 @@
                         % measure 297
                         r1
                         % measure 298
-                        s1 * 19/6
+                        R1 * 19/6
                         \bar "|"
                     }
                 }
@@ -1191,7 +1191,7 @@
                         c'16 ]
                         r8
                         % measure 276
-                        s1 * 35/6
+                        R1 * 35/6
                         % measure 282
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1207,7 +1207,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         % measure 284
-                        s1 * 91/12
+                        R1 * 91/12
                         % measure 292
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1265,7 +1265,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         % measure 300
-                        s1 * 5/12
+                        R1 * 5/12
                         \bar "|"
                     }
                 }
@@ -1292,7 +1292,7 @@
                         % measure 275
                         r1..
                         % measure 276
-                        s1 * 31/12
+                        R1 * 31/12
                         % measure 280
                         r16
                         \once \override Beam.color = #blue
@@ -1330,7 +1330,7 @@
                         % measure 283
                         r1.
                         % measure 284
-                        s1 * 31/12
+                        R1 * 31/12
                         % measure 288
                         r16
                         \once \override Beam.color = #blue
@@ -1441,7 +1441,7 @@
                         % measure 299
                         r1
                         % measure 300
-                        s1 * 5/12
+                        R1 * 5/12
                         \bar "|"
                     }
                 }
@@ -1621,7 +1621,7 @@
                         c'16 ]
                         r8
                         % measure 276
-                        s1 * 35/6
+                        R1 * 35/6
                         % measure 282
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1637,7 +1637,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         % measure 284
-                        s1 * 91/12
+                        R1 * 91/12
                         % measure 292
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1695,7 +1695,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         % measure 300
-                        s1 * 5/12
+                        R1 * 5/12
                         \bar "|"
                     }
                 }

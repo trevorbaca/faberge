@@ -1108,7 +1108,7 @@
                             c'8
                         }
                         % measure 586
-                        s1 * 2
+                        R1 * 2
                         % measure 589
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1138,7 +1138,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 591
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 592
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1155,7 +1155,7 @@
                         \once \override Stem.color = #blue
                         c'2
                         % measure 594
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 595
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1191,7 +1191,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 597
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 598
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1207,7 +1207,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 599
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 600
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1223,7 +1223,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 601
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 602
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1239,7 +1239,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 603
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 604
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1255,7 +1255,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 605
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 606
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1271,7 +1271,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 607
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 608
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1287,7 +1287,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 609
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 610
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1331,7 +1331,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 614
-                        s1 * 7/2
+                        R1 * 7/2
                         \bar "|"
                     }
                 }
@@ -1340,7 +1340,7 @@
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         % measure 578
                         \clef "percussion"
-                        s1 * 33/4
+                        R1 * 33/4
                         % measure 589
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1358,7 +1358,7 @@
                         \once \override Stem.color = #blue
                         g'4.
                         % measure 591
-                        s1 * 7/2
+                        R1 * 7/2
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1421,7 +1421,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 599
-                        s1 * 1/8
+                        R1 * 1/8
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1484,7 +1484,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 601
-                        s1 * 1/8
+                        R1 * 1/8
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1547,7 +1547,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 603
-                        s1 * 1/8
+                        R1 * 1/8
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1610,7 +1610,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 605
-                        s1 * 1/8
+                        R1 * 1/8
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1673,7 +1673,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 607
-                        s1 * 1/8
+                        R1 * 1/8
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1736,7 +1736,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 609
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 610
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1780,7 +1780,7 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         % measure 616
-                        s1 * 7/4
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -2352,7 +2352,7 @@
                             d'8
                         }
                         % measure 586
-                        s1 * 2
+                        R1 * 2
                         % measure 589
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2369,7 +2369,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 591
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 592
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2386,7 +2386,7 @@
                         d'4..
                         r16
                         % measure 594
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 595
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2409,7 +2409,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 597
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 598
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2418,7 +2418,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 599
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 600
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2427,7 +2427,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 601
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 602
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2436,7 +2436,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 603
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 604
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2445,7 +2445,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 605
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 606
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2454,7 +2454,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 607
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 608
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2463,7 +2463,7 @@
                         \once \override Stem.color = #blue
                         d'2.
                         % measure 609
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 610
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -2506,7 +2506,7 @@
                         \once \override Stem.color = #blue
                         d'2
                         % measure 614
-                        s1 * 7/2
+                        R1 * 7/2
                         \bar "|"
                     }
                 }
@@ -2644,7 +2644,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 584
-                            s1 * 13/4
+                            R1 * 13/4
                             % measure 589
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2690,7 +2690,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 591
-                            s1 * 1/4
+                            R1 * 1/4
                             % measure 592
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2718,7 +2718,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 594
-                            s1 * 1/4
+                            R1 * 1/4
                             % measure 595
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2764,7 +2764,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 597
-                            s1 * 1/4
+                            R1 * 1/4
                             % measure 598
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2785,7 +2785,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 599
-                            s1 * 1/8
+                            R1 * 1/8
                             % measure 600
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2806,7 +2806,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 601
-                            s1 * 1/8
+                            R1 * 1/8
                             % measure 602
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2827,7 +2827,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 603
-                            s1 * 1/8
+                            R1 * 1/8
                             % measure 604
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2848,7 +2848,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 605
-                            s1 * 1/8
+                            R1 * 1/8
                             % measure 606
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2869,7 +2869,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 607
-                            s1 * 1/8
+                            R1 * 1/8
                             % measure 608
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2890,7 +2890,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 609
-                            s1 * 1/8
+                            R1 * 1/8
                             % measure 610
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2962,7 +2962,7 @@
                             \once \override Stem.color = #blue
                             c'4
                             % measure 614
-                            s1 * 7/2
+                            R1 * 7/2
                             \bar "|"
                         }
                     }
@@ -3188,7 +3188,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         % measure 584
-                        s1 * 13/4
+                        R1 * 13/4
                         % measure 589
                         r2.
                         \once \override Beam.color = #blue
@@ -3206,7 +3206,7 @@
                         c'2 \repeatTie
                         r4
                         % measure 591
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 592
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3223,7 +3223,7 @@
                         \once \override Stem.color = #blue
                         c'2
                         % measure 594
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 595
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3246,7 +3246,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         % measure 597
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 598
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3262,7 +3262,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 599
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 600
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3278,7 +3278,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 601
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 602
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3294,7 +3294,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 603
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 604
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3310,7 +3310,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 605
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 606
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3326,7 +3326,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 607
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 608
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3342,7 +3342,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 609
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 610
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3386,7 +3386,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 616
-                        s1 * 7/4
+                        R1 * 7/4
                         \bar "|"
                     }
                 }
@@ -3467,13 +3467,13 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 588
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 589
                         r1
                         % measure 590
                         r2.
                         % measure 591
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 592
                         r16
                         \once \override Beam.color = #blue
@@ -3515,7 +3515,7 @@
                         \once \override Stem.color = #blue
                         c'4.
                         % measure 594
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 595
                         r16
                         \once \override Beam.color = #blue
@@ -3564,7 +3564,7 @@
                         \once \override Stem.color = #blue
                         c'8
                         % measure 597
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 598
                         r16
                         \once \override Beam.color = #blue
@@ -3600,7 +3600,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 599
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 600
                         r16
                         \once \override Beam.color = #blue
@@ -3636,7 +3636,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 601
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 602
                         r16
                         \once \override Beam.color = #blue
@@ -3672,7 +3672,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 603
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 604
                         r16
                         \once \override Beam.color = #blue
@@ -3708,7 +3708,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 605
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 606
                         r16
                         \once \override Beam.color = #blue
@@ -3744,7 +3744,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 607
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 608
                         r16
                         \once \override Beam.color = #blue
@@ -3780,7 +3780,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 609
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 610
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3915,7 +3915,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 588
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 589
                         r16
                         \once \override Beam.color = #blue
@@ -3970,7 +3970,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 591
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 592
                         r16
                         \once \override Beam.color = #blue
@@ -4012,7 +4012,7 @@
                         \once \override Stem.color = #blue
                         c'4.
                         % measure 594
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 595
                         r16
                         \once \override Beam.color = #blue
@@ -4061,7 +4061,7 @@
                         \once \override Stem.color = #blue
                         c'8
                         % measure 597
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 598
                         r16
                         \once \override Beam.color = #blue
@@ -4097,7 +4097,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 599
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 600
                         r16
                         \once \override Beam.color = #blue
@@ -4133,7 +4133,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 601
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 602
                         r16
                         \once \override Beam.color = #blue
@@ -4169,7 +4169,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 603
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 604
                         r16
                         \once \override Beam.color = #blue
@@ -4205,7 +4205,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 605
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 606
                         r16
                         \once \override Beam.color = #blue
@@ -4241,7 +4241,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 607
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 608
                         r16
                         \once \override Beam.color = #blue
@@ -4277,7 +4277,7 @@
                         \once \override Stem.color = #blue
                         c'8 ]
                         % measure 609
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 610
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4474,7 +4474,7 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         % measure 588
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 589
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4521,7 +4521,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         % measure 591
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 592
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4568,7 +4568,7 @@
                         \once \override Stem.color = #blue
                         c'4
                         % measure 594
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 595
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4609,7 +4609,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         % measure 597
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 598
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4643,7 +4643,7 @@
                         c'4..
                         r16
                         % measure 599
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 600
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4677,7 +4677,7 @@
                         c'4..
                         r16
                         % measure 601
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 602
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4711,7 +4711,7 @@
                         c'4..
                         r16
                         % measure 603
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 604
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4745,7 +4745,7 @@
                         c'4..
                         r16
                         % measure 605
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 606
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4779,7 +4779,7 @@
                         c'4..
                         r16
                         % measure 607
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 608
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4813,7 +4813,7 @@
                         c'4..
                         r16
                         % measure 609
-                        s1 * 1/8
+                        R1 * 1/8
                         % measure 610
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue

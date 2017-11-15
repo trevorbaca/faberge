@@ -929,7 +929,7 @@
                         % measure 66
                         r1
                         % measure 67
-                        s1 * 57/4
+                        R1 * 57/4
                         % measure 85
                         \once \override Hairpin.circled-tip = ##t
                         fs''4 \<
@@ -1067,7 +1067,7 @@
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         % measure 5
                         \clef "percussion"
-                        s1 * 9
+                        R1 * 9
                         % measure 17
                         r2
                         r16
@@ -1090,7 +1090,7 @@
                         % measure 20
                         r1
                         % measure 21
-                        s1 * 8
+                        R1 * 8
                         % measure 31
                         r4
                         r16
@@ -1117,7 +1117,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ctqs''8. \startTrillSpan
                         % measure 35
-                        s1 * 8 \stopTrillSpan
+                        R1 * 8 \stopTrillSpan
                         % measure 45
                         r4
                         r16
@@ -1144,7 +1144,7 @@
                         % measure 50
                         r2. \stopTrillSpan
                         % measure 51
-                        s1 * 15/2
+                        R1 * 15/2
                         % measure 61
                         r4
                         r16
@@ -1166,7 +1166,7 @@
                         % measure 66
                         r1
                         % measure 67
-                        s1 * 57/4
+                        R1 * 57/4
                         % measure 85
                         r4
                         \times 4/5 {
@@ -1947,7 +1947,7 @@
                             <d' e' fs' c'' d''>1 \repeatTie
                             \revert NoteHead.style
                             % measure 93
-                            s1 * 13/4
+                            R1 * 13/4
                             \bar "|"
                         }
                     }
@@ -2401,7 +2401,7 @@
                             % measure 92
                             s1
                             % measure 93
-                            s1 * 13/4
+                            R1 * 13/4
                             \bar "|"
                         }
                     >>
@@ -2829,7 +2829,7 @@
                             r8 \pp
                         }
                         % measure 67
-                        s1 * 27/4
+                        R1 * 27/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             % measure 75

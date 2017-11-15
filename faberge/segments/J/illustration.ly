@@ -891,7 +891,7 @@
                             c'8
                         }
                         % measure 652
-                        s1 * 33/4
+                        R1 * 33/4
                         % measure 663
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -928,7 +928,7 @@
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         % measure 642
                         \clef "percussion"
-                        s1 * 23/4
+                        R1 * 23/4
                         % measure 650
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1014,7 +1014,7 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         % measure 662
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 663
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1891,7 +1891,7 @@
                             d'16 ]
                         }
                         % measure 656
-                        s1 * 11/2
+                        R1 * 11/2
                         % measure 663
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -1931,7 +1931,7 @@
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
                             % measure 642
                             \clef "treble"
-                            s1 * 3
+                            R1 * 3
                             \times 4/5 {
                                 % measure 646
                                 \once \override Beam.color = #blue
@@ -2910,7 +2910,7 @@
                                 c'8
                             }
                             % measure 660
-                            s1 * 7/2
+                            R1 * 7/2
                             % measure 665
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -3083,7 +3083,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         % measure 648
-                        s1 * 11
+                        R1 * 11
                         % measure 663
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3856,7 +3856,7 @@
                             c'8 ]
                         }
                         % measure 660
-                        s1 * 7/2
+                        R1 * 7/2
                         % measure 665
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3963,7 +3963,7 @@
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
                         % measure 654
-                        s1 * 17/2
+                        R1 * 17/2
                         % measure 665
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -4042,7 +4042,7 @@
                         \once \override Stem.color = #blue
                         c'2 \repeatTie
                         % measure 650
-                        s1 * 10
+                        R1 * 10
                         % measure 663
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue

@@ -2574,7 +2574,7 @@
                             ^ \markup { @ }
                         r4 \!
                         % measure 157
-                        s1 * 27/4
+                        R1 * 27/4
                         % measure 165
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
@@ -2705,7 +2705,7 @@
                             ^ \markup { @ }
                         r2 \!
                         % measure 169
-                        s1 * 25/4
+                        R1 * 25/4
                         \bar "|."
                     }
                 }
@@ -3342,7 +3342,7 @@
                         c'2. \repeatTie
                         \revert RepeatTie.direction
                         % measure 169
-                        s1 * 25/4
+                        R1 * 25/4
                         \bar "|."
                     }
                 }
@@ -3472,7 +3472,7 @@
                         ds,8. \repeatTie \> \ppp
                         r16 \!
                         % measure 157
-                        s1 * 27/4
+                        R1 * 27/4
                         % measure 165
                         \once \override Hairpin.circled-tip = ##t
                         d,4 \<
@@ -3487,7 +3487,7 @@
                         d,8. \repeatTie \> \ppp
                         r16 \!
                         % measure 169
-                        s1 * 25/4
+                        R1 * 25/4
                         \bar "|."
                     }
                 }
@@ -3589,7 +3589,7 @@
                             <ef' f' g' df'' ef''>1 \repeatTie
                             \revert NoteHead.style
                             % measure 141
-                            s1 * 28
+                            R1 * 28
                             \bar "|."
                         }
                     }
@@ -3994,7 +3994,7 @@
                         % measure 106
                         r2
                         % measure 107
-                        s1 * 10
+                        R1 * 10
                         % measure 119
                         ef,2 :32 \< \ppp
                             ^ \markup {
@@ -4130,7 +4130,7 @@
                         % measure 168
                         b2. \repeatTie
                         % measure 169
-                        s1 * 25/4
+                        R1 * 25/4
                         \bar "|."
                     }
                 }
