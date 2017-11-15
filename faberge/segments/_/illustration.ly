@@ -123,7 +123,7 @@
                                     }
                             }
                         \clef "treble"
-                        s1 * 1
+                        R1 * 1
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -180,7 +180,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 4
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -335,7 +335,7 @@
                         e'16
                         e'16 ]
                         % measure 2
-                        s1 * 3/2
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
@@ -385,7 +385,7 @@
                             e'8 ]
                         }
                         % measure 2
-                        s1 * 3/2
+                        R1 * 3/2
                         \bar "|"
                     }
                 }
