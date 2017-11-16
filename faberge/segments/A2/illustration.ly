@@ -442,8 +442,27 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
+                        \set FluteMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Bass
+                                        flute
+                                    }
+                            }
+                        \set FluteMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        B.
+                                        fl.
+                                    }
+                            }
                         \clef "treble"
-                        g'2 \<
+                        \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        g''2 \<
                             - \tweak color #red
                             ^ \markup { @ }
                         {
@@ -452,7 +471,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 \repeatTie \p [
+                            g''8 \repeatTie \p [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -460,7 +479,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 ]
+                            g''8 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -478,7 +497,86 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 \repeatTie
+                            g''8 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        \times 2/3 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''4 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        % measure 99
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2. \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        r4
+                        % measure 100
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''4
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        \times 2/3 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''8 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -495,9 +593,10 @@
                                         #'(circle-padding . 0.25)
                                         \circle
                                             \finger
-                                                2
+                                                1
                                     }
                         }
+                        % measure 101
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -520,87 +619,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        % measure 99
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        r4
-                        % measure 100
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'4
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 2/3 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'8 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        % measure 101
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 2/3 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g4 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'8
+                            g''8
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
@@ -611,7 +630,7 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 \repeatTie
+                        g''2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 103
@@ -620,13 +639,13 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2. \repeatTie
+                        g''2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 104
                         r4
                         \once \override Hairpin.circled-tip = ##t
-                        g2 \> \p
+                        g'2 \> \p
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -637,7 +656,7 @@
                         r4 \!
                         % measure 105
                         \once \override Hairpin.circled-tip = ##t
-                        g2. \<
+                        g'2. \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -647,7 +666,7 @@
                                 }
                         % measure 106
                         \once \override Hairpin.circled-tip = ##t
-                        g4 \repeatTie \mp \> \mp
+                        g'4 \repeatTie \mp \> \mp
                         r4 \!
                         % measure 107
                         \once \override Hairpin.circled-tip = ##t
@@ -656,7 +675,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g2 \<
+                        g'2 \<
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -672,7 +691,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 \repeatTie \mf [
+                            g'16 \repeatTie \mf [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -680,7 +699,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16
+                            g''16
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -696,7 +715,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8. ]
+                            g''8. ]
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -713,7 +732,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 \repeatTie
+                            g''16 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -722,7 +741,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4
+                            g''4
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
@@ -733,7 +752,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 \repeatTie \> \mf
+                        g''4 \repeatTie \> \mf
                             - \tweak color #red
                             ^ \markup { @ }
                         r4 \!
@@ -744,7 +763,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g2. :32 \<
+                        g'2. :32 \<
                             ^ \markup {
                                 \column
                                     {
@@ -773,7 +792,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g2. :32 \repeatTie \f
+                        g'2. :32 \repeatTie \f
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
@@ -782,7 +801,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32 \repeatTie [
+                            g'16 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -790,7 +809,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
+                            g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -805,7 +824,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32
+                            g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -820,7 +839,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
+                            g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -829,7 +848,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 :32 ]
+                            g'16 :32 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -848,7 +867,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 :32 \repeatTie [
+                            g'16 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -856,7 +875,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32
+                            g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -864,7 +883,169 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32
+                            g'16 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 :32 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''2 :32 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 112
+                        r4
+                        g''2 :32
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        r4
+                        % measure 113
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2 :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 2/3 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'4 :32 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''8 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        {
+                            % measure 114
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''8 :32 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 :32 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''2 :32 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16 :32 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -882,20 +1063,12 @@
                             g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
+                            g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -905,34 +1078,42 @@
                                             \finger
                                                 1
                                     }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 :32 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
                         }
+                        % measure 115
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 :32 \repeatTie
+                        g''2 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 112
-                        r4
-                        g'2 :32
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        r4
-                        % measure 113
+                        % measure 116
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g2 :32
+                        g''4 :32 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        r4
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''4 :32
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -942,33 +1123,13 @@
                                         \finger
                                             1
                                 }
-                        \times 2/3 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g4 :32 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'8 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
                         {
-                            % measure 114
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8 :32 \repeatTie [
+                            g''8 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -976,7 +1137,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32
+                            g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -984,7 +1145,7 @@
                                         #'(circle-padding . 0.25)
                                         \circle
                                             \finger
-                                                1
+                                                2
                                     }
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1000,9 +1161,10 @@
                                         #'(circle-padding . 0.25)
                                         \circle
                                             \finger
-                                                2
+                                                1
                                     }
                         }
+                        % measure 117
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1026,7 +1188,22 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32
+                            g''16 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -1041,7 +1218,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32
+                            g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -1049,7 +1226,585 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 :32 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'4 :32 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 118
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2 :32 \repeatTie \> \f
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        r4 \!
+                        % measure 119
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2 \<
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "non flutt."
+                                            }
+                                        \line
+                                            {
+                                                @
+                                            }
+                                    }
+                                }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        % measure 120
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2. \repeatTie \mf
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 121
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'4 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 2/3 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        % measure 122
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2 \repeatTie \> \mf
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        r2 \!
+                        % measure 123
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2 \<
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16 \repeatTie \mp [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        % measure 124
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        \times 2/3 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                        }
+                        % measure 125
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 126
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''4 \repeatTie \> \mp
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        r4 \!
+                        % measure 127
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2. \<
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        % measure 128
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2. \repeatTie \mf
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8. ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \times 4/5 {
+                            % measure 129
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''4 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 130
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''4 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        r4
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'4
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        % measure 131
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2. \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8. ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        % measure 132
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'4 \repeatTie \> \mf
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        r4 \!
+                        % measure 133
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2 :32 \<
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        fluttertongue
+                                            }
+                                        \line
+                                            {
+                                                @
+                                            }
+                                    }
+                                }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 :32 \repeatTie \f [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -1065,29 +1820,81 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
+                            g''16 :32 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
                         }
-                        % measure 115
+                        {
+                            % measure 134
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''8 :32 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8 :32 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g'2 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 116
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16 :32 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''4 :32
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        % measure 135
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 :32 \repeatTie
+                        g''2. :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 136
                         r4
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1118,41 +1925,25 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
+                            g''8 :32 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                         }
-                        % measure 117
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2 :32 \repeatTie
+                        g''4 :32 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 137
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''4 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
@@ -1161,699 +1952,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 118
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2 :32 \repeatTie \> \f
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        r4 \!
-                        % measure 119
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2 \<
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "non flutt."
-                                            }
-                                        \line
-                                            {
-                                                @
-                                            }
-                                    }
-                                }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        % measure 120
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2. \repeatTie \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 121
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g8 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \times 2/3 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g8 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        % measure 122
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2 \repeatTie \> \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        r2 \!
-                        % measure 123
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2 \<
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 \repeatTie \mp [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        % measure 124
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 2/3 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g8 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                        }
-                        % measure 125
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 126
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'4 \repeatTie \> \mp
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        r4 \!
-                        % measure 127
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2. \<
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        % measure 128
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2. \repeatTie \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g8. ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \times 4/5 {
-                            % measure 129
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'4 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 130
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'4 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        r4
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        % measure 131
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g8. ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        % measure 132
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4 \repeatTie \> \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        r4 \!
-                        % measure 133
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2 :32 \<
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        fluttertongue
-                                            }
-                                        \line
-                                            {
-                                                @
-                                            }
-                                    }
-                                }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16 :32 \repeatTie \f [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                        }
-                        {
-                            % measure 134
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g8 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16 :32 \repeatTie
+                            g''16 :32 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -1865,50 +1964,13 @@
                             g'4 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
-                        }
-                        % measure 135
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2. :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 136
-                        r4
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4 :32
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g8 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'8 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
                         }
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1918,7 +1980,33 @@
                         g'4 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 137
+                        % measure 138
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'1 :32 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 139
+                        r4
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'4 :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                        % measure 140
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1942,76 +2030,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g4 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 138
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g1 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 139
-                        r4
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4 :32
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        % measure 140
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16 :32 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g4 :32
+                            g'4 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2028,7 +2047,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g4 :32 \repeatTie \> \f
+                        g'4 :32 \repeatTie \> \f
                             - \tweak color #red
                             ^ \markup { @ }
                         r4 \!
@@ -2039,7 +2058,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'1 \<
+                        g''1 \<
                             ^ \markup {
                                 \column
                                     {
@@ -2068,7 +2087,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 \repeatTie \mf
+                        g''2 \repeatTie \mf
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 2/3 {
@@ -2077,7 +2096,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'4 \repeatTie
+                            g''4 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2085,7 +2104,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8
+                            g''8
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2104,7 +2123,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8 \repeatTie [
+                            g''8 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2112,7 +2131,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16
+                            g''16
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2121,7 +2140,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 ]
+                            g'16 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2139,7 +2158,7 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2 \repeatTie \> \mf
+                        g'2 \repeatTie \> \mf
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 144
@@ -2151,7 +2170,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 \<
+                        g''2 \<
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -2167,7 +2186,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 \repeatTie \p
+                            g''8 \repeatTie \p
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2176,7 +2195,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g4
+                            g'4
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2194,7 +2213,49 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16 \repeatTie [
+                            g'16 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8. ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                        }
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2211,49 +2272,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g8. ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g8 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 ]
+                            g'16 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2271,13 +2290,13 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2. \repeatTie
+                        g'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
                         r4
                         % measure 148
                         \once \override Hairpin.circled-tip = ##t
-                        g'4 \> \p
+                        g''4 \> \p
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -2288,7 +2307,7 @@
                         r4 \!
                         % measure 149
                         \once \override Hairpin.circled-tip = ##t
-                        g'2. \<
+                        g''2. \<
                             ^ \markup {
                                 \override
                                     #'(circle-padding . 0.25)
@@ -2298,7 +2317,7 @@
                                 }
                         % measure 150
                         \once \override Hairpin.circled-tip = ##t
-                        g'4 \repeatTie \pp \> \pp
+                        g''4 \repeatTie \pp \> \pp
                         r4 \!
                         % measure 151
                         \once \override Hairpin.circled-tip = ##t
@@ -2307,7 +2326,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 \<
+                        g''2 \<
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -2323,7 +2342,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 \repeatTie \ppp
+                            g''16 \repeatTie \ppp
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2332,7 +2351,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g4
+                            g'4
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2350,7 +2369,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g4 \repeatTie
+                            g'4 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2358,7 +2377,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8
+                            g''8
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
@@ -2368,7 +2387,7 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 \repeatTie
+                        g''2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
@@ -2377,7 +2396,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 \repeatTie [
+                            g''16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2385,7 +2404,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16
+                            g'16
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2400,7 +2419,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16
+                            g''16
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2415,126 +2434,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        % measure 153
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        % measure 154
-                        r4
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g4
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
-                        \times 2/3 {
-                            % measure 155
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g4 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 4/5 {
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
                             g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g16
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2553,6 +2453,125 @@
                             g'16 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
+                        }
+                        % measure 153
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g'2. \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        % measure 154
+                        r4
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'4
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        \times 2/3 {
+                            % measure 155
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'4 \repeatTie
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''2 \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        \times 4/5 {
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16 \repeatTie [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                2
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                                - \tweak color #red
+                                ^ \markup { @ }
+                                ^ \markup {
+                                    \override
+                                        #'(circle-padding . 0.25)
+                                        \circle
+                                            \finger
+                                                1
+                                    }
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
                                 ^ \markup {
                                     \override
                                         #'(circle-padding . 0.25)
@@ -2569,7 +2588,7 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4 \repeatTie \> \ppp
+                        g''4 \repeatTie \> \ppp
                             - \tweak color #red
                             ^ \markup { @ }
                         r4 \!
@@ -2582,7 +2601,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs'1 \<
+                        gs''1 \<
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 166
@@ -2591,7 +2610,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs'2 \repeatTie \ppp
+                        gs''2 \repeatTie \ppp
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
@@ -2600,7 +2619,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            gs'16 \repeatTie [
+                            gs''16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2608,7 +2627,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            gs'16
+                            gs''16
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2623,7 +2642,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            gs'16
+                            gs''16
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2638,7 +2657,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            gs16
+                            gs'16
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2654,7 +2673,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            gs'16 ]
+                            gs''16 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
@@ -2666,7 +2685,7 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            gs'8 \repeatTie [
+                            gs''8 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \once \override Accidental.color = #red
@@ -2674,7 +2693,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            gs8 ]
+                            gs'8 ]
                                 - \tweak color #red
                                 ^ \markup { @ }
                                 ^ \markup {
@@ -2690,7 +2709,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs4 \repeatTie
+                        gs'4 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 168
@@ -2700,7 +2719,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs4 \repeatTie \> \ppp
+                        gs'4 \repeatTie \> \ppp
                             - \tweak color #red
                             ^ \markup { @ }
                         r2 \!
@@ -2716,7 +2735,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set EnglishHornMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        English
+                                        horn
+                                    }
+                            }
+                        \set EnglishHornMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Eng.
+                                        hn.
+                                    }
+                            }
                         \clef "percussion"
+                        \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         r4
                         \times 4/5 {
                             r16
@@ -3362,140 +3400,159 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         % measure 97
                         \once \override Hairpin.circled-tip = ##t
+                        \set ClarinetMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Bass
+                                        clarinet
+                                    }
+                            }
+                        \set ClarinetMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        B.
+                                        cl.
+                                    }
+                            }
                         \clef "treble"
-                        f,4 \<
-                        f,\breve \repeatTie \p
-                        f,4 \repeatTie
-                        f,8. \repeatTie
+                        \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        f4 \<
+                        f\breve \repeatTie \p
+                        f4 \repeatTie
+                        f8. \repeatTie
                         r16
                         % measure 100
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs,4
-                        fqs,1 \repeatTie
+                        fqs4
+                        fqs1 \repeatTie
                         % measure 102
-                        fqs,4 \repeatTie
-                        fqs,8. \repeatTie
+                        fqs4 \repeatTie
+                        fqs8. \repeatTie
                         r16
                         % measure 103
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f,4
-                        f,\breve.. \repeatTie
-                        f,8. \repeatTie
+                        f4
+                        f\breve.. \repeatTie
+                        f8. \repeatTie
                         r16
                         % measure 108
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs,4
-                        fqs,1.. \repeatTie
-                        fqs,8. \repeatTie
+                        fqs4
+                        fqs1.. \repeatTie
+                        fqs8. \repeatTie
                         r16
                         % measure 111
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f,4
-                        f,1 \repeatTie
-                        f,4 \repeatTie
-                        f,8. \repeatTie
+                        f4
+                        f1 \repeatTie
+                        f4 \repeatTie
+                        f8. \repeatTie
                         r16
                         % measure 113
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs,4
-                        fqs,\breve... \repeatTie
-                        fqs,8. \repeatTie
+                        fqs4
+                        fqs\breve... \repeatTie
+                        fqs8. \repeatTie
                         r16
                         % measure 118
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f,4
-                        f,\breve. \repeatTie
-                        f,4 \repeatTie
-                        f,8. \repeatTie
+                        f4
+                        f\breve. \repeatTie
+                        f4 \repeatTie
+                        f8. \repeatTie
                         r16
                         % measure 123
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs,4
-                        fqs,1.. \repeatTie
-                        fqs,8. \repeatTie
+                        fqs4
+                        fqs1.. \repeatTie
+                        fqs8. \repeatTie
                         r16
                         % measure 126
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f,4
-                        f,1.. \repeatTie
-                        f,8. \repeatTie
+                        f4
+                        f1.. \repeatTie
+                        f8. \repeatTie
                         r16
                         % measure 129
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs,4
-                        fqs,\breve. \repeatTie
-                        fqs,8. \repeatTie
+                        fqs4
+                        fqs\breve. \repeatTie
+                        fqs8. \repeatTie
                         r16
                         % measure 134
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f,4
-                        f,\breve \repeatTie
-                        f,4 \repeatTie
-                        f,8. \repeatTie
+                        f4
+                        f\breve \repeatTie
+                        f4 \repeatTie
+                        f8. \repeatTie
                         r16
                         % measure 137
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs,4
-                        fqs,1 \repeatTie
-                        fqs,4 \repeatTie
-                        fqs,8. \repeatTie
+                        fqs4
+                        fqs1 \repeatTie
+                        fqs4 \repeatTie
+                        fqs8. \repeatTie
                         r16
                         % measure 139
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f,4
-                        f,\breve.. \repeatTie
-                        f,8. \repeatTie
+                        f4
+                        f\breve.. \repeatTie
+                        f8. \repeatTie
                         r16
                         % measure 144
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f,4
+                        f4
                         \once \override Hairpin.circled-tip = ##t
-                        f,\breve. \repeatTie \> \p
+                        f\breve. \repeatTie \> \p
                         % measure 148
                         \once \override Hairpin.circled-tip = ##t
-                        f,4 \repeatTie \! \<
-                        f,8. \repeatTie \pp
+                        f4 \repeatTie \! \<
+                        f8. \repeatTie \pp
                         r16
                         % measure 149
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e,4
+                        e4
                         \once \override Hairpin.circled-tip = ##t
-                        e,1. \repeatTie \> \pp
+                        e1. \repeatTie \> \pp
                         \once \override Hairpin.circled-tip = ##t
-                        e,8. \repeatTie \! \<
+                        e8. \repeatTie \! \<
                         r16 \ppp
                         % measure 152
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e,4
-                        e,2 \repeatTie
-                        e,8. \repeatTie
+                        e4
+                        e2 \repeatTie
+                        e8. \repeatTie
                         r16
                         % measure 153
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ds,4
-                        ds,1.. \repeatTie
-                        ds,8. \repeatTie
+                        ds4
+                        ds1.. \repeatTie
+                        ds8. \repeatTie
                         r16
                         % measure 156
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        ds,4
+                        ds4
                         \once \override Hairpin.circled-tip = ##t
-                        ds,8. \repeatTie \> \ppp
+                        ds8. \repeatTie \> \ppp
                         r16 \!
                         % measure 157
                         R1 * 27/4
                         % measure 165
                         \once \override Hairpin.circled-tip = ##t
-                        d,4 \<
-                        d,2. \repeatTie \ppp
+                        d4 \<
+                        d2. \repeatTie \ppp
                         % measure 166
-                        d,2. \repeatTie
+                        d2. \repeatTie
                         % measure 167
-                        d,2 \repeatTie
+                        d2 \repeatTie
                         % measure 168
-                        d,2 \repeatTie
+                        d2 \repeatTie
                         \once \override Hairpin.circled-tip = ##t
-                        d,8. \repeatTie \> \ppp
+                        d8. \repeatTie \> \ppp
                         r16 \!
                         % measure 169
                         R1 * 25/4
@@ -3509,9 +3566,26 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
                             % measure 97
+                            \set PianoStaffGroup.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Piano
+                                }
+                            \set PianoStaffGroup.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Pf.
+                                }
                             \clef "treble"
                             \override NoteHead.style = #'harmonic
+                            \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             <ef' f' g' df'' ef''>2.
+                                ^ \markup {
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to piano"
+                                    }
                             % measure 98
                             <ef' f' g' df'' ef''>1 \repeatTie
                             % measure 99
@@ -3974,6 +4048,17 @@
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
                         \once \override Hairpin.circled-tip = ##t
+                        \set PercussionMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Percussion
+                            }
+                        \set PercussionMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Perc.
+                            }
+                        \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         g'2. -\laissezVibrer \<
                             ^ \markup {
                                 \whiteout
@@ -4155,7 +4240,18 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         % measure 97
                         \once \override Hairpin.circled-tip = ##t
+                        \set ViolinMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Violin
+                            }
+                        \set ViolinMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vn.
+                            }
                         \clef "treble"
+                        \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         g'''2. \<
                             ^ \markup {
                                 \whiteout
@@ -6890,7 +6986,18 @@
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 97
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \clef "alto"
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         ef2. :32
                         % measure 98
                         ef1 :32 \repeatTie
@@ -9607,7 +9714,18 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
+                        \set CelloMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
                         \clef "bass"
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         ef,2.
                             - \tweak color #red
                             ^ \markup { @ }

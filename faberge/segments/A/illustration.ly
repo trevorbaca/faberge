@@ -499,7 +499,18 @@
                         {
                             % measure 5
                             \once \override Hairpin.circled-tip = ##t
+                            \set FluteMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Flute
+                                }
+                            \set FluteMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Fl.
+                                }
                             \clef "treble"
+                            \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             fs'''8 \<
                                 ^ \markup {
                                     \whiteout
@@ -1069,7 +1080,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set EnglishHornMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        English
+                                        horn
+                                    }
+                            }
+                        \set EnglishHornMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Eng.
+                                        hn.
+                                    }
+                            }
                         \clef "percussion"
+                        \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 9
                         % measure 17
                         r2
@@ -1314,7 +1344,18 @@
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                         {
                             % measure 5
+                            \set ClarinetMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Clarinet
+                                }
+                            \set ClarinetMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Cl.
+                                }
                             \clef "treble"
+                            \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             r8
                             \once \override Hairpin.circled-tip = ##t
                             gs'''8 \<
@@ -1759,20 +1800,44 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
                             % measure 5
+                            \set PianoStaffGroup.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Piano
+                                }
+                            \set PianoStaffGroup.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Pf.
+                                }
                             \clef "treble"
                             \override NoteHead.style = #'harmonic
+                            \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             <d' e' fs' c'' d''>2.
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    \column
-                                                        {
-                                                            "depress silently;"
-                                                            "sustain with middle pedal"
-                                                        }
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            \override
+                                                                #'(box-padding . 0.5)
+                                                                \box
+                                                                    \column
+                                                                        {
+                                                                            "depress silently;"
+                                                                            "sustain with middle pedal"
+                                                                        }
+                                                }
+                                            \line
+                                                {
+                                                    \override
+                                                        #'(box-padding . 0.75)
+                                                        \box
+                                                            "to piano"
+                                                }
+                                        }
                                     }
                             % measure 6
                             <d' e' fs' c'' d''>1 \repeatTie
@@ -2414,6 +2479,17 @@
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         {
                             % measure 5
+                            \set PercussionMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Percussion
+                                }
+                            \set PercussionMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Perc.
+                                }
+                            \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             r2
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
@@ -3012,7 +3088,18 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         {
                             % measure 5
+                            \set ViolinMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Violin
+                                }
+                            \set ViolinMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Vn.
+                                }
                             \clef "treble"
+                            \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             r4.
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
@@ -4279,7 +4366,18 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \clef "alto"
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         d2. :32 \mp \startTextSpan
                             ^ \markup {
                                 \whiteout
@@ -5230,7 +5328,18 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \set CelloMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
                         \clef "bass"
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         d,2. \< \p \startTextSpan
                         % measure 6
                         d,1 \repeatTie
