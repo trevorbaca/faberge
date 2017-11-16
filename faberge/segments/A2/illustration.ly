@@ -462,6 +462,7 @@
                             }
                         \clef "treble"
                         \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         g''2 \<
                             - \tweak color #red
                             ^ \markup { @ }
@@ -2755,6 +2756,7 @@
                             }
                         \clef "percussion"
                         \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         r4
                         \times 4/5 {
                             r16
@@ -3420,6 +3422,7 @@
                             }
                         \clef "treble"
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         f4 \<
                         f\breve \repeatTie \p
                         f4 \repeatTie
@@ -3579,6 +3582,7 @@
                             \clef "treble"
                             \override NoteHead.style = #'harmonic
                             \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             <ef' f' g' df'' ef''>2.
                                 ^ \markup {
                                     \override
@@ -3681,6 +3685,8 @@
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
                             % measure 97
+                            \clef "bass"
+                            \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             R1 * 3/4
                             % measure 98
                             R1 * 1
@@ -4058,7 +4064,9 @@
                                 #10
                                 Perc.
                             }
+                        \clef "treble"
                         \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         g'2. -\laissezVibrer \<
                             ^ \markup {
                                 \whiteout
@@ -4252,6 +4260,7 @@
                             }
                         \clef "treble"
                         \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         g'''2. \<
                             ^ \markup {
                                 \whiteout
@@ -6998,6 +7007,7 @@
                             }
                         \clef "alto"
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         ef2. :32
                         % measure 98
                         ef1 :32 \repeatTie
@@ -9726,6 +9736,7 @@
                             }
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         ef,2.
                             - \tweak color #red
                             ^ \markup { @ }
