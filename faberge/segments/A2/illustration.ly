@@ -3300,6 +3300,14 @@
                         \startStaff
                         \clef "percussion"
                         r2.
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "remove staple"
+                                }
                         % measure 158
                         r1
                         % measure 159
