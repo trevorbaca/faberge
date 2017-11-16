@@ -35,6 +35,14 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_metronome_mark', '80'),
+        (
+            'end_staff_lines_by_staff',
+            abjad.TypedOrderedDict(
+                [
+                    ('English Horn Music Staff', 1),
+                    ]
+                ),
+            ),
         ('end_time_signature', '3/4'),
         ('first_bar_number', 177),
         ('measure_count', 97),
