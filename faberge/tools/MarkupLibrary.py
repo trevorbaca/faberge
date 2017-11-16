@@ -14,60 +14,45 @@ class MarkupLibrary(abjad.AbjadObject):
     ### PUBLIC METHODS ###
 
     @staticmethod
-    def bass_drum(selector=None):
-        return baca.markup.boxed(
-            'bass drum',
-            selector=selector,
-            )
+    def bass_drum(selector='baca.pleaf(0)'):
+        string = 'bass drum'
+        return baca.markup.boxed(string, selector=selector)
 
     @staticmethod
-    def bowed_crotales(selector=None):
-        return baca.markup.boxed(
-            'bowed crotales',
-            selector=selector,
-            )
+    def bowed_crotales(selector='baca.pleaf(0)'):
+        string = 'bowed crotales'
+        return baca.markup.boxed(string, selector=selector)
 
     @staticmethod
-    def castanets(selector=None):
-        return baca.markup.boxed(
-            'castanets',
-            selector=selector,
-            )
+    def castanets(selector='baca.pleaf(0)'):
+        string = 'castanets'
+        return baca.markup.boxed(string, selector=selector)
 
     @staticmethod
-    def col_legno_battuto_first_appearance(selector=None):
-        return baca.markup.boxed_lines([
+    def col_legno_battuto_first_appearance(selector='baca.pleaf(0)'):
+        strings = [
             'col legno battuto:',
             'as bright and pointlike as possible;',
             '(mute string with left hand)',
-            ],
-            selector=selector,
-            )
+            ]
+        return baca.markup.boxed_lines(strings, selector=selector)
 
     @staticmethod
-    def doubletrill(selector=None):
-        return baca.markup.boxed(
-            'doubletrill!',
-            selector=selector,
-            )
+    def doubletrill(selector='baca.pleaf(0)'):
+        string = 'doubletrill!'
+        return baca.markup.boxed(string, selector=selector)
 
     @staticmethod
-    def marimba(selector=None):
-        return baca.markup.boxed(
-            'marimba',
-            selector=selector,
-            )
+    def marimba(selector='baca.pleaf(0)'):
+        string = 'marimba'
+        return baca.markup.boxed(string, selector=selector)
 
     @staticmethod
-    def match_sound_of_crotales(selector=None):
-        return baca.markup.boxed(
-            'match sound of crotales',
-            selector=selector,
-            )
+    def match_sound_of_crotales(selector='baca.pleaf(0)'):
+        string = 'match sound of crotales'
+        return baca.markup.boxed(string, selector=selector)
 
     @staticmethod
-    def to_marimba(selector=None):
-        return baca.markup.boxed(
-            'to marimba',
-            selector=selector,
-            )
+    def to_marimba(selector='baca.leaf(0)'):
+        string = 'to marimba'
+        return baca.markup.boxed(string, selector=selector)

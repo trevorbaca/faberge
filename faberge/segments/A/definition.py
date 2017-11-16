@@ -527,7 +527,7 @@ maker(
     baca.scope('English Horn Music Voice', 16),
     baca.cross_note_heads(),
     baca.dynamic('f'),
-    baca.markup.boxed('keynoise'),
+    baca.markup.boxed('keynoise', baca.pleaf(0)),
     faberge.keynoise_pitches(rotation=0)
     )
 
@@ -649,7 +649,7 @@ maker(
 maker(
     baca.scope('Percussion Music Voice', 1, 15),
     baca.laissez_vibrer(),
-    baca.markup.boxed('BOWED CROTALES'),
+    baca.markup.boxed('BOWED CROTALES', baca.pleaf(0)),
     )
 
 maker(
