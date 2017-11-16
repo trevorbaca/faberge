@@ -1158,6 +1158,7 @@
                                 }
                             \clef "treble"
                             \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c''16 [
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -1465,6 +1466,7 @@
                                 }
                             \clef "percussion"
                             \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             r16
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2308,6 +2310,7 @@
                             }
                         \clef "treble"
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         d''2
                         % measure 178
                         \once \override Beam.color = #blue
@@ -2469,6 +2472,7 @@
                                     }
                                 \clef "treble"
                                 \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                                \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                                 c'8 [
                                     ^ \markup {
                                         \override
@@ -3995,6 +3999,8 @@
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
                             % measure 177
+                            \clef "bass"
+                            \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             R1 * 1/2
                             % measure 178
                             R1 * 3/4
@@ -4406,7 +4412,9 @@
                                 #10
                                 Perc.
                             }
+                        \clef "percussion"
                         \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 17/4
                         % measure 183
                         r4
@@ -4745,6 +4753,7 @@
                                 }
                             \clef "percussion"
                             \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'8 [
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -6590,6 +6599,7 @@
                                 }
                             \clef "percussion"
                             \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'8 [
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -8427,6 +8437,7 @@
                                 }
                             \clef "percussion"
                             \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'8 [
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
