@@ -39,6 +39,7 @@ metadata = abjad.TypedOrderedDict(
             'end_staff_lines_by_staff',
             abjad.TypedOrderedDict(
                 [
+                    ('English Horn Music Staff', 1),
                     ('Percussion Music Staff', 2),
                     ]
                 ),

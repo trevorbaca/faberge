@@ -570,6 +570,9 @@
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         % measure 301
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "percussion"
                         R1 * 7/4
                         \times 4/5 {
@@ -2010,6 +2013,9 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         % measure 301
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         R1 * 7/4
                         % measure 303
                         \once \override Beam.color = #blue
@@ -2152,6 +2158,9 @@
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         % measure 301
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "percussion"
                         R1 * 7/4
                         % measure 303
@@ -2858,6 +2867,9 @@
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 301
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "percussion"
                         r16
                         \once \override Beam.color = #blue
@@ -3021,6 +3033,9 @@
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
                         % measure 301
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "percussion"
                         R1 * 7/4
                         % measure 303
