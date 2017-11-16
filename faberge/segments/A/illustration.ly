@@ -1066,6 +1066,9 @@
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         % measure 5
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "percussion"
                         R1 * 9
                         % measure 17

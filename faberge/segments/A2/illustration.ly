@@ -2713,6 +2713,9 @@
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         % measure 97
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "percussion"
                         r4
                         \times 4/5 {
@@ -3967,6 +3970,9 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         % measure 97
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         \once \override Hairpin.circled-tip = ##t
                         g'2. -\laissezVibrer \<
                             ^ \markup {

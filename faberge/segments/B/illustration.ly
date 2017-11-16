@@ -1423,6 +1423,9 @@
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         \times 4/5 {
                             % measure 177
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \clef "percussion"
                             r16
                             \once \override Beam.color = #blue
@@ -4316,6 +4319,9 @@
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                         % measure 177
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 2
+                        \startStaff
                         R1 * 17/4
                         % measure 183
                         r4
@@ -4634,6 +4640,9 @@
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         \times 2/3 {
                             % measure 177
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6465,6 +6474,9 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \times 2/3 {
                             % measure 177
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8288,6 +8300,9 @@
                     \context CelloMusicVoice = "Cello Music Voice" {
                         \times 2/3 {
                             % measure 177
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
