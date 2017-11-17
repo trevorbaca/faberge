@@ -2,7 +2,7 @@
     currentBarNumber = #642
 } <<
     \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
-    \context GlobalContext = "Global Context" <<
+    \context GlobalContext = "GlobalContext" <<
         \context GlobalRests = "GlobalRests" {
             {
                 \time 2/4
