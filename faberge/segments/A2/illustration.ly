@@ -13,7 +13,8 @@
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
-                % measure 97
+                
+                %%% Global Skips [measure 97] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
@@ -33,401 +34,481 @@
                             80
                         }
                     }
-                % measure 98
+                
+                %%% Global Skips [measure 98] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 99
+                
+                %%% Global Skips [measure 99] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 100
+                
+                %%% Global Skips [measure 100] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 101
+                
+                %%% Global Skips [measure 101] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 102
+                
+                %%% Global Skips [measure 102] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 103
+                
+                %%% Global Skips [measure 103] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 104
+                
+                %%% Global Skips [measure 104] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 105
+                
+                %%% Global Skips [measure 105] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 106
+                
+                %%% Global Skips [measure 106] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 107
+                
+                %%% Global Skips [measure 107] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 108
+                
+                %%% Global Skips [measure 108] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 109
+                
+                %%% Global Skips [measure 109] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 110
+                
+                %%% Global Skips [measure 110] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 111
+                
+                %%% Global Skips [measure 111] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 112
+                
+                %%% Global Skips [measure 112] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 113
+                
+                %%% Global Skips [measure 113] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 114
+                
+                %%% Global Skips [measure 114] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 115
+                
+                %%% Global Skips [measure 115] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 116
+                
+                %%% Global Skips [measure 116] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 117
+                
+                %%% Global Skips [measure 117] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 118
+                
+                %%% Global Skips [measure 118] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 119
+                
+                %%% Global Skips [measure 119] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 120
+                
+                %%% Global Skips [measure 120] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 121
+                
+                %%% Global Skips [measure 121] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 122
+                
+                %%% Global Skips [measure 122] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 123
+                
+                %%% Global Skips [measure 123] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 124
+                
+                %%% Global Skips [measure 124] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 125
+                
+                %%% Global Skips [measure 125] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 126
+                
+                %%% Global Skips [measure 126] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 127
+                
+                %%% Global Skips [measure 127] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 128
+                
+                %%% Global Skips [measure 128] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 129
+                
+                %%% Global Skips [measure 129] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 130
+                
+                %%% Global Skips [measure 130] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 131
+                
+                %%% Global Skips [measure 131] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 132
+                
+                %%% Global Skips [measure 132] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 133
+                
+                %%% Global Skips [measure 133] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 134
+                
+                %%% Global Skips [measure 134] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 135
+                
+                %%% Global Skips [measure 135] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 136
+                
+                %%% Global Skips [measure 136] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 137
+                
+                %%% Global Skips [measure 137] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 138
+                
+                %%% Global Skips [measure 138] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 139
+                
+                %%% Global Skips [measure 139] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 140
+                
+                %%% Global Skips [measure 140] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 141
+                
+                %%% Global Skips [measure 141] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 142
+                
+                %%% Global Skips [measure 142] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 143
+                
+                %%% Global Skips [measure 143] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 144
+                
+                %%% Global Skips [measure 144] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 145
+                
+                %%% Global Skips [measure 145] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 146
+                
+                %%% Global Skips [measure 146] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 147
+                
+                %%% Global Skips [measure 147] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 148
+                
+                %%% Global Skips [measure 148] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 149
+                
+                %%% Global Skips [measure 149] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 150
+                
+                %%% Global Skips [measure 150] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 151
+                
+                %%% Global Skips [measure 151] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 152
+                
+                %%% Global Skips [measure 152] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 153
+                
+                %%% Global Skips [measure 153] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 154
+                
+                %%% Global Skips [measure 154] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 155
+                
+                %%% Global Skips [measure 155] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 156
+                
+                %%% Global Skips [measure 156] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 157
+                
+                %%% Global Skips [measure 157] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 158
+                
+                %%% Global Skips [measure 158] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 159
+                
+                %%% Global Skips [measure 159] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 160
+                
+                %%% Global Skips [measure 160] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 161
+                
+                %%% Global Skips [measure 161] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 162
+                
+                %%% Global Skips [measure 162] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 163
+                
+                %%% Global Skips [measure 163] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 164
+                
+                %%% Global Skips [measure 164] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 165
+                
+                %%% Global Skips [measure 165] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 166
+                
+                %%% Global Skips [measure 166] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 167
+                
+                %%% Global Skips [measure 167] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 5 64)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 168
+                
+                %%% Global Skips [measure 168] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 169
+                
+                %%% Global Skips [measure 169] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 170
+                
+                %%% Global Skips [measure 170] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 171
+                
+                %%% Global Skips [measure 171] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 172
+                
+                %%% Global Skips [measure 172] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 173
+                
+                %%% Global Skips [measure 173] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 174
+                
+                %%% Global Skips [measure 174] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 175
+                
+                %%% Global Skips [measure 175] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 176
+                
+                %%% Global Skips [measure 176] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                
             }
         >>
         \context MusicContext = "Music Context" <<
@@ -435,7 +516,8 @@
                 \tag flute
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \context FluteMusicVoice = "Flute Music Voice" {
-                        % measure 97
+                        
+                        %%% Flute Music Voice [measure 97] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -467,6 +549,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -475,6 +558,7 @@
                             g''8 \repeatTie \p [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -492,7 +576,8 @@
                                     }
                         }
                         \times 2/3 {
-                            % measure 98
+                            
+                            %%% Flute Music Voice [measure 98] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -501,6 +586,7 @@
                             g''8 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -518,6 +604,7 @@
                                                 2
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -527,6 +614,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -535,6 +623,7 @@
                             g''4 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -551,7 +640,8 @@
                                                 1
                                     }
                         }
-                        % measure 99
+                        
+                        %%% Flute Music Voice [measure 99] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -561,8 +651,10 @@
                         g'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4
-                        % measure 100
+                        
+                        %%% Flute Music Voice [measure 100] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -572,6 +664,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -580,6 +673,7 @@
                             g''8 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -597,7 +691,8 @@
                                                 1
                                     }
                         }
-                        % measure 101
+                        
+                        %%% Flute Music Voice [measure 101] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -607,6 +702,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -615,6 +711,7 @@
                             g'4 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -624,7 +721,8 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 102
+                        
+                        %%% Flute Music Voice [measure 102] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -634,7 +732,8 @@
                         g''2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 103
+                        
+                        %%% Flute Music Voice [measure 103] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -643,8 +742,10 @@
                         g''2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 104
+                        
+                        %%% Flute Music Voice [measure 104] %%%
                         r4
+                        
                         \once \override Hairpin.circled-tip = ##t
                         g'2 \> \p
                             ^ \markup {
@@ -654,8 +755,10 @@
                                         \finger
                                             1
                                 }
+                        
                         r4 \!
-                        % measure 105
+                        
+                        %%% Flute Music Voice [measure 105] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g'2. \<
                             ^ \markup {
@@ -665,11 +768,14 @@
                                         \finger
                                             2
                                 }
-                        % measure 106
+                        
+                        %%% Flute Music Voice [measure 106] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g'4 \repeatTie \mp \> \mp
+                        
                         r4 \!
-                        % measure 107
+                        
+                        %%% Flute Music Voice [measure 107] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -687,6 +793,7 @@
                                             1
                                 }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -695,6 +802,7 @@
                             g'16 \repeatTie \mf [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -710,6 +818,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -728,6 +837,7 @@
                                     }
                         }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -736,6 +846,7 @@
                             g''16 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -746,7 +857,8 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 108
+                        
+                        %%% Flute Music Voice [measure 108] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -756,8 +868,10 @@
                         g''4 \repeatTie \> \mf
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4 \!
-                        % measure 109
+                        
+                        %%% Flute Music Voice [measure 109] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -787,7 +901,8 @@
                                         \finger
                                             1
                                 }
-                        % measure 110
+                        
+                        %%% Flute Music Voice [measure 110] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -797,6 +912,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -805,6 +921,7 @@
                             g'16 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -820,6 +937,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -835,6 +953,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -843,6 +962,7 @@
                             g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -861,7 +981,8 @@
                                     }
                         }
                         \times 4/5 {
-                            % measure 111
+                            
+                            %%% Flute Music Voice [measure 111] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -871,6 +992,7 @@
                             g'16 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -879,6 +1001,7 @@
                             g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -894,6 +1017,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -909,6 +1033,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -926,6 +1051,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -935,8 +1061,10 @@
                         g''2 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 112
+                        
+                        %%% Flute Music Voice [measure 112] %%%
                         r4
+                        
                         g''2 :32
                             ^ \markup {
                                 \override
@@ -945,8 +1073,10 @@
                                         \finger
                                             2
                                 }
+                        
                         r4
-                        % measure 113
+                        
+                        %%% Flute Music Voice [measure 113] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -963,6 +1093,7 @@
                                             1
                                 }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -971,6 +1102,7 @@
                             g'4 :32 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -981,7 +1113,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 114
+                            
+                            %%% Flute Music Voice [measure 114] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -991,6 +1124,7 @@
                             g''8 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1006,6 +1140,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1023,6 +1158,7 @@
                                                 2
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1033,6 +1169,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1041,6 +1178,7 @@
                             g''16 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1056,6 +1194,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1064,6 +1203,7 @@
                             g'16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1079,6 +1219,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1089,7 +1230,8 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 115
+                        
+                        %%% Flute Music Voice [measure 115] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1099,7 +1241,8 @@
                         g''2 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 116
+                        
+                        %%% Flute Music Voice [measure 116] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1108,7 +1251,9 @@
                         g''4 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1125,6 +1270,7 @@
                                             1
                                 }
                         {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1133,6 +1279,7 @@
                             g''8 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1148,6 +1295,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1165,7 +1313,8 @@
                                                 1
                                     }
                         }
-                        % measure 117
+                        
+                        %%% Flute Music Voice [measure 117] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1176,6 +1325,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1184,6 +1334,7 @@
                             g'16 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1199,6 +1350,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1214,6 +1366,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1222,6 +1375,7 @@
                             g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1239,6 +1393,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1248,7 +1403,8 @@
                         g'4 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 118
+                        
+                        %%% Flute Music Voice [measure 118] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1258,8 +1414,10 @@
                         g'2 :32 \repeatTie \> \f
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4 \!
-                        % measure 119
+                        
+                        %%% Flute Music Voice [measure 119] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1289,7 +1447,8 @@
                                         \finger
                                             2
                                 }
-                        % measure 120
+                        
+                        %%% Flute Music Voice [measure 120] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1298,7 +1457,8 @@
                         g'2. \repeatTie \mf
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 121
+                        
+                        %%% Flute Music Voice [measure 121] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1308,6 +1468,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1316,6 +1477,7 @@
                             g'8 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1333,6 +1495,7 @@
                                     }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1341,6 +1504,7 @@
                             g'8 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1351,7 +1515,8 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 122
+                        
+                        %%% Flute Music Voice [measure 122] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1361,8 +1526,10 @@
                         g''2 \repeatTie \> \mf
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r2 \!
-                        % measure 123
+                        
+                        %%% Flute Music Voice [measure 123] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1380,6 +1547,7 @@
                                             1
                                 }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1388,6 +1556,7 @@
                             g''16 \repeatTie \mp [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1396,6 +1565,7 @@
                             g''16
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1411,6 +1581,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1426,6 +1597,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1444,6 +1616,7 @@
                                     }
                         }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1453,6 +1626,7 @@
                             g'16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1468,6 +1642,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1483,6 +1658,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1491,6 +1667,7 @@
                             g'16
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1508,7 +1685,8 @@
                                                 1
                                     }
                         }
-                        % measure 124
+                        
+                        %%% Flute Music Voice [measure 124] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1519,6 +1697,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1527,6 +1706,7 @@
                             g'8 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1544,7 +1724,8 @@
                                                 2
                                     }
                         }
-                        % measure 125
+                        
+                        %%% Flute Music Voice [measure 125] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1553,7 +1734,8 @@
                         g''2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 126
+                        
+                        %%% Flute Music Voice [measure 126] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1563,8 +1745,10 @@
                         g''4 \repeatTie \> \mp
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4 \!
-                        % measure 127
+                        
+                        %%% Flute Music Voice [measure 127] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1581,7 +1765,8 @@
                                         \finger
                                             1
                                 }
-                        % measure 128
+                        
+                        %%% Flute Music Voice [measure 128] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1591,6 +1776,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1599,6 +1785,7 @@
                             g''16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1607,6 +1794,7 @@
                             g''16
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1625,7 +1813,8 @@
                                     }
                         }
                         \times 4/5 {
-                            % measure 129
+                            
+                            %%% Flute Music Voice [measure 129] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1634,6 +1823,7 @@
                             g'16 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1644,6 +1834,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1652,7 +1843,8 @@
                         g''4 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 130
+                        
+                        %%% Flute Music Voice [measure 130] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1661,7 +1853,9 @@
                         g''4 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1677,7 +1871,8 @@
                                         \finger
                                             1
                                 }
-                        % measure 131
+                        
+                        %%% Flute Music Voice [measure 131] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1687,6 +1882,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1695,6 +1891,7 @@
                             g'16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1710,6 +1907,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1727,7 +1925,8 @@
                                                 1
                                     }
                         }
-                        % measure 132
+                        
+                        %%% Flute Music Voice [measure 132] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1737,8 +1936,10 @@
                         g'4 \repeatTie \> \mf
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4 \!
-                        % measure 133
+                        
+                        %%% Flute Music Voice [measure 133] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1769,6 +1970,7 @@
                                             2
                                 }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1777,6 +1979,7 @@
                             g'16 :32 \repeatTie \f [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1792,6 +1995,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1800,6 +2004,7 @@
                             g''16 :32
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1815,6 +2020,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1833,7 +2039,8 @@
                                     }
                         }
                         {
-                            % measure 134
+                            
+                            %%% Flute Music Voice [measure 134] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1843,6 +2050,7 @@
                             g''8 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1859,6 +2067,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1868,6 +2077,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1876,6 +2086,7 @@
                             g'16 :32 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1886,7 +2097,8 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 135
+                        
+                        %%% Flute Music Voice [measure 135] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1895,8 +2107,10 @@
                         g''2. :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 136
+                        
+                        %%% Flute Music Voice [measure 136] %%%
                         r4
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1913,6 +2127,7 @@
                                             1
                                 }
                         {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1921,6 +2136,7 @@
                             g'8 :32 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1930,6 +2146,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1938,7 +2155,8 @@
                         g''4 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 137
+                        
+                        %%% Flute Music Voice [measure 137] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1948,6 +2166,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1956,6 +2175,7 @@
                             g''16 :32 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1973,6 +2193,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1981,7 +2202,8 @@
                         g'4 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 138
+                        
+                        %%% Flute Music Voice [measure 138] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1990,8 +2212,10 @@
                         g'1 :32 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 139
+                        
+                        %%% Flute Music Voice [measure 139] %%%
                         r4
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2007,7 +2231,8 @@
                                         \finger
                                             2
                                 }
-                        % measure 140
+                        
+                        %%% Flute Music Voice [measure 140] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2017,6 +2242,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2025,6 +2251,7 @@
                             g'16 :32 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2042,6 +2269,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2051,8 +2279,10 @@
                         g'4 :32 \repeatTie \> \f
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4 \!
-                        % measure 141
+                        
+                        %%% Flute Music Voice [measure 141] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2082,7 +2312,8 @@
                                         \finger
                                             2
                                 }
-                        % measure 142
+                        
+                        %%% Flute Music Voice [measure 142] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2092,6 +2323,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2100,6 +2332,7 @@
                             g''4 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2117,7 +2350,8 @@
                                     }
                         }
                         {
-                            % measure 143
+                            
+                            %%% Flute Music Voice [measure 143] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2127,6 +2361,7 @@
                             g''8 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2135,6 +2370,7 @@
                             g''16
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2152,6 +2388,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2162,9 +2399,11 @@
                         g'2 \repeatTie \> \mf
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 144
+                        
+                        %%% Flute Music Voice [measure 144] %%%
                         r2 \!
-                        % measure 145
+                        
+                        %%% Flute Music Voice [measure 145] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2182,6 +2421,7 @@
                                             2
                                 }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2190,6 +2430,7 @@
                             g''8 \repeatTie \p
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2208,7 +2449,8 @@
                                     }
                         }
                         \times 4/5 {
-                            % measure 146
+                            
+                            %%% Flute Music Voice [measure 146] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2217,6 +2459,7 @@
                             g'16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2225,6 +2468,7 @@
                             g''16
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2242,6 +2486,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2251,6 +2496,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2259,6 +2505,7 @@
                             g'8 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2267,6 +2514,7 @@
                             g'16
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2284,7 +2532,8 @@
                                                 1
                                     }
                         }
-                        % measure 147
+                        
+                        %%% Flute Music Voice [measure 147] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2294,8 +2543,10 @@
                         g'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4
-                        % measure 148
+                        
+                        %%% Flute Music Voice [measure 148] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g''4 \> \p
                             ^ \markup {
@@ -2305,8 +2556,10 @@
                                         \finger
                                             2
                                 }
+                        
                         r4 \!
-                        % measure 149
+                        
+                        %%% Flute Music Voice [measure 149] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g''2. \<
                             ^ \markup {
@@ -2316,11 +2569,14 @@
                                         \finger
                                             1
                                 }
-                        % measure 150
+                        
+                        %%% Flute Music Voice [measure 150] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g''4 \repeatTie \pp \> \pp
+                        
                         r4 \!
-                        % measure 151
+                        
+                        %%% Flute Music Voice [measure 151] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2338,6 +2594,7 @@
                                             2
                                 }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2346,6 +2603,7 @@
                             g''16 \repeatTie \ppp
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2364,7 +2622,8 @@
                                     }
                         }
                         \times 2/3 {
-                            % measure 152
+                            
+                            %%% Flute Music Voice [measure 152] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2373,6 +2632,7 @@
                             g'4 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2382,6 +2642,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2392,6 +2653,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2400,6 +2662,7 @@
                             g''16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2415,6 +2678,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2430,6 +2694,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2445,6 +2710,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2455,7 +2721,8 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 153
+                        
+                        %%% Flute Music Voice [measure 153] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2465,8 +2732,10 @@
                         g'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 154
+                        
+                        %%% Flute Music Voice [measure 154] %%%
                         r4
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2483,7 +2752,8 @@
                                             1
                                 }
                         \times 2/3 {
-                            % measure 155
+                            
+                            %%% Flute Music Voice [measure 155] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2492,6 +2762,7 @@
                             g'4 \repeatTie
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2501,6 +2772,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2511,6 +2783,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2519,6 +2792,7 @@
                             g''16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2534,6 +2808,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2549,6 +2824,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2564,6 +2840,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2581,7 +2858,8 @@
                                                 2
                                     }
                         }
-                        % measure 156
+                        
+                        %%% Flute Music Voice [measure 156] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2592,10 +2870,13 @@
                         g''4 \repeatTie \> \ppp
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r4 \!
-                        % measure 157
+                        
+                        %%% Flute Music Voice [measure 157] %%%
                         R1 * 27/4
-                        % measure 165
+                        
+                        %%% Flute Music Voice [measure 165] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2605,7 +2886,8 @@
                         gs''1 \<
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 166
+                        
+                        %%% Flute Music Voice [measure 166] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2615,6 +2897,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         \times 4/5 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2623,6 +2906,7 @@
                             gs''16 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2638,6 +2922,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2653,6 +2938,7 @@
                                             \finger
                                                 2
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2668,6 +2954,7 @@
                                             \finger
                                                 1
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2679,7 +2966,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 167
+                            
+                            %%% Flute Music Voice [measure 167] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2689,6 +2977,7 @@
                             gs''8 \repeatTie [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2705,6 +2994,7 @@
                                                 1
                                     }
                         }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2713,7 +3003,8 @@
                         gs'4 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 168
+                        
+                        %%% Flute Music Voice [measure 168] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2723,16 +3014,20 @@
                         gs'4 \repeatTie \> \ppp
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r2 \!
-                        % measure 169
+                        
+                        %%% Flute Music Voice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
+                        
                     }
                 }
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
-                        % measure 97
+                        
+                        %%% English Horn Music Voice [measure 97] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -2759,7 +3054,9 @@
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             \override NoteHead.style = #'cross
                             ef'16 [
                                 _ \markup {
@@ -2774,186 +3071,290 @@
                                         \italic
                                             ”
                                     }
+                            
                             e'16
+                            
                             eqs'16
+                            
                             gs'16 ]
                         }
                         {
+                            
                             r8
+                            
                             aqf'8
                         }
                         \times 2/3 {
-                            % measure 98
+                            
+                            %%% English Horn Music Voice [measure 98] %%%
                             r8
+                            
                             bf'4
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             a'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             eqs'8
                         }
                         {
-                            % measure 99
+                            
+                            %%% English Horn Music Voice [measure 99] %%%
                             r8
+                            
                             ef'16 [
+                            
                             e'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             a'16 [
+                            
                             gs'16
+                            
                             aqf'16
+                            
                             bf'16 ]
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             cs'16 [
+                            
                             fqs'16
+                            
                             f'16
+                            
                             d'16 ]
                         }
                         {
-                            % measure 100
+                            
+                            %%% English Horn Music Voice [measure 100] %%%
                             r8
+                            
                             bf'8
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             a'4
                         }
-                        % measure 101
+                        
+                        %%% English Horn Music Voice [measure 101] %%%
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             gs'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             aqf'8
                         }
                         {
-                            % measure 102
+                            
+                            %%% English Horn Music Voice [measure 102] %%%
                             r8
+                            
                             d'16 [
+                            
                             cs'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             fqs'16 [
+                            
                             f'16
+                            
                             e'16
+                            
                             eqs'16 ]
                         }
-                        % measure 103
+                        
+                        %%% English Horn Music Voice [measure 103] %%%
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             ef'16 [
+                            
                             f'16
+                            
                             d'16
+                            
                             cs'16 ]
                         }
                         {
+                            
                             r8
+                            
                             fqs'8
                         }
                         \times 2/3 {
-                            % measure 104
+                            
+                            %%% English Horn Music Voice [measure 104] %%%
                             r8
+                            
                             ef'4
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             e'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             eqs'8
                         }
                         {
-                            % measure 105
+                            
+                            %%% English Horn Music Voice [measure 105] %%%
                             r8
+                            
                             aqf'16 [
+                            
                             bf'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             a'16 [
+                            
                             gs'16
+                            
                             eqs'16
+                            
                             ef'16 ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 106
+                            
+                            %%% English Horn Music Voice [measure 106] %%%
                             r16
+                            
                             e'16 [
+                            
                             gs'16
+                            
                             aqf'16
+                            
                             bf'16 ]
                         }
                         {
+                            
                             r8
+                            
                             a'8
                         }
                         \times 2/3 {
-                            % measure 107
+                            
+                            %%% English Horn Music Voice [measure 107] %%%
                             r8
+                            
                             fqs'4
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             f'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             d'8
                         }
                         {
-                            % measure 108
+                            
+                            %%% English Horn Music Voice [measure 108] %%%
                             r8
+                            
                             cs'16 [
+                            
                             a'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             gs'16 [
+                            
                             aqf'16
+                            
                             bf'16
+                            
                             cs'16 ]
                             \revert NoteHead.style
                         }
-                        % measure 109
+                        
+                        %%% English Horn Music Voice [measure 109] %%%
                         r4
+                        
                         r16
+                        
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         af'8. \f \startTrillSpan
+                        
                         r16 \stopTrillSpan
+                        
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         atqf'8. \startTrillSpan
-                        % measure 110
+                        
+                        %%% English Horn Music Voice [measure 110] %%%
                         atqf'16 \repeatTie
+                        
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         af'2
+                        
                         atqf'4..
-                        % measure 111
+                        
+                        %%% English Horn Music Voice [measure 111] %%%
                         atqf'2 \repeatTie
+                        
                         atqf'16 \repeatTie [
+                        
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         aqf'8. ]
-                        % measure 112
+                        
+                        %%% English Horn Music Voice [measure 112] %%%
                         aqf'1 \repeatTie
-                        % measure 113
+                        
+                        %%% English Horn Music Voice [measure 113] %%%
                         r4 \stopTrillSpan
                         {
+                            
                             r8
+                            
                             \override NoteHead.style = #'cross
                             gs'8
                                 _ \markup {
@@ -2970,114 +3371,178 @@
                                     }
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             aqf'4
                         }
                         \times 4/5 {
-                            % measure 114
+                            
+                            %%% English Horn Music Voice [measure 114] %%%
                             r16
+                            
                             bf'16 [
+                            
                             a'8. ]
                         }
+                        
                         r4
                         \times 2/3 {
+                            
                             r4
+                            
                             eqs'8
                         }
                         {
+                            
                             r8
+                            
                             ef'16 [
+                            
                             e'16 ]
                         }
                         \times 4/5 {
-                            % measure 115
+                            
+                            %%% English Horn Music Voice [measure 115] %%%
                             r16
+                            
                             a'16 [
+                            
                             gs'16
+                            
                             aqf'16
+                            
                             bf'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             cs'16 [
+                            
                             fqs'16
+                            
                             f'16
+                            
                             d'16 ]
                         }
-                        % measure 116
+                        
+                        %%% English Horn Music Voice [measure 116] %%%
                         r4
                         {
+                            
                             r8
+                            
                             bf'8
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             a'4
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             gs'16 [
+                            
                             aqf'8. ]
                         }
-                        % measure 117
+                        
+                        %%% English Horn Music Voice [measure 117] %%%
                         r4
                         \times 2/3 {
+                            
                             r4
+                            
                             d'8
                         }
                         {
+                            
                             r8
+                            
                             cs'16 [
+                            
                             fqs'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             f'16 [
+                            
                             e'16
+                            
                             eqs'16
+                            
                             ef'16 ]
                         }
                         \times 4/5 {
-                            % measure 118
+                            
+                            %%% English Horn Music Voice [measure 118] %%%
                             r16
+                            
                             f'16 [
+                            
                             d'16
+                            
                             cs'16
+                            
                             fqs'16 ]
                         }
+                        
                         r4
                         {
+                            
                             r8
+                            
                             ef'8
                             \revert NoteHead.style
                         }
-                        % measure 119
+                        
+                        %%% English Horn Music Voice [measure 119] %%%
                         r4
+                        
                         r16
+                        
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         a'8. \ff \startTrillSpan
-                        % measure 120
+                        
+                        %%% English Horn Music Voice [measure 120] %%%
                         a'2. \repeatTie
-                        % measure 121
+                        
+                        %%% English Horn Music Voice [measure 121] %%%
                         a'2 \repeatTie
+                        
                         r16 \stopTrillSpan
+                        
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         aqs'8. \startTrillSpan
-                        % measure 122
+                        
+                        %%% English Horn Music Voice [measure 122] %%%
                         r16 \stopTrillSpan
+                        
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         aqf'2... \startTrillSpan
-                        % measure 123
+                        
+                        %%% English Horn Music Voice [measure 123] %%%
                         aqf'1 \repeatTie
-                        % measure 124
+                        
+                        %%% English Horn Music Voice [measure 124] %%%
                         aqf'4 \repeatTie
+                        
                         r16 \stopTrillSpan
+                        
                         af'4.. \startTrillSpan
-                        % measure 125
+                        
+                        %%% English Horn Music Voice [measure 125] %%%
                         aqf'2
-                        % measure 126
+                        
+                        %%% English Horn Music Voice [measure 126] %%%
                         r2 \stopTrillSpan
-                        % measure 127
+                        
+                        %%% English Horn Music Voice [measure 127] %%%
                         bf'2. \fff \startTrillSpan
                             ^ \markup {
                                 \whiteout
@@ -3087,17 +3552,23 @@
                                             \box
                                                 doubletrill!
                                 }
-                        % measure 128
+                        
+                        %%% English Horn Music Voice [measure 128] %%%
                         bf'1 \repeatTie
-                        % measure 129
+                        
+                        %%% English Horn Music Voice [measure 129] %%%
                         bf'2 \repeatTie
-                        % measure 130
+                        
+                        %%% English Horn Music Voice [measure 130] %%%
                         bf'2. \repeatTie
-                        % measure 131
+                        
+                        %%% English Horn Music Voice [measure 131] %%%
                         bf'1 \repeatTie
-                        % measure 132
+                        
+                        %%% English Horn Music Voice [measure 132] %%%
                         bf'2 \repeatTie
-                        % measure 133
+                        
+                        %%% English Horn Music Voice [measure 133] %%%
                         b'2. \fff \stopTrillSpan \startTrillSpan
                             ^ \markup {
                                 \whiteout
@@ -3107,237 +3578,368 @@
                                             \box
                                                 doubletrill!
                                 }
-                        % measure 134
+                        
+                        %%% English Horn Music Voice [measure 134] %%%
                         b'1 \repeatTie
-                        % measure 135
+                        
+                        %%% English Horn Music Voice [measure 135] %%%
                         b'2. \repeatTie
-                        % measure 136
+                        
+                        %%% English Horn Music Voice [measure 136] %%%
                         b'1 \repeatTie
-                        % measure 137
+                        
+                        %%% English Horn Music Voice [measure 137] %%%
                         b'2. \repeatTie
-                        % measure 138
+                        
+                        %%% English Horn Music Voice [measure 138] %%%
                         b'1 \repeatTie
-                        % measure 139
+                        
+                        %%% English Horn Music Voice [measure 139] %%%
                         b'2 \repeatTie
-                        % measure 140
+                        
+                        %%% English Horn Music Voice [measure 140] %%%
                         b'1 \repeatTie
-                        % measure 141
+                        
+                        %%% English Horn Music Voice [measure 141] %%%
                         r4 \stopTrillSpan
                         \times 4/5 {
+                            
                             r16
-                            \once \override Hairpin.circled-tip = ##t
+                            
                             \override NoteHead.style = #'cross
+                            \once \override Hairpin.circled-tip = ##t
                             eqs'16 \> [
+                            
                             ef'16
+                            
                             e'16
+                            
                             a'16 ]
                         }
                         {
+                            
                             r8
+                            
                             gs'8
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             aqf'4
                         }
-                        % measure 142
+                        
+                        %%% English Horn Music Voice [measure 142] %%%
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             bf'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             cs'8
                         }
                         {
-                            % measure 143
+                            
+                            %%% English Horn Music Voice [measure 143] %%%
                             r8
+                            
                             fqs'16 [
+                            
                             f'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             d'16 [
+                            
                             bf'16
+                            
                             a'16
+                            
                             gs'16 ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 144
+                            
+                            %%% English Horn Music Voice [measure 144] %%%
                             r16
+                            
                             aqf'16 [
+                            
                             d'16
+                            
                             cs'16
+                            
                             fqs'16 ]
                         }
                         {
+                            
                             r8
+                            
                             f'8
                         }
                         \times 2/3 {
-                            % measure 145
+                            
+                            %%% English Horn Music Voice [measure 145] %%%
                             r8
+                            
                             e'4
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             eqs'4
                         }
                         \times 2/3 {
-                            % measure 146
+                            
+                            %%% English Horn Music Voice [measure 146] %%%
                             r4
+                            
                             ef'8
                         }
                         {
+                            
                             r8
+                            
                             f'16 [
+                            
                             d'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             cs'16 [
+                            
                             fqs'16
+                            
                             ef'16
+                            
                             e'16 ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 147
+                            
+                            %%% English Horn Music Voice [measure 147] %%%
                             r16
+                            
                             eqs'16 [
+                            
                             aqf'16
+                            
                             bf'16
+                            
                             a'16 ]
                         }
                         {
+                            
                             r8
+                            
                             gs'8
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             eqs'4
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 148
+                            
+                            %%% English Horn Music Voice [measure 148] %%%
                             r16
+                            
                             ef'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             e'8
                         }
                         {
-                            % measure 149
+                            
+                            %%% English Horn Music Voice [measure 149] %%%
                             r8
+                            
                             gs'16 [
+                            
                             aqf'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             bf'16 [
+                            
                             a'16
+                            
                             fqs'16
+                            
                             f'16 ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 150
+                            
+                            %%% English Horn Music Voice [measure 150] %%%
                             r16
+                            
                             d'16 [
+                            
                             cs'16
+                            
                             a'16
+                            
                             gs'16 ]
                         }
                         {
+                            
                             r8
+                            
                             aqf'8
                         }
                         \times 2/3 {
-                            % measure 151
+                            
+                            %%% English Horn Music Voice [measure 151] %%%
                             r8
+                            
                             bf'4
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             cs'4
                         }
                         \times 2/3 {
-                            % measure 152
+                            
+                            %%% English Horn Music Voice [measure 152] %%%
                             r4
+                            
                             fqs'8
                         }
                         {
+                            
                             r8
+                            
                             f'16 [
+                            
                             d'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             e'16 [
+                            
                             eqs'16
+                            
                             ef'16
+                            
                             d'16 ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 153
+                            
+                            %%% English Horn Music Voice [measure 153] %%%
                             r16
+                            
                             cs'16 [
+                            
                             fqs'16
+                            
                             f'16
+                            
                             ef'16 ]
                         }
                         {
+                            
                             r8
+                            
                             e'8
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             eqs'4
                         }
-                        % measure 154
+                        
+                        %%% English Horn Music Voice [measure 154] %%%
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             bf'4
                         }
                         \times 2/3 {
-                            % measure 155
+                            
+                            %%% English Horn Music Voice [measure 155] %%%
                             r4
+                            
                             a'8
                         }
                         {
+                            
                             r8
+                            
                             gs'16 [
+                            
                             aqf'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             eqs'16 [
+                            
                             ef'16
+                            
                             e'16
+                            
                             aqf'16 ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 156
+                            
+                            %%% English Horn Music Voice [measure 156] %%%
                             r16
+                            
                             bf'16 [
+                            
                             a'16
+                            
                             gs'16
+                            
                             f'16 ]
                         }
                         {
+                            
                             r8
+                            
                             d'8 \!
                             \revert NoteHead.style
                         }
-                        % measure 157
+                        
+                        %%% English Horn Music Voice [measure 157] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -3351,21 +3953,29 @@
                                             \box
                                                 "remove staple"
                                 }
-                        % measure 158
+                        
+                        %%% English Horn Music Voice [measure 158] %%%
                         r1
-                        % measure 159
+                        
+                        %%% English Horn Music Voice [measure 159] %%%
                         r2.
-                        % measure 160
+                        
+                        %%% English Horn Music Voice [measure 160] %%%
                         r1
-                        % measure 161
+                        
+                        %%% English Horn Music Voice [measure 161] %%%
                         r2.
-                        % measure 162
+                        
+                        %%% English Horn Music Voice [measure 162] %%%
                         r1
-                        % measure 163
+                        
+                        %%% English Horn Music Voice [measure 163] %%%
                         r2
-                        % measure 164
+                        
+                        %%% English Horn Music Voice [measure 164] %%%
                         r1
-                        % measure 165
+                        
+                        %%% English Horn Music Voice [measure 165] %%%
                         \override RepeatTie.direction = #up
                         c'1
                             ^ \markup {
@@ -3385,22 +3995,28 @@
                                     \italic
                                         ”
                                 }
-                        % measure 166
+                        
+                        %%% English Horn Music Voice [measure 166] %%%
                         c'2. \repeatTie
-                        % measure 167
+                        
+                        %%% English Horn Music Voice [measure 167] %%%
                         c'2 \repeatTie
-                        % measure 168
+                        
+                        %%% English Horn Music Voice [measure 168] %%%
                         c'2. \repeatTie
                         \revert RepeatTie.direction
-                        % measure 169
+                        
+                        %%% English Horn Music Voice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
+                        
                     }
                 }
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        % measure 97
+                        
+                        %%% Clarinet Music Voice [measure 97] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -3424,142 +4040,229 @@
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         f4 \<
+                        
                         f\breve \repeatTie \p
+                        
                         f4 \repeatTie
+                        
                         f8. \repeatTie
+                        
                         r16
-                        % measure 100
+                        
+                        %%% Clarinet Music Voice [measure 100] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
+                        
                         fqs1 \repeatTie
-                        % measure 102
+                        
+                        %%% Clarinet Music Voice [measure 102] %%%
                         fqs4 \repeatTie
+                        
                         fqs8. \repeatTie
+                        
                         r16
-                        % measure 103
+                        
+                        %%% Clarinet Music Voice [measure 103] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
+                        
                         f\breve.. \repeatTie
+                        
                         f8. \repeatTie
+                        
                         r16
-                        % measure 108
+                        
+                        %%% Clarinet Music Voice [measure 108] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
+                        
                         fqs1.. \repeatTie
+                        
                         fqs8. \repeatTie
+                        
                         r16
-                        % measure 111
+                        
+                        %%% Clarinet Music Voice [measure 111] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
+                        
                         f1 \repeatTie
+                        
                         f4 \repeatTie
+                        
                         f8. \repeatTie
+                        
                         r16
-                        % measure 113
+                        
+                        %%% Clarinet Music Voice [measure 113] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
+                        
                         fqs\breve... \repeatTie
+                        
                         fqs8. \repeatTie
+                        
                         r16
-                        % measure 118
+                        
+                        %%% Clarinet Music Voice [measure 118] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
+                        
                         f\breve. \repeatTie
+                        
                         f4 \repeatTie
+                        
                         f8. \repeatTie
+                        
                         r16
-                        % measure 123
+                        
+                        %%% Clarinet Music Voice [measure 123] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
+                        
                         fqs1.. \repeatTie
+                        
                         fqs8. \repeatTie
+                        
                         r16
-                        % measure 126
+                        
+                        %%% Clarinet Music Voice [measure 126] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
+                        
                         f1.. \repeatTie
+                        
                         f8. \repeatTie
+                        
                         r16
-                        % measure 129
+                        
+                        %%% Clarinet Music Voice [measure 129] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
+                        
                         fqs\breve. \repeatTie
+                        
                         fqs8. \repeatTie
+                        
                         r16
-                        % measure 134
+                        
+                        %%% Clarinet Music Voice [measure 134] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
+                        
                         f\breve \repeatTie
+                        
                         f4 \repeatTie
+                        
                         f8. \repeatTie
+                        
                         r16
-                        % measure 137
+                        
+                        %%% Clarinet Music Voice [measure 137] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
+                        
                         fqs1 \repeatTie
+                        
                         fqs4 \repeatTie
+                        
                         fqs8. \repeatTie
+                        
                         r16
-                        % measure 139
+                        
+                        %%% Clarinet Music Voice [measure 139] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
+                        
                         f\breve.. \repeatTie
+                        
                         f8. \repeatTie
+                        
                         r16
-                        % measure 144
+                        
+                        %%% Clarinet Music Voice [measure 144] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
+                        
                         \once \override Hairpin.circled-tip = ##t
                         f\breve. \repeatTie \> \p
-                        % measure 148
+                        
+                        %%% Clarinet Music Voice [measure 148] %%%
                         \once \override Hairpin.circled-tip = ##t
                         f4 \repeatTie \! \<
+                        
                         f8. \repeatTie \pp
+                        
                         r16
-                        % measure 149
+                        
+                        %%% Clarinet Music Voice [measure 149] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
+                        
                         \once \override Hairpin.circled-tip = ##t
                         e1. \repeatTie \> \pp
+                        
                         \once \override Hairpin.circled-tip = ##t
                         e8. \repeatTie \! \<
+                        
                         r16 \ppp
-                        % measure 152
+                        
+                        %%% Clarinet Music Voice [measure 152] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
+                        
                         e2 \repeatTie
+                        
                         e8. \repeatTie
+                        
                         r16
-                        % measure 153
+                        
+                        %%% Clarinet Music Voice [measure 153] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ds4
+                        
                         ds1.. \repeatTie
+                        
                         ds8. \repeatTie
+                        
                         r16
-                        % measure 156
+                        
+                        %%% Clarinet Music Voice [measure 156] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ds4
+                        
                         \once \override Hairpin.circled-tip = ##t
                         ds8. \repeatTie \> \ppp
+                        
                         r16 \!
-                        % measure 157
+                        
+                        %%% Clarinet Music Voice [measure 157] %%%
                         R1 * 27/4
-                        % measure 165
+                        
+                        %%% Clarinet Music Voice [measure 165] %%%
                         \once \override Hairpin.circled-tip = ##t
                         d4 \<
+                        
                         d2. \repeatTie \ppp
-                        % measure 166
+                        
+                        %%% Clarinet Music Voice [measure 166] %%%
                         d2. \repeatTie
-                        % measure 167
+                        
+                        %%% Clarinet Music Voice [measure 167] %%%
                         d2 \repeatTie
-                        % measure 168
+                        
+                        %%% Clarinet Music Voice [measure 168] %%%
                         d2 \repeatTie
+                        
                         \once \override Hairpin.circled-tip = ##t
                         d8. \repeatTie \> \ppp
+                        
                         r16 \!
-                        % measure 169
+                        
+                        %%% Clarinet Music Voice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
+                        
                     }
                 }
             >>
@@ -3568,7 +4271,9 @@
                 \context PianoStaffGroup = "Piano Staff Group" <<
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
-                            % measure 97
+                            
+                            %%% Piano RH Music Voice [measure 97] %%%
+                            \override NoteHead.style = #'harmonic
                             \set PianoStaffGroup.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -3580,7 +4285,6 @@
                                     Pf.
                                 }
                             \clef "treble"
-                            \override NoteHead.style = #'harmonic
                             \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             <ef' f' g' df'' ef''>2.
@@ -3590,266 +4294,393 @@
                                         \box
                                             "to piano"
                                     }
-                            % measure 98
+                            
+                            %%% Piano RH Music Voice [measure 98] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 99
+                            
+                            %%% Piano RH Music Voice [measure 99] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 100
+                            
+                            %%% Piano RH Music Voice [measure 100] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 101
+                            
+                            %%% Piano RH Music Voice [measure 101] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 102
+                            
+                            %%% Piano RH Music Voice [measure 102] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 103
+                            
+                            %%% Piano RH Music Voice [measure 103] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 104
+                            
+                            %%% Piano RH Music Voice [measure 104] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 105
+                            
+                            %%% Piano RH Music Voice [measure 105] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 106
+                            
+                            %%% Piano RH Music Voice [measure 106] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 107
+                            
+                            %%% Piano RH Music Voice [measure 107] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 108
+                            
+                            %%% Piano RH Music Voice [measure 108] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 109
+                            
+                            %%% Piano RH Music Voice [measure 109] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 110
+                            
+                            %%% Piano RH Music Voice [measure 110] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 111
+                            
+                            %%% Piano RH Music Voice [measure 111] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 112
+                            
+                            %%% Piano RH Music Voice [measure 112] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 113
+                            
+                            %%% Piano RH Music Voice [measure 113] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 114
+                            
+                            %%% Piano RH Music Voice [measure 114] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 115
+                            
+                            %%% Piano RH Music Voice [measure 115] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 116
+                            
+                            %%% Piano RH Music Voice [measure 116] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 117
+                            
+                            %%% Piano RH Music Voice [measure 117] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 118
+                            
+                            %%% Piano RH Music Voice [measure 118] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 119
+                            
+                            %%% Piano RH Music Voice [measure 119] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 120
+                            
+                            %%% Piano RH Music Voice [measure 120] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 121
+                            
+                            %%% Piano RH Music Voice [measure 121] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 122
+                            
+                            %%% Piano RH Music Voice [measure 122] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 123
+                            
+                            %%% Piano RH Music Voice [measure 123] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 124
+                            
+                            %%% Piano RH Music Voice [measure 124] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 125
+                            
+                            %%% Piano RH Music Voice [measure 125] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 126
+                            
+                            %%% Piano RH Music Voice [measure 126] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 127
+                            
+                            %%% Piano RH Music Voice [measure 127] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 128
+                            
+                            %%% Piano RH Music Voice [measure 128] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 129
+                            
+                            %%% Piano RH Music Voice [measure 129] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 130
+                            
+                            %%% Piano RH Music Voice [measure 130] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 131
+                            
+                            %%% Piano RH Music Voice [measure 131] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 132
+                            
+                            %%% Piano RH Music Voice [measure 132] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 133
+                            
+                            %%% Piano RH Music Voice [measure 133] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 134
+                            
+                            %%% Piano RH Music Voice [measure 134] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 135
+                            
+                            %%% Piano RH Music Voice [measure 135] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 136
+                            
+                            %%% Piano RH Music Voice [measure 136] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 137
+                            
+                            %%% Piano RH Music Voice [measure 137] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
-                            % measure 138
+                            
+                            %%% Piano RH Music Voice [measure 138] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
-                            % measure 139
+                            
+                            %%% Piano RH Music Voice [measure 139] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
-                            % measure 140
+                            
+                            %%% Piano RH Music Voice [measure 140] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             \revert NoteHead.style
-                            % measure 141
+                            
+                            %%% Piano RH Music Voice [measure 141] %%%
                             R1 * 28
                             \bar "|."
+                            
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            % measure 97
+                            
+                            %%% Piano LH Music Voice [measure 97] %%%
                             \clef "bass"
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             R1 * 3/4
-                            % measure 98
+                            
+                            %%% Piano LH Music Voice [measure 98] %%%
                             R1 * 1
-                            % measure 99
+                            
+                            %%% Piano LH Music Voice [measure 99] %%%
                             R1 * 1
-                            % measure 100
+                            
+                            %%% Piano LH Music Voice [measure 100] %%%
                             R1 * 1/2
-                            % measure 101
+                            
+                            %%% Piano LH Music Voice [measure 101] %%%
                             R1 * 3/4
-                            % measure 102
+                            
+                            %%% Piano LH Music Voice [measure 102] %%%
                             R1 * 1/2
-                            % measure 103
+                            
+                            %%% Piano LH Music Voice [measure 103] %%%
                             R1 * 3/4
-                            % measure 104
+                            
+                            %%% Piano LH Music Voice [measure 104] %%%
                             R1 * 1
-                            % measure 105
+                            
+                            %%% Piano LH Music Voice [measure 105] %%%
                             R1 * 3/4
-                            % measure 106
+                            
+                            %%% Piano LH Music Voice [measure 106] %%%
                             R1 * 1/2
-                            % measure 107
+                            
+                            %%% Piano LH Music Voice [measure 107] %%%
                             R1 * 1
-                            % measure 108
+                            
+                            %%% Piano LH Music Voice [measure 108] %%%
                             R1 * 1/2
-                            % measure 109
+                            
+                            %%% Piano LH Music Voice [measure 109] %%%
                             R1 * 3/4
-                            % measure 110
+                            
+                            %%% Piano LH Music Voice [measure 110] %%%
                             R1 * 1
-                            % measure 111
+                            
+                            %%% Piano LH Music Voice [measure 111] %%%
                             R1 * 3/4
-                            % measure 112
+                            
+                            %%% Piano LH Music Voice [measure 112] %%%
                             R1 * 1
-                            % measure 113
+                            
+                            %%% Piano LH Music Voice [measure 113] %%%
                             R1 * 3/4
-                            % measure 114
+                            
+                            %%% Piano LH Music Voice [measure 114] %%%
                             R1 * 1
-                            % measure 115
+                            
+                            %%% Piano LH Music Voice [measure 115] %%%
                             R1 * 1/2
-                            % measure 116
+                            
+                            %%% Piano LH Music Voice [measure 116] %%%
                             R1 * 1
-                            % measure 117
+                            
+                            %%% Piano LH Music Voice [measure 117] %%%
                             R1 * 1
-                            % measure 118
+                            
+                            %%% Piano LH Music Voice [measure 118] %%%
                             R1 * 3/4
-                            % measure 119
+                            
+                            %%% Piano LH Music Voice [measure 119] %%%
                             R1 * 1/2
-                            % measure 120
+                            
+                            %%% Piano LH Music Voice [measure 120] %%%
                             R1 * 3/4
-                            % measure 121
+                            
+                            %%% Piano LH Music Voice [measure 121] %%%
                             R1 * 3/4
-                            % measure 122
+                            
+                            %%% Piano LH Music Voice [measure 122] %%%
                             R1 * 1
-                            % measure 123
+                            
+                            %%% Piano LH Music Voice [measure 123] %%%
                             R1 * 1
-                            % measure 124
+                            
+                            %%% Piano LH Music Voice [measure 124] %%%
                             R1 * 3/4
-                            % measure 125
+                            
+                            %%% Piano LH Music Voice [measure 125] %%%
                             R1 * 1/2
-                            % measure 126
+                            
+                            %%% Piano LH Music Voice [measure 126] %%%
                             R1 * 1/2
-                            % measure 127
+                            
+                            %%% Piano LH Music Voice [measure 127] %%%
                             R1 * 3/4
-                            % measure 128
+                            
+                            %%% Piano LH Music Voice [measure 128] %%%
                             R1 * 1
-                            % measure 129
+                            
+                            %%% Piano LH Music Voice [measure 129] %%%
                             R1 * 1/2
-                            % measure 130
+                            
+                            %%% Piano LH Music Voice [measure 130] %%%
                             R1 * 3/4
-                            % measure 131
+                            
+                            %%% Piano LH Music Voice [measure 131] %%%
                             R1 * 1
-                            % measure 132
+                            
+                            %%% Piano LH Music Voice [measure 132] %%%
                             R1 * 1/2
-                            % measure 133
+                            
+                            %%% Piano LH Music Voice [measure 133] %%%
                             R1 * 3/4
-                            % measure 134
+                            
+                            %%% Piano LH Music Voice [measure 134] %%%
                             R1 * 1
-                            % measure 135
+                            
+                            %%% Piano LH Music Voice [measure 135] %%%
                             R1 * 3/4
-                            % measure 136
+                            
+                            %%% Piano LH Music Voice [measure 136] %%%
                             R1 * 1
-                            % measure 137
+                            
+                            %%% Piano LH Music Voice [measure 137] %%%
                             R1 * 3/4
-                            % measure 138
+                            
+                            %%% Piano LH Music Voice [measure 138] %%%
                             R1 * 1
-                            % measure 139
+                            
+                            %%% Piano LH Music Voice [measure 139] %%%
                             R1 * 1/2
-                            % measure 140
+                            
+                            %%% Piano LH Music Voice [measure 140] %%%
                             R1 * 1
-                            % measure 141
+                            
+                            %%% Piano LH Music Voice [measure 141] %%%
                             R1 * 1
-                            % measure 142
+                            
+                            %%% Piano LH Music Voice [measure 142] %%%
                             R1 * 3/4
-                            % measure 143
+                            
+                            %%% Piano LH Music Voice [measure 143] %%%
                             R1 * 3/4
-                            % measure 144
+                            
+                            %%% Piano LH Music Voice [measure 144] %%%
                             R1 * 1/2
-                            % measure 145
+                            
+                            %%% Piano LH Music Voice [measure 145] %%%
                             R1 * 3/4
-                            % measure 146
+                            
+                            %%% Piano LH Music Voice [measure 146] %%%
                             R1 * 1
-                            % measure 147
+                            
+                            %%% Piano LH Music Voice [measure 147] %%%
                             R1 * 1
-                            % measure 148
+                            
+                            %%% Piano LH Music Voice [measure 148] %%%
                             R1 * 1/2
-                            % measure 149
+                            
+                            %%% Piano LH Music Voice [measure 149] %%%
                             R1 * 3/4
-                            % measure 150
+                            
+                            %%% Piano LH Music Voice [measure 150] %%%
                             R1 * 1/2
-                            % measure 151
+                            
+                            %%% Piano LH Music Voice [measure 151] %%%
                             R1 * 3/4
-                            % measure 152
+                            
+                            %%% Piano LH Music Voice [measure 152] %%%
                             R1 * 1
-                            % measure 153
+                            
+                            %%% Piano LH Music Voice [measure 153] %%%
                             R1 * 3/4
-                            % measure 154
+                            
+                            %%% Piano LH Music Voice [measure 154] %%%
                             R1 * 1/2
-                            % measure 155
+                            
+                            %%% Piano LH Music Voice [measure 155] %%%
                             R1 * 1
-                            % measure 156
+                            
+                            %%% Piano LH Music Voice [measure 156] %%%
                             R1 * 1/2
-                            % measure 157
+                            
+                            %%% Piano LH Music Voice [measure 157] %%%
                             R1 * 3/4
-                            % measure 158
+                            
+                            %%% Piano LH Music Voice [measure 158] %%%
                             R1 * 1
-                            % measure 159
+                            
+                            %%% Piano LH Music Voice [measure 159] %%%
                             R1 * 3/4
-                            % measure 160
+                            
+                            %%% Piano LH Music Voice [measure 160] %%%
                             R1 * 1
-                            % measure 161
+                            
+                            %%% Piano LH Music Voice [measure 161] %%%
                             R1 * 3/4
-                            % measure 162
+                            
+                            %%% Piano LH Music Voice [measure 162] %%%
                             R1 * 1
-                            % measure 163
+                            
+                            %%% Piano LH Music Voice [measure 163] %%%
                             R1 * 1/2
-                            % measure 164
+                            
+                            %%% Piano LH Music Voice [measure 164] %%%
                             R1 * 1
-                            % measure 165
+                            
+                            %%% Piano LH Music Voice [measure 165] %%%
                             R1 * 1
-                            % measure 166
+                            
+                            %%% Piano LH Music Voice [measure 166] %%%
                             R1 * 3/4
-                            % measure 167
+                            
+                            %%% Piano LH Music Voice [measure 167] %%%
                             R1 * 1/2
-                            % measure 168
+                            
+                            %%% Piano LH Music Voice [measure 168] %%%
                             R1 * 3/4
-                            % measure 169
+                            
+                            %%% Piano LH Music Voice [measure 169] %%%
                             R1 * 3/4
-                            % measure 170
+                            
+                            %%% Piano LH Music Voice [measure 170] %%%
                             R1 * 1
-                            % measure 171
+                            
+                            %%% Piano LH Music Voice [measure 171] %%%
                             R1 * 1
-                            % measure 172
+                            
+                            %%% Piano LH Music Voice [measure 172] %%%
                             R1 * 3/4
-                            % measure 173
+                            
+                            %%% Piano LH Music Voice [measure 173] %%%
                             R1 * 1/2
-                            % measure 174
+                            
+                            %%% Piano LH Music Voice [measure 174] %%%
                             R1 * 1/2
-                            % measure 175
+                            
+                            %%% Piano LH Music Voice [measure 175] %%%
                             R1 * 3/4
-                            % measure 176
+                            
+                            %%% Piano LH Music Voice [measure 176] %%%
                             R1 * 1
                             \bar "|."
+                            
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
-                            % measure 97
+                            
+                            %%% Piano LH Attack Voice [measure 97] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -3866,51 +4697,75 @@
                                                 \flat
                                             }
                                     }
+                            
                             s2
+                            
                             s8.
-                            % measure 98
+                            
+                            %%% Piano LH Attack Voice [measure 98] %%%
                             s1
-                            % measure 99
+                            
+                            %%% Piano LH Attack Voice [measure 99] %%%
                             s1
-                            % measure 100
+                            
+                            %%% Piano LH Attack Voice [measure 100] %%%
                             s2
-                            % measure 101
+                            
+                            %%% Piano LH Attack Voice [measure 101] %%%
                             s2.
-                            % measure 102
+                            
+                            %%% Piano LH Attack Voice [measure 102] %%%
                             s2
-                            % measure 103
+                            
+                            %%% Piano LH Attack Voice [measure 103] %%%
                             s2.
-                            % measure 104
+                            
+                            %%% Piano LH Attack Voice [measure 104] %%%
                             s1
-                            % measure 105
+                            
+                            %%% Piano LH Attack Voice [measure 105] %%%
                             s2.
-                            % measure 106
+                            
+                            %%% Piano LH Attack Voice [measure 106] %%%
                             s2
-                            % measure 107
+                            
+                            %%% Piano LH Attack Voice [measure 107] %%%
                             s1
-                            % measure 108
+                            
+                            %%% Piano LH Attack Voice [measure 108] %%%
                             s2
-                            % measure 109
+                            
+                            %%% Piano LH Attack Voice [measure 109] %%%
                             s2.
-                            % measure 110
+                            
+                            %%% Piano LH Attack Voice [measure 110] %%%
                             s1
-                            % measure 111
+                            
+                            %%% Piano LH Attack Voice [measure 111] %%%
                             s2.
-                            % measure 112
+                            
+                            %%% Piano LH Attack Voice [measure 112] %%%
                             s1
-                            % measure 113
+                            
+                            %%% Piano LH Attack Voice [measure 113] %%%
                             s2.
-                            % measure 114
+                            
+                            %%% Piano LH Attack Voice [measure 114] %%%
                             s1
-                            % measure 115
+                            
+                            %%% Piano LH Attack Voice [measure 115] %%%
                             s2
-                            % measure 116
+                            
+                            %%% Piano LH Attack Voice [measure 116] %%%
                             s1
-                            % measure 117
+                            
+                            %%% Piano LH Attack Voice [measure 117] %%%
                             s1
-                            % measure 118
+                            
+                            %%% Piano LH Attack Voice [measure 118] %%%
                             s2.
-                            % measure 119
+                            
+                            %%% Piano LH Attack Voice [measure 119] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -3927,129 +4782,189 @@
                                                 \flat
                                             }
                                     }
+                            
                             s4..
-                            % measure 120
+                            
+                            %%% Piano LH Attack Voice [measure 120] %%%
                             s2.
-                            % measure 121
+                            
+                            %%% Piano LH Attack Voice [measure 121] %%%
                             s2.
-                            % measure 122
+                            
+                            %%% Piano LH Attack Voice [measure 122] %%%
                             s1
-                            % measure 123
+                            
+                            %%% Piano LH Attack Voice [measure 123] %%%
                             s1
-                            % measure 124
+                            
+                            %%% Piano LH Attack Voice [measure 124] %%%
                             s2.
-                            % measure 125
+                            
+                            %%% Piano LH Attack Voice [measure 125] %%%
                             s2
-                            % measure 126
+                            
+                            %%% Piano LH Attack Voice [measure 126] %%%
                             s2
-                            % measure 127
+                            
+                            %%% Piano LH Attack Voice [measure 127] %%%
                             s2.
-                            % measure 128
+                            
+                            %%% Piano LH Attack Voice [measure 128] %%%
                             s1
-                            % measure 129
+                            
+                            %%% Piano LH Attack Voice [measure 129] %%%
                             s2
-                            % measure 130
+                            
+                            %%% Piano LH Attack Voice [measure 130] %%%
                             s2.
-                            % measure 131
+                            
+                            %%% Piano LH Attack Voice [measure 131] %%%
                             s1
-                            % measure 132
+                            
+                            %%% Piano LH Attack Voice [measure 132] %%%
                             s2
-                            % measure 133
+                            
+                            %%% Piano LH Attack Voice [measure 133] %%%
                             s2.
-                            % measure 134
+                            
+                            %%% Piano LH Attack Voice [measure 134] %%%
                             s1
-                            % measure 135
+                            
+                            %%% Piano LH Attack Voice [measure 135] %%%
                             s2.
-                            % measure 136
+                            
+                            %%% Piano LH Attack Voice [measure 136] %%%
                             s1
-                            % measure 137
+                            
+                            %%% Piano LH Attack Voice [measure 137] %%%
                             s2.
-                            % measure 138
+                            
+                            %%% Piano LH Attack Voice [measure 138] %%%
                             s1
-                            % measure 139
+                            
+                            %%% Piano LH Attack Voice [measure 139] %%%
                             s2
-                            % measure 140
+                            
+                            %%% Piano LH Attack Voice [measure 140] %%%
                             s1
-                            % measure 141
+                            
+                            %%% Piano LH Attack Voice [measure 141] %%%
                             s1
-                            % measure 142
+                            
+                            %%% Piano LH Attack Voice [measure 142] %%%
                             s2.
-                            % measure 143
+                            
+                            %%% Piano LH Attack Voice [measure 143] %%%
                             s2.
-                            % measure 144
+                            
+                            %%% Piano LH Attack Voice [measure 144] %%%
                             s2
-                            % measure 145
+                            
+                            %%% Piano LH Attack Voice [measure 145] %%%
                             s2.
-                            % measure 146
+                            
+                            %%% Piano LH Attack Voice [measure 146] %%%
                             s1
-                            % measure 147
+                            
+                            %%% Piano LH Attack Voice [measure 147] %%%
                             s1
-                            % measure 148
+                            
+                            %%% Piano LH Attack Voice [measure 148] %%%
                             s2
-                            % measure 149
+                            
+                            %%% Piano LH Attack Voice [measure 149] %%%
                             s2.
-                            % measure 150
+                            
+                            %%% Piano LH Attack Voice [measure 150] %%%
                             s2
-                            % measure 151
+                            
+                            %%% Piano LH Attack Voice [measure 151] %%%
                             s2.
-                            % measure 152
+                            
+                            %%% Piano LH Attack Voice [measure 152] %%%
                             s1
-                            % measure 153
+                            
+                            %%% Piano LH Attack Voice [measure 153] %%%
                             s2.
-                            % measure 154
+                            
+                            %%% Piano LH Attack Voice [measure 154] %%%
                             s2
-                            % measure 155
+                            
+                            %%% Piano LH Attack Voice [measure 155] %%%
                             s1
-                            % measure 156
+                            
+                            %%% Piano LH Attack Voice [measure 156] %%%
                             s2
-                            % measure 157
+                            
+                            %%% Piano LH Attack Voice [measure 157] %%%
                             s2.
-                            % measure 158
+                            
+                            %%% Piano LH Attack Voice [measure 158] %%%
                             s1
-                            % measure 159
+                            
+                            %%% Piano LH Attack Voice [measure 159] %%%
                             s2.
-                            % measure 160
+                            
+                            %%% Piano LH Attack Voice [measure 160] %%%
                             s1
-                            % measure 161
+                            
+                            %%% Piano LH Attack Voice [measure 161] %%%
                             s2.
-                            % measure 162
+                            
+                            %%% Piano LH Attack Voice [measure 162] %%%
                             s1
-                            % measure 163
+                            
+                            %%% Piano LH Attack Voice [measure 163] %%%
                             s2
-                            % measure 164
+                            
+                            %%% Piano LH Attack Voice [measure 164] %%%
                             s1
-                            % measure 165
+                            
+                            %%% Piano LH Attack Voice [measure 165] %%%
                             s1
-                            % measure 166
+                            
+                            %%% Piano LH Attack Voice [measure 166] %%%
                             s2.
-                            % measure 167
+                            
+                            %%% Piano LH Attack Voice [measure 167] %%%
                             s2
-                            % measure 168
+                            
+                            %%% Piano LH Attack Voice [measure 168] %%%
                             s2.
-                            % measure 169
+                            
+                            %%% Piano LH Attack Voice [measure 169] %%%
                             s2.
-                            % measure 170
+                            
+                            %%% Piano LH Attack Voice [measure 170] %%%
                             s1
-                            % measure 171
+                            
+                            %%% Piano LH Attack Voice [measure 171] %%%
                             s1
-                            % measure 172
+                            
+                            %%% Piano LH Attack Voice [measure 172] %%%
                             s2.
-                            % measure 173
+                            
+                            %%% Piano LH Attack Voice [measure 173] %%%
                             s2
-                            % measure 174
+                            
+                            %%% Piano LH Attack Voice [measure 174] %%%
                             s2
-                            % measure 175
+                            
+                            %%% Piano LH Attack Voice [measure 175] %%%
                             s2.
-                            % measure 176
+                            
+                            %%% Piano LH Attack Voice [measure 176] %%%
                             s1
                             \bar "|."
+                            
                         }
                     >>
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        % measure 97
+                        
+                        %%% Percussion Music Voice [measure 97] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
@@ -4073,21 +4988,29 @@
                                     \upright
                                         "l.v. possibile"
                                 }
-                        % measure 98
+                        
+                        %%% Percussion Music Voice [measure 98] %%%
                         r1 \ff
-                        % measure 99
+                        
+                        %%% Percussion Music Voice [measure 99] %%%
                         r1
-                        % measure 100
+                        
+                        %%% Percussion Music Voice [measure 100] %%%
                         r2
-                        % measure 101
+                        
+                        %%% Percussion Music Voice [measure 101] %%%
                         r2.
-                        % measure 102
+                        
+                        %%% Percussion Music Voice [measure 102] %%%
                         r2
-                        % measure 103
+                        
+                        %%% Percussion Music Voice [measure 103] %%%
                         r2.
-                        % measure 104
+                        
+                        %%% Percussion Music Voice [measure 104] %%%
                         r1
-                        % measure 105
+                        
+                        %%% Percussion Music Voice [measure 105] %%%
                         \clef "bass"
                         r2.
                             ^ \markup {
@@ -4098,109 +5021,158 @@
                                             \box
                                                 "to marimba"
                                 }
-                        % measure 106
+                        
+                        %%% Percussion Music Voice [measure 106] %%%
                         r2
-                        % measure 107
+                        
+                        %%% Percussion Music Voice [measure 107] %%%
                         R1 * 10
-                        % measure 119
+                        
+                        %%% Percussion Music Voice [measure 119] %%%
                         ef,2 :32 \< \ppp
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "as attackless as possible"
                                 }
-                        % measure 120
+                        
+                        %%% Percussion Music Voice [measure 120] %%%
                         ef,2. :32 \repeatTie
-                        % measure 121
+                        
+                        %%% Percussion Music Voice [measure 121] %%%
                         ef,2. :32 \repeatTie \pp \>
-                        % measure 122
+                        
+                        %%% Percussion Music Voice [measure 122] %%%
                         ef,1 :32 \repeatTie
-                        % measure 123
+                        
+                        %%% Percussion Music Voice [measure 123] %%%
                         ef,1 :32 \repeatTie
-                        % measure 124
+                        
+                        %%% Percussion Music Voice [measure 124] %%%
                         ef,2. :32 \repeatTie \ppp \<
-                        % measure 125
+                        
+                        %%% Percussion Music Voice [measure 125] %%%
                         ef,2 :32 \repeatTie
-                        % measure 126
+                        
+                        %%% Percussion Music Voice [measure 126] %%%
                         ef,2 :32 \repeatTie \pp \>
-                        % measure 127
+                        
+                        %%% Percussion Music Voice [measure 127] %%%
                         ef,2. :32 \repeatTie
-                        % measure 128
+                        
+                        %%% Percussion Music Voice [measure 128] %%%
                         ef,1 :32 \repeatTie
-                        % measure 129
+                        
+                        %%% Percussion Music Voice [measure 129] %%%
                         ef,2 :32 \repeatTie \ppp \<
-                        % measure 130
+                        
+                        %%% Percussion Music Voice [measure 130] %%%
                         ef,2. :32 \repeatTie
-                        % measure 131
+                        
+                        %%% Percussion Music Voice [measure 131] %%%
                         ef,1 :32 \repeatTie \pp \>
-                        % measure 132
+                        
+                        %%% Percussion Music Voice [measure 132] %%%
                         ef,2 :32 \repeatTie
-                        % measure 133
+                        
+                        %%% Percussion Music Voice [measure 133] %%%
                         ef,2. :32 \repeatTie
-                        % measure 134
+                        
+                        %%% Percussion Music Voice [measure 134] %%%
                         ef,1 :32 \repeatTie \ppp \<
-                        % measure 135
+                        
+                        %%% Percussion Music Voice [measure 135] %%%
                         ef,2. :32 \repeatTie
-                        % measure 136
+                        
+                        %%% Percussion Music Voice [measure 136] %%%
                         ef,1 :32 \repeatTie \pp \>
-                        % measure 137
+                        
+                        %%% Percussion Music Voice [measure 137] %%%
                         ef,2. :32 \repeatTie
-                        % measure 138
+                        
+                        %%% Percussion Music Voice [measure 138] %%%
                         ef,1 :32 \repeatTie
-                        % measure 139
+                        
+                        %%% Percussion Music Voice [measure 139] %%%
                         ef,2 :32 \repeatTie \ppp \<
-                        % measure 140
+                        
+                        %%% Percussion Music Voice [measure 140] %%%
                         ef,1 :32 \repeatTie
-                        % measure 141
+                        
+                        %%% Percussion Music Voice [measure 141] %%%
                         ef,1 :32 \repeatTie \pp \>
-                        % measure 142
+                        
+                        %%% Percussion Music Voice [measure 142] %%%
                         ef,2. :32 \repeatTie
-                        % measure 143
+                        
+                        %%% Percussion Music Voice [measure 143] %%%
                         ef,2. :32 \repeatTie
-                        % measure 144
+                        
+                        %%% Percussion Music Voice [measure 144] %%%
                         ef,2 :32 \repeatTie \ppp
-                        % measure 145
+                        
+                        %%% Percussion Music Voice [measure 145] %%%
                         d,2. :32
-                        % measure 146
+                        
+                        %%% Percussion Music Voice [measure 146] %%%
                         d,1 :32 \repeatTie
-                        % measure 147
+                        
+                        %%% Percussion Music Voice [measure 147] %%%
                         d,1 :32 \repeatTie
-                        % measure 148
+                        
+                        %%% Percussion Music Voice [measure 148] %%%
                         d,2 :32 \repeatTie
-                        % measure 149
+                        
+                        %%% Percussion Music Voice [measure 149] %%%
                         \once \override Hairpin.circled-tip = ##t
                         d,2. :32 \repeatTie \> \pp
-                        % measure 150
+                        
+                        %%% Percussion Music Voice [measure 150] %%%
                         d,2 :32 \repeatTie
-                        % measure 151
+                        
+                        %%% Percussion Music Voice [measure 151] %%%
                         d,2. :32 \repeatTie
-                        % measure 152
+                        
+                        %%% Percussion Music Voice [measure 152] %%%
                         d,1 :32 \repeatTie
-                        % measure 153
+                        
+                        %%% Percussion Music Voice [measure 153] %%%
                         cs,2. :32
-                        % measure 154
+                        
+                        %%% Percussion Music Voice [measure 154] %%%
                         cs,2 :32 \repeatTie
-                        % measure 155
+                        
+                        %%% Percussion Music Voice [measure 155] %%%
                         cs,1 :32 \repeatTie
-                        % measure 156
+                        
+                        %%% Percussion Music Voice [measure 156] %%%
                         cs,2 :32 \repeatTie
-                        % measure 157
+                        
+                        %%% Percussion Music Voice [measure 157] %%%
                         r2. \!
-                        % measure 158
+                        
+                        %%% Percussion Music Voice [measure 158] %%%
                         r1
-                        % measure 159
+                        
+                        %%% Percussion Music Voice [measure 159] %%%
                         r2.
-                        % measure 160
+                        
+                        %%% Percussion Music Voice [measure 160] %%%
                         r1
-                        % measure 161
+                        
+                        %%% Percussion Music Voice [measure 161] %%%
                         r2.
-                        % measure 162
+                        
+                        %%% Percussion Music Voice [measure 162] %%%
                         r1
-                        % measure 163
+                        
+                        %%% Percussion Music Voice [measure 163] %%%
                         r2
-                        % measure 164
+                        
+                        %%% Percussion Music Voice [measure 164] %%%
                         r1
-                        % measure 165
+                        
+                        %%% Percussion Music Voice [measure 165] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
@@ -4230,15 +5202,20 @@
                                     \italic
                                         ”
                                 }
-                        % measure 166
+                        
+                        %%% Percussion Music Voice [measure 166] %%%
                         b2. \repeatTie
-                        % measure 167
+                        
+                        %%% Percussion Music Voice [measure 167] %%%
                         b2 \repeatTie
-                        % measure 168
+                        
+                        %%% Percussion Music Voice [measure 168] %%%
                         b2. \repeatTie
-                        % measure 169
+                        
+                        %%% Percussion Music Voice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
+                        
                     }
                 }
             >>
@@ -4246,7 +5223,8 @@
                 \tag violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
-                        % measure 97
+                        
+                        %%% Violin Music Voice [measure 97] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \set ViolinMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -4267,21 +5245,29 @@
                                     \upright
                                         "l.v. possibile"
                                 }
-                        % measure 98
+                        
+                        %%% Violin Music Voice [measure 98] %%%
                         r1 \ff
-                        % measure 99
+                        
+                        %%% Violin Music Voice [measure 99] %%%
                         r1
-                        % measure 100
+                        
+                        %%% Violin Music Voice [measure 100] %%%
                         r2
-                        % measure 101
+                        
+                        %%% Violin Music Voice [measure 101] %%%
                         r2.
-                        % measure 102
+                        
+                        %%% Violin Music Voice [measure 102] %%%
                         r2
-                        % measure 103
+                        
+                        %%% Violin Music Voice [measure 103] %%%
                         r2.
-                        % measure 104
+                        
+                        %%% Violin Music Voice [measure 104] %%%
                         r1
-                        % measure 105
+                        
+                        %%% Violin Music Voice [measure 105] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4315,6 +5301,7 @@
                                     \italic
                                         ”
                                 }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4323,6 +5310,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4331,8 +5319,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4341,6 +5332,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4349,8 +5341,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4359,6 +5354,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4367,6 +5363,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4375,8 +5372,10 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 106
+                        
+                        %%% Violin Music Voice [measure 106] %%%
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4385,6 +5384,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4393,6 +5393,7 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4401,6 +5402,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4409,8 +5411,10 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
-                        % measure 107
+                        
+                        %%% Violin Music Voice [measure 107] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -4420,6 +5424,7 @@
                         f'16 \> \ff [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4428,7 +5433,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4437,6 +5444,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4445,6 +5453,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4453,8 +5462,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4463,6 +5475,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4471,8 +5484,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4481,6 +5497,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4489,6 +5506,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4497,8 +5515,10 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 108
+                        
+                        %%% Violin Music Voice [measure 108] %%%
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4507,6 +5527,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4515,6 +5536,7 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4523,6 +5545,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4531,8 +5554,10 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
-                        % measure 109
+                        
+                        %%% Violin Music Voice [measure 109] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4541,6 +5566,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4549,7 +5575,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4558,6 +5586,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4566,6 +5595,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4574,8 +5604,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4584,6 +5617,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4592,9 +5626,12 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
-                        % measure 110
+                        
+                        %%% Violin Music Voice [measure 110] %%%
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4603,6 +5640,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4611,6 +5649,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4619,7 +5658,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4628,6 +5669,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4636,6 +5678,7 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4644,6 +5687,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4652,7 +5696,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4661,6 +5707,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4669,8 +5716,10 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
-                        % measure 111
+                        
+                        %%% Violin Music Voice [measure 111] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4679,6 +5728,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4687,6 +5737,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4695,8 +5746,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4705,6 +5759,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4713,8 +5768,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4723,6 +5781,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4731,6 +5790,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4739,8 +5799,10 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 112
+                        
+                        %%% Violin Music Voice [measure 112] %%%
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4749,6 +5811,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4757,6 +5820,7 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4765,6 +5829,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4773,7 +5838,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4782,6 +5849,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4790,7 +5858,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4799,6 +5869,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4807,6 +5878,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4815,9 +5887,12 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
-                        % measure 113
+                        
+                        %%% Violin Music Voice [measure 113] %%%
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4826,6 +5901,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4834,8 +5910,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4844,6 +5923,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4852,6 +5932,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4860,7 +5941,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4869,6 +5952,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4877,7 +5961,8 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 114
+                        
+                        %%% Violin Music Voice [measure 114] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4886,6 +5971,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4894,7 +5980,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4903,6 +5991,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4911,7 +6000,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4920,6 +6011,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4928,6 +6020,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4936,8 +6029,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4946,6 +6042,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4954,9 +6051,12 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
-                        % measure 115
+                        
+                        %%% Violin Music Voice [measure 115] %%%
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4965,6 +6065,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4973,6 +6074,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4981,7 +6083,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4990,6 +6094,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4998,7 +6103,8 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 116
+                        
+                        %%% Violin Music Voice [measure 116] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5007,6 +6113,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5015,7 +6122,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5024,6 +6133,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5032,7 +6142,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5041,6 +6153,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5049,6 +6162,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5057,8 +6171,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5067,6 +6184,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5075,9 +6193,12 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
-                        % measure 117
+                        
+                        %%% Violin Music Voice [measure 117] %%%
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5086,6 +6207,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5094,6 +6216,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5102,7 +6225,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5111,6 +6236,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5119,6 +6245,7 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5127,6 +6254,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5135,7 +6263,9 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5144,6 +6274,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5152,8 +6283,10 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r8
-                        % measure 118
+                        
+                        %%% Violin Music Voice [measure 118] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5162,6 +6295,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5170,6 +6304,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5178,8 +6313,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5188,6 +6326,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5196,8 +6335,11 @@
                         f'16 ]
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5206,6 +6348,7 @@
                         f'16 [
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5214,6 +6357,7 @@
                         f'16
                             - \tweak color #red
                             ^ \markup { @ }
+                        
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5222,7 +6366,8 @@
                         f'16 \! ]
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 119
+                        
+                        %%% Violin Music Voice [measure 119] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqf'2 \ppp
                             ^ \markup {
@@ -5230,67 +6375,97 @@
                                     \upright
                                         "pochiss. scratch"
                                 }
-                        % measure 120
+                        
+                        %%% Violin Music Voice [measure 120] %%%
                         eqf'2. \repeatTie
-                        % measure 121
+                        
+                        %%% Violin Music Voice [measure 121] %%%
                         eqf'2. \repeatTie
-                        % measure 122
+                        
+                        %%% Violin Music Voice [measure 122] %%%
                         eqf'1 \repeatTie
-                        % measure 123
+                        
+                        %%% Violin Music Voice [measure 123] %%%
                         eqf'1 \repeatTie
-                        % measure 124
+                        
+                        %%% Violin Music Voice [measure 124] %%%
                         eqf'2. \repeatTie
-                        % measure 125
+                        
+                        %%% Violin Music Voice [measure 125] %%%
                         eqf'2 \repeatTie
-                        % measure 126
+                        
+                        %%% Violin Music Voice [measure 126] %%%
                         eqf'2 \repeatTie
-                        % measure 127
+                        
+                        %%% Violin Music Voice [measure 127] %%%
                         eqf'2. \repeatTie
-                        % measure 128
+                        
+                        %%% Violin Music Voice [measure 128] %%%
                         eqf'1 \repeatTie
-                        % measure 129
+                        
+                        %%% Violin Music Voice [measure 129] %%%
                         eqf'2 \repeatTie
-                        % measure 130
+                        
+                        %%% Violin Music Voice [measure 130] %%%
                         eqf'2. \repeatTie
-                        % measure 131
+                        
+                        %%% Violin Music Voice [measure 131] %%%
                         eqf'1 \repeatTie
-                        % measure 132
+                        
+                        %%% Violin Music Voice [measure 132] %%%
                         eqf'2 \repeatTie
-                        % measure 133
+                        
+                        %%% Violin Music Voice [measure 133] %%%
                         eqf'2. \repeatTie \< \ppp
-                        % measure 134
+                        
+                        %%% Violin Music Voice [measure 134] %%%
                         eqf'1 \repeatTie
-                        % measure 135
+                        
+                        %%% Violin Music Voice [measure 135] %%%
                         eqf'2. \repeatTie
-                        % measure 136
+                        
+                        %%% Violin Music Voice [measure 136] %%%
                         eqf'1 \repeatTie
-                        % measure 137
+                        
+                        %%% Violin Music Voice [measure 137] %%%
                         eqf'2. \repeatTie
-                        % measure 138
+                        
+                        %%% Violin Music Voice [measure 138] %%%
                         eqf'1 \repeatTie
-                        % measure 139
+                        
+                        %%% Violin Music Voice [measure 139] %%%
                         eqf'2 \repeatTie
-                        % measure 140
+                        
+                        %%% Violin Music Voice [measure 140] %%%
                         eqf'1 \repeatTie
-                        % measure 141
+                        
+                        %%% Violin Music Voice [measure 141] %%%
                         eqf'1 \repeatTie \f \> \f
-                        % measure 142
+                        
+                        %%% Violin Music Voice [measure 142] %%%
                         eqf'2. \repeatTie
-                        % measure 143
+                        
+                        %%% Violin Music Voice [measure 143] %%%
                         eqf'2. \repeatTie
-                        % measure 144
+                        
+                        %%% Violin Music Voice [measure 144] %%%
                         eqf'2 \repeatTie
-                        % measure 145
+                        
+                        %%% Violin Music Voice [measure 145] %%%
                         eqf'2. \repeatTie
-                        % measure 146
+                        
+                        %%% Violin Music Voice [measure 146] %%%
                         eqf'1 \repeatTie
-                        % measure 147
+                        
+                        %%% Violin Music Voice [measure 147] %%%
                         eqf'1 \repeatTie
-                        % measure 148
+                        
+                        %%% Violin Music Voice [measure 148] %%%
                         eqf'2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
-                            % measure 149
+                            
+                            %%% Violin Music Voice [measure 149] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -5324,6 +6499,7 @@
                                                 }
                                         }
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5332,6 +6508,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5340,6 +6517,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5348,6 +6526,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5356,6 +6535,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5364,6 +6544,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5372,6 +6553,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5380,6 +6562,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5388,6 +6571,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5396,6 +6580,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5404,6 +6589,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5415,7 +6601,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
-                            % measure 151
+                            
+                            %%% Violin Music Voice [measure 151] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5424,6 +6611,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5432,6 +6620,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5440,6 +6629,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5448,6 +6638,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5456,6 +6647,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5464,6 +6656,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5472,6 +6665,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5480,6 +6674,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5488,6 +6683,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5496,6 +6692,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5504,6 +6701,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5512,6 +6710,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5520,6 +6719,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5528,6 +6728,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5536,6 +6737,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5544,6 +6746,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5552,6 +6755,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5560,6 +6764,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5568,6 +6773,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5579,7 +6785,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 153
+                            
+                            %%% Violin Music Voice [measure 153] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5588,6 +6795,7 @@
                             c'8 -\staccato \mf [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5596,6 +6804,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5604,6 +6813,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5612,6 +6822,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5620,6 +6831,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5628,6 +6840,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5636,6 +6849,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5646,7 +6860,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 154
+                            
+                            %%% Violin Music Voice [measure 154] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5655,6 +6870,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5663,6 +6879,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5671,6 +6888,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5679,7 +6897,8 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
-                            % measure 155
+                            
+                            %%% Violin Music Voice [measure 155] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5688,6 +6907,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5696,6 +6916,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5704,6 +6925,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5712,6 +6934,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5720,6 +6943,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5728,6 +6952,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5736,6 +6961,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5747,7 +6973,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
-                            % measure 156
+                            
+                            %%% Violin Music Voice [measure 156] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5756,6 +6983,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5764,6 +6992,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5772,6 +7001,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5780,6 +7010,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5788,6 +7019,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5796,6 +7028,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5804,6 +7037,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5812,6 +7046,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5820,6 +7055,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5828,6 +7064,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5836,6 +7073,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5844,6 +7082,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5852,6 +7091,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5862,7 +7102,8 @@
                                 ^ \markup { @ }
                         }
                         \times 4/5 {
-                            % measure 158
+                            
+                            %%% Violin Music Voice [measure 158] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5871,6 +7112,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5879,6 +7121,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5887,6 +7130,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5895,6 +7139,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5903,6 +7148,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5911,6 +7157,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5919,6 +7166,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5927,6 +7175,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5935,6 +7184,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5946,7 +7196,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
-                            % measure 159
+                            
+                            %%% Violin Music Voice [measure 159] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5955,6 +7206,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5963,6 +7215,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5971,6 +7224,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5979,6 +7233,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5987,6 +7242,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -5995,6 +7251,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6003,6 +7260,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6011,6 +7269,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6019,6 +7278,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6027,6 +7287,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6035,6 +7296,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6043,6 +7305,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6051,6 +7314,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6059,6 +7323,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6067,6 +7332,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6075,6 +7341,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6083,6 +7350,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6091,6 +7359,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6099,6 +7368,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6110,7 +7380,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            % measure 161
+                            
+                            %%% Violin Music Voice [measure 161] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6119,6 +7390,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6127,6 +7399,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6135,6 +7408,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6143,6 +7417,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6151,6 +7426,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6159,6 +7435,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6167,6 +7444,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6175,6 +7453,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6183,6 +7462,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6191,6 +7471,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6199,6 +7480,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6207,6 +7489,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6215,6 +7498,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6223,6 +7507,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6231,6 +7516,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6241,7 +7527,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 163
+                            
+                            %%% Violin Music Voice [measure 163] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6250,6 +7537,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6258,6 +7546,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6266,6 +7555,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6276,7 +7566,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 164
+                            
+                            %%% Violin Music Voice [measure 164] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6285,6 +7576,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6293,6 +7585,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6301,6 +7594,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6309,6 +7603,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6317,6 +7612,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6325,6 +7621,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6333,6 +7630,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6341,6 +7639,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6349,6 +7648,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6357,6 +7657,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6365,6 +7666,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6374,13 +7676,14 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 165
+                        
+                        %%% Violin Music Voice [measure 165] %%%
+                        \override RepeatTie.direction = #up
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \override RepeatTie.direction = #up
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'1
                             ^ \markup {
@@ -6417,7 +7720,8 @@
                                     \italic
                                         ”
                                 }
-                        % measure 166
+                        
+                        %%% Violin Music Voice [measure 166] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -6426,7 +7730,8 @@
                         c'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 167
+                        
+                        %%% Violin Music Voice [measure 167] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -6435,7 +7740,8 @@
                         c'2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 168
+                        
+                        %%% Violin Music Voice [measure 168] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -6447,7 +7753,8 @@
                         \revert RepeatTie.direction
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            % measure 169
+                            
+                            %%% Violin Music Voice [measure 169] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6469,6 +7776,7 @@
                                                 }
                                         }
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6477,6 +7785,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6485,6 +7794,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6493,6 +7803,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6501,6 +7812,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6509,6 +7821,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6517,6 +7830,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6525,6 +7839,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6533,6 +7848,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6541,6 +7857,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6549,6 +7866,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6557,6 +7875,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6565,6 +7884,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6573,6 +7893,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6581,6 +7902,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6592,7 +7914,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
-                            % measure 171
+                            
+                            %%% Violin Music Voice [measure 171] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6601,6 +7924,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6609,6 +7933,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6617,6 +7942,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6625,6 +7951,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6633,6 +7960,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6641,6 +7969,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6649,6 +7978,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6657,6 +7987,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6665,6 +7996,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6673,6 +8005,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6681,6 +8014,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6689,6 +8023,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6697,6 +8032,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6705,6 +8041,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6713,6 +8050,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6721,6 +8059,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6729,6 +8068,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6737,6 +8077,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6745,6 +8086,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6755,7 +8097,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 173
+                            
+                            %%% Violin Music Voice [measure 173] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6764,6 +8107,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6772,6 +8116,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6780,6 +8125,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6788,6 +8134,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6796,6 +8143,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6806,7 +8154,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 174
+                            
+                            %%% Violin Music Voice [measure 174] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6815,6 +8164,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6823,6 +8173,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6831,6 +8182,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6839,7 +8191,8 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
-                            % measure 175
+                            
+                            %%% Violin Music Voice [measure 175] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6848,6 +8201,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6856,6 +8210,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6864,6 +8219,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6872,6 +8228,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6880,6 +8237,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6890,7 +8248,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 176
+                            
+                            %%% Violin Music Voice [measure 176] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6899,6 +8258,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6907,6 +8267,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6915,6 +8276,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6923,6 +8285,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6931,6 +8294,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6939,6 +8303,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6947,6 +8312,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6955,6 +8321,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6963,6 +8330,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6971,6 +8339,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6979,6 +8348,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6988,13 +8358,15 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \bar "|."
+                            
                         }
                     }
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        % measure 97
+                        
+                        %%% Viola Music Voice [measure 97] %%%
                         \set ViolaMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -7009,23 +8381,32 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         ef2. :32
-                        % measure 98
+                        
+                        %%% Viola Music Voice [measure 98] %%%
                         ef1 :32 \repeatTie
-                        % measure 99
+                        
+                        %%% Viola Music Voice [measure 99] %%%
                         ef1 :32 \repeatTie
-                        % measure 100
+                        
+                        %%% Viola Music Voice [measure 100] %%%
                         ef2 :32 \repeatTie
-                        % measure 101
+                        
+                        %%% Viola Music Voice [measure 101] %%%
                         ef2. :32 \repeatTie
-                        % measure 102
+                        
+                        %%% Viola Music Voice [measure 102] %%%
                         ef2 :32 \repeatTie
-                        % measure 103
+                        
+                        %%% Viola Music Voice [measure 103] %%%
                         ef2. :32 \repeatTie
-                        % measure 104
+                        
+                        %%% Viola Music Voice [measure 104] %%%
                         ef1 :32 \repeatTie
                         \times 2/3 {
-                            % measure 105
+                            
+                            %%% Viola Music Voice [measure 105] %%%
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7061,6 +8442,7 @@
                                     }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7069,9 +8451,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7080,6 +8464,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7088,6 +8473,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7098,8 +8484,10 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 106
+                            
+                            %%% Viola Music Voice [measure 106] %%%
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7110,6 +8498,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7118,6 +8507,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7126,6 +8516,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7136,8 +8527,10 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 107
+                            
+                            %%% Viola Music Voice [measure 107] %%%
                             r4
+                            
                             \once \override Hairpin.circled-tip = ##t
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -7149,6 +8542,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7157,9 +8551,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7168,6 +8564,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7176,6 +8573,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7186,7 +8584,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7197,7 +8597,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 108
+                            
+                            %%% Viola Music Voice [measure 108] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7206,9 +8607,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7217,6 +8620,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7225,6 +8629,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7235,8 +8640,10 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 109
+                            
+                            %%% Viola Music Voice [measure 109] %%%
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7247,6 +8654,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7255,6 +8663,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7263,6 +8672,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7273,7 +8683,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7284,7 +8696,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 110
+                            
+                            %%% Viola Music Voice [measure 110] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7293,9 +8706,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7304,6 +8719,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7312,6 +8728,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7322,7 +8739,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7333,6 +8752,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7341,10 +8761,12 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
-                            % measure 111
+                            
+                            %%% Viola Music Voice [measure 111] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7353,6 +8775,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7361,6 +8784,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7371,7 +8795,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7382,6 +8808,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7390,6 +8817,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7398,6 +8826,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7408,8 +8837,10 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 112
+                            
+                            %%% Viola Music Voice [measure 112] %%%
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7420,6 +8851,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7428,9 +8860,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7439,6 +8873,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7447,6 +8882,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7457,7 +8893,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7468,7 +8906,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 113
+                            
+                            %%% Viola Music Voice [measure 113] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7477,9 +8916,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7488,6 +8929,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7496,6 +8938,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7506,7 +8949,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7517,7 +8962,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 114
+                            
+                            %%% Viola Music Voice [measure 114] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7526,6 +8972,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7534,6 +8981,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7544,7 +8992,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7555,6 +9005,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7563,9 +9014,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7574,6 +9027,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7582,6 +9036,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7592,8 +9047,10 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 115
+                            
+                            %%% Viola Music Voice [measure 115] %%%
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7604,6 +9061,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7612,10 +9070,12 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
-                            % measure 116
+                            
+                            %%% Viola Music Voice [measure 116] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7624,6 +9084,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7632,6 +9093,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7642,7 +9104,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7653,6 +9117,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7661,6 +9126,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7669,6 +9135,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7679,7 +9146,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7690,7 +9159,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 117
+                            
+                            %%% Viola Music Voice [measure 117] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7699,9 +9169,11 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7710,6 +9182,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7718,6 +9191,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7728,7 +9202,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7739,6 +9215,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7747,10 +9224,12 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             r4
                         }
                         \times 2/3 {
-                            % measure 118
+                            
+                            %%% Viola Music Voice [measure 118] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7759,6 +9238,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7767,6 +9247,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7777,7 +9258,9 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7788,6 +9271,7 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7796,6 +9280,7 @@
                             f'8 [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7804,6 +9289,7 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7813,7 +9299,8 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                         }
-                        % measure 119
+                        
+                        %%% Viola Music Voice [measure 119] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g2 \pp
                             ^ \markup {
@@ -7821,67 +9308,97 @@
                                     \upright
                                         "tasto + pochiss. scratch"
                                 }
-                        % measure 120
+                        
+                        %%% Viola Music Voice [measure 120] %%%
                         g2. \repeatTie
-                        % measure 121
+                        
+                        %%% Viola Music Voice [measure 121] %%%
                         g2. \repeatTie
-                        % measure 122
+                        
+                        %%% Viola Music Voice [measure 122] %%%
                         g1 \repeatTie
-                        % measure 123
+                        
+                        %%% Viola Music Voice [measure 123] %%%
                         g1 \repeatTie
-                        % measure 124
+                        
+                        %%% Viola Music Voice [measure 124] %%%
                         g2. \repeatTie
-                        % measure 125
+                        
+                        %%% Viola Music Voice [measure 125] %%%
                         g2 \repeatTie
-                        % measure 126
+                        
+                        %%% Viola Music Voice [measure 126] %%%
                         g2 \repeatTie
-                        % measure 127
+                        
+                        %%% Viola Music Voice [measure 127] %%%
                         g2. \repeatTie
-                        % measure 128
+                        
+                        %%% Viola Music Voice [measure 128] %%%
                         g1 \repeatTie
-                        % measure 129
+                        
+                        %%% Viola Music Voice [measure 129] %%%
                         g2 \repeatTie
-                        % measure 130
+                        
+                        %%% Viola Music Voice [measure 130] %%%
                         g2. \repeatTie
-                        % measure 131
+                        
+                        %%% Viola Music Voice [measure 131] %%%
                         g1 \repeatTie
-                        % measure 132
+                        
+                        %%% Viola Music Voice [measure 132] %%%
                         g2 \repeatTie
-                        % measure 133
+                        
+                        %%% Viola Music Voice [measure 133] %%%
                         g2. \repeatTie \< \pp
-                        % measure 134
+                        
+                        %%% Viola Music Voice [measure 134] %%%
                         g1 \repeatTie
-                        % measure 135
+                        
+                        %%% Viola Music Voice [measure 135] %%%
                         g2. \repeatTie
-                        % measure 136
+                        
+                        %%% Viola Music Voice [measure 136] %%%
                         g1 \repeatTie
-                        % measure 137
+                        
+                        %%% Viola Music Voice [measure 137] %%%
                         g2. \repeatTie
-                        % measure 138
+                        
+                        %%% Viola Music Voice [measure 138] %%%
                         g1 \repeatTie
-                        % measure 139
+                        
+                        %%% Viola Music Voice [measure 139] %%%
                         g2 \repeatTie
-                        % measure 140
+                        
+                        %%% Viola Music Voice [measure 140] %%%
                         g1 \repeatTie
-                        % measure 141
+                        
+                        %%% Viola Music Voice [measure 141] %%%
                         g1 \repeatTie \f \> \f
-                        % measure 142
+                        
+                        %%% Viola Music Voice [measure 142] %%%
                         g2. \repeatTie
-                        % measure 143
+                        
+                        %%% Viola Music Voice [measure 143] %%%
                         g2. \repeatTie
-                        % measure 144
+                        
+                        %%% Viola Music Voice [measure 144] %%%
                         g2 \repeatTie
-                        % measure 145
+                        
+                        %%% Viola Music Voice [measure 145] %%%
                         g2. \repeatTie
-                        % measure 146
+                        
+                        %%% Viola Music Voice [measure 146] %%%
                         g1 \repeatTie
-                        % measure 147
+                        
+                        %%% Viola Music Voice [measure 147] %%%
                         g1 \repeatTie
-                        % measure 148
+                        
+                        %%% Viola Music Voice [measure 148] %%%
                         g2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 149
+                            
+                            %%% Viola Music Voice [measure 149] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -7915,6 +9432,7 @@
                                                 }
                                         }
                                     }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7923,6 +9441,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7931,6 +9450,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7939,6 +9459,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7947,6 +9468,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7955,6 +9477,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7963,6 +9486,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7974,7 +9498,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
-                            % measure 150
+                            
+                            %%% Viola Music Voice [measure 150] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7983,6 +9508,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7991,6 +9517,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7999,6 +9526,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8007,6 +9535,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8015,6 +9544,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8023,6 +9553,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8031,6 +9562,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8039,6 +9571,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8047,6 +9580,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8055,6 +9589,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8063,6 +9598,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8071,6 +9607,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8079,6 +9616,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8087,6 +9625,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8095,6 +9634,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8106,7 +9646,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            % measure 152
+                            
+                            %%% Viola Music Voice [measure 152] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8115,6 +9656,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8123,6 +9665,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8131,6 +9674,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8139,6 +9683,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8147,6 +9692,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8155,6 +9701,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8163,6 +9710,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8171,6 +9719,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8179,6 +9728,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8187,6 +9737,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8195,6 +9746,7 @@
                             c'8 -\staccato \mf
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8203,6 +9755,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8211,6 +9764,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8219,6 +9773,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8227,6 +9782,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8237,7 +9793,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 154
+                            
+                            %%% Viola Music Voice [measure 154] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8246,6 +9803,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8254,6 +9812,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8262,6 +9821,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8273,7 +9833,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 155
+                            
+                            %%% Viola Music Voice [measure 155] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8282,6 +9843,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8290,6 +9852,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8298,6 +9861,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8306,6 +9870,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8314,6 +9879,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8322,6 +9888,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8330,6 +9897,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8338,6 +9906,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8346,6 +9915,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8354,6 +9924,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8362,6 +9933,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8370,6 +9942,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8378,6 +9951,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8386,6 +9960,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8394,6 +9969,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8405,7 +9981,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            % measure 157
+                            
+                            %%% Viola Music Voice [measure 157] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8414,6 +9991,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8422,6 +10000,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8430,6 +10009,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8438,6 +10018,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8446,6 +10027,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8454,6 +10036,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8462,6 +10045,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8470,6 +10054,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8478,6 +10063,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8486,6 +10072,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8494,6 +10081,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8502,6 +10090,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8510,6 +10099,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8518,6 +10108,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8526,6 +10117,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8536,7 +10128,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 159
+                            
+                            %%% Viola Music Voice [measure 159] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8545,6 +10138,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8553,6 +10147,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8561,6 +10156,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8569,6 +10165,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8577,6 +10174,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8588,7 +10186,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            % measure 160
+                            
+                            %%% Viola Music Voice [measure 160] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8597,6 +10196,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8605,6 +10205,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8613,6 +10214,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8621,6 +10223,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8629,6 +10232,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8637,6 +10241,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8645,6 +10250,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8653,6 +10259,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8661,6 +10268,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8669,6 +10277,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8677,6 +10286,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8685,6 +10295,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8693,6 +10304,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8701,6 +10313,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8709,6 +10322,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8719,7 +10333,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 162
+                            
+                            %%% Viola Music Voice [measure 162] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8728,6 +10343,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8736,6 +10352,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8744,6 +10361,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8752,6 +10370,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8760,6 +10379,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8768,6 +10388,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8776,6 +10397,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8784,7 +10406,8 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
-                            % measure 163
+                            
+                            %%% Viola Music Voice [measure 163] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8793,6 +10416,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8801,6 +10425,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8809,6 +10434,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8819,7 +10445,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 164
+                            
+                            %%% Viola Music Voice [measure 164] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8828,6 +10455,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8836,6 +10464,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8844,6 +10473,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8852,6 +10482,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8860,6 +10491,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8868,6 +10500,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8876,6 +10509,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8884,6 +10518,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8892,6 +10527,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8900,6 +10536,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8908,6 +10545,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8919,7 +10557,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            % measure 165
+                            
+                            %%% Viola Music Voice [measure 165] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8928,6 +10567,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8936,6 +10576,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8944,6 +10585,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8952,6 +10594,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8960,6 +10603,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8968,6 +10612,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8976,6 +10621,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8984,6 +10630,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8992,6 +10639,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9000,6 +10648,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9008,6 +10657,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9016,6 +10666,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9024,6 +10675,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9032,6 +10684,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9040,6 +10693,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9051,7 +10705,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
-                            % measure 167
+                            
+                            %%% Viola Music Voice [measure 167] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9060,6 +10715,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9068,6 +10724,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9076,6 +10733,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9084,6 +10742,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9092,6 +10751,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9100,6 +10760,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9108,6 +10769,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9116,6 +10778,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9124,6 +10787,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9132,6 +10796,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9140,6 +10805,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9148,6 +10814,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9156,6 +10823,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9164,6 +10832,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9172,6 +10841,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9183,7 +10853,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 169
+                            
+                            %%% Viola Music Voice [measure 169] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9192,6 +10863,7 @@
                             d'8 -\staccato \> \mf [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9200,6 +10872,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9208,6 +10881,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9216,6 +10890,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9224,6 +10899,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9232,6 +10908,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9240,6 +10917,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9250,7 +10928,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 170
+                            
+                            %%% Viola Music Voice [measure 170] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9259,6 +10938,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9267,6 +10947,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9275,6 +10956,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9283,6 +10965,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9291,6 +10974,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9299,6 +10983,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9307,6 +10992,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9315,7 +11001,8 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
-                            % measure 171
+                            
+                            %%% Viola Music Voice [measure 171] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9324,6 +11011,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9332,6 +11020,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9340,6 +11029,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9348,6 +11038,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9356,6 +11047,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9364,6 +11056,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9372,6 +11065,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9383,7 +11077,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
-                            % measure 172
+                            
+                            %%% Viola Music Voice [measure 172] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9392,6 +11087,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9400,6 +11096,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9408,6 +11105,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9416,6 +11114,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9424,6 +11123,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9432,6 +11132,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9440,6 +11141,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9448,6 +11150,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9456,6 +11159,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9464,6 +11168,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9472,6 +11177,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9480,6 +11186,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9488,6 +11195,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9498,7 +11206,8 @@
                                 ^ \markup { @ }
                         }
                         \times 2/3 {
-                            % measure 174
+                            
+                            %%% Viola Music Voice [measure 174] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9507,6 +11216,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9515,6 +11225,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9523,6 +11234,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9531,6 +11243,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9539,6 +11252,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9550,7 +11264,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
-                            % measure 175
+                            
+                            %%% Viola Music Voice [measure 175] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9559,6 +11274,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9567,6 +11283,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9575,6 +11292,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9583,6 +11301,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9591,6 +11310,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9599,6 +11319,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9607,6 +11328,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9615,6 +11337,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9623,6 +11346,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9631,6 +11355,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9639,6 +11364,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9647,6 +11373,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9655,6 +11382,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9663,6 +11391,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9671,6 +11400,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9679,6 +11409,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9687,6 +11418,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9695,6 +11427,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9703,6 +11436,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9712,13 +11446,15 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             \bar "|."
+                            
                         }
                     }
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        % measure 97
+                        
+                        %%% Cello Music Voice [measure 97] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9740,7 +11476,8 @@
                         ef,2.
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 98
+                        
+                        %%% Cello Music Voice [measure 98] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9749,7 +11486,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 99
+                        
+                        %%% Cello Music Voice [measure 99] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9758,7 +11496,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 100
+                        
+                        %%% Cello Music Voice [measure 100] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9767,7 +11506,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 101
+                        
+                        %%% Cello Music Voice [measure 101] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9776,7 +11516,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 102
+                        
+                        %%% Cello Music Voice [measure 102] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9785,7 +11526,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 103
+                        
+                        %%% Cello Music Voice [measure 103] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9794,7 +11536,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 104
+                        
+                        %%% Cello Music Voice [measure 104] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9803,7 +11546,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 105
+                        
+                        %%% Cello Music Voice [measure 105] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9832,7 +11576,8 @@
                         ef,2. \repeatTie \< \p \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 106
+                        
+                        %%% Cello Music Voice [measure 106] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9841,7 +11586,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 107
+                        
+                        %%% Cello Music Voice [measure 107] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9850,7 +11596,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 108
+                        
+                        %%% Cello Music Voice [measure 108] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9859,7 +11606,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 109
+                        
+                        %%% Cello Music Voice [measure 109] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9873,7 +11621,8 @@
                                 \upright
                                     "molto pont. + vib. molto"
                             }
-                        % measure 110
+                        
+                        %%% Cello Music Voice [measure 110] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9882,7 +11631,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 111
+                        
+                        %%% Cello Music Voice [measure 111] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9891,7 +11641,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 112
+                        
+                        %%% Cello Music Voice [measure 112] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9900,7 +11651,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 113
+                        
+                        %%% Cello Music Voice [measure 113] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9909,7 +11661,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 114
+                        
+                        %%% Cello Music Voice [measure 114] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9918,7 +11671,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 115
+                        
+                        %%% Cello Music Voice [measure 115] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9927,7 +11681,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 116
+                        
+                        %%% Cello Music Voice [measure 116] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9936,7 +11691,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 117
+                        
+                        %%% Cello Music Voice [measure 117] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9945,7 +11701,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 118
+                        
+                        %%% Cello Music Voice [measure 118] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9954,7 +11711,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 119
+                        
+                        %%% Cello Music Voice [measure 119] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9983,7 +11741,8 @@
                         ef,2 \repeatTie \> \ff \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 120
+                        
+                        %%% Cello Music Voice [measure 120] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -9992,7 +11751,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 121
+                        
+                        %%% Cello Music Voice [measure 121] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10001,7 +11761,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 122
+                        
+                        %%% Cello Music Voice [measure 122] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10010,7 +11771,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 123
+                        
+                        %%% Cello Music Voice [measure 123] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10039,7 +11801,8 @@
                         ef,1 \repeatTie \p \stopTextSpan \startTextSpan \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 124
+                        
+                        %%% Cello Music Voice [measure 124] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10048,7 +11811,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 125
+                        
+                        %%% Cello Music Voice [measure 125] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10057,7 +11821,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 126
+                        
+                        %%% Cello Music Voice [measure 126] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10066,7 +11831,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 127
+                        
+                        %%% Cello Music Voice [measure 127] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10080,7 +11846,8 @@
                                 \upright
                                     "(tasto+) non vib."
                             }
-                        % measure 128
+                        
+                        %%% Cello Music Voice [measure 128] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10089,7 +11856,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 129
+                        
+                        %%% Cello Music Voice [measure 129] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10098,7 +11866,8 @@
                         ef,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 130
+                        
+                        %%% Cello Music Voice [measure 130] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10107,7 +11876,8 @@
                         ef,2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 131
+                        
+                        %%% Cello Music Voice [measure 131] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10116,7 +11886,8 @@
                         ef,1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
-                        % measure 132
+                        
+                        %%% Cello Music Voice [measure 132] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -10127,7 +11898,8 @@
                             ^ \markup { @ }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 27/28 {
-                            % measure 133
+                            
+                            %%% Cello Music Voice [measure 133] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10175,12 +11947,14 @@
                                     }
                         }
                         {
-                            % measure 141
+                            
+                            %%% Cello Music Voice [measure 141] %%%
                             ff,\breve. \glissando
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 25/28 {
-                            % measure 145
+                            
+                            %%% Cello Music Voice [measure 145] %%%
                             \once \override Hairpin.circled-tip = ##t
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -10206,13 +11980,16 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/16 {
-                            % measure 153
+                            
+                            %%% Cello Music Voice [measure 153] %%%
                             cs,\breve.... \glissando
+                            
                             bs,,8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
-                            % measure 157
+                            
+                            %%% Cello Music Voice [measure 157] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -10251,6 +12028,7 @@
                                     \upright
                                         "tasto poss."
                                 }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10259,6 +12037,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10267,6 +12046,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10275,6 +12055,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10283,6 +12064,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10291,6 +12073,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10299,6 +12082,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10307,6 +12091,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10315,6 +12100,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10323,6 +12109,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10331,6 +12118,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10339,6 +12127,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10347,6 +12136,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10355,6 +12145,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10363,6 +12154,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10371,6 +12163,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10379,6 +12172,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10387,6 +12181,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10395,6 +12190,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10403,6 +12199,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10411,6 +12208,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10422,7 +12220,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/14 {
-                            % measure 160
+                            
+                            %%% Cello Music Voice [measure 160] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10431,6 +12230,7 @@
                             b8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10439,6 +12239,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10447,6 +12248,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10455,6 +12257,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10463,6 +12266,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10471,6 +12275,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10479,6 +12284,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10487,6 +12293,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10495,6 +12302,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10503,6 +12311,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10511,6 +12320,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10519,6 +12329,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10527,6 +12338,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10535,6 +12347,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10543,6 +12356,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10551,6 +12365,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10559,6 +12374,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10567,6 +12383,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10575,6 +12392,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10583,6 +12401,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10591,6 +12410,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10599,6 +12419,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10607,6 +12428,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10615,6 +12437,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10623,6 +12446,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10631,6 +12455,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10639,6 +12464,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10650,7 +12476,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
-                            % measure 163
+                            
+                            %%% Cello Music Voice [measure 163] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10659,6 +12486,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10667,6 +12495,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10675,6 +12504,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10683,6 +12513,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10691,6 +12522,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10699,6 +12531,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10707,6 +12540,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10715,6 +12549,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10723,6 +12558,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10731,6 +12567,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10739,6 +12576,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10747,6 +12585,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10755,6 +12594,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10763,6 +12603,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10771,6 +12612,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10779,6 +12621,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10787,6 +12630,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10795,6 +12639,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10803,6 +12648,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10811,6 +12657,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10819,6 +12666,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10829,7 +12677,8 @@
                                 ^ \markup { @ }
                         }
                         {
-                            % measure 166
+                            
+                            %%% Cello Music Voice [measure 166] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10838,6 +12687,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10846,6 +12696,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10854,6 +12705,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10862,6 +12714,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10870,6 +12723,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10878,7 +12732,8 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
-                            % measure 167
+                            
+                            %%% Cello Music Voice [measure 167] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10887,6 +12742,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10895,6 +12751,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10903,6 +12760,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10911,7 +12769,8 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
-                            % measure 168
+                            
+                            %%% Cello Music Voice [measure 168] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10920,6 +12779,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10928,6 +12788,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10936,6 +12797,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10944,6 +12806,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10952,6 +12815,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10963,7 +12827,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/13 {
-                            % measure 169
+                            
+                            %%% Cello Music Voice [measure 169] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10972,6 +12837,7 @@
                             d'8 -\staccato \> \mf [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10980,6 +12846,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10988,6 +12855,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10996,6 +12864,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11004,6 +12873,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11012,6 +12882,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11020,6 +12891,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11028,6 +12900,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11036,6 +12909,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11044,6 +12918,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11052,6 +12927,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11060,6 +12936,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11068,6 +12945,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11076,6 +12954,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11084,6 +12963,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11092,6 +12972,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11100,6 +12981,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11108,6 +12990,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11116,6 +12999,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11124,6 +13008,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11132,6 +13017,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11140,6 +13026,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11148,6 +13035,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11156,6 +13044,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11164,6 +13053,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11175,7 +13065,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
-                            % measure 172
+                            
+                            %%% Cello Music Voice [measure 172] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11184,6 +13075,7 @@
                             d'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11192,6 +13084,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11200,6 +13093,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11208,6 +13102,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11216,6 +13111,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11224,6 +13120,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11232,6 +13129,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11240,6 +13138,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11248,6 +13147,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11256,6 +13156,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11264,6 +13165,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11272,6 +13174,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11280,6 +13183,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11288,6 +13192,7 @@
                             d'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11296,6 +13201,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11307,7 +13213,8 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
-                            % measure 175
+                            
+                            %%% Cello Music Voice [measure 175] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11316,6 +13223,7 @@
                             c'8 -\staccato [
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11324,6 +13232,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11332,6 +13241,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11340,6 +13250,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11348,6 +13259,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11356,6 +13268,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11364,6 +13277,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11372,6 +13286,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11380,6 +13295,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11388,6 +13304,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11396,6 +13313,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11404,6 +13322,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11412,6 +13331,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11420,6 +13340,7 @@
                             b8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11428,6 +13349,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11436,6 +13358,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11444,6 +13367,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11452,6 +13376,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11460,6 +13385,7 @@
                             c'8 -\staccato
                                 - \tweak color #red
                                 ^ \markup { @ }
+                            
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11494,6 +13420,7 @@
                                                     }
                                     }
                             \bar "|."
+                            
                         }
                     }
                 }
