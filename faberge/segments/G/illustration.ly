@@ -11,7 +11,7 @@
         currentBarNumber = #484
     } <<
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
-        \context GlobalContext = "Global Context" <<
+        \context GlobalContext = "GlobalContext" <<
             \context GlobalSkips = "GlobalSkips" {
                 
                 %%% GlobalSkips [measure 484] %%%
