@@ -706,7 +706,8 @@
                         \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 7/4
+                        \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        R1 * 7/4 \fff
                         \times 4/5 {
                             
                             %%% EnglishHornMusicVoice [measure 303] %%%
@@ -1967,7 +1968,8 @@
                             %%% PianoLHMusicVoice [measure 301] %%%
                             \clef "bass"
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            R1 * 15/2
+                            \once \override PianoLHMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            R1 * 15/2 \sfz
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/5 {
                                 
@@ -2365,7 +2367,8 @@
                         \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                             
                             %%% PianoLHAttackVoice [measure 301] %%%
-                            R1 * 3/4
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            R1 * 3/4 \sfz
                             
                             %%% PianoLHAttackVoice [measure 302] %%%
                             R1 * 1
@@ -2453,7 +2456,8 @@
                         \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 7/4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        R1 * 7/4 \ppp
                         
                         %%% PercussionMusicVoice [measure 303] %%%
                         \once \override Beam.color = #blue
@@ -2641,7 +2645,8 @@
                         \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 7/4
+                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        R1 * 7/4 \ppp
                         
                         %%% ViolinMusicVoice [measure 303] %%%
                         \once \override Beam.color = #blue
@@ -3477,7 +3482,8 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        r16
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        r16 \pp
                         
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -3686,7 +3692,8 @@
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 7/4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        R1 * 7/4 \mf
                         
                         %%% CelloMusicVoice [measure 303] %%%
                         \once \override Beam.color = #blue
