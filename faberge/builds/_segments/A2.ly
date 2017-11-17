@@ -799,11 +799,11 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" <<
-        \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+    \context MusicContext = "MusicContext" <<
+        \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
             \tag flute
-            \context FluteMusicStaff = "Flute Music Staff" {
-                \context FluteMusicVoice = "Flute Music Voice" {
+            \context FluteMusicStaff = "FluteMusicStaff" {
+                \context FluteMusicVoice = "FluteMusicVoice" {
                     \once \override Hairpin.circled-tip = ##t
                     g'2 \<
                     {
@@ -1720,8 +1720,8 @@
                 }
             }
             \tag english_horn
-            \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                \context EnglishHornMusicVoice = "English Horn Music Voice" {
+            \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
+                \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                     r4
                     \times 4/5 {
                         r16
@@ -2283,8 +2283,8 @@
                 }
             }
             \tag clarinet
-            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \context ClarinetMusicVoice = "Clarinet Music Voice" {
+            \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     \once \override Hairpin.circled-tip = ##t
                     f,4 \<
                     f,\breve \repeatTie \p
@@ -2401,11 +2401,11 @@
                 }
             }
         >>
-        \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+        \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
             \tag piano
-            \context PianoStaffGroup = "Piano Staff Group" <<
-                \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                    \context PianoRHMusicVoice = "Piano RH Music Voice" {
+            \context PianoStaffGroup = "PianoStaffGroup" <<
+                \context PianoRHMusicStaff = "PianoRHMusicStaff" {
+                    \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                         \override NoteHead.style = #'harmonic
                         <ef' f' g' df'' ef''>2.
                         <ef' f' g' df'' ef''>1 \repeatTie
@@ -2456,8 +2456,8 @@
                         \bar "|."
                     }
                 }
-                \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                    \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
+                    \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                         R1 * 3/4
                         R1 * 1
                         R1 * 1
@@ -2540,7 +2540,7 @@
                         R1 * 1
                         \bar "|."
                     }
-                    \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                    \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                         \once \override Accidental.stencil = ##f
                         \once \override AccidentalCautionary.stencil = ##f
                         \once \override Arpeggio.X-offset = #-2
@@ -2659,8 +2659,8 @@
                 >>
             >>
             \tag percussion
-            \context PercussionMusicStaff = "Percussion Music Staff" {
-                \context PercussionMusicVoice = "Percussion Music Voice" {
+            \context PercussionMusicStaff = "PercussionMusicStaff" {
+                \context PercussionMusicVoice = "PercussionMusicVoice" {
                     \once \override Hairpin.circled-tip = ##t
                     g'2. -\laissezVibrer \<
                         ^ \markup {
@@ -2776,10 +2776,10 @@
                 }
             }
         >>
-        \context StringSectionStaffGroup = "String Section Staff Group" <<
+        \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
             \tag violin
-            \context ViolinMusicStaff = "Violin Music Staff" {
-                \context ViolinMusicVoice = "Violin Music Voice" {
+            \context ViolinMusicStaff = "ViolinMusicStaff" {
+                \context ViolinMusicVoice = "ViolinMusicVoice" {
                     \once \override Hairpin.circled-tip = ##t
                     g'''2. \<
                         ^ \markup {
@@ -3294,8 +3294,8 @@
                 }
             }
             \tag viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     ef2. :32
                     ef1 :32 \repeatTie
                     ef1 :32 \repeatTie
@@ -3840,8 +3840,8 @@
                 }
             }
             \tag cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     ef,2.
                     ef,1 \repeatTie
                     ef,1 \repeatTie

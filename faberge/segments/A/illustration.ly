@@ -584,14 +584,14 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" <<
-            \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+        \context MusicContext = "MusicContext" <<
+            \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
                 \tag flute
-                \context FluteMusicStaff = "Flute Music Staff" {
-                    \context FluteMusicVoice = "Flute Music Voice" {
+                \context FluteMusicStaff = "FluteMusicStaff" {
+                    \context FluteMusicVoice = "FluteMusicVoice" {
                         {
                             
-                            %%% Flute Music Voice [measure 5] %%%
+                            %%% FluteMusicVoice [measure 5] %%%
                             \once \override Hairpin.circled-tip = ##t
                             \set FluteMusicStaff.instrumentName = \markup {
                                 \hcenter-in
@@ -623,13 +623,13 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 6] %%%
+                            %%% FluteMusicVoice [measure 6] %%%
                             r1 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 7] %%%
+                            %%% FluteMusicVoice [measure 7] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -639,12 +639,12 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 8] %%%
+                            %%% FluteMusicVoice [measure 8] %%%
                             r2
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 9] %%%
+                            %%% FluteMusicVoice [measure 9] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -655,7 +655,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Flute Music Voice [measure 10] %%%
+                            %%% FluteMusicVoice [measure 10] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -665,12 +665,12 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 11] %%%
+                            %%% FluteMusicVoice [measure 11] %%%
                             r2.
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 12] %%%
+                            %%% FluteMusicVoice [measure 12] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -685,7 +685,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 13] %%%
+                            %%% FluteMusicVoice [measure 13] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -696,7 +696,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Flute Music Voice [measure 14] %%%
+                            %%% FluteMusicVoice [measure 14] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -704,12 +704,12 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 15] %%%
+                            %%% FluteMusicVoice [measure 15] %%%
                             r1
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 16] %%%
+                            %%% FluteMusicVoice [measure 16] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -719,13 +719,13 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 17] %%%
+                            %%% FluteMusicVoice [measure 17] %%%
                             r2.
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 18] %%%
+                            %%% FluteMusicVoice [measure 18] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -735,7 +735,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 19] %%%
+                            %%% FluteMusicVoice [measure 19] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -745,7 +745,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 20] %%%
+                            %%% FluteMusicVoice [measure 20] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -761,12 +761,12 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 21] %%%
+                            %%% FluteMusicVoice [measure 21] %%%
                             r2. \pp
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 22] %%%
+                            %%% FluteMusicVoice [measure 22] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -778,7 +778,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 23] %%%
+                            %%% FluteMusicVoice [measure 23] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -789,7 +789,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 24] %%%
+                            %%% FluteMusicVoice [measure 24] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -799,12 +799,12 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 25] %%%
+                            %%% FluteMusicVoice [measure 25] %%%
                             r1
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 26] %%%
+                            %%% FluteMusicVoice [measure 26] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -814,13 +814,13 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 27] %%%
+                            %%% FluteMusicVoice [measure 27] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Flute Music Voice [measure 28] %%%
+                            %%% FluteMusicVoice [measure 28] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -830,7 +830,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 29] %%%
+                            %%% FluteMusicVoice [measure 29] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -840,7 +840,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 30] %%%
+                            %%% FluteMusicVoice [measure 30] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -854,7 +854,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 31] %%%
+                            %%% FluteMusicVoice [measure 31] %%%
                             r4 \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -865,7 +865,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Flute Music Voice [measure 32] %%%
+                            %%% FluteMusicVoice [measure 32] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -875,18 +875,18 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 33] %%%
+                            %%% FluteMusicVoice [measure 33] %%%
                             r2
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 34] %%%
+                            %%% FluteMusicVoice [measure 34] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Flute Music Voice [measure 35] %%%
+                            %%% FluteMusicVoice [measure 35] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -894,7 +894,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 36] %%%
+                            %%% FluteMusicVoice [measure 36] %%%
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -904,7 +904,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 37] %%%
+                            %%% FluteMusicVoice [measure 37] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -915,7 +915,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Flute Music Voice [measure 38] %%%
+                            %%% FluteMusicVoice [measure 38] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -924,7 +924,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 39] %%%
+                            %%% FluteMusicVoice [measure 39] %%%
                             r4. \mf
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -937,12 +937,12 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 40] %%%
+                            %%% FluteMusicVoice [measure 40] %%%
                             r2 \f
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 41] %%%
+                            %%% FluteMusicVoice [measure 41] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -953,7 +953,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 42] %%%
+                            %%% FluteMusicVoice [measure 42] %%%
                             r2
                             
                             r8
@@ -965,7 +965,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 43] %%%
+                            %%% FluteMusicVoice [measure 43] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -975,13 +975,13 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 44] %%%
+                            %%% FluteMusicVoice [measure 44] %%%
                             r1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Flute Music Voice [measure 45] %%%
+                            %%% FluteMusicVoice [measure 45] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -992,7 +992,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 46] %%%
+                            %%% FluteMusicVoice [measure 46] %%%
                             r4. \pp
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1002,7 +1002,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 47] %%%
+                            %%% FluteMusicVoice [measure 47] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -1014,7 +1014,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 48] %%%
+                            %%% FluteMusicVoice [measure 48] %%%
                             r2 \pp
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1024,7 +1024,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 49] %%%
+                            %%% FluteMusicVoice [measure 49] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1034,7 +1034,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 50] %%%
+                            %%% FluteMusicVoice [measure 50] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -1045,13 +1045,13 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 51] %%%
+                            %%% FluteMusicVoice [measure 51] %%%
                             r2. \pp
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Flute Music Voice [measure 52] %%%
+                            %%% FluteMusicVoice [measure 52] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -1059,7 +1059,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 53] %%%
+                            %%% FluteMusicVoice [measure 53] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1072,7 +1072,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 54] %%%
+                            %%% FluteMusicVoice [measure 54] %%%
                             r4 \mf
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1085,7 +1085,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Flute Music Voice [measure 55] %%%
+                            %%% FluteMusicVoice [measure 55] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1100,12 +1100,12 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 56] %%%
+                            %%% FluteMusicVoice [measure 56] %%%
                             r2
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 57] %%%
+                            %%% FluteMusicVoice [measure 57] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1118,13 +1118,13 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 58] %%%
+                            %%% FluteMusicVoice [measure 58] %%%
                             r2 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Flute Music Voice [measure 59] %%%
+                            %%% FluteMusicVoice [measure 59] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -1132,7 +1132,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 60] %%%
+                            %%% FluteMusicVoice [measure 60] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -1146,7 +1146,7 @@
                             r8
                         }
                         
-                        %%% Flute Music Voice [measure 61] %%%
+                        %%% FluteMusicVoice [measure 61] %%%
                         \set FluteMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -1173,49 +1173,49 @@
                                         "to bass flute"
                                 }
                         
-                        %%% Flute Music Voice [measure 62] %%%
+                        %%% FluteMusicVoice [measure 62] %%%
                         r2
                         
-                        %%% Flute Music Voice [measure 63] %%%
+                        %%% FluteMusicVoice [measure 63] %%%
                         r1
                         
-                        %%% Flute Music Voice [measure 64] %%%
+                        %%% FluteMusicVoice [measure 64] %%%
                         r2
                         
-                        %%% Flute Music Voice [measure 65] %%%
+                        %%% FluteMusicVoice [measure 65] %%%
                         r2.
                         
-                        %%% Flute Music Voice [measure 66] %%%
+                        %%% FluteMusicVoice [measure 66] %%%
                         r1
                         
-                        %%% Flute Music Voice [measure 67] %%%
+                        %%% FluteMusicVoice [measure 67] %%%
                         R1 * 57/4
                         
-                        %%% Flute Music Voice [measure 85] %%%
+                        %%% FluteMusicVoice [measure 85] %%%
                         \once \override Hairpin.circled-tip = ##t
                         fs''4 \<
                         
                         fs''4 \repeatTie \p
                         
-                        %%% Flute Music Voice [measure 86] %%%
+                        %%% FluteMusicVoice [measure 86] %%%
                         fs''2. \repeatTie
                         
-                        %%% Flute Music Voice [measure 87] %%%
+                        %%% FluteMusicVoice [measure 87] %%%
                         fs''1 \repeatTie
                         
-                        %%% Flute Music Voice [measure 88] %%%
+                        %%% FluteMusicVoice [measure 88] %%%
                         fs''2 \repeatTie
                         
-                        %%% Flute Music Voice [measure 89] %%%
+                        %%% FluteMusicVoice [measure 89] %%%
                         fs''2. \repeatTie
                         
-                        %%% Flute Music Voice [measure 90] %%%
+                        %%% FluteMusicVoice [measure 90] %%%
                         fs''1 \repeatTie
                         
-                        %%% Flute Music Voice [measure 91] %%%
+                        %%% FluteMusicVoice [measure 91] %%%
                         fs''2. \repeatTie
                         
-                        %%% Flute Music Voice [measure 92] %%%
+                        %%% FluteMusicVoice [measure 92] %%%
                         fs''2. \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
@@ -1223,7 +1223,7 @@
                         
                         r16 \!
                         
-                        %%% Flute Music Voice [measure 93] %%%
+                        %%% FluteMusicVoice [measure 93] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1235,7 +1235,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 94] %%%
+                        %%% FluteMusicVoice [measure 94] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1273,7 +1273,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 95] %%%
+                            %%% FluteMusicVoice [measure 95] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1328,7 +1328,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 96] %%%
+                        %%% FluteMusicVoice [measure 96] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1345,10 +1345,10 @@
                     }
                 }
                 \tag english_horn
-                \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
+                    \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                         
-                        %%% English Horn Music Voice [measure 5] %%%
+                        %%% EnglishHornMusicVoice [measure 5] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1376,7 +1376,7 @@
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 9
                         
-                        %%% English Horn Music Voice [measure 17] %%%
+                        %%% EnglishHornMusicVoice [measure 17] %%%
                         r2
                         
                         r16
@@ -1384,7 +1384,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         b'8. \f \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 18] %%%
+                        %%% EnglishHornMusicVoice [measure 18] %%%
                         b'4 \repeatTie
                         
                         r4 \stopTrillSpan
@@ -1399,7 +1399,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         bqf'8. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 19] %%%
+                        %%% EnglishHornMusicVoice [measure 19] %%%
                         r16 \stopTrillSpan
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1407,13 +1407,13 @@
                         
                         r2 \stopTrillSpan
                         
-                        %%% English Horn Music Voice [measure 20] %%%
+                        %%% EnglishHornMusicVoice [measure 20] %%%
                         r1
                         
-                        %%% English Horn Music Voice [measure 21] %%%
+                        %%% EnglishHornMusicVoice [measure 21] %%%
                         R1 * 8
                         
-                        %%% English Horn Music Voice [measure 31] %%%
+                        %%% EnglishHornMusicVoice [measure 31] %%%
                         r4
                         
                         r16
@@ -1426,7 +1426,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ctqs''4.. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 32] %%%
+                        %%% EnglishHornMusicVoice [measure 32] %%%
                         ctqs''16 \repeatTie [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1439,13 +1439,13 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         btqs'8. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 33] %%%
+                        %%% EnglishHornMusicVoice [measure 33] %%%
                         btqs'16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         cs''4..
                         
-                        %%% English Horn Music Voice [measure 34] %%%
+                        %%% EnglishHornMusicVoice [measure 34] %%%
                         cs''4 \repeatTie
                         
                         r16 \stopTrillSpan
@@ -1453,10 +1453,10 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ctqs''8. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 35] %%%
+                        %%% EnglishHornMusicVoice [measure 35] %%%
                         R1 * 8 \stopTrillSpan
                         
-                        %%% English Horn Music Voice [measure 45] %%%
+                        %%% EnglishHornMusicVoice [measure 45] %%%
                         r4
                         
                         r16
@@ -1464,7 +1464,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ds''4.. \f \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 46] %%%
+                        %%% EnglishHornMusicVoice [measure 46] %%%
                         ds''2 \repeatTie
                         
                         r16 \stopTrillSpan
@@ -1477,28 +1477,28 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         d''8. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 47] %%%
+                        %%% EnglishHornMusicVoice [measure 47] %%%
                         r2 \stopTrillSpan
                         
-                        %%% English Horn Music Voice [measure 48] %%%
+                        %%% EnglishHornMusicVoice [measure 48] %%%
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         dqs''2... \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 49] %%%
+                        %%% EnglishHornMusicVoice [measure 49] %%%
                         dqs''16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         dtqs''2...
                         
-                        %%% English Horn Music Voice [measure 50] %%%
+                        %%% EnglishHornMusicVoice [measure 50] %%%
                         r2. \stopTrillSpan
                         
-                        %%% English Horn Music Voice [measure 51] %%%
+                        %%% EnglishHornMusicVoice [measure 51] %%%
                         R1 * 15/2
                         
-                        %%% English Horn Music Voice [measure 61] %%%
+                        %%% EnglishHornMusicVoice [measure 61] %%%
                         r4
                         
                         r16
@@ -1506,10 +1506,10 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         es''4.. \f \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 62] %%%
+                        %%% EnglishHornMusicVoice [measure 62] %%%
                         es''2 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 63] %%%
+                        %%% EnglishHornMusicVoice [measure 63] %%%
                         r4 \stopTrillSpan
                         
                         r16
@@ -1519,21 +1519,21 @@
                         
                         etqs''4..
                         
-                        %%% English Horn Music Voice [measure 64] %%%
+                        %%% EnglishHornMusicVoice [measure 64] %%%
                         etqs''2 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 65] %%%
+                        %%% EnglishHornMusicVoice [measure 65] %%%
                         etqs''2 \repeatTie
                         
                         r4 \stopTrillSpan
                         
-                        %%% English Horn Music Voice [measure 66] %%%
+                        %%% EnglishHornMusicVoice [measure 66] %%%
                         r1
                         
-                        %%% English Horn Music Voice [measure 67] %%%
+                        %%% EnglishHornMusicVoice [measure 67] %%%
                         R1 * 57/4
                         
-                        %%% English Horn Music Voice [measure 85] %%%
+                        %%% EnglishHornMusicVoice [measure 85] %%%
                         r4
                         \times 4/5 {
                             
@@ -1558,7 +1558,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 86] %%%
+                            %%% EnglishHornMusicVoice [measure 86] %%%
                             r8
                             
                             ef'8
@@ -1573,7 +1573,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 87] %%%
+                            %%% EnglishHornMusicVoice [measure 87] %%%
                             r16
                             
                             eqs'4
@@ -1605,7 +1605,7 @@
                             e'16 ]
                         }
                         
-                        %%% English Horn Music Voice [measure 88] %%%
+                        %%% EnglishHornMusicVoice [measure 88] %%%
                         r4
                         \times 4/5 {
                             
@@ -1621,7 +1621,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 89] %%%
+                            %%% EnglishHornMusicVoice [measure 89] %%%
                             r8
                             
                             cs'8
@@ -1636,7 +1636,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 90] %%%
+                            %%% EnglishHornMusicVoice [measure 90] %%%
                             r16
                             
                             f'4
@@ -1668,7 +1668,7 @@
                             cs'16 ]
                         }
                         
-                        %%% English Horn Music Voice [measure 91] %%%
+                        %%% EnglishHornMusicVoice [measure 91] %%%
                         r4
                         \times 4/5 {
                             
@@ -1690,7 +1690,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 92] %%%
+                            %%% EnglishHornMusicVoice [measure 92] %%%
                             r8
                             
                             f'4
@@ -1711,7 +1711,7 @@
                             \revert NoteHead.style
                         }
                         
-                        %%% English Horn Music Voice [measure 93] %%%
+                        %%% EnglishHornMusicVoice [measure 93] %%%
                         r4
                         
                         r16
@@ -1719,7 +1719,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g'4.. \f \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 94] %%%
+                        %%% EnglishHornMusicVoice [measure 94] %%%
                         r16 \stopTrillSpan
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1730,10 +1730,10 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         gqf'4.. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 95] %%%
+                        %%% EnglishHornMusicVoice [measure 95] %%%
                         gqf'2 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 96] %%%
+                        %%% EnglishHornMusicVoice [measure 96] %%%
                         gqf'16 \repeatTie [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1745,11 +1745,11 @@
                     }
                 }
                 \tag clarinet
-                \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                    \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                    \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                         {
                             
-                            %%% Clarinet Music Voice [measure 5] %%%
+                            %%% ClarinetMusicVoice [measure 5] %%%
                             \set ClarinetMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -1780,7 +1780,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 6] %%%
+                            %%% ClarinetMusicVoice [measure 6] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1796,7 +1796,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Clarinet Music Voice [measure 7] %%%
+                            %%% ClarinetMusicVoice [measure 7] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1806,18 +1806,18 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 8] %%%
+                            %%% ClarinetMusicVoice [measure 8] %%%
                             r2
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 9] %%%
+                            %%% ClarinetMusicVoice [measure 9] %%%
                             r2.
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Clarinet Music Voice [measure 10] %%%
+                            %%% ClarinetMusicVoice [measure 10] %%%
                             \once \override Hairpin.circled-tip = ##t
                             gs'''8 \<
                             
@@ -1826,7 +1826,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Clarinet Music Voice [measure 11] %%%
+                            %%% ClarinetMusicVoice [measure 11] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1836,7 +1836,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 12] %%%
+                            %%% ClarinetMusicVoice [measure 12] %%%
                             r2..
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1844,7 +1844,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 13] %%%
+                            %%% ClarinetMusicVoice [measure 13] %%%
                             r8 \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1855,7 +1855,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Clarinet Music Voice [measure 14] %%%
+                            %%% ClarinetMusicVoice [measure 14] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1865,7 +1865,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 15] %%%
+                            %%% ClarinetMusicVoice [measure 15] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1877,13 +1877,13 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 16] %%%
+                            %%% ClarinetMusicVoice [measure 16] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Clarinet Music Voice [measure 17] %%%
+                            %%% ClarinetMusicVoice [measure 17] %%%
                             \once \override Hairpin.circled-tip = ##t
                             g'''8 \<
                             
@@ -1892,7 +1892,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Clarinet Music Voice [measure 18] %%%
+                            %%% ClarinetMusicVoice [measure 18] %%%
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1900,7 +1900,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 19] %%%
+                            %%% ClarinetMusicVoice [measure 19] %%%
                             r4 \pp
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1910,7 +1910,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 20] %%%
+                            %%% ClarinetMusicVoice [measure 20] %%%
                             r2
                             
                             r8
@@ -1923,7 +1923,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Clarinet Music Voice [measure 21] %%%
+                            %%% ClarinetMusicVoice [measure 21] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1933,7 +1933,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 22] %%%
+                            %%% ClarinetMusicVoice [measure 22] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1946,7 +1946,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 23] %%%
+                            %%% ClarinetMusicVoice [measure 23] %%%
                             r4 \mf
                             
                             r8
@@ -1957,7 +1957,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Clarinet Music Voice [measure 24] %%%
+                            %%% ClarinetMusicVoice [measure 24] %%%
                             r2. \mf
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1966,7 +1966,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Clarinet Music Voice [measure 25] %%%
+                            %%% ClarinetMusicVoice [measure 25] %%%
                             r4. \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1976,7 +1976,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 26] %%%
+                            %%% ClarinetMusicVoice [measure 26] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -1986,17 +1986,17 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 27] %%%
+                            %%% ClarinetMusicVoice [measure 27] %%%
                             r2
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 28] %%%
+                            %%% ClarinetMusicVoice [measure 28] %%%
                             r2.
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 29] %%%
+                            %%% ClarinetMusicVoice [measure 29] %%%
                             \once \override Hairpin.circled-tip = ##t
                             g'''8 \<
                             
@@ -2009,13 +2009,13 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 30] %%%
+                            %%% ClarinetMusicVoice [measure 30] %%%
                             r1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Clarinet Music Voice [measure 31] %%%
+                            %%% ClarinetMusicVoice [measure 31] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2031,7 +2031,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Clarinet Music Voice [measure 32] %%%
+                            %%% ClarinetMusicVoice [measure 32] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2041,7 +2041,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 33] %%%
+                            %%% ClarinetMusicVoice [measure 33] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2051,13 +2051,13 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 34] %%%
+                            %%% ClarinetMusicVoice [measure 34] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Clarinet Music Voice [measure 35] %%%
+                            %%% ClarinetMusicVoice [measure 35] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2067,12 +2067,12 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 36] %%%
+                            %%% ClarinetMusicVoice [measure 36] %%%
                             r1
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 37] %%%
+                            %%% ClarinetMusicVoice [measure 37] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2083,7 +2083,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Clarinet Music Voice [measure 38] %%%
+                            %%% ClarinetMusicVoice [measure 38] %%%
                             \once \override Hairpin.circled-tip = ##t
                             gs'''8 \<
                             
@@ -2092,7 +2092,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Clarinet Music Voice [measure 39] %%%
+                            %%% ClarinetMusicVoice [measure 39] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2102,7 +2102,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 40] %%%
+                            %%% ClarinetMusicVoice [measure 40] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2112,7 +2112,7 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 41] %%%
+                            %%% ClarinetMusicVoice [measure 41] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2123,7 +2123,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Clarinet Music Voice [measure 42] %%%
+                            %%% ClarinetMusicVoice [measure 42] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -2138,12 +2138,12 @@
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 43] %%%
+                            %%% ClarinetMusicVoice [measure 43] %%%
                             r2. \f
                         }
                         {
                             
-                            %%% Clarinet Music Voice [measure 44] %%%
+                            %%% ClarinetMusicVoice [measure 44] %%%
                             \once \override Hairpin.circled-tip = ##t
                             gs'''8 \<
                             
@@ -2155,7 +2155,7 @@
                             r4. \f
                         }
                         
-                        %%% Clarinet Music Voice [measure 45] %%%
+                        %%% ClarinetMusicVoice [measure 45] %%%
                         \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -2182,22 +2182,22 @@
                                         "to bass clarinet"
                                 }
                         
-                        %%% Clarinet Music Voice [measure 46] %%%
+                        %%% ClarinetMusicVoice [measure 46] %%%
                         r1
                         
-                        %%% Clarinet Music Voice [measure 47] %%%
+                        %%% ClarinetMusicVoice [measure 47] %%%
                         r2
                         
-                        %%% Clarinet Music Voice [measure 48] %%%
+                        %%% ClarinetMusicVoice [measure 48] %%%
                         r1
                         
-                        %%% Clarinet Music Voice [measure 49] %%%
+                        %%% ClarinetMusicVoice [measure 49] %%%
                         r1
                         
-                        %%% Clarinet Music Voice [measure 50] %%%
+                        %%% ClarinetMusicVoice [measure 50] %%%
                         r2.
                         
-                        %%% Clarinet Music Voice [measure 51] %%%
+                        %%% ClarinetMusicVoice [measure 51] %%%
                         \once \override Hairpin.circled-tip = ##t
                         e4 \<
                         
@@ -2207,7 +2207,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 54] %%%
+                        %%% ClarinetMusicVoice [measure 54] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4
                         
@@ -2217,7 +2217,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 57] %%%
+                        %%% ClarinetMusicVoice [measure 57] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
                         
@@ -2229,7 +2229,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 62] %%%
+                        %%% ClarinetMusicVoice [measure 62] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4
                         
@@ -2239,7 +2239,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 65] %%%
+                        %%% ClarinetMusicVoice [measure 65] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
                         
@@ -2252,32 +2252,32 @@
                         
                         r16 \!
                         
-                        %%% Clarinet Music Voice [measure 67] %%%
+                        %%% ClarinetMusicVoice [measure 67] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4 \<
                         
                         eqs2 \repeatTie \ppp
                         
-                        %%% Clarinet Music Voice [measure 68] %%%
+                        %%% ClarinetMusicVoice [measure 68] %%%
                         eqs1 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 69] %%%
+                        %%% ClarinetMusicVoice [measure 69] %%%
                         eqs2. \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 70] %%%
+                        %%% ClarinetMusicVoice [measure 70] %%%
                         eqs1 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 71] %%%
+                        %%% ClarinetMusicVoice [measure 71] %%%
                         eqs2 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 72] %%%
+                        %%% ClarinetMusicVoice [measure 72] %%%
                         eqs1 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 73] %%%
+                        %%% ClarinetMusicVoice [measure 73] %%%
                         eqs1 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 74] %%%
+                        %%% ClarinetMusicVoice [measure 74] %%%
                         eqs2 \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
@@ -2285,7 +2285,7 @@
                         
                         r16 \!
                         
-                        %%% Clarinet Music Voice [measure 75] %%%
+                        %%% ClarinetMusicVoice [measure 75] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4 \<
@@ -2296,7 +2296,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 78] %%%
+                        %%% ClarinetMusicVoice [measure 78] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4
                         
@@ -2308,7 +2308,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 81] %%%
+                        %%% ClarinetMusicVoice [measure 81] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
                         
@@ -2321,32 +2321,32 @@
                         
                         r16 \!
                         
-                        %%% Clarinet Music Voice [measure 85] %%%
+                        %%% ClarinetMusicVoice [measure 85] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4 \<
                         
                         eqs4 \repeatTie \p
                         
-                        %%% Clarinet Music Voice [measure 86] %%%
+                        %%% ClarinetMusicVoice [measure 86] %%%
                         eqs2. \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 87] %%%
+                        %%% ClarinetMusicVoice [measure 87] %%%
                         eqs1 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 88] %%%
+                        %%% ClarinetMusicVoice [measure 88] %%%
                         eqs2 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 89] %%%
+                        %%% ClarinetMusicVoice [measure 89] %%%
                         eqs2. \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 90] %%%
+                        %%% ClarinetMusicVoice [measure 90] %%%
                         eqs1 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 91] %%%
+                        %%% ClarinetMusicVoice [measure 91] %%%
                         eqs2. \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 92] %%%
+                        %%% ClarinetMusicVoice [measure 92] %%%
                         eqs2. \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
@@ -2354,7 +2354,7 @@
                         
                         r16 \!
                         
-                        %%% Clarinet Music Voice [measure 93] %%%
+                        %%% ClarinetMusicVoice [measure 93] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4 \<
@@ -2365,7 +2365,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 96] %%%
+                        %%% ClarinetMusicVoice [measure 96] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqs4
                         
@@ -2380,13 +2380,13 @@
                     }
                 }
             >>
-            \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+            \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
                 \tag piano
-                \context PianoStaffGroup = "Piano Staff Group" <<
-                    \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                        \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                \context PianoStaffGroup = "PianoStaffGroup" <<
+                    \context PianoRHMusicStaff = "PianoRHMusicStaff" {
+                        \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                             
-                            %%% Piano RH Music Voice [measure 5] %%%
+                            %%% PianoRHMusicVoice [measure 5] %%%
                             \override NoteHead.style = #'harmonic
                             \set PianoStaffGroup.instrumentName = \markup {
                                 \hcenter-in
@@ -2428,560 +2428,560 @@
                                         }
                                     }
                             
-                            %%% Piano RH Music Voice [measure 6] %%%
+                            %%% PianoRHMusicVoice [measure 6] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 7] %%%
+                            %%% PianoRHMusicVoice [measure 7] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 8] %%%
+                            %%% PianoRHMusicVoice [measure 8] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 9] %%%
+                            %%% PianoRHMusicVoice [measure 9] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 10] %%%
+                            %%% PianoRHMusicVoice [measure 10] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 11] %%%
+                            %%% PianoRHMusicVoice [measure 11] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 12] %%%
+                            %%% PianoRHMusicVoice [measure 12] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 13] %%%
+                            %%% PianoRHMusicVoice [measure 13] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 14] %%%
+                            %%% PianoRHMusicVoice [measure 14] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 15] %%%
+                            %%% PianoRHMusicVoice [measure 15] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 16] %%%
+                            %%% PianoRHMusicVoice [measure 16] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 17] %%%
+                            %%% PianoRHMusicVoice [measure 17] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 18] %%%
+                            %%% PianoRHMusicVoice [measure 18] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 19] %%%
+                            %%% PianoRHMusicVoice [measure 19] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 20] %%%
+                            %%% PianoRHMusicVoice [measure 20] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 21] %%%
+                            %%% PianoRHMusicVoice [measure 21] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 22] %%%
+                            %%% PianoRHMusicVoice [measure 22] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 23] %%%
+                            %%% PianoRHMusicVoice [measure 23] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 24] %%%
+                            %%% PianoRHMusicVoice [measure 24] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 25] %%%
+                            %%% PianoRHMusicVoice [measure 25] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 26] %%%
+                            %%% PianoRHMusicVoice [measure 26] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 27] %%%
+                            %%% PianoRHMusicVoice [measure 27] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 28] %%%
+                            %%% PianoRHMusicVoice [measure 28] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 29] %%%
+                            %%% PianoRHMusicVoice [measure 29] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 30] %%%
+                            %%% PianoRHMusicVoice [measure 30] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 31] %%%
+                            %%% PianoRHMusicVoice [measure 31] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 32] %%%
+                            %%% PianoRHMusicVoice [measure 32] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 33] %%%
+                            %%% PianoRHMusicVoice [measure 33] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 34] %%%
+                            %%% PianoRHMusicVoice [measure 34] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 35] %%%
+                            %%% PianoRHMusicVoice [measure 35] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 36] %%%
+                            %%% PianoRHMusicVoice [measure 36] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 37] %%%
+                            %%% PianoRHMusicVoice [measure 37] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 38] %%%
+                            %%% PianoRHMusicVoice [measure 38] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 39] %%%
+                            %%% PianoRHMusicVoice [measure 39] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 40] %%%
+                            %%% PianoRHMusicVoice [measure 40] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 41] %%%
+                            %%% PianoRHMusicVoice [measure 41] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 42] %%%
+                            %%% PianoRHMusicVoice [measure 42] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 43] %%%
+                            %%% PianoRHMusicVoice [measure 43] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 44] %%%
+                            %%% PianoRHMusicVoice [measure 44] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 45] %%%
+                            %%% PianoRHMusicVoice [measure 45] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 46] %%%
+                            %%% PianoRHMusicVoice [measure 46] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 47] %%%
+                            %%% PianoRHMusicVoice [measure 47] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 48] %%%
+                            %%% PianoRHMusicVoice [measure 48] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 49] %%%
+                            %%% PianoRHMusicVoice [measure 49] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 50] %%%
+                            %%% PianoRHMusicVoice [measure 50] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 51] %%%
+                            %%% PianoRHMusicVoice [measure 51] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 52] %%%
+                            %%% PianoRHMusicVoice [measure 52] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 53] %%%
+                            %%% PianoRHMusicVoice [measure 53] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 54] %%%
+                            %%% PianoRHMusicVoice [measure 54] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 55] %%%
+                            %%% PianoRHMusicVoice [measure 55] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 56] %%%
+                            %%% PianoRHMusicVoice [measure 56] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 57] %%%
+                            %%% PianoRHMusicVoice [measure 57] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 58] %%%
+                            %%% PianoRHMusicVoice [measure 58] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 59] %%%
+                            %%% PianoRHMusicVoice [measure 59] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 60] %%%
+                            %%% PianoRHMusicVoice [measure 60] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 61] %%%
+                            %%% PianoRHMusicVoice [measure 61] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 62] %%%
+                            %%% PianoRHMusicVoice [measure 62] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 63] %%%
+                            %%% PianoRHMusicVoice [measure 63] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 64] %%%
+                            %%% PianoRHMusicVoice [measure 64] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 65] %%%
+                            %%% PianoRHMusicVoice [measure 65] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 66] %%%
+                            %%% PianoRHMusicVoice [measure 66] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 67] %%%
+                            %%% PianoRHMusicVoice [measure 67] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 68] %%%
+                            %%% PianoRHMusicVoice [measure 68] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 69] %%%
+                            %%% PianoRHMusicVoice [measure 69] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 70] %%%
+                            %%% PianoRHMusicVoice [measure 70] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 71] %%%
+                            %%% PianoRHMusicVoice [measure 71] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 72] %%%
+                            %%% PianoRHMusicVoice [measure 72] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 73] %%%
+                            %%% PianoRHMusicVoice [measure 73] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 74] %%%
+                            %%% PianoRHMusicVoice [measure 74] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 75] %%%
+                            %%% PianoRHMusicVoice [measure 75] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 76] %%%
+                            %%% PianoRHMusicVoice [measure 76] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 77] %%%
+                            %%% PianoRHMusicVoice [measure 77] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 78] %%%
+                            %%% PianoRHMusicVoice [measure 78] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 79] %%%
+                            %%% PianoRHMusicVoice [measure 79] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 80] %%%
+                            %%% PianoRHMusicVoice [measure 80] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 81] %%%
+                            %%% PianoRHMusicVoice [measure 81] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 82] %%%
+                            %%% PianoRHMusicVoice [measure 82] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 83] %%%
+                            %%% PianoRHMusicVoice [measure 83] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 84] %%%
+                            %%% PianoRHMusicVoice [measure 84] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 85] %%%
+                            %%% PianoRHMusicVoice [measure 85] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 86] %%%
+                            %%% PianoRHMusicVoice [measure 86] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 87] %%%
+                            %%% PianoRHMusicVoice [measure 87] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 88] %%%
+                            %%% PianoRHMusicVoice [measure 88] %%%
                             <d' e' fs' c'' d''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 89] %%%
+                            %%% PianoRHMusicVoice [measure 89] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 90] %%%
+                            %%% PianoRHMusicVoice [measure 90] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 91] %%%
+                            %%% PianoRHMusicVoice [measure 91] %%%
                             <d' e' fs' c'' d''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 92] %%%
+                            %%% PianoRHMusicVoice [measure 92] %%%
                             <d' e' fs' c'' d''>1 \repeatTie
                             \revert NoteHead.style
                             
-                            %%% Piano RH Music Voice [measure 93] %%%
+                            %%% PianoRHMusicVoice [measure 93] %%%
                             R1 * 13/4
                             \bar "|"
                             
                         }
                     }
-                    \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                        \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                    \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
+                        \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                             
-                            %%% Piano LH Music Voice [measure 5] %%%
+                            %%% PianoLHMusicVoice [measure 5] %%%
                             \clef "bass"
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 6] %%%
+                            %%% PianoLHMusicVoice [measure 6] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 7] %%%
+                            %%% PianoLHMusicVoice [measure 7] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 8] %%%
+                            %%% PianoLHMusicVoice [measure 8] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 9] %%%
+                            %%% PianoLHMusicVoice [measure 9] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 10] %%%
+                            %%% PianoLHMusicVoice [measure 10] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 11] %%%
+                            %%% PianoLHMusicVoice [measure 11] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 12] %%%
+                            %%% PianoLHMusicVoice [measure 12] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 13] %%%
+                            %%% PianoLHMusicVoice [measure 13] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 14] %%%
+                            %%% PianoLHMusicVoice [measure 14] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 15] %%%
+                            %%% PianoLHMusicVoice [measure 15] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 16] %%%
+                            %%% PianoLHMusicVoice [measure 16] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 17] %%%
+                            %%% PianoLHMusicVoice [measure 17] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 18] %%%
+                            %%% PianoLHMusicVoice [measure 18] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 19] %%%
+                            %%% PianoLHMusicVoice [measure 19] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 20] %%%
+                            %%% PianoLHMusicVoice [measure 20] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 21] %%%
+                            %%% PianoLHMusicVoice [measure 21] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 22] %%%
+                            %%% PianoLHMusicVoice [measure 22] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 23] %%%
+                            %%% PianoLHMusicVoice [measure 23] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 24] %%%
+                            %%% PianoLHMusicVoice [measure 24] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 25] %%%
+                            %%% PianoLHMusicVoice [measure 25] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 26] %%%
+                            %%% PianoLHMusicVoice [measure 26] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 27] %%%
+                            %%% PianoLHMusicVoice [measure 27] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 28] %%%
+                            %%% PianoLHMusicVoice [measure 28] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 29] %%%
+                            %%% PianoLHMusicVoice [measure 29] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 30] %%%
+                            %%% PianoLHMusicVoice [measure 30] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 31] %%%
+                            %%% PianoLHMusicVoice [measure 31] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 32] %%%
+                            %%% PianoLHMusicVoice [measure 32] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 33] %%%
+                            %%% PianoLHMusicVoice [measure 33] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 34] %%%
+                            %%% PianoLHMusicVoice [measure 34] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 35] %%%
+                            %%% PianoLHMusicVoice [measure 35] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 36] %%%
+                            %%% PianoLHMusicVoice [measure 36] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 37] %%%
+                            %%% PianoLHMusicVoice [measure 37] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 38] %%%
+                            %%% PianoLHMusicVoice [measure 38] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 39] %%%
+                            %%% PianoLHMusicVoice [measure 39] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 40] %%%
+                            %%% PianoLHMusicVoice [measure 40] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 41] %%%
+                            %%% PianoLHMusicVoice [measure 41] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 42] %%%
+                            %%% PianoLHMusicVoice [measure 42] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 43] %%%
+                            %%% PianoLHMusicVoice [measure 43] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 44] %%%
+                            %%% PianoLHMusicVoice [measure 44] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 45] %%%
+                            %%% PianoLHMusicVoice [measure 45] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 46] %%%
+                            %%% PianoLHMusicVoice [measure 46] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 47] %%%
+                            %%% PianoLHMusicVoice [measure 47] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 48] %%%
+                            %%% PianoLHMusicVoice [measure 48] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 49] %%%
+                            %%% PianoLHMusicVoice [measure 49] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 50] %%%
+                            %%% PianoLHMusicVoice [measure 50] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 51] %%%
+                            %%% PianoLHMusicVoice [measure 51] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 52] %%%
+                            %%% PianoLHMusicVoice [measure 52] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 53] %%%
+                            %%% PianoLHMusicVoice [measure 53] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 54] %%%
+                            %%% PianoLHMusicVoice [measure 54] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 55] %%%
+                            %%% PianoLHMusicVoice [measure 55] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 56] %%%
+                            %%% PianoLHMusicVoice [measure 56] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 57] %%%
+                            %%% PianoLHMusicVoice [measure 57] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 58] %%%
+                            %%% PianoLHMusicVoice [measure 58] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 59] %%%
+                            %%% PianoLHMusicVoice [measure 59] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 60] %%%
+                            %%% PianoLHMusicVoice [measure 60] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 61] %%%
+                            %%% PianoLHMusicVoice [measure 61] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 62] %%%
+                            %%% PianoLHMusicVoice [measure 62] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 63] %%%
+                            %%% PianoLHMusicVoice [measure 63] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 64] %%%
+                            %%% PianoLHMusicVoice [measure 64] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 65] %%%
+                            %%% PianoLHMusicVoice [measure 65] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 66] %%%
+                            %%% PianoLHMusicVoice [measure 66] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 67] %%%
+                            %%% PianoLHMusicVoice [measure 67] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 68] %%%
+                            %%% PianoLHMusicVoice [measure 68] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 69] %%%
+                            %%% PianoLHMusicVoice [measure 69] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 70] %%%
+                            %%% PianoLHMusicVoice [measure 70] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 71] %%%
+                            %%% PianoLHMusicVoice [measure 71] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 72] %%%
+                            %%% PianoLHMusicVoice [measure 72] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 73] %%%
+                            %%% PianoLHMusicVoice [measure 73] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 74] %%%
+                            %%% PianoLHMusicVoice [measure 74] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 75] %%%
+                            %%% PianoLHMusicVoice [measure 75] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 76] %%%
+                            %%% PianoLHMusicVoice [measure 76] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 77] %%%
+                            %%% PianoLHMusicVoice [measure 77] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 78] %%%
+                            %%% PianoLHMusicVoice [measure 78] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 79] %%%
+                            %%% PianoLHMusicVoice [measure 79] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 80] %%%
+                            %%% PianoLHMusicVoice [measure 80] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 81] %%%
+                            %%% PianoLHMusicVoice [measure 81] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 82] %%%
+                            %%% PianoLHMusicVoice [measure 82] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 83] %%%
+                            %%% PianoLHMusicVoice [measure 83] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 84] %%%
+                            %%% PianoLHMusicVoice [measure 84] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 85] %%%
+                            %%% PianoLHMusicVoice [measure 85] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 86] %%%
+                            %%% PianoLHMusicVoice [measure 86] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 87] %%%
+                            %%% PianoLHMusicVoice [measure 87] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 88] %%%
+                            %%% PianoLHMusicVoice [measure 88] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 89] %%%
+                            %%% PianoLHMusicVoice [measure 89] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 90] %%%
+                            %%% PianoLHMusicVoice [measure 90] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 91] %%%
+                            %%% PianoLHMusicVoice [measure 91] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 92] %%%
+                            %%% PianoLHMusicVoice [measure 92] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 93] %%%
+                            %%% PianoLHMusicVoice [measure 93] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 94] %%%
+                            %%% PianoLHMusicVoice [measure 94] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 95] %%%
+                            %%% PianoLHMusicVoice [measure 95] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 96] %%%
+                            %%% PianoLHMusicVoice [measure 96] %%%
                             R1 * 1
                             \bar "|"
                             
                         }
-                        \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                        \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                             
-                            %%% Piano LH Attack Voice [measure 5] %%%
+                            %%% PianoLHAttackVoice [measure 5] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -3003,40 +3003,40 @@
                             
                             s8.
                             
-                            %%% Piano LH Attack Voice [measure 6] %%%
+                            %%% PianoLHAttackVoice [measure 6] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 7] %%%
+                            %%% PianoLHAttackVoice [measure 7] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 8] %%%
+                            %%% PianoLHAttackVoice [measure 8] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 9] %%%
+                            %%% PianoLHAttackVoice [measure 9] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 10] %%%
+                            %%% PianoLHAttackVoice [measure 10] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 11] %%%
+                            %%% PianoLHAttackVoice [measure 11] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 12] %%%
+                            %%% PianoLHAttackVoice [measure 12] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 13] %%%
+                            %%% PianoLHAttackVoice [measure 13] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 14] %%%
+                            %%% PianoLHAttackVoice [measure 14] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 15] %%%
+                            %%% PianoLHAttackVoice [measure 15] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 16] %%%
+                            %%% PianoLHAttackVoice [measure 16] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 17] %%%
+                            %%% PianoLHAttackVoice [measure 17] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -3058,46 +3058,46 @@
                             
                             s8.
                             
-                            %%% Piano LH Attack Voice [measure 18] %%%
+                            %%% PianoLHAttackVoice [measure 18] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 19] %%%
+                            %%% PianoLHAttackVoice [measure 19] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 20] %%%
+                            %%% PianoLHAttackVoice [measure 20] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 21] %%%
+                            %%% PianoLHAttackVoice [measure 21] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 22] %%%
+                            %%% PianoLHAttackVoice [measure 22] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 23] %%%
+                            %%% PianoLHAttackVoice [measure 23] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 24] %%%
+                            %%% PianoLHAttackVoice [measure 24] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 25] %%%
+                            %%% PianoLHAttackVoice [measure 25] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 26] %%%
+                            %%% PianoLHAttackVoice [measure 26] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 27] %%%
+                            %%% PianoLHAttackVoice [measure 27] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 28] %%%
+                            %%% PianoLHAttackVoice [measure 28] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 29] %%%
+                            %%% PianoLHAttackVoice [measure 29] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 30] %%%
+                            %%% PianoLHAttackVoice [measure 30] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 31] %%%
+                            %%% PianoLHAttackVoice [measure 31] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -3117,46 +3117,46 @@
                             
                             s2...
                             
-                            %%% Piano LH Attack Voice [measure 32] %%%
+                            %%% PianoLHAttackVoice [measure 32] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 33] %%%
+                            %%% PianoLHAttackVoice [measure 33] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 34] %%%
+                            %%% PianoLHAttackVoice [measure 34] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 35] %%%
+                            %%% PianoLHAttackVoice [measure 35] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 36] %%%
+                            %%% PianoLHAttackVoice [measure 36] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 37] %%%
+                            %%% PianoLHAttackVoice [measure 37] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 38] %%%
+                            %%% PianoLHAttackVoice [measure 38] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 39] %%%
+                            %%% PianoLHAttackVoice [measure 39] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 40] %%%
+                            %%% PianoLHAttackVoice [measure 40] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 41] %%%
+                            %%% PianoLHAttackVoice [measure 41] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 42] %%%
+                            %%% PianoLHAttackVoice [measure 42] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 43] %%%
+                            %%% PianoLHAttackVoice [measure 43] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 44] %%%
+                            %%% PianoLHAttackVoice [measure 44] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 45] %%%
+                            %%% PianoLHAttackVoice [measure 45] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -3178,52 +3178,52 @@
                             
                             s8.
                             
-                            %%% Piano LH Attack Voice [measure 46] %%%
+                            %%% PianoLHAttackVoice [measure 46] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 47] %%%
+                            %%% PianoLHAttackVoice [measure 47] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 48] %%%
+                            %%% PianoLHAttackVoice [measure 48] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 49] %%%
+                            %%% PianoLHAttackVoice [measure 49] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 50] %%%
+                            %%% PianoLHAttackVoice [measure 50] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 51] %%%
+                            %%% PianoLHAttackVoice [measure 51] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 52] %%%
+                            %%% PianoLHAttackVoice [measure 52] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 53] %%%
+                            %%% PianoLHAttackVoice [measure 53] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 54] %%%
+                            %%% PianoLHAttackVoice [measure 54] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 55] %%%
+                            %%% PianoLHAttackVoice [measure 55] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 56] %%%
+                            %%% PianoLHAttackVoice [measure 56] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 57] %%%
+                            %%% PianoLHAttackVoice [measure 57] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 58] %%%
+                            %%% PianoLHAttackVoice [measure 58] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 59] %%%
+                            %%% PianoLHAttackVoice [measure 59] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 60] %%%
+                            %%% PianoLHAttackVoice [measure 60] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 61] %%%
+                            %%% PianoLHAttackVoice [measure 61] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -3245,100 +3245,100 @@
                             
                             s8.
                             
-                            %%% Piano LH Attack Voice [measure 62] %%%
+                            %%% PianoLHAttackVoice [measure 62] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 63] %%%
+                            %%% PianoLHAttackVoice [measure 63] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 64] %%%
+                            %%% PianoLHAttackVoice [measure 64] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 65] %%%
+                            %%% PianoLHAttackVoice [measure 65] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 66] %%%
+                            %%% PianoLHAttackVoice [measure 66] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 67] %%%
+                            %%% PianoLHAttackVoice [measure 67] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 68] %%%
+                            %%% PianoLHAttackVoice [measure 68] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 69] %%%
+                            %%% PianoLHAttackVoice [measure 69] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 70] %%%
+                            %%% PianoLHAttackVoice [measure 70] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 71] %%%
+                            %%% PianoLHAttackVoice [measure 71] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 72] %%%
+                            %%% PianoLHAttackVoice [measure 72] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 73] %%%
+                            %%% PianoLHAttackVoice [measure 73] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 74] %%%
+                            %%% PianoLHAttackVoice [measure 74] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 75] %%%
+                            %%% PianoLHAttackVoice [measure 75] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 76] %%%
+                            %%% PianoLHAttackVoice [measure 76] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 77] %%%
+                            %%% PianoLHAttackVoice [measure 77] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 78] %%%
+                            %%% PianoLHAttackVoice [measure 78] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 79] %%%
+                            %%% PianoLHAttackVoice [measure 79] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 80] %%%
+                            %%% PianoLHAttackVoice [measure 80] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 81] %%%
+                            %%% PianoLHAttackVoice [measure 81] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 82] %%%
+                            %%% PianoLHAttackVoice [measure 82] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 83] %%%
+                            %%% PianoLHAttackVoice [measure 83] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 84] %%%
+                            %%% PianoLHAttackVoice [measure 84] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 85] %%%
+                            %%% PianoLHAttackVoice [measure 85] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 86] %%%
+                            %%% PianoLHAttackVoice [measure 86] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 87] %%%
+                            %%% PianoLHAttackVoice [measure 87] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 88] %%%
+                            %%% PianoLHAttackVoice [measure 88] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 89] %%%
+                            %%% PianoLHAttackVoice [measure 89] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 90] %%%
+                            %%% PianoLHAttackVoice [measure 90] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 91] %%%
+                            %%% PianoLHAttackVoice [measure 91] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 92] %%%
+                            %%% PianoLHAttackVoice [measure 92] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 93] %%%
+                            %%% PianoLHAttackVoice [measure 93] %%%
                             R1 * 13/4
                             \bar "|"
                             
@@ -3346,11 +3346,11 @@
                     >>
                 >>
                 \tag percussion
-                \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \context PercussionMusicVoice = "Percussion Music Voice" {
+                \context PercussionMusicStaff = "PercussionMusicStaff" {
+                    \context PercussionMusicVoice = "PercussionMusicVoice" {
                         {
                             
-                            %%% Percussion Music Voice [measure 5] %%%
+                            %%% PercussionMusicVoice [measure 5] %%%
                             \set PercussionMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -3381,13 +3381,13 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 6] %%%
+                            %%% PercussionMusicVoice [measure 6] %%%
                             r1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 7] %%%
+                            %%% PercussionMusicVoice [measure 7] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3395,7 +3395,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 8] %%%
+                            %%% PercussionMusicVoice [measure 8] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3403,7 +3403,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 9] %%%
+                            %%% PercussionMusicVoice [measure 9] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3413,13 +3413,13 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 10] %%%
+                            %%% PercussionMusicVoice [measure 10] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 11] %%%
+                            %%% PercussionMusicVoice [measure 11] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3429,7 +3429,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 12] %%%
+                            %%% PercussionMusicVoice [measure 12] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3439,7 +3439,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 13] %%%
+                            %%% PercussionMusicVoice [measure 13] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3449,17 +3449,17 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 14] %%%
+                            %%% PercussionMusicVoice [measure 14] %%%
                             r2
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 15] %%%
+                            %%% PercussionMusicVoice [measure 15] %%%
                             r1
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 16] %%%
+                            %%% PercussionMusicVoice [measure 16] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3468,7 +3468,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 17] %%%
+                            %%% PercussionMusicVoice [measure 17] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3477,7 +3477,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 18] %%%
+                            %%% PercussionMusicVoice [measure 18] %%%
                             r4 \pp
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3487,7 +3487,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 19] %%%
+                            %%% PercussionMusicVoice [measure 19] %%%
                             r2
                             
                             r8
@@ -3497,7 +3497,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 20] %%%
+                            %%% PercussionMusicVoice [measure 20] %%%
                             r8 \pp
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3508,7 +3508,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 21] %%%
+                            %%% PercussionMusicVoice [measure 21] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3516,18 +3516,18 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 22] %%%
+                            %%% PercussionMusicVoice [measure 22] %%%
                             r1 \p
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 23] %%%
+                            %%% PercussionMusicVoice [measure 23] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 24] %%%
+                            %%% PercussionMusicVoice [measure 24] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3538,7 +3538,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 25] %%%
+                            %%% PercussionMusicVoice [measure 25] %%%
                             r2
                             
                             r8
@@ -3550,7 +3550,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 26] %%%
+                            %%% PercussionMusicVoice [measure 26] %%%
                             r2
                             
                             r8
@@ -3560,7 +3560,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 27] %%%
+                            %%% PercussionMusicVoice [measure 27] %%%
                             r4. \mf
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3568,17 +3568,17 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 28] %%%
+                            %%% PercussionMusicVoice [measure 28] %%%
                             r2. \f
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 29] %%%
+                            %%% PercussionMusicVoice [measure 29] %%%
                             r2.
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 30] %%%
+                            %%% PercussionMusicVoice [measure 30] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'8 -\laissezVibrer \<
                             
@@ -3594,7 +3594,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 31] %%%
+                            %%% PercussionMusicVoice [measure 31] %%%
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3602,17 +3602,17 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 32] %%%
+                            %%% PercussionMusicVoice [measure 32] %%%
                             r2. \pp
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 33] %%%
+                            %%% PercussionMusicVoice [measure 33] %%%
                             r2
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 34] %%%
+                            %%% PercussionMusicVoice [measure 34] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3620,12 +3620,12 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 35] %%%
+                            %%% PercussionMusicVoice [measure 35] %%%
                             r2. \pp
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 36] %%%
+                            %%% PercussionMusicVoice [measure 36] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3640,13 +3640,13 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 37] %%%
+                            %%% PercussionMusicVoice [measure 37] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 38] %%%
+                            %%% PercussionMusicVoice [measure 38] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3657,7 +3657,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 39] %%%
+                            %%% PercussionMusicVoice [measure 39] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3665,12 +3665,12 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 40] %%%
+                            %%% PercussionMusicVoice [measure 40] %%%
                             r2
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 41] %%%
+                            %%% PercussionMusicVoice [measure 41] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3680,12 +3680,12 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 42] %%%
+                            %%% PercussionMusicVoice [measure 42] %%%
                             r1
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 43] %%%
+                            %%% PercussionMusicVoice [measure 43] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3695,7 +3695,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 44] %%%
+                            %%% PercussionMusicVoice [measure 44] %%%
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3706,7 +3706,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 45] %%%
+                            %%% PercussionMusicVoice [measure 45] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3716,7 +3716,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 46] %%%
+                            %%% PercussionMusicVoice [measure 46] %%%
                             r2..
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3724,7 +3724,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 47] %%%
+                            %%% PercussionMusicVoice [measure 47] %%%
                             r8 \pp
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3735,7 +3735,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 48] %%%
+                            %%% PercussionMusicVoice [measure 48] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3745,7 +3745,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 49] %%%
+                            %%% PercussionMusicVoice [measure 49] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3755,7 +3755,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 50] %%%
+                            %%% PercussionMusicVoice [measure 50] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3766,7 +3766,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 51] %%%
+                            %%% PercussionMusicVoice [measure 51] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3776,12 +3776,12 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 52] %%%
+                            %%% PercussionMusicVoice [measure 52] %%%
                             r2
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 53] %%%
+                            %%% PercussionMusicVoice [measure 53] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'8 -\laissezVibrer \<
                             
@@ -3794,7 +3794,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 54] %%%
+                            %%% PercussionMusicVoice [measure 54] %%%
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3805,7 +3805,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 55] %%%
+                            %%% PercussionMusicVoice [measure 55] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3815,12 +3815,12 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 56] %%%
+                            %%% PercussionMusicVoice [measure 56] %%%
                             r2
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 57] %%%
+                            %%% PercussionMusicVoice [measure 57] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'8 -\laissezVibrer \<
                             
@@ -3833,13 +3833,13 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 58] %%%
+                            %%% PercussionMusicVoice [measure 58] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 59] %%%
+                            %%% PercussionMusicVoice [measure 59] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3849,7 +3849,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 60] %%%
+                            %%% PercussionMusicVoice [measure 60] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3865,7 +3865,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 61] %%%
+                            %%% PercussionMusicVoice [measure 61] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3878,12 +3878,12 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 62] %%%
+                            %%% PercussionMusicVoice [measure 62] %%%
                             r2 \pp
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 63] %%%
+                            %%% PercussionMusicVoice [measure 63] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3901,7 +3901,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 64] %%%
+                            %%% PercussionMusicVoice [measure 64] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3912,7 +3912,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 65] %%%
+                            %%% PercussionMusicVoice [measure 65] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3922,7 +3922,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 66] %%%
+                            %%% PercussionMusicVoice [measure 66] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3936,12 +3936,12 @@
                             r8 \pp
                         }
                         
-                        %%% Percussion Music Voice [measure 67] %%%
+                        %%% PercussionMusicVoice [measure 67] %%%
                         R1 * 27/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Percussion Music Voice [measure 75] %%%
+                            %%% PercussionMusicVoice [measure 75] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3952,7 +3952,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 76] %%%
+                            %%% PercussionMusicVoice [measure 76] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -3962,7 +3962,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 77] %%%
+                            %%% PercussionMusicVoice [measure 77] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3975,7 +3975,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 78] %%%
+                            %%% PercussionMusicVoice [measure 78] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -3992,7 +3992,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 79] %%%
+                            %%% PercussionMusicVoice [measure 79] %%%
                             r4. \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4002,7 +4002,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 80] %%%
+                            %%% PercussionMusicVoice [measure 80] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4012,7 +4012,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 81] %%%
+                            %%% PercussionMusicVoice [measure 81] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -4025,13 +4025,13 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 82] %%%
+                            %%% PercussionMusicVoice [measure 82] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 83] %%%
+                            %%% PercussionMusicVoice [measure 83] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4044,7 +4044,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 84] %%%
+                            %%% PercussionMusicVoice [measure 84] %%%
                             r8 \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4060,23 +4060,23 @@
                             r8
                         }
                         
-                        %%% Percussion Music Voice [measure 85] %%%
+                        %%% PercussionMusicVoice [measure 85] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
                         \clef "percussion"
                         r2
                         
-                        %%% Percussion Music Voice [measure 86] %%%
+                        %%% PercussionMusicVoice [measure 86] %%%
                         r2.
                         
-                        %%% Percussion Music Voice [measure 87] %%%
+                        %%% PercussionMusicVoice [measure 87] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 88] %%%
+                        %%% PercussionMusicVoice [measure 88] %%%
                         r2
                         
-                        %%% Percussion Music Voice [measure 89] %%%
+                        %%% PercussionMusicVoice [measure 89] %%%
                         r4
                         
                         d'2 -\accent \ff \startTrillSpan
@@ -4089,12 +4089,12 @@
                                                 castanets
                                 }
                         
-                        %%% Percussion Music Voice [measure 90] %%%
+                        %%% PercussionMusicVoice [measure 90] %%%
                         r16 \stopTrillSpan
                         
                         d'2... -\accent \startTrillSpan
                         
-                        %%% Percussion Music Voice [measure 91] %%%
+                        %%% PercussionMusicVoice [measure 91] %%%
                         b2. -\accent \stopTrillSpan
                             ^ \markup {
                                 \whiteout
@@ -4105,12 +4105,12 @@
                                                 "bass drum"
                                 }
                         
-                        %%% Percussion Music Voice [measure 92] %%%
+                        %%% PercussionMusicVoice [measure 92] %%%
                         r1
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Percussion Music Voice [measure 93] %%%
+                            %%% PercussionMusicVoice [measure 93] %%%
                             \clef "treble"
                             r8
                             
@@ -4133,7 +4133,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Percussion Music Voice [measure 94] %%%
+                            %%% PercussionMusicVoice [measure 94] %%%
                             r4. \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4143,7 +4143,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 95] %%%
+                            %%% PercussionMusicVoice [measure 95] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'8 -\laissezVibrer \<
                             
@@ -4156,7 +4156,7 @@
                         }
                         {
                             
-                            %%% Percussion Music Voice [measure 96] %%%
+                            %%% PercussionMusicVoice [measure 96] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4174,13 +4174,13 @@
                     }
                 }
             >>
-            \context StringSectionStaffGroup = "String Section Staff Group" <<
+            \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
                 \tag violin
-                \context ViolinMusicStaff = "Violin Music Staff" {
-                    \context ViolinMusicVoice = "Violin Music Voice" {
+                \context ViolinMusicStaff = "ViolinMusicStaff" {
+                    \context ViolinMusicVoice = "ViolinMusicVoice" {
                         {
                             
-                            %%% Violin Music Voice [measure 5] %%%
+                            %%% ViolinMusicVoice [measure 5] %%%
                             \set ViolinMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -4211,7 +4211,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 6] %%%
+                            %%% ViolinMusicVoice [measure 6] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4225,7 +4225,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 7] %%%
+                            %%% ViolinMusicVoice [measure 7] %%%
                             r2. \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4233,7 +4233,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 8] %%%
+                            %%% ViolinMusicVoice [measure 8] %%%
                             r8 \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4243,18 +4243,18 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 9] %%%
+                            %%% ViolinMusicVoice [measure 9] %%%
                             r2.
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 10] %%%
+                            %%% ViolinMusicVoice [measure 10] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 11] %%%
+                            %%% ViolinMusicVoice [measure 11] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4264,12 +4264,12 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 12] %%%
+                            %%% ViolinMusicVoice [measure 12] %%%
                             r1
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 13] %%%
+                            %%% ViolinMusicVoice [measure 13] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4280,7 +4280,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Violin Music Voice [measure 14] %%%
+                            %%% ViolinMusicVoice [measure 14] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4288,7 +4288,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 15] %%%
+                            %%% ViolinMusicVoice [measure 15] %%%
                             r2 \f
                             
                             r8
@@ -4300,13 +4300,13 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 16] %%%
+                            %%% ViolinMusicVoice [measure 16] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 17] %%%
+                            %%% ViolinMusicVoice [measure 17] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4317,7 +4317,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 18] %%%
+                            %%% ViolinMusicVoice [measure 18] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4329,7 +4329,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 19] %%%
+                            %%% ViolinMusicVoice [measure 19] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4339,13 +4339,13 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 20] %%%
+                            %%% ViolinMusicVoice [measure 20] %%%
                             r1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 21] %%%
+                            %%% ViolinMusicVoice [measure 21] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4355,7 +4355,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 22] %%%
+                            %%% ViolinMusicVoice [measure 22] %%%
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4365,7 +4365,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 23] %%%
+                            %%% ViolinMusicVoice [measure 23] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -4376,7 +4376,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 24] %%%
+                            %%% ViolinMusicVoice [measure 24] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4389,7 +4389,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 25] %%%
+                            %%% ViolinMusicVoice [measure 25] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -4402,7 +4402,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 26] %%%
+                            %%% ViolinMusicVoice [measure 26] %%%
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4412,7 +4412,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 27] %%%
+                            %%% ViolinMusicVoice [measure 27] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -4420,12 +4420,12 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 28] %%%
+                            %%% ViolinMusicVoice [measure 28] %%%
                             r2.
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 29] %%%
+                            %%% ViolinMusicVoice [measure 29] %%%
                             r2
                             
                             r8
@@ -4435,13 +4435,13 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 30] %%%
+                            %%% ViolinMusicVoice [measure 30] %%%
                             r1 \f
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 31] %%%
+                            %%% ViolinMusicVoice [measure 31] %%%
                             r2
                             
                             r8
@@ -4454,7 +4454,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 32] %%%
+                            %%% ViolinMusicVoice [measure 32] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4464,12 +4464,12 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 33] %%%
+                            %%% ViolinMusicVoice [measure 33] %%%
                             r2
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 34] %%%
+                            %%% ViolinMusicVoice [measure 34] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -4477,12 +4477,12 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 35] %%%
+                            %%% ViolinMusicVoice [measure 35] %%%
                             r2.
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 36] %%%
+                            %%% ViolinMusicVoice [measure 36] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4497,13 +4497,13 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 37] %%%
+                            %%% ViolinMusicVoice [measure 37] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 38] %%%
+                            %%% ViolinMusicVoice [measure 38] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4513,12 +4513,12 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 39] %%%
+                            %%% ViolinMusicVoice [measure 39] %%%
                             r1
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 40] %%%
+                            %%% ViolinMusicVoice [measure 40] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4526,13 +4526,13 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 41] %%%
+                            %%% ViolinMusicVoice [measure 41] %%%
                             r2. \mf
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 42] %%%
+                            %%% ViolinMusicVoice [measure 42] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4549,7 +4549,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 43] %%%
+                            %%% ViolinMusicVoice [measure 43] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4559,7 +4559,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 44] %%%
+                            %%% ViolinMusicVoice [measure 44] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4575,7 +4575,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 45] %%%
+                            %%% ViolinMusicVoice [measure 45] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4585,7 +4585,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 46] %%%
+                            %%% ViolinMusicVoice [measure 46] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -4598,13 +4598,13 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 47] %%%
+                            %%% ViolinMusicVoice [measure 47] %%%
                             r2
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 48] %%%
+                            %%% ViolinMusicVoice [measure 48] %%%
                             \once \override Hairpin.circled-tip = ##t
                             f'''8 \<
                             
@@ -4617,7 +4617,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 49] %%%
+                            %%% ViolinMusicVoice [measure 49] %%%
                             r2..
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4625,7 +4625,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 50] %%%
+                            %%% ViolinMusicVoice [measure 50] %%%
                             r4. \pp
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4635,13 +4635,13 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 51] %%%
+                            %%% ViolinMusicVoice [measure 51] %%%
                             r2.
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Violin Music Voice [measure 52] %%%
+                            %%% ViolinMusicVoice [measure 52] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4651,7 +4651,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 53] %%%
+                            %%% ViolinMusicVoice [measure 53] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4661,7 +4661,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 54] %%%
+                            %%% ViolinMusicVoice [measure 54] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4676,12 +4676,12 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 55] %%%
+                            %%% ViolinMusicVoice [measure 55] %%%
                             r1
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 56] %%%
+                            %%% ViolinMusicVoice [measure 56] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4691,7 +4691,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 57] %%%
+                            %%% ViolinMusicVoice [measure 57] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4702,7 +4702,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Violin Music Voice [measure 58] %%%
+                            %%% ViolinMusicVoice [measure 58] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4711,7 +4711,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 59] %%%
+                            %%% ViolinMusicVoice [measure 59] %%%
                             r4 \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4721,7 +4721,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 60] %%%
+                            %%% ViolinMusicVoice [measure 60] %%%
                             r2
                             
                             r8
@@ -4734,7 +4734,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 61] %%%
+                            %%% ViolinMusicVoice [measure 61] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -4748,7 +4748,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Violin Music Voice [measure 62] %%%
+                            %%% ViolinMusicVoice [measure 62] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -4756,7 +4756,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 63] %%%
+                            %%% ViolinMusicVoice [measure 63] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4771,7 +4771,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 64] %%%
+                            %%% ViolinMusicVoice [measure 64] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -4780,7 +4780,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 65] %%%
+                            %%% ViolinMusicVoice [measure 65] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -4793,7 +4793,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 66] %%%
+                            %%% ViolinMusicVoice [measure 66] %%%
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -4804,7 +4804,7 @@
                             r8
                         }
                         
-                        %%% Violin Music Voice [measure 67] %%%
+                        %%% ViolinMusicVoice [measure 67] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -4910,7 +4910,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 68] %%%
+                        %%% ViolinMusicVoice [measure 68] %%%
                         r8
                         
                         \once \override Accidental.color = #red
@@ -5000,7 +5000,7 @@
                         
                         r16
                         
-                        %%% Violin Music Voice [measure 69] %%%
+                        %%% ViolinMusicVoice [measure 69] %%%
                         r16
                         
                         \once \override Accidental.color = #red
@@ -5054,16 +5054,16 @@
                         
                         r4
                         
-                        %%% Violin Music Voice [measure 70] %%%
+                        %%% ViolinMusicVoice [measure 70] %%%
                         r1
                         
-                        %%% Violin Music Voice [measure 71] %%%
+                        %%% ViolinMusicVoice [measure 71] %%%
                         r2
                         
-                        %%% Violin Music Voice [measure 72] %%%
+                        %%% ViolinMusicVoice [measure 72] %%%
                         r1
                         
-                        %%% Violin Music Voice [measure 73] %%%
+                        %%% ViolinMusicVoice [measure 73] %%%
                         r16
                         
                         \once \override Accidental.color = #red
@@ -5153,7 +5153,7 @@
                         
                         r8
                         
-                        %%% Violin Music Voice [measure 74] %%%
+                        %%% ViolinMusicVoice [measure 74] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5236,7 +5236,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Violin Music Voice [measure 75] %%%
+                            %%% ViolinMusicVoice [measure 75] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                                 ^ \markup {
@@ -5250,7 +5250,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 76] %%%
+                            %%% ViolinMusicVoice [measure 76] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -5263,7 +5263,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 77] %%%
+                            %%% ViolinMusicVoice [measure 77] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -5276,7 +5276,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 78] %%%
+                            %%% ViolinMusicVoice [measure 78] %%%
                             r4 \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -5292,7 +5292,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 79] %%%
+                            %%% ViolinMusicVoice [measure 79] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -5305,7 +5305,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 80] %%%
+                            %%% ViolinMusicVoice [measure 80] %%%
                             r4. \f
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -5315,7 +5315,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 81] %%%
+                            %%% ViolinMusicVoice [measure 81] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -5326,7 +5326,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             
-                            %%% Violin Music Voice [measure 82] %%%
+                            %%% ViolinMusicVoice [measure 82] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -5337,7 +5337,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 83] %%%
+                            %%% ViolinMusicVoice [measure 83] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -5347,7 +5347,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 84] %%%
+                            %%% ViolinMusicVoice [measure 84] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -5364,7 +5364,7 @@
                             r8 \f
                         }
                         
-                        %%% Violin Music Voice [measure 85] %%%
+                        %%% ViolinMusicVoice [measure 85] %%%
                         r8
                         
                         \once \override Accidental.color = #red
@@ -5430,7 +5430,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 86] %%%
+                        %%% ViolinMusicVoice [measure 86] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5504,7 +5504,7 @@
                         
                         r16
                         
-                        %%% Violin Music Voice [measure 87] %%%
+                        %%% ViolinMusicVoice [measure 87] %%%
                         r16
                         
                         \once \override Accidental.color = #red
@@ -5556,16 +5556,16 @@
                         
                         r2
                         
-                        %%% Violin Music Voice [measure 88] %%%
+                        %%% ViolinMusicVoice [measure 88] %%%
                         r2
                         
-                        %%% Violin Music Voice [measure 89] %%%
+                        %%% ViolinMusicVoice [measure 89] %%%
                         r2.
                         
-                        %%% Violin Music Voice [measure 90] %%%
+                        %%% ViolinMusicVoice [measure 90] %%%
                         r1
                         
-                        %%% Violin Music Voice [measure 91] %%%
+                        %%% ViolinMusicVoice [measure 91] %%%
                         r4.
                         
                         \once \override Accidental.color = #red
@@ -5608,7 +5608,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 92] %%%
+                        %%% ViolinMusicVoice [measure 92] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5711,7 +5711,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
-                            %%% Violin Music Voice [measure 93] %%%
+                            %%% ViolinMusicVoice [measure 93] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                                 ^ \markup {
@@ -5730,7 +5730,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
-                            %%% Violin Music Voice [measure 94] %%%
+                            %%% ViolinMusicVoice [measure 94] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -5743,7 +5743,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 95] %%%
+                            %%% ViolinMusicVoice [measure 95] %%%
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -5753,7 +5753,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 96] %%%
+                            %%% ViolinMusicVoice [measure 96] %%%
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8 \<
                             
@@ -5774,10 +5774,10 @@
                     }
                 }
                 \tag viola
-                \context ViolaMusicStaff = "Viola Music Staff" {
-                    \context ViolaMusicVoice = "Viola Music Voice" {
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% Viola Music Voice [measure 5] %%%
+                        %%% ViolaMusicVoice [measure 5] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -5818,40 +5818,40 @@
                                         "XFB sempre"
                                 }
                         
-                        %%% Viola Music Voice [measure 6] %%%
+                        %%% ViolaMusicVoice [measure 6] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 7] %%%
+                        %%% ViolaMusicVoice [measure 7] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 8] %%%
+                        %%% ViolaMusicVoice [measure 8] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 9] %%%
+                        %%% ViolaMusicVoice [measure 9] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 10] %%%
+                        %%% ViolaMusicVoice [measure 10] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 11] %%%
+                        %%% ViolaMusicVoice [measure 11] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 12] %%%
+                        %%% ViolaMusicVoice [measure 12] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 13] %%%
+                        %%% ViolaMusicVoice [measure 13] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 14] %%%
+                        %%% ViolaMusicVoice [measure 14] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 15] %%%
+                        %%% ViolaMusicVoice [measure 15] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 16] %%%
+                        %%% ViolaMusicVoice [measure 16] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 17] %%%
+                        %%% ViolaMusicVoice [measure 17] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -5874,16 +5874,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
                         
-                        %%% Viola Music Voice [measure 18] %%%
+                        %%% ViolaMusicVoice [measure 18] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 19] %%%
+                        %%% ViolaMusicVoice [measure 19] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 20] %%%
+                        %%% ViolaMusicVoice [measure 20] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 21] %%%
+                        %%% ViolaMusicVoice [measure 21] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -5906,34 +5906,34 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
                         
-                        %%% Viola Music Voice [measure 22] %%%
+                        %%% ViolaMusicVoice [measure 22] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 23] %%%
+                        %%% ViolaMusicVoice [measure 23] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 24] %%%
+                        %%% ViolaMusicVoice [measure 24] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 25] %%%
+                        %%% ViolaMusicVoice [measure 25] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 26] %%%
+                        %%% ViolaMusicVoice [measure 26] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 27] %%%
+                        %%% ViolaMusicVoice [measure 27] %%%
                         d2 :32 \repeatTie \mp
                         
-                        %%% Viola Music Voice [measure 28] %%%
+                        %%% ViolaMusicVoice [measure 28] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 29] %%%
+                        %%% ViolaMusicVoice [measure 29] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 30] %%%
+                        %%% ViolaMusicVoice [measure 30] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 31] %%%
+                        %%% ViolaMusicVoice [measure 31] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -5956,16 +5956,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d1 :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
                         
-                        %%% Viola Music Voice [measure 32] %%%
+                        %%% ViolaMusicVoice [measure 32] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 33] %%%
+                        %%% ViolaMusicVoice [measure 33] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 34] %%%
+                        %%% ViolaMusicVoice [measure 34] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 35] %%%
+                        %%% ViolaMusicVoice [measure 35] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -5988,34 +5988,34 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
                         
-                        %%% Viola Music Voice [measure 36] %%%
+                        %%% ViolaMusicVoice [measure 36] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 37] %%%
+                        %%% ViolaMusicVoice [measure 37] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 38] %%%
+                        %%% ViolaMusicVoice [measure 38] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 39] %%%
+                        %%% ViolaMusicVoice [measure 39] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 40] %%%
+                        %%% ViolaMusicVoice [measure 40] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 41] %%%
+                        %%% ViolaMusicVoice [measure 41] %%%
                         d2. :32 \repeatTie \mp
                         
-                        %%% Viola Music Voice [measure 42] %%%
+                        %%% ViolaMusicVoice [measure 42] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 43] %%%
+                        %%% ViolaMusicVoice [measure 43] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 44] %%%
+                        %%% ViolaMusicVoice [measure 44] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 45] %%%
+                        %%% ViolaMusicVoice [measure 45] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6038,22 +6038,22 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
                         
-                        %%% Viola Music Voice [measure 46] %%%
+                        %%% ViolaMusicVoice [measure 46] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 47] %%%
+                        %%% ViolaMusicVoice [measure 47] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 48] %%%
+                        %%% ViolaMusicVoice [measure 48] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 49] %%%
+                        %%% ViolaMusicVoice [measure 49] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 50] %%%
+                        %%% ViolaMusicVoice [measure 50] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 51] %%%
+                        %%% ViolaMusicVoice [measure 51] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6076,34 +6076,34 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \repeatTie \stopTextSpan \< \pp \startTextSpan \startTextSpan
                         
-                        %%% Viola Music Voice [measure 52] %%%
+                        %%% ViolaMusicVoice [measure 52] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 53] %%%
+                        %%% ViolaMusicVoice [measure 53] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 54] %%%
+                        %%% ViolaMusicVoice [measure 54] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 55] %%%
+                        %%% ViolaMusicVoice [measure 55] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 56] %%%
+                        %%% ViolaMusicVoice [measure 56] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 57] %%%
+                        %%% ViolaMusicVoice [measure 57] %%%
                         d2. :32 \repeatTie \mp
                         
-                        %%% Viola Music Voice [measure 58] %%%
+                        %%% ViolaMusicVoice [measure 58] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 59] %%%
+                        %%% ViolaMusicVoice [measure 59] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 60] %%%
+                        %%% ViolaMusicVoice [measure 60] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 61] %%%
+                        %%% ViolaMusicVoice [measure 61] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6126,23 +6126,23 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d2. :32 \pp \repeatTie \stopTextSpan \startTextSpan \startTextSpan
                         
-                        %%% Viola Music Voice [measure 62] %%%
+                        %%% ViolaMusicVoice [measure 62] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 63] %%%
+                        %%% ViolaMusicVoice [measure 63] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 64] %%%
+                        %%% ViolaMusicVoice [measure 64] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 65] %%%
+                        %%% ViolaMusicVoice [measure 65] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 66] %%%
+                        %%% ViolaMusicVoice [measure 66] %%%
                         d1 :32 \repeatTie
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 67] %%%
+                            %%% ViolaMusicVoice [measure 67] %%%
                             r4 \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -6227,7 +6227,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 68] %%%
+                            %%% ViolaMusicVoice [measure 68] %%%
                             r4
                             
                             \once \override Accidental.color = #red
@@ -6296,7 +6296,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 69] %%%
+                            %%% ViolaMusicVoice [measure 69] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6333,17 +6333,17 @@
                         
                         r4
                         
-                        %%% Viola Music Voice [measure 70] %%%
+                        %%% ViolaMusicVoice [measure 70] %%%
                         r1
                         
-                        %%% Viola Music Voice [measure 71] %%%
+                        %%% ViolaMusicVoice [measure 71] %%%
                         r2
                         
-                        %%% Viola Music Voice [measure 72] %%%
+                        %%% ViolaMusicVoice [measure 72] %%%
                         r1
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 73] %%%
+                            %%% ViolaMusicVoice [measure 73] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6428,7 +6428,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 74] %%%
+                            %%% ViolaMusicVoice [measure 74] %%%
                             r4
                             
                             \once \override Accidental.color = #red
@@ -6483,7 +6483,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Viola Music Voice [measure 75] %%%
+                        %%% ViolaMusicVoice [measure 75] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6512,31 +6512,31 @@
                                         XFB
                                 }
                         
-                        %%% Viola Music Voice [measure 76] %%%
+                        %%% ViolaMusicVoice [measure 76] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 77] %%%
+                        %%% ViolaMusicVoice [measure 77] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 78] %%%
+                        %%% ViolaMusicVoice [measure 78] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 79] %%%
+                        %%% ViolaMusicVoice [measure 79] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 80] %%%
+                        %%% ViolaMusicVoice [measure 80] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 81] %%%
+                        %%% ViolaMusicVoice [measure 81] %%%
                         d2 :32 \repeatTie \mp
                         
-                        %%% Viola Music Voice [measure 82] %%%
+                        %%% ViolaMusicVoice [measure 82] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 83] %%%
+                        %%% ViolaMusicVoice [measure 83] %%%
                         d2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 84] %%%
+                        %%% ViolaMusicVoice [measure 84] %%%
                         d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
@@ -6544,7 +6544,7 @@
                             }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 85] %%%
+                            %%% ViolaMusicVoice [measure 85] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6614,7 +6614,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 86] %%%
+                            %%% ViolaMusicVoice [measure 86] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6670,7 +6670,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 87] %%%
+                            %%% ViolaMusicVoice [measure 87] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6716,16 +6716,16 @@
                         
                         r2
                         
-                        %%% Viola Music Voice [measure 88] %%%
+                        %%% ViolaMusicVoice [measure 88] %%%
                         r2
                         
-                        %%% Viola Music Voice [measure 89] %%%
+                        %%% ViolaMusicVoice [measure 89] %%%
                         r2.
                         
-                        %%% Viola Music Voice [measure 90] %%%
+                        %%% ViolaMusicVoice [measure 90] %%%
                         r1
                         
-                        %%% Viola Music Voice [measure 91] %%%
+                        %%% ViolaMusicVoice [measure 91] %%%
                         r4
                         \times 2/3 {
                             
@@ -6771,7 +6771,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 92] %%%
+                            %%% ViolaMusicVoice [measure 92] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6850,7 +6850,7 @@
                             r8
                         }
                         
-                        %%% Viola Music Voice [measure 93] %%%
+                        %%% ViolaMusicVoice [measure 93] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6879,13 +6879,13 @@
                                         XFB
                                 }
                         
-                        %%% Viola Music Voice [measure 94] %%%
+                        %%% ViolaMusicVoice [measure 94] %%%
                         d1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 95] %%%
+                        %%% ViolaMusicVoice [measure 95] %%%
                         d2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 96] %%%
+                        %%% ViolaMusicVoice [measure 96] %%%
                         d1 :32 \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
@@ -6896,10 +6896,10 @@
                     }
                 }
                 \tag cello
-                \context CelloMusicStaff = "Cello Music Staff" {
-                    \context CelloMusicVoice = "Cello Music Voice" {
+                \context CelloMusicStaff = "CelloMusicStaff" {
+                    \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% Cello Music Voice [measure 5] %%%
+                        %%% CelloMusicVoice [measure 5] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6935,74 +6935,74 @@
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         d,2. \< \p \startTextSpan
                         
-                        %%% Cello Music Voice [measure 6] %%%
+                        %%% CelloMusicVoice [measure 6] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 7] %%%
+                        %%% CelloMusicVoice [measure 7] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 8] %%%
+                        %%% CelloMusicVoice [measure 8] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 9] %%%
+                        %%% CelloMusicVoice [measure 9] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 10] %%%
+                        %%% CelloMusicVoice [measure 10] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 11] %%%
+                        %%% CelloMusicVoice [measure 11] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 12] %%%
+                        %%% CelloMusicVoice [measure 12] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 13] %%%
+                        %%% CelloMusicVoice [measure 13] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 14] %%%
+                        %%% CelloMusicVoice [measure 14] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 15] %%%
+                        %%% CelloMusicVoice [measure 15] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 16] %%%
+                        %%% CelloMusicVoice [measure 16] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 17] %%%
+                        %%% CelloMusicVoice [measure 17] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 18] %%%
+                        %%% CelloMusicVoice [measure 18] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 19] %%%
+                        %%% CelloMusicVoice [measure 19] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 20] %%%
+                        %%% CelloMusicVoice [measure 20] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 21] %%%
+                        %%% CelloMusicVoice [measure 21] %%%
                         d,2. \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "PO (+poco vib.)"
                             }
                         
-                        %%% Cello Music Voice [measure 22] %%%
+                        %%% CelloMusicVoice [measure 22] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 23] %%%
+                        %%% CelloMusicVoice [measure 23] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 24] %%%
+                        %%% CelloMusicVoice [measure 24] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 25] %%%
+                        %%% CelloMusicVoice [measure 25] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 26] %%%
+                        %%% CelloMusicVoice [measure 26] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 27] %%%
+                        %%% CelloMusicVoice [measure 27] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -7025,80 +7025,80 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d,2 \repeatTie \> \f \startTextSpan
                         
-                        %%% Cello Music Voice [measure 28] %%%
+                        %%% CelloMusicVoice [measure 28] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 29] %%%
+                        %%% CelloMusicVoice [measure 29] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 30] %%%
+                        %%% CelloMusicVoice [measure 30] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 31] %%%
+                        %%% CelloMusicVoice [measure 31] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 32] %%%
+                        %%% CelloMusicVoice [measure 32] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 33] %%%
+                        %%% CelloMusicVoice [measure 33] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 34] %%%
+                        %%% CelloMusicVoice [measure 34] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 35] %%%
+                        %%% CelloMusicVoice [measure 35] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 36] %%%
+                        %%% CelloMusicVoice [measure 36] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 37] %%%
+                        %%% CelloMusicVoice [measure 37] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 38] %%%
+                        %%% CelloMusicVoice [measure 38] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 39] %%%
+                        %%% CelloMusicVoice [measure 39] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 40] %%%
+                        %%% CelloMusicVoice [measure 40] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 41] %%%
+                        %%% CelloMusicVoice [measure 41] %%%
                         d,2. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "tasto (+poco vib.)"
                             }
                         
-                        %%% Cello Music Voice [measure 42] %%%
+                        %%% CelloMusicVoice [measure 42] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 43] %%%
+                        %%% CelloMusicVoice [measure 43] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 44] %%%
+                        %%% CelloMusicVoice [measure 44] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 45] %%%
+                        %%% CelloMusicVoice [measure 45] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 46] %%%
+                        %%% CelloMusicVoice [measure 46] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 47] %%%
+                        %%% CelloMusicVoice [measure 47] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 48] %%%
+                        %%% CelloMusicVoice [measure 48] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 49] %%%
+                        %%% CelloMusicVoice [measure 49] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 50] %%%
+                        %%% CelloMusicVoice [measure 50] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 51] %%%
+                        %%% CelloMusicVoice [measure 51] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -7121,56 +7121,56 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d,2. \repeatTie \< \p \startTextSpan
                         
-                        %%% Cello Music Voice [measure 52] %%%
+                        %%% CelloMusicVoice [measure 52] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 53] %%%
+                        %%% CelloMusicVoice [measure 53] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 54] %%%
+                        %%% CelloMusicVoice [measure 54] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 55] %%%
+                        %%% CelloMusicVoice [measure 55] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 56] %%%
+                        %%% CelloMusicVoice [measure 56] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 57] %%%
+                        %%% CelloMusicVoice [measure 57] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 58] %%%
+                        %%% CelloMusicVoice [measure 58] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 59] %%%
+                        %%% CelloMusicVoice [measure 59] %%%
                         d,2. \repeatTie \ff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "poco pont. + vib. mod."
                             }
                         
-                        %%% Cello Music Voice [measure 60] %%%
+                        %%% CelloMusicVoice [measure 60] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 61] %%%
+                        %%% CelloMusicVoice [measure 61] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 62] %%%
+                        %%% CelloMusicVoice [measure 62] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 63] %%%
+                        %%% CelloMusicVoice [measure 63] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 64] %%%
+                        %%% CelloMusicVoice [measure 64] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 65] %%%
+                        %%% CelloMusicVoice [measure 65] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 66] %%%
+                        %%% CelloMusicVoice [measure 66] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 67] %%%
+                        %%% CelloMusicVoice [measure 67] %%%
                         d,2. \ppp \repeatTie
                             ^ \markup {
                                 \whiteout
@@ -7178,28 +7178,28 @@
                                         "(poco pont.+) sub. non vib."
                                 }
                         
-                        %%% Cello Music Voice [measure 68] %%%
+                        %%% CelloMusicVoice [measure 68] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 69] %%%
+                        %%% CelloMusicVoice [measure 69] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 70] %%%
+                        %%% CelloMusicVoice [measure 70] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 71] %%%
+                        %%% CelloMusicVoice [measure 71] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 72] %%%
+                        %%% CelloMusicVoice [measure 72] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 73] %%%
+                        %%% CelloMusicVoice [measure 73] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 74] %%%
+                        %%% CelloMusicVoice [measure 74] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 75] %%%
+                        %%% CelloMusicVoice [measure 75] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -7222,34 +7222,34 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d,2 \repeatTie \> \ff \startTextSpan
                         
-                        %%% Cello Music Voice [measure 76] %%%
+                        %%% CelloMusicVoice [measure 76] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 77] %%%
+                        %%% CelloMusicVoice [measure 77] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 78] %%%
+                        %%% CelloMusicVoice [measure 78] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 79] %%%
+                        %%% CelloMusicVoice [measure 79] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 80] %%%
+                        %%% CelloMusicVoice [measure 80] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 81] %%%
+                        %%% CelloMusicVoice [measure 81] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 82] %%%
+                        %%% CelloMusicVoice [measure 82] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 83] %%%
+                        %%% CelloMusicVoice [measure 83] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 84] %%%
+                        %%% CelloMusicVoice [measure 84] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 85] %%%
+                        %%% CelloMusicVoice [measure 85] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -7272,41 +7272,41 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d,2 \repeatTie \pp \stopTextSpan \< \pp \startTextSpan \startTextSpan
                         
-                        %%% Cello Music Voice [measure 86] %%%
+                        %%% CelloMusicVoice [measure 86] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 87] %%%
+                        %%% CelloMusicVoice [measure 87] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 88] %%%
+                        %%% CelloMusicVoice [measure 88] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 89] %%%
+                        %%% CelloMusicVoice [measure 89] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 90] %%%
+                        %%% CelloMusicVoice [measure 90] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 91] %%%
+                        %%% CelloMusicVoice [measure 91] %%%
                         d,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 92] %%%
+                        %%% CelloMusicVoice [measure 92] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 93] %%%
+                        %%% CelloMusicVoice [measure 93] %%%
                         d,2. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "(tasto+) poco vib."
                             }
                         
-                        %%% Cello Music Voice [measure 94] %%%
+                        %%% CelloMusicVoice [measure 94] %%%
                         d,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 95] %%%
+                        %%% CelloMusicVoice [measure 95] %%%
                         d,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 96] %%%
+                        %%% CelloMusicVoice [measure 96] %%%
                         d,1 \repeatTie
                         \bar "|"
                         

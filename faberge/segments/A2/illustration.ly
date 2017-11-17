@@ -511,13 +511,13 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" <<
-            \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+        \context MusicContext = "MusicContext" <<
+            \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
                 \tag flute
-                \context FluteMusicStaff = "Flute Music Staff" {
-                    \context FluteMusicVoice = "Flute Music Voice" {
+                \context FluteMusicStaff = "FluteMusicStaff" {
+                    \context FluteMusicVoice = "FluteMusicVoice" {
                         
-                        %%% Flute Music Voice [measure 97] %%%
+                        %%% FluteMusicVoice [measure 97] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -577,7 +577,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Flute Music Voice [measure 98] %%%
+                            %%% FluteMusicVoice [measure 98] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -641,7 +641,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 99] %%%
+                        %%% FluteMusicVoice [measure 99] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -654,7 +654,7 @@
                         
                         r4
                         
-                        %%% Flute Music Voice [measure 100] %%%
+                        %%% FluteMusicVoice [measure 100] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -692,7 +692,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 101] %%%
+                        %%% FluteMusicVoice [measure 101] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -722,7 +722,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Flute Music Voice [measure 102] %%%
+                        %%% FluteMusicVoice [measure 102] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -733,7 +733,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 103] %%%
+                        %%% FluteMusicVoice [measure 103] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -743,7 +743,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 104] %%%
+                        %%% FluteMusicVoice [measure 104] %%%
                         r4
                         
                         \once \override Hairpin.circled-tip = ##t
@@ -758,7 +758,7 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 105] %%%
+                        %%% FluteMusicVoice [measure 105] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g'2. \<
                             ^ \markup {
@@ -769,13 +769,13 @@
                                             2
                                 }
                         
-                        %%% Flute Music Voice [measure 106] %%%
+                        %%% FluteMusicVoice [measure 106] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g'4 \repeatTie \mp \> \mp
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 107] %%%
+                        %%% FluteMusicVoice [measure 107] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -858,7 +858,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Flute Music Voice [measure 108] %%%
+                        %%% FluteMusicVoice [measure 108] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -871,7 +871,7 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 109] %%%
+                        %%% FluteMusicVoice [measure 109] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -902,7 +902,7 @@
                                             1
                                 }
                         
-                        %%% Flute Music Voice [measure 110] %%%
+                        %%% FluteMusicVoice [measure 110] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -982,7 +982,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Flute Music Voice [measure 111] %%%
+                            %%% FluteMusicVoice [measure 111] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1062,7 +1062,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 112] %%%
+                        %%% FluteMusicVoice [measure 112] %%%
                         r4
                         
                         g''2 :32
@@ -1076,7 +1076,7 @@
                         
                         r4
                         
-                        %%% Flute Music Voice [measure 113] %%%
+                        %%% FluteMusicVoice [measure 113] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1114,7 +1114,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 114] %%%
+                            %%% FluteMusicVoice [measure 114] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1231,7 +1231,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Flute Music Voice [measure 115] %%%
+                        %%% FluteMusicVoice [measure 115] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1242,7 +1242,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 116] %%%
+                        %%% FluteMusicVoice [measure 116] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1314,7 +1314,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 117] %%%
+                        %%% FluteMusicVoice [measure 117] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1404,7 +1404,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 118] %%%
+                        %%% FluteMusicVoice [measure 118] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1417,7 +1417,7 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 119] %%%
+                        %%% FluteMusicVoice [measure 119] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1448,7 +1448,7 @@
                                             2
                                 }
                         
-                        %%% Flute Music Voice [measure 120] %%%
+                        %%% FluteMusicVoice [measure 120] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1458,7 +1458,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 121] %%%
+                        %%% FluteMusicVoice [measure 121] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1516,7 +1516,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Flute Music Voice [measure 122] %%%
+                        %%% FluteMusicVoice [measure 122] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1529,7 +1529,7 @@
                         
                         r2 \!
                         
-                        %%% Flute Music Voice [measure 123] %%%
+                        %%% FluteMusicVoice [measure 123] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1686,7 +1686,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 124] %%%
+                        %%% FluteMusicVoice [measure 124] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1725,7 +1725,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 125] %%%
+                        %%% FluteMusicVoice [measure 125] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1735,7 +1735,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 126] %%%
+                        %%% FluteMusicVoice [measure 126] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1748,7 +1748,7 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 127] %%%
+                        %%% FluteMusicVoice [measure 127] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1766,7 +1766,7 @@
                                             1
                                 }
                         
-                        %%% Flute Music Voice [measure 128] %%%
+                        %%% FluteMusicVoice [measure 128] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1814,7 +1814,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Flute Music Voice [measure 129] %%%
+                            %%% FluteMusicVoice [measure 129] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1844,7 +1844,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 130] %%%
+                        %%% FluteMusicVoice [measure 130] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1872,7 +1872,7 @@
                                             1
                                 }
                         
-                        %%% Flute Music Voice [measure 131] %%%
+                        %%% FluteMusicVoice [measure 131] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1926,7 +1926,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 132] %%%
+                        %%% FluteMusicVoice [measure 132] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1939,7 +1939,7 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 133] %%%
+                        %%% FluteMusicVoice [measure 133] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2040,7 +2040,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 134] %%%
+                            %%% FluteMusicVoice [measure 134] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2098,7 +2098,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Flute Music Voice [measure 135] %%%
+                        %%% FluteMusicVoice [measure 135] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2108,7 +2108,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 136] %%%
+                        %%% FluteMusicVoice [measure 136] %%%
                         r4
                         
                         \once \override Accidental.color = #red
@@ -2156,7 +2156,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 137] %%%
+                        %%% FluteMusicVoice [measure 137] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2203,7 +2203,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 138] %%%
+                        %%% FluteMusicVoice [measure 138] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2213,7 +2213,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 139] %%%
+                        %%% FluteMusicVoice [measure 139] %%%
                         r4
                         
                         \once \override Accidental.color = #red
@@ -2232,7 +2232,7 @@
                                             2
                                 }
                         
-                        %%% Flute Music Voice [measure 140] %%%
+                        %%% FluteMusicVoice [measure 140] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2282,7 +2282,7 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 141] %%%
+                        %%% FluteMusicVoice [measure 141] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2313,7 +2313,7 @@
                                             2
                                 }
                         
-                        %%% Flute Music Voice [measure 142] %%%
+                        %%% FluteMusicVoice [measure 142] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2351,7 +2351,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 143] %%%
+                            %%% FluteMusicVoice [measure 143] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2400,10 +2400,10 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 144] %%%
+                        %%% FluteMusicVoice [measure 144] %%%
                         r2 \!
                         
-                        %%% Flute Music Voice [measure 145] %%%
+                        %%% FluteMusicVoice [measure 145] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2450,7 +2450,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Flute Music Voice [measure 146] %%%
+                            %%% FluteMusicVoice [measure 146] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2533,7 +2533,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 147] %%%
+                        %%% FluteMusicVoice [measure 147] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2546,7 +2546,7 @@
                         
                         r4
                         
-                        %%% Flute Music Voice [measure 148] %%%
+                        %%% FluteMusicVoice [measure 148] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g''4 \> \p
                             ^ \markup {
@@ -2559,7 +2559,7 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 149] %%%
+                        %%% FluteMusicVoice [measure 149] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g''2. \<
                             ^ \markup {
@@ -2570,13 +2570,13 @@
                                             1
                                 }
                         
-                        %%% Flute Music Voice [measure 150] %%%
+                        %%% FluteMusicVoice [measure 150] %%%
                         \once \override Hairpin.circled-tip = ##t
                         g''4 \repeatTie \pp \> \pp
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 151] %%%
+                        %%% FluteMusicVoice [measure 151] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2623,7 +2623,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Flute Music Voice [measure 152] %%%
+                            %%% FluteMusicVoice [measure 152] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2722,7 +2722,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Flute Music Voice [measure 153] %%%
+                        %%% FluteMusicVoice [measure 153] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2733,7 +2733,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 154] %%%
+                        %%% FluteMusicVoice [measure 154] %%%
                         r4
                         
                         \once \override Accidental.color = #red
@@ -2753,7 +2753,7 @@
                                 }
                         \times 2/3 {
                             
-                            %%% Flute Music Voice [measure 155] %%%
+                            %%% FluteMusicVoice [measure 155] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2859,7 +2859,7 @@
                                     }
                         }
                         
-                        %%% Flute Music Voice [measure 156] %%%
+                        %%% FluteMusicVoice [measure 156] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2873,10 +2873,10 @@
                         
                         r4 \!
                         
-                        %%% Flute Music Voice [measure 157] %%%
+                        %%% FluteMusicVoice [measure 157] %%%
                         R1 * 27/4
                         
-                        %%% Flute Music Voice [measure 165] %%%
+                        %%% FluteMusicVoice [measure 165] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2887,7 +2887,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 166] %%%
+                        %%% FluteMusicVoice [measure 166] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2967,7 +2967,7 @@
                         }
                         {
                             
-                            %%% Flute Music Voice [measure 167] %%%
+                            %%% FluteMusicVoice [measure 167] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -3004,7 +3004,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Flute Music Voice [measure 168] %%%
+                        %%% FluteMusicVoice [measure 168] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -3017,17 +3017,17 @@
                         
                         r2 \!
                         
-                        %%% Flute Music Voice [measure 169] %%%
+                        %%% FluteMusicVoice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
                         
                     }
                 }
                 \tag english_horn
-                \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
+                    \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                         
-                        %%% English Horn Music Voice [measure 97] %%%
+                        %%% EnglishHornMusicVoice [measure 97] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -3087,7 +3087,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 98] %%%
+                            %%% EnglishHornMusicVoice [measure 98] %%%
                             r8
                             
                             bf'4
@@ -3108,7 +3108,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 99] %%%
+                            %%% EnglishHornMusicVoice [measure 99] %%%
                             r8
                             
                             ef'16 [
@@ -3143,7 +3143,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 100] %%%
+                            %%% EnglishHornMusicVoice [measure 100] %%%
                             r8
                             
                             bf'8
@@ -3155,7 +3155,7 @@
                             a'4
                         }
                         
-                        %%% English Horn Music Voice [measure 101] %%%
+                        %%% EnglishHornMusicVoice [measure 101] %%%
                         r4
                         \times 4/5 {
                             
@@ -3171,7 +3171,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 102] %%%
+                            %%% EnglishHornMusicVoice [measure 102] %%%
                             r8
                             
                             d'16 [
@@ -3191,7 +3191,7 @@
                             eqs'16 ]
                         }
                         
-                        %%% English Horn Music Voice [measure 103] %%%
+                        %%% EnglishHornMusicVoice [measure 103] %%%
                         r4
                         \times 4/5 {
                             
@@ -3213,7 +3213,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 104] %%%
+                            %%% EnglishHornMusicVoice [measure 104] %%%
                             r8
                             
                             ef'4
@@ -3234,7 +3234,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 105] %%%
+                            %%% EnglishHornMusicVoice [measure 105] %%%
                             r8
                             
                             aqf'16 [
@@ -3257,7 +3257,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 106] %%%
+                            %%% EnglishHornMusicVoice [measure 106] %%%
                             r16
                             
                             e'16 [
@@ -3276,7 +3276,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 107] %%%
+                            %%% EnglishHornMusicVoice [measure 107] %%%
                             r8
                             
                             fqs'4
@@ -3297,7 +3297,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 108] %%%
+                            %%% EnglishHornMusicVoice [measure 108] %%%
                             r8
                             
                             cs'16 [
@@ -3318,7 +3318,7 @@
                             \revert NoteHead.style
                         }
                         
-                        %%% English Horn Music Voice [measure 109] %%%
+                        %%% EnglishHornMusicVoice [measure 109] %%%
                         r4
                         
                         r16
@@ -3331,7 +3331,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         atqf'8. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 110] %%%
+                        %%% EnglishHornMusicVoice [measure 110] %%%
                         atqf'16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -3339,7 +3339,7 @@
                         
                         atqf'4..
                         
-                        %%% English Horn Music Voice [measure 111] %%%
+                        %%% EnglishHornMusicVoice [measure 111] %%%
                         atqf'2 \repeatTie
                         
                         atqf'16 \repeatTie [
@@ -3347,10 +3347,10 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         aqf'8. ]
                         
-                        %%% English Horn Music Voice [measure 112] %%%
+                        %%% EnglishHornMusicVoice [measure 112] %%%
                         aqf'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 113] %%%
+                        %%% EnglishHornMusicVoice [measure 113] %%%
                         r4 \stopTrillSpan
                         {
                             
@@ -3379,7 +3379,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 114] %%%
+                            %%% EnglishHornMusicVoice [measure 114] %%%
                             r16
                             
                             bf'16 [
@@ -3404,7 +3404,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 115] %%%
+                            %%% EnglishHornMusicVoice [measure 115] %%%
                             r16
                             
                             a'16 [
@@ -3428,7 +3428,7 @@
                             d'16 ]
                         }
                         
-                        %%% English Horn Music Voice [measure 116] %%%
+                        %%% EnglishHornMusicVoice [measure 116] %%%
                         r4
                         {
                             
@@ -3451,7 +3451,7 @@
                             aqf'8. ]
                         }
                         
-                        %%% English Horn Music Voice [measure 117] %%%
+                        %%% EnglishHornMusicVoice [measure 117] %%%
                         r4
                         \times 2/3 {
                             
@@ -3481,7 +3481,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 118] %%%
+                            %%% EnglishHornMusicVoice [measure 118] %%%
                             r16
                             
                             f'16 [
@@ -3502,7 +3502,7 @@
                             \revert NoteHead.style
                         }
                         
-                        %%% English Horn Music Voice [measure 119] %%%
+                        %%% EnglishHornMusicVoice [measure 119] %%%
                         r4
                         
                         r16
@@ -3510,10 +3510,10 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         a'8. \ff \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 120] %%%
+                        %%% EnglishHornMusicVoice [measure 120] %%%
                         a'2. \repeatTie
                         
-                        %%% English Horn Music Voice [measure 121] %%%
+                        %%% EnglishHornMusicVoice [measure 121] %%%
                         a'2 \repeatTie
                         
                         r16 \stopTrillSpan
@@ -3521,29 +3521,29 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         aqs'8. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 122] %%%
+                        %%% EnglishHornMusicVoice [measure 122] %%%
                         r16 \stopTrillSpan
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         aqf'2... \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 123] %%%
+                        %%% EnglishHornMusicVoice [measure 123] %%%
                         aqf'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 124] %%%
+                        %%% EnglishHornMusicVoice [measure 124] %%%
                         aqf'4 \repeatTie
                         
                         r16 \stopTrillSpan
                         
                         af'4.. \startTrillSpan
                         
-                        %%% English Horn Music Voice [measure 125] %%%
+                        %%% EnglishHornMusicVoice [measure 125] %%%
                         aqf'2
                         
-                        %%% English Horn Music Voice [measure 126] %%%
+                        %%% EnglishHornMusicVoice [measure 126] %%%
                         r2 \stopTrillSpan
                         
-                        %%% English Horn Music Voice [measure 127] %%%
+                        %%% EnglishHornMusicVoice [measure 127] %%%
                         bf'2. \fff \startTrillSpan
                             ^ \markup {
                                 \whiteout
@@ -3554,22 +3554,22 @@
                                                 doubletrill!
                                 }
                         
-                        %%% English Horn Music Voice [measure 128] %%%
+                        %%% EnglishHornMusicVoice [measure 128] %%%
                         bf'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 129] %%%
+                        %%% EnglishHornMusicVoice [measure 129] %%%
                         bf'2 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 130] %%%
+                        %%% EnglishHornMusicVoice [measure 130] %%%
                         bf'2. \repeatTie
                         
-                        %%% English Horn Music Voice [measure 131] %%%
+                        %%% EnglishHornMusicVoice [measure 131] %%%
                         bf'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 132] %%%
+                        %%% EnglishHornMusicVoice [measure 132] %%%
                         bf'2 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 133] %%%
+                        %%% EnglishHornMusicVoice [measure 133] %%%
                         b'2. \fff \stopTrillSpan \startTrillSpan
                             ^ \markup {
                                 \whiteout
@@ -3580,28 +3580,28 @@
                                                 doubletrill!
                                 }
                         
-                        %%% English Horn Music Voice [measure 134] %%%
+                        %%% EnglishHornMusicVoice [measure 134] %%%
                         b'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 135] %%%
+                        %%% EnglishHornMusicVoice [measure 135] %%%
                         b'2. \repeatTie
                         
-                        %%% English Horn Music Voice [measure 136] %%%
+                        %%% EnglishHornMusicVoice [measure 136] %%%
                         b'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 137] %%%
+                        %%% EnglishHornMusicVoice [measure 137] %%%
                         b'2. \repeatTie
                         
-                        %%% English Horn Music Voice [measure 138] %%%
+                        %%% EnglishHornMusicVoice [measure 138] %%%
                         b'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 139] %%%
+                        %%% EnglishHornMusicVoice [measure 139] %%%
                         b'2 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 140] %%%
+                        %%% EnglishHornMusicVoice [measure 140] %%%
                         b'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 141] %%%
+                        %%% EnglishHornMusicVoice [measure 141] %%%
                         r4 \stopTrillSpan
                         \times 4/5 {
                             
@@ -3630,7 +3630,7 @@
                             aqf'4
                         }
                         
-                        %%% English Horn Music Voice [measure 142] %%%
+                        %%% EnglishHornMusicVoice [measure 142] %%%
                         r4
                         \times 4/5 {
                             
@@ -3646,7 +3646,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 143] %%%
+                            %%% EnglishHornMusicVoice [measure 143] %%%
                             r8
                             
                             fqs'16 [
@@ -3669,7 +3669,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 144] %%%
+                            %%% EnglishHornMusicVoice [measure 144] %%%
                             r16
                             
                             aqf'16 [
@@ -3688,7 +3688,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 145] %%%
+                            %%% EnglishHornMusicVoice [measure 145] %%%
                             r8
                             
                             e'4
@@ -3703,7 +3703,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 146] %%%
+                            %%% EnglishHornMusicVoice [measure 146] %%%
                             r4
                             
                             ef'8
@@ -3732,7 +3732,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 147] %%%
+                            %%% EnglishHornMusicVoice [measure 147] %%%
                             r16
                             
                             eqs'16 [
@@ -3759,7 +3759,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 148] %%%
+                            %%% EnglishHornMusicVoice [measure 148] %%%
                             r16
                             
                             ef'4
@@ -3772,7 +3772,7 @@
                         }
                         {
                             
-                            %%% English Horn Music Voice [measure 149] %%%
+                            %%% EnglishHornMusicVoice [measure 149] %%%
                             r8
                             
                             gs'16 [
@@ -3795,7 +3795,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 150] %%%
+                            %%% EnglishHornMusicVoice [measure 150] %%%
                             r16
                             
                             d'16 [
@@ -3814,7 +3814,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 151] %%%
+                            %%% EnglishHornMusicVoice [measure 151] %%%
                             r8
                             
                             bf'4
@@ -3829,7 +3829,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 152] %%%
+                            %%% EnglishHornMusicVoice [measure 152] %%%
                             r4
                             
                             fqs'8
@@ -3858,7 +3858,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 153] %%%
+                            %%% EnglishHornMusicVoice [measure 153] %%%
                             r16
                             
                             cs'16 [
@@ -3882,7 +3882,7 @@
                             eqs'4
                         }
                         
-                        %%% English Horn Music Voice [measure 154] %%%
+                        %%% EnglishHornMusicVoice [measure 154] %%%
                         r4
                         \times 4/5 {
                             
@@ -3892,7 +3892,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% English Horn Music Voice [measure 155] %%%
+                            %%% EnglishHornMusicVoice [measure 155] %%%
                             r4
                             
                             a'8
@@ -3921,7 +3921,7 @@
                         r4
                         \times 4/5 {
                             
-                            %%% English Horn Music Voice [measure 156] %%%
+                            %%% EnglishHornMusicVoice [measure 156] %%%
                             r16
                             
                             bf'16 [
@@ -3940,7 +3940,7 @@
                             \revert NoteHead.style
                         }
                         
-                        %%% English Horn Music Voice [measure 157] %%%
+                        %%% EnglishHornMusicVoice [measure 157] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -3955,28 +3955,28 @@
                                                 "remove staple"
                                 }
                         
-                        %%% English Horn Music Voice [measure 158] %%%
+                        %%% EnglishHornMusicVoice [measure 158] %%%
                         r1
                         
-                        %%% English Horn Music Voice [measure 159] %%%
+                        %%% EnglishHornMusicVoice [measure 159] %%%
                         r2.
                         
-                        %%% English Horn Music Voice [measure 160] %%%
+                        %%% EnglishHornMusicVoice [measure 160] %%%
                         r1
                         
-                        %%% English Horn Music Voice [measure 161] %%%
+                        %%% EnglishHornMusicVoice [measure 161] %%%
                         r2.
                         
-                        %%% English Horn Music Voice [measure 162] %%%
+                        %%% EnglishHornMusicVoice [measure 162] %%%
                         r1
                         
-                        %%% English Horn Music Voice [measure 163] %%%
+                        %%% EnglishHornMusicVoice [measure 163] %%%
                         r2
                         
-                        %%% English Horn Music Voice [measure 164] %%%
+                        %%% EnglishHornMusicVoice [measure 164] %%%
                         r1
                         
-                        %%% English Horn Music Voice [measure 165] %%%
+                        %%% EnglishHornMusicVoice [measure 165] %%%
                         \override RepeatTie.direction = #up
                         c'1
                             ^ \markup {
@@ -3997,27 +3997,27 @@
                                         ”
                                 }
                         
-                        %%% English Horn Music Voice [measure 166] %%%
+                        %%% EnglishHornMusicVoice [measure 166] %%%
                         c'2. \repeatTie
                         
-                        %%% English Horn Music Voice [measure 167] %%%
+                        %%% EnglishHornMusicVoice [measure 167] %%%
                         c'2 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 168] %%%
+                        %%% EnglishHornMusicVoice [measure 168] %%%
                         c'2. \repeatTie
                         \revert RepeatTie.direction
                         
-                        %%% English Horn Music Voice [measure 169] %%%
+                        %%% EnglishHornMusicVoice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
                         
                     }
                 }
                 \tag clarinet
-                \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                    \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                    \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                         
-                        %%% Clarinet Music Voice [measure 97] %%%
+                        %%% ClarinetMusicVoice [measure 97] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -4050,20 +4050,20 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 100] %%%
+                        %%% ClarinetMusicVoice [measure 100] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
                         fqs1 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 102] %%%
+                        %%% ClarinetMusicVoice [measure 102] %%%
                         fqs4 \repeatTie
                         
                         fqs8. \repeatTie
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 103] %%%
+                        %%% ClarinetMusicVoice [measure 103] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
@@ -4073,7 +4073,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 108] %%%
+                        %%% ClarinetMusicVoice [measure 108] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
@@ -4083,7 +4083,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 111] %%%
+                        %%% ClarinetMusicVoice [measure 111] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
@@ -4095,7 +4095,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 113] %%%
+                        %%% ClarinetMusicVoice [measure 113] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
@@ -4105,7 +4105,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 118] %%%
+                        %%% ClarinetMusicVoice [measure 118] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
@@ -4117,7 +4117,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 123] %%%
+                        %%% ClarinetMusicVoice [measure 123] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
@@ -4127,7 +4127,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 126] %%%
+                        %%% ClarinetMusicVoice [measure 126] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
@@ -4137,7 +4137,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 129] %%%
+                        %%% ClarinetMusicVoice [measure 129] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
@@ -4147,7 +4147,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 134] %%%
+                        %%% ClarinetMusicVoice [measure 134] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
@@ -4159,7 +4159,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 137] %%%
+                        %%% ClarinetMusicVoice [measure 137] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
@@ -4171,7 +4171,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 139] %%%
+                        %%% ClarinetMusicVoice [measure 139] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
@@ -4181,14 +4181,14 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 144] %%%
+                        %%% ClarinetMusicVoice [measure 144] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
                         \once \override Hairpin.circled-tip = ##t
                         f\breve. \repeatTie \> \p
                         
-                        %%% Clarinet Music Voice [measure 148] %%%
+                        %%% ClarinetMusicVoice [measure 148] %%%
                         \once \override Hairpin.circled-tip = ##t
                         f4 \repeatTie \! \<
                         
@@ -4196,7 +4196,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 149] %%%
+                        %%% ClarinetMusicVoice [measure 149] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
                         
@@ -4208,7 +4208,7 @@
                         
                         r16 \ppp
                         
-                        %%% Clarinet Music Voice [measure 152] %%%
+                        %%% ClarinetMusicVoice [measure 152] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
                         
@@ -4218,7 +4218,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 153] %%%
+                        %%% ClarinetMusicVoice [measure 153] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ds4
                         
@@ -4228,7 +4228,7 @@
                         
                         r16
                         
-                        %%% Clarinet Music Voice [measure 156] %%%
+                        %%% ClarinetMusicVoice [measure 156] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ds4
                         
@@ -4237,22 +4237,22 @@
                         
                         r16 \!
                         
-                        %%% Clarinet Music Voice [measure 157] %%%
+                        %%% ClarinetMusicVoice [measure 157] %%%
                         R1 * 27/4
                         
-                        %%% Clarinet Music Voice [measure 165] %%%
+                        %%% ClarinetMusicVoice [measure 165] %%%
                         \once \override Hairpin.circled-tip = ##t
                         d4 \<
                         
                         d2. \repeatTie \ppp
                         
-                        %%% Clarinet Music Voice [measure 166] %%%
+                        %%% ClarinetMusicVoice [measure 166] %%%
                         d2. \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 167] %%%
+                        %%% ClarinetMusicVoice [measure 167] %%%
                         d2 \repeatTie
                         
-                        %%% Clarinet Music Voice [measure 168] %%%
+                        %%% ClarinetMusicVoice [measure 168] %%%
                         d2 \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
@@ -4260,20 +4260,20 @@
                         
                         r16 \!
                         
-                        %%% Clarinet Music Voice [measure 169] %%%
+                        %%% ClarinetMusicVoice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
                         
                     }
                 }
             >>
-            \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+            \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
                 \tag piano
-                \context PianoStaffGroup = "Piano Staff Group" <<
-                    \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                        \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                \context PianoStaffGroup = "PianoStaffGroup" <<
+                    \context PianoRHMusicStaff = "PianoRHMusicStaff" {
+                        \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                             
-                            %%% Piano RH Music Voice [measure 97] %%%
+                            %%% PianoRHMusicVoice [measure 97] %%%
                             \override NoteHead.style = #'harmonic
                             \set PianoStaffGroup.instrumentName = \markup {
                                 \hcenter-in
@@ -4296,392 +4296,392 @@
                                             "to piano"
                                     }
                             
-                            %%% Piano RH Music Voice [measure 98] %%%
+                            %%% PianoRHMusicVoice [measure 98] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 99] %%%
+                            %%% PianoRHMusicVoice [measure 99] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 100] %%%
+                            %%% PianoRHMusicVoice [measure 100] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 101] %%%
+                            %%% PianoRHMusicVoice [measure 101] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 102] %%%
+                            %%% PianoRHMusicVoice [measure 102] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 103] %%%
+                            %%% PianoRHMusicVoice [measure 103] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 104] %%%
+                            %%% PianoRHMusicVoice [measure 104] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 105] %%%
+                            %%% PianoRHMusicVoice [measure 105] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 106] %%%
+                            %%% PianoRHMusicVoice [measure 106] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 107] %%%
+                            %%% PianoRHMusicVoice [measure 107] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 108] %%%
+                            %%% PianoRHMusicVoice [measure 108] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 109] %%%
+                            %%% PianoRHMusicVoice [measure 109] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 110] %%%
+                            %%% PianoRHMusicVoice [measure 110] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 111] %%%
+                            %%% PianoRHMusicVoice [measure 111] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 112] %%%
+                            %%% PianoRHMusicVoice [measure 112] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 113] %%%
+                            %%% PianoRHMusicVoice [measure 113] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 114] %%%
+                            %%% PianoRHMusicVoice [measure 114] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 115] %%%
+                            %%% PianoRHMusicVoice [measure 115] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 116] %%%
+                            %%% PianoRHMusicVoice [measure 116] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 117] %%%
+                            %%% PianoRHMusicVoice [measure 117] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 118] %%%
+                            %%% PianoRHMusicVoice [measure 118] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 119] %%%
+                            %%% PianoRHMusicVoice [measure 119] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 120] %%%
+                            %%% PianoRHMusicVoice [measure 120] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 121] %%%
+                            %%% PianoRHMusicVoice [measure 121] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 122] %%%
+                            %%% PianoRHMusicVoice [measure 122] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 123] %%%
+                            %%% PianoRHMusicVoice [measure 123] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 124] %%%
+                            %%% PianoRHMusicVoice [measure 124] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 125] %%%
+                            %%% PianoRHMusicVoice [measure 125] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 126] %%%
+                            %%% PianoRHMusicVoice [measure 126] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 127] %%%
+                            %%% PianoRHMusicVoice [measure 127] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 128] %%%
+                            %%% PianoRHMusicVoice [measure 128] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 129] %%%
+                            %%% PianoRHMusicVoice [measure 129] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 130] %%%
+                            %%% PianoRHMusicVoice [measure 130] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 131] %%%
+                            %%% PianoRHMusicVoice [measure 131] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 132] %%%
+                            %%% PianoRHMusicVoice [measure 132] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 133] %%%
+                            %%% PianoRHMusicVoice [measure 133] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 134] %%%
+                            %%% PianoRHMusicVoice [measure 134] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 135] %%%
+                            %%% PianoRHMusicVoice [measure 135] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 136] %%%
+                            %%% PianoRHMusicVoice [measure 136] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 137] %%%
+                            %%% PianoRHMusicVoice [measure 137] %%%
                             <ef' f' g' df'' ef''>2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 138] %%%
+                            %%% PianoRHMusicVoice [measure 138] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 139] %%%
+                            %%% PianoRHMusicVoice [measure 139] %%%
                             <ef' f' g' df'' ef''>2 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 140] %%%
+                            %%% PianoRHMusicVoice [measure 140] %%%
                             <ef' f' g' df'' ef''>1 \repeatTie
                             \revert NoteHead.style
                             
-                            %%% Piano RH Music Voice [measure 141] %%%
+                            %%% PianoRHMusicVoice [measure 141] %%%
                             R1 * 28
                             \bar "|."
                             
                         }
                     }
-                    \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                        \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                    \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
+                        \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                             
-                            %%% Piano LH Music Voice [measure 97] %%%
+                            %%% PianoLHMusicVoice [measure 97] %%%
                             \clef "bass"
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 98] %%%
+                            %%% PianoLHMusicVoice [measure 98] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 99] %%%
+                            %%% PianoLHMusicVoice [measure 99] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 100] %%%
+                            %%% PianoLHMusicVoice [measure 100] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 101] %%%
+                            %%% PianoLHMusicVoice [measure 101] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 102] %%%
+                            %%% PianoLHMusicVoice [measure 102] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 103] %%%
+                            %%% PianoLHMusicVoice [measure 103] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 104] %%%
+                            %%% PianoLHMusicVoice [measure 104] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 105] %%%
+                            %%% PianoLHMusicVoice [measure 105] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 106] %%%
+                            %%% PianoLHMusicVoice [measure 106] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 107] %%%
+                            %%% PianoLHMusicVoice [measure 107] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 108] %%%
+                            %%% PianoLHMusicVoice [measure 108] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 109] %%%
+                            %%% PianoLHMusicVoice [measure 109] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 110] %%%
+                            %%% PianoLHMusicVoice [measure 110] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 111] %%%
+                            %%% PianoLHMusicVoice [measure 111] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 112] %%%
+                            %%% PianoLHMusicVoice [measure 112] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 113] %%%
+                            %%% PianoLHMusicVoice [measure 113] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 114] %%%
+                            %%% PianoLHMusicVoice [measure 114] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 115] %%%
+                            %%% PianoLHMusicVoice [measure 115] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 116] %%%
+                            %%% PianoLHMusicVoice [measure 116] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 117] %%%
+                            %%% PianoLHMusicVoice [measure 117] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 118] %%%
+                            %%% PianoLHMusicVoice [measure 118] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 119] %%%
+                            %%% PianoLHMusicVoice [measure 119] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 120] %%%
+                            %%% PianoLHMusicVoice [measure 120] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 121] %%%
+                            %%% PianoLHMusicVoice [measure 121] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 122] %%%
+                            %%% PianoLHMusicVoice [measure 122] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 123] %%%
+                            %%% PianoLHMusicVoice [measure 123] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 124] %%%
+                            %%% PianoLHMusicVoice [measure 124] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 125] %%%
+                            %%% PianoLHMusicVoice [measure 125] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 126] %%%
+                            %%% PianoLHMusicVoice [measure 126] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 127] %%%
+                            %%% PianoLHMusicVoice [measure 127] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 128] %%%
+                            %%% PianoLHMusicVoice [measure 128] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 129] %%%
+                            %%% PianoLHMusicVoice [measure 129] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 130] %%%
+                            %%% PianoLHMusicVoice [measure 130] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 131] %%%
+                            %%% PianoLHMusicVoice [measure 131] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 132] %%%
+                            %%% PianoLHMusicVoice [measure 132] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 133] %%%
+                            %%% PianoLHMusicVoice [measure 133] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 134] %%%
+                            %%% PianoLHMusicVoice [measure 134] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 135] %%%
+                            %%% PianoLHMusicVoice [measure 135] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 136] %%%
+                            %%% PianoLHMusicVoice [measure 136] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 137] %%%
+                            %%% PianoLHMusicVoice [measure 137] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 138] %%%
+                            %%% PianoLHMusicVoice [measure 138] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 139] %%%
+                            %%% PianoLHMusicVoice [measure 139] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 140] %%%
+                            %%% PianoLHMusicVoice [measure 140] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 141] %%%
+                            %%% PianoLHMusicVoice [measure 141] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 142] %%%
+                            %%% PianoLHMusicVoice [measure 142] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 143] %%%
+                            %%% PianoLHMusicVoice [measure 143] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 144] %%%
+                            %%% PianoLHMusicVoice [measure 144] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 145] %%%
+                            %%% PianoLHMusicVoice [measure 145] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 146] %%%
+                            %%% PianoLHMusicVoice [measure 146] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 147] %%%
+                            %%% PianoLHMusicVoice [measure 147] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 148] %%%
+                            %%% PianoLHMusicVoice [measure 148] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 149] %%%
+                            %%% PianoLHMusicVoice [measure 149] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 150] %%%
+                            %%% PianoLHMusicVoice [measure 150] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 151] %%%
+                            %%% PianoLHMusicVoice [measure 151] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 152] %%%
+                            %%% PianoLHMusicVoice [measure 152] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 153] %%%
+                            %%% PianoLHMusicVoice [measure 153] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 154] %%%
+                            %%% PianoLHMusicVoice [measure 154] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 155] %%%
+                            %%% PianoLHMusicVoice [measure 155] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 156] %%%
+                            %%% PianoLHMusicVoice [measure 156] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 157] %%%
+                            %%% PianoLHMusicVoice [measure 157] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 158] %%%
+                            %%% PianoLHMusicVoice [measure 158] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 159] %%%
+                            %%% PianoLHMusicVoice [measure 159] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 160] %%%
+                            %%% PianoLHMusicVoice [measure 160] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 161] %%%
+                            %%% PianoLHMusicVoice [measure 161] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 162] %%%
+                            %%% PianoLHMusicVoice [measure 162] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 163] %%%
+                            %%% PianoLHMusicVoice [measure 163] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 164] %%%
+                            %%% PianoLHMusicVoice [measure 164] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 165] %%%
+                            %%% PianoLHMusicVoice [measure 165] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 166] %%%
+                            %%% PianoLHMusicVoice [measure 166] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 167] %%%
+                            %%% PianoLHMusicVoice [measure 167] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 168] %%%
+                            %%% PianoLHMusicVoice [measure 168] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 169] %%%
+                            %%% PianoLHMusicVoice [measure 169] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 170] %%%
+                            %%% PianoLHMusicVoice [measure 170] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 171] %%%
+                            %%% PianoLHMusicVoice [measure 171] %%%
                             R1 * 1
                             
-                            %%% Piano LH Music Voice [measure 172] %%%
+                            %%% PianoLHMusicVoice [measure 172] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 173] %%%
+                            %%% PianoLHMusicVoice [measure 173] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 174] %%%
+                            %%% PianoLHMusicVoice [measure 174] %%%
                             R1 * 1/2
                             
-                            %%% Piano LH Music Voice [measure 175] %%%
+                            %%% PianoLHMusicVoice [measure 175] %%%
                             R1 * 3/4
                             
-                            %%% Piano LH Music Voice [measure 176] %%%
+                            %%% PianoLHMusicVoice [measure 176] %%%
                             R1 * 1
                             \bar "|."
                             
                         }
-                        \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                        \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                             
-                            %%% Piano LH Attack Voice [measure 97] %%%
+                            %%% PianoLHAttackVoice [measure 97] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -4703,70 +4703,70 @@
                             
                             s8.
                             
-                            %%% Piano LH Attack Voice [measure 98] %%%
+                            %%% PianoLHAttackVoice [measure 98] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 99] %%%
+                            %%% PianoLHAttackVoice [measure 99] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 100] %%%
+                            %%% PianoLHAttackVoice [measure 100] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 101] %%%
+                            %%% PianoLHAttackVoice [measure 101] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 102] %%%
+                            %%% PianoLHAttackVoice [measure 102] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 103] %%%
+                            %%% PianoLHAttackVoice [measure 103] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 104] %%%
+                            %%% PianoLHAttackVoice [measure 104] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 105] %%%
+                            %%% PianoLHAttackVoice [measure 105] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 106] %%%
+                            %%% PianoLHAttackVoice [measure 106] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 107] %%%
+                            %%% PianoLHAttackVoice [measure 107] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 108] %%%
+                            %%% PianoLHAttackVoice [measure 108] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 109] %%%
+                            %%% PianoLHAttackVoice [measure 109] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 110] %%%
+                            %%% PianoLHAttackVoice [measure 110] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 111] %%%
+                            %%% PianoLHAttackVoice [measure 111] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 112] %%%
+                            %%% PianoLHAttackVoice [measure 112] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 113] %%%
+                            %%% PianoLHAttackVoice [measure 113] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 114] %%%
+                            %%% PianoLHAttackVoice [measure 114] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 115] %%%
+                            %%% PianoLHAttackVoice [measure 115] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 116] %%%
+                            %%% PianoLHAttackVoice [measure 116] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 117] %%%
+                            %%% PianoLHAttackVoice [measure 117] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 118] %%%
+                            %%% PianoLHAttackVoice [measure 118] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 119] %%%
+                            %%% PianoLHAttackVoice [measure 119] %%%
                             \once \override Accidental.stencil = ##f
                             \once \override AccidentalCautionary.stencil = ##f
                             \once \override Arpeggio.X-offset = #-2
@@ -4786,175 +4786,175 @@
                             
                             s4..
                             
-                            %%% Piano LH Attack Voice [measure 120] %%%
+                            %%% PianoLHAttackVoice [measure 120] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 121] %%%
+                            %%% PianoLHAttackVoice [measure 121] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 122] %%%
+                            %%% PianoLHAttackVoice [measure 122] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 123] %%%
+                            %%% PianoLHAttackVoice [measure 123] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 124] %%%
+                            %%% PianoLHAttackVoice [measure 124] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 125] %%%
+                            %%% PianoLHAttackVoice [measure 125] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 126] %%%
+                            %%% PianoLHAttackVoice [measure 126] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 127] %%%
+                            %%% PianoLHAttackVoice [measure 127] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 128] %%%
+                            %%% PianoLHAttackVoice [measure 128] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 129] %%%
+                            %%% PianoLHAttackVoice [measure 129] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 130] %%%
+                            %%% PianoLHAttackVoice [measure 130] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 131] %%%
+                            %%% PianoLHAttackVoice [measure 131] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 132] %%%
+                            %%% PianoLHAttackVoice [measure 132] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 133] %%%
+                            %%% PianoLHAttackVoice [measure 133] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 134] %%%
+                            %%% PianoLHAttackVoice [measure 134] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 135] %%%
+                            %%% PianoLHAttackVoice [measure 135] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 136] %%%
+                            %%% PianoLHAttackVoice [measure 136] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 137] %%%
+                            %%% PianoLHAttackVoice [measure 137] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 138] %%%
+                            %%% PianoLHAttackVoice [measure 138] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 139] %%%
+                            %%% PianoLHAttackVoice [measure 139] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 140] %%%
+                            %%% PianoLHAttackVoice [measure 140] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 141] %%%
+                            %%% PianoLHAttackVoice [measure 141] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 142] %%%
+                            %%% PianoLHAttackVoice [measure 142] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 143] %%%
+                            %%% PianoLHAttackVoice [measure 143] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 144] %%%
+                            %%% PianoLHAttackVoice [measure 144] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 145] %%%
+                            %%% PianoLHAttackVoice [measure 145] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 146] %%%
+                            %%% PianoLHAttackVoice [measure 146] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 147] %%%
+                            %%% PianoLHAttackVoice [measure 147] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 148] %%%
+                            %%% PianoLHAttackVoice [measure 148] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 149] %%%
+                            %%% PianoLHAttackVoice [measure 149] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 150] %%%
+                            %%% PianoLHAttackVoice [measure 150] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 151] %%%
+                            %%% PianoLHAttackVoice [measure 151] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 152] %%%
+                            %%% PianoLHAttackVoice [measure 152] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 153] %%%
+                            %%% PianoLHAttackVoice [measure 153] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 154] %%%
+                            %%% PianoLHAttackVoice [measure 154] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 155] %%%
+                            %%% PianoLHAttackVoice [measure 155] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 156] %%%
+                            %%% PianoLHAttackVoice [measure 156] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 157] %%%
+                            %%% PianoLHAttackVoice [measure 157] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 158] %%%
+                            %%% PianoLHAttackVoice [measure 158] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 159] %%%
+                            %%% PianoLHAttackVoice [measure 159] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 160] %%%
+                            %%% PianoLHAttackVoice [measure 160] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 161] %%%
+                            %%% PianoLHAttackVoice [measure 161] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 162] %%%
+                            %%% PianoLHAttackVoice [measure 162] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 163] %%%
+                            %%% PianoLHAttackVoice [measure 163] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 164] %%%
+                            %%% PianoLHAttackVoice [measure 164] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 165] %%%
+                            %%% PianoLHAttackVoice [measure 165] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 166] %%%
+                            %%% PianoLHAttackVoice [measure 166] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 167] %%%
+                            %%% PianoLHAttackVoice [measure 167] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 168] %%%
+                            %%% PianoLHAttackVoice [measure 168] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 169] %%%
+                            %%% PianoLHAttackVoice [measure 169] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 170] %%%
+                            %%% PianoLHAttackVoice [measure 170] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 171] %%%
+                            %%% PianoLHAttackVoice [measure 171] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 172] %%%
+                            %%% PianoLHAttackVoice [measure 172] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 173] %%%
+                            %%% PianoLHAttackVoice [measure 173] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 174] %%%
+                            %%% PianoLHAttackVoice [measure 174] %%%
                             s2
                             
-                            %%% Piano LH Attack Voice [measure 175] %%%
+                            %%% PianoLHAttackVoice [measure 175] %%%
                             s2.
                             
-                            %%% Piano LH Attack Voice [measure 176] %%%
+                            %%% PianoLHAttackVoice [measure 176] %%%
                             s1
                             \bar "|."
                             
@@ -4962,10 +4962,10 @@
                     >>
                 >>
                 \tag percussion
-                \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \context PercussionMusicVoice = "Percussion Music Voice" {
+                \context PercussionMusicStaff = "PercussionMusicStaff" {
+                    \context PercussionMusicVoice = "PercussionMusicVoice" {
                         
-                        %%% Percussion Music Voice [measure 97] %%%
+                        %%% PercussionMusicVoice [measure 97] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
@@ -4991,28 +4991,28 @@
                                         "l.v. possibile"
                                 }
                         
-                        %%% Percussion Music Voice [measure 98] %%%
+                        %%% PercussionMusicVoice [measure 98] %%%
                         r1 \ff
                         
-                        %%% Percussion Music Voice [measure 99] %%%
+                        %%% PercussionMusicVoice [measure 99] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 100] %%%
+                        %%% PercussionMusicVoice [measure 100] %%%
                         r2
                         
-                        %%% Percussion Music Voice [measure 101] %%%
+                        %%% PercussionMusicVoice [measure 101] %%%
                         r2.
                         
-                        %%% Percussion Music Voice [measure 102] %%%
+                        %%% PercussionMusicVoice [measure 102] %%%
                         r2
                         
-                        %%% Percussion Music Voice [measure 103] %%%
+                        %%% PercussionMusicVoice [measure 103] %%%
                         r2.
                         
-                        %%% Percussion Music Voice [measure 104] %%%
+                        %%% PercussionMusicVoice [measure 104] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 105] %%%
+                        %%% PercussionMusicVoice [measure 105] %%%
                         \clef "bass"
                         r2.
                             ^ \markup {
@@ -5024,13 +5024,13 @@
                                                 "to marimba"
                                 }
                         
-                        %%% Percussion Music Voice [measure 106] %%%
+                        %%% PercussionMusicVoice [measure 106] %%%
                         r2
                         
-                        %%% Percussion Music Voice [measure 107] %%%
+                        %%% PercussionMusicVoice [measure 107] %%%
                         R1 * 10
                         
-                        %%% Percussion Music Voice [measure 119] %%%
+                        %%% PercussionMusicVoice [measure 119] %%%
                         ef,2 :32 \< \ppp
                             ^ \markup {
                                 \whiteout
@@ -5038,143 +5038,143 @@
                                         "as attackless as possible"
                                 }
                         
-                        %%% Percussion Music Voice [measure 120] %%%
+                        %%% PercussionMusicVoice [measure 120] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 121] %%%
+                        %%% PercussionMusicVoice [measure 121] %%%
                         ef,2. :32 \repeatTie \pp \>
                         
-                        %%% Percussion Music Voice [measure 122] %%%
+                        %%% PercussionMusicVoice [measure 122] %%%
                         ef,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 123] %%%
+                        %%% PercussionMusicVoice [measure 123] %%%
                         ef,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 124] %%%
+                        %%% PercussionMusicVoice [measure 124] %%%
                         ef,2. :32 \repeatTie \ppp \<
                         
-                        %%% Percussion Music Voice [measure 125] %%%
+                        %%% PercussionMusicVoice [measure 125] %%%
                         ef,2 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 126] %%%
+                        %%% PercussionMusicVoice [measure 126] %%%
                         ef,2 :32 \repeatTie \pp \>
                         
-                        %%% Percussion Music Voice [measure 127] %%%
+                        %%% PercussionMusicVoice [measure 127] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 128] %%%
+                        %%% PercussionMusicVoice [measure 128] %%%
                         ef,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 129] %%%
+                        %%% PercussionMusicVoice [measure 129] %%%
                         ef,2 :32 \repeatTie \ppp \<
                         
-                        %%% Percussion Music Voice [measure 130] %%%
+                        %%% PercussionMusicVoice [measure 130] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 131] %%%
+                        %%% PercussionMusicVoice [measure 131] %%%
                         ef,1 :32 \repeatTie \pp \>
                         
-                        %%% Percussion Music Voice [measure 132] %%%
+                        %%% PercussionMusicVoice [measure 132] %%%
                         ef,2 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 133] %%%
+                        %%% PercussionMusicVoice [measure 133] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 134] %%%
+                        %%% PercussionMusicVoice [measure 134] %%%
                         ef,1 :32 \repeatTie \ppp \<
                         
-                        %%% Percussion Music Voice [measure 135] %%%
+                        %%% PercussionMusicVoice [measure 135] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 136] %%%
+                        %%% PercussionMusicVoice [measure 136] %%%
                         ef,1 :32 \repeatTie \pp \>
                         
-                        %%% Percussion Music Voice [measure 137] %%%
+                        %%% PercussionMusicVoice [measure 137] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 138] %%%
+                        %%% PercussionMusicVoice [measure 138] %%%
                         ef,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 139] %%%
+                        %%% PercussionMusicVoice [measure 139] %%%
                         ef,2 :32 \repeatTie \ppp \<
                         
-                        %%% Percussion Music Voice [measure 140] %%%
+                        %%% PercussionMusicVoice [measure 140] %%%
                         ef,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 141] %%%
+                        %%% PercussionMusicVoice [measure 141] %%%
                         ef,1 :32 \repeatTie \pp \>
                         
-                        %%% Percussion Music Voice [measure 142] %%%
+                        %%% PercussionMusicVoice [measure 142] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 143] %%%
+                        %%% PercussionMusicVoice [measure 143] %%%
                         ef,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 144] %%%
+                        %%% PercussionMusicVoice [measure 144] %%%
                         ef,2 :32 \repeatTie \ppp
                         
-                        %%% Percussion Music Voice [measure 145] %%%
+                        %%% PercussionMusicVoice [measure 145] %%%
                         d,2. :32
                         
-                        %%% Percussion Music Voice [measure 146] %%%
+                        %%% PercussionMusicVoice [measure 146] %%%
                         d,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 147] %%%
+                        %%% PercussionMusicVoice [measure 147] %%%
                         d,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 148] %%%
+                        %%% PercussionMusicVoice [measure 148] %%%
                         d,2 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 149] %%%
+                        %%% PercussionMusicVoice [measure 149] %%%
                         \once \override Hairpin.circled-tip = ##t
                         d,2. :32 \repeatTie \> \pp
                         
-                        %%% Percussion Music Voice [measure 150] %%%
+                        %%% PercussionMusicVoice [measure 150] %%%
                         d,2 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 151] %%%
+                        %%% PercussionMusicVoice [measure 151] %%%
                         d,2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 152] %%%
+                        %%% PercussionMusicVoice [measure 152] %%%
                         d,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 153] %%%
+                        %%% PercussionMusicVoice [measure 153] %%%
                         cs,2. :32
                         
-                        %%% Percussion Music Voice [measure 154] %%%
+                        %%% PercussionMusicVoice [measure 154] %%%
                         cs,2 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 155] %%%
+                        %%% PercussionMusicVoice [measure 155] %%%
                         cs,1 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 156] %%%
+                        %%% PercussionMusicVoice [measure 156] %%%
                         cs,2 :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 157] %%%
+                        %%% PercussionMusicVoice [measure 157] %%%
                         r2. \!
                         
-                        %%% Percussion Music Voice [measure 158] %%%
+                        %%% PercussionMusicVoice [measure 158] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 159] %%%
+                        %%% PercussionMusicVoice [measure 159] %%%
                         r2.
                         
-                        %%% Percussion Music Voice [measure 160] %%%
+                        %%% PercussionMusicVoice [measure 160] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 161] %%%
+                        %%% PercussionMusicVoice [measure 161] %%%
                         r2.
                         
-                        %%% Percussion Music Voice [measure 162] %%%
+                        %%% PercussionMusicVoice [measure 162] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 163] %%%
+                        %%% PercussionMusicVoice [measure 163] %%%
                         r2
                         
-                        %%% Percussion Music Voice [measure 164] %%%
+                        %%% PercussionMusicVoice [measure 164] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 165] %%%
+                        %%% PercussionMusicVoice [measure 165] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
@@ -5205,28 +5205,28 @@
                                         ”
                                 }
                         
-                        %%% Percussion Music Voice [measure 166] %%%
+                        %%% PercussionMusicVoice [measure 166] %%%
                         b2. \repeatTie
                         
-                        %%% Percussion Music Voice [measure 167] %%%
+                        %%% PercussionMusicVoice [measure 167] %%%
                         b2 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 168] %%%
+                        %%% PercussionMusicVoice [measure 168] %%%
                         b2. \repeatTie
                         
-                        %%% Percussion Music Voice [measure 169] %%%
+                        %%% PercussionMusicVoice [measure 169] %%%
                         R1 * 25/4
                         \bar "|."
                         
                     }
                 }
             >>
-            \context StringSectionStaffGroup = "String Section Staff Group" <<
+            \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
                 \tag violin
-                \context ViolinMusicStaff = "Violin Music Staff" {
-                    \context ViolinMusicVoice = "Violin Music Voice" {
+                \context ViolinMusicStaff = "ViolinMusicStaff" {
+                    \context ViolinMusicVoice = "ViolinMusicVoice" {
                         
-                        %%% Violin Music Voice [measure 97] %%%
+                        %%% ViolinMusicVoice [measure 97] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \set ViolinMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -5248,28 +5248,28 @@
                                         "l.v. possibile"
                                 }
                         
-                        %%% Violin Music Voice [measure 98] %%%
+                        %%% ViolinMusicVoice [measure 98] %%%
                         r1 \ff
                         
-                        %%% Violin Music Voice [measure 99] %%%
+                        %%% ViolinMusicVoice [measure 99] %%%
                         r1
                         
-                        %%% Violin Music Voice [measure 100] %%%
+                        %%% ViolinMusicVoice [measure 100] %%%
                         r2
                         
-                        %%% Violin Music Voice [measure 101] %%%
+                        %%% ViolinMusicVoice [measure 101] %%%
                         r2.
                         
-                        %%% Violin Music Voice [measure 102] %%%
+                        %%% ViolinMusicVoice [measure 102] %%%
                         r2
                         
-                        %%% Violin Music Voice [measure 103] %%%
+                        %%% ViolinMusicVoice [measure 103] %%%
                         r2.
                         
-                        %%% Violin Music Voice [measure 104] %%%
+                        %%% ViolinMusicVoice [measure 104] %%%
                         r1
                         
-                        %%% Violin Music Voice [measure 105] %%%
+                        %%% ViolinMusicVoice [measure 105] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -5375,7 +5375,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 106] %%%
+                        %%% ViolinMusicVoice [measure 106] %%%
                         r8
                         
                         \once \override Accidental.color = #red
@@ -5416,7 +5416,7 @@
                         
                         r8
                         
-                        %%% Violin Music Voice [measure 107] %%%
+                        %%% ViolinMusicVoice [measure 107] %%%
                         \once \override Hairpin.circled-tip = ##t
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -5518,7 +5518,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 108] %%%
+                        %%% ViolinMusicVoice [measure 108] %%%
                         r8
                         
                         \once \override Accidental.color = #red
@@ -5559,432 +5559,7 @@
                         
                         r8
                         
-                        %%% Violin Music Voice [measure 109] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        %%% Violin Music Voice [measure 110] %%%
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        %%% Violin Music Voice [measure 111] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% Violin Music Voice [measure 112] %%%
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        %%% Violin Music Voice [measure 113] %%%
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% Violin Music Voice [measure 114] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
+                        %%% ViolinMusicVoice [measure 109] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -6056,7 +5631,7 @@
                         
                         r16
                         
-                        %%% Violin Music Voice [measure 115] %%%
+                        %%% ViolinMusicVoice [measure 110] %%%
                         r16
                         
                         \once \override Accidental.color = #red
@@ -6106,7 +5681,290 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 116] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        %%% ViolinMusicVoice [measure 111] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 112] %%%
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r16
+                        
+                        %%% ViolinMusicVoice [measure 113] %%%
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 114] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -6198,7 +6056,149 @@
                         
                         r16
                         
-                        %%% Violin Music Voice [measure 117] %%%
+                        %%% ViolinMusicVoice [measure 115] %%%
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 116] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16 ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        
+                        r16
+                        
+                        %%% ViolinMusicVoice [measure 117] %%%
                         r16
                         
                         \once \override Accidental.color = #red
@@ -6288,7 +6288,7 @@
                         
                         r8
                         
-                        %%% Violin Music Voice [measure 118] %%%
+                        %%% ViolinMusicVoice [measure 118] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -6369,7 +6369,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 119] %%%
+                        %%% ViolinMusicVoice [measure 119] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         eqf'2 \ppp
                             ^ \markup {
@@ -6378,96 +6378,96 @@
                                         "pochiss. scratch"
                                 }
                         
-                        %%% Violin Music Voice [measure 120] %%%
+                        %%% ViolinMusicVoice [measure 120] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 121] %%%
+                        %%% ViolinMusicVoice [measure 121] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 122] %%%
+                        %%% ViolinMusicVoice [measure 122] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 123] %%%
+                        %%% ViolinMusicVoice [measure 123] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 124] %%%
+                        %%% ViolinMusicVoice [measure 124] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 125] %%%
+                        %%% ViolinMusicVoice [measure 125] %%%
                         eqf'2 \repeatTie
                         
-                        %%% Violin Music Voice [measure 126] %%%
+                        %%% ViolinMusicVoice [measure 126] %%%
                         eqf'2 \repeatTie
                         
-                        %%% Violin Music Voice [measure 127] %%%
+                        %%% ViolinMusicVoice [measure 127] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 128] %%%
+                        %%% ViolinMusicVoice [measure 128] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 129] %%%
+                        %%% ViolinMusicVoice [measure 129] %%%
                         eqf'2 \repeatTie
                         
-                        %%% Violin Music Voice [measure 130] %%%
+                        %%% ViolinMusicVoice [measure 130] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 131] %%%
+                        %%% ViolinMusicVoice [measure 131] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 132] %%%
+                        %%% ViolinMusicVoice [measure 132] %%%
                         eqf'2 \repeatTie
                         
-                        %%% Violin Music Voice [measure 133] %%%
+                        %%% ViolinMusicVoice [measure 133] %%%
                         eqf'2. \repeatTie \< \ppp
                         
-                        %%% Violin Music Voice [measure 134] %%%
+                        %%% ViolinMusicVoice [measure 134] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 135] %%%
+                        %%% ViolinMusicVoice [measure 135] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 136] %%%
+                        %%% ViolinMusicVoice [measure 136] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 137] %%%
+                        %%% ViolinMusicVoice [measure 137] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 138] %%%
+                        %%% ViolinMusicVoice [measure 138] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 139] %%%
+                        %%% ViolinMusicVoice [measure 139] %%%
                         eqf'2 \repeatTie
                         
-                        %%% Violin Music Voice [measure 140] %%%
+                        %%% ViolinMusicVoice [measure 140] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 141] %%%
+                        %%% ViolinMusicVoice [measure 141] %%%
                         eqf'1 \repeatTie \f \> \f
                         
-                        %%% Violin Music Voice [measure 142] %%%
+                        %%% ViolinMusicVoice [measure 142] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 143] %%%
+                        %%% ViolinMusicVoice [measure 143] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 144] %%%
+                        %%% ViolinMusicVoice [measure 144] %%%
                         eqf'2 \repeatTie
                         
-                        %%% Violin Music Voice [measure 145] %%%
+                        %%% ViolinMusicVoice [measure 145] %%%
                         eqf'2. \repeatTie
                         
-                        %%% Violin Music Voice [measure 146] %%%
+                        %%% ViolinMusicVoice [measure 146] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 147] %%%
+                        %%% ViolinMusicVoice [measure 147] %%%
                         eqf'1 \repeatTie
                         
-                        %%% Violin Music Voice [measure 148] %%%
+                        %%% ViolinMusicVoice [measure 148] %%%
                         eqf'2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
                             
-                            %%% Violin Music Voice [measure 149] %%%
+                            %%% ViolinMusicVoice [measure 149] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -6604,7 +6604,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             
-                            %%% Violin Music Voice [measure 151] %%%
+                            %%% ViolinMusicVoice [measure 151] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6788,7 +6788,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
-                            %%% Violin Music Voice [measure 153] %%%
+                            %%% ViolinMusicVoice [measure 153] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6863,7 +6863,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 154] %%%
+                            %%% ViolinMusicVoice [measure 154] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6900,7 +6900,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             
-                            %%% Violin Music Voice [measure 155] %%%
+                            %%% ViolinMusicVoice [measure 155] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -6976,7 +6976,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
                             
-                            %%% Violin Music Voice [measure 156] %%%
+                            %%% ViolinMusicVoice [measure 156] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7105,7 +7105,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Violin Music Voice [measure 158] %%%
+                            %%% ViolinMusicVoice [measure 158] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7199,7 +7199,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             
-                            %%% Violin Music Voice [measure 159] %%%
+                            %%% ViolinMusicVoice [measure 159] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7383,7 +7383,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             
-                            %%% Violin Music Voice [measure 161] %%%
+                            %%% ViolinMusicVoice [measure 161] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7530,7 +7530,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 163] %%%
+                            %%% ViolinMusicVoice [measure 163] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7569,7 +7569,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Violin Music Voice [measure 164] %%%
+                            %%% ViolinMusicVoice [measure 164] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7679,7 +7679,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Violin Music Voice [measure 165] %%%
+                        %%% ViolinMusicVoice [measure 165] %%%
                         \override RepeatTie.direction = #up
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -7723,7 +7723,7 @@
                                         ”
                                 }
                         
-                        %%% Violin Music Voice [measure 166] %%%
+                        %%% ViolinMusicVoice [measure 166] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -7733,7 +7733,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 167] %%%
+                        %%% ViolinMusicVoice [measure 167] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -7743,7 +7743,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Music Voice [measure 168] %%%
+                        %%% ViolinMusicVoice [measure 168] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -7756,7 +7756,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             
-                            %%% Violin Music Voice [measure 169] %%%
+                            %%% ViolinMusicVoice [measure 169] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -7917,7 +7917,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             
-                            %%% Violin Music Voice [measure 171] %%%
+                            %%% ViolinMusicVoice [measure 171] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8100,7 +8100,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Violin Music Voice [measure 173] %%%
+                            %%% ViolinMusicVoice [measure 173] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8157,7 +8157,7 @@
                         }
                         {
                             
-                            %%% Violin Music Voice [measure 174] %%%
+                            %%% ViolinMusicVoice [measure 174] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8194,7 +8194,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             
-                            %%% Violin Music Voice [measure 175] %%%
+                            %%% ViolinMusicVoice [measure 175] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8251,7 +8251,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Violin Music Voice [measure 176] %%%
+                            %%% ViolinMusicVoice [measure 176] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8365,10 +8365,10 @@
                     }
                 }
                 \tag viola
-                \context ViolaMusicStaff = "Viola Music Staff" {
-                    \context ViolaMusicVoice = "Viola Music Voice" {
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% Viola Music Voice [measure 97] %%%
+                        %%% ViolaMusicVoice [measure 97] %%%
                         \set ViolaMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -8384,29 +8384,29 @@
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         ef2. :32
                         
-                        %%% Viola Music Voice [measure 98] %%%
+                        %%% ViolaMusicVoice [measure 98] %%%
                         ef1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 99] %%%
+                        %%% ViolaMusicVoice [measure 99] %%%
                         ef1 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 100] %%%
+                        %%% ViolaMusicVoice [measure 100] %%%
                         ef2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 101] %%%
+                        %%% ViolaMusicVoice [measure 101] %%%
                         ef2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 102] %%%
+                        %%% ViolaMusicVoice [measure 102] %%%
                         ef2 :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 103] %%%
+                        %%% ViolaMusicVoice [measure 103] %%%
                         ef2. :32 \repeatTie
                         
-                        %%% Viola Music Voice [measure 104] %%%
+                        %%% ViolaMusicVoice [measure 104] %%%
                         ef1 :32 \repeatTie
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 105] %%%
+                            %%% ViolaMusicVoice [measure 105] %%%
                             r4
                             
                             \once \override Accidental.color = #red
@@ -8487,7 +8487,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 106] %%%
+                            %%% ViolaMusicVoice [measure 106] %%%
                             r4
                             
                             \once \override Accidental.color = #red
@@ -8530,7 +8530,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 107] %%%
+                            %%% ViolaMusicVoice [measure 107] %%%
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
@@ -8600,7 +8600,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 108] %%%
+                            %%% ViolaMusicVoice [measure 108] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8643,7 +8643,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 109] %%%
+                            %%% ViolaMusicVoice [measure 109] %%%
                             r4
                             
                             \once \override Accidental.color = #red
@@ -8654,62 +8654,6 @@
                             f'8
                                 - \tweak color #red
                                 ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            r4
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            %%% Viola Music Voice [measure 110] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            r4
                         }
                         \times 2/3 {
                             
@@ -8755,105 +8699,7 @@
                         }
                         \times 2/3 {
                             
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            r4
-                        }
-                        \times 2/3 {
-                            
-                            %%% Viola Music Voice [measure 111] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            r4
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            %%% Viola Music Voice [measure 112] %%%
-                            r4
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
+                            %%% ViolaMusicVoice [measure 110] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8909,7 +8755,6 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 113] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -8923,161 +8768,7 @@
                         }
                         \times 2/3 {
                             
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            r4
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            %%% Viola Music Voice [measure 114] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            r4
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            r4
-                        }
-                        \times 2/3 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            %%% Viola Music Voice [measure 115] %%%
-                            r4
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            r4
-                        }
-                        \times 2/3 {
-                            
-                            %%% Viola Music Voice [measure 116] %%%
+                            %%% ViolaMusicVoice [measure 111] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9149,6 +8840,7 @@
                         }
                         \times 2/3 {
                             
+                            %%% ViolaMusicVoice [measure 112] %%%
                             r4
                             
                             \once \override Accidental.color = #red
@@ -9162,7 +8854,315 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 117] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            r4
+                        }
+                        \times 2/3 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            r4
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolaMusicVoice [measure 113] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            r4
+                        }
+                        \times 2/3 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            r4
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolaMusicVoice [measure 114] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            r4
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            r4
+                        }
+                        \times 2/3 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolaMusicVoice [measure 115] %%%
+                            r4
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            r4
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolaMusicVoice [measure 116] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            r4
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 [
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8 ]
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            r4
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
+                                - \tweak color #red
+                                ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolaMusicVoice [measure 117] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9231,7 +9231,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 118] %%%
+                            %%% ViolaMusicVoice [measure 118] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9302,7 +9302,7 @@
                                 ^ \markup { @ }
                         }
                         
-                        %%% Viola Music Voice [measure 119] %%%
+                        %%% ViolaMusicVoice [measure 119] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g2 \pp
                             ^ \markup {
@@ -9311,96 +9311,96 @@
                                         "tasto + pochiss. scratch"
                                 }
                         
-                        %%% Viola Music Voice [measure 120] %%%
+                        %%% ViolaMusicVoice [measure 120] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 121] %%%
+                        %%% ViolaMusicVoice [measure 121] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 122] %%%
+                        %%% ViolaMusicVoice [measure 122] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 123] %%%
+                        %%% ViolaMusicVoice [measure 123] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 124] %%%
+                        %%% ViolaMusicVoice [measure 124] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 125] %%%
+                        %%% ViolaMusicVoice [measure 125] %%%
                         g2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 126] %%%
+                        %%% ViolaMusicVoice [measure 126] %%%
                         g2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 127] %%%
+                        %%% ViolaMusicVoice [measure 127] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 128] %%%
+                        %%% ViolaMusicVoice [measure 128] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 129] %%%
+                        %%% ViolaMusicVoice [measure 129] %%%
                         g2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 130] %%%
+                        %%% ViolaMusicVoice [measure 130] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 131] %%%
+                        %%% ViolaMusicVoice [measure 131] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 132] %%%
+                        %%% ViolaMusicVoice [measure 132] %%%
                         g2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 133] %%%
+                        %%% ViolaMusicVoice [measure 133] %%%
                         g2. \repeatTie \< \pp
                         
-                        %%% Viola Music Voice [measure 134] %%%
+                        %%% ViolaMusicVoice [measure 134] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 135] %%%
+                        %%% ViolaMusicVoice [measure 135] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 136] %%%
+                        %%% ViolaMusicVoice [measure 136] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 137] %%%
+                        %%% ViolaMusicVoice [measure 137] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 138] %%%
+                        %%% ViolaMusicVoice [measure 138] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 139] %%%
+                        %%% ViolaMusicVoice [measure 139] %%%
                         g2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 140] %%%
+                        %%% ViolaMusicVoice [measure 140] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 141] %%%
+                        %%% ViolaMusicVoice [measure 141] %%%
                         g1 \repeatTie \f \> \f
                         
-                        %%% Viola Music Voice [measure 142] %%%
+                        %%% ViolaMusicVoice [measure 142] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 143] %%%
+                        %%% ViolaMusicVoice [measure 143] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 144] %%%
+                        %%% ViolaMusicVoice [measure 144] %%%
                         g2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 145] %%%
+                        %%% ViolaMusicVoice [measure 145] %%%
                         g2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 146] %%%
+                        %%% ViolaMusicVoice [measure 146] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 147] %%%
+                        %%% ViolaMusicVoice [measure 147] %%%
                         g1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 148] %%%
+                        %%% ViolaMusicVoice [measure 148] %%%
                         g2 \repeatTie \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
-                            %%% Viola Music Voice [measure 149] %%%
+                            %%% ViolaMusicVoice [measure 149] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -9501,7 +9501,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
                             
-                            %%% Viola Music Voice [measure 150] %%%
+                            %%% ViolaMusicVoice [measure 150] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9649,7 +9649,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             
-                            %%% Viola Music Voice [measure 152] %%%
+                            %%% ViolaMusicVoice [measure 152] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9796,7 +9796,7 @@
                         }
                         {
                             
-                            %%% Viola Music Voice [measure 154] %%%
+                            %%% ViolaMusicVoice [measure 154] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9836,7 +9836,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
-                            %%% Viola Music Voice [measure 155] %%%
+                            %%% ViolaMusicVoice [measure 155] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9984,7 +9984,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             
-                            %%% Viola Music Voice [measure 157] %%%
+                            %%% ViolaMusicVoice [measure 157] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10131,7 +10131,7 @@
                         }
                         {
                             
-                            %%% Viola Music Voice [measure 159] %%%
+                            %%% ViolaMusicVoice [measure 159] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10189,7 +10189,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             
-                            %%% Viola Music Voice [measure 160] %%%
+                            %%% ViolaMusicVoice [measure 160] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10336,7 +10336,7 @@
                         }
                         {
                             
-                            %%% Viola Music Voice [measure 162] %%%
+                            %%% ViolaMusicVoice [measure 162] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10409,7 +10409,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             
-                            %%% Viola Music Voice [measure 163] %%%
+                            %%% ViolaMusicVoice [measure 163] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10448,7 +10448,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 164] %%%
+                            %%% ViolaMusicVoice [measure 164] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10560,7 +10560,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             
-                            %%% Viola Music Voice [measure 165] %%%
+                            %%% ViolaMusicVoice [measure 165] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10708,7 +10708,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
                             
-                            %%% Viola Music Voice [measure 167] %%%
+                            %%% ViolaMusicVoice [measure 167] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10856,7 +10856,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
-                            %%% Viola Music Voice [measure 169] %%%
+                            %%% ViolaMusicVoice [measure 169] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -10931,7 +10931,7 @@
                         }
                         {
                             
-                            %%% Viola Music Voice [measure 170] %%%
+                            %%% ViolaMusicVoice [measure 170] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11004,7 +11004,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             
-                            %%% Viola Music Voice [measure 171] %%%
+                            %%% ViolaMusicVoice [measure 171] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11080,7 +11080,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
                             
-                            %%% Viola Music Voice [measure 172] %%%
+                            %%% ViolaMusicVoice [measure 172] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11209,7 +11209,7 @@
                         }
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 174] %%%
+                            %%% ViolaMusicVoice [measure 174] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11267,7 +11267,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             
-                            %%% Viola Music Voice [measure 175] %%%
+                            %%% ViolaMusicVoice [measure 175] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11453,10 +11453,10 @@
                     }
                 }
                 \tag cello
-                \context CelloMusicStaff = "Cello Music Staff" {
-                    \context CelloMusicVoice = "Cello Music Voice" {
+                \context CelloMusicStaff = "CelloMusicStaff" {
+                    \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% Cello Music Voice [measure 97] %%%
+                        %%% CelloMusicVoice [measure 97] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11479,7 +11479,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 98] %%%
+                        %%% CelloMusicVoice [measure 98] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11489,7 +11489,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 99] %%%
+                        %%% CelloMusicVoice [measure 99] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11499,7 +11499,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 100] %%%
+                        %%% CelloMusicVoice [measure 100] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11509,7 +11509,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 101] %%%
+                        %%% CelloMusicVoice [measure 101] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11519,7 +11519,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 102] %%%
+                        %%% CelloMusicVoice [measure 102] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11529,7 +11529,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 103] %%%
+                        %%% CelloMusicVoice [measure 103] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11539,7 +11539,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 104] %%%
+                        %%% CelloMusicVoice [measure 104] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11549,7 +11549,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 105] %%%
+                        %%% CelloMusicVoice [measure 105] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11579,7 +11579,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 106] %%%
+                        %%% CelloMusicVoice [measure 106] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11589,7 +11589,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 107] %%%
+                        %%% CelloMusicVoice [measure 107] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11599,7 +11599,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 108] %%%
+                        %%% CelloMusicVoice [measure 108] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11609,7 +11609,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 109] %%%
+                        %%% CelloMusicVoice [measure 109] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11624,7 +11624,7 @@
                                     "molto pont. + vib. molto"
                             }
                         
-                        %%% Cello Music Voice [measure 110] %%%
+                        %%% CelloMusicVoice [measure 110] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11634,7 +11634,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 111] %%%
+                        %%% CelloMusicVoice [measure 111] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11644,7 +11644,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 112] %%%
+                        %%% CelloMusicVoice [measure 112] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11654,7 +11654,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 113] %%%
+                        %%% CelloMusicVoice [measure 113] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11664,7 +11664,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 114] %%%
+                        %%% CelloMusicVoice [measure 114] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11674,7 +11674,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 115] %%%
+                        %%% CelloMusicVoice [measure 115] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11684,7 +11684,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 116] %%%
+                        %%% CelloMusicVoice [measure 116] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11694,7 +11694,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 117] %%%
+                        %%% CelloMusicVoice [measure 117] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11704,7 +11704,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 118] %%%
+                        %%% CelloMusicVoice [measure 118] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11714,7 +11714,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 119] %%%
+                        %%% CelloMusicVoice [measure 119] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11744,7 +11744,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 120] %%%
+                        %%% CelloMusicVoice [measure 120] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11754,7 +11754,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 121] %%%
+                        %%% CelloMusicVoice [measure 121] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11764,7 +11764,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 122] %%%
+                        %%% CelloMusicVoice [measure 122] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11774,7 +11774,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 123] %%%
+                        %%% CelloMusicVoice [measure 123] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11804,7 +11804,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 124] %%%
+                        %%% CelloMusicVoice [measure 124] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11814,7 +11814,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 125] %%%
+                        %%% CelloMusicVoice [measure 125] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11824,7 +11824,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 126] %%%
+                        %%% CelloMusicVoice [measure 126] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11834,7 +11834,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 127] %%%
+                        %%% CelloMusicVoice [measure 127] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11849,7 +11849,7 @@
                                     "(tasto+) non vib."
                             }
                         
-                        %%% Cello Music Voice [measure 128] %%%
+                        %%% CelloMusicVoice [measure 128] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11859,7 +11859,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 129] %%%
+                        %%% CelloMusicVoice [measure 129] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11869,7 +11869,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 130] %%%
+                        %%% CelloMusicVoice [measure 130] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11879,7 +11879,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 131] %%%
+                        %%% CelloMusicVoice [measure 131] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11889,7 +11889,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Cello Music Voice [measure 132] %%%
+                        %%% CelloMusicVoice [measure 132] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -11901,7 +11901,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 27/28 {
                             
-                            %%% Cello Music Voice [measure 133] %%%
+                            %%% CelloMusicVoice [measure 133] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -11950,13 +11950,13 @@
                         }
                         {
                             
-                            %%% Cello Music Voice [measure 141] %%%
+                            %%% CelloMusicVoice [measure 141] %%%
                             ff,\breve. \glissando
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 25/28 {
                             
-                            %%% Cello Music Voice [measure 145] %%%
+                            %%% CelloMusicVoice [measure 145] %%%
                             \once \override Hairpin.circled-tip = ##t
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -11983,7 +11983,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/16 {
                             
-                            %%% Cello Music Voice [measure 153] %%%
+                            %%% CelloMusicVoice [measure 153] %%%
                             cs,\breve.... \glissando
                             
                             bs,,8
@@ -11991,7 +11991,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
                             
-                            %%% Cello Music Voice [measure 157] %%%
+                            %%% CelloMusicVoice [measure 157] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -12223,7 +12223,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/14 {
                             
-                            %%% Cello Music Voice [measure 160] %%%
+                            %%% CelloMusicVoice [measure 160] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -12479,7 +12479,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
                             
-                            %%% Cello Music Voice [measure 163] %%%
+                            %%% CelloMusicVoice [measure 163] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -12680,7 +12680,7 @@
                         }
                         {
                             
-                            %%% Cello Music Voice [measure 166] %%%
+                            %%% CelloMusicVoice [measure 166] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -12735,7 +12735,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             
-                            %%% Cello Music Voice [measure 167] %%%
+                            %%% CelloMusicVoice [measure 167] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -12772,7 +12772,7 @@
                                 - \tweak color #red
                                 ^ \markup { @ }
                             
-                            %%% Cello Music Voice [measure 168] %%%
+                            %%% CelloMusicVoice [measure 168] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -12830,7 +12830,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/13 {
                             
-                            %%% Cello Music Voice [measure 169] %%%
+                            %%% CelloMusicVoice [measure 169] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -13068,7 +13068,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
                             
-                            %%% Cello Music Voice [measure 172] %%%
+                            %%% CelloMusicVoice [measure 172] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -13216,7 +13216,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
                             
-                            %%% Cello Music Voice [measure 175] %%%
+                            %%% CelloMusicVoice [measure 175] %%%
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red

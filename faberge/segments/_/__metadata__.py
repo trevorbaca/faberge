@@ -7,15 +7,15 @@ metadata = abjad.TypedOrderedDict(
             'end_clefs_by_staff',
             abjad.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'bass'),
-                    ('Clarinet Music Staff', 'treble'),
-                    ('English Horn Music Staff', 'percussion'),
-                    ('Flute Music Staff', 'treble'),
-                    ('Percussion Music Staff', 'treble'),
-                    ('Piano LH Music Staff', 'bass'),
-                    ('Piano RH Music Staff', 'treble'),
-                    ('Viola Music Staff', 'alto'),
-                    ('Violin Music Staff', 'treble'),
+                    ('CelloMusicStaff', 'bass'),
+                    ('ClarinetMusicStaff', 'treble'),
+                    ('EnglishHornMusicStaff', 'percussion'),
+                    ('FluteMusicStaff', 'treble'),
+                    ('PercussionMusicStaff', 'treble'),
+                    ('PianoLHMusicStaff', 'bass'),
+                    ('PianoRHMusicStaff', 'treble'),
+                    ('ViolaMusicStaff', 'alto'),
+                    ('ViolinMusicStaff', 'treble'),
                     ]
                 ),
             ),
@@ -23,14 +23,14 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'cello'),
-                    ('Clarinet Music Staff', 'clarinet in B-flat'),
-                    ('English Horn Music Staff', 'English horn'),
-                    ('Flute Music Staff', 'flute'),
-                    ('Percussion Music Staff', 'percussion'),
-                    ('Piano Staff Group', 'piano'),
-                    ('Viola Music Staff', 'viola'),
-                    ('Violin Music Staff', 'violin'),
+                    ('CelloMusicStaff', 'cello'),
+                    ('ClarinetMusicStaff', 'clarinet in B-flat'),
+                    ('EnglishHornMusicStaff', 'English horn'),
+                    ('FluteMusicStaff', 'flute'),
+                    ('PercussionMusicStaff', 'percussion'),
+                    ('PianoStaffGroup', 'piano'),
+                    ('ViolaMusicStaff', 'viola'),
+                    ('ViolinMusicStaff', 'violin'),
                     ]
                 ),
             ),
@@ -39,7 +39,7 @@ metadata = abjad.TypedOrderedDict(
             'end_staff_lines_by_staff',
             abjad.TypedOrderedDict(
                 [
-                    ('English Horn Music Staff', 1),
+                    ('EnglishHornMusicStaff', 1),
                     ]
                 ),
             ),
