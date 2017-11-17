@@ -67,121 +67,121 @@ maker.validate_measures_per_stage()
 ### flute (time) ###
 
 maker(
-    baca.scope('Flute Music Voice', 1),
+    baca.scope('FluteMusicVoice', 1),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Flute Music Voice', 2, 5),
+    baca.scope('FluteMusicVoice', 2, 5),
     faberge.glow_rhythm(),
     )
 
 maker(
-    baca.scope('Flute Music Voice', 12, 13),
+    baca.scope('FluteMusicVoice', 12, 13),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### english horn (time) ###
 
 maker(
-    baca.scope('English Horn Music Voice', 5, 10),
+    baca.scope('EnglishHornMusicVoice', 5, 10),
     faberge.airtone_pedal_rhythm(),
     )
 
 maker(
-    baca.scope('English Horn Music Voice', 12, 13),
+    baca.scope('EnglishHornMusicVoice', 12, 13),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### clarinet (time) ###
 
 maker(
-    baca.scope('Clarinet Music Voice', 1),
+    baca.scope('ClarinetMusicVoice', 1),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Clarinet Music Voice', 2, 7),
+    baca.scope('ClarinetMusicVoice', 2, 7),
     faberge.glow_rhythm(),
     )
 
 maker(
-    baca.scope('Clarinet Music Voice', 12, 13),
+    baca.scope('ClarinetMusicVoice', 12, 13),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### piano (time) ###
 
 maker(
-    baca.scope('Piano RH Music Voice', 3, 9),
+    baca.scope('PianoRHMusicVoice', 3, 9),
     faberge.glow_rhythm(),
     )
 
 maker(
-    baca.scope('Piano RH Music Voice', 13),
+    baca.scope('PianoRHMusicVoice', 13),
     faberge.sparse_pegs_rhythm(),
     )
 
 ### percussion (time) ###
 
 maker(
-    baca.scope('Percussion Music Voice', 1, 2),
+    baca.scope('PercussionMusicVoice', 1, 2),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Percussion Music Voice', 3),
+    baca.scope('PercussionMusicVoice', 3),
     faberge.percussion_cell_rhythm(),
     )
 
 maker(
-    baca.scope('Percussion Music Voice', 12, 13),
+    baca.scope('PercussionMusicVoice', 12, 13),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### violin (time) ###
 
 maker(
-    baca.scope('Violin Music Voice', 1, 2),
+    baca.scope('ViolinMusicVoice', 1, 2),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 3, 9),
+    baca.scope('ViolinMusicVoice', 3, 9),
     faberge.clb_rhythm(),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 13),
+    baca.scope('ViolinMusicVoice', 13),
     faberge.sparse_rimbalzandi_rhythm(),
     )
 
 ### viola (time) ###
 
 maker(
-    baca.scope('Viola Music Voice', 1),
+    baca.scope('ViolaMusicVoice', 1),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 2, 6),
+    baca.scope('ViolaMusicVoice', 2, 6),
     baca.make_tied_notes(repeat_ties=True),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 13),
+    baca.scope('ViolaMusicVoice', 13),
     faberge.sparse_rimbalzandi_rhythm(),
     )
 
 ### cello (time) ###
 
 maker(
-    baca.scope('Cello Music Voice', 1, 4),
+    baca.scope('CelloMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Cello Music Voice', 12, 13),
+    baca.scope('CelloMusicVoice', 12, 13),
     baca.make_tied_notes(repeat_ties=True),
     )
 

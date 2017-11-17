@@ -403,11 +403,11 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" <<
-        \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+    \context MusicContext = "MusicContext" <<
+        \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
             \tag flute
-            \context FluteMusicStaff = "Flute Music Staff" {
-                \context FluteMusicVoice = "Flute Music Voice" {
+            \context FluteMusicStaff = "FluteMusicStaff" {
+                \context FluteMusicVoice = "FluteMusicVoice" {
                     r1
                     r4
                     \once \override Beam.color = #blue
@@ -521,8 +521,8 @@
                 }
             }
             \tag english_horn
-            \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                \context EnglishHornMusicVoice = "English Horn Music Voice" {
+            \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
+                \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                     r2
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -646,8 +646,8 @@
                 }
             }
             \tag clarinet
-            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \context ClarinetMusicVoice = "Clarinet Music Voice" {
+            \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     r1
                     r2.
                     \once \override Beam.color = #blue
@@ -679,11 +679,11 @@
                 }
             }
         >>
-        \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+        \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
             \tag piano
-            \context PianoStaffGroup = "Piano Staff Group" <<
-                \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                    \context PianoRHMusicVoice = "Piano RH Music Voice" {
+            \context PianoStaffGroup = "PianoStaffGroup" <<
+                \context PianoRHMusicStaff = "PianoRHMusicStaff" {
+                    \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                         s1 * 16/3
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -819,8 +819,8 @@
                         \bar "|"
                     }
                 }
-                \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                    \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
+                    \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                         s1 * 16/3
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -955,7 +955,7 @@
                         s1 * 19/6
                         \bar "|"
                     }
-                    \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                    \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                         s1 * 16/3
                         cs,16 -\marcato \sfz
                         s1
@@ -972,8 +972,8 @@
                 >>
             >>
             \tag percussion
-            \context PercussionMusicStaff = "Percussion Music Staff" {
-                \context PercussionMusicVoice = "Percussion Music Voice" {
+            \context PercussionMusicStaff = "PercussionMusicStaff" {
+                \context PercussionMusicVoice = "PercussionMusicVoice" {
                     s1 * 19/6
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -1025,10 +1025,10 @@
                 }
             }
         >>
-        \context StringSectionStaffGroup = "String Section Staff Group" <<
+        \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
             \tag violin
-            \context ViolinMusicStaff = "Violin Music Staff" {
-                \context ViolinMusicVoice = "Violin Music Voice" {
+            \context ViolinMusicStaff = "ViolinMusicStaff" {
+                \context ViolinMusicVoice = "ViolinMusicVoice" {
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -1265,8 +1265,8 @@
                 }
             }
             \tag viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     r16
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -1419,8 +1419,8 @@
                 }
             }
             \tag cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue

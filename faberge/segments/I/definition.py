@@ -58,151 +58,151 @@ maker.validate_measures_per_stage()
 ### flute (time) ###
 
 maker(
-    baca.scope('Flute Music Voice', 1, 4),
+    baca.scope('FluteMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Flute Music Voice', 5, 8),
+    baca.scope('FluteMusicVoice', 5, 8),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Flute Music Voice', 9, 12),
+    baca.scope('FluteMusicVoice', 9, 12),
     faberge.shell_transition_rhythm(),
     )
 
 ### english horn (time) ###
 
 maker(
-    baca.scope('English Horn Music Voice', 1, 4),
+    baca.scope('EnglishHornMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('English Horn Music Voice', 5, 8),
+    baca.scope('EnglishHornMusicVoice', 5, 8),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('English Horn Music Voice', 9, 12),
+    baca.scope('EnglishHornMusicVoice', 9, 12),
     faberge.shell_transition_rhythm(),
     )
 
 ### clarinet (time) ###
 
 maker(
-    baca.scope('Clarinet Music Voice', 1, 4),
+    baca.scope('ClarinetMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Clarinet Music Voice', 5, 8),
+    baca.scope('ClarinetMusicVoice', 5, 8),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Clarinet Music Voice', 9, 12),
+    baca.scope('ClarinetMusicVoice', 9, 12),
     faberge.shell_transition_rhythm(),
     )
 
 ### piano (time) ###
 
 maker(
-    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(1, 4)]),
+    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(1, 4)]),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(5, 8)]),
+    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(5, 8)]),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.make_scopes(['Piano RH Music Voice', 'Piano LH Music Voice'], [(9, 12)]),
+    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(9, 12)]),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Piano LH Attack Voice', 1, 4),
+    baca.scope('PianoLHAttackVoice', 1, 4),
     faberge.piano_attack_rhythm(),
     )
 
 maker(
-    baca.scope('Piano LH Attack Voice', 5, 8),
+    baca.scope('PianoLHAttackVoice', 5, 8),
     faberge.piano_attack_rhythm(),
     )
 
 maker(
-    baca.scope('Piano LH Attack Voice', 9, 12),
+    baca.scope('PianoLHAttackVoice', 9, 12),
     faberge.piano_attack_rhythm(),
     )
 
 ### percussion (time) ###
 
 maker(
-    baca.scope('Percussion Music Voice', 1, 4),
+    baca.scope('PercussionMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Percussion Music Voice', 5, 8),
+    baca.scope('PercussionMusicVoice', 5, 8),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Percussion Music Voice', 9, 12),
+    baca.scope('PercussionMusicVoice', 9, 12),
     faberge.shell_transition_rhythm(),
     )
 
 ### violin (time) ###
 
 maker(
-    baca.scope('Violin Music Voice', 1, 4),
+    baca.scope('ViolinMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 5, 8),
+    baca.scope('ViolinMusicVoice', 5, 8),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 9, 12),
+    baca.scope('ViolinMusicVoice', 9, 12),
     faberge.shell_transition_rhythm(),
     )
 
 ### viola (time) ###
 
 maker(
-    baca.scope('Viola Music Voice', 1, 4),
+    baca.scope('ViolaMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 5, 8),
+    baca.scope('ViolaMusicVoice', 5, 8),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 9, 12),
+    baca.scope('ViolaMusicVoice', 9, 12),
     faberge.shell_transition_rhythm(),
     )
 
 ### cello (time) ###
 
 maker(
-    baca.scope('Cello Music Voice', 1, 4),
+    baca.scope('CelloMusicVoice', 1, 4),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Cello Music Voice', 5, 8),
+    baca.scope('CelloMusicVoice', 5, 8),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.scope('Cello Music Voice', 9, 12),
+    baca.scope('CelloMusicVoice', 9, 12),
     faberge.shell_transition_rhythm(),
     )
 

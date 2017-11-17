@@ -77,11 +77,11 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" <<
-        \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+    \context MusicContext = "MusicContext" <<
+        \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
             \tag flute
-            \context FluteMusicStaff = "Flute Music Staff" {
-                \context FluteMusicVoice = "Flute Music Voice" {
+            \context FluteMusicStaff = "FluteMusicStaff" {
+                \context FluteMusicVoice = "FluteMusicVoice" {
                     \set FluteMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -101,8 +101,8 @@
                 }
             }
             \tag english_horn
-            \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                \context EnglishHornMusicVoice = "English Horn Music Voice" {
+            \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
+                \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                     \set EnglishHornMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -183,8 +183,8 @@
                 }
             }
             \tag clarinet
-            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \context ClarinetMusicVoice = "Clarinet Music Voice" {
+            \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -204,11 +204,11 @@
                 }
             }
         >>
-        \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+        \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
             \tag piano
-            \context PianoStaffGroup = "Piano Staff Group" <<
-                \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                    \context PianoRHMusicVoice = "Piano RH Music Voice" {
+            \context PianoStaffGroup = "PianoStaffGroup" <<
+                \context PianoRHMusicStaff = "PianoRHMusicStaff" {
+                    \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                         \set PianoStaffGroup.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -227,8 +227,8 @@
                         \bar "|"
                     }
                 }
-                \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                    \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
+                    \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                         \clef "bass"
                         R1 * 3/4
                         R1 * 1/4
@@ -236,7 +236,7 @@
                         R1 * 1/4
                         \bar "|"
                     }
-                    \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                    \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                         R1 * 3/4
                         R1 * 1/4
                         R1 * 1
@@ -246,8 +246,8 @@
                 >>
             >>
             \tag percussion
-            \context PercussionMusicStaff = "Percussion Music Staff" {
-                \context PercussionMusicVoice = "Percussion Music Voice" {
+            \context PercussionMusicStaff = "PercussionMusicStaff" {
+                \context PercussionMusicVoice = "PercussionMusicVoice" {
                     \set PercussionMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -267,10 +267,10 @@
                 }
             }
         >>
-        \context StringSectionStaffGroup = "String Section Staff Group" <<
+        \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
             \tag violin
-            \context ViolinMusicStaff = "Violin Music Staff" {
-                \context ViolinMusicVoice = "Violin Music Voice" {
+            \context ViolinMusicStaff = "ViolinMusicStaff" {
+                \context ViolinMusicVoice = "ViolinMusicVoice" {
                     \set ViolinMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -316,8 +316,8 @@
                 }
             }
             \tag viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     \times 2/3 {
                         \set ViolaMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -364,8 +364,8 @@
                 }
             }
             \tag cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     \set CelloMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16

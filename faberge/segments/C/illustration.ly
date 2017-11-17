@@ -307,13 +307,13 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" <<
-            \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+        \context MusicContext = "MusicContext" <<
+            \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
                 \tag flute
-                \context FluteMusicStaff = "Flute Music Staff" {
-                    \context FluteMusicVoice = "Flute Music Voice" {
+                \context FluteMusicStaff = "FluteMusicStaff" {
+                    \context FluteMusicVoice = "FluteMusicVoice" {
                         
-                        %%% Flute Music Voice [measure 274] %%%
+                        %%% FluteMusicVoice [measure 274] %%%
                         \set FluteMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -337,7 +337,7 @@
                         \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         r1
                         
-                        %%% Flute Music Voice [measure 275] %%%
+                        %%% FluteMusicVoice [measure 275] %%%
                         r4
                         
                         \once \override Beam.color = #blue
@@ -356,10 +356,10 @@
                         
                         r2..
                         
-                        %%% Flute Music Voice [measure 276] %%%
+                        %%% FluteMusicVoice [measure 276] %%%
                         R1 * 31/12
                         
-                        %%% Flute Music Voice [measure 280] %%%
+                        %%% FluteMusicVoice [measure 280] %%%
                         r2.
                         
                         r2
@@ -371,7 +371,7 @@
                         \once \override Stem.color = #blue
                         c''4
                         
-                        %%% Flute Music Voice [measure 281] %%%
+                        %%% FluteMusicVoice [measure 281] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -379,10 +379,10 @@
                         \once \override Stem.color = #blue
                         c''1.. \repeatTie
                         
-                        %%% Flute Music Voice [measure 282] %%%
+                        %%% FluteMusicVoice [measure 282] %%%
                         r1
                         
-                        %%% Flute Music Voice [measure 283] %%%
+                        %%% FluteMusicVoice [measure 283] %%%
                         r4
                         
                         \once \override Beam.color = #blue
@@ -403,10 +403,10 @@
                         
                         r2
                         
-                        %%% Flute Music Voice [measure 284] %%%
+                        %%% FluteMusicVoice [measure 284] %%%
                         R1 * 31/12
                         
-                        %%% Flute Music Voice [measure 288] %%%
+                        %%% FluteMusicVoice [measure 288] %%%
                         r2.
                         
                         r2
@@ -418,7 +418,7 @@
                         \once \override Stem.color = #blue
                         c''4
                         
-                        %%% Flute Music Voice [measure 289] %%%
+                        %%% FluteMusicVoice [measure 289] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -426,10 +426,10 @@
                         \once \override Stem.color = #blue
                         c''1 \repeatTie
                         
-                        %%% Flute Music Voice [measure 290] %%%
+                        %%% FluteMusicVoice [measure 290] %%%
                         R1 * 5/2
                         
-                        %%% Flute Music Voice [measure 292] %%%
+                        %%% FluteMusicVoice [measure 292] %%%
                         r2.
                         
                         r2
@@ -441,7 +441,7 @@
                         \once \override Stem.color = #blue
                         c''4
                         
-                        %%% Flute Music Voice [measure 293] %%%
+                        %%% FluteMusicVoice [measure 293] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -451,7 +451,7 @@
                         
                         r4.
                         
-                        %%% Flute Music Voice [measure 294] %%%
+                        %%% FluteMusicVoice [measure 294] %%%
                         r2.
                         
                         r2
@@ -463,7 +463,7 @@
                         \once \override Stem.color = #blue
                         c''4
                         
-                        %%% Flute Music Voice [measure 295] %%%
+                        %%% FluteMusicVoice [measure 295] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -475,10 +475,10 @@
                         
                         r2.
                         
-                        %%% Flute Music Voice [measure 296] %%%
+                        %%% FluteMusicVoice [measure 296] %%%
                         r1
                         
-                        %%% Flute Music Voice [measure 297] %%%
+                        %%% FluteMusicVoice [measure 297] %%%
                         r4
                         
                         \once \override Beam.color = #blue
@@ -497,17 +497,17 @@
                         
                         r8
                         
-                        %%% Flute Music Voice [measure 298] %%%
+                        %%% FluteMusicVoice [measure 298] %%%
                         R1 * 19/6
                         \bar "|"
                         
                     }
                 }
                 \tag english_horn
-                \context EnglishHornMusicStaff = "English Horn Music Staff" {
-                    \context EnglishHornMusicVoice = "English Horn Music Voice" {
+                \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
+                    \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                         
-                        %%% English Horn Music Voice [measure 274] %%%
+                        %%% EnglishHornMusicVoice [measure 274] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -542,7 +542,7 @@
                         \once \override Stem.color = #blue
                         g'2
                         
-                        %%% English Horn Music Voice [measure 275] %%%
+                        %%% EnglishHornMusicVoice [measure 275] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -554,10 +554,10 @@
                         
                         r1
                         
-                        %%% English Horn Music Voice [measure 276] %%%
+                        %%% EnglishHornMusicVoice [measure 276] %%%
                         R1 * 31/12
                         
-                        %%% English Horn Music Voice [measure 280] %%%
+                        %%% EnglishHornMusicVoice [measure 280] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -573,10 +573,10 @@
                         
                         r8
                         
-                        %%% English Horn Music Voice [measure 281] %%%
+                        %%% EnglishHornMusicVoice [measure 281] %%%
                         r1..
                         
-                        %%% English Horn Music Voice [measure 282] %%%
+                        %%% EnglishHornMusicVoice [measure 282] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -586,7 +586,7 @@
                         \once \override Stem.color = #blue
                         g'2
                         
-                        %%% English Horn Music Voice [measure 283] %%%
+                        %%% EnglishHornMusicVoice [measure 283] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -598,10 +598,10 @@
                         
                         r2.
                         
-                        %%% English Horn Music Voice [measure 284] %%%
+                        %%% EnglishHornMusicVoice [measure 284] %%%
                         R1 * 31/12
                         
-                        %%% English Horn Music Voice [measure 288] %%%
+                        %%% EnglishHornMusicVoice [measure 288] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -617,10 +617,10 @@
                         
                         r8
                         
-                        %%% English Horn Music Voice [measure 289] %%%
+                        %%% EnglishHornMusicVoice [measure 289] %%%
                         r1
                         
-                        %%% English Horn Music Voice [measure 290] %%%
+                        %%% EnglishHornMusicVoice [measure 290] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -630,7 +630,7 @@
                         \once \override Stem.color = #blue
                         g'1
                         
-                        %%% English Horn Music Voice [measure 291] %%%
+                        %%% EnglishHornMusicVoice [measure 291] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -638,7 +638,7 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 292] %%%
+                        %%% EnglishHornMusicVoice [measure 292] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -654,10 +654,10 @@
                         
                         r8
                         
-                        %%% English Horn Music Voice [measure 293] %%%
+                        %%% EnglishHornMusicVoice [measure 293] %%%
                         r2.
                         
-                        %%% English Horn Music Voice [measure 294] %%%
+                        %%% EnglishHornMusicVoice [measure 294] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -673,10 +673,10 @@
                         
                         r8
                         
-                        %%% English Horn Music Voice [measure 295] %%%
+                        %%% EnglishHornMusicVoice [measure 295] %%%
                         r1.
                         
-                        %%% English Horn Music Voice [measure 296] %%%
+                        %%% EnglishHornMusicVoice [measure 296] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -686,7 +686,7 @@
                         \once \override Stem.color = #blue
                         g'2
                         
-                        %%% English Horn Music Voice [measure 297] %%%
+                        %%% EnglishHornMusicVoice [measure 297] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -698,7 +698,7 @@
                         
                         r2
                         
-                        %%% English Horn Music Voice [measure 298] %%%
+                        %%% EnglishHornMusicVoice [measure 298] %%%
                         r2
                         
                         \once \override Beam.color = #blue
@@ -710,7 +710,7 @@
                         
                         g'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 299] %%%
+                        %%% EnglishHornMusicVoice [measure 299] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -718,17 +718,17 @@
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
                         
-                        %%% English Horn Music Voice [measure 300] %%%
+                        %%% EnglishHornMusicVoice [measure 300] %%%
                         R1 * 5/12
                         \bar "|"
                         
                     }
                 }
                 \tag clarinet
-                \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                    \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                    \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                         
-                        %%% Clarinet Music Voice [measure 274] %%%
+                        %%% ClarinetMusicVoice [measure 274] %%%
                         \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -752,7 +752,7 @@
                         \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         r1
                         
-                        %%% Clarinet Music Voice [measure 275] %%%
+                        %%% ClarinetMusicVoice [measure 275] %%%
                         r2.
                         
                         \once \override Beam.color = #blue
@@ -762,13 +762,13 @@
                         \once \override Stem.color = #blue
                         d''1
                         
-                        %%% Clarinet Music Voice [measure 276] %%%
+                        %%% ClarinetMusicVoice [measure 276] %%%
                         R1 * 35/6
                         
-                        %%% Clarinet Music Voice [measure 282] %%%
+                        %%% ClarinetMusicVoice [measure 282] %%%
                         r1
                         
-                        %%% Clarinet Music Voice [measure 283] %%%
+                        %%% ClarinetMusicVoice [measure 283] %%%
                         r2.
                         
                         \once \override Beam.color = #blue
@@ -778,13 +778,13 @@
                         \once \override Stem.color = #blue
                         d''2.
                         
-                        %%% Clarinet Music Voice [measure 284] %%%
+                        %%% ClarinetMusicVoice [measure 284] %%%
                         R1 * 77/6
                         
-                        %%% Clarinet Music Voice [measure 296] %%%
+                        %%% ClarinetMusicVoice [measure 296] %%%
                         r1
                         
-                        %%% Clarinet Music Voice [measure 297] %%%
+                        %%% ClarinetMusicVoice [measure 297] %%%
                         r2.
                         
                         \once \override Beam.color = #blue
@@ -794,20 +794,20 @@
                         \once \override Stem.color = #blue
                         d''4
                         
-                        %%% Clarinet Music Voice [measure 298] %%%
+                        %%% ClarinetMusicVoice [measure 298] %%%
                         R1 * 19/6
                         \bar "|"
                         
                     }
                 }
             >>
-            \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+            \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
                 \tag piano
-                \context PianoStaffGroup = "Piano Staff Group" <<
-                    \context PianoRHMusicStaff = "Piano RH Music Staff" {
-                        \context PianoRHMusicVoice = "Piano RH Music Voice" {
+                \context PianoStaffGroup = "PianoStaffGroup" <<
+                    \context PianoRHMusicStaff = "PianoRHMusicStaff" {
+                        \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                             
-                            %%% Piano RH Music Voice [measure 274] %%%
+                            %%% PianoRHMusicVoice [measure 274] %%%
                             \set PianoStaffGroup.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -829,7 +829,7 @@
                                             "to piano"
                                     }
                             
-                            %%% Piano RH Music Voice [measure 280] %%%
+                            %%% PianoRHMusicVoice [measure 280] %%%
                             \override NoteHead.style = #'harmonic
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -838,7 +838,7 @@
                             \once \override Stem.color = #blue
                             c'1.
                             
-                            %%% Piano RH Music Voice [measure 281] %%%
+                            %%% PianoRHMusicVoice [measure 281] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -846,7 +846,7 @@
                             \once \override Stem.color = #blue
                             c'1.. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 282] %%%
+                            %%% PianoRHMusicVoice [measure 282] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -854,7 +854,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 283] %%%
+                            %%% PianoRHMusicVoice [measure 283] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -864,7 +864,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                %%% Piano RH Music Voice [measure 284] %%%
+                                %%% PianoRHMusicVoice [measure 284] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -880,7 +880,7 @@
                                 c'8 \repeatTie
                             }
                             
-                            %%% Piano RH Music Voice [measure 285] %%%
+                            %%% PianoRHMusicVoice [measure 285] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -889,7 +889,7 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 286] %%%
+                            %%% PianoRHMusicVoice [measure 286] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -899,7 +899,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                %%% Piano RH Music Voice [measure 287] %%%
+                                %%% PianoRHMusicVoice [measure 287] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -915,7 +915,7 @@
                                 c'8 \repeatTie
                             }
                             
-                            %%% Piano RH Music Voice [measure 288] %%%
+                            %%% PianoRHMusicVoice [measure 288] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -924,7 +924,7 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'1. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 289] %%%
+                            %%% PianoRHMusicVoice [measure 289] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -932,7 +932,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 290] %%%
+                            %%% PianoRHMusicVoice [measure 290] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -940,7 +940,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 291] %%%
+                            %%% PianoRHMusicVoice [measure 291] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -948,7 +948,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 292] %%%
+                            %%% PianoRHMusicVoice [measure 292] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -956,7 +956,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 293] %%%
+                            %%% PianoRHMusicVoice [measure 293] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -964,7 +964,7 @@
                             \once \override Stem.color = #blue
                             c'2. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 294] %%%
+                            %%% PianoRHMusicVoice [measure 294] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -972,7 +972,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 295] %%%
+                            %%% PianoRHMusicVoice [measure 295] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -980,7 +980,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 296] %%%
+                            %%% PianoRHMusicVoice [measure 296] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -988,7 +988,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano RH Music Voice [measure 297] %%%
+                            %%% PianoRHMusicVoice [measure 297] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -997,21 +997,21 @@
                             c'1 \repeatTie
                             \revert NoteHead.style
                             
-                            %%% Piano RH Music Voice [measure 298] %%%
+                            %%% PianoRHMusicVoice [measure 298] %%%
                             R1 * 19/6
                             \bar "|"
                             
                         }
                     }
-                    \context PianoLHMusicStaff = "Piano LH Music Staff" <<
-                        \context PianoLHMusicVoice = "Piano LH Music Voice" {
+                    \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
+                        \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                             
-                            %%% Piano LH Music Voice [measure 274] %%%
+                            %%% PianoLHMusicVoice [measure 274] %%%
                             \clef "bass"
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             R1 * 16/3
                             
-                            %%% Piano LH Music Voice [measure 280] %%%
+                            %%% PianoLHMusicVoice [measure 280] %%%
                             \override NoteHead.style = #'harmonic
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -1020,7 +1020,7 @@
                             \once \override Stem.color = #blue
                             c'1.
                             
-                            %%% Piano LH Music Voice [measure 281] %%%
+                            %%% PianoLHMusicVoice [measure 281] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1028,7 +1028,7 @@
                             \once \override Stem.color = #blue
                             c'1.. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 282] %%%
+                            %%% PianoLHMusicVoice [measure 282] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1036,7 +1036,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 283] %%%
+                            %%% PianoLHMusicVoice [measure 283] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1046,7 +1046,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                %%% Piano LH Music Voice [measure 284] %%%
+                                %%% PianoLHMusicVoice [measure 284] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -1062,7 +1062,7 @@
                                 c'8 \repeatTie
                             }
                             
-                            %%% Piano LH Music Voice [measure 285] %%%
+                            %%% PianoLHMusicVoice [measure 285] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1071,7 +1071,7 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'2. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 286] %%%
+                            %%% PianoLHMusicVoice [measure 286] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1081,7 +1081,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                %%% Piano LH Music Voice [measure 287] %%%
+                                %%% PianoLHMusicVoice [measure 287] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -1097,7 +1097,7 @@
                                 c'8 \repeatTie
                             }
                             
-                            %%% Piano LH Music Voice [measure 288] %%%
+                            %%% PianoLHMusicVoice [measure 288] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1106,7 +1106,7 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c'1. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 289] %%%
+                            %%% PianoLHMusicVoice [measure 289] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1114,7 +1114,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 290] %%%
+                            %%% PianoLHMusicVoice [measure 290] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1122,7 +1122,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 291] %%%
+                            %%% PianoLHMusicVoice [measure 291] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1130,7 +1130,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 292] %%%
+                            %%% PianoLHMusicVoice [measure 292] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1138,7 +1138,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 293] %%%
+                            %%% PianoLHMusicVoice [measure 293] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1146,7 +1146,7 @@
                             \once \override Stem.color = #blue
                             c'2. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 294] %%%
+                            %%% PianoLHMusicVoice [measure 294] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1154,7 +1154,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 295] %%%
+                            %%% PianoLHMusicVoice [measure 295] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1162,7 +1162,7 @@
                             \once \override Stem.color = #blue
                             c'1. \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 296] %%%
+                            %%% PianoLHMusicVoice [measure 296] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1170,7 +1170,7 @@
                             \once \override Stem.color = #blue
                             c'1 \repeatTie
                             
-                            %%% Piano LH Music Voice [measure 297] %%%
+                            %%% PianoLHMusicVoice [measure 297] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1179,40 +1179,40 @@
                             c'1 \repeatTie
                             \revert NoteHead.style
                             
-                            %%% Piano LH Music Voice [measure 298] %%%
+                            %%% PianoLHMusicVoice [measure 298] %%%
                             R1 * 19/6
                             \bar "|"
                             
                         }
-                        \context PianoLHAttackVoice = "Piano LH Attack Voice" {
+                        \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                             
-                            %%% Piano LH Attack Voice [measure 274] %%%
+                            %%% PianoLHAttackVoice [measure 274] %%%
                             R1 * 16/3
                             
-                            %%% Piano LH Attack Voice [measure 280] %%%
+                            %%% PianoLHAttackVoice [measure 280] %%%
                             cs,16 -\marcato \sfz
                             
                             s1
                             
                             s4..
                             
-                            %%% Piano LH Attack Voice [measure 281] %%%
+                            %%% PianoLHAttackVoice [measure 281] %%%
                             s1..
                             
-                            %%% Piano LH Attack Voice [measure 282] %%%
+                            %%% PianoLHAttackVoice [measure 282] %%%
                             R1 * 35/12
                             
-                            %%% Piano LH Attack Voice [measure 285] %%%
+                            %%% PianoLHAttackVoice [measure 285] %%%
                             cs,16 -\marcato \sfz
                             
                             s2
                             
                             s8.
                             
-                            %%% Piano LH Attack Voice [measure 286] %%%
+                            %%% PianoLHAttackVoice [measure 286] %%%
                             s1
                             
-                            %%% Piano LH Attack Voice [measure 287] %%%
+                            %%% PianoLHAttackVoice [measure 287] %%%
                             R1 * 95/6
                             \bar "|"
                             
@@ -1220,10 +1220,10 @@
                     >>
                 >>
                 \tag percussion
-                \context PercussionMusicStaff = "Percussion Music Staff" {
-                    \context PercussionMusicVoice = "Percussion Music Voice" {
+                \context PercussionMusicStaff = "PercussionMusicStaff" {
+                    \context PercussionMusicVoice = "PercussionMusicVoice" {
                         
-                        %%% Percussion Music Voice [measure 274] %%%
+                        %%% PercussionMusicVoice [measure 274] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
@@ -1243,7 +1243,7 @@
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 19/6
                         
-                        %%% Percussion Music Voice [measure 277] %%%
+                        %%% PercussionMusicVoice [measure 277] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1251,7 +1251,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         
-                        %%% Percussion Music Voice [measure 278] %%%
+                        %%% PercussionMusicVoice [measure 278] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1259,10 +1259,10 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 279] %%%
+                        %%% PercussionMusicVoice [measure 279] %%%
                         R1 * 79/12
                         
-                        %%% Percussion Music Voice [measure 285] %%%
+                        %%% PercussionMusicVoice [measure 285] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1270,7 +1270,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         
-                        %%% Percussion Music Voice [measure 286] %%%
+                        %%% PercussionMusicVoice [measure 286] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1278,13 +1278,13 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 287] %%%
+                        %%% PercussionMusicVoice [measure 287] %%%
                         R1 * 65/12
                         
-                        %%% Percussion Music Voice [measure 292] %%%
+                        %%% PercussionMusicVoice [measure 292] %%%
                         r1.
                         
-                        %%% Percussion Music Voice [measure 293] %%%
+                        %%% PercussionMusicVoice [measure 293] %%%
                         r4
                         
                         \once \override Beam.color = #blue
@@ -1294,10 +1294,10 @@
                         \once \override Stem.color = #blue
                         c'2 :32
                         
-                        %%% Percussion Music Voice [measure 294] %%%
+                        %%% PercussionMusicVoice [measure 294] %%%
                         r1.
                         
-                        %%% Percussion Music Voice [measure 295] %%%
+                        %%% PercussionMusicVoice [measure 295] %%%
                         r4
                         
                         \once \override Beam.color = #blue
@@ -1309,25 +1309,25 @@
                         
                         c'2. :32 \repeatTie
                         
-                        %%% Percussion Music Voice [measure 296] %%%
+                        %%% PercussionMusicVoice [measure 296] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 297] %%%
+                        %%% PercussionMusicVoice [measure 297] %%%
                         r1
                         
-                        %%% Percussion Music Voice [measure 298] %%%
+                        %%% PercussionMusicVoice [measure 298] %%%
                         R1 * 19/6
                         \bar "|"
                         
                     }
                 }
             >>
-            \context StringSectionStaffGroup = "String Section Staff Group" <<
+            \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
                 \tag violin
-                \context ViolinMusicStaff = "Violin Music Staff" {
-                    \context ViolinMusicVoice = "Violin Music Voice" {
+                \context ViolinMusicStaff = "ViolinMusicStaff" {
+                    \context ViolinMusicVoice = "ViolinMusicVoice" {
                         
-                        %%% Violin Music Voice [measure 274] %%%
+                        %%% ViolinMusicVoice [measure 274] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1425,7 +1425,7 @@
                         \once \override Stem.color = #blue
                         c'16 ]
                         
-                        %%% Violin Music Voice [measure 275] %%%
+                        %%% ViolinMusicVoice [measure 275] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1554,10 +1554,10 @@
                         
                         r8
                         
-                        %%% Violin Music Voice [measure 276] %%%
+                        %%% ViolinMusicVoice [measure 276] %%%
                         R1 * 35/6
                         
-                        %%% Violin Music Voice [measure 282] %%%
+                        %%% ViolinMusicVoice [measure 282] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1565,7 +1565,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Violin Music Voice [measure 283] %%%
+                        %%% ViolinMusicVoice [measure 283] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1573,10 +1573,10 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Violin Music Voice [measure 284] %%%
+                        %%% ViolinMusicVoice [measure 284] %%%
                         R1 * 91/12
                         
-                        %%% Violin Music Voice [measure 292] %%%
+                        %%% ViolinMusicVoice [measure 292] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1584,7 +1584,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Violin Music Voice [measure 293] %%%
+                        %%% ViolinMusicVoice [measure 293] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1592,7 +1592,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         
-                        %%% Violin Music Voice [measure 294] %%%
+                        %%% ViolinMusicVoice [measure 294] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1600,7 +1600,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Violin Music Voice [measure 295] %%%
+                        %%% ViolinMusicVoice [measure 295] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1608,7 +1608,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Violin Music Voice [measure 296] %%%
+                        %%% ViolinMusicVoice [measure 296] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1616,7 +1616,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Violin Music Voice [measure 297] %%%
+                        %%% ViolinMusicVoice [measure 297] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1624,7 +1624,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Violin Music Voice [measure 298] %%%
+                        %%% ViolinMusicVoice [measure 298] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1632,7 +1632,7 @@
                         \once \override Stem.color = #blue
                         c'1..
                         
-                        %%% Violin Music Voice [measure 299] %%%
+                        %%% ViolinMusicVoice [measure 299] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -1640,17 +1640,17 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Violin Music Voice [measure 300] %%%
+                        %%% ViolinMusicVoice [measure 300] %%%
                         R1 * 5/12
                         \bar "|"
                         
                     }
                 }
                 \tag viola
-                \context ViolaMusicStaff = "Viola Music Staff" {
-                    \context ViolaMusicVoice = "Viola Music Voice" {
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% Viola Music Voice [measure 274] %%%
+                        %%% ViolaMusicVoice [measure 274] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1687,13 +1687,13 @@
                         
                         r4.
                         
-                        %%% Viola Music Voice [measure 275] %%%
+                        %%% ViolaMusicVoice [measure 275] %%%
                         r1..
                         
-                        %%% Viola Music Voice [measure 276] %%%
+                        %%% ViolaMusicVoice [measure 276] %%%
                         R1 * 31/12
                         
-                        %%% Viola Music Voice [measure 280] %%%
+                        %%% ViolaMusicVoice [measure 280] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1713,10 +1713,10 @@
                         
                         r2..
                         
-                        %%% Viola Music Voice [measure 281] %%%
+                        %%% ViolaMusicVoice [measure 281] %%%
                         r1..
                         
-                        %%% Viola Music Voice [measure 282] %%%
+                        %%% ViolaMusicVoice [measure 282] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1736,13 +1736,13 @@
                         
                         r4.
                         
-                        %%% Viola Music Voice [measure 283] %%%
+                        %%% ViolaMusicVoice [measure 283] %%%
                         r1.
                         
-                        %%% Viola Music Voice [measure 284] %%%
+                        %%% ViolaMusicVoice [measure 284] %%%
                         R1 * 31/12
                         
-                        %%% Viola Music Voice [measure 288] %%%
+                        %%% ViolaMusicVoice [measure 288] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1762,10 +1762,10 @@
                         
                         r2..
                         
-                        %%% Viola Music Voice [measure 289] %%%
+                        %%% ViolaMusicVoice [measure 289] %%%
                         r1
                         
-                        %%% Viola Music Voice [measure 290] %%%
+                        %%% ViolaMusicVoice [measure 290] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1785,10 +1785,10 @@
                         
                         r2..
                         
-                        %%% Viola Music Voice [measure 291] %%%
+                        %%% ViolaMusicVoice [measure 291] %%%
                         r1
                         
-                        %%% Viola Music Voice [measure 292] %%%
+                        %%% ViolaMusicVoice [measure 292] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1808,10 +1808,10 @@
                         
                         r2..
                         
-                        %%% Viola Music Voice [measure 293] %%%
+                        %%% ViolaMusicVoice [measure 293] %%%
                         r2.
                         
-                        %%% Viola Music Voice [measure 294] %%%
+                        %%% ViolaMusicVoice [measure 294] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1831,10 +1831,10 @@
                         
                         r2..
                         
-                        %%% Viola Music Voice [measure 295] %%%
+                        %%% ViolaMusicVoice [measure 295] %%%
                         r1.
                         
-                        %%% Viola Music Voice [measure 296] %%%
+                        %%% ViolaMusicVoice [measure 296] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1854,10 +1854,10 @@
                         
                         r4.
                         
-                        %%% Viola Music Voice [measure 297] %%%
+                        %%% ViolaMusicVoice [measure 297] %%%
                         r1
                         
-                        %%% Viola Music Voice [measure 298] %%%
+                        %%% ViolaMusicVoice [measure 298] %%%
                         r16
                         
                         \once \override Beam.color = #blue
@@ -1879,20 +1879,20 @@
                         
                         r1
                         
-                        %%% Viola Music Voice [measure 299] %%%
+                        %%% ViolaMusicVoice [measure 299] %%%
                         r1
                         
-                        %%% Viola Music Voice [measure 300] %%%
+                        %%% ViolaMusicVoice [measure 300] %%%
                         R1 * 5/12
                         \bar "|"
                         
                     }
                 }
                 \tag cello
-                \context CelloMusicStaff = "Cello Music Staff" {
-                    \context CelloMusicVoice = "Cello Music Voice" {
+                \context CelloMusicStaff = "CelloMusicStaff" {
+                    \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% Cello Music Voice [measure 274] %%%
+                        %%% CelloMusicVoice [measure 274] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1990,7 +1990,7 @@
                         \once \override Stem.color = #blue
                         c'16 ]
                         
-                        %%% Cello Music Voice [measure 275] %%%
+                        %%% CelloMusicVoice [measure 275] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2119,10 +2119,10 @@
                         
                         r8
                         
-                        %%% Cello Music Voice [measure 276] %%%
+                        %%% CelloMusicVoice [measure 276] %%%
                         R1 * 35/6
                         
-                        %%% Cello Music Voice [measure 282] %%%
+                        %%% CelloMusicVoice [measure 282] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2130,7 +2130,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Cello Music Voice [measure 283] %%%
+                        %%% CelloMusicVoice [measure 283] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2138,10 +2138,10 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Cello Music Voice [measure 284] %%%
+                        %%% CelloMusicVoice [measure 284] %%%
                         R1 * 91/12
                         
-                        %%% Cello Music Voice [measure 292] %%%
+                        %%% CelloMusicVoice [measure 292] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2149,7 +2149,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Cello Music Voice [measure 293] %%%
+                        %%% CelloMusicVoice [measure 293] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2157,7 +2157,7 @@
                         \once \override Stem.color = #blue
                         c'2.
                         
-                        %%% Cello Music Voice [measure 294] %%%
+                        %%% CelloMusicVoice [measure 294] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2165,7 +2165,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Cello Music Voice [measure 295] %%%
+                        %%% CelloMusicVoice [measure 295] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2173,7 +2173,7 @@
                         \once \override Stem.color = #blue
                         c'1.
                         
-                        %%% Cello Music Voice [measure 296] %%%
+                        %%% CelloMusicVoice [measure 296] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2181,7 +2181,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Cello Music Voice [measure 297] %%%
+                        %%% CelloMusicVoice [measure 297] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2189,7 +2189,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Cello Music Voice [measure 298] %%%
+                        %%% CelloMusicVoice [measure 298] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2197,7 +2197,7 @@
                         \once \override Stem.color = #blue
                         c'1..
                         
-                        %%% Cello Music Voice [measure 299] %%%
+                        %%% CelloMusicVoice [measure 299] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2205,7 +2205,7 @@
                         \once \override Stem.color = #blue
                         c'1
                         
-                        %%% Cello Music Voice [measure 300] %%%
+                        %%% CelloMusicVoice [measure 300] %%%
                         R1 * 5/12
                         \bar "|"
                         
