@@ -13,47 +13,68 @@
         \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
-                % measure 177
+                
+                %%% Global Rests [measure 177] %%%
                 R1 * 1/2
-                % measure 178
+                
+                %%% Global Rests [measure 178] %%%
                 R1 * 3/4
-                % measure 179
+                
+                %%% Global Rests [measure 179] %%%
                 R1 * 1/2
-                % measure 180
+                
+                %%% Global Rests [measure 180] %%%
                 R1 * 3/4
-                % measure 181
+                
+                %%% Global Rests [measure 181] %%%
                 R1 * 1
-                % measure 182
+                
+                %%% Global Rests [measure 182] %%%
                 R1 * 3/4
-                % measure 183
+                
+                %%% Global Rests [measure 183] %%%
                 R1 * 1/2
-                % measure 184
+                
+                %%% Global Rests [measure 184] %%%
                 R1 * 1
-                % measure 185
+                
+                %%% Global Rests [measure 185] %%%
                 R1 * 1/2
-                % measure 186
+                
+                %%% Global Rests [measure 186] %%%
                 R1 * 3/4
-                % measure 187
+                
+                %%% Global Rests [measure 187] %%%
                 R1 * 1
-                % measure 188
+                
+                %%% Global Rests [measure 188] %%%
                 R1 * 3/4
-                % measure 189
+                
+                %%% Global Rests [measure 189] %%%
                 R1 * 1
-                % measure 190
+                
+                %%% Global Rests [measure 190] %%%
                 R1 * 3/4
-                % measure 191
+                
+                %%% Global Rests [measure 191] %%%
                 R1 * 1
-                % measure 192
+                
+                %%% Global Rests [measure 192] %%%
                 R1 * 1/2
-                % measure 193
+                
+                %%% Global Rests [measure 193] %%%
                 R1 * 1
-                % measure 194
+                
+                %%% Global Rests [measure 194] %%%
                 R1 * 1
-                % measure 195
+                
+                %%% Global Rests [measure 195] %%%
                 R1 * 3/4
-                % measure 196
+                
+                %%% Global Rests [measure 196] %%%
                 R1 * 1/2
-                % measure 197
+                
+                %%% Global Rests [measure 197] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -62,11 +83,14 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 198
+                
+                %%% Global Rests [measure 198] %%%
                 R1 * 3/4
-                % measure 199
+                
+                %%% Global Rests [measure 199] %%%
                 R1 * 3/4
-                % measure 200
+                
+                %%% Global Rests [measure 200] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -75,55 +99,80 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 201
+                
+                %%% Global Rests [measure 201] %%%
                 R1 * 1
-                % measure 202
+                
+                %%% Global Rests [measure 202] %%%
                 R1 * 1
-                % measure 203
+                
+                %%% Global Rests [measure 203] %%%
                 R1 * 3/4
-                % measure 204
+                
+                %%% Global Rests [measure 204] %%%
                 R1 * 1/2
-                % measure 205
+                
+                %%% Global Rests [measure 205] %%%
                 R1 * 1/2
-                % measure 206
+                
+                %%% Global Rests [measure 206] %%%
                 R1 * 3/4
-                % measure 207
+                
+                %%% Global Rests [measure 207] %%%
                 R1 * 1
-                % measure 208
+                
+                %%% Global Rests [measure 208] %%%
                 R1 * 1/2
-                % measure 209
+                
+                %%% Global Rests [measure 209] %%%
                 R1 * 3/4
-                % measure 210
+                
+                %%% Global Rests [measure 210] %%%
                 R1 * 1
-                % measure 211
+                
+                %%% Global Rests [measure 211] %%%
                 R1 * 1/2
-                % measure 212
+                
+                %%% Global Rests [measure 212] %%%
                 R1 * 3/4
-                % measure 213
+                
+                %%% Global Rests [measure 213] %%%
                 R1 * 1
-                % measure 214
+                
+                %%% Global Rests [measure 214] %%%
                 R1 * 3/4
-                % measure 215
+                
+                %%% Global Rests [measure 215] %%%
                 R1 * 1
-                % measure 216
+                
+                %%% Global Rests [measure 216] %%%
                 R1 * 3/4
-                % measure 217
+                
+                %%% Global Rests [measure 217] %%%
                 R1 * 1
-                % measure 218
+                
+                %%% Global Rests [measure 218] %%%
                 R1 * 1/2
-                % measure 219
+                
+                %%% Global Rests [measure 219] %%%
                 R1 * 1
-                % measure 220
+                
+                %%% Global Rests [measure 220] %%%
                 R1 * 1
-                % measure 221
+                
+                %%% Global Rests [measure 221] %%%
                 R1 * 3/4
-                % measure 222
+                
+                %%% Global Rests [measure 222] %%%
                 R1 * 3/4
-                % measure 223
+                
+                %%% Global Rests [measure 223] %%%
                 R1 * 1/2
-                % measure 224
+                
+                %%% Global Rests [measure 224] %%%
                 R1 * 3/4
-                % measure 225
+                
+                %%% Global Rests [measure 225] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -132,15 +181,20 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 226
+                
+                %%% Global Rests [measure 226] %%%
                 R1 * 1
-                % measure 227
+                
+                %%% Global Rests [measure 227] %%%
                 R1 * 1
-                % measure 228
+                
+                %%% Global Rests [measure 228] %%%
                 R1 * 1/2
-                % measure 229
+                
+                %%% Global Rests [measure 229] %%%
                 R1 * 3/4
-                % measure 230
+                
+                %%% Global Rests [measure 230] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -149,11 +203,14 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 231
+                
+                %%% Global Rests [measure 231] %%%
                 R1 * 1/2
-                % measure 232
+                
+                %%% Global Rests [measure 232] %%%
                 R1 * 3/4
-                % measure 233
+                
+                %%% Global Rests [measure 233] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -162,11 +219,14 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 234
+                
+                %%% Global Rests [measure 234] %%%
                 R1 * 1
-                % measure 235
+                
+                %%% Global Rests [measure 235] %%%
                 R1 * 3/4
-                % measure 236
+                
+                %%% Global Rests [measure 236] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -175,15 +235,20 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 237
+                
+                %%% Global Rests [measure 237] %%%
                 R1 * 1/2
-                % measure 238
+                
+                %%% Global Rests [measure 238] %%%
                 R1 * 1
-                % measure 239
+                
+                %%% Global Rests [measure 239] %%%
                 R1 * 1/2
-                % measure 240
+                
+                %%% Global Rests [measure 240] %%%
                 R1 * 3/4
-                % measure 241
+                
+                %%% Global Rests [measure 241] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -192,11 +257,14 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 242
+                
+                %%% Global Rests [measure 242] %%%
                 R1 * 1
-                % measure 243
+                
+                %%% Global Rests [measure 243] %%%
                 R1 * 3/4
-                % measure 244
+                
+                %%% Global Rests [measure 244] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -205,11 +273,14 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 245
+                
+                %%% Global Rests [measure 245] %%%
                 R1 * 1
-                % measure 246
+                
+                %%% Global Rests [measure 246] %%%
                 R1 * 3/4
-                % measure 247
+                
+                %%% Global Rests [measure 247] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -218,19 +289,26 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 248
+                
+                %%% Global Rests [measure 248] %%%
                 R1 * 1
-                % measure 249
+                
+                %%% Global Rests [measure 249] %%%
                 R1 * 1/2
-                % measure 250
+                
+                %%% Global Rests [measure 250] %%%
                 R1 * 1
-                % measure 251
+                
+                %%% Global Rests [measure 251] %%%
                 R1 * 1
-                % measure 252
+                
+                %%% Global Rests [measure 252] %%%
                 R1 * 3/4
-                % measure 253
+                
+                %%% Global Rests [measure 253] %%%
                 R1 * 1/2
-                % measure 254
+                
+                %%% Global Rests [measure 254] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -239,11 +317,14 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 255
+                
+                %%% Global Rests [measure 255] %%%
                 R1 * 3/4
-                % measure 256
+                
+                %%% Global Rests [measure 256] %%%
                 R1 * 3/4
-                % measure 257
+                
+                %%% Global Rests [measure 257] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -252,11 +333,14 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 258
+                
+                %%% Global Rests [measure 258] %%%
                 R1 * 1
-                % measure 259
+                
+                %%% Global Rests [measure 259] %%%
                 R1 * 1
-                % measure 260
+                
+                %%% Global Rests [measure 260] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -265,11 +349,14 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 261
+                
+                %%% Global Rests [measure 261] %%%
                 R1 * 3/4
-                % measure 262
+                
+                %%% Global Rests [measure 262] %%%
                 R1 * 1/2
-                % measure 263
+                
+                %%% Global Rests [measure 263] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -278,29 +365,41 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 264
+                
+                %%% Global Rests [measure 264] %%%
                 R1 * 1/2
-                % measure 265
+                
+                %%% Global Rests [measure 265] %%%
                 R1 * 3/4
-                % measure 266
+                
+                %%% Global Rests [measure 266] %%%
                 R1 * 1
-                % measure 267
+                
+                %%% Global Rests [measure 267] %%%
                 R1 * 1/2
-                % measure 268
+                
+                %%% Global Rests [measure 268] %%%
                 R1 * 3/4
-                % measure 269
+                
+                %%% Global Rests [measure 269] %%%
                 R1 * 1
-                % measure 270
+                
+                %%% Global Rests [measure 270] %%%
                 R1 * 1/2
-                % measure 271
+                
+                %%% Global Rests [measure 271] %%%
                 R1 * 3/4
-                % measure 272
+                
+                %%% Global Rests [measure 272] %%%
                 R1 * 1
-                % measure 273
+                
+                %%% Global Rests [measure 273] %%%
                 R1 * 3/4
+                
             }
             \context GlobalSkips = "Global Skips" {
-                % measure 177
+                
+                %%% Global Skips [measure 177] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \mark #2
@@ -329,12 +428,14 @@
                             80
                         }
                     }
-                % measure 178
+                
+                %%% Global Skips [measure 178] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 179
+                
+                %%% Global Skips [measure 179] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 2/4
                 \newSpacingSection
@@ -346,12 +447,14 @@
                                 #blue
                                 [B.2]
                         }
-                % measure 180
+                
+                %%% Global Skips [measure 180] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 181
+                
+                %%% Global Skips [measure 181] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
@@ -363,12 +466,14 @@
                                 #blue
                                 [B.3]
                         }
-                % measure 182
+                
+                %%% Global Skips [measure 182] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 183
+                
+                %%% Global Skips [measure 183] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
@@ -380,22 +485,26 @@
                                 #blue
                                 [B.4]
                         }
-                % measure 184
+                
+                %%% Global Skips [measure 184] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 185
+                
+                %%% Global Skips [measure 185] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 186
+                
+                %%% Global Skips [measure 186] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 187
+                
+                %%% Global Skips [measure 187] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -407,12 +516,14 @@
                                 #blue
                                 [B.5]
                         }
-                % measure 188
+                
+                %%% Global Skips [measure 188] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 189
+                
+                %%% Global Skips [measure 189] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -424,12 +535,14 @@
                                 #blue
                                 [B.6]
                         }
-                % measure 190
+                
+                %%% Global Skips [measure 190] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 191
+                
+                %%% Global Skips [measure 191] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -441,12 +554,14 @@
                                 #blue
                                 [B.7]
                         }
-                % measure 192
+                
+                %%% Global Skips [measure 192] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 193
+                
+                %%% Global Skips [measure 193] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -458,12 +573,14 @@
                                 #blue
                                 [B.8]
                         }
-                % measure 194
+                
+                %%% Global Skips [measure 194] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 195
+                
+                %%% Global Skips [measure 195] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -475,12 +592,14 @@
                                 #blue
                                 [B.9]
                         }
-                % measure 196
+                
+                %%% Global Skips [measure 196] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 197
+                
+                %%% Global Skips [measure 197] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -492,7 +611,8 @@
                                 #blue
                                 [B.10]
                         }
-                % measure 198
+                
+                %%% Global Skips [measure 198] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -504,12 +624,14 @@
                                 #blue
                                 [B.11]
                         }
-                % measure 199
+                
+                %%% Global Skips [measure 199] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 200
+                
+                %%% Global Skips [measure 200] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -521,7 +643,8 @@
                                 #blue
                                 [B.12]
                         }
-                % measure 201
+                
+                %%% Global Skips [measure 201] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -533,12 +656,14 @@
                                 #blue
                                 [B.13]
                         }
-                % measure 202
+                
+                %%% Global Skips [measure 202] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 203
+                
+                %%% Global Skips [measure 203] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -550,52 +675,62 @@
                                 #blue
                                 [B.14]
                         }
-                % measure 204
+                
+                %%% Global Skips [measure 204] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 205
+                
+                %%% Global Skips [measure 205] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 206
+                
+                %%% Global Skips [measure 206] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 207
+                
+                %%% Global Skips [measure 207] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 208
+                
+                %%% Global Skips [measure 208] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 209
+                
+                %%% Global Skips [measure 209] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 210
+                
+                %%% Global Skips [measure 210] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 211
+                
+                %%% Global Skips [measure 211] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 212
+                
+                %%% Global Skips [measure 212] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 213
+                
+                %%% Global Skips [measure 213] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -607,52 +742,62 @@
                                 #blue
                                 [B.15]
                         }
-                % measure 214
+                
+                %%% Global Skips [measure 214] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 215
+                
+                %%% Global Skips [measure 215] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 216
+                
+                %%% Global Skips [measure 216] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 217
+                
+                %%% Global Skips [measure 217] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 218
+                
+                %%% Global Skips [measure 218] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 219
+                
+                %%% Global Skips [measure 219] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 220
+                
+                %%% Global Skips [measure 220] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 221
+                
+                %%% Global Skips [measure 221] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 222
+                
+                %%% Global Skips [measure 222] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 223
+                
+                %%% Global Skips [measure 223] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
@@ -664,12 +809,14 @@
                                 #blue
                                 [B.16]
                         }
-                % measure 224
+                
+                %%% Global Skips [measure 224] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 225
+                
+                %%% Global Skips [measure 225] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -681,7 +828,8 @@
                                 #blue
                                 [B.17]
                         }
-                % measure 226
+                
+                %%% Global Skips [measure 226] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -693,12 +841,14 @@
                                 #blue
                                 [B.18]
                         }
-                % measure 227
+                
+                %%% Global Skips [measure 227] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 228
+                
+                %%% Global Skips [measure 228] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
@@ -710,12 +860,14 @@
                                 #blue
                                 [B.19]
                         }
-                % measure 229
+                
+                %%% Global Skips [measure 229] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 230
+                
+                %%% Global Skips [measure 230] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -727,7 +879,8 @@
                                 #blue
                                 [B.20]
                         }
-                % measure 231
+                
+                %%% Global Skips [measure 231] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 2/4
                 \newSpacingSection
@@ -739,12 +892,14 @@
                                 #blue
                                 [B.21]
                         }
-                % measure 232
+                
+                %%% Global Skips [measure 232] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 233
+                
+                %%% Global Skips [measure 233] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -756,7 +911,8 @@
                                 #blue
                                 [B.22]
                         }
-                % measure 234
+                
+                %%% Global Skips [measure 234] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
@@ -768,12 +924,14 @@
                                 #blue
                                 [B.23]
                         }
-                % measure 235
+                
+                %%% Global Skips [measure 235] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 236
+                
+                %%% Global Skips [measure 236] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -785,7 +943,8 @@
                                 #blue
                                 [B.24]
                         }
-                % measure 237
+                
+                %%% Global Skips [measure 237] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 2/4
                 \newSpacingSection
@@ -797,12 +956,14 @@
                                 #blue
                                 [B.25]
                         }
-                % measure 238
+                
+                %%% Global Skips [measure 238] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 239
+                
+                %%% Global Skips [measure 239] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
@@ -814,12 +975,14 @@
                                 #blue
                                 [B.26]
                         }
-                % measure 240
+                
+                %%% Global Skips [measure 240] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 241
+                
+                %%% Global Skips [measure 241] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -831,7 +994,8 @@
                                 #blue
                                 [B.27]
                         }
-                % measure 242
+                
+                %%% Global Skips [measure 242] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -843,12 +1007,14 @@
                                 #blue
                                 [B.28]
                         }
-                % measure 243
+                
+                %%% Global Skips [measure 243] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 244
+                
+                %%% Global Skips [measure 244] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -860,7 +1026,8 @@
                                 #blue
                                 [B.29]
                         }
-                % measure 245
+                
+                %%% Global Skips [measure 245] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
@@ -872,12 +1039,14 @@
                                 #blue
                                 [B.30]
                         }
-                % measure 246
+                
+                %%% Global Skips [measure 246] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 247
+                
+                %%% Global Skips [measure 247] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -889,7 +1058,8 @@
                                 #blue
                                 [B.31]
                         }
-                % measure 248
+                
+                %%% Global Skips [measure 248] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
@@ -901,12 +1071,14 @@
                                 #blue
                                 [B.32]
                         }
-                % measure 249
+                
+                %%% Global Skips [measure 249] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 250
+                
+                %%% Global Skips [measure 250] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
@@ -918,12 +1090,14 @@
                                 #blue
                                 [B.33]
                         }
-                % measure 251
+                
+                %%% Global Skips [measure 251] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 252
+                
+                %%% Global Skips [measure 252] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -935,12 +1109,14 @@
                                 #blue
                                 [B.34]
                         }
-                % measure 253
+                
+                %%% Global Skips [measure 253] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 254
+                
+                %%% Global Skips [measure 254] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -952,7 +1128,8 @@
                                 #blue
                                 [B.35]
                         }
-                % measure 255
+                
+                %%% Global Skips [measure 255] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
@@ -964,12 +1141,14 @@
                                 #blue
                                 [B.36]
                         }
-                % measure 256
+                
+                %%% Global Skips [measure 256] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 257
+                
+                %%% Global Skips [measure 257] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -981,7 +1160,8 @@
                                 #blue
                                 [B.37]
                         }
-                % measure 258
+                
+                %%% Global Skips [measure 258] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
@@ -993,12 +1173,14 @@
                                 #blue
                                 [B.38]
                         }
-                % measure 259
+                
+                %%% Global Skips [measure 259] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 260
+                
+                %%% Global Skips [measure 260] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -1010,7 +1192,8 @@
                                 #blue
                                 [B.39]
                         }
-                % measure 261
+                
+                %%% Global Skips [measure 261] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
@@ -1022,12 +1205,14 @@
                                 #blue
                                 [B.40]
                         }
-                % measure 262
+                
+                %%% Global Skips [measure 262] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 263
+                
+                %%% Global Skips [measure 263] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -1039,7 +1224,8 @@
                                 #blue
                                 [B.41]
                         }
-                % measure 264
+                
+                %%% Global Skips [measure 264] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
@@ -1051,12 +1237,14 @@
                                 #blue
                                 [B.42]
                         }
-                % measure 265
+                
+                %%% Global Skips [measure 265] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 266
+                
+                %%% Global Skips [measure 266] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
@@ -1068,12 +1256,14 @@
                                 #blue
                                 [B.43]
                         }
-                % measure 267
+                
+                %%% Global Skips [measure 267] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                % measure 268
+                
+                %%% Global Skips [measure 268] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
@@ -1085,12 +1275,14 @@
                                 #blue
                                 [B.44]
                         }
-                % measure 269
+                
+                %%% Global Skips [measure 269] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 270
+                
+                %%% Global Skips [measure 270] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 2/4
                 \newSpacingSection
@@ -1102,12 +1294,14 @@
                                 #blue
                                 [B.45]
                         }
-                % measure 271
+                
+                %%% Global Skips [measure 271] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 272
+                
+                %%% Global Skips [measure 272] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
@@ -1119,11 +1313,13 @@
                                 #blue
                                 [B.46]
                         }
-                % measure 273
+                
+                %%% Global Skips [measure 273] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                
             }
         >>
         \context MusicContext = "Music Context" <<
@@ -1132,7 +1328,8 @@
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \context FluteMusicVoice = "Flute Music Voice" {
                         \times 4/5 {
-                            % measure 177
+                            
+                            %%% Flute Music Voice [measure 177] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1160,24 +1357,28 @@
                             \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c''16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1187,6 +1388,7 @@
                             c''16 ]
                         }
                         \times 4/5 {
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1194,24 +1396,28 @@
                             \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c''16 \repeatTie [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1221,7 +1427,8 @@
                             c''16 ]
                         }
                         {
-                            % measure 178
+                            
+                            %%% Flute Music Voice [measure 178] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1229,6 +1436,7 @@
                             \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c''8 \repeatTie [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1237,12 +1445,14 @@
                             c''8 ]
                         }
                         \times 2/3 {
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''8 \repeatTie
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1252,18 +1462,21 @@
                             c''4
                         }
                         \times 4/5 {
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16 \repeatTie [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1273,13 +1486,15 @@
                             c''8. ]
                         }
                         \times 4/5 {
-                            % measure 179
+                            
+                            %%% Flute Music Voice [measure 179] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16 \repeatTie
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1289,12 +1504,14 @@
                             c''4
                         }
                         \times 2/3 {
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''4 \repeatTie
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1303,7 +1520,8 @@
                             c''8
                         }
                         {
-                            % measure 180
+                            
+                            %%% Flute Music Voice [measure 180] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1311,12 +1529,14 @@
                             \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c''8 \repeatTie [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1326,6 +1546,7 @@
                             c''16 ]
                         }
                         \times 4/5 {
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1333,24 +1554,28 @@
                             \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c''16 \repeatTie [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1360,6 +1585,7 @@
                             c''16 ]
                         }
                         \times 4/5 {
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1367,24 +1593,28 @@
                             \once \override Stem.color = #blue
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             c''16 \repeatTie [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1392,57 +1622,72 @@
                             \once \override Stem.color = #blue
                             c''16 ]
                         }
-                        % measure 181
+                        
+                        %%% Flute Music Voice [measure 181] %%%
                         r1
-                        % measure 182
+                        
+                        %%% Flute Music Voice [measure 182] %%%
                         r2.
-                        % measure 183
+                        
+                        %%% Flute Music Voice [measure 183] %%%
                         R1 * 25/4
                         {
-                            % measure 191
+                            
+                            %%% Flute Music Voice [measure 191] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''8
+                            
                             r4
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''8
+                            
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''8
+                            
                             r4
                         }
                         {
-                            % measure 192
+                            
+                            %%% Flute Music Voice [measure 192] %%%
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c''8
+                            
                             r4
                         }
-                        % measure 193
+                        
+                        %%% Flute Music Voice [measure 193] %%%
                         R1 * 225/4
                         \bar "|"
+                        
                     }
                 }
                 \tag english_horn
                 \context EnglishHornMusicStaff = "English Horn Music Staff" {
                     \context EnglishHornMusicVoice = "English Horn Music Voice" {
                         \times 4/5 {
-                            % measure 177
+                            
+                            %%% English Horn Music Voice [measure 177] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -1468,24 +1713,28 @@
                             \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1494,25 +1743,30 @@
                             g'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1521,8 +1775,10 @@
                             g'16 ]
                         }
                         {
-                            % measure 178
+                            
+                            %%% English Horn Music Voice [measure 178] %%%
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1531,7 +1787,9 @@
                             g'8
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1540,13 +1798,16 @@
                             g'4
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1555,8 +1816,10 @@
                             g'8. ]
                         }
                         \times 4/5 {
-                            % measure 179
+                            
+                            %%% English Horn Music Voice [measure 179] %%%
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1565,7 +1828,9 @@
                             g'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1574,14 +1839,17 @@
                             g'8
                         }
                         {
-                            % measure 180
+                            
+                            %%% English Horn Music Voice [measure 180] %%%
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1590,25 +1858,30 @@
                             g'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1617,25 +1890,30 @@
                             g'16 ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1644,26 +1922,31 @@
                             g'16 ]
                         }
                         \times 4/5 {
-                            % measure 181
+                            
+                            %%% English Horn Music Voice [measure 181] %%%
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1672,7 +1955,9 @@
                             g'16 ]
                         }
                         {
+                            
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1681,7 +1966,9 @@
                             g'8
                         }
                         \times 2/3 {
+                            
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1690,13 +1977,16 @@
                             g'4
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1705,8 +1995,10 @@
                             g'8. ]
                         }
                         \times 4/5 {
-                            % measure 182
+                            
+                            %%% English Horn Music Voice [measure 182] %%%
                             r16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1715,7 +2007,9 @@
                             g'4
                         }
                         \times 2/3 {
+                            
                             r4
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1724,13 +2018,16 @@
                             g'8
                         }
                         {
+                            
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -1738,167 +2035,194 @@
                             \once \override Stem.color = #blue
                             g'16 ]
                         }
-                        % measure 183
+                        
+                        %%% English Horn Music Voice [measure 183] %%%
                         R1 * 15
-                        % measure 203
+                        
+                        %%% English Horn Music Voice [measure 203] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. ~
-                        % measure 204
+                        
+                        %%% English Horn Music Voice [measure 204] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2 ~
-                        % measure 205
+                        
+                        %%% English Horn Music Voice [measure 205] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2 ~
-                        % measure 206
+                        
+                        %%% English Horn Music Voice [measure 206] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. ~
-                        % measure 207
+                        
+                        %%% English Horn Music Voice [measure 207] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 ~
-                        % measure 208
+                        
+                        %%% English Horn Music Voice [measure 208] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2 ~
-                        % measure 209
+                        
+                        %%% English Horn Music Voice [measure 209] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. ~
-                        % measure 210
+                        
+                        %%% English Horn Music Voice [measure 210] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 ~
-                        % measure 211
+                        
+                        %%% English Horn Music Voice [measure 211] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2 ~
-                        % measure 212
+                        
+                        %%% English Horn Music Voice [measure 212] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2
+                        
                         r4
-                        % measure 213
+                        
+                        %%% English Horn Music Voice [measure 213] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 ~
-                        % measure 214
+                        
+                        %%% English Horn Music Voice [measure 214] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. ~
-                        % measure 215
+                        
+                        %%% English Horn Music Voice [measure 215] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 ~
-                        % measure 216
+                        
+                        %%% English Horn Music Voice [measure 216] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. ~
-                        % measure 217
+                        
+                        %%% English Horn Music Voice [measure 217] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 ~
-                        % measure 218
+                        
+                        %%% English Horn Music Voice [measure 218] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2 ~
-                        % measure 219
+                        
+                        %%% English Horn Music Voice [measure 219] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 ~
-                        % measure 220
+                        
+                        %%% English Horn Music Voice [measure 220] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 ~
-                        % measure 221
+                        
+                        %%% English Horn Music Voice [measure 221] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. ~
-                        % measure 222
+                        
+                        %%% English Horn Music Voice [measure 222] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2
+                        
                         r4
-                        % measure 223
+                        
+                        %%% English Horn Music Voice [measure 223] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2
-                        % measure 224
+                        
+                        %%% English Horn Music Voice [measure 224] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2. \repeatTie
-                        % measure 225
+                        
+                        %%% English Horn Music Voice [measure 225] %%%
                         R1 * 1/4
-                        % measure 226
+                        
+                        %%% English Horn Music Voice [measure 226] %%%
                         r1
                             ^ \markup {
                                 \whiteout
@@ -1908,9 +2232,11 @@
                                             \box
                                                 "remove staple"
                                 }
-                        % measure 227
+                        
+                        %%% English Horn Music Voice [measure 227] %%%
                         r1
-                        % measure 228
+                        
+                        %%% English Horn Music Voice [measure 228] %%%
                         R1 * 3/2
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1943,7 +2269,8 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 231
+                            
+                            %%% English Horn Music Voice [measure 231] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -1964,12 +2291,14 @@
                                                 \box
                                                     ratchet
                                     }
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 101/64
+                            
                             \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2010,7 +2339,8 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 232
+                            
+                            %%% English Horn Music Voice [measure 232] %%%
                             \once \override Beam.color = #blue
                             \once \override Beam.grow-direction = #left
                             \once \override Dots.color = #blue
@@ -2019,30 +2349,35 @@
                             \once \override Stem.color = #blue
                             \override Staff.Stem.stemlet-length = #0.75
                             g'16 * 57/64 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 31/32
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 77/64
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 111/64
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 11/4
+                            
                             \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2052,7 +2387,8 @@
                             g'16 * 285/64 ]
                         }
                         \revert TupletNumber.text
-                        % measure 233
+                        
+                        %%% English Horn Music Voice [measure 233] %%%
                         R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -2085,7 +2421,8 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 234
+                            
+                            %%% English Horn Music Voice [measure 234] %%%
                             \once \override Beam.color = #blue
                             \once \override Beam.grow-direction = #right
                             \once \override Dots.color = #blue
@@ -2094,30 +2431,35 @@
                             \once \override Stem.color = #blue
                             \override Staff.Stem.stemlet-length = #0.75
                             g'16 * 187/32 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 139/32
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 73/32
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 23/16
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 71/64
+                            
                             \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2158,7 +2500,8 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 235
+                            
+                            %%% English Horn Music Voice [measure 235] %%%
                             \once \override Beam.color = #blue
                             \once \override Beam.grow-direction = #left
                             \once \override Dots.color = #blue
@@ -2167,30 +2510,35 @@
                             \once \override Stem.color = #blue
                             \override Staff.Stem.stemlet-length = #0.75
                             g'16 * 57/64 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 31/32
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 77/64
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 111/64
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             g'16 * 11/4
+                            
                             \revert Staff.Stem.stemlet-length
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
@@ -2200,91 +2548,112 @@
                             g'16 * 285/64 ]
                         }
                         \revert TupletNumber.text
-                        % measure 236
+                        
+                        %%% English Horn Music Voice [measure 236] %%%
                         R1 * 35/4
-                        % measure 250
+                        
+                        %%% English Horn Music Voice [measure 250] %%%
                         r2
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2
-                        % measure 251
+                        
+                        %%% English Horn Music Voice [measure 251] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
-                        % measure 252
+                        
+                        %%% English Horn Music Voice [measure 252] %%%
                         R1 * 13/4
-                        % measure 258
+                        
+                        %%% English Horn Music Voice [measure 258] %%%
                         r2
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2
-                        % measure 259
+                        
+                        %%% English Horn Music Voice [measure 259] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'1 \repeatTie
-                        % measure 260
+                        
+                        %%% English Horn Music Voice [measure 260] %%%
                         R1 * 1/4
-                        % measure 261
+                        
+                        %%% English Horn Music Voice [measure 261] %%%
                         r2
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'4
-                        % measure 262
+                        
+                        %%% English Horn Music Voice [measure 262] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2 \repeatTie
-                        % measure 263
+                        
+                        %%% English Horn Music Voice [measure 263] %%%
                         R1 * 19/4
-                        % measure 270
+                        
+                        %%% English Horn Music Voice [measure 270] %%%
                         r2
-                        % measure 271
+                        
+                        %%% English Horn Music Voice [measure 271] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2.
-                        % measure 272
+                        
+                        %%% English Horn Music Voice [measure 272] %%%
                         r2
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'2
-                        % measure 273
+                        
+                        %%% English Horn Music Voice [measure 273] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         g'4. \repeatTie
+                        
                         r4.
                         \bar "|"
+                        
                     }
                 }
                 \tag clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                        % measure 177
+                        
+                        %%% Clarinet Music Voice [measure 177] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -2312,79 +2681,98 @@
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         d''2
-                        % measure 178
+                        
+                        %%% Clarinet Music Voice [measure 178] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         d''2. \repeatTie
-                        % measure 179
+                        
+                        %%% Clarinet Music Voice [measure 179] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         d''2 \repeatTie
-                        % measure 180
+                        
+                        %%% Clarinet Music Voice [measure 180] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         d''2. \repeatTie
-                        % measure 181
+                        
+                        %%% Clarinet Music Voice [measure 181] %%%
                         r1
-                        % measure 182
+                        
+                        %%% Clarinet Music Voice [measure 182] %%%
                         r2.
-                        % measure 183
+                        
+                        %%% Clarinet Music Voice [measure 183] %%%
                         R1 * 25/4
                         {
-                            % measure 191
+                            
+                            %%% Clarinet Music Voice [measure 191] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4
                         }
                         {
-                            % measure 192
+                            
+                            %%% Clarinet Music Voice [measure 192] %%%
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4
                         }
-                        % measure 193
+                        
+                        %%% Clarinet Music Voice [measure 193] %%%
                         R1 * 105/4
                         {
-                            % measure 228
+                            
+                            %%% Clarinet Music Voice [measure 228] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -2393,58 +2781,75 @@
                             d''8
                         }
                         {
-                            % measure 229
+                            
+                            %%% Clarinet Music Voice [measure 229] %%%
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4.
+                            
                             r8
                         }
-                        % measure 230
+                        
+                        %%% Clarinet Music Voice [measure 230] %%%
                         R1 * 27/4
                         {
-                            % measure 242
+                            
+                            %%% Clarinet Music Voice [measure 242] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4
                         }
                         {
-                            % measure 243
+                            
+                            %%% Clarinet Music Voice [measure 243] %%%
                             r8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             d''8
+                            
                             r4.
+                            
                             r8
                         }
-                        % measure 244
+                        
+                        %%% Clarinet Music Voice [measure 244] %%%
                         R1 * 81/4
                         \bar "|"
+                        
                     }
                 }
             >>
@@ -2454,7 +2859,8 @@
                     \context PianoRHMusicStaff = "Piano RH Music Staff" {
                         \context PianoRHMusicVoice = "Piano RH Music Voice" {
                             \times 2/3 {
-                                % measure 177
+                                
+                                %%% Piano RH Music Voice [measure 177] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2480,30 +2886,35 @@
                                             \box
                                                 "to piano"
                                         }
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2512,37 +2923,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 178
+                                
+                                %%% Piano RH Music Voice [measure 178] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2551,37 +2968,43 @@
                                 c'8 ]
                             }
                             \times 2/3 {
-                                % measure 179
+                                
+                                %%% Piano RH Music Voice [measure 179] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2590,37 +3013,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 180
+                                
+                                %%% Piano RH Music Voice [measure 180] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2629,61 +3058,71 @@
                                 c'8 ]
                             }
                             \times 4/5 {
-                                % measure 181
+                                
+                                %%% Piano RH Music Voice [measure 181] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2692,37 +3131,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 182
+                                
+                                %%% Piano RH Music Voice [measure 182] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2731,37 +3176,43 @@
                                 c'8 ]
                             }
                             \times 2/3 {
-                                % measure 183
+                                
+                                %%% Piano RH Music Voice [measure 183] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2770,85 +3221,99 @@
                                 c'8 ]
                             }
                             \times 4/7 {
-                                % measure 184
+                                
+                                %%% Piano RH Music Voice [measure 184] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2857,37 +3322,43 @@
                                 c'8 ]
                             }
                             \times 2/3 {
-                                % measure 185
+                                
+                                %%% Piano RH Music Voice [measure 185] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2896,37 +3367,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 186
+                                
+                                %%% Piano RH Music Voice [measure 186] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2935,61 +3412,71 @@
                                 c'8 ]
                             }
                             \times 4/5 {
-                                % measure 187
+                                
+                                %%% Piano RH Music Voice [measure 187] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -2998,37 +3485,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 188
+                                
+                                %%% Piano RH Music Voice [measure 188] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3037,61 +3530,71 @@
                                 c'8 ]
                             }
                             \times 4/5 {
-                                % measure 189
+                                
+                                %%% Piano RH Music Voice [measure 189] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3100,37 +3603,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 190
+                                
+                                %%% Piano RH Music Voice [measure 190] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3139,61 +3648,71 @@
                                 c'8 ]
                             }
                             \times 4/5 {
-                                % measure 191
+                                
+                                %%% Piano RH Music Voice [measure 191] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3202,25 +3721,29 @@
                                 c'8 ]
                             }
                             {
-                                % measure 192
+                                
+                                %%% Piano RH Music Voice [measure 192] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3229,61 +3752,71 @@
                                 c'8 ]
                             }
                             \times 4/5 {
-                                % measure 193
+                                
+                                %%% Piano RH Music Voice [measure 193] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3292,85 +3825,99 @@
                                 c'8 ]
                             }
                             \times 4/7 {
-                                % measure 194
+                                
+                                %%% Piano RH Music Voice [measure 194] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3380,49 +3927,57 @@
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/4 {
-                                % measure 195
+                                
+                                %%% Piano RH Music Voice [measure 195] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3431,25 +3986,29 @@
                                 c'8 ]
                             }
                             {
-                                % measure 196
+                                
+                                %%% Piano RH Music Voice [measure 196] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3457,53 +4016,62 @@
                                 \once \override Stem.color = #blue
                                 c'8 ]
                             }
-                            % measure 197
+                            
+                            %%% Piano RH Music Voice [measure 197] %%%
                             R1 * 1/4
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/4 {
-                                % measure 198
+                                
+                                %%% Piano RH Music Voice [measure 198] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3512,37 +4080,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 199
+                                
+                                %%% Piano RH Music Voice [measure 199] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3550,40 +4124,47 @@
                                 \once \override Stem.color = #blue
                                 c'8 ]
                             }
-                            % measure 200
+                            
+                            %%% Piano RH Music Voice [measure 200] %%%
                             R1 * 85/4
                             \times 2/3 {
-                                % measure 228
+                                
+                                %%% Piano RH Music Voice [measure 228] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3592,37 +4173,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 229
+                                
+                                %%% Piano RH Music Voice [measure 229] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3630,40 +4217,47 @@
                                 \once \override Stem.color = #blue
                                 c'8 ]
                             }
-                            % measure 230
+                            
+                            %%% Piano RH Music Voice [measure 230] %%%
                             R1 * 21/4
                             \times 2/3 {
-                                % measure 239
+                                
+                                %%% Piano RH Music Voice [measure 239] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3672,37 +4266,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 240
+                                
+                                %%% Piano RH Music Voice [measure 240] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3710,64 +4310,75 @@
                                 \once \override Stem.color = #blue
                                 c'8 ]
                             }
-                            % measure 241
+                            
+                            %%% Piano RH Music Voice [measure 241] %%%
                             R1 * 1/4
                             \times 4/5 {
-                                % measure 242
+                                
+                                %%% Piano RH Music Voice [measure 242] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3776,37 +4387,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 243
+                                
+                                %%% Piano RH Music Voice [measure 243] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3814,53 +4431,62 @@
                                 \once \override Stem.color = #blue
                                 c'8 ]
                             }
-                            % measure 244
+                            
+                            %%% Piano RH Music Voice [measure 244] %%%
                             R1 * 23/4
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/4 {
-                                % measure 252
+                                
+                                %%% Piano RH Music Voice [measure 252] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3869,37 +4495,43 @@
                                 c'8 ]
                             }
                             \times 2/3 {
-                                % measure 253
+                                
+                                %%% Piano RH Music Voice [measure 253] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3907,40 +4539,47 @@
                                 \once \override Stem.color = #blue
                                 c'8 ]
                             }
-                            % measure 254
+                            
+                            %%% Piano RH Music Voice [measure 254] %%%
                             R1 * 23/4
                             \times 2/3 {
-                                % measure 264
+                                
+                                %%% Piano RH Music Voice [measure 264] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3949,37 +4588,43 @@
                                 c'8 ]
                             }
                             {
-                                % measure 265
+                                
+                                %%% Piano RH Music Voice [measure 265] %%%
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8 [
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
                                 \once \override NoteHead.color = #blue
                                 \once \override Stem.color = #blue
                                 c'8
+                                
                                 \once \override Beam.color = #blue
                                 \once \override Dots.color = #blue
                                 \once \override Flag.color = #blue
@@ -3987,418 +4632,619 @@
                                 \once \override Stem.color = #blue
                                 c'8 ]
                             }
-                            % measure 266
+                            
+                            %%% Piano RH Music Voice [measure 266] %%%
                             r1
-                            % measure 267
+                            
+                            %%% Piano RH Music Voice [measure 267] %%%
                             r2
-                            % measure 268
+                            
+                            %%% Piano RH Music Voice [measure 268] %%%
                             R1 * 19/4
                             \bar "|"
+                            
                         }
                     }
                     \context PianoLHMusicStaff = "Piano LH Music Staff" <<
                         \context PianoLHMusicVoice = "Piano LH Music Voice" {
-                            % measure 177
+                            
+                            %%% Piano LH Music Voice [measure 177] %%%
                             \clef "bass"
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             R1 * 1/2
-                            % measure 178
+                            
+                            %%% Piano LH Music Voice [measure 178] %%%
                             R1 * 3/4
-                            % measure 179
+                            
+                            %%% Piano LH Music Voice [measure 179] %%%
                             R1 * 1/2
-                            % measure 180
+                            
+                            %%% Piano LH Music Voice [measure 180] %%%
                             R1 * 3/4
-                            % measure 181
+                            
+                            %%% Piano LH Music Voice [measure 181] %%%
                             R1 * 1
-                            % measure 182
+                            
+                            %%% Piano LH Music Voice [measure 182] %%%
                             R1 * 3/4
-                            % measure 183
+                            
+                            %%% Piano LH Music Voice [measure 183] %%%
                             R1 * 1/2
-                            % measure 184
+                            
+                            %%% Piano LH Music Voice [measure 184] %%%
                             R1 * 1
-                            % measure 185
+                            
+                            %%% Piano LH Music Voice [measure 185] %%%
                             R1 * 1/2
-                            % measure 186
+                            
+                            %%% Piano LH Music Voice [measure 186] %%%
                             R1 * 3/4
-                            % measure 187
+                            
+                            %%% Piano LH Music Voice [measure 187] %%%
                             R1 * 1
-                            % measure 188
+                            
+                            %%% Piano LH Music Voice [measure 188] %%%
                             R1 * 3/4
-                            % measure 189
+                            
+                            %%% Piano LH Music Voice [measure 189] %%%
                             R1 * 1
-                            % measure 190
+                            
+                            %%% Piano LH Music Voice [measure 190] %%%
                             R1 * 3/4
-                            % measure 191
+                            
+                            %%% Piano LH Music Voice [measure 191] %%%
                             R1 * 1
-                            % measure 192
+                            
+                            %%% Piano LH Music Voice [measure 192] %%%
                             R1 * 1/2
-                            % measure 193
+                            
+                            %%% Piano LH Music Voice [measure 193] %%%
                             R1 * 1
-                            % measure 194
+                            
+                            %%% Piano LH Music Voice [measure 194] %%%
                             R1 * 1
-                            % measure 195
+                            
+                            %%% Piano LH Music Voice [measure 195] %%%
                             R1 * 3/4
-                            % measure 196
+                            
+                            %%% Piano LH Music Voice [measure 196] %%%
                             R1 * 1/2
-                            % measure 197
+                            
+                            %%% Piano LH Music Voice [measure 197] %%%
                             R1 * 1/4
-                            % measure 198
+                            
+                            %%% Piano LH Music Voice [measure 198] %%%
                             R1 * 3/4
-                            % measure 199
+                            
+                            %%% Piano LH Music Voice [measure 199] %%%
                             R1 * 3/4
-                            % measure 200
+                            
+                            %%% Piano LH Music Voice [measure 200] %%%
                             R1 * 1/4
-                            % measure 201
+                            
+                            %%% Piano LH Music Voice [measure 201] %%%
                             R1 * 1
-                            % measure 202
+                            
+                            %%% Piano LH Music Voice [measure 202] %%%
                             R1 * 1
-                            % measure 203
+                            
+                            %%% Piano LH Music Voice [measure 203] %%%
                             R1 * 3/4
-                            % measure 204
+                            
+                            %%% Piano LH Music Voice [measure 204] %%%
                             R1 * 1/2
-                            % measure 205
+                            
+                            %%% Piano LH Music Voice [measure 205] %%%
                             R1 * 1/2
-                            % measure 206
+                            
+                            %%% Piano LH Music Voice [measure 206] %%%
                             R1 * 3/4
-                            % measure 207
+                            
+                            %%% Piano LH Music Voice [measure 207] %%%
                             R1 * 1
-                            % measure 208
+                            
+                            %%% Piano LH Music Voice [measure 208] %%%
                             R1 * 1/2
-                            % measure 209
+                            
+                            %%% Piano LH Music Voice [measure 209] %%%
                             R1 * 3/4
-                            % measure 210
+                            
+                            %%% Piano LH Music Voice [measure 210] %%%
                             R1 * 1
-                            % measure 211
+                            
+                            %%% Piano LH Music Voice [measure 211] %%%
                             R1 * 1/2
-                            % measure 212
+                            
+                            %%% Piano LH Music Voice [measure 212] %%%
                             R1 * 3/4
-                            % measure 213
+                            
+                            %%% Piano LH Music Voice [measure 213] %%%
                             R1 * 1
-                            % measure 214
+                            
+                            %%% Piano LH Music Voice [measure 214] %%%
                             R1 * 3/4
-                            % measure 215
+                            
+                            %%% Piano LH Music Voice [measure 215] %%%
                             R1 * 1
-                            % measure 216
+                            
+                            %%% Piano LH Music Voice [measure 216] %%%
                             R1 * 3/4
-                            % measure 217
+                            
+                            %%% Piano LH Music Voice [measure 217] %%%
                             R1 * 1
-                            % measure 218
+                            
+                            %%% Piano LH Music Voice [measure 218] %%%
                             R1 * 1/2
-                            % measure 219
+                            
+                            %%% Piano LH Music Voice [measure 219] %%%
                             R1 * 1
-                            % measure 220
+                            
+                            %%% Piano LH Music Voice [measure 220] %%%
                             R1 * 1
-                            % measure 221
+                            
+                            %%% Piano LH Music Voice [measure 221] %%%
                             R1 * 3/4
-                            % measure 222
+                            
+                            %%% Piano LH Music Voice [measure 222] %%%
                             R1 * 3/4
-                            % measure 223
+                            
+                            %%% Piano LH Music Voice [measure 223] %%%
                             R1 * 1/2
-                            % measure 224
+                            
+                            %%% Piano LH Music Voice [measure 224] %%%
                             R1 * 3/4
-                            % measure 225
+                            
+                            %%% Piano LH Music Voice [measure 225] %%%
                             R1 * 1/4
-                            % measure 226
+                            
+                            %%% Piano LH Music Voice [measure 226] %%%
                             R1 * 1
-                            % measure 227
+                            
+                            %%% Piano LH Music Voice [measure 227] %%%
                             R1 * 1
-                            % measure 228
+                            
+                            %%% Piano LH Music Voice [measure 228] %%%
                             R1 * 1/2
-                            % measure 229
+                            
+                            %%% Piano LH Music Voice [measure 229] %%%
                             R1 * 3/4
-                            % measure 230
+                            
+                            %%% Piano LH Music Voice [measure 230] %%%
                             R1 * 1/4
-                            % measure 231
+                            
+                            %%% Piano LH Music Voice [measure 231] %%%
                             R1 * 1/2
-                            % measure 232
+                            
+                            %%% Piano LH Music Voice [measure 232] %%%
                             R1 * 3/4
-                            % measure 233
+                            
+                            %%% Piano LH Music Voice [measure 233] %%%
                             R1 * 1/4
-                            % measure 234
+                            
+                            %%% Piano LH Music Voice [measure 234] %%%
                             R1 * 1
-                            % measure 235
+                            
+                            %%% Piano LH Music Voice [measure 235] %%%
                             R1 * 3/4
-                            % measure 236
+                            
+                            %%% Piano LH Music Voice [measure 236] %%%
                             R1 * 1/4
-                            % measure 237
+                            
+                            %%% Piano LH Music Voice [measure 237] %%%
                             R1 * 1/2
-                            % measure 238
+                            
+                            %%% Piano LH Music Voice [measure 238] %%%
                             R1 * 1
-                            % measure 239
+                            
+                            %%% Piano LH Music Voice [measure 239] %%%
                             R1 * 1/2
-                            % measure 240
+                            
+                            %%% Piano LH Music Voice [measure 240] %%%
                             R1 * 3/4
-                            % measure 241
+                            
+                            %%% Piano LH Music Voice [measure 241] %%%
                             R1 * 1/4
-                            % measure 242
+                            
+                            %%% Piano LH Music Voice [measure 242] %%%
                             R1 * 1
-                            % measure 243
+                            
+                            %%% Piano LH Music Voice [measure 243] %%%
                             R1 * 3/4
-                            % measure 244
+                            
+                            %%% Piano LH Music Voice [measure 244] %%%
                             R1 * 1/4
-                            % measure 245
+                            
+                            %%% Piano LH Music Voice [measure 245] %%%
                             R1 * 1
-                            % measure 246
+                            
+                            %%% Piano LH Music Voice [measure 246] %%%
                             R1 * 3/4
-                            % measure 247
+                            
+                            %%% Piano LH Music Voice [measure 247] %%%
                             R1 * 1/4
-                            % measure 248
+                            
+                            %%% Piano LH Music Voice [measure 248] %%%
                             R1 * 1
-                            % measure 249
+                            
+                            %%% Piano LH Music Voice [measure 249] %%%
                             R1 * 1/2
-                            % measure 250
+                            
+                            %%% Piano LH Music Voice [measure 250] %%%
                             R1 * 1
-                            % measure 251
+                            
+                            %%% Piano LH Music Voice [measure 251] %%%
                             R1 * 1
-                            % measure 252
+                            
+                            %%% Piano LH Music Voice [measure 252] %%%
                             R1 * 3/4
-                            % measure 253
+                            
+                            %%% Piano LH Music Voice [measure 253] %%%
                             R1 * 1/2
-                            % measure 254
+                            
+                            %%% Piano LH Music Voice [measure 254] %%%
                             R1 * 1/4
-                            % measure 255
+                            
+                            %%% Piano LH Music Voice [measure 255] %%%
                             R1 * 3/4
-                            % measure 256
+                            
+                            %%% Piano LH Music Voice [measure 256] %%%
                             R1 * 3/4
-                            % measure 257
+                            
+                            %%% Piano LH Music Voice [measure 257] %%%
                             R1 * 1/4
-                            % measure 258
+                            
+                            %%% Piano LH Music Voice [measure 258] %%%
                             R1 * 1
-                            % measure 259
+                            
+                            %%% Piano LH Music Voice [measure 259] %%%
                             R1 * 1
-                            % measure 260
+                            
+                            %%% Piano LH Music Voice [measure 260] %%%
                             R1 * 1/4
-                            % measure 261
+                            
+                            %%% Piano LH Music Voice [measure 261] %%%
                             R1 * 3/4
-                            % measure 262
+                            
+                            %%% Piano LH Music Voice [measure 262] %%%
                             R1 * 1/2
-                            % measure 263
+                            
+                            %%% Piano LH Music Voice [measure 263] %%%
                             R1 * 1/4
-                            % measure 264
+                            
+                            %%% Piano LH Music Voice [measure 264] %%%
                             R1 * 1/2
-                            % measure 265
+                            
+                            %%% Piano LH Music Voice [measure 265] %%%
                             R1 * 3/4
-                            % measure 266
+                            
+                            %%% Piano LH Music Voice [measure 266] %%%
                             R1 * 1
-                            % measure 267
+                            
+                            %%% Piano LH Music Voice [measure 267] %%%
                             R1 * 1/2
-                            % measure 268
+                            
+                            %%% Piano LH Music Voice [measure 268] %%%
                             R1 * 3/4
-                            % measure 269
+                            
+                            %%% Piano LH Music Voice [measure 269] %%%
                             R1 * 1
-                            % measure 270
+                            
+                            %%% Piano LH Music Voice [measure 270] %%%
                             R1 * 1/2
-                            % measure 271
+                            
+                            %%% Piano LH Music Voice [measure 271] %%%
                             R1 * 3/4
-                            % measure 272
+                            
+                            %%% Piano LH Music Voice [measure 272] %%%
                             R1 * 1
-                            % measure 273
+                            
+                            %%% Piano LH Music Voice [measure 273] %%%
                             R1 * 3/4
                             \bar "|"
+                            
                         }
                         \context PianoLHAttackVoice = "Piano LH Attack Voice" {
-                            % measure 177
+                            
+                            %%% Piano LH Attack Voice [measure 177] %%%
                             R1 * 1/2
-                            % measure 178
+                            
+                            %%% Piano LH Attack Voice [measure 178] %%%
                             R1 * 3/4
-                            % measure 179
+                            
+                            %%% Piano LH Attack Voice [measure 179] %%%
                             R1 * 1/2
-                            % measure 180
+                            
+                            %%% Piano LH Attack Voice [measure 180] %%%
                             R1 * 3/4
-                            % measure 181
+                            
+                            %%% Piano LH Attack Voice [measure 181] %%%
                             R1 * 1
-                            % measure 182
+                            
+                            %%% Piano LH Attack Voice [measure 182] %%%
                             R1 * 3/4
-                            % measure 183
+                            
+                            %%% Piano LH Attack Voice [measure 183] %%%
                             R1 * 1/2
-                            % measure 184
+                            
+                            %%% Piano LH Attack Voice [measure 184] %%%
                             R1 * 1
-                            % measure 185
+                            
+                            %%% Piano LH Attack Voice [measure 185] %%%
                             R1 * 1/2
-                            % measure 186
+                            
+                            %%% Piano LH Attack Voice [measure 186] %%%
                             R1 * 3/4
-                            % measure 187
+                            
+                            %%% Piano LH Attack Voice [measure 187] %%%
                             R1 * 1
-                            % measure 188
+                            
+                            %%% Piano LH Attack Voice [measure 188] %%%
                             R1 * 3/4
-                            % measure 189
+                            
+                            %%% Piano LH Attack Voice [measure 189] %%%
                             R1 * 1
-                            % measure 190
+                            
+                            %%% Piano LH Attack Voice [measure 190] %%%
                             R1 * 3/4
-                            % measure 191
+                            
+                            %%% Piano LH Attack Voice [measure 191] %%%
                             R1 * 1
-                            % measure 192
+                            
+                            %%% Piano LH Attack Voice [measure 192] %%%
                             R1 * 1/2
-                            % measure 193
+                            
+                            %%% Piano LH Attack Voice [measure 193] %%%
                             R1 * 1
-                            % measure 194
+                            
+                            %%% Piano LH Attack Voice [measure 194] %%%
                             R1 * 1
-                            % measure 195
+                            
+                            %%% Piano LH Attack Voice [measure 195] %%%
                             R1 * 3/4
-                            % measure 196
+                            
+                            %%% Piano LH Attack Voice [measure 196] %%%
                             R1 * 1/2
-                            % measure 197
+                            
+                            %%% Piano LH Attack Voice [measure 197] %%%
                             R1 * 1/4
-                            % measure 198
+                            
+                            %%% Piano LH Attack Voice [measure 198] %%%
                             R1 * 3/4
-                            % measure 199
+                            
+                            %%% Piano LH Attack Voice [measure 199] %%%
                             R1 * 3/4
-                            % measure 200
+                            
+                            %%% Piano LH Attack Voice [measure 200] %%%
                             R1 * 1/4
-                            % measure 201
+                            
+                            %%% Piano LH Attack Voice [measure 201] %%%
                             R1 * 1
-                            % measure 202
+                            
+                            %%% Piano LH Attack Voice [measure 202] %%%
                             R1 * 1
-                            % measure 203
+                            
+                            %%% Piano LH Attack Voice [measure 203] %%%
                             R1 * 3/4
-                            % measure 204
+                            
+                            %%% Piano LH Attack Voice [measure 204] %%%
                             R1 * 1/2
-                            % measure 205
+                            
+                            %%% Piano LH Attack Voice [measure 205] %%%
                             R1 * 1/2
-                            % measure 206
+                            
+                            %%% Piano LH Attack Voice [measure 206] %%%
                             R1 * 3/4
-                            % measure 207
+                            
+                            %%% Piano LH Attack Voice [measure 207] %%%
                             R1 * 1
-                            % measure 208
+                            
+                            %%% Piano LH Attack Voice [measure 208] %%%
                             R1 * 1/2
-                            % measure 209
+                            
+                            %%% Piano LH Attack Voice [measure 209] %%%
                             R1 * 3/4
-                            % measure 210
+                            
+                            %%% Piano LH Attack Voice [measure 210] %%%
                             R1 * 1
-                            % measure 211
+                            
+                            %%% Piano LH Attack Voice [measure 211] %%%
                             R1 * 1/2
-                            % measure 212
+                            
+                            %%% Piano LH Attack Voice [measure 212] %%%
                             R1 * 3/4
-                            % measure 213
+                            
+                            %%% Piano LH Attack Voice [measure 213] %%%
                             R1 * 1
-                            % measure 214
+                            
+                            %%% Piano LH Attack Voice [measure 214] %%%
                             R1 * 3/4
-                            % measure 215
+                            
+                            %%% Piano LH Attack Voice [measure 215] %%%
                             R1 * 1
-                            % measure 216
+                            
+                            %%% Piano LH Attack Voice [measure 216] %%%
                             R1 * 3/4
-                            % measure 217
+                            
+                            %%% Piano LH Attack Voice [measure 217] %%%
                             R1 * 1
-                            % measure 218
+                            
+                            %%% Piano LH Attack Voice [measure 218] %%%
                             R1 * 1/2
-                            % measure 219
+                            
+                            %%% Piano LH Attack Voice [measure 219] %%%
                             R1 * 1
-                            % measure 220
+                            
+                            %%% Piano LH Attack Voice [measure 220] %%%
                             R1 * 1
-                            % measure 221
+                            
+                            %%% Piano LH Attack Voice [measure 221] %%%
                             R1 * 3/4
-                            % measure 222
+                            
+                            %%% Piano LH Attack Voice [measure 222] %%%
                             R1 * 3/4
-                            % measure 223
+                            
+                            %%% Piano LH Attack Voice [measure 223] %%%
                             R1 * 1/2
-                            % measure 224
+                            
+                            %%% Piano LH Attack Voice [measure 224] %%%
                             R1 * 3/4
-                            % measure 225
+                            
+                            %%% Piano LH Attack Voice [measure 225] %%%
                             R1 * 1/4
-                            % measure 226
+                            
+                            %%% Piano LH Attack Voice [measure 226] %%%
                             R1 * 1
-                            % measure 227
+                            
+                            %%% Piano LH Attack Voice [measure 227] %%%
                             R1 * 1
-                            % measure 228
+                            
+                            %%% Piano LH Attack Voice [measure 228] %%%
                             R1 * 1/2
-                            % measure 229
+                            
+                            %%% Piano LH Attack Voice [measure 229] %%%
                             R1 * 3/4
-                            % measure 230
+                            
+                            %%% Piano LH Attack Voice [measure 230] %%%
                             R1 * 1/4
-                            % measure 231
+                            
+                            %%% Piano LH Attack Voice [measure 231] %%%
                             R1 * 1/2
-                            % measure 232
+                            
+                            %%% Piano LH Attack Voice [measure 232] %%%
                             R1 * 3/4
-                            % measure 233
+                            
+                            %%% Piano LH Attack Voice [measure 233] %%%
                             R1 * 1/4
-                            % measure 234
+                            
+                            %%% Piano LH Attack Voice [measure 234] %%%
                             R1 * 1
-                            % measure 235
+                            
+                            %%% Piano LH Attack Voice [measure 235] %%%
                             R1 * 3/4
-                            % measure 236
+                            
+                            %%% Piano LH Attack Voice [measure 236] %%%
                             R1 * 1/4
-                            % measure 237
+                            
+                            %%% Piano LH Attack Voice [measure 237] %%%
                             R1 * 1/2
-                            % measure 238
+                            
+                            %%% Piano LH Attack Voice [measure 238] %%%
                             R1 * 1
-                            % measure 239
+                            
+                            %%% Piano LH Attack Voice [measure 239] %%%
                             R1 * 1/2
-                            % measure 240
+                            
+                            %%% Piano LH Attack Voice [measure 240] %%%
                             R1 * 3/4
-                            % measure 241
+                            
+                            %%% Piano LH Attack Voice [measure 241] %%%
                             R1 * 1/4
-                            % measure 242
+                            
+                            %%% Piano LH Attack Voice [measure 242] %%%
                             R1 * 1
-                            % measure 243
+                            
+                            %%% Piano LH Attack Voice [measure 243] %%%
                             R1 * 3/4
-                            % measure 244
+                            
+                            %%% Piano LH Attack Voice [measure 244] %%%
                             R1 * 1/4
-                            % measure 245
+                            
+                            %%% Piano LH Attack Voice [measure 245] %%%
                             R1 * 1
-                            % measure 246
+                            
+                            %%% Piano LH Attack Voice [measure 246] %%%
                             R1 * 3/4
-                            % measure 247
+                            
+                            %%% Piano LH Attack Voice [measure 247] %%%
                             R1 * 1/4
-                            % measure 248
+                            
+                            %%% Piano LH Attack Voice [measure 248] %%%
                             R1 * 1
-                            % measure 249
+                            
+                            %%% Piano LH Attack Voice [measure 249] %%%
                             R1 * 1/2
-                            % measure 250
+                            
+                            %%% Piano LH Attack Voice [measure 250] %%%
                             R1 * 1
-                            % measure 251
+                            
+                            %%% Piano LH Attack Voice [measure 251] %%%
                             R1 * 1
-                            % measure 252
+                            
+                            %%% Piano LH Attack Voice [measure 252] %%%
                             R1 * 3/4
-                            % measure 253
+                            
+                            %%% Piano LH Attack Voice [measure 253] %%%
                             R1 * 1/2
-                            % measure 254
+                            
+                            %%% Piano LH Attack Voice [measure 254] %%%
                             R1 * 1/4
-                            % measure 255
+                            
+                            %%% Piano LH Attack Voice [measure 255] %%%
                             R1 * 3/4
-                            % measure 256
+                            
+                            %%% Piano LH Attack Voice [measure 256] %%%
                             R1 * 3/4
-                            % measure 257
+                            
+                            %%% Piano LH Attack Voice [measure 257] %%%
                             R1 * 1/4
-                            % measure 258
+                            
+                            %%% Piano LH Attack Voice [measure 258] %%%
                             R1 * 1
-                            % measure 259
+                            
+                            %%% Piano LH Attack Voice [measure 259] %%%
                             R1 * 1
-                            % measure 260
+                            
+                            %%% Piano LH Attack Voice [measure 260] %%%
                             R1 * 1/4
-                            % measure 261
+                            
+                            %%% Piano LH Attack Voice [measure 261] %%%
                             R1 * 3/4
-                            % measure 262
+                            
+                            %%% Piano LH Attack Voice [measure 262] %%%
                             R1 * 1/2
-                            % measure 263
+                            
+                            %%% Piano LH Attack Voice [measure 263] %%%
                             R1 * 1/4
-                            % measure 264
+                            
+                            %%% Piano LH Attack Voice [measure 264] %%%
                             R1 * 1/2
-                            % measure 265
+                            
+                            %%% Piano LH Attack Voice [measure 265] %%%
                             R1 * 3/4
-                            % measure 266
+                            
+                            %%% Piano LH Attack Voice [measure 266] %%%
                             R1 * 1
-                            % measure 267
+                            
+                            %%% Piano LH Attack Voice [measure 267] %%%
                             R1 * 1/2
-                            % measure 268
+                            
+                            %%% Piano LH Attack Voice [measure 268] %%%
                             R1 * 3/4
-                            % measure 269
+                            
+                            %%% Piano LH Attack Voice [measure 269] %%%
                             R1 * 1
-                            % measure 270
+                            
+                            %%% Piano LH Attack Voice [measure 270] %%%
                             R1 * 1/2
-                            % measure 271
+                            
+                            %%% Piano LH Attack Voice [measure 271] %%%
                             R1 * 3/4
-                            % measure 272
+                            
+                            %%% Piano LH Attack Voice [measure 272] %%%
                             R1 * 1
-                            % measure 273
+                            
+                            %%% Piano LH Attack Voice [measure 273] %%%
                             R1 * 3/4
                             \bar "|"
+                            
                         }
                     >>
                 >>
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Music Staff" {
                     \context PercussionMusicVoice = "Percussion Music Voice" {
-                        % measure 177
+                        
+                        %%% Percussion Music Voice [measure 177] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
@@ -4416,314 +5262,373 @@
                         \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 17/4
-                        % measure 183
+                        
+                        %%% Percussion Music Voice [measure 183] %%%
                         r4
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
-                        % measure 184
+                        
+                        %%% Percussion Music Voice [measure 184] %%%
                         r1
-                        % measure 185
+                        
+                        %%% Percussion Music Voice [measure 185] %%%
                         r2
-                        % measure 186
+                        
+                        %%% Percussion Music Voice [measure 186] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
+                        
                         r2
-                        % measure 187
+                        
+                        %%% Percussion Music Voice [measure 187] %%%
                         r2.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
-                        % measure 188
+                        
+                        %%% Percussion Music Voice [measure 188] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
+                        
                         r2
-                        % measure 189
+                        
+                        %%% Percussion Music Voice [measure 189] %%%
                         r2.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
-                        % measure 190
+                        
+                        %%% Percussion Music Voice [measure 190] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
+                        
                         r2
-                        % measure 191
+                        
+                        %%% Percussion Music Voice [measure 191] %%%
                         R1 * 7/2
-                        % measure 195
+                        
+                        %%% Percussion Music Voice [measure 195] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 196
+                        
+                        %%% Percussion Music Voice [measure 196] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 \repeatTie
-                        % measure 197
+                        
+                        %%% Percussion Music Voice [measure 197] %%%
                         R1 * 1/4
-                        % measure 198
+                        
+                        %%% Percussion Music Voice [measure 198] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 199
+                        
+                        %%% Percussion Music Voice [measure 199] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        % measure 200
+                        
+                        %%% Percussion Music Voice [measure 200] %%%
                         R1 * 1/4
-                        % measure 201
+                        
+                        %%% Percussion Music Voice [measure 201] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 202
+                        
+                        %%% Percussion Music Voice [measure 202] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
+                        
                         r4
-                        % measure 203
+                        
+                        %%% Percussion Music Voice [measure 203] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 204
+                        
+                        %%% Percussion Music Voice [measure 204] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 205
+                        
+                        %%% Percussion Music Voice [measure 205] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 206
+                        
+                        %%% Percussion Music Voice [measure 206] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 207
+                        
+                        %%% Percussion Music Voice [measure 207] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 208
+                        
+                        %%% Percussion Music Voice [measure 208] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 209
+                        
+                        %%% Percussion Music Voice [measure 209] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 210
+                        
+                        %%% Percussion Music Voice [measure 210] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 211
+                        
+                        %%% Percussion Music Voice [measure 211] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 212
+                        
+                        %%% Percussion Music Voice [measure 212] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
+                        
                         r4
-                        % measure 213
+                        
+                        %%% Percussion Music Voice [measure 213] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 214
+                        
+                        %%% Percussion Music Voice [measure 214] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 215
+                        
+                        %%% Percussion Music Voice [measure 215] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 216
+                        
+                        %%% Percussion Music Voice [measure 216] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 217
+                        
+                        %%% Percussion Music Voice [measure 217] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 218
+                        
+                        %%% Percussion Music Voice [measure 218] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 219
+                        
+                        %%% Percussion Music Voice [measure 219] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 220
+                        
+                        %%% Percussion Music Voice [measure 220] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 221
+                        
+                        %%% Percussion Music Voice [measure 221] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 222
+                        
+                        %%% Percussion Music Voice [measure 222] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
+                        
                         r4
-                        % measure 223
+                        
+                        %%% Percussion Music Voice [measure 223] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 224
+                        
+                        %%% Percussion Music Voice [measure 224] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        % measure 225
+                        
+                        %%% Percussion Music Voice [measure 225] %%%
                         R1 * 1/4
-                        % measure 226
+                        
+                        %%% Percussion Music Voice [measure 226] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1
-                        % measure 227
+                        
+                        %%% Percussion Music Voice [measure 227] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
-                        % measure 228
+                        
+                        %%% Percussion Music Voice [measure 228] %%%
                         R1 * 13/2
-                        % measure 239
+                        
+                        %%% Percussion Music Voice [measure 239] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 240
+                        
+                        %%% Percussion Music Voice [measure 240] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 241
+                        
+                        %%% Percussion Music Voice [measure 241] %%%
                         R1 * 31/4
-                        % measure 252
+                        
+                        %%% Percussion Music Voice [measure 252] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 253
+                        
+                        %%% Percussion Music Voice [measure 253] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 254
+                        
+                        %%% Percussion Music Voice [measure 254] %%%
                         R1 * 53/4
                         \bar "|"
+                        
                     }
                 }
             >>
@@ -4732,7 +5637,8 @@
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \context ViolinMusicVoice = "Violin Music Voice" {
                         \times 2/3 {
-                            % measure 177
+                            
+                            %%% Violin Music Voice [measure 177] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -4755,30 +5661,35 @@
                             \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -4787,37 +5698,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 178
+                            
+                            %%% Violin Music Voice [measure 178] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -4826,37 +5743,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 179
+                            
+                            %%% Violin Music Voice [measure 179] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -4865,37 +5788,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 180
+                            
+                            %%% Violin Music Voice [measure 180] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -4904,73 +5833,85 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 181
+                            
+                            %%% Violin Music Voice [measure 181] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -4980,49 +5921,57 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 182
+                            
+                            %%% Violin Music Voice [measure 182] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5031,37 +5980,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 183
+                            
+                            %%% Violin Music Voice [measure 183] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5070,85 +6025,99 @@
                             c'8 ]
                         }
                         \times 4/7 {
-                            % measure 184
+                            
+                            %%% Violin Music Voice [measure 184] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5157,37 +6126,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 185
+                            
+                            %%% Violin Music Voice [measure 185] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5196,37 +6171,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 186
+                            
+                            %%% Violin Music Voice [measure 186] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5235,61 +6216,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 187
+                            
+                            %%% Violin Music Voice [measure 187] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5298,37 +6289,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 188
+                            
+                            %%% Violin Music Voice [measure 188] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5337,61 +6334,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 189
+                            
+                            %%% Violin Music Voice [measure 189] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5400,37 +6407,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 190
+                            
+                            %%% Violin Music Voice [measure 190] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5439,61 +6452,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 191
+                            
+                            %%% Violin Music Voice [measure 191] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5502,37 +6525,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 192
+                            
+                            %%% Violin Music Voice [measure 192] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5541,61 +6570,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 193
+                            
+                            %%% Violin Music Voice [measure 193] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5604,85 +6643,99 @@
                             c'8 ]
                         }
                         \times 4/7 {
-                            % measure 194
+                            
+                            %%% Violin Music Voice [measure 194] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5692,49 +6745,57 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 195
+                            
+                            %%% Violin Music Voice [measure 195] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5743,25 +6804,29 @@
                             c'8 ]
                         }
                         {
-                            % measure 196
+                            
+                            %%% Violin Music Voice [measure 196] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5769,53 +6834,62 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 197
+                        
+                        %%% Violin Music Voice [measure 197] %%%
                         R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 198
+                            
+                            %%% Violin Music Voice [measure 198] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5824,37 +6898,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 199
+                            
+                            %%% Violin Music Voice [measure 199] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5862,40 +6942,47 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 200
+                        
+                        %%% Violin Music Voice [measure 200] %%%
                         R1 * 85/4
                         \times 2/3 {
-                            % measure 228
+                            
+                            %%% Violin Music Voice [measure 228] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5904,37 +6991,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 229
+                            
+                            %%% Violin Music Voice [measure 229] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -5942,122 +7035,148 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 230
+                        
+                        %%% Violin Music Voice [measure 230] %%%
                         R1 * 1/4
-                        % measure 231
+                        
+                        %%% Violin Music Voice [measure 231] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
-                        % measure 232
+                        
+                        %%% Violin Music Voice [measure 232] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
-                        % measure 233
+                        
+                        %%% Violin Music Voice [measure 233] %%%
                         R1 * 15/4
                         \times 2/3 {
-                            % measure 239
+                            
+                            %%% Violin Music Voice [measure 239] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6066,37 +7185,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 240
+                            
+                            %%% Violin Music Voice [measure 240] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6104,64 +7229,75 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 241
+                        
+                        %%% Violin Music Voice [measure 241] %%%
                         R1 * 1/4
                         \times 4/5 {
-                            % measure 242
+                            
+                            %%% Violin Music Voice [measure 242] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6170,37 +7306,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 243
+                            
+                            %%% Violin Music Voice [measure 243] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6208,53 +7350,62 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 244
+                        
+                        %%% Violin Music Voice [measure 244] %%%
                         R1 * 23/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 252
+                            
+                            %%% Violin Music Voice [measure 252] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6263,37 +7414,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 253
+                            
+                            %%% Violin Music Voice [measure 253] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6301,40 +7458,47 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 254
+                        
+                        %%% Violin Music Voice [measure 254] %%%
                         R1 * 23/4
                         \times 2/3 {
-                            % measure 264
+                            
+                            %%% Violin Music Voice [measure 264] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6343,37 +7507,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 265
+                            
+                            %%% Violin Music Voice [measure 265] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6381,204 +7551,250 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 266
+                        
+                        %%% Violin Music Voice [measure 266] %%%
                         R1 * 3/2
-                        % measure 268
+                        
+                        %%% Violin Music Voice [measure 268] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
-                        % measure 269
+                        
+                        %%% Violin Music Voice [measure 269] %%%
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
-                        % measure 270
+                        
+                        %%% Violin Music Voice [measure 270] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
-                        % measure 271
+                        
+                        %%% Violin Music Voice [measure 271] %%%
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
-                        % measure 272
+                        
+                        %%% Violin Music Voice [measure 272] %%%
                         R1 * 7/4
                         \bar "|"
+                        
                     }
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \times 2/3 {
-                            % measure 177
+                            
+                            %%% Viola Music Voice [measure 177] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -6601,30 +7817,35 @@
                             \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6633,37 +7854,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 178
+                            
+                            %%% Viola Music Voice [measure 178] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6672,37 +7899,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 179
+                            
+                            %%% Viola Music Voice [measure 179] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6711,37 +7944,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 180
+                            
+                            %%% Viola Music Voice [measure 180] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6750,73 +7989,85 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 181
+                            
+                            %%% Viola Music Voice [measure 181] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6826,49 +8077,57 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 182
+                            
+                            %%% Viola Music Voice [measure 182] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6877,37 +8136,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 183
+                            
+                            %%% Viola Music Voice [measure 183] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -6916,85 +8181,99 @@
                             c'8 ]
                         }
                         \times 4/7 {
-                            % measure 184
+                            
+                            %%% Viola Music Voice [measure 184] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7003,37 +8282,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 185
+                            
+                            %%% Viola Music Voice [measure 185] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7042,37 +8327,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 186
+                            
+                            %%% Viola Music Voice [measure 186] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7081,61 +8372,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 187
+                            
+                            %%% Viola Music Voice [measure 187] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7144,37 +8445,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 188
+                            
+                            %%% Viola Music Voice [measure 188] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7183,61 +8490,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 189
+                            
+                            %%% Viola Music Voice [measure 189] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7246,37 +8563,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 190
+                            
+                            %%% Viola Music Voice [measure 190] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7285,61 +8608,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 191
+                            
+                            %%% Viola Music Voice [measure 191] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7348,37 +8681,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 192
+                            
+                            %%% Viola Music Voice [measure 192] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7387,61 +8726,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 193
+                            
+                            %%% Viola Music Voice [measure 193] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7450,85 +8799,99 @@
                             c'8 ]
                         }
                         \times 4/7 {
-                            % measure 194
+                            
+                            %%% Viola Music Voice [measure 194] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7538,49 +8901,57 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 195
+                            
+                            %%% Viola Music Voice [measure 195] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7589,25 +8960,29 @@
                             c'8 ]
                         }
                         {
-                            % measure 196
+                            
+                            %%% Viola Music Voice [measure 196] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7615,53 +8990,62 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 197
+                        
+                        %%% Viola Music Voice [measure 197] %%%
                         R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 198
+                            
+                            %%% Viola Music Voice [measure 198] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7670,37 +9054,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 199
+                            
+                            %%% Viola Music Voice [measure 199] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7708,40 +9098,47 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 200
+                        
+                        %%% Viola Music Voice [measure 200] %%%
                         R1 * 85/4
                         \times 2/3 {
-                            % measure 228
+                            
+                            %%% Viola Music Voice [measure 228] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7750,37 +9147,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 229
+                            
+                            %%% Viola Music Voice [measure 229] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7788,92 +9191,114 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 230
+                        
+                        %%% Viola Music Voice [measure 230] %%%
                         R1 * 1/4
-                        % measure 231
+                        
+                        %%% Viola Music Voice [measure 231] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
-                        % measure 232
+                        
+                        %%% Viola Music Voice [measure 232] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
-                        % measure 233
+                        
+                        %%% Viola Music Voice [measure 233] %%%
                         R1 * 1/4
-                        % measure 234
+                        
+                        %%% Viola Music Voice [measure 234] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -7881,23 +9306,28 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 235
+                        
+                        %%% Viola Music Voice [measure 235] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        % measure 236
+                        
+                        %%% Viola Music Voice [measure 236] %%%
                         R1 * 1/4
-                        % measure 237
+                        
+                        %%% Viola Music Voice [measure 237] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -7905,13 +9335,15 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
-                        % measure 238
+                        
+                        %%% Viola Music Voice [measure 238] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -7919,37 +9351,43 @@
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
                         \times 2/3 {
-                            % measure 239
+                            
+                            %%% Viola Music Voice [measure 239] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7958,37 +9396,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 240
+                            
+                            %%% Viola Music Voice [measure 240] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -7996,64 +9440,75 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 241
+                        
+                        %%% Viola Music Voice [measure 241] %%%
                         R1 * 1/4
                         \times 4/5 {
-                            % measure 242
+                            
+                            %%% Viola Music Voice [measure 242] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8062,37 +9517,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 243
+                            
+                            %%% Viola Music Voice [measure 243] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8100,10 +9561,13 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 244
+                        
+                        %%% Viola Music Voice [measure 244] %%%
                         R1 * 1/4
-                        % measure 245
+                        
+                        %%% Viola Music Voice [measure 245] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8111,23 +9575,28 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 246
+                        
+                        %%% Viola Music Voice [measure 246] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        % measure 247
+                        
+                        %%% Viola Music Voice [measure 247] %%%
                         R1 * 1/4
-                        % measure 248
+                        
+                        %%% Viola Music Voice [measure 248] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8135,21 +9604,25 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 249
+                        
+                        %%% Viola Music Voice [measure 249] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 \repeatTie
-                        % measure 250
+                        
+                        %%% Viola Music Voice [measure 250] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8157,60 +9630,71 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4.
+                        
                         r4.
-                        % measure 251
+                        
+                        %%% Viola Music Voice [measure 251] %%%
                         r1
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 252
+                            
+                            %%% Viola Music Voice [measure 252] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8219,37 +9703,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 253
+                            
+                            %%% Viola Music Voice [measure 253] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8257,10 +9747,13 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 254
+                        
+                        %%% Viola Music Voice [measure 254] %%%
                         R1 * 1/4
-                        % measure 255
+                        
+                        %%% Viola Music Voice [measure 255] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8268,23 +9761,28 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 256
+                        
+                        %%% Viola Music Voice [measure 256] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        % measure 257
+                        
+                        %%% Viola Music Voice [measure 257] %%%
                         R1 * 1/4
-                        % measure 258
+                        
+                        %%% Viola Music Voice [measure 258] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8292,19 +9790,25 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4.
+                        
                         r4.
-                        % measure 259
+                        
+                        %%% Viola Music Voice [measure 259] %%%
                         r1
-                        % measure 260
+                        
+                        %%% Viola Music Voice [measure 260] %%%
                         R1 * 1/4
-                        % measure 261
+                        
+                        %%% Viola Music Voice [measure 261] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8312,19 +9816,25 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4.
+                        
                         r8
-                        % measure 262
+                        
+                        %%% Viola Music Voice [measure 262] %%%
                         r2
-                        % measure 263
+                        
+                        %%% Viola Music Voice [measure 263] %%%
                         R1 * 3/2
-                        % measure 266
+                        
+                        %%% Viola Music Voice [measure 266] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8332,21 +9842,25 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 267
+                        
+                        %%% Viola Music Voice [measure 267] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 \repeatTie
-                        % measure 268
+                        
+                        %%% Viola Music Voice [measure 268] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8354,21 +9868,25 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 269
+                        
+                        %%% Viola Music Voice [measure 269] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 \repeatTie
-                        % measure 270
+                        
+                        %%% Viola Music Voice [measure 270] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8376,23 +9894,29 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4
-                        % measure 271
+                        
+                        %%% Viola Music Voice [measure 271] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'8 \repeatTie
+                        
                         r8
+                        
                         r2
-                        % measure 272
+                        
+                        %%% Viola Music Voice [measure 272] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
@@ -8400,23 +9924,28 @@
                         \once \override Stem.color = #blue
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'8.
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'4.
+                        
                         r4.
-                        % measure 273
+                        
+                        %%% Viola Music Voice [measure 273] %%%
                         r2.
                         \bar "|"
+                        
                     }
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
                         \times 2/3 {
-                            % measure 177
+                            
+                            %%% Cello Music Voice [measure 177] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -8439,30 +9968,35 @@
                             \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8471,37 +10005,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 178
+                            
+                            %%% Cello Music Voice [measure 178] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8510,37 +10050,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 179
+                            
+                            %%% Cello Music Voice [measure 179] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8549,37 +10095,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 180
+                            
+                            %%% Cello Music Voice [measure 180] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8588,73 +10140,85 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 181
+                            
+                            %%% Cello Music Voice [measure 181] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8664,49 +10228,57 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 182
+                            
+                            %%% Cello Music Voice [measure 182] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8715,37 +10287,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 183
+                            
+                            %%% Cello Music Voice [measure 183] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8754,85 +10332,99 @@
                             c'8 ]
                         }
                         \times 4/7 {
-                            % measure 184
+                            
+                            %%% Cello Music Voice [measure 184] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8841,37 +10433,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 185
+                            
+                            %%% Cello Music Voice [measure 185] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8880,37 +10478,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 186
+                            
+                            %%% Cello Music Voice [measure 186] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8919,61 +10523,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 187
+                            
+                            %%% Cello Music Voice [measure 187] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -8982,37 +10596,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 188
+                            
+                            %%% Cello Music Voice [measure 188] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -9021,61 +10641,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 189
+                            
+                            %%% Cello Music Voice [measure 189] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -9084,37 +10714,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 190
+                            
+                            %%% Cello Music Voice [measure 190] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -9123,61 +10759,71 @@
                             c'8 ]
                         }
                         \times 4/5 {
-                            % measure 191
+                            
+                            %%% Cello Music Voice [measure 191] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -9186,37 +10832,43 @@
                             c'8 ]
                         }
                         \times 2/3 {
-                            % measure 192
+                            
+                            %%% Cello Music Voice [measure 192] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -9224,279 +10876,327 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 193
+                        
+                        %%% Cello Music Voice [measure 193] %%%
                         R1 * 2
-                        % measure 195
+                        
+                        %%% Cello Music Voice [measure 195] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 196
+                        
+                        %%% Cello Music Voice [measure 196] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 \repeatTie
-                        % measure 197
+                        
+                        %%% Cello Music Voice [measure 197] %%%
                         R1 * 1/4
-                        % measure 198
+                        
+                        %%% Cello Music Voice [measure 198] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 199
+                        
+                        %%% Cello Music Voice [measure 199] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. \repeatTie
-                        % measure 200
+                        
+                        %%% Cello Music Voice [measure 200] %%%
                         R1 * 1/4
-                        % measure 201
+                        
+                        %%% Cello Music Voice [measure 201] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 202
+                        
+                        %%% Cello Music Voice [measure 202] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
+                        
                         r4
-                        % measure 203
+                        
+                        %%% Cello Music Voice [measure 203] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 204
+                        
+                        %%% Cello Music Voice [measure 204] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 205
+                        
+                        %%% Cello Music Voice [measure 205] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 206
+                        
+                        %%% Cello Music Voice [measure 206] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 207
+                        
+                        %%% Cello Music Voice [measure 207] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 208
+                        
+                        %%% Cello Music Voice [measure 208] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 209
+                        
+                        %%% Cello Music Voice [measure 209] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 210
+                        
+                        %%% Cello Music Voice [measure 210] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 211
+                        
+                        %%% Cello Music Voice [measure 211] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 212
+                        
+                        %%% Cello Music Voice [measure 212] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
+                        
                         r4
-                        % measure 213
+                        
+                        %%% Cello Music Voice [measure 213] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 214
+                        
+                        %%% Cello Music Voice [measure 214] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 215
+                        
+                        %%% Cello Music Voice [measure 215] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 216
+                        
+                        %%% Cello Music Voice [measure 216] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 217
+                        
+                        %%% Cello Music Voice [measure 217] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 218
+                        
+                        %%% Cello Music Voice [measure 218] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2 ~
-                        % measure 219
+                        
+                        %%% Cello Music Voice [measure 219] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 220
+                        
+                        %%% Cello Music Voice [measure 220] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'1 ~
-                        % measure 221
+                        
+                        %%% Cello Music Voice [measure 221] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2. ~
-                        % measure 222
+                        
+                        %%% Cello Music Voice [measure 222] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
+                        
                         r4
-                        % measure 223
+                        
+                        %%% Cello Music Voice [measure 223] %%%
                         R1 * 7/2
-                        % measure 228
+                        
+                        %%% Cello Music Voice [measure 228] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 229
+                        
+                        %%% Cello Music Voice [measure 229] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 230
+                        
+                        %%% Cello Music Voice [measure 230] %%%
                         R1 * 21/4
-                        % measure 239
+                        
+                        %%% Cello Music Voice [measure 239] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 240
+                        
+                        %%% Cello Music Voice [measure 240] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 241
+                        
+                        %%% Cello Music Voice [measure 241] %%%
                         R1 * 31/4
-                        % measure 252
+                        
+                        %%% Cello Music Voice [measure 252] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2.
-                        % measure 253
+                        
+                        %%% Cello Music Voice [measure 253] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'2
-                        % measure 254
+                        
+                        %%% Cello Music Voice [measure 254] %%%
                         R1 * 23/4
                         \times 2/3 {
-                            % measure 264
+                            
+                            %%% Cello Music Voice [measure 264] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -9505,37 +11205,43 @@
                             c'8 ]
                         }
                         {
-                            % measure 265
+                            
+                            %%% Cello Music Voice [measure 265] %%%
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8 [
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             c'8
+                            
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
                             \once \override Flag.color = #blue
@@ -9543,197 +11249,242 @@
                             \once \override Stem.color = #blue
                             c'8 ]
                         }
-                        % measure 266
+                        
+                        %%% Cello Music Voice [measure 266] %%%
                         R1 * 3/2
-                        % measure 268
+                        
+                        %%% Cello Music Voice [measure 268] %%%
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
-                        % measure 269
+                        
+                        %%% Cello Music Voice [measure 269] %%%
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
-                        % measure 270
+                        
+                        %%% Cello Music Voice [measure 270] %%%
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r16
+                        
                         r16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
-                        % measure 271
+                        
+                        %%% Cello Music Voice [measure 271] %%%
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 [
+                        
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
                         c'16 ]
+                        
                         r8
-                        % measure 272
+                        
+                        %%% Cello Music Voice [measure 272] %%%
                         R1 * 7/4
                         \bar "|"
+                        
                     }
                 }
             >>
