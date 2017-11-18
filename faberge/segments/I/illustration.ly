@@ -1358,8 +1358,7 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            c'16 \sfz
+                            c'16
                             
                             s2...
                             

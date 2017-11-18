@@ -4043,8 +4043,7 @@
                         \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                             
                             %%% PianoLHAttackVoice [measure 322] %%%
-                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            R1 * 3/4 \sfz
+                            R1 * 3/4
                             
                             %%% PianoLHAttackVoice [measure 323] %%%
                             R1 * 1/2
