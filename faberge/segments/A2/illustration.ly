@@ -18,7 +18,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
-                s1 * 3/4 ^ \markup {
+                s1 * 3/4
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -545,9 +546,10 @@
                         \clef "treble"
                         \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        g''2 \<
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        \<
+                        - \tweak color #red
+                        ^ \markup { @ }
                         {
                             
                             \once \override Accidental.color = #red
@@ -555,25 +557,29 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''8 \repeatTie \p [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''8
+                            \repeatTie
+                            \p
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g''8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         \times 2/3 {
                             
@@ -583,9 +589,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''8 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''8
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -594,15 +601,15 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g''4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                         }
                         
                         \once \override Accidental.color = #red
@@ -610,9 +617,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 2/3 {
                             
                             \once \override Accidental.color = #red
@@ -620,9 +628,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''4 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''4
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -630,15 +639,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g'8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         %%% FluteMusicVoice [measure 99] %%%
@@ -648,9 +657,10 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         r4
                         
@@ -661,8 +671,8 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         g''4
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 2/3 {
                             
                             \once \override Accidental.color = #red
@@ -670,9 +680,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''8 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''8
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -681,15 +692,15 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         %%% FluteMusicVoice [measure 101] %%%
@@ -698,9 +709,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 2/3 {
                             
                             \once \override Accidental.color = #red
@@ -708,9 +720,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'4 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'4
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -718,8 +731,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         %%% FluteMusicVoice [measure 102] %%%
@@ -729,9 +742,10 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 103] %%%
                         \once \override Accidental.color = #red
@@ -739,41 +753,51 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 104] %%%
                         r4
                         
                         \once \override Hairpin.circled-tip = ##t
-                        g'2 \> \p
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
+                        g'2
+                        \>
+                        \p
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 105] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        g'2. \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                        g'2.
+                        \<
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         
                         %%% FluteMusicVoice [measure 106] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        g'4 \repeatTie \mp \> \mp
+                        g'4
+                        \repeatTie
+                        \mp
+                        \>
+                        \mp
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 107] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -782,7 +806,55 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 \<
+                        g'2
+                        \<
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                        \times 4/5 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                            \repeatTie
+                            \mf
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''8.
+                            ]
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -792,49 +864,6 @@
                                         \finger
                                             1
                                 }
-                        \times 4/5 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 \repeatTie \mf [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8. ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                         }
                         \times 4/5 {
                             
@@ -843,9 +872,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -854,8 +884,8 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g''4
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         %%% FluteMusicVoice [measure 108] %%%
@@ -865,11 +895,15 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''4 \repeatTie \> \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''4
+                        \repeatTie
+                        \>
+                        \mf
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 109] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -878,29 +912,31 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2. :32 \<
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        fluttertongue
-                                            }
-                                        \line
-                                            {
-                                                @
-                                            }
-                                    }
+                        g'2.
+                        :32
+                        \<
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    fluttertongue
+                                        }
+                                    \line
+                                        {
+                                            @
+                                        }
                                 }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
+                            }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
                         
                         %%% FluteMusicVoice [measure 110] %%%
                         \once \override Accidental.color = #red
@@ -908,9 +944,12 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2. :32 \repeatTie \f
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2.
+                        :32
+                        \repeatTie
+                        \f
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -918,50 +957,56 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            :32
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -969,16 +1014,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         \times 4/5 {
                             
@@ -989,100 +1036,30 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 :32 \repeatTie
+                            g'16
+                            :32
+                            \repeatTie
+                            [
                             - \tweak color #red
                             ^ \markup { @ }
-                        
-                        %%% FluteMusicVoice [measure 112] %%%
-                        r4
-                        
-                        g''2 :32
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
-                        
-                        r4
-                        
-                        %%% FluteMusicVoice [measure 113] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2 :32
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                            :32
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -1092,6 +1069,88 @@
                                         \finger
                                             1
                                 }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g''16
+                            :32
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''2
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% FluteMusicVoice [measure 112] %%%
+                        r4
+                        
+                        g''2
+                        :32
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
+                        
+                        r4
+                        
+                        %%% FluteMusicVoice [measure 113] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2
+                        :32
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
                         \times 2/3 {
                             
                             \once \override Accidental.color = #red
@@ -1099,18 +1158,21 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'4 :32 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'4
+                            :32
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''8 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''8
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         {
                             
@@ -1121,25 +1183,29 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''8
+                            :32
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1147,16 +1213,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            g''16
+                            :32
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                         }
                         
                         \once \override Accidental.color = #red
@@ -1165,9 +1233,11 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -1175,50 +1245,56 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            :32
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1226,9 +1302,11 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            :32
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         %%% FluteMusicVoice [measure 115] %%%
@@ -1238,9 +1316,11 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 116] %%%
                         \once \override Accidental.color = #red
@@ -1248,9 +1328,11 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''4
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         r4
                         
@@ -1259,7 +1341,57 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''4 :32
+                        g''4
+                        :32
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                        {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''8
+                            :32
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'16
+                            :32
+                            ]
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -1269,49 +1401,6 @@
                                         \finger
                                             1
                                 }
-                        {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''8 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                         }
                         
                         %%% FluteMusicVoice [measure 117] %%%
@@ -1321,9 +1410,11 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -1331,50 +1422,56 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            :32
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1382,16 +1479,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         \once \override Accidental.color = #red
@@ -1400,9 +1499,11 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'4
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 118] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -1411,11 +1512,16 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 :32 \repeatTie \> \f
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2
+                        :32
+                        \repeatTie
+                        \>
+                        \f
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 119] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -1424,29 +1530,30 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 \<
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "non flutt."
-                                            }
-                                        \line
-                                            {
-                                                @
-                                            }
-                                    }
+                        g'2
+                        \<
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "non flutt."
+                                        }
+                                    \line
+                                        {
+                                            @
+                                        }
                                 }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                            }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         
                         %%% FluteMusicVoice [measure 120] %%%
                         \once \override Accidental.color = #red
@@ -1454,9 +1561,11 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2. \repeatTie \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2.
+                        \repeatTie
+                        \mf
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 121] %%%
                         \once \override Accidental.color = #red
@@ -1464,9 +1573,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'4
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         {
                             
                             \once \override Accidental.color = #red
@@ -1474,25 +1584,28 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'8
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         \times 2/3 {
                             
@@ -1501,9 +1614,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'8
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1512,8 +1626,8 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g''4
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         %%% FluteMusicVoice [measure 122] %%%
@@ -1523,11 +1637,15 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2 \repeatTie \> \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        \repeatTie
+                        \>
+                        \mf
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r2 \!
+                        r2
+                        \!
                         
                         %%% FluteMusicVoice [measure 123] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -1536,7 +1654,46 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2 \<
+                        g''2
+                        \<
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                        \times 4/5 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            \repeatTie
+                            \mp
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -1546,16 +1703,6 @@
                                         \finger
                                             1
                                 }
-                        \times 4/5 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16 \repeatTie \mp [
-                                - \tweak color #red
-                                ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1563,40 +1710,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1604,16 +1726,17 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         \times 4/5 {
                             
@@ -1623,9 +1746,11 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1633,15 +1758,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1649,15 +1774,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1665,8 +1790,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1674,16 +1799,17 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         %%% FluteMusicVoice [measure 124] %%%
@@ -1693,9 +1819,10 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 2/3 {
                             
                             \once \override Accidental.color = #red
@@ -1703,9 +1830,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'8
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1714,15 +1842,15 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g''4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                         }
                         
                         %%% FluteMusicVoice [measure 125] %%%
@@ -1731,9 +1859,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 126] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -1742,11 +1871,15 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''4 \repeatTie \> \mp
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''4
+                        \repeatTie
+                        \>
+                        \mp
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 127] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -1755,7 +1888,59 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2. \<
+                        g''2.
+                        \<
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                        
+                        %%% FluteMusicVoice [measure 128] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2.
+                        \repeatTie
+                        \mf
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        \times 4/5 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8.
+                            ]
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -1765,52 +1950,6 @@
                                         \finger
                                             1
                                 }
-                        
-                        %%% FluteMusicVoice [measure 128] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g''2. \repeatTie \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 4/5 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8. ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                         }
                         \times 4/5 {
                             
@@ -1820,9 +1959,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -1831,8 +1971,8 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g''4
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         \once \override Accidental.color = #red
@@ -1840,9 +1980,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''4 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''4
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 130] %%%
                         \once \override Accidental.color = #red
@@ -1850,9 +1991,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''4 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''4
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         r4
                         
@@ -1862,6 +2004,63 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         g'4
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                        
+                        %%% FluteMusicVoice [measure 131] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        \times 4/5 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'16
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'8.
+                            ]
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -1871,59 +2070,6 @@
                                         \finger
                                             1
                                 }
-                        
-                        %%% FluteMusicVoice [measure 131] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \times 4/5 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8. ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
                         }
                         
                         %%% FluteMusicVoice [measure 132] %%%
@@ -1933,11 +2079,15 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 \repeatTie \> \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'4
+                        \repeatTie
+                        \>
+                        \mf
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 133] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -1946,29 +2096,31 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 :32 \<
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        fluttertongue
-                                            }
-                                        \line
-                                            {
-                                                @
-                                            }
-                                    }
+                        g'2
+                        :32
+                        \<
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    fluttertongue
+                                        }
+                                    \line
+                                        {
+                                            @
+                                        }
                                 }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                            }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -1976,50 +2128,57 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32 \repeatTie \f [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            :32
+                            \repeatTie
+                            \f
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g''16
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2027,16 +2186,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            g''16
+                            :32
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                         }
                         {
                             
@@ -2047,76 +2208,21 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'8 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                        }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'2 :32 \repeatTie
+                            g''8
+                            :32
+                            \repeatTie
+                            [
                             - \tweak color #red
                             ^ \markup { @ }
-                        \times 4/5 {
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''4 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        
-                        %%% FluteMusicVoice [measure 135] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g''2. :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% FluteMusicVoice [measure 136] %%%
-                        r4
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g'4 :32
+                            g'8
+                            :32
+                            ]
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -2126,25 +2232,6 @@
                                         \finger
                                             1
                                 }
-                        {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'8 :32 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''8 :32 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
                         }
                         
                         \once \override Accidental.color = #red
@@ -2152,19 +2239,11 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% FluteMusicVoice [measure 137] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        g''4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -2172,9 +2251,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 :32 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            :32
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2182,16 +2263,67 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g''4
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        
+                        %%% FluteMusicVoice [measure 135] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''2.
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% FluteMusicVoice [measure 136] %%%
+                        r4
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'4
+                        :32
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                        {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'8
+                            :32
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''8
+                            :32
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         \once \override Accidental.color = #red
@@ -2199,9 +2331,65 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 :32 \repeatTie
+                        g''4
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% FluteMusicVoice [measure 137] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g''4
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        \times 4/5 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            :32
+                            \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                            g'4
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
+                        }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        g'4
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 138] %%%
                         \once \override Accidental.color = #red
@@ -2209,9 +2397,11 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'1 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'1
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 139] %%%
                         r4
@@ -2221,16 +2411,17 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 :32
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                        g'4
+                        :32
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         
                         %%% FluteMusicVoice [measure 140] %%%
                         \once \override Accidental.color = #red
@@ -2238,9 +2429,11 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 :32 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'4
+                        :32
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -2248,9 +2441,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 :32 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            :32
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2258,16 +2453,17 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'4 :32
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'4
+                            :32
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         \once \override Hairpin.circled-tip = ##t
@@ -2276,11 +2472,16 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'4 :32 \repeatTie \> \f
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'4
+                        :32
+                        \repeatTie
+                        \>
+                        \f
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 141] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -2289,29 +2490,30 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''1 \<
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "non flutt."
-                                            }
-                                        \line
-                                            {
-                                                @
-                                            }
-                                    }
+                        g''1
+                        \<
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "non flutt."
+                                        }
+                                    \line
+                                        {
+                                            @
+                                        }
                                 }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                            }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         
                         %%% FluteMusicVoice [measure 142] %%%
                         \once \override Accidental.color = #red
@@ -2319,9 +2521,11 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2 \repeatTie \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        \repeatTie
+                        \mf
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 2/3 {
                             
                             \once \override Accidental.color = #red
@@ -2329,9 +2533,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''4 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''4
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2339,15 +2544,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         {
                             
@@ -2358,9 +2563,11 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''8 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''8
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2368,8 +2575,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2377,16 +2584,17 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         \once \override Hairpin.circled-tip = ##t
@@ -2396,12 +2604,16 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2 \repeatTie \> \mf
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2
+                        \repeatTie
+                        \>
+                        \mf
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 144] %%%
-                        r2 \!
+                        r2
+                        \!
                         
                         %%% FluteMusicVoice [measure 145] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -2410,16 +2622,17 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2 \<
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                        g''2
+                        \<
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         \times 2/3 {
                             
                             \once \override Accidental.color = #red
@@ -2427,9 +2640,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''8 \repeatTie \p
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''8
+                            \repeatTie
+                            \p
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2438,15 +2653,15 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         \times 4/5 {
                             
@@ -2456,9 +2671,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2466,8 +2683,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2475,16 +2692,17 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'8. ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'8.
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         \once \override Accidental.color = #red
@@ -2492,9 +2710,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g'2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         {
                             
                             \once \override Accidental.color = #red
@@ -2502,9 +2721,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'8 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'8
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2512,8 +2733,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2521,16 +2742,17 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            g'16
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         %%% FluteMusicVoice [measure 147] %%%
@@ -2540,41 +2762,51 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         r4
                         
                         %%% FluteMusicVoice [measure 148] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        g''4 \> \p
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                        g''4
+                        \>
+                        \p
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 149] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        g''2. \<
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            1
-                                }
+                        g''2.
+                        \<
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
                         
                         %%% FluteMusicVoice [measure 150] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        g''4 \repeatTie \pp \> \pp
+                        g''4
+                        \repeatTie
+                        \pp
+                        \>
+                        \pp
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 151] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -2583,16 +2815,17 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        g''2 \<
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
-                                \override
-                                    #'(circle-padding . 0.25)
-                                    \circle
-                                        \finger
-                                            2
-                                }
+                        g''2
+                        \<
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        2
+                            }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -2600,9 +2833,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 \repeatTie \ppp
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            \repeatTie
+                            \ppp
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2611,15 +2846,15 @@
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             g'4
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         \times 2/3 {
                             
@@ -2629,9 +2864,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g'4 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'4
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2639,8 +2875,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         \once \override Accidental.color = #red
@@ -2649,9 +2885,10 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -2659,9 +2896,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g''16
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2669,15 +2908,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2685,15 +2924,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2701,15 +2940,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2717,9 +2956,10 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g'16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            g'16
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         %%% FluteMusicVoice [measure 153] %%%
@@ -2729,9 +2969,10 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g'2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 154] %%%
                         r4
@@ -2742,6 +2983,67 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         g'4
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                        \times 2/3 {
+                            
+                            %%% FluteMusicVoice [measure 155] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g'4
+                            \repeatTie
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''8
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        g''2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        \times 4/5 {
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            g''16
                             - \tweak color #red
                             ^ \markup { @ }
                             ^ \markup {
@@ -2751,79 +3053,22 @@
                                         \finger
                                             1
                                 }
-                        \times 2/3 {
-                            
-                            %%% FluteMusicVoice [measure 155] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g'4 \repeatTie
-                                - \tweak color #red
-                                ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            g''8
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''2 \repeatTie
+                            g''16
                             - \tweak color #red
                             ^ \markup { @ }
-                        \times 4/5 {
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            g''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2831,15 +3076,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             g'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2847,16 +3092,17 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            g''16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            g''16
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                         }
                         
                         %%% FluteMusicVoice [measure 156] %%%
@@ -2867,11 +3113,15 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g''4 \repeatTie \> \ppp
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        g''4
+                        \repeatTie
+                        \>
+                        \ppp
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r4 \!
+                        r4
+                        \!
                         
                         %%% FluteMusicVoice [measure 157] %%%
                         R1 * 27/4
@@ -2883,9 +3133,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs''1 \<
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        gs''1
+                        \<
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 166] %%%
                         \once \override Accidental.color = #red
@@ -2893,9 +3144,11 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs''2 \repeatTie \ppp
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        gs''2
+                        \repeatTie
+                        \ppp
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \times 4/5 {
                             
                             \once \override Accidental.color = #red
@@ -2903,9 +3156,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            gs''16 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            gs''16
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2913,15 +3168,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             gs''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2929,15 +3184,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             gs''16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                2
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            2
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2945,15 +3200,15 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             gs'16
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -2961,9 +3216,10 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            gs''16 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            gs''16
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         {
                             
@@ -2974,25 +3230,28 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            gs''8 \repeatTie [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            gs''8
+                            \repeatTie
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            gs'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                ^ \markup {
-                                    \override
-                                        #'(circle-padding . 0.25)
-                                        \circle
-                                            \finger
-                                                1
-                                    }
+                            gs'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            ^ \markup {
+                                \override
+                                    #'(circle-padding . 0.25)
+                                    \circle
+                                        \finger
+                                            1
+                                }
                         }
                         
                         \once \override Accidental.color = #red
@@ -3000,9 +3259,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs'4 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        gs'4
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% FluteMusicVoice [measure 168] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -3011,11 +3271,15 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        gs'4 \repeatTie \> \ppp
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        gs'4
+                        \repeatTie
+                        \>
+                        \ppp
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
-                        r2 \!
+                        r2
+                        \!
                         
                         %%% FluteMusicVoice [measure 169] %%%
                         R1 * 25/4
@@ -3054,31 +3318,34 @@
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        r4 \f
+                        r4
+                        \f
                         \times 4/5 {
                             
                             r16
                             
                             \override NoteHead.style = #'cross
-                            ef'16 [
-                                _ \markup {
-                                    \larger
-                                        \italic
-                                            “
-                                    \dynamic
-                                        \override
-                                            #'(font-name . #f)
-                                            f
-                                    \larger
-                                        \italic
-                                            ”
-                                    }
+                            ef'16
+                            [
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        f
+                                \larger
+                                    \italic
+                                        ”
+                                }
                             
                             e'16
                             
                             eqs'16
                             
-                            gs'16 ]
+                            gs'16
+                            ]
                         }
                         {
                             
@@ -3112,21 +3379,25 @@
                             %%% EnglishHornMusicVoice [measure 99] %%%
                             r8
                             
-                            ef'16 [
+                            ef'16
+                            [
                             
-                            e'16 ]
+                            e'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            a'16 [
+                            a'16
+                            [
                             
                             gs'16
                             
                             aqf'16
                             
-                            bf'16 ]
+                            bf'16
+                            ]
                         }
                         
                         r4
@@ -3134,13 +3405,15 @@
                             
                             r16
                             
-                            cs'16 [
+                            cs'16
+                            [
                             
                             fqs'16
                             
                             f'16
                             
-                            d'16 ]
+                            d'16
+                            ]
                         }
                         {
                             
@@ -3175,21 +3448,25 @@
                             %%% EnglishHornMusicVoice [measure 102] %%%
                             r8
                             
-                            d'16 [
+                            d'16
+                            [
                             
-                            cs'16 ]
+                            cs'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            fqs'16 [
+                            fqs'16
+                            [
                             
                             f'16
                             
                             e'16
                             
-                            eqs'16 ]
+                            eqs'16
+                            ]
                         }
                         
                         %%% EnglishHornMusicVoice [measure 103] %%%
@@ -3198,13 +3475,15 @@
                             
                             r16
                             
-                            ef'16 [
+                            ef'16
+                            [
                             
                             f'16
                             
                             d'16
                             
-                            cs'16 ]
+                            cs'16
+                            ]
                         }
                         {
                             
@@ -3238,21 +3517,25 @@
                             %%% EnglishHornMusicVoice [measure 105] %%%
                             r8
                             
-                            aqf'16 [
+                            aqf'16
+                            [
                             
-                            bf'16 ]
+                            bf'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            a'16 [
+                            a'16
+                            [
                             
                             gs'16
                             
                             eqs'16
                             
-                            ef'16 ]
+                            ef'16
+                            ]
                         }
                         
                         r4
@@ -3261,13 +3544,15 @@
                             %%% EnglishHornMusicVoice [measure 106] %%%
                             r16
                             
-                            e'16 [
+                            e'16
+                            [
                             
                             gs'16
                             
                             aqf'16
                             
-                            bf'16 ]
+                            bf'16
+                            ]
                         }
                         {
                             
@@ -3301,21 +3586,25 @@
                             %%% EnglishHornMusicVoice [measure 108] %%%
                             r8
                             
-                            cs'16 [
+                            cs'16
+                            [
                             
-                            a'16 ]
+                            a'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            gs'16 [
+                            gs'16
+                            [
                             
                             aqf'16
                             
                             bf'16
                             
-                            cs'16 ]
+                            cs'16
+                            ]
                             \revert NoteHead.style
                         }
                         
@@ -3325,15 +3614,20 @@
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        af'8. \f \startTrillSpan
+                        af'8.
+                        \f
+                        \startTrillSpan
                         
-                        r16 \stopTrillSpan
+                        r16
+                        \stopTrillSpan
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        atqf'8. \startTrillSpan
+                        atqf'8.
+                        \startTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 110] %%%
-                        atqf'16 \repeatTie
+                        atqf'16
+                        \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         af'2
@@ -3341,36 +3635,42 @@
                         atqf'4..
                         
                         %%% EnglishHornMusicVoice [measure 111] %%%
-                        atqf'2 \repeatTie
+                        atqf'2
+                        \repeatTie
                         
-                        atqf'16 \repeatTie [
+                        atqf'16
+                        \repeatTie
+                        [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqf'8. ]
+                        aqf'8.
+                        ]
                         
                         %%% EnglishHornMusicVoice [measure 112] %%%
-                        aqf'1 \repeatTie
+                        aqf'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 113] %%%
-                        r4 \stopTrillSpan
+                        r4
+                        \stopTrillSpan
                         {
                             
                             r8
                             
                             \override NoteHead.style = #'cross
                             gs'8
-                                _ \markup {
-                                    \larger
-                                        \italic
-                                            “
-                                    \dynamic
-                                        \override
-                                            #'(font-name . #f)
-                                            f
-                                    \larger
-                                        \italic
-                                            ”
-                                    }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        f
+                                \larger
+                                    \italic
+                                        ”
+                                }
                         }
                         \times 2/3 {
                             
@@ -3383,9 +3683,11 @@
                             %%% EnglishHornMusicVoice [measure 114] %%%
                             r16
                             
-                            bf'16 [
+                            bf'16
+                            [
                             
-                            a'8. ]
+                            a'8.
+                            ]
                         }
                         
                         r4
@@ -3399,34 +3701,40 @@
                             
                             r8
                             
-                            ef'16 [
+                            ef'16
+                            [
                             
-                            e'16 ]
+                            e'16
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% EnglishHornMusicVoice [measure 115] %%%
                             r16
                             
-                            a'16 [
+                            a'16
+                            [
                             
                             gs'16
                             
                             aqf'16
                             
-                            bf'16 ]
+                            bf'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            cs'16 [
+                            cs'16
+                            [
                             
                             fqs'16
                             
                             f'16
                             
-                            d'16 ]
+                            d'16
+                            ]
                         }
                         
                         %%% EnglishHornMusicVoice [measure 116] %%%
@@ -3447,9 +3755,11 @@
                             
                             r16
                             
-                            gs'16 [
+                            gs'16
+                            [
                             
-                            aqf'8. ]
+                            aqf'8.
+                            ]
                         }
                         
                         %%% EnglishHornMusicVoice [measure 117] %%%
@@ -3464,34 +3774,40 @@
                             
                             r8
                             
-                            cs'16 [
+                            cs'16
+                            [
                             
-                            fqs'16 ]
+                            fqs'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            f'16 [
+                            f'16
+                            [
                             
                             e'16
                             
                             eqs'16
                             
-                            ef'16 ]
+                            ef'16
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% EnglishHornMusicVoice [measure 118] %%%
                             r16
                             
-                            f'16 [
+                            f'16
+                            [
                             
                             d'16
                             
                             cs'16
                             
-                            fqs'16 ]
+                            fqs'16
+                            ]
                         }
                         
                         r4
@@ -3509,114 +3825,148 @@
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        a'8. \ff \startTrillSpan
+                        a'8.
+                        \ff
+                        \startTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 120] %%%
-                        a'2. \repeatTie
+                        a'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 121] %%%
-                        a'2 \repeatTie
+                        a'2
+                        \repeatTie
                         
-                        r16 \stopTrillSpan
+                        r16
+                        \stopTrillSpan
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqs'8. \startTrillSpan
+                        aqs'8.
+                        \startTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 122] %%%
-                        r16 \stopTrillSpan
+                        r16
+                        \stopTrillSpan
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqf'2... \startTrillSpan
+                        aqf'2...
+                        \startTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 123] %%%
-                        aqf'1 \repeatTie
+                        aqf'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 124] %%%
-                        aqf'4 \repeatTie
+                        aqf'4
+                        \repeatTie
                         
-                        r16 \stopTrillSpan
+                        r16
+                        \stopTrillSpan
                         
-                        af'4.. \startTrillSpan
+                        af'4..
+                        \startTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 125] %%%
                         aqf'2
                         
                         %%% EnglishHornMusicVoice [measure 126] %%%
-                        r2 \stopTrillSpan
+                        r2
+                        \stopTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 127] %%%
-                        bf'2. \fff \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                doubletrill!
-                                }
+                        bf'2.
+                        \fff
+                        \startTrillSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            doubletrill!
+                            }
                         
                         %%% EnglishHornMusicVoice [measure 128] %%%
-                        bf'1 \repeatTie
+                        bf'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 129] %%%
-                        bf'2 \repeatTie
+                        bf'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 130] %%%
-                        bf'2. \repeatTie
+                        bf'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 131] %%%
-                        bf'1 \repeatTie
+                        bf'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 132] %%%
-                        bf'2 \repeatTie
+                        bf'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 133] %%%
-                        b'2. \fff \stopTrillSpan \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                doubletrill!
-                                }
+                        b'2.
+                        \fff
+                        \stopTrillSpan
+                        \startTrillSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            doubletrill!
+                            }
                         
                         %%% EnglishHornMusicVoice [measure 134] %%%
-                        b'1 \repeatTie
+                        b'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 135] %%%
-                        b'2. \repeatTie
+                        b'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 136] %%%
-                        b'1 \repeatTie
+                        b'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 137] %%%
-                        b'2. \repeatTie
+                        b'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 138] %%%
-                        b'1 \repeatTie
+                        b'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 139] %%%
-                        b'2 \repeatTie
+                        b'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 140] %%%
-                        b'1 \repeatTie
+                        b'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 141] %%%
-                        r4 \stopTrillSpan
+                        r4
+                        \stopTrillSpan
                         \times 4/5 {
                             
                             r16
                             
                             \override NoteHead.style = #'cross
                             \once \override Hairpin.circled-tip = ##t
-                            eqs'16 \> [
+                            eqs'16
+                            \>
+                            [
                             
                             ef'16
                             
                             e'16
                             
-                            a'16 ]
+                            a'16
+                            ]
                         }
                         {
                             
@@ -3650,21 +4000,25 @@
                             %%% EnglishHornMusicVoice [measure 143] %%%
                             r8
                             
-                            fqs'16 [
+                            fqs'16
+                            [
                             
-                            f'16 ]
+                            f'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            d'16 [
+                            d'16
+                            [
                             
                             bf'16
                             
                             a'16
                             
-                            gs'16 ]
+                            gs'16
+                            ]
                         }
                         
                         r4
@@ -3673,13 +4027,15 @@
                             %%% EnglishHornMusicVoice [measure 144] %%%
                             r16
                             
-                            aqf'16 [
+                            aqf'16
+                            [
                             
                             d'16
                             
                             cs'16
                             
-                            fqs'16 ]
+                            fqs'16
+                            ]
                         }
                         {
                             
@@ -3713,21 +4069,25 @@
                             
                             r8
                             
-                            f'16 [
+                            f'16
+                            [
                             
-                            d'16 ]
+                            d'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            cs'16 [
+                            cs'16
+                            [
                             
                             fqs'16
                             
                             ef'16
                             
-                            e'16 ]
+                            e'16
+                            ]
                         }
                         
                         r4
@@ -3736,13 +4096,15 @@
                             %%% EnglishHornMusicVoice [measure 147] %%%
                             r16
                             
-                            eqs'16 [
+                            eqs'16
+                            [
                             
                             aqf'16
                             
                             bf'16
                             
-                            a'16 ]
+                            a'16
+                            ]
                         }
                         {
                             
@@ -3776,21 +4138,25 @@
                             %%% EnglishHornMusicVoice [measure 149] %%%
                             r8
                             
-                            gs'16 [
+                            gs'16
+                            [
                             
-                            aqf'16 ]
+                            aqf'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            bf'16 [
+                            bf'16
+                            [
                             
                             a'16
                             
                             fqs'16
                             
-                            f'16 ]
+                            f'16
+                            ]
                         }
                         
                         r4
@@ -3799,13 +4165,15 @@
                             %%% EnglishHornMusicVoice [measure 150] %%%
                             r16
                             
-                            d'16 [
+                            d'16
+                            [
                             
                             cs'16
                             
                             a'16
                             
-                            gs'16 ]
+                            gs'16
+                            ]
                         }
                         {
                             
@@ -3839,21 +4207,25 @@
                             
                             r8
                             
-                            f'16 [
+                            f'16
+                            [
                             
-                            d'16 ]
+                            d'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            e'16 [
+                            e'16
+                            [
                             
                             eqs'16
                             
                             ef'16
                             
-                            d'16 ]
+                            d'16
+                            ]
                         }
                         
                         r4
@@ -3862,13 +4234,15 @@
                             %%% EnglishHornMusicVoice [measure 153] %%%
                             r16
                             
-                            cs'16 [
+                            cs'16
+                            [
                             
                             fqs'16
                             
                             f'16
                             
-                            ef'16 ]
+                            ef'16
+                            ]
                         }
                         {
                             
@@ -3902,21 +4276,25 @@
                             
                             r8
                             
-                            gs'16 [
+                            gs'16
+                            [
                             
-                            aqf'16 ]
+                            aqf'16
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            eqs'16 [
+                            eqs'16
+                            [
                             
                             ef'16
                             
                             e'16
                             
-                            aqf'16 ]
+                            aqf'16
+                            ]
                         }
                         
                         r4
@@ -3925,19 +4303,22 @@
                             %%% EnglishHornMusicVoice [measure 156] %%%
                             r16
                             
-                            bf'16 [
+                            bf'16
+                            [
                             
                             a'16
                             
                             gs'16
                             
-                            f'16 ]
+                            f'16
+                            ]
                         }
                         {
                             
                             r8
                             
-                            d'8 \!
+                            d'8
+                            \!
                             \revert NoteHead.style
                         }
                         
@@ -3947,14 +4328,14 @@
                         \startStaff
                         \clef "percussion"
                         r2.
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "remove staple"
-                                }
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "remove staple"
+                            }
                         
                         %%% EnglishHornMusicVoice [measure 158] %%%
                         r1
@@ -3980,32 +4361,35 @@
                         %%% EnglishHornMusicVoice [measure 165] %%%
                         \override RepeatTie.direction = #up
                         c'1
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        airtone
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    airtone
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% EnglishHornMusicVoice [measure 166] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 167] %%%
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 168] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         \revert RepeatTie.direction
                         
                         %%% EnglishHornMusicVoice [measure 169] %%%
@@ -4041,13 +4425,18 @@
                         \clef "treble"
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        f4 \<
+                        f4
+                        \<
                         
-                        f\breve \repeatTie \p
+                        f\breve
+                        \repeatTie
+                        \p
                         
-                        f4 \repeatTie
+                        f4
+                        \repeatTie
                         
-                        f8. \repeatTie
+                        f8.
+                        \repeatTie
                         
                         r16
                         
@@ -4055,12 +4444,15 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
-                        fqs1 \repeatTie
+                        fqs1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 102] %%%
-                        fqs4 \repeatTie
+                        fqs4
+                        \repeatTie
                         
-                        fqs8. \repeatTie
+                        fqs8.
+                        \repeatTie
                         
                         r16
                         
@@ -4068,9 +4460,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
-                        f\breve.. \repeatTie
+                        f\breve..
+                        \repeatTie
                         
-                        f8. \repeatTie
+                        f8.
+                        \repeatTie
                         
                         r16
                         
@@ -4078,9 +4472,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
-                        fqs1.. \repeatTie
+                        fqs1..
+                        \repeatTie
                         
-                        fqs8. \repeatTie
+                        fqs8.
+                        \repeatTie
                         
                         r16
                         
@@ -4088,11 +4484,14 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
-                        f1 \repeatTie
+                        f1
+                        \repeatTie
                         
-                        f4 \repeatTie
+                        f4
+                        \repeatTie
                         
-                        f8. \repeatTie
+                        f8.
+                        \repeatTie
                         
                         r16
                         
@@ -4100,9 +4499,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
-                        fqs\breve... \repeatTie
+                        fqs\breve...
+                        \repeatTie
                         
-                        fqs8. \repeatTie
+                        fqs8.
+                        \repeatTie
                         
                         r16
                         
@@ -4110,11 +4511,14 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
-                        f\breve. \repeatTie
+                        f\breve.
+                        \repeatTie
                         
-                        f4 \repeatTie
+                        f4
+                        \repeatTie
                         
-                        f8. \repeatTie
+                        f8.
+                        \repeatTie
                         
                         r16
                         
@@ -4122,9 +4526,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
-                        fqs1.. \repeatTie
+                        fqs1..
+                        \repeatTie
                         
-                        fqs8. \repeatTie
+                        fqs8.
+                        \repeatTie
                         
                         r16
                         
@@ -4132,9 +4538,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
-                        f1.. \repeatTie
+                        f1..
+                        \repeatTie
                         
-                        f8. \repeatTie
+                        f8.
+                        \repeatTie
                         
                         r16
                         
@@ -4142,9 +4550,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
-                        fqs\breve. \repeatTie
+                        fqs\breve.
+                        \repeatTie
                         
-                        fqs8. \repeatTie
+                        fqs8.
+                        \repeatTie
                         
                         r16
                         
@@ -4152,11 +4562,14 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
-                        f\breve \repeatTie
+                        f\breve
+                        \repeatTie
                         
-                        f4 \repeatTie
+                        f4
+                        \repeatTie
                         
-                        f8. \repeatTie
+                        f8.
+                        \repeatTie
                         
                         r16
                         
@@ -4164,11 +4577,14 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs4
                         
-                        fqs1 \repeatTie
+                        fqs1
+                        \repeatTie
                         
-                        fqs4 \repeatTie
+                        fqs4
+                        \repeatTie
                         
-                        fqs8. \repeatTie
+                        fqs8.
+                        \repeatTie
                         
                         r16
                         
@@ -4176,9 +4592,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         f4
                         
-                        f\breve.. \repeatTie
+                        f\breve..
+                        \repeatTie
                         
-                        f8. \repeatTie
+                        f8.
+                        \repeatTie
                         
                         r16
                         
@@ -4187,13 +4605,21 @@
                         f4
                         
                         \once \override Hairpin.circled-tip = ##t
-                        f\breve. \repeatTie \> \p
+                        f\breve.
+                        \repeatTie
+                        \>
+                        \p
                         
                         %%% ClarinetMusicVoice [measure 148] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        f4 \repeatTie \! \<
+                        f4
+                        \repeatTie
+                        \!
+                        \<
                         
-                        f8. \repeatTie \pp
+                        f8.
+                        \repeatTie
+                        \pp
                         
                         r16
                         
@@ -4202,20 +4628,29 @@
                         e4
                         
                         \once \override Hairpin.circled-tip = ##t
-                        e1. \repeatTie \> \pp
+                        e1.
+                        \repeatTie
+                        \>
+                        \pp
                         
                         \once \override Hairpin.circled-tip = ##t
-                        e8. \repeatTie \! \<
+                        e8.
+                        \repeatTie
+                        \!
+                        \<
                         
-                        r16 \ppp
+                        r16
+                        \ppp
                         
                         %%% ClarinetMusicVoice [measure 152] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e4
                         
-                        e2 \repeatTie
+                        e2
+                        \repeatTie
                         
-                        e8. \repeatTie
+                        e8.
+                        \repeatTie
                         
                         r16
                         
@@ -4223,9 +4658,11 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ds4
                         
-                        ds1.. \repeatTie
+                        ds1..
+                        \repeatTie
                         
-                        ds8. \repeatTie
+                        ds8.
+                        \repeatTie
                         
                         r16
                         
@@ -4234,32 +4671,46 @@
                         ds4
                         
                         \once \override Hairpin.circled-tip = ##t
-                        ds8. \repeatTie \> \ppp
+                        ds8.
+                        \repeatTie
+                        \>
+                        \ppp
                         
-                        r16 \!
+                        r16
+                        \!
                         
                         %%% ClarinetMusicVoice [measure 157] %%%
                         R1 * 27/4
                         
                         %%% ClarinetMusicVoice [measure 165] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        d4 \<
+                        d4
+                        \<
                         
-                        d2. \repeatTie \ppp
+                        d2.
+                        \repeatTie
+                        \ppp
                         
                         %%% ClarinetMusicVoice [measure 166] %%%
-                        d2. \repeatTie
+                        d2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 167] %%%
-                        d2 \repeatTie
+                        d2
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 168] %%%
-                        d2 \repeatTie
+                        d2
+                        \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
-                        d8. \repeatTie \> \ppp
+                        d8.
+                        \repeatTie
+                        \>
+                        \ppp
                         
-                        r16 \!
+                        r16
+                        \!
                         
                         %%% ClarinetMusicVoice [measure 169] %%%
                         R1 * 25/4
@@ -4290,141 +4741,184 @@
                             \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             <ef' f' g' df'' ef''>2.
-                                ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.75)
-                                        \box
-                                            "to piano"
-                                    }
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to piano"
+                                }
                             
                             %%% PianoRHMusicVoice [measure 98] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 99] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 100] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 101] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 102] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 103] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 104] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 105] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 106] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 107] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 108] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 109] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 110] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 111] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 112] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 113] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 114] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 115] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 116] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 117] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 118] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 119] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 120] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 121] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 122] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 123] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 124] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 125] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 126] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 127] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 128] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 129] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 130] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 131] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 132] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 133] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 134] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 135] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 136] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 137] %%%
-                            <ef' f' g' df'' ef''>2. \repeatTie
+                            <ef' f' g' df'' ef''>2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 138] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 139] %%%
-                            <ef' f' g' df'' ef''>2 \repeatTie
+                            <ef' f' g' df'' ef''>2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 140] %%%
-                            <ef' f' g' df'' ef''>1 \repeatTie
+                            <ef' f' g' df'' ef''>1
+                            \repeatTie
                             \revert NoteHead.style
                             
                             %%% PianoRHMusicVoice [measure 141] %%%
@@ -4690,15 +5184,16 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16 -\sfz
-                                ^ \markup {
-                                    \center-align
-                                        \concat
-                                            {
-                                                \natural
-                                                \flat
-                                            }
-                                    }
+                            <c, e, g, b,>16
+                            -\sfz
+                            ^ \markup {
+                                \center-align
+                                    \concat
+                                        {
+                                            \natural
+                                            \flat
+                                        }
+                                }
                             
                             s2
                             
@@ -4775,15 +5270,16 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            <c, e, g, b,>16 -\sfz
-                                ^ \markup {
-                                    \center-align
-                                        \concat
-                                            {
-                                                \natural
-                                                \flat
-                                            }
-                                    }
+                            <c, e, g, b,>16
+                            -\sfz
+                            ^ \markup {
+                                \center-align
+                                    \concat
+                                        {
+                                            \natural
+                                            \flat
+                                        }
+                                }
                             
                             s4..
                             
@@ -4986,15 +5482,19 @@
                         \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        g'2. -\laissezVibrer \ff \<
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "l.v. possibile"
-                                }
+                        g'2.
+                        -\laissezVibrer
+                        \ff
+                        \<
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "l.v. possibile"
+                            }
                         
                         %%% PercussionMusicVoice [measure 98] %%%
-                        r1 \ff
+                        r1
+                        \ff
                         
                         %%% PercussionMusicVoice [measure 99] %%%
                         r1
@@ -5017,14 +5517,14 @@
                         %%% PercussionMusicVoice [measure 105] %%%
                         \clef "bass"
                         r2.
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "to marimba"
-                                }
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "to marimba"
+                            }
                         
                         %%% PercussionMusicVoice [measure 106] %%%
                         r2
@@ -5033,127 +5533,224 @@
                         R1 * 10
                         
                         %%% PercussionMusicVoice [measure 119] %%%
-                        ef,2 :32 \< \ppp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "as attackless as possible"
-                                }
+                        ef,2
+                        :32
+                        \<
+                        \ppp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "as attackless as possible"
+                            }
                         
                         %%% PercussionMusicVoice [measure 120] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 121] %%%
-                        ef,2. :32 \repeatTie \pp \>
+                        ef,2.
+                        :32
+                        \repeatTie
+                        \pp
+                        \>
                         
                         %%% PercussionMusicVoice [measure 122] %%%
-                        ef,1 :32 \repeatTie
+                        ef,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 123] %%%
-                        ef,1 :32 \repeatTie
+                        ef,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 124] %%%
-                        ef,2. :32 \repeatTie \ppp \<
+                        ef,2.
+                        :32
+                        \repeatTie
+                        \ppp
+                        \<
                         
                         %%% PercussionMusicVoice [measure 125] %%%
-                        ef,2 :32 \repeatTie
+                        ef,2
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 126] %%%
-                        ef,2 :32 \repeatTie \pp \>
+                        ef,2
+                        :32
+                        \repeatTie
+                        \pp
+                        \>
                         
                         %%% PercussionMusicVoice [measure 127] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 128] %%%
-                        ef,1 :32 \repeatTie
+                        ef,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 129] %%%
-                        ef,2 :32 \repeatTie \ppp \<
+                        ef,2
+                        :32
+                        \repeatTie
+                        \ppp
+                        \<
                         
                         %%% PercussionMusicVoice [measure 130] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 131] %%%
-                        ef,1 :32 \repeatTie \pp \>
+                        ef,1
+                        :32
+                        \repeatTie
+                        \pp
+                        \>
                         
                         %%% PercussionMusicVoice [measure 132] %%%
-                        ef,2 :32 \repeatTie
+                        ef,2
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 133] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 134] %%%
-                        ef,1 :32 \repeatTie \ppp \<
+                        ef,1
+                        :32
+                        \repeatTie
+                        \ppp
+                        \<
                         
                         %%% PercussionMusicVoice [measure 135] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 136] %%%
-                        ef,1 :32 \repeatTie \pp \>
+                        ef,1
+                        :32
+                        \repeatTie
+                        \pp
+                        \>
                         
                         %%% PercussionMusicVoice [measure 137] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 138] %%%
-                        ef,1 :32 \repeatTie
+                        ef,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 139] %%%
-                        ef,2 :32 \repeatTie \ppp \<
+                        ef,2
+                        :32
+                        \repeatTie
+                        \ppp
+                        \<
                         
                         %%% PercussionMusicVoice [measure 140] %%%
-                        ef,1 :32 \repeatTie
+                        ef,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 141] %%%
-                        ef,1 :32 \repeatTie \pp \>
+                        ef,1
+                        :32
+                        \repeatTie
+                        \pp
+                        \>
                         
                         %%% PercussionMusicVoice [measure 142] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 143] %%%
-                        ef,2. :32 \repeatTie
+                        ef,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 144] %%%
-                        ef,2 :32 \repeatTie \ppp
+                        ef,2
+                        :32
+                        \repeatTie
+                        \ppp
                         
                         %%% PercussionMusicVoice [measure 145] %%%
-                        d,2. :32
+                        d,2.
+                        :32
                         
                         %%% PercussionMusicVoice [measure 146] %%%
-                        d,1 :32 \repeatTie
+                        d,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 147] %%%
-                        d,1 :32 \repeatTie
+                        d,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 148] %%%
-                        d,2 :32 \repeatTie
+                        d,2
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 149] %%%
                         \once \override Hairpin.circled-tip = ##t
-                        d,2. :32 \repeatTie \> \pp
+                        d,2.
+                        :32
+                        \repeatTie
+                        \>
+                        \pp
                         
                         %%% PercussionMusicVoice [measure 150] %%%
-                        d,2 :32 \repeatTie
+                        d,2
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 151] %%%
-                        d,2. :32 \repeatTie
+                        d,2.
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 152] %%%
-                        d,1 :32 \repeatTie
+                        d,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 153] %%%
-                        cs,2. :32
+                        cs,2.
+                        :32
                         
                         %%% PercussionMusicVoice [measure 154] %%%
-                        cs,2 :32 \repeatTie
+                        cs,2
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 155] %%%
-                        cs,1 :32 \repeatTie
+                        cs,1
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 156] %%%
-                        cs,2 :32 \repeatTie
+                        cs,2
+                        :32
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 157] %%%
-                        r2. \!
+                        r2.
+                        \!
                         
                         %%% PercussionMusicVoice [measure 158] %%%
                         r1
@@ -5182,39 +5779,42 @@
                         \startStaff
                         \clef "percussion"
                         b1
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \column
-                                                    {
-                                                        "rub sponge on bass drum head;"
-                                                        "noise only: no pitch"
-                                                    }
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
+                        ^ \markup {
+                            \whiteout
+                                \upright
                                     \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            \column
+                                                {
+                                                    "rub sponge on bass drum head;"
+                                                    "noise only: no pitch"
+                                                }
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% PercussionMusicVoice [measure 166] %%%
-                        b2. \repeatTie
+                        b2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 167] %%%
-                        b2 \repeatTie
+                        b2
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 168] %%%
-                        b2. \repeatTie
+                        b2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 169] %%%
                         R1 * 25/4
@@ -5243,15 +5843,17 @@
                         \clef "treble"
                         \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        g'''2. \<
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "l.v. possibile"
-                                }
+                        g'''2.
+                        \<
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "l.v. possibile"
+                            }
                         
                         %%% ViolinMusicVoice [measure 98] %%%
-                        r1 \ff
+                        r1
+                        \ff
                         
                         %%% ViolinMusicVoice [measure 99] %%%
                         r1
@@ -5277,7 +5879,3523 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        f'16 [
+                        f'16
+                        [
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    spazz.
+                                        }
+                                    \line
+                                        {
+                                            @
+                                        }
+                                }
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    ff
+                            \larger
+                                \italic
+                                    ”
+                            }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 106] %%%
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        %%% ViolinMusicVoice [measure 107] %%%
+                        \once \override Hairpin.circled-tip = ##t
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        \>
+                        \ff
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 108] %%%
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        %%% ViolinMusicVoice [measure 109] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        %%% ViolinMusicVoice [measure 110] %%%
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        %%% ViolinMusicVoice [measure 111] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 112] %%%
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        %%% ViolinMusicVoice [measure 113] %%%
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 114] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        %%% ViolinMusicVoice [measure 115] %%%
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 116] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        %%% ViolinMusicVoice [measure 117] %%%
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r8
+                        
+                        %%% ViolinMusicVoice [measure 118] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        r16
+                        
+                        r16
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        [
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        f'16
+                        \!
+                        ]
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 119] %%%
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        eqf'2
+                        \ppp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pochiss. scratch"
+                            }
+                        
+                        %%% ViolinMusicVoice [measure 120] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 121] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 122] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 123] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 124] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 125] %%%
+                        eqf'2
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 126] %%%
+                        eqf'2
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 127] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 128] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 129] %%%
+                        eqf'2
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 130] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 131] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 132] %%%
+                        eqf'2
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 133] %%%
+                        eqf'2.
+                        \repeatTie
+                        \<
+                        \ppp
+                        
+                        %%% ViolinMusicVoice [measure 134] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 135] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 136] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 137] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 138] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 139] %%%
+                        eqf'2
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 140] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 141] %%%
+                        eqf'1
+                        \repeatTie
+                        \f
+                        \>
+                        \f
+                        
+                        %%% ViolinMusicVoice [measure 142] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 143] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 144] %%%
+                        eqf'2
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 145] %%%
+                        eqf'2.
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 146] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 147] %%%
+                        eqf'1
+                        \repeatTie
+                        
+                        %%% ViolinMusicVoice [measure 148] %%%
+                        eqf'2
+                        \repeatTie
+                        \ppp
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            
+                            %%% ViolinMusicVoice [measure 149] %%%
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            \clef "percussion"
+                            c'8
+                            -\staccato
+                            \<
+                            \ppp
+                            [
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                \column
+                                                                    {
+                                                                        "col legno battuto:"
+                                                                        "as bright and pointlike as possible;"
+                                                                        "(mute string with left hand)"
+                                                                    }
+                                            }
+                                        \line
+                                            {
+                                                @
+                                            }
+                                    }
+                                }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 7/10 {
+                            
+                            %%% ViolinMusicVoice [measure 151] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            
+                            %%% ViolinMusicVoice [measure 153] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            \mf
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        {
+                            
+                            %%% ViolinMusicVoice [measure 154] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            %%% ViolinMusicVoice [measure 155] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/7 {
+                            
+                            %%% ViolinMusicVoice [measure 156] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \times 4/5 {
+                            
+                            %%% ViolinMusicVoice [measure 158] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 7/10 {
+                            
+                            %%% ViolinMusicVoice [measure 159] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 7/8 {
+                            
+                            %%% ViolinMusicVoice [measure 161] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        {
+                            
+                            %%% ViolinMusicVoice [measure 163] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolinMusicVoice [measure 164] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        
+                        %%% ViolinMusicVoice [measure 165] %%%
+                        \override RepeatTie.direction = #up
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        c'1
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    \override
+                                                        #'(box-padding . 0.5)
+                                                        \box
+                                                            \column
+                                                                {
+                                                                    "bow directly on bridge;"
+                                                                    "noise only: no pitch"
+                                                                }
+                                        }
+                                    \line
+                                        {
+                                            @
+                                        }
+                                }
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
+                        
+                        %%% ViolinMusicVoice [measure 166] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        c'2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 167] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        c'2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        
+                        %%% ViolinMusicVoice [measure 168] %%%
+                        \once \override Accidental.color = #red
+                        \once \override Beam.color = #red
+                        \once \override Dots.color = #red
+                        \once \override NoteHead.color = #red
+                        \once \override Stem.color = #red
+                        c'2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        \revert RepeatTie.direction
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 7/8 {
+                            
+                            %%% ViolinMusicVoice [measure 169] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            \>
+                            \mf
+                            [
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "col legno battuto"
+                                            }
+                                        \line
+                                            {
+                                                @
+                                            }
+                                    }
+                                }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 7/10 {
+                            
+                            %%% ViolinMusicVoice [measure 171] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolinMusicVoice [measure 173] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        {
+                            
+                            %%% ViolinMusicVoice [measure 174] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            %%% ViolinMusicVoice [measure 175] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                        }
+                        \times 2/3 {
+                            
+                            %%% ViolinMusicVoice [measure 176] %%%
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            c'8
+                            -\staccato
+                            \ppp
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            \bar "|."
+                            
+                        }
+                    }
+                }
+                \tag viola
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
+                        
+                        %%% ViolaMusicVoice [measure 97] %%%
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
+                        \clef "alto"
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        ef2.
+                        :32
+                        \pp
+                        
+                        %%% ViolaMusicVoice [measure 98] %%%
+                        ef1
+                        :32
+                        \repeatTie
+                        
+                        %%% ViolaMusicVoice [measure 99] %%%
+                        ef1
+                        :32
+                        \repeatTie
+                        
+                        %%% ViolaMusicVoice [measure 100] %%%
+                        ef2
+                        :32
+                        \repeatTie
+                        
+                        %%% ViolaMusicVoice [measure 101] %%%
+                        ef2.
+                        :32
+                        \repeatTie
+                        
+                        %%% ViolaMusicVoice [measure 102] %%%
+                        ef2
+                        :32
+                        \repeatTie
+                        
+                        %%% ViolaMusicVoice [measure 103] %%%
+                        ef2.
+                        :32
+                        \repeatTie
+                        
+                        %%% ViolaMusicVoice [measure 104] %%%
+                        ef1
+                        :32
+                        \repeatTie
+                        \times 2/3 {
+                            
+                            %%% ViolaMusicVoice [measure 105] %%%
+                            r4
+                            
+                            \once \override Accidental.color = #red
+                            \once \override Beam.color = #red
+                            \once \override Dots.color = #red
+                            \once \override NoteHead.color = #red
+                            \once \override Stem.color = #red
+                            f'8
                             ^ \markup {
                                 \column
                                     {
@@ -5305,3146 +9423,6 @@
                                     \italic
                                         ”
                                 }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 106] %%%
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        %%% ViolinMusicVoice [measure 107] %%%
-                        \once \override Hairpin.circled-tip = ##t
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 \> \ff [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 108] %%%
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        %%% ViolinMusicVoice [measure 109] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        %%% ViolinMusicVoice [measure 110] %%%
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        %%% ViolinMusicVoice [measure 111] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 112] %%%
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        %%% ViolinMusicVoice [measure 113] %%%
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 114] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        %%% ViolinMusicVoice [measure 115] %%%
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 116] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        %%% ViolinMusicVoice [measure 117] %%%
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r8
-                        
-                        %%% ViolinMusicVoice [measure 118] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        r16
-                        
-                        r16
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 [
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        f'16 \! ]
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 119] %%%
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqf'2 \ppp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "pochiss. scratch"
-                                }
-                        
-                        %%% ViolinMusicVoice [measure 120] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 121] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 122] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 123] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 124] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 125] %%%
-                        eqf'2 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 126] %%%
-                        eqf'2 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 127] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 128] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 129] %%%
-                        eqf'2 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 130] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 131] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 132] %%%
-                        eqf'2 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 133] %%%
-                        eqf'2. \repeatTie \< \ppp
-                        
-                        %%% ViolinMusicVoice [measure 134] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 135] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 136] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 137] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 138] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 139] %%%
-                        eqf'2 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 140] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 141] %%%
-                        eqf'1 \repeatTie \f \> \f
-                        
-                        %%% ViolinMusicVoice [measure 142] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 143] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 144] %%%
-                        eqf'2 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 145] %%%
-                        eqf'2. \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 146] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 147] %%%
-                        eqf'1 \repeatTie
-                        
-                        %%% ViolinMusicVoice [measure 148] %%%
-                        eqf'2 \repeatTie \ppp
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 5/6 {
-                            
-                            %%% ViolinMusicVoice [measure 149] %%%
-                            \stopStaff
-                            \once \override Staff.StaffSymbol.line-count = 1
-                            \startStaff
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            \clef "percussion"
-                            c'8 -\staccato \< \ppp [
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            \override
-                                                                #'(box-padding . 0.5)
-                                                                \box
-                                                                    \column
-                                                                        {
-                                                                            "col legno battuto:"
-                                                                            "as bright and pointlike as possible;"
-                                                                            "(mute string with left hand)"
-                                                                        }
-                                                }
-                                            \line
-                                                {
-                                                    @
-                                                }
-                                        }
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 7/10 {
-                            
-                            %%% ViolinMusicVoice [measure 151] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            
-                            %%% ViolinMusicVoice [measure 153] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato \mf [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        {
-                            
-                            %%% ViolinMusicVoice [measure 154] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            %%% ViolinMusicVoice [measure 155] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 5/7 {
-                            
-                            %%% ViolinMusicVoice [measure 156] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 4/5 {
-                            
-                            %%% ViolinMusicVoice [measure 158] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 7/10 {
-                            
-                            %%% ViolinMusicVoice [measure 159] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 7/8 {
-                            
-                            %%% ViolinMusicVoice [measure 161] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        {
-                            
-                            %%% ViolinMusicVoice [measure 163] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            %%% ViolinMusicVoice [measure 164] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        
-                        %%% ViolinMusicVoice [measure 165] %%%
-                        \override RepeatTie.direction = #up
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        c'1
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                \column
-                                                                    {
-                                                                        "bow directly on bridge;"
-                                                                        "noise only: no pitch"
-                                                                    }
-                                            }
-                                        \line
-                                            {
-                                                @
-                                            }
-                                    }
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
-                        
-                        %%% ViolinMusicVoice [measure 166] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        c'2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 167] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        c'2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        
-                        %%% ViolinMusicVoice [measure 168] %%%
-                        \once \override Accidental.color = #red
-                        \once \override Beam.color = #red
-                        \once \override Dots.color = #red
-                        \once \override NoteHead.color = #red
-                        \once \override Stem.color = #red
-                        c'2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
-                        \revert RepeatTie.direction
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 7/8 {
-                            
-                            %%% ViolinMusicVoice [measure 169] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato \> \mf [
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "col legno battuto"
-                                                }
-                                            \line
-                                                {
-                                                    @
-                                                }
-                                        }
-                                    }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 7/10 {
-                            
-                            %%% ViolinMusicVoice [measure 171] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            %%% ViolinMusicVoice [measure 173] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        {
-                            
-                            %%% ViolinMusicVoice [measure 174] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            %%% ViolinMusicVoice [measure 175] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                        }
-                        \times 2/3 {
-                            
-                            %%% ViolinMusicVoice [measure 176] %%%
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            c'8 -\staccato \ppp ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                            \bar "|."
-                            
-                        }
-                    }
-                }
-                \tag viola
-                \context ViolaMusicStaff = "ViolaMusicStaff" {
-                    \context ViolaMusicVoice = "ViolaMusicVoice" {
-                        
-                        %%% ViolaMusicVoice [measure 97] %%%
-                        \set ViolaMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Viola
-                            }
-                        \set ViolaMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Va.
-                            }
-                        \clef "alto"
-                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        ef2. :32 \pp
-                        
-                        %%% ViolaMusicVoice [measure 98] %%%
-                        ef1 :32 \repeatTie
-                        
-                        %%% ViolaMusicVoice [measure 99] %%%
-                        ef1 :32 \repeatTie
-                        
-                        %%% ViolaMusicVoice [measure 100] %%%
-                        ef2 :32 \repeatTie
-                        
-                        %%% ViolaMusicVoice [measure 101] %%%
-                        ef2. :32 \repeatTie
-                        
-                        %%% ViolaMusicVoice [measure 102] %%%
-                        ef2 :32 \repeatTie
-                        
-                        %%% ViolaMusicVoice [measure 103] %%%
-                        ef2. :32 \repeatTie
-                        
-                        %%% ViolaMusicVoice [measure 104] %%%
-                        ef1 :32 \repeatTie
-                        \times 2/3 {
-                            
-                            %%% ViolaMusicVoice [measure 105] %%%
-                            r4
-                            
-                            \once \override Accidental.color = #red
-                            \once \override Beam.color = #red
-                            \once \override Dots.color = #red
-                            \once \override NoteHead.color = #red
-                            \once \override Stem.color = #red
-                            f'8
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            spazz.
-                                                }
-                                            \line
-                                                {
-                                                    @
-                                                }
-                                        }
-                                    }
-                                _ \markup {
-                                    \larger
-                                        \italic
-                                            “
-                                    \dynamic
-                                        \override
-                                            #'(font-name . #f)
-                                            ff
-                                    \larger
-                                        \italic
-                                            ”
-                                    }
                         }
                         \times 2/3 {
                             
@@ -8454,8 +9432,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -8466,9 +9444,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8476,17 +9455,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8499,8 +9479,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8509,9 +9489,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8519,17 +9500,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8542,9 +9524,11 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 \> \ff
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            \>
+                            \ff
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8554,8 +9538,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -8566,9 +9550,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8576,17 +9561,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8598,8 +9584,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8610,8 +9596,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -8622,9 +9608,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8632,17 +9619,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8655,8 +9643,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8665,9 +9653,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8675,17 +9664,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8697,8 +9687,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8709,8 +9699,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -8721,9 +9711,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8731,17 +9722,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8753,8 +9745,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8764,8 +9756,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -8777,9 +9769,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8787,17 +9780,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8809,8 +9803,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8819,9 +9813,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8829,17 +9824,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8852,8 +9848,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8863,8 +9859,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -8875,9 +9871,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8885,17 +9882,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8907,8 +9905,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8919,8 +9917,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -8931,9 +9929,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8941,17 +9940,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8963,8 +9963,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -8974,9 +9974,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -8984,17 +9985,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9006,8 +10008,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9017,8 +10019,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -9029,9 +10031,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -9039,17 +10042,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9062,8 +10066,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9073,8 +10077,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -9086,9 +10090,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -9096,17 +10101,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9118,8 +10124,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9128,9 +10134,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -9138,17 +10145,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9160,8 +10168,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9172,8 +10180,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -9184,9 +10192,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -9194,17 +10203,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9216,8 +10226,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9227,8 +10237,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             r4
                         }
@@ -9240,9 +10250,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -9250,17 +10261,18 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9272,8 +10284,8 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -9282,9 +10294,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -9292,114 +10305,152 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             f'8
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            f'8 \! ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            f'8
+                            \!
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         
                         %%% ViolaMusicVoice [measure 119] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g2 \pp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + pochiss. scratch"
-                                }
+                        g2
+                        \pp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + pochiss. scratch"
+                            }
                         
                         %%% ViolaMusicVoice [measure 120] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 121] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 122] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 123] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 124] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 125] %%%
-                        g2 \repeatTie
+                        g2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 126] %%%
-                        g2 \repeatTie
+                        g2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 127] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 128] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 129] %%%
-                        g2 \repeatTie
+                        g2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 130] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 131] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 132] %%%
-                        g2 \repeatTie
+                        g2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 133] %%%
-                        g2. \repeatTie \< \pp
+                        g2.
+                        \repeatTie
+                        \<
+                        \pp
                         
                         %%% ViolaMusicVoice [measure 134] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 135] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 136] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 137] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 138] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 139] %%%
-                        g2 \repeatTie
+                        g2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 140] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 141] %%%
-                        g1 \repeatTie \f \> \f
+                        g1
+                        \repeatTie
+                        \f
+                        \>
+                        \f
                         
                         %%% ViolaMusicVoice [measure 142] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 143] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 144] %%%
-                        g2 \repeatTie
+                        g2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 145] %%%
-                        g2. \repeatTie
+                        g2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 146] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 147] %%%
-                        g1 \repeatTie
+                        g1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 148] %%%
-                        g2 \repeatTie \ppp
+                        g2
+                        \repeatTie
+                        \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
@@ -9413,93 +10464,105 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \clef "percussion"
-                            b8 -\staccato \< \ppp [
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            \override
-                                                                #'(box-padding . 0.5)
-                                                                \box
-                                                                    \column
-                                                                        {
-                                                                            "col legno battuto:"
-                                                                            "as bright and pointlike as possible;"
-                                                                            "(mute string with left hand)"
-                                                                        }
-                                                }
-                                            \line
-                                                {
-                                                    @
-                                                }
-                                        }
+                            b8
+                            -\staccato
+                            \<
+                            \ppp
+                            [
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                \column
+                                                                    {
+                                                                        "col legno battuto:"
+                                                                        "as bright and pointlike as possible;"
+                                                                        "(mute string with left hand)"
+                                                                    }
+                                            }
+                                        \line
+                                            {
+                                                @
+                                            }
                                     }
+                                }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
@@ -9510,144 +10573,162 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
@@ -9658,144 +10739,163 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato \mf
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            \mf
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         {
                             
@@ -9805,36 +10905,42 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -9845,144 +10951,162 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
@@ -9993,144 +11117,162 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         {
                             
@@ -10140,54 +11282,62 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
@@ -10198,144 +11348,162 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         {
                             
@@ -10345,72 +11513,81 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             %%% ViolaMusicVoice [measure 163] %%%
                             \once \override Accidental.color = #red
@@ -10418,36 +11595,41 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -10457,108 +11639,122 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
@@ -10569,144 +11765,162 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/8 {
@@ -10717,144 +11931,162 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -10865,72 +12097,84 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato \> \mf [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            \>
+                            \mf
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         {
                             
@@ -10940,72 +12184,81 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             %%% ViolaMusicVoice [measure 171] %%%
                             \once \override Accidental.color = #red
@@ -11013,72 +12266,81 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
@@ -11089,126 +12351,142 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \times 2/3 {
                             
@@ -11218,54 +12496,62 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
@@ -11276,180 +12562,203 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato \ppp ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            \ppp
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                             \bar "|."
                             
                         }
@@ -11479,9 +12788,10 @@
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        ef,2. \ppp
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \ppp
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 98] %%%
                         \once \override Accidental.color = #red
@@ -11489,9 +12799,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 99] %%%
                         \once \override Accidental.color = #red
@@ -11499,9 +12810,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 100] %%%
                         \once \override Accidental.color = #red
@@ -11509,9 +12821,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 101] %%%
                         \once \override Accidental.color = #red
@@ -11519,9 +12832,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 102] %%%
                         \once \override Accidental.color = #red
@@ -11529,9 +12843,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 103] %%%
                         \once \override Accidental.color = #red
@@ -11539,9 +12854,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 104] %%%
                         \once \override Accidental.color = #red
@@ -11549,9 +12865,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 105] %%%
                         \once \override Accidental.color = #red
@@ -11579,9 +12896,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef,2. \repeatTie \< \p \startTextSpan
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        \<
+                        \p
+                        \startTextSpan
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 106] %%%
                         \once \override Accidental.color = #red
@@ -11589,9 +12910,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 107] %%%
                         \once \override Accidental.color = #red
@@ -11599,9 +12921,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 108] %%%
                         \once \override Accidental.color = #red
@@ -11609,9 +12932,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 109] %%%
                         \once \override Accidental.color = #red
@@ -11619,10 +12943,13 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie \ff \stopTextSpan
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
+                        ef,2.
+                        \repeatTie
+                        \ff
+                        \stopTextSpan
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     "molto pont. + vib. molto"
@@ -11634,9 +12961,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 111] %%%
                         \once \override Accidental.color = #red
@@ -11644,9 +12972,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 112] %%%
                         \once \override Accidental.color = #red
@@ -11654,9 +12983,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 113] %%%
                         \once \override Accidental.color = #red
@@ -11664,9 +12994,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 114] %%%
                         \once \override Accidental.color = #red
@@ -11674,9 +13005,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 115] %%%
                         \once \override Accidental.color = #red
@@ -11684,9 +13016,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 116] %%%
                         \once \override Accidental.color = #red
@@ -11694,9 +13027,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 117] %%%
                         \once \override Accidental.color = #red
@@ -11704,9 +13038,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 118] %%%
                         \once \override Accidental.color = #red
@@ -11714,9 +13049,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 119] %%%
                         \once \override Accidental.color = #red
@@ -11744,9 +13080,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef,2 \repeatTie \> \ff \startTextSpan
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        \>
+                        \ff
+                        \startTextSpan
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 120] %%%
                         \once \override Accidental.color = #red
@@ -11754,9 +13094,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 121] %%%
                         \once \override Accidental.color = #red
@@ -11764,9 +13105,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 122] %%%
                         \once \override Accidental.color = #red
@@ -11774,9 +13116,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 123] %%%
                         \once \override Accidental.color = #red
@@ -11804,9 +13147,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef,1 \repeatTie \p \stopTextSpan \startTextSpan \startTextSpan
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        \p
+                        \stopTextSpan
+                        \startTextSpan
+                        \startTextSpan
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 124] %%%
                         \once \override Accidental.color = #red
@@ -11814,9 +13162,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 125] %%%
                         \once \override Accidental.color = #red
@@ -11824,9 +13173,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 126] %%%
                         \once \override Accidental.color = #red
@@ -11834,9 +13184,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 127] %%%
                         \once \override Accidental.color = #red
@@ -11844,10 +13195,12 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie \stopTextSpan
-                            - \tweak color #red
-                            ^ \markup { @ }
-                            ^ \markup {
+                        ef,2.
+                        \repeatTie
+                        \stopTextSpan
+                        - \tweak color #red
+                        ^ \markup { @ }
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     "(tasto+) non vib."
@@ -11859,9 +13212,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 129] %%%
                         \once \override Accidental.color = #red
@@ -11869,9 +13223,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 130] %%%
                         \once \override Accidental.color = #red
@@ -11879,9 +13234,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2. \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2.
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 131] %%%
                         \once \override Accidental.color = #red
@@ -11889,9 +13245,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,1 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,1
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         
                         %%% CelloMusicVoice [measure 132] %%%
                         \once \override Accidental.color = #red
@@ -11899,9 +13256,10 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        ef,2 \repeatTie
-                            - \tweak color #red
-                            ^ \markup { @ }
+                        ef,2
+                        \repeatTie
+                        - \tweak color #red
+                        ^ \markup { @ }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 27/28 {
                             
@@ -11931,31 +13289,36 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            ef,\longa.. \glissando \< \p \startTextSpan
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            \column
-                                                                {
-                                                                    "glissando lentissimo"
-                                                                    "do not reattack note heads"
-                                                                }
-                                                }
-                                            \line
-                                                {
-                                                    @
-                                                }
-                                        }
+                            ef,\longa..
+                            \glissando
+                            \<
+                            \p
+                            \startTextSpan
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \column
+                                                            {
+                                                                "glissando lentissimo"
+                                                                "do not reattack note heads"
+                                                            }
+                                            }
+                                        \line
+                                            {
+                                                @
+                                            }
                                     }
+                                }
                         }
                         {
                             
                             %%% CelloMusicVoice [measure 141] %%%
-                            ff,\breve. \glissando
+                            ff,\breve.
+                            \glissando
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 25/28 {
@@ -11982,13 +13345,21 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            d,\longa.. \ff \stopTextSpan \glissando \> \ff \startTextSpan \startTextSpan
+                            d,\longa..
+                            \ff
+                            \stopTextSpan
+                            \glissando
+                            \>
+                            \ff
+                            \startTextSpan
+                            \startTextSpan
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/16 {
                             
                             %%% CelloMusicVoice [measure 153] %%%
-                            cs,\breve.... \glissando
+                            cs,\breve....
+                            \glissando
                             
                             bs,,8
                         }
@@ -12005,31 +13376,35 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \clef "percussion"
-                            d'8 -\staccato \mf \stopTextSpan [
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            \override
-                                                                #'(box-padding . 0.5)
-                                                                \box
-                                                                    \column
-                                                                        {
-                                                                            "col legno battuto:"
-                                                                            "as bright and pointlike as possible;"
-                                                                            "(mute string with left hand)"
-                                                                        }
-                                                }
-                                            \line
-                                                {
-                                                    @
-                                                }
-                                        }
+                            d'8
+                            -\staccato
+                            \mf
+                            \stopTextSpan
+                            [
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                \column
+                                                                    {
+                                                                        "col legno battuto:"
+                                                                        "as bright and pointlike as possible;"
+                                                                        "(mute string with left hand)"
+                                                                    }
+                                            }
+                                        \line
+                                            {
+                                                @
+                                            }
                                     }
-                                ^ \markup {
+                                }
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tasto poss."
@@ -12040,189 +13415,211 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/14 {
@@ -12233,252 +13630,282 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
@@ -12489,198 +13916,222 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         {
                             
@@ -12690,54 +14141,61 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             %%% CelloMusicVoice [measure 167] %%%
                             \once \override Accidental.color = #red
@@ -12745,36 +14203,40 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             %%% CelloMusicVoice [measure 168] %%%
                             \once \override Accidental.color = #red
@@ -12782,54 +14244,61 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 11/13 {
@@ -12840,234 +14309,264 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato \> \mf [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            \>
+                            \mf
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/8 {
@@ -13078,144 +14577,162 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            d'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            d'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato ]
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 7/10 {
@@ -13226,171 +14743,191 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato [
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            [
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            b8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            b8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            c'8 -\staccato
-                                - \tweak color #red
-                                ^ \markup { @ }
+                            c'8
+                            -\staccato
+                            - \tweak color #red
+                            ^ \markup { @ }
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -13398,33 +14935,36 @@
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
                             \once \override TextScript.extra-offset = #'(-12 . -4)
-                            c'8 -\staccato \ppp ]
-                                - \tweak color #red
-                                ^ \markup { @ }
-                                _ \markup {
-                                    \whiteout
-                                        \upright
-                                            \with-color
-                                                #black
-                                                \right-column
-                                                    {
-                                                        \line
-                                                            {
-                                                                "Madison, WI."
-                                                            }
-                                                        \line
-                                                            {
-                                                                April
-                                                                \hspace
-                                                                    #0.75
-                                                                –
-                                                                \hspace
-                                                                    #0.75
-                                                                May
-                                                                2016.
-                                                            }
-                                                    }
-                                    }
+                            c'8
+                            -\staccato
+                            \ppp
+                            ]
+                            - \tweak color #red
+                            ^ \markup { @ }
+                            _ \markup {
+                                \whiteout
+                                    \upright
+                                        \with-color
+                                            #black
+                                            \right-column
+                                                {
+                                                    \line
+                                                        {
+                                                            "Madison, WI."
+                                                        }
+                                                    \line
+                                                        {
+                                                            April
+                                                            \hspace
+                                                                #0.75
+                                                            –
+                                                            \hspace
+                                                                #0.75
+                                                            May
+                                                            2016.
+                                                        }
+                                                }
+                                }
                             \bar "|."
                             
                         }

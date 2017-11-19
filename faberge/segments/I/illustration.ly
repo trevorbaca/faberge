@@ -21,14 +21,14 @@
                 \once \override GlobalContext.TimeSignature.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
                 s1 * 1
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.1]
-                        }
-                    ^ \markup {
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.1]
+                    }
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -56,13 +56,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.2]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.2]
+                    }
                 
                 %%% GlobalSkips [measure 621] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -75,13 +75,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.3]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.3]
+                    }
                 
                 %%% GlobalSkips [measure 623] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -94,13 +94,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.4]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.4]
+                    }
                 
                 %%% GlobalSkips [measure 625] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -113,13 +113,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.5]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.5]
+                    }
                 
                 %%% GlobalSkips [measure 627] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -132,13 +132,13 @@
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.6]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.6]
+                    }
                 
                 %%% GlobalSkips [measure 629] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -151,13 +151,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.7]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.7]
+                    }
                 
                 %%% GlobalSkips [measure 631] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -170,13 +170,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.8]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.8]
+                    }
                 
                 %%% GlobalSkips [measure 633] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -189,13 +189,13 @@
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.9]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.9]
+                    }
                 
                 %%% GlobalSkips [measure 635] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -208,13 +208,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.10]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.10]
+                    }
                 
                 %%% GlobalSkips [measure 637] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -227,13 +227,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.11]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.11]
+                    }
                 
                 %%% GlobalSkips [measure 639] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -246,13 +246,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                    - \markup {
-                        \fontsize
-                            #-3
-                            \with-color
-                                #blue
-                                [I.12]
-                        }
+                - \markup {
+                    \fontsize
+                        #-3
+                        \with-color
+                            #blue
+                            [I.12]
+                    }
                 
                 %%% GlobalSkips [measure 641] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -303,7 +303,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 620] %%%
                         \once \override Beam.color = #blue
@@ -311,7 +312,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 621] %%%
                         \once \override Beam.color = #blue
@@ -319,7 +321,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2 \repeatTie
+                        c''2
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 622] %%%
                         \once \override Beam.color = #blue
@@ -327,7 +330,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 623] %%%
                         \once \override Beam.color = #blue
@@ -335,7 +339,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 624] %%%
                         \once \override Beam.color = #blue
@@ -343,7 +348,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 625] %%%
                         \once \override Beam.color = #blue
@@ -351,7 +357,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 626] %%%
                         \once \override Beam.color = #blue
@@ -367,7 +374,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2 \repeatTie
+                        c''2
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 628] %%%
                         \once \override Beam.color = #blue
@@ -375,7 +383,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2 \repeatTie
+                        c''2
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 629] %%%
                         \once \override Beam.color = #blue
@@ -383,7 +392,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 630] %%%
                         \once \override Beam.color = #blue
@@ -391,7 +401,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 631] %%%
                         \once \override Beam.color = #blue
@@ -399,7 +410,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2 \repeatTie
+                        c''2
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 632] %%%
                         \once \override Beam.color = #blue
@@ -407,7 +419,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 633] %%%
                         \once \override Beam.color = #blue
@@ -415,7 +428,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 634] %%%
                         \once \override Beam.color = #blue
@@ -431,7 +445,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 636] %%%
                         \once \override Beam.color = #blue
@@ -439,7 +454,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 637] %%%
                         \once \override Beam.color = #blue
@@ -447,7 +463,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 638] %%%
                         \once \override Beam.color = #blue
@@ -455,7 +472,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 639] %%%
                         \once \override Beam.color = #blue
@@ -463,7 +481,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2. \repeatTie
+                        c''2.
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 640] %%%
                         \once \override Beam.color = #blue
@@ -471,7 +490,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''1 \repeatTie
+                        c''1
+                        \repeatTie
                         
                         %%% FluteMusicVoice [measure 641] %%%
                         \once \override Beam.color = #blue
@@ -479,7 +499,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c''2 \repeatTie
+                        c''2
+                        \repeatTie
                         \bar "|"
                         
                     }
@@ -520,7 +541,8 @@
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        g'1 \fff
+                        g'1
+                        \fff
                         
                         %%% EnglishHornMusicVoice [measure 619] %%%
                         \once \override Beam.color = #blue
@@ -528,7 +550,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 620] %%%
                         \once \override Beam.color = #blue
@@ -536,7 +559,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 621] %%%
                         \once \override Beam.color = #blue
@@ -544,7 +568,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2 \repeatTie
+                        g'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 622] %%%
                         \once \override Beam.color = #blue
@@ -552,7 +577,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 623] %%%
                         \once \override Beam.color = #blue
@@ -560,7 +586,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 624] %%%
                         \once \override Beam.color = #blue
@@ -568,7 +595,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 625] %%%
                         \once \override Beam.color = #blue
@@ -576,7 +604,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 626] %%%
                         \once \override Beam.color = #blue
@@ -592,7 +621,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2 \repeatTie
+                        g'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 628] %%%
                         \once \override Beam.color = #blue
@@ -600,7 +630,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2 \repeatTie
+                        g'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 629] %%%
                         \once \override Beam.color = #blue
@@ -608,7 +639,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 630] %%%
                         \once \override Beam.color = #blue
@@ -616,7 +648,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 631] %%%
                         \once \override Beam.color = #blue
@@ -624,7 +657,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2 \repeatTie
+                        g'2
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 632] %%%
                         \once \override Beam.color = #blue
@@ -632,7 +666,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 633] %%%
                         \once \override Beam.color = #blue
@@ -640,7 +675,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 634] %%%
                         \once \override Beam.color = #blue
@@ -656,7 +692,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 636] %%%
                         \once \override Beam.color = #blue
@@ -664,7 +701,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 637] %%%
                         \once \override Beam.color = #blue
@@ -672,7 +710,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 638] %%%
                         \once \override Beam.color = #blue
@@ -680,7 +719,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 639] %%%
                         \once \override Beam.color = #blue
@@ -688,7 +728,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2. \repeatTie
+                        g'2.
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 640] %%%
                         \once \override Beam.color = #blue
@@ -696,7 +737,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'1 \repeatTie
+                        g'1
+                        \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 641] %%%
                         \once \override Beam.color = #blue
@@ -704,7 +746,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        g'2 \repeatTie
+                        g'2
+                        \repeatTie
                         \bar "|"
                         
                     }
@@ -748,7 +791,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 620] %%%
                         \once \override Beam.color = #blue
@@ -756,7 +800,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 621] %%%
                         \once \override Beam.color = #blue
@@ -764,7 +809,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2 \repeatTie
+                        d''2
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 622] %%%
                         \once \override Beam.color = #blue
@@ -772,7 +818,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 623] %%%
                         \once \override Beam.color = #blue
@@ -780,7 +827,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 624] %%%
                         \once \override Beam.color = #blue
@@ -788,7 +836,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 625] %%%
                         \once \override Beam.color = #blue
@@ -796,7 +845,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 626] %%%
                         \once \override Beam.color = #blue
@@ -812,7 +862,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2 \repeatTie
+                        d''2
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 628] %%%
                         \once \override Beam.color = #blue
@@ -820,7 +871,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2 \repeatTie
+                        d''2
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 629] %%%
                         \once \override Beam.color = #blue
@@ -828,7 +880,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 630] %%%
                         \once \override Beam.color = #blue
@@ -836,7 +889,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 631] %%%
                         \once \override Beam.color = #blue
@@ -844,7 +898,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2 \repeatTie
+                        d''2
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 632] %%%
                         \once \override Beam.color = #blue
@@ -852,7 +907,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 633] %%%
                         \once \override Beam.color = #blue
@@ -860,7 +916,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 634] %%%
                         \once \override Beam.color = #blue
@@ -876,7 +933,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 636] %%%
                         \once \override Beam.color = #blue
@@ -884,7 +942,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 637] %%%
                         \once \override Beam.color = #blue
@@ -892,7 +951,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 638] %%%
                         \once \override Beam.color = #blue
@@ -900,7 +960,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 639] %%%
                         \once \override Beam.color = #blue
@@ -908,7 +969,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2. \repeatTie
+                        d''2.
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 640] %%%
                         \once \override Beam.color = #blue
@@ -916,7 +978,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''1 \repeatTie
+                        d''1
+                        \repeatTie
                         
                         %%% ClarinetMusicVoice [measure 641] %%%
                         \once \override Beam.color = #blue
@@ -924,7 +987,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        d''2 \repeatTie
+                        d''2
+                        \repeatTie
                         \bar "|"
                         
                     }
@@ -956,12 +1020,12 @@
                             \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'1
-                                ^ \markup {
-                                    \override
-                                        #'(box-padding . 0.75)
-                                        \box
-                                            "to piano"
-                                    }
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to piano"
+                                }
                             
                             %%% PianoRHMusicVoice [measure 619] %%%
                             \once \override Beam.color = #blue
@@ -969,7 +1033,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 620] %%%
                             \once \override Beam.color = #blue
@@ -977,7 +1042,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 621] %%%
                             \once \override Beam.color = #blue
@@ -985,7 +1051,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 622] %%%
                             \once \override Beam.color = #blue
@@ -993,7 +1060,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 623] %%%
                             \once \override Beam.color = #blue
@@ -1001,7 +1069,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 624] %%%
                             \once \override Beam.color = #blue
@@ -1009,7 +1078,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 625] %%%
                             \once \override Beam.color = #blue
@@ -1017,7 +1087,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 626] %%%
                             \once \override Beam.color = #blue
@@ -1033,7 +1104,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 628] %%%
                             \once \override Beam.color = #blue
@@ -1041,7 +1113,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 629] %%%
                             \once \override Beam.color = #blue
@@ -1049,7 +1122,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 630] %%%
                             \once \override Beam.color = #blue
@@ -1057,7 +1131,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 631] %%%
                             \once \override Beam.color = #blue
@@ -1065,7 +1140,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 632] %%%
                             \once \override Beam.color = #blue
@@ -1073,7 +1149,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 633] %%%
                             \once \override Beam.color = #blue
@@ -1081,7 +1158,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 634] %%%
                             \once \override Beam.color = #blue
@@ -1097,7 +1175,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 636] %%%
                             \once \override Beam.color = #blue
@@ -1105,7 +1184,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 637] %%%
                             \once \override Beam.color = #blue
@@ -1113,7 +1193,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 638] %%%
                             \once \override Beam.color = #blue
@@ -1121,7 +1202,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 639] %%%
                             \once \override Beam.color = #blue
@@ -1129,7 +1211,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 640] %%%
                             \once \override Beam.color = #blue
@@ -1137,7 +1220,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoRHMusicVoice [measure 641] %%%
                             \once \override Beam.color = #blue
@@ -1145,7 +1229,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             \bar "|"
                             
                         }
@@ -1162,7 +1247,8 @@
                             \clef "bass"
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override PianoLHMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            c'1 \sfz
+                            c'1
+                            \sfz
                             
                             %%% PianoLHMusicVoice [measure 619] %%%
                             \once \override Beam.color = #blue
@@ -1170,7 +1256,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 620] %%%
                             \once \override Beam.color = #blue
@@ -1178,7 +1265,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 621] %%%
                             \once \override Beam.color = #blue
@@ -1186,7 +1274,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 622] %%%
                             \once \override Beam.color = #blue
@@ -1194,7 +1283,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 623] %%%
                             \once \override Beam.color = #blue
@@ -1202,7 +1292,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 624] %%%
                             \once \override Beam.color = #blue
@@ -1210,7 +1301,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 625] %%%
                             \once \override Beam.color = #blue
@@ -1218,7 +1310,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 626] %%%
                             \once \override Beam.color = #blue
@@ -1234,7 +1327,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 628] %%%
                             \once \override Beam.color = #blue
@@ -1242,7 +1336,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 629] %%%
                             \once \override Beam.color = #blue
@@ -1250,7 +1345,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 630] %%%
                             \once \override Beam.color = #blue
@@ -1258,7 +1354,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 631] %%%
                             \once \override Beam.color = #blue
@@ -1266,7 +1363,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 632] %%%
                             \once \override Beam.color = #blue
@@ -1274,7 +1372,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 633] %%%
                             \once \override Beam.color = #blue
@@ -1282,7 +1381,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 634] %%%
                             \once \override Beam.color = #blue
@@ -1298,7 +1398,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 636] %%%
                             \once \override Beam.color = #blue
@@ -1306,7 +1407,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 637] %%%
                             \once \override Beam.color = #blue
@@ -1314,7 +1416,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 638] %%%
                             \once \override Beam.color = #blue
@@ -1322,7 +1425,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 639] %%%
                             \once \override Beam.color = #blue
@@ -1330,7 +1434,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2. \repeatTie
+                            c'2.
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 640] %%%
                             \once \override Beam.color = #blue
@@ -1338,7 +1443,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'1 \repeatTie
+                            c'1
+                            \repeatTie
                             
                             %%% PianoLHMusicVoice [measure 641] %%%
                             \once \override Beam.color = #blue
@@ -1346,7 +1452,8 @@
                             \once \override Flag.color = #blue
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
-                            c'2 \repeatTie
+                            c'2
+                            \repeatTie
                             \bar "|"
                             
                         }
@@ -1479,7 +1586,8 @@
                         \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'1 \ppp
+                        c'1
+                        \ppp
                         
                         %%% PercussionMusicVoice [measure 619] %%%
                         \once \override Beam.color = #blue
@@ -1487,7 +1595,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 620] %%%
                         \once \override Beam.color = #blue
@@ -1495,7 +1604,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 621] %%%
                         \once \override Beam.color = #blue
@@ -1503,7 +1613,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 622] %%%
                         \once \override Beam.color = #blue
@@ -1511,7 +1622,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 623] %%%
                         \once \override Beam.color = #blue
@@ -1519,7 +1631,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 624] %%%
                         \once \override Beam.color = #blue
@@ -1527,7 +1640,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 625] %%%
                         \once \override Beam.color = #blue
@@ -1535,7 +1649,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 626] %%%
                         \once \override Beam.color = #blue
@@ -1551,7 +1666,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 628] %%%
                         \once \override Beam.color = #blue
@@ -1559,7 +1675,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 629] %%%
                         \once \override Beam.color = #blue
@@ -1567,7 +1684,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 630] %%%
                         \once \override Beam.color = #blue
@@ -1575,7 +1693,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 631] %%%
                         \once \override Beam.color = #blue
@@ -1583,7 +1702,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 632] %%%
                         \once \override Beam.color = #blue
@@ -1591,7 +1711,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 633] %%%
                         \once \override Beam.color = #blue
@@ -1599,7 +1720,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 634] %%%
                         \once \override Beam.color = #blue
@@ -1615,7 +1737,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 636] %%%
                         \once \override Beam.color = #blue
@@ -1623,7 +1746,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 637] %%%
                         \once \override Beam.color = #blue
@@ -1631,7 +1755,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 638] %%%
                         \once \override Beam.color = #blue
@@ -1639,7 +1764,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 639] %%%
                         \once \override Beam.color = #blue
@@ -1647,7 +1773,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 640] %%%
                         \once \override Beam.color = #blue
@@ -1655,7 +1782,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% PercussionMusicVoice [measure 641] %%%
                         \once \override Beam.color = #blue
@@ -1663,7 +1791,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         \bar "|"
                         
                     }
@@ -1698,7 +1827,8 @@
                         \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'1 \ppp
+                        c'1
+                        \ppp
                         
                         %%% ViolinMusicVoice [measure 619] %%%
                         \once \override Beam.color = #blue
@@ -1706,7 +1836,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 620] %%%
                         \once \override Beam.color = #blue
@@ -1714,7 +1845,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 621] %%%
                         \once \override Beam.color = #blue
@@ -1722,7 +1854,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 622] %%%
                         \once \override Beam.color = #blue
@@ -1730,7 +1863,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 623] %%%
                         \once \override Beam.color = #blue
@@ -1738,7 +1872,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 624] %%%
                         \once \override Beam.color = #blue
@@ -1746,7 +1881,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 625] %%%
                         \once \override Beam.color = #blue
@@ -1754,7 +1890,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 626] %%%
                         \once \override Beam.color = #blue
@@ -1770,7 +1907,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 628] %%%
                         \once \override Beam.color = #blue
@@ -1778,7 +1916,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 629] %%%
                         \once \override Beam.color = #blue
@@ -1786,7 +1925,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 630] %%%
                         \once \override Beam.color = #blue
@@ -1794,7 +1934,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 631] %%%
                         \once \override Beam.color = #blue
@@ -1802,7 +1943,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 632] %%%
                         \once \override Beam.color = #blue
@@ -1810,7 +1952,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 633] %%%
                         \once \override Beam.color = #blue
@@ -1818,7 +1961,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 634] %%%
                         \once \override Beam.color = #blue
@@ -1834,7 +1978,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 636] %%%
                         \once \override Beam.color = #blue
@@ -1842,7 +1987,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 637] %%%
                         \once \override Beam.color = #blue
@@ -1850,7 +1996,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 638] %%%
                         \once \override Beam.color = #blue
@@ -1858,7 +2005,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 639] %%%
                         \once \override Beam.color = #blue
@@ -1866,7 +2014,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 640] %%%
                         \once \override Beam.color = #blue
@@ -1874,7 +2023,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinMusicVoice [measure 641] %%%
                         \once \override Beam.color = #blue
@@ -1882,7 +2032,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         \bar "|"
                         
                     }
@@ -1915,7 +2066,8 @@
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'1 \pp
+                        c'1
+                        \pp
                         
                         %%% ViolaMusicVoice [measure 619] %%%
                         \once \override Beam.color = #blue
@@ -1923,7 +2075,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 620] %%%
                         \once \override Beam.color = #blue
@@ -1931,7 +2084,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 621] %%%
                         \once \override Beam.color = #blue
@@ -1939,7 +2093,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 622] %%%
                         \once \override Beam.color = #blue
@@ -1947,7 +2102,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 623] %%%
                         \once \override Beam.color = #blue
@@ -1955,7 +2111,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 624] %%%
                         \once \override Beam.color = #blue
@@ -1963,7 +2120,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 625] %%%
                         \once \override Beam.color = #blue
@@ -1971,7 +2129,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 626] %%%
                         \once \override Beam.color = #blue
@@ -1987,7 +2146,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 628] %%%
                         \once \override Beam.color = #blue
@@ -1995,7 +2155,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 629] %%%
                         \once \override Beam.color = #blue
@@ -2003,7 +2164,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 630] %%%
                         \once \override Beam.color = #blue
@@ -2011,7 +2173,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 631] %%%
                         \once \override Beam.color = #blue
@@ -2019,7 +2182,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 632] %%%
                         \once \override Beam.color = #blue
@@ -2027,7 +2191,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 633] %%%
                         \once \override Beam.color = #blue
@@ -2035,7 +2200,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 634] %%%
                         \once \override Beam.color = #blue
@@ -2051,7 +2217,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 636] %%%
                         \once \override Beam.color = #blue
@@ -2059,7 +2226,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 637] %%%
                         \once \override Beam.color = #blue
@@ -2067,7 +2235,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 638] %%%
                         \once \override Beam.color = #blue
@@ -2075,7 +2244,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 639] %%%
                         \once \override Beam.color = #blue
@@ -2083,7 +2253,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 640] %%%
                         \once \override Beam.color = #blue
@@ -2091,7 +2262,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 641] %%%
                         \once \override Beam.color = #blue
@@ -2099,7 +2271,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         \bar "|"
                         
                     }
@@ -2132,7 +2305,8 @@
                         \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'1 \mf
+                        c'1
+                        \mf
                         
                         %%% CelloMusicVoice [measure 619] %%%
                         \once \override Beam.color = #blue
@@ -2140,7 +2314,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 620] %%%
                         \once \override Beam.color = #blue
@@ -2148,7 +2323,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 621] %%%
                         \once \override Beam.color = #blue
@@ -2156,7 +2332,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 622] %%%
                         \once \override Beam.color = #blue
@@ -2164,7 +2341,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 623] %%%
                         \once \override Beam.color = #blue
@@ -2172,7 +2350,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 624] %%%
                         \once \override Beam.color = #blue
@@ -2180,7 +2359,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 625] %%%
                         \once \override Beam.color = #blue
@@ -2188,7 +2368,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 626] %%%
                         \once \override Beam.color = #blue
@@ -2204,7 +2385,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 628] %%%
                         \once \override Beam.color = #blue
@@ -2212,7 +2394,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 629] %%%
                         \once \override Beam.color = #blue
@@ -2220,7 +2403,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 630] %%%
                         \once \override Beam.color = #blue
@@ -2228,7 +2412,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 631] %%%
                         \once \override Beam.color = #blue
@@ -2236,7 +2421,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 632] %%%
                         \once \override Beam.color = #blue
@@ -2244,7 +2430,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 633] %%%
                         \once \override Beam.color = #blue
@@ -2252,7 +2439,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 634] %%%
                         \once \override Beam.color = #blue
@@ -2268,7 +2456,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 636] %%%
                         \once \override Beam.color = #blue
@@ -2276,7 +2465,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 637] %%%
                         \once \override Beam.color = #blue
@@ -2284,7 +2474,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 638] %%%
                         \once \override Beam.color = #blue
@@ -2292,7 +2483,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 639] %%%
                         \once \override Beam.color = #blue
@@ -2300,7 +2492,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 640] %%%
                         \once \override Beam.color = #blue
@@ -2308,7 +2501,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 641] %%%
                         \once \override Beam.color = #blue
@@ -2316,7 +2510,8 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         \bar "|"
                         
                     }
