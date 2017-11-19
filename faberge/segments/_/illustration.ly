@@ -21,10 +21,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 3] %%%
                 R1 * 1
@@ -34,10 +34,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
             }
             \context GlobalSkips = "GlobalSkips" {
@@ -46,7 +46,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
-                s1 * 3/4 ^ \markup {
+                s1 * 3/4
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -179,15 +180,16 @@
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "percussion"
-                            c'16 * 187/32 [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    ratchet
-                                    }
+                            c'16 * 187/32
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                ratchet
+                                }
                             
                             c'16 * 139/32
                             
@@ -198,7 +200,8 @@
                             c'16 * 71/64
                             
                             \revert Staff.Stem.stemlet-length
-                            c'16 * 63/64 ]
+                            c'16 * 63/64
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -355,46 +358,52 @@
                                 Vn.
                             }
                         \clef "treble"
-                        e'16 [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        spazzolato
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        f
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        e'16
+                        [
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    spazzolato
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    f
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         e'16
                         
-                        e'16 ]
+                        e'16
+                        ]
                         
                         r16
                         
                         r16
                         
-                        e'16 [
+                        e'16
+                        [
                         
-                        e'16 ]
+                        e'16
+                        ]
                         
                         r16
                         
                         r16
                         
-                        e'16 [
+                        e'16
+                        [
                         
                         e'16
                         
-                        e'16 ]
+                        e'16
+                        ]
                         
                         %%% ViolinMusicVoice [measure 2] %%%
                         R1 * 3/2
@@ -422,23 +431,23 @@
                             r4
                             
                             e'8
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            spazzolato
-                                    }
-                                _ \markup {
-                                    \larger
-                                        \italic
-                                            “
-                                    \dynamic
-                                        \override
-                                            #'(font-name . #f)
-                                            f
-                                    \larger
-                                        \italic
-                                            ”
-                                    }
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        spazzolato
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        f
+                                \larger
+                                    \italic
+                                        ”
+                                }
                         }
                         \times 2/3 {
                             
@@ -448,11 +457,13 @@
                         }
                         \times 2/3 {
                             
-                            e'8 [
+                            e'8
+                            [
                             
                             e'8
                             
-                            e'8 ]
+                            e'8
+                            ]
                         }
                         
                         %%% ViolaMusicVoice [measure 2] %%%
