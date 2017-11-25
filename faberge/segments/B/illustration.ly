@@ -1654,7 +1654,28 @@
                         r2.
                         
                         %%% FluteMusicVoice [measure 183] %%%
-                        R1 * 25/4
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 184] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 185] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 186] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 187] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 188] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 189] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 190] %%%
+                        R1 * 3/4
                         {
                             
                             %%% FluteMusicVoice [measure 191] %%%
@@ -1701,7 +1722,247 @@
                         }
                         
                         %%% FluteMusicVoice [measure 193] %%%
-                        R1 * 225/4
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 194] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 195] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 196] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 197] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 198] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 199] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 200] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 201] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 202] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 203] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 204] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 205] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 206] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 207] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 208] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 209] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 210] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 211] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 212] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 213] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 214] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 215] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 216] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 217] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 218] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 219] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 220] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 221] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 222] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 223] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 224] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 225] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 226] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 227] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 228] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 229] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 230] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 231] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 232] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 233] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 234] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 235] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 236] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 237] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 238] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 239] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 240] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 241] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 242] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 243] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 244] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 245] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 246] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 247] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 248] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 249] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 250] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 251] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 252] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 253] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 254] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 255] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 256] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 257] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 258] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 259] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 260] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 261] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 262] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 263] %%%
+                        R1 * 1/4
+                        
+                        %%% FluteMusicVoice [measure 264] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 265] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 266] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 267] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 268] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 269] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 270] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 271] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 272] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 273] %%%
+                        R1 * 3/4
                         \bar "|"
                         
                     }
@@ -2082,7 +2343,64 @@
                         }
                         
                         %%% EnglishHornMusicVoice [measure 183] %%%
-                        R1 * 15
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 184] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 185] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 186] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 187] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 188] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 189] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 190] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 191] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 192] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 193] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 194] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 195] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 196] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 197] %%%
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 198] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 199] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 200] %%%
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 201] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 202] %%%
+                        R1 * 1
                         
                         %%% EnglishHornMusicVoice [measure 203] %%%
                         \once \override Beam.color = #blue
@@ -2301,7 +2619,13 @@
                         r1
                         
                         %%% EnglishHornMusicVoice [measure 228] %%%
-                        R1 * 3/2
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 229] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 230] %%%
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -2622,7 +2946,46 @@
                         \revert TupletNumber.text
                         
                         %%% EnglishHornMusicVoice [measure 236] %%%
-                        R1 * 35/4
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 237] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 238] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 239] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 240] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 241] %%%
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 242] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 243] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 244] %%%
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 245] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 246] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 247] %%%
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 248] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 249] %%%
+                        R1 * 1/2
                         
                         %%% EnglishHornMusicVoice [measure 250] %%%
                         r2
@@ -2644,7 +3007,22 @@
                         \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 252] %%%
-                        R1 * 13/4
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 253] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 254] %%%
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 255] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 256] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 257] %%%
+                        R1 * 1/4
                         
                         %%% EnglishHornMusicVoice [measure 258] %%%
                         r2
@@ -2688,7 +3066,25 @@
                         \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 263] %%%
-                        R1 * 19/4
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 264] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 265] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 266] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 267] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 268] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 269] %%%
+                        R1 * 1
                         
                         %%% EnglishHornMusicVoice [measure 270] %%%
                         r2
@@ -2792,7 +3188,28 @@
                         r2.
                         
                         %%% ClarinetMusicVoice [measure 183] %%%
-                        R1 * 25/4
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 184] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 185] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 186] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 187] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 188] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 189] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 190] %%%
+                        R1 * 3/4
                         {
                             
                             %%% ClarinetMusicVoice [measure 191] %%%
@@ -2839,7 +3256,109 @@
                         }
                         
                         %%% ClarinetMusicVoice [measure 193] %%%
-                        R1 * 105/4
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 194] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 195] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 196] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 197] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 198] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 199] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 200] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 201] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 202] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 203] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 204] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 205] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 206] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 207] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 208] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 209] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 210] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 211] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 212] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 213] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 214] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 215] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 216] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 217] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 218] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 219] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 220] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 221] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 222] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 223] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 224] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 225] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 226] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 227] %%%
+                        R1 * 1
                         {
                             
                             %%% ClarinetMusicVoice [measure 228] %%%
@@ -2877,7 +3396,40 @@
                         }
                         
                         %%% ClarinetMusicVoice [measure 230] %%%
-                        R1 * 27/4
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 231] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 232] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 233] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 234] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 235] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 236] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 237] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 238] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 239] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 240] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 241] %%%
+                        R1 * 1/4
                         {
                             
                             %%% ClarinetMusicVoice [measure 242] %%%
@@ -2926,7 +3478,94 @@
                         }
                         
                         %%% ClarinetMusicVoice [measure 244] %%%
-                        R1 * 81/4
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 245] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 246] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 247] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 248] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 249] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 250] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 251] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 252] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 253] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 254] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 255] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 256] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 257] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 258] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 259] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 260] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 261] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 262] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 263] %%%
+                        R1 * 1/4
+                        
+                        %%% ClarinetMusicVoice [measure 264] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 265] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 266] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 267] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 268] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 269] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 270] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 271] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 272] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 273] %%%
+                        R1 * 3/4
                         \bar "|"
                         
                     }
@@ -4249,7 +4888,88 @@
                             }
                             
                             %%% PianoRHMusicVoice [measure 200] %%%
-                            R1 * 85/4
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 201] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 202] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 203] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 204] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 205] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 206] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 207] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 208] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 209] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 210] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 211] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 212] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 213] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 214] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 215] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 216] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 217] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 218] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 219] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 220] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 221] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 222] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 223] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 224] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 225] %%%
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 226] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 227] %%%
+                            R1 * 1
                             \times 2/3 {
                                 
                                 %%% PianoRHMusicVoice [measure 228] %%%
@@ -4346,7 +5066,31 @@
                             }
                             
                             %%% PianoRHMusicVoice [measure 230] %%%
-                            R1 * 21/4
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 231] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 232] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 233] %%%
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 234] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 235] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 236] %%%
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 237] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 238] %%%
+                            R1 * 1
                             \times 2/3 {
                                 
                                 %%% PianoRHMusicVoice [measure 239] %%%
@@ -4568,7 +5312,28 @@
                             }
                             
                             %%% PianoRHMusicVoice [measure 244] %%%
-                            R1 * 23/4
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 245] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 246] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 247] %%%
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 248] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 249] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 250] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 251] %%%
+                            R1 * 1
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/4 {
                                 
@@ -4680,7 +5445,34 @@
                             }
                             
                             %%% PianoRHMusicVoice [measure 254] %%%
-                            R1 * 23/4
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 255] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 256] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 257] %%%
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 258] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 259] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 260] %%%
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 261] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 262] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 263] %%%
+                            R1 * 1/4
                             \times 2/3 {
                                 
                                 %%% PianoRHMusicVoice [measure 264] %%%
@@ -4783,7 +5575,22 @@
                             r2
                             
                             %%% PianoRHMusicVoice [measure 268] %%%
-                            R1 * 19/4
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 269] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 270] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 271] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 272] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 273] %%%
+                            R1 * 3/4
                             \bar "|"
                             
                         }
@@ -5406,8 +6213,23 @@
                         \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 17/4
+                        R1 * 1/2
                         \ppp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% PercussionMusicVoice [measure 178] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 179] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 180] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 181] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 182] %%%
+                        R1 * 3/4
                         
                         %%% PercussionMusicVoice [measure 183] %%%
                         r4
@@ -5476,7 +6298,16 @@
                         r2
                         
                         %%% PercussionMusicVoice [measure 191] %%%
-                        R1 * 7/2
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 192] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 193] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 194] %%%
+                        R1 * 1
                         
                         %%% PercussionMusicVoice [measure 195] %%%
                         \once \override Beam.color = #blue
@@ -5757,7 +6588,37 @@
                         \repeatTie
                         
                         %%% PercussionMusicVoice [measure 228] %%%
-                        R1 * 13/2
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 229] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 230] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 231] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 232] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 233] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 234] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 235] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 236] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 237] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 238] %%%
+                        R1 * 1
                         
                         %%% PercussionMusicVoice [measure 239] %%%
                         \once \override Beam.color = #blue
@@ -5776,7 +6637,37 @@
                         c'2.
                         
                         %%% PercussionMusicVoice [measure 241] %%%
-                        R1 * 31/4
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 242] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 243] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 244] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 245] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 246] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 247] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 248] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 249] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 250] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 251] %%%
+                        R1 * 1
                         
                         %%% PercussionMusicVoice [measure 252] %%%
                         \once \override Beam.color = #blue
@@ -5795,7 +6686,64 @@
                         c'2
                         
                         %%% PercussionMusicVoice [measure 254] %%%
-                        R1 * 53/4
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 255] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 256] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 257] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 258] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 259] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 260] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 261] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 262] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 263] %%%
+                        R1 * 1/4
+                        
+                        %%% PercussionMusicVoice [measure 264] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 265] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 266] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 267] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 268] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 269] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 270] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 271] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 272] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 273] %%%
+                        R1 * 3/4
                         \bar "|"
                         
                     }
@@ -7160,7 +8108,88 @@
                         }
                         
                         %%% ViolinMusicVoice [measure 200] %%%
-                        R1 * 85/4
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 201] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 202] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 203] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 204] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 205] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 206] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 207] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 208] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 209] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 210] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 211] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 212] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 213] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 214] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 215] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 216] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 217] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 218] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 219] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 220] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 221] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 222] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 223] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 224] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 225] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 226] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 227] %%%
+                        R1 * 1
                         \times 2/3 {
                             
                             %%% ViolinMusicVoice [measure 228] %%%
@@ -7368,7 +8397,22 @@
                         r8
                         
                         %%% ViolinMusicVoice [measure 233] %%%
-                        R1 * 15/4
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 234] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 235] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 236] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 237] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 238] %%%
+                        R1 * 1
                         \times 2/3 {
                             
                             %%% ViolinMusicVoice [measure 239] %%%
@@ -7590,7 +8634,28 @@
                         }
                         
                         %%% ViolinMusicVoice [measure 244] %%%
-                        R1 * 23/4
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 245] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 246] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 247] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 248] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 249] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 250] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 251] %%%
+                        R1 * 1
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
@@ -7702,7 +8767,34 @@
                         }
                         
                         %%% ViolinMusicVoice [measure 254] %%%
-                        R1 * 23/4
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 255] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 256] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 257] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 258] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 259] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 260] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 261] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 262] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 263] %%%
+                        R1 * 1/4
                         \times 2/3 {
                             
                             %%% ViolinMusicVoice [measure 264] %%%
@@ -7799,7 +8891,10 @@
                         }
                         
                         %%% ViolinMusicVoice [measure 266] %%%
-                        R1 * 3/2
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 267] %%%
+                        R1 * 1/2
                         
                         %%% ViolinMusicVoice [measure 268] %%%
                         \once \override Beam.color = #blue
@@ -8054,7 +9149,10 @@
                         r8
                         
                         %%% ViolinMusicVoice [measure 272] %%%
-                        R1 * 7/4
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 273] %%%
+                        R1 * 3/4
                         \bar "|"
                         
                     }
@@ -9417,7 +10515,88 @@
                         }
                         
                         %%% ViolaMusicVoice [measure 200] %%%
-                        R1 * 85/4
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 201] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 202] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 203] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 204] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 205] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 206] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 207] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 208] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 209] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 210] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 211] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 212] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 213] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 214] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 215] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 216] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 217] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 218] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 219] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 220] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 221] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 222] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 223] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 224] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 225] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 226] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 227] %%%
+                        R1 * 1
                         \times 2/3 {
                             
                             %%% ViolaMusicVoice [measure 228] %%%
@@ -10178,7 +11357,13 @@
                         r2
                         
                         %%% ViolaMusicVoice [measure 263] %%%
-                        R1 * 3/2
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 264] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 265] %%%
+                        R1 * 3/4
                         
                         %%% ViolaMusicVoice [measure 266] %%%
                         r16
@@ -11264,7 +12449,10 @@
                         }
                         
                         %%% CelloMusicVoice [measure 193] %%%
-                        R1 * 2
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 194] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 195] %%%
                         \once \override Beam.color = #blue
@@ -11508,7 +12696,19 @@
                         r4
                         
                         %%% CelloMusicVoice [measure 223] %%%
-                        R1 * 7/2
+                        R1 * 1/2
+                        
+                        %%% CelloMusicVoice [measure 224] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 225] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 226] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 227] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 228] %%%
                         \once \override Beam.color = #blue
@@ -11527,7 +12727,31 @@
                         c'2.
                         
                         %%% CelloMusicVoice [measure 230] %%%
-                        R1 * 21/4
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 231] %%%
+                        R1 * 1/2
+                        
+                        %%% CelloMusicVoice [measure 232] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 233] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 234] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 235] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 236] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 237] %%%
+                        R1 * 1/2
+                        
+                        %%% CelloMusicVoice [measure 238] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 239] %%%
                         \once \override Beam.color = #blue
@@ -11546,7 +12770,37 @@
                         c'2.
                         
                         %%% CelloMusicVoice [measure 241] %%%
-                        R1 * 31/4
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 242] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 243] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 244] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 245] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 246] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 247] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 248] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 249] %%%
+                        R1 * 1/2
+                        
+                        %%% CelloMusicVoice [measure 250] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 251] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 252] %%%
                         \once \override Beam.color = #blue
@@ -11565,7 +12819,34 @@
                         c'2
                         
                         %%% CelloMusicVoice [measure 254] %%%
-                        R1 * 23/4
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 255] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 256] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 257] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 258] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 259] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 260] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 261] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 262] %%%
+                        R1 * 1/2
+                        
+                        %%% CelloMusicVoice [measure 263] %%%
+                        R1 * 1/4
                         \times 2/3 {
                             
                             %%% CelloMusicVoice [measure 264] %%%
@@ -11662,7 +12943,10 @@
                         }
                         
                         %%% CelloMusicVoice [measure 266] %%%
-                        R1 * 3/2
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 267] %%%
+                        R1 * 1/2
                         
                         %%% CelloMusicVoice [measure 268] %%%
                         \once \override Beam.color = #blue
@@ -11917,7 +13201,10 @@
                         r8
                         
                         %%% CelloMusicVoice [measure 272] %%%
-                        R1 * 7/4
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 273] %%%
+                        R1 * 3/4
                         \bar "|"
                         
                     }

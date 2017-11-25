@@ -1104,7 +1104,37 @@
                         }
                         
                         %%% FluteMusicVoice [measure 652] %%%
-                        R1 * 33/4
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 653] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 654] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 655] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 656] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 657] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 658] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 659] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 660] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 661] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 662] %%%
+                        R1 * 1/4
                         
                         %%% FluteMusicVoice [measure 663] %%%
                         \once \override Beam.color = #blue
@@ -1175,8 +1205,29 @@
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 23/4
+                        R1 * 1/2
                         \fff % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% EnglishHornMusicVoice [measure 643] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 644] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 645] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 646] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 647] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 648] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 649] %%%
+                        R1 * 1/2
                         
                         %%% EnglishHornMusicVoice [measure 650] %%%
                         \once \override Beam.color = #blue
@@ -2394,7 +2445,25 @@
                         }
                         
                         %%% ClarinetMusicVoice [measure 656] %%%
-                        R1 * 11/2
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 657] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 658] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 659] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 660] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 661] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 662] %%%
+                        R1 * 1/4
                         
                         %%% ClarinetMusicVoice [measure 663] %%%
                         \once \override Beam.color = #blue
@@ -2455,13 +2524,22 @@
                             \clef "treble" % SEGMENT:REMINDER-CLEF
                             \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                             \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
-                            R1 * 3
+                            R1 * 1/2
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.75)
                                     \box
                                         "to piano"
                                 }
+                            
+                            %%% PianoRHMusicVoice [measure 643] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 644] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 645] %%%
+                            R1 * 1
                             \times 4/5 {
                                 
                                 %%% PianoRHMusicVoice [measure 646] %%%
@@ -3676,7 +3754,19 @@
                             }
                             
                             %%% PianoRHMusicVoice [measure 660] %%%
-                            R1 * 7/2
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 661] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 662] %%%
+                            R1 * 1/4
+                            
+                            %%% PianoRHMusicVoice [measure 663] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 664] %%%
+                            R1 * 1
                             
                             %%% PianoRHMusicVoice [measure 665] %%%
                             \once \override Beam.color = #blue
@@ -3938,7 +4028,49 @@
                         c'2.
                         
                         %%% PercussionMusicVoice [measure 648] %%%
-                        R1 * 11
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 649] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 650] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 651] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 652] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 653] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 654] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 655] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 656] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 657] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 658] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 659] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 660] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 661] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 662] %%%
+                        R1 * 1/4
                         
                         %%% PercussionMusicVoice [measure 663] %%%
                         \once \override Beam.color = #blue
@@ -4883,7 +5015,19 @@
                         }
                         
                         %%% ViolinMusicVoice [measure 660] %%%
-                        R1 * 7/2
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 661] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 662] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 663] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinMusicVoice [measure 664] %%%
+                        R1 * 1
                         
                         %%% ViolinMusicVoice [measure 665] %%%
                         \once \override Beam.color = #blue
@@ -5035,7 +5179,37 @@
                         \repeatTie
                         
                         %%% ViolaMusicVoice [measure 654] %%%
-                        R1 * 17/2
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 655] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 656] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 657] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 658] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 659] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 660] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 661] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 662] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 663] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 664] %%%
+                        R1 * 1
                         
                         %%% ViolaMusicVoice [measure 665] %%%
                         \once \override Beam.color = #blue
@@ -5152,7 +5326,43 @@
                         \repeatTie
                         
                         %%% CelloMusicVoice [measure 650] %%%
-                        R1 * 10
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 651] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 652] %%%
+                        R1 * 1/2
+                        
+                        %%% CelloMusicVoice [measure 653] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 654] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 655] %%%
+                        R1 * 1/2
+                        
+                        %%% CelloMusicVoice [measure 656] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 657] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 658] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 659] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 660] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 661] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 662] %%%
+                        R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 663] %%%
                         \once \override Beam.color = #blue

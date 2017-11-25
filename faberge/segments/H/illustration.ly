@@ -1347,7 +1347,13 @@
                         }
                         
                         %%% FluteMusicVoice [measure 586] %%%
-                        R1 * 2
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 587] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 588] %%%
+                        R1 * 1/4
                         
                         %%% FluteMusicVoice [measure 589] %%%
                         \once \override Beam.color = #blue
@@ -1627,7 +1633,16 @@
                         c''4
                         
                         %%% FluteMusicVoice [measure 614] %%%
-                        R1 * 7/2
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 615] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 616] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 617] %%%
+                        R1 * 1
                         \bar "|"
                         
                     }
@@ -1663,8 +1678,38 @@
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 33/4
+                        R1 * 3/4
                         \fff % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% EnglishHornMusicVoice [measure 579] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 580] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 581] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 582] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 583] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 584] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 585] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 586] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 587] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 588] %%%
+                        R1 * 1/4
                         
                         %%% EnglishHornMusicVoice [measure 589] %%%
                         \once \override Beam.color = #blue
@@ -1687,7 +1732,25 @@
                         g'4.
                         
                         %%% EnglishHornMusicVoice [measure 591] %%%
-                        R1 * 7/2
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 592] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 593] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 594] %%%
+                        R1 * 1/4
+                        
+                        %%% EnglishHornMusicVoice [measure 595] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 596] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 597] %%%
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -2163,7 +2226,10 @@
                         \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 616] %%%
-                        R1 * 7/4
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 617] %%%
+                        R1 * 1
                         \bar "|"
                         
                     }
@@ -2892,7 +2958,13 @@
                         }
                         
                         %%% ClarinetMusicVoice [measure 586] %%%
-                        R1 * 2
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 587] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 588] %%%
+                        R1 * 1/4
                         
                         %%% ClarinetMusicVoice [measure 589] %%%
                         \once \override Beam.color = #blue
@@ -3084,7 +3156,16 @@
                         d''2
                         
                         %%% ClarinetMusicVoice [measure 614] %%%
-                        R1 * 7/2
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 615] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 616] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 617] %%%
+                        R1 * 1
                         \bar "|"
                         
                     }
@@ -3262,7 +3343,19 @@
                             c'4
                             
                             %%% PianoRHMusicVoice [measure 584] %%%
-                            R1 * 13/4
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 585] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 586] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 587] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 588] %%%
+                            R1 * 1/4
                             
                             %%% PianoRHMusicVoice [measure 589] %%%
                             \once \override Beam.color = #blue
@@ -3637,7 +3730,16 @@
                             c'4
                             
                             %%% PianoRHMusicVoice [measure 614] %%%
-                            R1 * 7/2
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 615] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 616] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 617] %%%
+                            R1 * 1
                             \bar "|"
                             
                         }
@@ -3983,7 +4085,19 @@
                         c'2.
                         
                         %%% PercussionMusicVoice [measure 584] %%%
-                        R1 * 13/4
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 585] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 586] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 587] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 588] %%%
+                        R1 * 1/4
                         
                         %%% PercussionMusicVoice [measure 589] %%%
                         r2.
@@ -4233,7 +4347,10 @@
                         \repeatTie
                         
                         %%% PercussionMusicVoice [measure 616] %%%
-                        R1 * 7/4
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 617] %%%
+                        R1 * 1
                         \bar "|"
                         
                     }
