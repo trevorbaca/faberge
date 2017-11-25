@@ -18,7 +18,7 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4 % SEGMENT-ONLY
                 \mark #9
-                \bar "" % SEGMENT
+                \bar "" % SEGMENT:EMPTY-BAR
                 \once \override GlobalContext.TimeSignature.color = #(x11-color 'DarkCyan) % SEGMENT-ONLY
                 \newSpacingSection
                 s1 * 1

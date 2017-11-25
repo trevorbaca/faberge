@@ -45,7 +45,7 @@
                 %%% GlobalSkips [measure 1] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
-                \bar "" % SEGMENT
+                \bar "" % SEGMENT:EMPTY-BAR
                 \newSpacingSection
                 s1 * 3/4
                 ^ \markup {
