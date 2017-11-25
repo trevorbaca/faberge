@@ -141,7 +141,10 @@
                                     }
                             }
                         \clef "treble"
-                        R1 * 1
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 2] %%%
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -407,7 +410,13 @@
                         ]
                         
                         %%% ViolinMusicVoice [measure 2] %%%
-                        R1 * 3/2
+                        R1 * 1/4
+                        
+                        %%% ViolinMusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 4] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -468,7 +477,13 @@
                         }
                         
                         %%% ViolaMusicVoice [measure 2] %%%
-                        R1 * 3/2
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 3] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 4] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }

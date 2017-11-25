@@ -324,7 +324,10 @@
                         \clef "treble" % SEGMENT:REMINDER-CLEF
                         \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                         \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
-                        R1 * 7/4
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 302] %%%
+                        R1 * 1
                         \times 4/5 {
                             
                             %%% FluteMusicVoice [measure 303] %%%
@@ -702,7 +705,55 @@
                         }
                         
                         %%% FluteMusicVoice [measure 305] %%%
-                        R1 * 77/4
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 306] %%%
+                        R1 * 3/2
+                        
+                        %%% FluteMusicVoice [measure 307] %%%
+                        R1 * 5/4
+                        
+                        %%% FluteMusicVoice [measure 308] %%%
+                        R1 * 5/4
+                        
+                        %%% FluteMusicVoice [measure 309] %%%
+                        R1 * 5/4
+                        
+                        %%% FluteMusicVoice [measure 310] %%%
+                        R1 * 5/4
+                        
+                        %%% FluteMusicVoice [measure 311] %%%
+                        R1 * 5/4
+                        
+                        %%% FluteMusicVoice [measure 312] %%%
+                        R1 * 5/4
+                        
+                        %%% FluteMusicVoice [measure 313] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 314] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 315] %%%
+                        R1 * 3/2
+                        
+                        %%% FluteMusicVoice [measure 316] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 317] %%%
+                        R1 * 3/2
+                        
+                        %%% FluteMusicVoice [measure 318] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 319] %%%
+                        R1 * 3/2
+                        
+                        %%% FluteMusicVoice [measure 320] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 321] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -738,8 +789,11 @@
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 7/4
+                        R1 * 3/4
                         \fff % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% EnglishHornMusicVoice [measure 302] %%%
+                        R1 * 1
                         \times 4/5 {
                             
                             %%% EnglishHornMusicVoice [measure 303] %%%
@@ -1020,7 +1074,34 @@
                         }
                         
                         %%% EnglishHornMusicVoice [measure 305] %%%
-                        R1 * 47/4
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 306] %%%
+                        R1 * 3/2
+                        
+                        %%% EnglishHornMusicVoice [measure 307] %%%
+                        R1 * 5/4
+                        
+                        %%% EnglishHornMusicVoice [measure 308] %%%
+                        R1 * 5/4
+                        
+                        %%% EnglishHornMusicVoice [measure 309] %%%
+                        R1 * 5/4
+                        
+                        %%% EnglishHornMusicVoice [measure 310] %%%
+                        R1 * 5/4
+                        
+                        %%% EnglishHornMusicVoice [measure 311] %%%
+                        R1 * 5/4
+                        
+                        %%% EnglishHornMusicVoice [measure 312] %%%
+                        R1 * 5/4
+                        
+                        %%% EnglishHornMusicVoice [measure 313] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 314] %%%
+                        R1 * 1
                         
                         %%% EnglishHornMusicVoice [measure 315] %%%
                         \once \override Beam.color = #blue
@@ -1058,7 +1139,13 @@
                         \repeatTie
                         
                         %%% EnglishHornMusicVoice [measure 319] %%%
-                        R1 * 5/2
+                        R1 * 3/2
+                        
+                        %%% EnglishHornMusicVoice [measure 320] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 321] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -1089,7 +1176,10 @@
                         \clef "treble" % SEGMENT:REMINDER-CLEF
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                         \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
-                        R1 * 7/4
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 302] %%%
+                        R1 * 1
                         \times 4/5 {
                             
                             %%% ClarinetMusicVoice [measure 303] %%%
@@ -1467,7 +1557,55 @@
                         }
                         
                         %%% ClarinetMusicVoice [measure 305] %%%
-                        R1 * 77/4
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 306] %%%
+                        R1 * 3/2
+                        
+                        %%% ClarinetMusicVoice [measure 307] %%%
+                        R1 * 5/4
+                        
+                        %%% ClarinetMusicVoice [measure 308] %%%
+                        R1 * 5/4
+                        
+                        %%% ClarinetMusicVoice [measure 309] %%%
+                        R1 * 5/4
+                        
+                        %%% ClarinetMusicVoice [measure 310] %%%
+                        R1 * 5/4
+                        
+                        %%% ClarinetMusicVoice [measure 311] %%%
+                        R1 * 5/4
+                        
+                        %%% ClarinetMusicVoice [measure 312] %%%
+                        R1 * 5/4
+                        
+                        %%% ClarinetMusicVoice [measure 313] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 314] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 315] %%%
+                        R1 * 3/2
+                        
+                        %%% ClarinetMusicVoice [measure 316] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 317] %%%
+                        R1 * 3/2
+                        
+                        %%% ClarinetMusicVoice [measure 318] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 319] %%%
+                        R1 * 3/2
+                        
+                        %%% ClarinetMusicVoice [measure 320] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 321] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -1505,7 +1643,16 @@
                             r1
                             
                             %%% PianoRHMusicVoice [measure 303] %%%
-                            R1 * 23/4
+                            R1 * 3/2
+                            
+                            %%% PianoRHMusicVoice [measure 304] %%%
+                            R1 * 7/4
+                            
+                            %%% PianoRHMusicVoice [measure 305] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 306] %%%
+                            R1 * 3/2
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
                                 
@@ -2056,7 +2203,25 @@
                             r1
                             
                             %%% PianoRHMusicVoice [measure 315] %%%
-                            R1 * 15/2
+                            R1 * 3/2
+                            
+                            %%% PianoRHMusicVoice [measure 316] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 317] %%%
+                            R1 * 3/2
+                            
+                            %%% PianoRHMusicVoice [measure 318] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 319] %%%
+                            R1 * 3/2
+                            
+                            %%% PianoRHMusicVoice [measure 320] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 321] %%%
+                            R1 * 1/4
                             \bar "|"
                             
                         }
@@ -2068,8 +2233,23 @@
                             \clef "bass" % SEGMENT:REMINDER-CLEF
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                             \once \override PianoLHMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                            R1 * 15/2
+                            R1 * 3/4
                             \sfz % SEGMENT:REMINDER-DYNAMIC
+                            
+                            %%% PianoLHMusicVoice [measure 302] %%%
+                            R1 * 1
+                            
+                            %%% PianoLHMusicVoice [measure 303] %%%
+                            R1 * 3/2
+                            
+                            %%% PianoLHMusicVoice [measure 304] %%%
+                            R1 * 7/4
+                            
+                            %%% PianoLHMusicVoice [measure 305] %%%
+                            R1 * 1
+                            
+                            %%% PianoLHMusicVoice [measure 306] %%%
+                            R1 * 3/2
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 3/5 {
                                 
@@ -2460,7 +2640,25 @@
                             r1
                             
                             %%% PianoLHMusicVoice [measure 315] %%%
-                            R1 * 15/2
+                            R1 * 3/2
+                            
+                            %%% PianoLHMusicVoice [measure 316] %%%
+                            R1 * 1
+                            
+                            %%% PianoLHMusicVoice [measure 317] %%%
+                            R1 * 3/2
+                            
+                            %%% PianoLHMusicVoice [measure 318] %%%
+                            R1 * 1
+                            
+                            %%% PianoLHMusicVoice [measure 319] %%%
+                            R1 * 3/2
+                            
+                            %%% PianoLHMusicVoice [measure 320] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoLHMusicVoice [measure 321] %%%
+                            R1 * 1/4
                             \bar "|"
                             
                         }
@@ -2556,8 +2754,11 @@
                         \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 7/4
+                        R1 * 3/4
                         \ppp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% PercussionMusicVoice [measure 302] %%%
+                        R1 * 1
                         
                         %%% PercussionMusicVoice [measure 303] %%%
                         \once \override Beam.color = #blue
@@ -2577,7 +2778,10 @@
                         \repeatTie
                         
                         %%% PercussionMusicVoice [measure 305] %%%
-                        R1 * 5/2
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 306] %%%
+                        R1 * 3/2
                         
                         %%% PercussionMusicVoice [measure 307] %%%
                         \once \override Beam.color = #blue
@@ -2682,7 +2886,10 @@
                         r2.
                         
                         %%% PercussionMusicVoice [measure 313] %%%
-                        R1 * 7/4
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 314] %%%
+                        R1 * 1
                         
                         %%% PercussionMusicVoice [measure 315] %%%
                         \once \override Beam.color = #blue
@@ -2720,7 +2927,13 @@
                         \repeatTie
                         
                         %%% PercussionMusicVoice [measure 319] %%%
-                        R1 * 5/2
+                        R1 * 3/2
+                        
+                        %%% PercussionMusicVoice [measure 320] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 321] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -2750,8 +2963,11 @@
                         \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 7/4
+                        R1 * 3/4
                         \ppp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% ViolinMusicVoice [measure 302] %%%
+                        R1 * 1
                         
                         %%% ViolinMusicVoice [measure 303] %%%
                         \once \override Beam.color = #blue
@@ -2771,7 +2987,10 @@
                         \repeatTie
                         
                         %%% ViolinMusicVoice [measure 305] %%%
-                        R1 * 5/2
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 306] %%%
+                        R1 * 3/2
                         \times 4/7 {
                             
                             %%% ViolinMusicVoice [measure 307] %%%
@@ -3572,7 +3791,16 @@
                         }
                         
                         %%% ViolinMusicVoice [measure 313] %%%
-                        R1 * 17/4
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 314] %%%
+                        R1 * 1
+                        
+                        %%% ViolinMusicVoice [measure 315] %%%
+                        R1 * 3/2
+                        
+                        %%% ViolinMusicVoice [measure 316] %%%
+                        R1 * 1
                         
                         %%% ViolinMusicVoice [measure 317] %%%
                         \once \override Beam.color = #blue
@@ -3592,7 +3820,13 @@
                         \repeatTie
                         
                         %%% ViolinMusicVoice [measure 319] %%%
-                        R1 * 5/2
+                        R1 * 3/2
+                        
+                        %%% ViolinMusicVoice [measure 320] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinMusicVoice [measure 321] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -3856,8 +4090,11 @@
                         \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 7/4
+                        R1 * 3/4
                         \mf % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% CelloMusicVoice [measure 302] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 303] %%%
                         \once \override Beam.color = #blue
@@ -3877,7 +4114,10 @@
                         \repeatTie
                         
                         %%% CelloMusicVoice [measure 305] %%%
-                        R1 * 5/2
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 306] %%%
+                        R1 * 3/2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
                             
@@ -4632,7 +4872,16 @@
                         }
                         
                         %%% CelloMusicVoice [measure 313] %%%
-                        R1 * 17/4
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 314] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 315] %%%
+                        R1 * 3/2
+                        
+                        %%% CelloMusicVoice [measure 316] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 317] %%%
                         \once \override Beam.color = #blue
@@ -4652,7 +4901,13 @@
                         \repeatTie
                         
                         %%% CelloMusicVoice [measure 319] %%%
-                        R1 * 5/2
+                        R1 * 3/2
+                        
+                        %%% CelloMusicVoice [measure 320] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 321] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }

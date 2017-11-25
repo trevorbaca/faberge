@@ -1299,7 +1299,58 @@
                         r1
                         
                         %%% FluteMusicVoice [measure 67] %%%
-                        R1 * 57/4
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 68] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 69] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 70] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 71] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 72] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 73] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 74] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 75] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 76] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 77] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 78] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 79] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 80] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 81] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 82] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 83] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 84] %%%
+                        R1 * 1
                         
                         %%% FluteMusicVoice [measure 85] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -1510,7 +1561,40 @@
                         \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
-                        R1 * 9
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 6] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 7] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 8] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 9] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 10] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 11] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 12] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 13] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 14] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 15] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 16] %%%
+                        R1 * 1/2
                         
                         %%% EnglishHornMusicVoice [measure 17] %%%
                         r2
@@ -1557,7 +1641,34 @@
                         r1
                         
                         %%% EnglishHornMusicVoice [measure 21] %%%
-                        R1 * 8
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 22] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 23] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 24] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 25] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 26] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 27] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 28] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 29] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 30] %%%
+                        R1 * 1
                         
                         %%% EnglishHornMusicVoice [measure 31] %%%
                         r4
@@ -1613,8 +1724,35 @@
                         \startTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 35] %%%
-                        R1 * 8
+                        R1 * 3/4
                         \stopTrillSpan
+                        
+                        %%% EnglishHornMusicVoice [measure 36] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 37] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 38] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 39] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 40] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 41] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 42] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 43] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 44] %%%
+                        R1 * 1
                         
                         %%% EnglishHornMusicVoice [measure 45] %%%
                         r4
@@ -1667,7 +1805,34 @@
                         \stopTrillSpan
                         
                         %%% EnglishHornMusicVoice [measure 51] %%%
-                        R1 * 15/2
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 52] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 53] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 54] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 55] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 56] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 57] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 58] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 59] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 60] %%%
+                        R1 * 1
                         
                         %%% EnglishHornMusicVoice [measure 61] %%%
                         r4
@@ -1710,7 +1875,58 @@
                         r1
                         
                         %%% EnglishHornMusicVoice [measure 67] %%%
-                        R1 * 57/4
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 68] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 69] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 70] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 71] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 72] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 73] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 74] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 75] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 76] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 77] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 78] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 79] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 80] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 81] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 82] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 83] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 84] %%%
+                        R1 * 1
                         
                         %%% EnglishHornMusicVoice [measure 85] %%%
                         r4
@@ -3124,7 +3340,16 @@
                             \revert NoteHead.style
                             
                             %%% PianoRHMusicVoice [measure 93] %%%
-                            R1 * 13/4
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 94] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 95] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 96] %%%
+                            R1 * 1
                             \bar "|"
                             
                         }
@@ -3777,7 +4002,16 @@
                             s1
                             
                             %%% PianoLHAttackVoice [measure 93] %%%
-                            R1 * 13/4
+                            R1 * 3/4
+                            
+                            %%% PianoLHAttackVoice [measure 94] %%%
+                            R1 * 1
+                            
+                            %%% PianoLHAttackVoice [measure 95] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoLHAttackVoice [measure 96] %%%
+                            R1 * 1
                             \bar "|"
                             
                         }
@@ -4534,7 +4768,28 @@
                         }
                         
                         %%% PercussionMusicVoice [measure 67] %%%
-                        R1 * 27/4
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 68] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 69] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 70] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 71] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 72] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 73] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 74] %%%
+                        R1 * 3/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             

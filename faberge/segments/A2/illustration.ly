@@ -3125,7 +3125,28 @@
                         \!
                         
                         %%% FluteMusicVoice [measure 157] %%%
-                        R1 * 27/4
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 158] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 159] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 160] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 161] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 162] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 163] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 164] %%%
+                        R1 * 1
                         
                         %%% FluteMusicVoice [measure 165] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -3283,7 +3304,28 @@
                         \!
                         
                         %%% FluteMusicVoice [measure 169] %%%
-                        R1 * 25/4
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 170] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 171] %%%
+                        R1 * 1
+                        
+                        %%% FluteMusicVoice [measure 172] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 173] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 174] %%%
+                        R1 * 1/2
+                        
+                        %%% FluteMusicVoice [measure 175] %%%
+                        R1 * 3/4
+                        
+                        %%% FluteMusicVoice [measure 176] %%%
+                        R1 * 1
                         \bar "|."
                         
                     }
@@ -4394,7 +4436,28 @@
                         \revert RepeatTie.direction
                         
                         %%% EnglishHornMusicVoice [measure 169] %%%
-                        R1 * 25/4
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 170] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 171] %%%
+                        R1 * 1
+                        
+                        %%% EnglishHornMusicVoice [measure 172] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 173] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 174] %%%
+                        R1 * 1/2
+                        
+                        %%% EnglishHornMusicVoice [measure 175] %%%
+                        R1 * 3/4
+                        
+                        %%% EnglishHornMusicVoice [measure 176] %%%
+                        R1 * 1
                         \bar "|."
                         
                     }
@@ -4681,7 +4744,28 @@
                         \!
                         
                         %%% ClarinetMusicVoice [measure 157] %%%
-                        R1 * 27/4
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 158] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 159] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 160] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 161] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 162] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 163] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 164] %%%
+                        R1 * 1
                         
                         %%% ClarinetMusicVoice [measure 165] %%%
                         \once \override Hairpin.circled-tip = ##t
@@ -4714,7 +4798,28 @@
                         \!
                         
                         %%% ClarinetMusicVoice [measure 169] %%%
-                        R1 * 25/4
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 170] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 171] %%%
+                        R1 * 1
+                        
+                        %%% ClarinetMusicVoice [measure 172] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 173] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 174] %%%
+                        R1 * 1/2
+                        
+                        %%% ClarinetMusicVoice [measure 175] %%%
+                        R1 * 3/4
+                        
+                        %%% ClarinetMusicVoice [measure 176] %%%
+                        R1 * 1
                         \bar "|."
                         
                     }
@@ -4923,7 +5028,112 @@
                             \revert NoteHead.style
                             
                             %%% PianoRHMusicVoice [measure 141] %%%
-                            R1 * 28
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 142] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 143] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 144] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 145] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 146] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 147] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 148] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 149] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 150] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 151] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 152] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 153] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 154] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 155] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 156] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 157] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 158] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 159] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 160] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 161] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 162] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 163] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 164] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 165] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 166] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 167] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 168] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 169] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 170] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 171] %%%
+                            R1 * 1
+                            
+                            %%% PianoRHMusicVoice [measure 172] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 173] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 174] %%%
+                            R1 * 1/2
+                            
+                            %%% PianoRHMusicVoice [measure 175] %%%
+                            R1 * 3/4
+                            
+                            %%% PianoRHMusicVoice [measure 176] %%%
+                            R1 * 1
                             \bar "|."
                             
                         }
@@ -5531,7 +5741,40 @@
                         r2
                         
                         %%% PercussionMusicVoice [measure 107] %%%
-                        R1 * 10
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 108] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 109] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 110] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 111] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 112] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 113] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 114] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 115] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 116] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 117] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 118] %%%
+                        R1 * 3/4
                         
                         %%% PercussionMusicVoice [measure 119] %%%
                         ef,2
@@ -5818,7 +6061,28 @@
                         \repeatTie
                         
                         %%% PercussionMusicVoice [measure 169] %%%
-                        R1 * 25/4
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 170] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 171] %%%
+                        R1 * 1
+                        
+                        %%% PercussionMusicVoice [measure 172] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 173] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 174] %%%
+                        R1 * 1/2
+                        
+                        %%% PercussionMusicVoice [measure 175] %%%
+                        R1 * 3/4
+                        
+                        %%% PercussionMusicVoice [measure 176] %%%
+                        R1 * 1
                         \bar "|."
                         
                     }
