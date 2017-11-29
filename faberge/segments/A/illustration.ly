@@ -4967,8 +4967,8 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
-                        \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         r2
                         
                         %%% PercussionMusicVoice [measure 86] %%%
@@ -5023,8 +5023,8 @@
                         \times 6/5 {
                             
                             %%% PercussionMusicVoice [measure 93] %%%
-                            \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                            \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
