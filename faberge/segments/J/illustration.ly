@@ -101,19 +101,19 @@
                 
                 %%% GlobalSkips [measure 642] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                \time 2/4 % SEGMENT:DUPLICATE-TIME-SIGNATURE:3
+                \time 2/4 % SEGMENT:DUPLICATE-TIME-SIGNATURE:4
                 \mark #10
                 \bar "" % SEGMENT:EMPTY-BAR:1
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) % SEGMENT:DUPLICATE-TIME-SIGNATURE:2
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) % SEGMENT:DUPLICATE-TIME-SIGNATURE:3
                 \newSpacingSection
                 s1 * 1/2
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.1]
-                    }
+                %%% - \markup { % STAGE-NUMBER:2
+                    %%% \fontsize % STAGE-NUMBER:2
+                        %%% #-3 % STAGE-NUMBER:2
+                        %%% \with-color % STAGE-NUMBER:2
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:2
+                            %%% [J.1] % STAGE-NUMBER:2
+                    %%% } % STAGE-NUMBER:2
                 ^ \markup {
                     \fontsize
                         #-6
@@ -142,13 +142,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.2]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.2] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 645] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -161,13 +161,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.3]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.3] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 647] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -180,13 +180,13 @@
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.4]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.4] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 649] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -199,13 +199,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.5]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.5] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 651] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -218,13 +218,13 @@
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.6]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.6] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 653] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -237,13 +237,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.7]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.7] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 655] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -256,13 +256,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.8]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.8] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 657] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -275,13 +275,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.9]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.9] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 659] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
@@ -294,13 +294,13 @@
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.10]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.10] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 661] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -313,26 +313,26 @@
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.11]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.11] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 663] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/4
                 \newSpacingSection
                 s1 * 1/2
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.12]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.12] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 664] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -345,13 +345,13 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                - \markup {
-                    \fontsize
-                        #-3
-                        \with-color
-                            #blue
-                            [J.13]
-                    }
+                %%% - \markup { % STAGE-NUMBER:1
+                    %%% \fontsize % STAGE-NUMBER:1
+                        %%% #-3 % STAGE-NUMBER:1
+                        %%% \with-color % STAGE-NUMBER:1
+                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                            %%% [J.13] % STAGE-NUMBER:1
+                    %%% } % STAGE-NUMBER:1
                 
                 %%% GlobalSkips [measure 666] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
