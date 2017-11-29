@@ -54,7 +54,6 @@ maker = baca.SegmentMaker(
     final_markup_extra_offset=(-12, -4),
     ignore_repeat_pitch_classes=True,
     instruments=faberge.instruments,
-    label_clock_time=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=faberge.metronome_marks,
     rehearsal_letter='',
