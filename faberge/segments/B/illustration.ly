@@ -2671,8 +2671,8 @@
                             \once \override NoteHead.color = #blue
                             \once \override Stem.color = #blue
                             \override Staff.Stem.stemlet-length = #0.75
-                            \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                            \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                             g'16 * 351/64
                             [
                             ^ \markup {

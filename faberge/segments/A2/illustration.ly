@@ -4371,8 +4371,8 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         r2.
                         ^ \markup {
                             \whiteout
@@ -5733,8 +5733,8 @@
                         r1
                         
                         %%% PercussionMusicVoice [measure 105] %%%
-                        \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         r2.
                         ^ \markup {
                             \whiteout
@@ -6029,8 +6029,8 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
-                        \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         b1
                         ^ \markup {
                             \whiteout
@@ -7484,8 +7484,8 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                            \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                             c'8
                             -\staccato
                             \<
@@ -10740,8 +10740,8 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                            \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                             b8
                             -\staccato
                             \<
@@ -13654,8 +13654,8 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                            \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                             d'8
                             -\staccato
                             \mf
