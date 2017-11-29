@@ -49,7 +49,6 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 
 maker = baca.SegmentMaker(
     instruments=faberge.instruments,
-    label_clock_time=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=faberge.metronome_marks,
     rehearsal_letter='C',
