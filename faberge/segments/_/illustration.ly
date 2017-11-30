@@ -196,8 +196,8 @@
                                 #10
                                 Fl.
                             }
-                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                         R1 * 3/4
                         
                         %%% FluteMusicVoice [measure 2] %%%
@@ -235,8 +235,8 @@
                                         hn.
                                     }
                             }
-                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                         R1 * 3/4
                         
                         %%% EnglishHornMusicVoice [measure 2] %%%
@@ -279,8 +279,8 @@
                             \startStaff
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                            \clef "percussion" % SEGMENT:EXPLICIT_CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                             c'16 * 187/32
                             [
                             ^ \markup {
@@ -327,8 +327,8 @@
                                 #10
                                 Cl.
                             }
-                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                         R1 * 3/4
                         
                         %%% ClarinetMusicVoice [measure 2] %%%
@@ -361,8 +361,8 @@
                                     #10
                                     Pf.
                                 }
-                            \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                            \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                             R1 * 3/4
                             
                             %%% PianoRHMusicVoice [measure 2] %%%
@@ -381,8 +381,8 @@
                         \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                             
                             %%% PianoLHMusicVoice [measure 1] %%%
-                            \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                            \clef "bass" % SEGMENT:EXPLICIT_CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                             R1 * 3/4
                             
                             %%% PianoLHMusicVoice [measure 2] %%%
@@ -429,8 +429,8 @@
                                 #10
                                 Perc.
                             }
-                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                         R1 * 3/4
                         
                         %%% PercussionMusicVoice [measure 2] %%%
@@ -462,8 +462,8 @@
                                 #10
                                 Vn.
                             }
-                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                         e'16
                         [
                         ^ \markup {
@@ -539,8 +539,8 @@
                                     #10
                                     Va.
                                 }
-                            \clef "alto" % SEGMENT:EXPLICIT-CLEF:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                            \clef "alto" % SEGMENT:EXPLICIT_CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                             r4
                             
                             e'8
@@ -606,8 +606,8 @@
                                 #10
                                 Vc.
                             }
-                        \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                        \clef "bass" % SEGMENT:EXPLICIT_CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                         R1 * 3/4
                         
                         %%% CelloMusicVoice [measure 2] %%%
