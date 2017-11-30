@@ -17,27 +17,27 @@
                 %%% GlobalSkips [measure 618] %%%
                 \time 4/4 % SEGMENT:DUPLICATE-TIME-SIGNATURE:4
                 \mark #9
-                \bar "" % SEGMENT:EMPTY-BAR:1
+                \bar "" % SEGMENT:EMPTY_BAR:1
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) % SEGMENT:DUPLICATE-TIME-SIGNATURE:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) % SEGMENT:SPACING:COMMAND:5
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:7
-                    %%% \fontsize % CLOCK-TIME:7
-                        %%% #-2 % CLOCK-TIME:7
-                        %%% 20'35'' % CLOCK-TIME:7
-                    %%% } % CLOCK-TIME:7
+                %%% ^ \markup { % CLOCK_TIME:7
+                    %%% \fontsize % CLOCK_TIME:7
+                        %%% #-2 % CLOCK_TIME:7
+                        %%% 20'35'' % CLOCK_TIME:7
+                    %%% } % CLOCK_TIME:7
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:2
-                                %%% { % STAGE-NUMBER:2
-                                    %%% \fontsize % STAGE-NUMBER:2
-                                        %%% #-3 % STAGE-NUMBER:2
-                                        %%% \with-color % STAGE-NUMBER:2
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:2
-                                            %%% [I.1] % STAGE-NUMBER:2
-                                %%% } % STAGE-NUMBER:2
+                            %%% \line % STAGE_NUMBER:2
+                                %%% { % STAGE_NUMBER:2
+                                    %%% \fontsize % STAGE_NUMBER:2
+                                        %%% #-3 % STAGE_NUMBER:2
+                                        %%% \with-color % STAGE_NUMBER:2
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:2
+                                            %%% [I.1] % STAGE_NUMBER:2
+                                %%% } % STAGE_NUMBER:2
                             %%% \line % SEGMENT:SPACING:MARKUP:6
                                 %%% { % SEGMENT:SPACING:MARKUP:6
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:6
@@ -70,11 +70,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 20'40'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 20'40'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -88,22 +88,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 20'46'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 20'46'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.2] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.2] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -120,11 +120,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 20'51'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 20'51'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -138,22 +138,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 20'54'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 20'54'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.3] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.3] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -170,11 +170,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 20'58'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 20'58'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -188,22 +188,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 21'02'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 21'02'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.4] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.4] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -220,11 +220,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 21'08'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 21'08'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -238,22 +238,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) % SEGMENT:SPACING:COMMAND:2
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 21'14'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 21'14'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.5] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.5] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -270,11 +270,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 21'18'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 21'18'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -288,22 +288,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 21'21'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 21'21'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.6] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.6] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -320,11 +320,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 21'24'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 21'24'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -338,22 +338,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 21'29'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 21'29'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.7] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.7] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -370,11 +370,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 21'35'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 21'35'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -388,22 +388,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 21'37'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 21'37'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.8] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.8] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -420,11 +420,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 21'42'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 21'42'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -438,22 +438,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 21'48'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 21'48'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.9] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.9] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -470,11 +470,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 21'51'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 21'51'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -488,22 +488,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 21'55'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 21'55'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.10] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.10] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -520,11 +520,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 22'01'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 22'01'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -538,22 +538,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 22'05'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 22'05'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.11] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.11] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -570,11 +570,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 22'11'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 22'11'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
@@ -588,22 +588,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 22'15'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 22'15'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [I.12] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [I.12] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -620,11 +620,11 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:1
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK-TIME:3
-                    %%% \fontsize % CLOCK-TIME:3
-                        %%% #-2 % CLOCK-TIME:3
-                        %%% 22'21'' % CLOCK-TIME:3
-                    %%% } % CLOCK-TIME:3
+                %%% ^ \markup { % CLOCK_TIME:3
+                    %%% \fontsize % CLOCK_TIME:3
+                        %%% #-2 % CLOCK_TIME:3
+                        %%% 22'21'' % CLOCK_TIME:3
+                    %%% } % CLOCK_TIME:3
                 %%% - \markup { % SEGMENT:SPACING:MARKUP:2
                     %%% \with-color % SEGMENT:SPACING:MARKUP:2
                         %%% #(x11-color 'DarkCyan) % SEGMENT:SPACING:MARKUP:2
