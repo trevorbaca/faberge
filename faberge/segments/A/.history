@@ -453,3 +453,8 @@ LilyPond runtime: 8 seconds
 Segment-maker runtime: 117 seconds
 Abjad format time: 3 seconds
 LilyPond runtime: 9 seconds
+
+2017-12-01 08:13:17
+Segment-maker runtime: 99 seconds
+Abjad format time: 3 seconds
+LilyPond runtime: 7 seconds
