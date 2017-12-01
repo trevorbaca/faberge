@@ -196,10 +196,11 @@
                                 #10
                                 Fl.
                             }
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/4
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% FluteMusicVoice [measure 2] %%%
                         R1 * 1/4
@@ -236,10 +237,11 @@
                                         hn.
                                     }
                             }
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/4
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% EnglishHornMusicVoice [measure 2] %%%
                         R1 * 1/4
@@ -281,8 +283,9 @@
                             \startStaff
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                            \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                             c'16 * 187/32
                             [
                             ^ \markup {
@@ -293,7 +296,7 @@
                                             \box
                                                 ratchet
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             
                             c'16 * 139/32
                             
@@ -330,10 +333,11 @@
                                 #10
                                 Cl.
                             }
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/4
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% ClarinetMusicVoice [measure 2] %%%
                         R1 * 1/4
@@ -365,10 +369,11 @@
                                     #10
                                     Pf.
                                 }
-                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                            \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                             R1 * 3/4
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             
                             %%% PianoRHMusicVoice [measure 2] %%%
                             R1 * 1/4
@@ -386,10 +391,11 @@
                         \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                             
                             %%% PianoLHMusicVoice [measure 1] %%%
-                            \clef "bass" %! EXPLICIT_CLEF_COMMAND:2
+                            \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                            \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                             R1 * 3/4
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             
                             %%% PianoLHMusicVoice [measure 2] %%%
                             R1 * 1/4
@@ -435,10 +441,11 @@
                                 #10
                                 Perc.
                             }
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/4
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% PercussionMusicVoice [measure 2] %%%
                         R1 * 1/4
@@ -469,8 +476,9 @@
                                 #10
                                 Vn.
                             }
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         e'16
                         [
                         ^ \markup {
@@ -490,7 +498,7 @@
                                 \italic
                                     ”
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         e'16
                         
@@ -547,10 +555,11 @@
                                     #10
                                     Va.
                                 }
-                            \clef "alto" %! EXPLICIT_CLEF_COMMAND:2
+                            \clef "alto" %! EXPLICIT_CLEF_COMMAND:3
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                            \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                             r4
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             
                             e'8
                             ^ \markup {
@@ -615,10 +624,11 @@
                                 #10
                                 Vc.
                             }
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/4
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% CelloMusicVoice [measure 2] %%%
                         R1 * 1/4
