@@ -15,10 +15,10 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 %%% GlobalSkips [measure 618] %%%
-                \time 4/4 %! SEGMENT:DUPLICATE_TIME_SIGNATURE:4
+                \time 4/4 %! SEGMENT:REDUNDANT_TIME_SIGNATURE:4
                 \mark #9
                 \bar "" %! SEGMENT:EMPTY_START_BAR:1
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! SEGMENT:DUPLICATE_TIME_SIGNATURE:3
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_TIME_SIGNATURE:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! SEGMENT:SPACING_COMMAND:5
                 s1 * 1
