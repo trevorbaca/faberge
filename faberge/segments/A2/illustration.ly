@@ -6946,9 +6946,10 @@
                         r1
                         
                         %%% PercussionMusicVoice [measure 105] %%%
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
+                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                         r2.
                         ^ \markup {
                             \whiteout
@@ -6958,7 +6959,7 @@
                                         \box
                                             "to marimba"
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                         
                         %%% PercussionMusicVoice [measure 106] %%%
                         r2
@@ -7244,9 +7245,10 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 2
                         \startStaff
-                        \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                        \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                         b1
                         ^ \markup {
                             \whiteout
@@ -7272,7 +7274,7 @@
                                 \italic
                                     ”
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                         
                         %%% PercussionMusicVoice [measure 166] %%%
                         b2.
@@ -8703,9 +8705,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                             c'8
                             -\staccato
                             \<
@@ -8734,7 +8737,7 @@
                                             }
                                     }
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -11963,9 +11966,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                             b8
                             -\staccato
                             \<
@@ -11994,7 +11998,7 @@
                                             }
                                     }
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -14881,9 +14885,10 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                            \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                             d'8
                             -\staccato
                             \mf
@@ -14917,7 +14922,7 @@
                                     \upright
                                         "tasto poss."
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
