@@ -1994,8 +1994,8 @@
                                     #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     Fl. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                            \override FluteMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                            \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                            \override FluteMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                             
                             r2
                             \f
@@ -2694,7 +2694,7 @@
                                         fl. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         
                         %%% FluteMusicVoice [measure 62] %%%
                         r2
@@ -3016,8 +3016,8 @@
                                         hn. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                        \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:13
+                        \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:13
                         
                         %%% EnglishHornMusicVoice [measure 6] %%%
                         R1 * 1
@@ -3674,8 +3674,8 @@
                                     #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     Cl. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                            \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                            \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                            \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                             
                             \once \override Hairpin.circled-tip = ##t
                             gs'''8
@@ -4201,7 +4201,7 @@
                                         cl. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
+                        \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
                         
                         %%% ClarinetMusicVoice [measure 46] %%%
                         r1
@@ -4536,8 +4536,8 @@
                                     #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     Pf. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                            \override PianoRHMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                            \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                            \override PianoRHMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                             
                             %%% PianoRHMusicVoice [measure 6] %%%
                             <d' e' fs' c'' d''>1
@@ -4912,7 +4912,7 @@
                             %%% \override PianoLHMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                             \set PianoLHMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
                             R1 * 3/4
-                            \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:5
+                            \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
                             
                             %%% PianoLHMusicVoice [measure 6] %%%
                             R1 * 1
@@ -5622,8 +5622,8 @@
                                     #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     Perc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                            \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                            \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                            \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
@@ -6553,7 +6553,7 @@
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                         r2
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                         
                         %%% PercussionMusicVoice [measure 86] %%%
                         r2.
@@ -6612,7 +6612,7 @@
                             %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                             \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                             r8
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
@@ -6749,8 +6749,8 @@
                                     #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     Vn. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                            \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                            \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                            \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                            \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8
@@ -8628,8 +8628,8 @@
                                 #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Va. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
                         %%% ViolaMusicVoice [measure 6] %%%
                         d1
@@ -10007,8 +10007,8 @@
                                 #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Vc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
                         %%% CelloMusicVoice [measure 6] %%%
                         d,1
