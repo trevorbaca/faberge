@@ -10,7 +10,7 @@
     \context Score = "Score" \with {
         currentBarNumber = #642
     } <<
-        \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
+        \tag Flute.EnglishHorn.Clarinet.Piano.Percussion.Violin.Viola.Cello
         \context GlobalContext = "GlobalContext" <<
             \context GlobalRests = "GlobalRests" {
                 
@@ -749,7 +749,7 @@
         >>
         \context MusicContext = "MusicContext" <<
             \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
-                \tag flute
+                \tag Flute
                 \context FluteMusicStaff = "FluteMusicStaff" {
                     \context FluteMusicVoice = "FluteMusicVoice" {
                         
@@ -1603,7 +1603,7 @@
                         
                     }
                 }
-                \tag english_horn
+                \tag EnglishHorn
                 \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
                     \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                         
@@ -1849,7 +1849,7 @@
                         
                     }
                 }
-                \tag clarinet
+                \tag Clarinet
                 \context ClarinetMusicStaff = "ClarinetMusicStaff" {
                     \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                         
@@ -3020,7 +3020,7 @@
                 }
             >>
             \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
-                \tag piano
+                \tag Piano
                 \context PianoStaffGroup = "PianoStaffGroup" <<
                     \context PianoRHMusicStaff = "PianoRHMusicStaff" {
                         \context PianoRHMusicVoice = "PianoRHMusicVoice" {
@@ -4500,7 +4500,7 @@
                         }
                     >>
                 >>
-                \tag percussion
+                \tag Percussion
                 \context PercussionMusicStaff = "PercussionMusicStaff" {
                     \context PercussionMusicVoice = "PercussionMusicVoice" {
                         
@@ -4694,7 +4694,7 @@
                 }
             >>
             \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
-                \tag violin
+                \tag Violin
                 \context ViolinMusicStaff = "ViolinMusicStaff" {
                     \context ViolinMusicVoice = "ViolinMusicVoice" {
                         
@@ -5666,7 +5666,7 @@
                         
                     }
                 }
-                \tag viola
+                \tag Viola
                 \context ViolaMusicStaff = "ViolaMusicStaff" {
                     \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
@@ -5883,7 +5883,7 @@
                         
                     }
                 }
-                \tag cello
+                \tag Cello
                 \context CelloMusicStaff = "CelloMusicStaff" {
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
