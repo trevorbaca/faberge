@@ -7,7 +7,7 @@
 \include "../stylesheets/parts.ily"
 
 \score {
-    \keepWithTag english_horn {
+    \keepWithTag EnglishHorn {
         \include "segment--introduction.ly"
         \include "segment-a.ly"
         \include "segment-a-2.ly"

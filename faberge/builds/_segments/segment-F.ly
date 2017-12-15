@@ -1,7 +1,7 @@
 \context Score = "Score" \with {
     currentBarNumber = #429
 } <<
-    \tag flute.english_horn.clarinet.piano.percussion.violin.viola.cello
+    \tag flute.EnglishHorn.clarinet.piano.percussion.violin.viola.cello
     \context GlobalContext = "GlobalContext" <<
         \context GlobalRests = "GlobalRests" {
             
@@ -1225,7 +1225,7 @@
                     
                 }
             }
-            \tag english_horn
+            \tag EnglishHorn
             \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
                 \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                     \override TupletNumber.text = \markup {
