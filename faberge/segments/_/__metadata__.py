@@ -7,15 +7,42 @@ metadata = abjad.TypedOrderedDict(
             'end_clefs_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'bass'),
-                    ('ClarinetMusicStaff', 'treble'),
-                    ('EnglishHornMusicStaff', 'percussion'),
-                    ('FluteMusicStaff', 'treble'),
-                    ('PercussionMusicStaff', 'treble'),
-                    ('PianoLHMusicStaff', 'bass'),
-                    ('PianoRHMusicStaff', 'treble'),
-                    ('ViolaMusicStaff', 'alto'),
-                    ('ViolinMusicStaff', 'treble'),
+                    (
+                        'CelloMusicStaff',
+                        ('bass', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ClarinetMusicStaff',
+                        ('treble', 'ClarinetMusicVoice'),
+                        ),
+                    (
+                        'EnglishHornMusicStaff',
+                        ('percussion', 'EnglishHornMusicVoice'),
+                        ),
+                    (
+                        'FluteMusicStaff',
+                        ('treble', 'FluteMusicVoice'),
+                        ),
+                    (
+                        'PercussionMusicStaff',
+                        ('treble', 'PercussionMusicVoice'),
+                        ),
+                    (
+                        'PianoLHMusicStaff',
+                        ('bass', 'PianoLHMusicVoice'),
+                        ),
+                    (
+                        'PianoRHMusicStaff',
+                        ('treble', 'PianoRHMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('alto', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicStaff',
+                        ('treble', 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
