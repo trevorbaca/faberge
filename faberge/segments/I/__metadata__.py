@@ -65,28 +65,77 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'cello'),
-                    ('ClarinetMusicStaff', 'bass clarinet'),
-                    ('EnglishHornMusicStaff', 'English horn'),
-                    ('FluteMusicStaff', 'bass flute'),
-                    ('PercussionMusicStaff', 'percussion'),
-                    ('PianoStaffGroup', 'piano'),
-                    ('ViolaMusicStaff', 'viola'),
-                    ('ViolinMusicStaff', 'violin'),
+                    (
+                        'CelloMusicStaff',
+                        ('cello', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ClarinetMusicStaff',
+                        ('bass clarinet', 'ClarinetMusicVoice'),
+                        ),
+                    (
+                        'EnglishHornMusicStaff',
+                        ('English horn', 'EnglishHornMusicVoice'),
+                        ),
+                    (
+                        'FluteMusicStaff',
+                        ('bass flute', 'FluteMusicVoice'),
+                        ),
+                    (
+                        'PercussionMusicStaff',
+                        ('percussion', 'PercussionMusicVoice'),
+                        ),
+                    (
+                        'PianoStaffGroup',
+                        ('piano', 'PianoRHMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('viola', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicStaff',
+                        ('violin', 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
         ('end_margin_markup', None),
-        ('end_metronome_mark', '41'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('41', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         (
             'end_staff_lines',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 1),
-                    ('EnglishHornMusicStaff', 1),
-                    ('PercussionMusicStaff', 2),
-                    ('ViolaMusicStaff', 1),
-                    ('ViolinMusicStaff', 1),
+                    (
+                        'CelloMusicStaff',
+                        (1, 'CelloMusicVoice'),
+                        ),
+                    (
+                        'EnglishHornMusicStaff',
+                        (1, 'EnglishHornMusicVoice'),
+                        ),
+                    (
+                        'PercussionMusicStaff',
+                        (2, 'PercussionMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        (1, 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicStaff',
+                        (1, 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
