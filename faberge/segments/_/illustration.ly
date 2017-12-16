@@ -6,9 +6,7 @@
 \include "../../stylesheets/stylesheet.ily"
 
 \score {
-    \context Score = "Score" \with {
-        currentBarNumber = #1
-    } <<
+    \context Score = "Score" <<
         \tag Flute.EnglishHorn.Clarinet.Piano.Percussion.Violin.Viola.Cello
         \context GlobalContext = "GlobalContext" <<
             \context GlobalRests = "GlobalRests" {
