@@ -5832,9 +5832,7 @@
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override PianoLHMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                             \set PianoLHMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
-                            \once \override PianoLHMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:6
                             R1 * 3/4
-                            \sfz %! REMINDER_DYNAMIC_COMMAND:7
                             \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
                             
                             %%% PianoLHMusicVoice [measure 323] %%%
@@ -6160,7 +6158,9 @@
                         \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                             
                             %%% PianoLHAttackVoice [measure 322] %%%
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:1
                             R1 * 3/4
+                            \sfz %! REMINDER_DYNAMIC_COMMAND:2
                             
                             %%% PianoLHAttackVoice [measure 323] %%%
                             R1 * 1/2
