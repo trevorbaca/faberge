@@ -4177,9 +4177,9 @@
                             \once \override Stem.color = #blue
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "percussion" %! REDUNDANT_CLEF_COMMAND:4
-                            \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:1
-                            %%% \override Staff.Clef.color = ##f %! REDUNDANT_CLEF_UNCOLOR:2
-                            \set Staff.forceClef = ##t %! REDUNDANT_CLEF_COMMAND:3
+                            \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:1
+                            %%% \override EnglishHornMusicStaff.Clef.color = ##f %! REDUNDANT_CLEF_UNCOLOR:2
+                            \set EnglishHornMusicStaff.forceClef = ##t %! REDUNDANT_CLEF_COMMAND:3
                             g'16 * 351/64
                             [
                             ^ \markup {
@@ -4190,7 +4190,7 @@
                                             \box
                                                 ratchet
                                 }
-                            \override Staff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_SHADOW_COLOR:5
+                            \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_SHADOW_COLOR:5
                             
                             \once \override Beam.color = #blue
                             \once \override Dots.color = #blue
