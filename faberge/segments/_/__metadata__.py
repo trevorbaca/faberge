@@ -3,9 +3,8 @@ import abjad
 
 metadata = abjad.TypedOrderedDict(
     [
-        ('duration', "0'04''"),
         (
-            'end_clefs',
+            'abjad.Clef',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -47,9 +46,9 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_dynamics', None),
+        ('abjad.Dynamic', None),
         (
-            'end_instruments',
+            'abjad.Instrument',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -87,9 +86,8 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_margin_markup', None),
         (
-            'end_metronome_marks',
+            'abjad.MetronomeMark',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -100,23 +98,25 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         (
+            'abjad.TimeSignature',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('1/4', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
+        ('baca.MarginMarkup', None),
+        ('duration', "0'04''"),
+        (
             'end_staff_lines',
             abjad.TypedOrderedDict(
                 [
                     (
                         'EnglishHornMusicStaff',
                         (1, 'EnglishHornMusicVoice'),
-                        ),
-                    ]
-                ),
-            ),
-        (
-            'end_time_signatures',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'Score',
-                        ('1/4', 'GlobalSkips'),
                         ),
                     ]
                 ),
