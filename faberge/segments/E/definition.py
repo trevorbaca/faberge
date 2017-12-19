@@ -701,7 +701,7 @@ maker(
 maker(
     baca.scope('PianoRHMusicVoice', 1),
     # TODO: implement baca.instrument_change()
-    #faberge.instruments['piano']
+    #faberge.instruments['Piano']
     )
 
 ### percussion (color) ###

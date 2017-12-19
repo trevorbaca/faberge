@@ -679,7 +679,7 @@ maker(
 maker(
     baca.scope('FluteMusicVoice', 3),
     # TODO: implement baca.instrument_change()
-    #faberge.instruments['flute'],
+    #faberge.instruments['Flute'],
     )
 
 ### english horn (color) ###
@@ -702,7 +702,7 @@ maker(
 maker(
     baca.scope('ClarinetMusicVoice', 3),
     # TODO: implement baca.instrument_change()
-    #faberge.instruments['clarinet in B-flat'],
+    #faberge.instruments['Clarinet'],
     )
 
 ### piano (color) ###
@@ -710,7 +710,7 @@ maker(
 maker(
     baca.scope('PianoRHMusicVoice', 43),
     # TODO: implement baca.instrument_change()
-    #faberge.instruments['piano'],
+    #faberge.instruments['Piano'],
     )
 
 ### percussion (color) ###

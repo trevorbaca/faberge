@@ -79,35 +79,35 @@ metadata = abjad.TypedOrderedDict(
                 [
                     (
                         'CelloMusicStaff',
-                        ('cello', 'CelloMusicVoice'),
+                        ('Cello', 'CelloMusicVoice'),
                         ),
                     (
                         'ClarinetMusicStaff',
-                        ('bass clarinet', 'ClarinetMusicVoice'),
+                        ('BassClarinet', 'ClarinetMusicVoice'),
                         ),
                     (
                         'EnglishHornMusicStaff',
-                        ('English horn', 'EnglishHornMusicVoice'),
+                        ('EnglishHorn', 'EnglishHornMusicVoice'),
                         ),
                     (
                         'FluteMusicStaff',
-                        ('bass flute', 'FluteMusicVoice'),
+                        ('BassFlute', 'FluteMusicVoice'),
                         ),
                     (
                         'PercussionMusicStaff',
-                        ('percussion', 'PercussionMusicVoice'),
+                        ('Percussion', 'PercussionMusicVoice'),
                         ),
                     (
                         'PianoStaffGroup',
-                        ('piano', 'PianoRHMusicVoice'),
+                        ('Piano', 'PianoRHMusicVoice'),
                         ),
                     (
                         'ViolaMusicStaff',
-                        ('viola', 'ViolaMusicVoice'),
+                        ('Viola', 'ViolaMusicVoice'),
                         ),
                     (
                         'ViolinMusicStaff',
-                        ('violin', 'ViolinMusicVoice'),
+                        ('Violin', 'ViolinMusicVoice'),
                         ),
                     ]
                 ),
@@ -179,7 +179,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='cello',
+                                value='Cello',
                                 ),
                             ],
                         ),
@@ -204,7 +204,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='ClarinetMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='bass clarinet',
+                                value='BassClarinet',
                                 ),
                             ],
                         ),
@@ -219,7 +219,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='EnglishHornMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='English horn',
+                                value='EnglishHorn',
                                 ),
                             ],
                         ),
@@ -244,7 +244,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='FluteMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='bass flute',
+                                value='BassFlute',
                                 ),
                             ],
                         ),
@@ -259,7 +259,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='PercussionMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='percussion',
+                                value='Percussion',
                                 ),
                             ],
                         ),
@@ -299,7 +299,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='PianoRHMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='piano',
+                                value='Piano',
                                 ),
                             ],
                         ),
@@ -329,7 +329,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='ViolaMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='viola',
+                                value='Viola',
                                 ),
                             ],
                         ),
@@ -354,7 +354,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='ViolinMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='violin',
+                                value='Violin',
                                 ),
                             ],
                         ),
