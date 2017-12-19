@@ -236,7 +236,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             flute_music_staff,
             'default_instrument',
-            faberge.instruments['flute'],
+            faberge.instruments['Flute'],
             )
         self._attach_tag('Flute', flute_music_staff)
 
@@ -253,7 +253,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             english_horn_music_staff,
             'default_instrument',
-            faberge.instruments['English horn'],
+            faberge.instruments['EnglishHorn'],
             )
         self._attach_tag('EnglishHorn', english_horn_music_staff)
 
@@ -270,7 +270,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             clarinet_music_staff,
             'default_instrument',
-            faberge.instruments['clarinet in B-flat'],
+            faberge.instruments['Clarinet'],
             )
         self._attach_tag('Clarinet', clarinet_music_staff)
 
@@ -306,7 +306,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             piano_staff_group,
             'default_instrument',
-            faberge.instruments['piano'],
+            faberge.instruments['Piano'],
             )
         abjad.annotate(
             piano_lh_music_staff,
@@ -328,7 +328,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             percussion_music_staff,
             'default_instrument',
-            faberge.instruments['percussion'],
+            faberge.instruments['Percussion'],
             )
         abjad.annotate(
             percussion_music_staff,
@@ -350,7 +350,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             violin_music_staff,
             'default_instrument',
-            faberge.instruments['violin'],
+            faberge.instruments['Violin'],
             )
         self._attach_tag('Violin', violin_music_staff)
 
@@ -367,7 +367,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             viola_music_staff,
             'default_instrument',
-            faberge.instruments['viola'],
+            faberge.instruments['Viola'],
             )
         self._attach_tag('Viola', viola_music_staff)
 
@@ -384,7 +384,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             cello_music_staff,
             'default_instrument',
-            faberge.instruments['cello'],
+            faberge.instruments['Cello'],
             )
         self._attach_tag('Cello', cello_music_staff)
 

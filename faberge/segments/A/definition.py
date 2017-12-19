@@ -475,7 +475,7 @@ maker(
 
 maker(
     baca.scope('FluteMusicVoice', 12),
-    baca.instrument(faberge.instruments['bass flute']),
+    baca.instrument(faberge.instruments['BassFlute']),
     )
 
 maker(
@@ -591,7 +591,7 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', 8),
-    baca.instrument(faberge.instruments['bass clarinet']),
+    baca.instrument(faberge.instruments['BassClarinet']),
     )
 
 maker(
