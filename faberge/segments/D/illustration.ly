@@ -288,7 +288,6 @@
                     }
                 
                 %%% GlobalSkips [measure 308] %%%
-                \time 5/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 14) %! SEGMENT:SPACING:2
                 s1 * 5/4
@@ -306,7 +305,6 @@
                     %%% } %! SEGMENT:SPACING_MARKUP:3
                 
                 %%% GlobalSkips [measure 309] %%%
-                \time 5/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 14) %! SEGMENT:SPACING:2
                 s1 * 5/4
@@ -324,7 +322,6 @@
                     %%% } %! SEGMENT:SPACING_MARKUP:3
                 
                 %%% GlobalSkips [measure 310] %%%
-                \time 5/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 14) %! SEGMENT:SPACING:2
                 s1 * 5/4
@@ -342,7 +339,6 @@
                     %%% } %! SEGMENT:SPACING_MARKUP:3
                 
                 %%% GlobalSkips [measure 311] %%%
-                \time 5/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 14) %! SEGMENT:SPACING:2
                 s1 * 5/4
@@ -360,7 +356,6 @@
                     %%% } %! SEGMENT:SPACING_MARKUP:3
                 
                 %%% GlobalSkips [measure 312] %%%
-                \time 5/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 14) %! SEGMENT:SPACING:2
                 s1 * 5/4
