@@ -15,18 +15,19 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 %%% GlobalSkips [measure 618] %%%
-                \time 4/4 %! PERSISTENT_TIME_SIGNATURE_COMMAND:4
+                \time 4/4 %! PERSISTENT_TIME_SIGNATURE_COMMAND:5
                 \mark #9
                 \bar "" %! EMPTY_START_BAR:1
                 \once \override Score.TimeSignature.color = #(x11-color 'green) %! PERSISTENT_TIME_SIGNATURE_COLOR:3
+                %%% \override Score.TimeSignature.color = ##f %! PERSISTENT_TIME_SIGNATURE_UNCOLOR:4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! SEGMENT:SPACING_COMMAND:5
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! SEGMENT:SPACING_COMMAND:7
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME_MARKUP:7
-                    %%% \fontsize %! CLOCK_TIME_MARKUP:7
-                        %%% #-2 %! CLOCK_TIME_MARKUP:7
-                        %%% 20'35'' %! CLOCK_TIME_MARKUP:7
-                    %%% } %! CLOCK_TIME_MARKUP:7
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:9
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:9
+                        %%% #-2 %! CLOCK_TIME_MARKUP:9
+                        %%% 20'35'' %! CLOCK_TIME_MARKUP:9
+                    %%% } %! CLOCK_TIME_MARKUP:9
                 - \markup {
                     \column
                         {
@@ -38,14 +39,14 @@
                                             %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
                                             %%% [I.1] %! STAGE_NUMBER_MARKUP:2
                                 %%% } %! STAGE_NUMBER_MARKUP:2
-                            %%% \line %! SEGMENT:SPACING_MARKUP:6
-                                %%% { %! SEGMENT:SPACING_MARKUP:6
-                                    %%% \with-color %! SEGMENT:SPACING_MARKUP:6
-                                        %%% #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:6
-                                        %%% \fontsize %! SEGMENT:SPACING_MARKUP:6
-                                            %%% #-3 %! SEGMENT:SPACING_MARKUP:6
-                                            %%% (1/16) %! SEGMENT:SPACING_MARKUP:6
-                                %%% } %! SEGMENT:SPACING_MARKUP:6
+                            %%% \line %! SEGMENT:SPACING_MARKUP:8
+                                %%% { %! SEGMENT:SPACING_MARKUP:8
+                                    %%% \with-color %! SEGMENT:SPACING_MARKUP:8
+                                        %%% #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:8
+                                        %%% \fontsize %! SEGMENT:SPACING_MARKUP:8
+                                            %%% #-3 %! SEGMENT:SPACING_MARKUP:8
+                                            %%% (1/16) %! SEGMENT:SPACING_MARKUP:8
+                                %%% } %! SEGMENT:SPACING_MARKUP:8
                         }
                     }
                 ^ \markup {
@@ -64,6 +65,7 @@
                             41
                         }
                     }
+                \override Score.TimeSignature.color = #(x11-color 'DarkGreen) %! PERSISTENT_TIME_SIGNATURE_SHADOW_COLOR:6
                 
                 %%% GlobalSkips [measure 619] %%%
                 \time 4/4
