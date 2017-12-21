@@ -6,17 +6,17 @@ instruments = abjad.InstrumentDictionary([
     (
         'Flute',
         abjad.Flute(
-            name_markup=baca.markup.instrument('Flute'),
-            short_name_markup=baca.markup.short_instrument('Fl.'),
+            markup=baca.markup.instrument('Flute'),
+            short_markup=baca.markup.short_instrument('Fl.'),
             ),
         ),
     (
         'BassFlute',
         abjad.BassFlute(
             name='bass flute',
-            name_markup=baca.markup.instrument('Bass flute'),
+            markup=baca.markup.instrument('Bass flute'),
             short_name='b. fl.',
-            short_name_markup=baca.markup.short_instrument(
+            short_markup=baca.markup.short_instrument(
                 'B. fl.',
                 column=False,
                 ),
@@ -25,8 +25,8 @@ instruments = abjad.InstrumentDictionary([
     (
         'EnglishHorn',
         abjad.EnglishHorn(
-            name_markup=baca.markup.instrument('English horn'),
-            short_name_markup=baca.markup.short_instrument(
+            markup=baca.markup.instrument('English horn'),
+            short_markup=baca.markup.short_instrument(
                 'Eng. hn.',
                 column=False,
                 ),
@@ -35,19 +35,19 @@ instruments = abjad.InstrumentDictionary([
     (
         'Clarinet',
         abjad.ClarinetInBFlat(
-            name_markup=baca.markup.instrument('Clarinet'),
-            short_name_markup=baca.markup.short_instrument('Cl.'),
+            markup=baca.markup.instrument('Clarinet'),
+            short_markup=baca.markup.short_instrument('Cl.'),
             ),
         ),
     (
         'BassClarinet',
         abjad.BassClarinet(
             name='bass clarinet',
-            name_markup=baca.markup.instrument(
+            markup=baca.markup.instrument(
                 'Bass clarinet',
                 ),
             short_name='b. cl.',
-            short_name_markup=baca.markup.short_instrument(
+            short_markup=baca.markup.short_instrument(
                 'B. cl.',
                 column=False,
                 ),
@@ -56,43 +56,43 @@ instruments = abjad.InstrumentDictionary([
     (
         'Piano',
         abjad.Piano(
-            name_markup=baca.markup.instrument('Piano'),
-            short_name_markup=baca.markup.short_instrument('Pf.'),
+            markup=baca.markup.instrument('Piano'),
+            short_markup=baca.markup.short_instrument('Pf.'),
             )
         ),
     (
         'Harpsichord',
         abjad.Harpsichord(
-            name_markup=baca.markup.instrument('Harpsichord'),
-            short_name_markup=baca.markup.short_instrument('Hpschd.'),
+            markup=baca.markup.instrument('Harpsichord'),
+            short_markup=baca.markup.short_instrument('Hpschd.'),
             )
         ),
     (
         'Percussion',
         abjad.Percussion(
-            name_markup=baca.markup.instrument('Percussion'),
-            short_name_markup=baca.markup.short_instrument('Perc.'),
+            markup=baca.markup.instrument('Percussion'),
+            short_markup=baca.markup.short_instrument('Perc.'),
             ),
         ),
     (
         'Violin',
         abjad.Violin(
-            name_markup=baca.markup.instrument('Violin'),
-            short_name_markup=baca.markup.short_instrument('Vn.'),
+            markup=baca.markup.instrument('Violin'),
+            short_markup=baca.markup.short_instrument('Vn.'),
             ),
         ),
     (
         'Viola',
         abjad.Viola(
-            name_markup=baca.markup.instrument('Viola'),
-            short_name_markup=baca.markup.short_instrument('Va.'),
+            markup=baca.markup.instrument('Viola'),
+            short_markup=baca.markup.short_instrument('Va.'),
             ),
         ),
     (
         'Cello',
         abjad.Cello(
-            name_markup=baca.markup.instrument('Cello'),
-            short_name_markup=baca.markup.short_instrument('Vc.'),
+            markup=baca.markup.instrument('Cello'),
+            short_markup=baca.markup.short_instrument('Vc.'),
             ),
         ),
     ])
