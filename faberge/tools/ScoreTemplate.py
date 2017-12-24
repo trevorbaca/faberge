@@ -44,7 +44,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10
                                     Fl.
                                 }
-                            \clef "treble"
                             s1
                         }
                     }
@@ -69,7 +68,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             hn.
                                         }
                                 }
-                            \clef "treble"
                             s1
                         }
                     }
@@ -86,7 +84,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10
                                     Cl.
                                 }
-                            \clef "treble"
                             s1
                         }
                     }
@@ -106,7 +103,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #10
                                         Pf.
                                     }
-                                \clef "treble"
                                 s1
                             }
                         }
@@ -152,7 +148,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10
                                     Vn.
                                 }
-                            \clef "treble"
                             s1
                         }
                     }
@@ -369,6 +364,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             faberge.instruments['Viola'],
             )
+        abjad.annotate(
+            viola_music_staff,
+            'default_clef',
+            abjad.Clef('alto'),
+            )
         self._attach_tag('Viola', viola_music_staff)
 
         # CELLO
@@ -386,9 +386,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             faberge.instruments['Cello'],
             )
+        abjad.annotate(
+            cello_music_staff,
+            'default_clef',
+            abjad.Clef('bass'),
+            )
         self._attach_tag('Cello', cello_music_staff)
 
-        # WIND SECTION
+        # WIND SECTION STAFF GROUP
         wind_section_staff_group = abjad.StaffGroup(
             [
                 flute_music_staff,
@@ -399,7 +404,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='WindSectionStaffGroup',
             )
 
-        # PERCUSSION SECTION
+        # PERCUSSION SECTION STAFF GROUP
         percussion_section_staff_group = abjad.StaffGroup(
             [
                 piano_staff_group,
@@ -409,7 +414,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='PercussionSectionStaffGroup',
             )
 
-        # STRING SECTION
+        # STRING SECTION STAFF GROUP
         string_section_staff_group = abjad.StaffGroup(
             [
                 violin_music_staff,
@@ -420,7 +425,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='StringSectionStaffGroup',
             )
 
-        # SCORE
+        # MUSIC CONTEXT
         music_context = abjad.Context(
             [
                 wind_section_staff_group,
@@ -431,6 +436,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             is_simultaneous=True,
             name='MusicContext',
             )
+
+        # SCORE
         score = abjad.Score(
             [global_context, music_context],
             name='Score',
