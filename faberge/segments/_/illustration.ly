@@ -411,10 +411,10 @@
                             \startStaff
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
+                            \set EnglishHornMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:3
                             \clef "percussion" %! EXPLICIT_CLEF:4
                             \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                             %%% \override EnglishHornMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                            \set EnglishHornMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:3
                             c'16 * 187/32
                             [
                             ^ \markup {
@@ -626,10 +626,10 @@
                         \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                             
                             %%% PianoLHMusicVoice [measure 1] %%%
+                            \set PianoLHMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:3
                             \clef "bass" %! TEMPLATE_CLEF:4
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:1
                             %%% \override PianoLHMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:2
-                            \set PianoLHMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:3
                             R1 * 3/4
                             \override PianoLHMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:5
                             
@@ -677,11 +677,11 @@
                                 #10 %! TEMPLATE_INSTRUMENT:4
                                 Perc. %! TEMPLATE_INSTRUMENT:4
                             } %! TEMPLATE_INSTRUMENT:4
+                        \set PercussionMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                         \clef "treble" %! TEMPLATE_CLEF:10
                         \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:7
                         %%% \override PercussionMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:8
-                        \set PercussionMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                         R1 * 3/4
                         ^ \markup {
                             \column
@@ -903,11 +903,11 @@
                                     #10 %! TEMPLATE_INSTRUMENT:4
                                     Va. %! TEMPLATE_INSTRUMENT:4
                                 } %! TEMPLATE_INSTRUMENT:4
+                            \set ViolaMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                             \clef "alto" %! TEMPLATE_CLEF:10
                             \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                             \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:7
                             %%% \override ViolaMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:8
-                            \set ViolaMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                             r4
                             ^ \markup {
                                 \column
@@ -1030,11 +1030,11 @@
                                 #10 %! TEMPLATE_INSTRUMENT:4
                                 Vc. %! TEMPLATE_INSTRUMENT:4
                             } %! TEMPLATE_INSTRUMENT:4
+                        \set CelloMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                         \clef "bass" %! TEMPLATE_CLEF:10
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:7
                         %%% \override CelloMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:8
-                        \set CelloMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                         R1 * 3/4
                         ^ \markup {
                             \column
