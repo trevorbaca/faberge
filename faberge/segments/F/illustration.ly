@@ -306,13 +306,40 @@
                 \mark #6
                 \bar "" %! EMPTY_START_BAR:1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! SEGMENT:SPACING:4
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! SEGMENT:SPACING:6
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME_MARKUP:3
-                    %%% \fontsize %! CLOCK_TIME_MARKUP:3
-                        %%% #-2 %! CLOCK_TIME_MARKUP:3
-                        %%% 14'51'' %! CLOCK_TIME_MARKUP:3
-                    %%% } %! CLOCK_TIME_MARKUP:3
+                ^ \markup {
+                    \column
+                        {
+                            \line %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                { %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                    \with-color %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                        #(x11-color 'blue) %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                        { %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                            \fontsize %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                #-6 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                \general-align %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                    #Y %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                    #DOWN %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                    \note-by-number %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                        #2 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                        #0 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                        #1 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                            \upright %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                { %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                    = %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                    80 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                                } %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                        } %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                                } %! EXPLICIT_METRONOME_MARK_WITH_COLOR:3
+                            %%% \line %! CLOCK_TIME_MARKUP:5
+                                %%% { %! CLOCK_TIME_MARKUP:5
+                                    %%% \fontsize %! CLOCK_TIME_MARKUP:5
+                                        %%% #-2 %! CLOCK_TIME_MARKUP:5
+                                        %%% 14'51'' %! CLOCK_TIME_MARKUP:5
+                                %%% } %! CLOCK_TIME_MARKUP:5
+                        }
+                    }
                 - \markup {
                     \column
                         {
@@ -324,32 +351,32 @@
                                             %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
                                             %%% [F.1] %! STAGE_NUMBER_MARKUP:2
                                 %%% } %! STAGE_NUMBER_MARKUP:2
-                            %%% \line %! SEGMENT:SPACING_MARKUP:5
-                                %%% { %! SEGMENT:SPACING_MARKUP:5
-                                    %%% \with-color %! SEGMENT:SPACING_MARKUP:5
-                                        %%% #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:5
-                                        %%% \fontsize %! SEGMENT:SPACING_MARKUP:5
-                                            %%% #-3 %! SEGMENT:SPACING_MARKUP:5
-                                            %%% (1/16) %! SEGMENT:SPACING_MARKUP:5
-                                %%% } %! SEGMENT:SPACING_MARKUP:5
+                            %%% \line %! SEGMENT:SPACING_MARKUP:7
+                                %%% { %! SEGMENT:SPACING_MARKUP:7
+                                    %%% \with-color %! SEGMENT:SPACING_MARKUP:7
+                                        %%% #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:7
+                                        %%% \fontsize %! SEGMENT:SPACING_MARKUP:7
+                                            %%% #-3 %! SEGMENT:SPACING_MARKUP:7
+                                            %%% (1/16) %! SEGMENT:SPACING_MARKUP:7
+                                %%% } %! SEGMENT:SPACING_MARKUP:7
                         }
                     }
-                ^ \markup {
-                    \fontsize
-                        #-6
-                        \general-align
-                            #Y
-                            #DOWN
-                            \note-by-number
-                                #2
-                                #0
-                                #1
-                    \upright
-                        {
-                            =
-                            80
-                        }
-                    }
+                %%% ^ \markup { %! EXPLICIT_METRONOME_MARK:4
+                %%%     \fontsize %! EXPLICIT_METRONOME_MARK:4
+                %%%         #-6 %! EXPLICIT_METRONOME_MARK:4
+                %%%         \general-align %! EXPLICIT_METRONOME_MARK:4
+                %%%             #Y %! EXPLICIT_METRONOME_MARK:4
+                %%%             #DOWN %! EXPLICIT_METRONOME_MARK:4
+                %%%             \note-by-number %! EXPLICIT_METRONOME_MARK:4
+                %%%                 #2 %! EXPLICIT_METRONOME_MARK:4
+                %%%                 #0 %! EXPLICIT_METRONOME_MARK:4
+                %%%                 #1 %! EXPLICIT_METRONOME_MARK:4
+                %%%     \upright %! EXPLICIT_METRONOME_MARK:4
+                %%%         { %! EXPLICIT_METRONOME_MARK:4
+                %%%             = %! EXPLICIT_METRONOME_MARK:4
+                %%%             80 %! EXPLICIT_METRONOME_MARK:4
+                %%%         } %! EXPLICIT_METRONOME_MARK:4
+                %%%     } %! EXPLICIT_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 430] %%%
                 \time 2/4
