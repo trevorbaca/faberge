@@ -34,56 +34,56 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag Flute
                     \context FluteMusicStaff = "FluteMusicStaff" {
                         \context FluteMusicVoice = "FluteMusicVoice" {
-                            \set FluteMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Flute
-                                }
-                            \set FluteMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Fl.
-                                }
+                            \set FluteMusicStaff.instrumentName = \markup {      %! ST1
+                                \hcenter-in                                      %! ST1
+                                    #16                                          %! ST1
+                                    Flute                                        %! ST1
+                                }                                                %! ST1
+                            \set FluteMusicStaff.shortInstrumentName = \markup { %! ST1
+                                \hcenter-in                                      %! ST1
+                                    #10                                          %! ST1
+                                    Fl.                                          %! ST1
+                                }                                                %! ST1
                             s1
                         }
                     }
                     \tag EnglishHorn
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
                         \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
-                            \set EnglishHornMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    \center-column
-                                        {
-                                            English
-                                            horn
-                                        }
-                                }
-                            \set EnglishHornMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    \line
-                                        {
-                                            Eng.
-                                            hn.
-                                        }
-                                }
+                            \set EnglishHornMusicStaff.instrumentName = \markup {      %! ST1
+                                \hcenter-in                                            %! ST1
+                                    #16                                                %! ST1
+                                    \center-column                                     %! ST1
+                                        {                                              %! ST1
+                                            English                                    %! ST1
+                                            horn                                       %! ST1
+                                        }                                              %! ST1
+                                }                                                      %! ST1
+                            \set EnglishHornMusicStaff.shortInstrumentName = \markup { %! ST1
+                                \hcenter-in                                            %! ST1
+                                    #10                                                %! ST1
+                                    \line                                              %! ST1
+                                        {                                              %! ST1
+                                            Eng.                                       %! ST1
+                                            hn.                                        %! ST1
+                                        }                                              %! ST1
+                                }                                                      %! ST1
                             s1
                         }
                     }
                     \tag Clarinet
                     \context ClarinetMusicStaff = "ClarinetMusicStaff" {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice" {
-                            \set ClarinetMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Clarinet
-                                }
-                            \set ClarinetMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Cl.
-                                }
+                            \set ClarinetMusicStaff.instrumentName = \markup {      %! ST1
+                                \hcenter-in                                         %! ST1
+                                    #16                                             %! ST1
+                                    Clarinet                                        %! ST1
+                                }                                                   %! ST1
+                            \set ClarinetMusicStaff.shortInstrumentName = \markup { %! ST1
+                                \hcenter-in                                         %! ST1
+                                    #10                                             %! ST1
+                                    Cl.                                             %! ST1
+                                }                                                   %! ST1
                             s1
                         }
                     }
@@ -93,22 +93,22 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \context PianoStaffGroup = "PianoStaffGroup" <<
                         \context PianoRHMusicStaff = "PianoRHMusicStaff" {
                             \context PianoRHMusicVoice = "PianoRHMusicVoice" {
-                                \set PianoStaffGroup.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Piano
-                                    }
-                                \set PianoStaffGroup.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Pf.
-                                    }
+                                \set PianoStaffGroup.instrumentName = \markup {      %! ST1
+                                    \hcenter-in                                      %! ST1
+                                        #16                                          %! ST1
+                                        Piano                                        %! ST1
+                                    }                                                %! ST1
+                                \set PianoStaffGroup.shortInstrumentName = \markup { %! ST1
+                                    \hcenter-in                                      %! ST1
+                                        #10                                          %! ST1
+                                        Pf.                                          %! ST1
+                                    }                                                %! ST1
                                 s1
                             }
                         }
                         \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
                             \context PianoLHMusicVoice = "PianoLHMusicVoice" {
-                                \clef "bass"
+                                \clef "bass" %! ST3
                                 s1
                             }
                             \context PianoLHAttackVoice = "PianoLHAttackVoice" {
@@ -119,17 +119,17 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag Percussion
                     \context PercussionMusicStaff = "PercussionMusicStaff" {
                         \context PercussionMusicVoice = "PercussionMusicVoice" {
-                            \set PercussionMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Percussion
-                                }
-                            \set PercussionMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Perc.
-                                }
-                            \clef "treble"
+                            \set PercussionMusicStaff.instrumentName = \markup {      %! ST1
+                                \hcenter-in                                           %! ST1
+                                    #16                                               %! ST1
+                                    Percussion                                        %! ST1
+                                }                                                     %! ST1
+                            \set PercussionMusicStaff.shortInstrumentName = \markup { %! ST1
+                                \hcenter-in                                           %! ST1
+                                    #10                                               %! ST1
+                                    Perc.                                             %! ST1
+                                }                                                     %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -138,50 +138,50 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag Violin
                     \context ViolinMusicStaff = "ViolinMusicStaff" {
                         \context ViolinMusicVoice = "ViolinMusicVoice" {
-                            \set ViolinMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Violin
-                                }
-                            \set ViolinMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Vn.
-                                }
+                            \set ViolinMusicStaff.instrumentName = \markup {      %! ST1
+                                \hcenter-in                                       %! ST1
+                                    #16                                           %! ST1
+                                    Violin                                        %! ST1
+                                }                                                 %! ST1
+                            \set ViolinMusicStaff.shortInstrumentName = \markup { %! ST1
+                                \hcenter-in                                       %! ST1
+                                    #10                                           %! ST1
+                                    Vn.                                           %! ST1
+                                }                                                 %! ST1
                             s1
                         }
                     }
                     \tag Viola
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
-                            \set ViolaMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Viola
-                                }
-                            \set ViolaMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Va.
-                                }
-                            \clef "alto"
+                            \set ViolaMusicStaff.instrumentName = \markup {      %! ST1
+                                \hcenter-in                                      %! ST1
+                                    #16                                          %! ST1
+                                    Viola                                        %! ST1
+                                }                                                %! ST1
+                            \set ViolaMusicStaff.shortInstrumentName = \markup { %! ST1
+                                \hcenter-in                                      %! ST1
+                                    #10                                          %! ST1
+                                    Va.                                          %! ST1
+                                }                                                %! ST1
+                            \clef "alto" %! ST3
                             s1
                         }
                     }
                     \tag Cello
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
-                            \set CelloMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Cello
-                                }
-                            \set CelloMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    Vc.
-                                }
-                            \clef "bass"
+                            \set CelloMusicStaff.instrumentName = \markup {      %! ST1
+                                \hcenter-in                                      %! ST1
+                                    #16                                          %! ST1
+                                    Cello                                        %! ST1
+                                }                                                %! ST1
+                            \set CelloMusicStaff.shortInstrumentName = \markup { %! ST1
+                                \hcenter-in                                      %! ST1
+                                    #10                                          %! ST1
+                                    Vc.                                          %! ST1
+                                }                                                %! ST1
+                            \clef "bass" %! ST3
                             s1
                         }
                     }
