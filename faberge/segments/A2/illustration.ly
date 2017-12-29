@@ -5566,8 +5566,9 @@
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         af'8.
-                        \f                                                               %! IC
+                        \f                                                               %! REDUNDANT_DYNAMIC:SM8
                         \startTrillSpan
                         
                         r16
@@ -5777,8 +5778,9 @@
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'8.
-                        \ff                                                              %! IC
+                        \ff                                                              %! EXPLICIT_DYNAMIC:SM8
                         \startTrillSpan
                         
                         % EnglishHornMusicVoice [measure 120]                            %! SM4
@@ -5826,8 +5828,9 @@
                         \stopTrillSpan
                         
                         % EnglishHornMusicVoice [measure 127]                            %! SM4
+                        \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bf'2.
-                        \fff                                                             %! IC
+                        \fff                                                             %! EXPLICIT_DYNAMIC:SM8
                         \startTrillSpan
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
@@ -5859,8 +5862,9 @@
                         \repeatTie
                         
                         % EnglishHornMusicVoice [measure 133]                            %! SM4
+                        \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         b'2.
-                        \fff                                                             %! IC
+                        \fff                                                             %! REDUNDANT_DYNAMIC:SM8
                         \stopTrillSpan
                         \startTrillSpan
                         ^ \markup {                                                      %! IC
@@ -6275,13 +6279,14 @@
                         }
                         
                         % EnglishHornMusicVoice [measure 157]                            %! SM4
-                        \stopStaff                                                       %! IC
-                        \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC
-                        \startStaff                                                      %! IC
+                        \stopStaff                                                       %! REDUNDANT_STAFF_LINES:SM8
+                        \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES:SM8
+                        \startStaff                                                      %! REDUNDANT_STAFF_LINES:SM8
                         \set EnglishHornMusicStaff.forceClef = ##t                       %! REDUNDANT_CLEF:SM8
                         \clef "percussion"                                               %! REDUNDANT_CLEF:SM8
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:SM6
                         %%% \override EnglishHornMusicStaff.Clef.color = ##f             %! REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         r2.
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
@@ -7878,6 +7883,7 @@
                         R1 * 3/4
                         
                         % PercussionMusicVoice [measure 119]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2
                         :32                                                              %! IC
                         \<
@@ -7894,6 +7900,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 121]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2.
                         :32                                                              %! IC
                         \repeatTie
@@ -7911,6 +7918,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 124]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2.
                         :32                                                              %! IC
                         \repeatTie
@@ -7923,6 +7931,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 126]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2
                         :32                                                              %! IC
                         \repeatTie
@@ -7940,6 +7949,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 129]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2
                         :32                                                              %! IC
                         \repeatTie
@@ -7952,6 +7962,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 131]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,1
                         :32                                                              %! IC
                         \repeatTie
@@ -7969,6 +7980,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 134]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,1
                         :32                                                              %! IC
                         \repeatTie
@@ -7981,6 +7993,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 136]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,1
                         :32                                                              %! IC
                         \repeatTie
@@ -7998,6 +8011,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 139]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2
                         :32                                                              %! IC
                         \repeatTie
@@ -8010,6 +8024,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 141]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,1
                         :32                                                              %! IC
                         \repeatTie
@@ -8027,6 +8042,7 @@
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 144]                             %! SM4
+                        \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2
                         :32                                                              %! IC
                         \repeatTie
@@ -8119,13 +8135,14 @@
                         r1
                         
                         % PercussionMusicVoice [measure 165]                             %! SM4
-                        \stopStaff                                                       %! IC
-                        \once \override PercussionMusicStaff.StaffSymbol.line-count = 2  %! IC
-                        \startStaff                                                      %! IC
+                        \stopStaff                                                       %! REDUNDANT_STAFF_LINES:SM8
+                        \once \override PercussionMusicStaff.StaffSymbol.line-count = 2  %! REDUNDANT_STAFF_LINES:SM8
+                        \startStaff                                                      %! REDUNDANT_STAFF_LINES:SM8
                         \set PercussionMusicStaff.forceClef = ##t                        %! EXPLICIT_CLEF:SM8
                         \clef "percussion"                                               %! EXPLICIT_CLEF:SM8
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override PercussionMusicStaff.Clef.color = ##f              %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         b1
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
@@ -9492,8 +9509,9 @@
                         
                         % ViolinMusicVoice [measure 119]                                 %! SM4
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         eqf'2
-                        \ppp                                                             %! IC
+                        \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -9625,9 +9643,9 @@
                         \times 5/6 {
                             
                             % ViolinMusicVoice [measure 149]                             %! SM4
-                            \stopStaff                                                   %! IC
-                            \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! IC
-                            \startStaff                                                  %! IC
+                            \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
+                            \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! EXPLICIT_STAFF_LINES:SM8
+                            \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -9637,6 +9655,7 @@
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                             %%% \override ViolinMusicStaff.Clef.color = ##f              %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                            \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                             c'8
                             -\staccato                                                   %! IC
                             \<
@@ -12808,8 +12827,9 @@
                         
                         % ViolaMusicVoice [measure 119]                                  %! SM4
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         g2
-                        \pp                                                              %! IC
+                        \pp                                                              %! REDUNDANT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -12941,9 +12961,9 @@
                         \times 3/4 {
                             
                             % ViolaMusicVoice [measure 149]                              %! SM4
-                            \stopStaff                                                   %! IC
-                            \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! IC
-                            \startStaff                                                  %! IC
+                            \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
+                            \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! EXPLICIT_STAFF_LINES:SM8
+                            \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -12953,6 +12973,7 @@
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                             %%% \override ViolaMusicStaff.Clef.color = ##f               %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                            \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                             b8
                             -\staccato                                                   %! IC
                             \<
@@ -15917,9 +15938,9 @@
                         \times 10/11 {
                             
                             % CelloMusicVoice [measure 157]                              %! SM4
-                            \stopStaff                                                   %! IC
-                            \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! IC
-                            \startStaff                                                  %! IC
+                            \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
+                            \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! EXPLICIT_STAFF_LINES:SM8
+                            \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -15929,9 +15950,11 @@
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                             %%% \override CelloMusicStaff.Clef.color = ##f               %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                             d'8
                             -\staccato                                                   %! IC
-                            \mf                                                          %! IC
+                            \mf                                                          %! EXPLICIT_DYNAMIC:SM8
                             \stopTextSpan
                             [
                             ^ \markup {

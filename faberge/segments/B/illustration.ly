@@ -4836,15 +4836,16 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 231]                        %! SM4
-                            \stopStaff                                                   %! IC
-                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC
-                            \startStaff                                                  %! IC
+                            \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
+                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES:SM8
+                            \startStaff                                                  %! REDUNDANT_STAFF_LINES:SM8
                             \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
                             \set EnglishHornMusicStaff.forceClef = ##t                   %! REDUNDANT_CLEF:SM8
                             \clef "percussion"                                           %! REDUNDANT_CLEF:SM8
                             \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:SM6
                             %%% \override EnglishHornMusicStaff.Clef.color = ##f         %! REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
+                            \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
