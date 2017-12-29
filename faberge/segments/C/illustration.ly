@@ -2341,9 +2341,10 @@
                             R1 * 5/12
                             
                             % PianoLHAttackVoice [measure 280]                           %! SM4
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,16
                             -\marcato                                                    %! IC
-                            \sfz                                                         %! IC
+                            \sfz                                                         %! EXPLICIT_DYNAMIC:SM8
                             
                             s1
                             
@@ -2362,9 +2363,10 @@
                             R1 * 5/12
                             
                             % PianoLHAttackVoice [measure 285]                           %! SM4
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             cs,16
                             -\marcato                                                    %! IC
-                            \sfz                                                         %! IC
+                            \sfz                                                         %! REDUNDANT_DYNAMIC:SM8
                             
                             s2
                             

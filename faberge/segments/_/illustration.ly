@@ -434,15 +434,16 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 3]                          %! SM4
-                            \stopStaff                                                   %! IC
-                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC
-                            \startStaff                                                  %! IC
+                            \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
+                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! EXPLICIT_STAFF_LINES:SM8
+                            \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
                             \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
                             \set EnglishHornMusicStaff.forceClef = ##t                   %! EXPLICIT_CLEF:SM8
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                             %%% \override EnglishHornMusicStaff.Clef.color = ##f         %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                            \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                             c'16 * 187/32
                             [
                             ^ \markup {                                                  %! IC
