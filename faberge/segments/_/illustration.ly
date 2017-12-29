@@ -430,25 +430,25 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 3]                          %! SM4
-                            \stopStaff                                                   %! IC1
-                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC1
-                            \startStaff                                                  %! IC1
+                            \stopStaff                                                   %! IC
+                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC
+                            \startStaff                                                  %! IC
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \set EnglishHornMusicStaff.forceClef = ##t                   %! EXPLICIT_CLEF:SM8
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                             %%% \override EnglishHornMusicStaff.Clef.color = ##f         %! EXPLICIT_CLEF_UNCOLOR:SM7
                             c'16 * 187/32
                             [
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        \override                                        %! IC1
-                                            #'(box-padding . 0.5)                        %! IC1
-                                            \box                                         %! IC1
-                                                ratchet                                  %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        \override                                        %! IC
+                                            #'(box-padding . 0.5)                        %! IC
+                                            \box                                         %! IC
+                                                ratchet                                  %! IC
+                                }                                                        %! IC
                             \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                             
                             c'16 * 139/32
@@ -459,7 +459,7 @@
                             
                             c'16 * 71/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             c'16 * 63/64
                             ]
                         }
@@ -794,12 +794,12 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    spazzolato                           %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    spazzolato                           %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -842,18 +842,18 @@
                                         }                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    f                                                    %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    f                                                    %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         \set ViolinMusicStaff.instrumentName = \markup {                 %! DEFAULT_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! DEFAULT_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! DEFAULT_REDRAW_INSTRUMENT:SM8
@@ -985,23 +985,23 @@
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'violet)  %! DEFAULT_CLEF_COLOR_REDRAW:SM6
                             
                             e'8
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        spazzolato                                       %! IC1
-                                }                                                        %! IC1
-                            _ \markup {                                                  %! IC1
-                                \larger                                                  %! IC1
-                                    \italic                                              %! IC1
-                                        “                                                %! IC1
-                                \dynamic                                                 %! IC1
-                                    \override                                            %! IC1
-                                        #'(font-name . #f)                               %! IC1
-                                        f                                                %! IC1
-                                \larger                                                  %! IC1
-                                    \italic                                              %! IC1
-                                        ”                                                %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        spazzolato                                       %! IC
+                                }                                                        %! IC
+                            _ \markup {                                                  %! IC
+                                \larger                                                  %! IC
+                                    \italic                                              %! IC
+                                        “                                                %! IC
+                                \dynamic                                                 %! IC
+                                    \override                                            %! IC
+                                        #'(font-name . #f)                               %! IC
+                                        f                                                %! IC
+                                \larger                                                  %! IC
+                                    \italic                                              %! IC
+                                        ”                                                %! IC
+                                }                                                        %! IC
                         }
                         \times 2/3 {
                             

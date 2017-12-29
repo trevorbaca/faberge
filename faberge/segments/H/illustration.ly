@@ -2838,8 +2838,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 598]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -2865,7 +2865,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 3/2
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -2912,8 +2912,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 600]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -2939,7 +2939,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 3/2
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -2986,8 +2986,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 602]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3013,7 +3013,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 3/2
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3060,8 +3060,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 604]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3087,7 +3087,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 3/2
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3134,8 +3134,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 606]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3161,7 +3161,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 3/2
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3208,8 +3208,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 608]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3235,7 +3235,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 3/2
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24

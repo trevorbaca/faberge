@@ -2506,15 +2506,15 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "match sound of crotales" %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "match sound of crotales" %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -3710,7 +3710,7 @@
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         b'8.
-                        \f                                                               %! IC1
+                        \f                                                               %! IC
                         \startTrillSpan
                         
                         % EnglishHornMusicVoice [measure 18]                             %! SM4
@@ -3784,7 +3784,7 @@
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         cs''8.
-                        \f                                                               %! IC1
+                        \f                                                               %! IC
                         \startTrillSpan
                         
                         r16
@@ -3868,7 +3868,7 @@
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         ds''4..
-                        \f                                                               %! IC1
+                        \f                                                               %! IC
                         \startTrillSpan
                         
                         % EnglishHornMusicVoice [measure 46]                             %! SM4
@@ -3948,7 +3948,7 @@
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         es''4..
-                        \f                                                               %! IC1
+                        \f                                                               %! IC
                         \startTrillSpan
                         
                         % EnglishHornMusicVoice [measure 62]                             %! SM4
@@ -4041,18 +4041,18 @@
                             
                             r16
                             
-                            \override NoteHead.style = #'cross
+                            \override NoteHead.style = #'cross                           %! OC
                             fqs'16
-                            \f                                                           %! IC1
+                            \f                                                           %! IC
                             [
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        \override                                        %! IC1
-                                            #'(box-padding . 0.5)                        %! IC1
-                                            \box                                         %! IC1
-                                                keynoise                                 %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        \override                                        %! IC
+                                            #'(box-padding . 0.5)                        %! IC
+                                            \box                                         %! IC
+                                                keynoise                                 %! IC
+                                }                                                        %! IC
                             
                             f'16
                             
@@ -4225,7 +4225,7 @@
                             r4
                             
                             cs'8
-                            \revert NoteHead.style
+                            \revert NoteHead.style                                       %! OC
                         }
                         
                         % EnglishHornMusicVoice [measure 93]                             %! SM4
@@ -4235,7 +4235,7 @@
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         g'4..
-                        \f                                                               %! IC1
+                        \f                                                               %! IC
                         \startTrillSpan
                         
                         % EnglishHornMusicVoice [measure 94]                             %! SM4
@@ -4349,14 +4349,14 @@
                             \once \override Hairpin.circled-tip = ##t
                             gs'''8
                             \<
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        \override                                        %! IC1
-                                            #'(box-padding . 0.5)                        %! IC1
-                                            \box                                         %! IC1
-                                                "match sound of crotales"                %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        \override                                        %! IC
+                                            #'(box-padding . 0.5)                        %! IC
+                                            \box                                         %! IC
+                                                "match sound of crotales"                %! IC
+                                }                                                        %! IC
                             
                             r2
                             \f
@@ -5183,7 +5183,7 @@
                         \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                             
                             % PianoRHMusicVoice [measure 5]                              %! SM4
-                            \override NoteHead.style = #'harmonic
+                            \override NoteHead.style = #'harmonic                        %! OC
                             \set PianoStaffGroup.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -5199,19 +5199,19 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                \column                  %! IC1
-                                                                    {                    %! IC1
-                                                                        "depress silently;" %! IC1
-                                                                        "sustain with middle pedal" %! IC1
-                                                                    }                    %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                \column                  %! IC
+                                                                    {                    %! IC
+                                                                        "depress silently;" %! IC
+                                                                        "sustain with middle pedal" %! IC
+                                                                    }                    %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -5613,7 +5613,7 @@
                             % PianoRHMusicVoice [measure 92]                             %! SM4
                             <d' e' fs' c'' d''>1
                             \repeatTie
-                            \revert NoteHead.style
+                            \revert NoteHead.style                                       %! OC
                             
                             % PianoRHMusicVoice [measure 93]                             %! SM4
                             R1 * 3/4
@@ -5925,7 +5925,7 @@
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC1
+                            -\sfz                                                        %! IC
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -5981,7 +5981,7 @@
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC1
+                            -\sfz                                                        %! IC
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6043,7 +6043,7 @@
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC1
+                            -\sfz                                                        %! IC
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6103,7 +6103,7 @@
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC1
+                            -\sfz                                                        %! IC
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6171,7 +6171,7 @@
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC1
+                            -\sfz                                                        %! IC
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6375,16 +6375,16 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        \override                                        %! IC1
-                                            #'(box-padding . 0.5)                        %! IC1
-                                            \box                                         %! IC1
-                                                "BOWED CROTALES"                         %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        \override                                        %! IC
+                                            #'(box-padding . 0.5)                        %! IC
+                                            \box                                         %! IC
+                                                "BOWED CROTALES"                         %! IC
+                                }                                                        %! IC
                             
                             r8
                             \f
@@ -6400,7 +6400,7 @@
                             % PercussionMusicVoice [measure 7]                           %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2.
@@ -6411,7 +6411,7 @@
                             % PercussionMusicVoice [measure 8]                           %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -6422,7 +6422,7 @@
                             % PercussionMusicVoice [measure 9]                           %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2
@@ -6443,7 +6443,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6456,7 +6456,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -6469,7 +6469,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6490,7 +6490,7 @@
                             % PercussionMusicVoice [measure 16]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -6504,7 +6504,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -6516,7 +6516,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2
@@ -6531,7 +6531,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -6542,7 +6542,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2.
@@ -6556,7 +6556,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -6578,7 +6578,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2
@@ -6594,7 +6594,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6609,7 +6609,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -6620,7 +6620,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -6639,7 +6639,7 @@
                             % PercussionMusicVoice [measure 30]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2
@@ -6649,7 +6649,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6663,7 +6663,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -6684,7 +6684,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -6700,7 +6700,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -6708,7 +6708,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -6727,7 +6727,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6739,7 +6739,7 @@
                             % PercussionMusicVoice [measure 39]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2.
@@ -6755,7 +6755,7 @@
                             % PercussionMusicVoice [measure 41]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2
@@ -6775,7 +6775,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -6788,7 +6788,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6802,7 +6802,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6815,7 +6815,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -6826,7 +6826,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -6840,7 +6840,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -6853,7 +6853,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2.
@@ -6866,7 +6866,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6880,7 +6880,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -6896,7 +6896,7 @@
                             % PercussionMusicVoice [measure 53]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -6904,7 +6904,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6917,7 +6917,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6931,7 +6931,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -6947,7 +6947,7 @@
                             % PercussionMusicVoice [measure 57]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -6955,7 +6955,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6974,7 +6974,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -6987,7 +6987,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2
@@ -6995,7 +6995,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             f'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7009,7 +7009,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -7017,7 +7017,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -7031,7 +7031,7 @@
                             % PercussionMusicVoice [measure 63]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7039,7 +7039,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7047,7 +7047,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7060,7 +7060,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -7074,7 +7074,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7085,7 +7085,7 @@
                             % PercussionMusicVoice [measure 66]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r2
@@ -7095,7 +7095,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7133,7 +7133,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7147,7 +7147,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7158,7 +7158,7 @@
                             % PercussionMusicVoice [measure 77]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7166,7 +7166,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7177,7 +7177,7 @@
                             % PercussionMusicVoice [measure 78]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -7185,7 +7185,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7193,7 +7193,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -7205,7 +7205,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7218,7 +7218,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7229,7 +7229,7 @@
                             % PercussionMusicVoice [measure 81]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7237,7 +7237,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7256,7 +7256,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -7264,7 +7264,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         {
@@ -7275,7 +7275,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -7283,7 +7283,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -7293,9 +7293,9 @@
                         }
                         
                         % PercussionMusicVoice [measure 85]                              %! SM4
-                        \stopStaff                                                       %! IC1
-                        \once \override PercussionMusicStaff.StaffSymbol.line-count = 2  %! IC1
-                        \startStaff                                                      %! IC1
+                        \stopStaff                                                       %! IC
+                        \once \override PercussionMusicStaff.StaffSymbol.line-count = 2  %! IC
+                        \startStaff                                                      %! IC
                         \set PercussionMusicStaff.forceClef = ##t                        %! EXPLICIT_CLEF:SM8
                         \clef "percussion"                                               %! EXPLICIT_CLEF:SM8
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
@@ -7316,38 +7316,38 @@
                         r4
                         
                         d'2
-                        -\accent                                                         %! IC1
-                        \ff                                                              %! IC1
+                        -\accent                                                         %! IC
+                        \ff                                                              %! IC
                         \startTrillSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    \override                                            %! IC1
-                                        #'(box-padding . 0.5)                            %! IC1
-                                        \box                                             %! IC1
-                                            castanets                                    %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    \override                                            %! IC
+                                        #'(box-padding . 0.5)                            %! IC
+                                        \box                                             %! IC
+                                            castanets                                    %! IC
+                            }                                                            %! IC
                         
                         % PercussionMusicVoice [measure 90]                              %! SM4
                         r16
                         \stopTrillSpan
                         
                         d'2...
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \startTrillSpan
                         
                         % PercussionMusicVoice [measure 91]                              %! SM4
                         b2.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    \override                                            %! IC1
-                                        #'(box-padding . 0.5)                            %! IC1
-                                        \box                                             %! IC1
-                                            "bass drum"                                  %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    \override                                            %! IC
+                                        #'(box-padding . 0.5)                            %! IC
+                                        \box                                             %! IC
+                                            "bass drum"                                  %! IC
+                            }                                                            %! IC
                         
                         % PercussionMusicVoice [measure 92]                              %! SM4
                         r1
@@ -7364,23 +7364,23 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        \override                                        %! IC1
-                                            #'(box-padding . 0.5)                        %! IC1
-                                            \box                                         %! IC1
-                                                "bowed crotales"                         %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        \override                                        %! IC
+                                            #'(box-padding . 0.5)                        %! IC
+                                            \box                                         %! IC
+                                                "bowed crotales"                         %! IC
+                                }                                                        %! IC
                             
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -7392,7 +7392,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7403,7 +7403,7 @@
                             % PercussionMusicVoice [measure 95]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7411,7 +7411,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r8
@@ -7424,7 +7424,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4.
@@ -7432,7 +7432,7 @@
                             
                             \once \override Hairpin.circled-tip = ##t
                             fs'8
-                            -\laissezVibrer                                              %! IC1
+                            -\laissezVibrer                                              %! IC
                             \<
                             
                             r4
@@ -7521,14 +7521,14 @@
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8
                             \<
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        \override                                        %! IC1
-                                            #'(box-padding . 0.5)                        %! IC1
-                                            \box                                         %! IC1
-                                                "match sound of crotales"                %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        \override                                        %! IC
+                                            #'(box-padding . 0.5)                        %! IC
+                                            \box                                         %! IC
+                                                "match sound of crotales"                %! IC
+                                }                                                        %! IC
                             
                             r4
                             \f
@@ -8253,30 +8253,30 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    spazz.                               %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    spazz.                               %! IC
+                                        }                                                %! IC
                                     \line                                                %! SM14
                                         {                                                %! SM14
                                             @                                            %! SM14
                                         }                                                %! SM14
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    f                                                    %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    f                                                    %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -8710,11 +8710,11 @@
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8
                             \<
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "non spazz."                                     %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "non spazz."                                     %! IC
+                                }                                                        %! IC
                             
                             r4
                             \p
@@ -8879,30 +8879,30 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    spazz.                               %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    spazz.                               %! IC
+                                        }                                                %! IC
                                     \line                                                %! SM14
                                         {                                                %! SM14
                                             @                                            %! SM14
                                         }                                                %! SM14
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    f                                                    %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    f                                                    %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -9239,11 +9239,11 @@
                             \once \override Hairpin.circled-tip = ##t
                             fs'''8
                             \<
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "non spazz."                                     %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "non spazz."                                     %! IC
+                                }                                                        %! IC
                             
                             r4
                             \f
@@ -9353,18 +9353,18 @@
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_UNCOLOR:SM7
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         d2.
-                        :32                                                              %! IC1
-                        \mp                                                              %! IC1
+                        :32                                                              %! IC
+                        \mp                                                              %! IC
                         \startTextSpan
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "XFB sempre"                         %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "XFB sempre"                         %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -9422,57 +9422,57 @@
                         
                         % ViolaMusicVoice [measure 6]                                    %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 7]                                    %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 8]                                    %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 9]                                    %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 10]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 11]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 12]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 13]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 14]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 15]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 16]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 17]                                   %! SM4
@@ -9497,8 +9497,8 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2.
-                        :32                                                              %! IC1
-                        \pp                                                              %! IC1
+                        :32                                                              %! IC
+                        \pp                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         \startTextSpan
@@ -9506,17 +9506,17 @@
                         
                         % ViolaMusicVoice [measure 18]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 19]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 20]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 21]                                   %! SM4
@@ -9541,7 +9541,7 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         \<
@@ -9551,48 +9551,48 @@
                         
                         % ViolaMusicVoice [measure 22]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 23]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 24]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 25]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 26]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 27]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \mp
                         
                         % ViolaMusicVoice [measure 28]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 29]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 30]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 31]                                   %! SM4
@@ -9617,8 +9617,8 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d1
-                        :32                                                              %! IC1
-                        \pp                                                              %! IC1
+                        :32                                                              %! IC
+                        \pp                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         \startTextSpan
@@ -9626,17 +9626,17 @@
                         
                         % ViolaMusicVoice [measure 32]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 33]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 34]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 35]                                   %! SM4
@@ -9661,7 +9661,7 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         \<
@@ -9671,48 +9671,48 @@
                         
                         % ViolaMusicVoice [measure 36]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 37]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 38]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 39]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 40]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 41]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \mp
                         
                         % ViolaMusicVoice [measure 42]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 43]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 44]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 45]                                   %! SM4
@@ -9737,8 +9737,8 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2.
-                        :32                                                              %! IC1
-                        \pp                                                              %! IC1
+                        :32                                                              %! IC
+                        \pp                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         \startTextSpan
@@ -9746,27 +9746,27 @@
                         
                         % ViolaMusicVoice [measure 46]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 47]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 48]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 49]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 50]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 51]                                   %! SM4
@@ -9791,7 +9791,7 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         \<
@@ -9801,48 +9801,48 @@
                         
                         % ViolaMusicVoice [measure 52]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 53]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 54]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 55]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 56]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 57]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \mp
                         
                         % ViolaMusicVoice [measure 58]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 59]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 60]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 61]                                   %! SM4
@@ -9867,8 +9867,8 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d2.
-                        :32                                                              %! IC1
-                        \pp                                                              %! IC1
+                        :32                                                              %! IC
+                        \pp                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         \startTextSpan
@@ -9876,27 +9876,27 @@
                         
                         % ViolaMusicVoice [measure 62]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 63]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 64]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 65]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 66]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \times 2/3 {
                             
@@ -9918,30 +9918,30 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        spazz.                           %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        spazz.                           %! IC
+                                            }                                            %! IC
                                         \line                                            %! SM14
                                             {                                            %! SM14
                                                 @                                        %! SM14
                                             }                                            %! SM14
                                     }
                                 }
-                            _ \markup {                                                  %! IC1
-                                \larger                                                  %! IC1
-                                    \italic                                              %! IC1
-                                        “                                                %! IC1
-                                \dynamic                                                 %! IC1
-                                    \override                                            %! IC1
-                                        #'(font-name . #f)                               %! IC1
-                                        f                                                %! IC1
-                                \larger                                                  %! IC1
-                                    \italic                                              %! IC1
-                                        ”                                                %! IC1
-                                }                                                        %! IC1
+                            _ \markup {                                                  %! IC
+                                \larger                                                  %! IC
+                                    \italic                                              %! IC
+                                        “                                                %! IC
+                                \dynamic                                                 %! IC
+                                    \override                                            %! IC
+                                        #'(font-name . #f)                               %! IC
+                                        f                                                %! IC
+                                \larger                                                  %! IC
+                                    \italic                                              %! IC
+                                        ”                                                %! IC
+                                }                                                        %! IC
                         }
                         \times 2/3 {
                             
@@ -10278,60 +10278,60 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \<
                         \pp
                         \startTextSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    XFB                                                  %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    XFB                                                  %! IC
+                            }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 76]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 77]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 78]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 79]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 80]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 81]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \mp
                         
                         % ViolaMusicVoice [measure 82]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 83]                                   %! SM4
                         d2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 84]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -10352,30 +10352,30 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        spazz.                           %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        spazz.                           %! IC
+                                            }                                            %! IC
                                         \line                                            %! SM14
                                             {                                            %! SM14
                                                 @                                        %! SM14
                                             }                                            %! SM14
                                     }
                                 }
-                            _ \markup {                                                  %! IC1
-                                \larger                                                  %! IC1
-                                    \italic                                              %! IC1
-                                        “                                                %! IC1
-                                \dynamic                                                 %! IC1
-                                    \override                                            %! IC1
-                                        #'(font-name . #f)                               %! IC1
-                                        f                                                %! IC1
-                                \larger                                                  %! IC1
-                                    \italic                                              %! IC1
-                                        ”                                                %! IC1
-                                }                                                        %! IC1
+                            _ \markup {                                                  %! IC
+                                \larger                                                  %! IC
+                                    \italic                                              %! IC
+                                        “                                                %! IC
+                                \dynamic                                                 %! IC
+                                    \override                                            %! IC
+                                        #'(font-name . #f)                               %! IC
+                                        f                                                %! IC
+                                \larger                                                  %! IC
+                                    \italic                                              %! IC
+                                        ”                                                %! IC
+                                }                                                        %! IC
                             
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
@@ -10688,28 +10688,28 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         d2.
-                        :32                                                              %! IC1
-                        \pp                                                              %! IC1
+                        :32                                                              %! IC
+                        \pp                                                              %! IC
                         \startTextSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    XFB                                                  %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    XFB                                                  %! IC
+                            }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 94]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 95]                                   %! SM4
                         d2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 96]                                   %! SM4
                         d1
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -11135,13 +11135,13 @@
                         
                         % CelloMusicVoice [measure 67]                                   %! SM4
                         d,2.
-                        \ppp                                                             %! IC1
+                        \ppp                                                             %! IC
                         \repeatTie
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "(poco pont.+) sub. non vib."                        %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "(poco pont.+) sub. non vib."                        %! IC
+                            }                                                            %! IC
                         
                         % CelloMusicVoice [measure 68]                                   %! SM4
                         d,1

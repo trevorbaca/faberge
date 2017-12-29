@@ -1833,7 +1833,7 @@
                             R1 * 5/12
                             
                             % PianoRHMusicVoice [measure 280]                            %! SM4
-                            \override NoteHead.style = #'harmonic
+                            \override NoteHead.style = #'harmonic                        %! OC
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -2037,7 +2037,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             c'1
                             \repeatTie
-                            \revert NoteHead.style
+                            \revert NoteHead.style                                       %! OC
                             
                             % PianoRHMusicVoice [measure 298]                            %! SM4
                             R1 * 7/4
@@ -2077,7 +2077,7 @@
                             R1 * 5/12
                             
                             % PianoLHMusicVoice [measure 280]                            %! SM4
-                            \override NoteHead.style = #'harmonic
+                            \override NoteHead.style = #'harmonic                        %! OC
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -2281,7 +2281,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             c'1
                             \repeatTie
-                            \revert NoteHead.style
+                            \revert NoteHead.style                                       %! OC
                             
                             % PianoLHMusicVoice [measure 298]                            %! SM4
                             R1 * 7/4
@@ -2315,8 +2315,8 @@
                             
                             % PianoLHAttackVoice [measure 280]                           %! SM4
                             cs,16
-                            -\marcato                                                    %! IC1
-                            \sfz                                                         %! IC1
+                            -\marcato                                                    %! IC
+                            \sfz                                                         %! IC
                             
                             s1
                             
@@ -2336,8 +2336,8 @@
                             
                             % PianoLHAttackVoice [measure 285]                           %! SM4
                             cs,16
-                            -\marcato                                                    %! IC1
-                            \sfz                                                         %! IC1
+                            -\marcato                                                    %! IC
+                            \sfz                                                         %! IC
                             
                             s2
                             
@@ -2566,7 +2566,7 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         c'2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         
                         % PercussionMusicVoice [measure 294]                             %! SM4
                         r1.
@@ -2581,10 +2581,10 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         c'2
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         
                         c'2.
-                        :32                                                              %! IC1
+                        :32                                                              %! IC
                         \repeatTie
                         
                         % PercussionMusicVoice [measure 296]                             %! SM4
