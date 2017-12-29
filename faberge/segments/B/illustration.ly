@@ -4686,14 +4686,14 @@
                         
                         % EnglishHornMusicVoice [measure 226]                            %! SM4
                         r1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    \override                                            %! IC1
-                                        #'(box-padding . 0.5)                            %! IC1
-                                        \box                                             %! IC1
-                                            "remove staple"                              %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    \override                                            %! IC
+                                        #'(box-padding . 0.5)                            %! IC
+                                        \box                                             %! IC
+                                            "remove staple"                              %! IC
+                            }                                                            %! IC
                         
                         % EnglishHornMusicVoice [measure 227]                            %! SM4
                         r1
@@ -4739,11 +4739,11 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 231]                        %! SM4
-                            \stopStaff                                                   %! IC1
-                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC1
-                            \startStaff                                                  %! IC1
+                            \stopStaff                                                   %! IC
+                            \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC
+                            \startStaff                                                  %! IC
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \set EnglishHornMusicStaff.forceClef = ##t                   %! REDUNDANT_CLEF:SM8
                             \clef "percussion"                                           %! REDUNDANT_CLEF:SM8
                             \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:SM6
@@ -4756,14 +4756,14 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 351/64
                             [
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        \override                                        %! IC1
-                                            #'(box-padding . 0.5)                        %! IC1
-                                            \box                                         %! IC1
-                                                ratchet                                  %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        \override                                        %! IC
+                                            #'(box-padding . 0.5)                        %! IC
+                                            \box                                         %! IC
+                                                ratchet                                  %! IC
+                                }                                                        %! IC
                             \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_COLOR_REDRAW:SM6
                             
                             \once \override Accidental.color = #blue                     %! SM24
@@ -4774,7 +4774,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 101/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -4818,8 +4818,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 232]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -4861,7 +4861,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 11/4
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -4908,8 +4908,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 234]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -4951,7 +4951,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 71/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -4995,8 +4995,8 @@
                         \times 1/1 {
                             
                             % EnglishHornMusicVoice [measure 235]                        %! SM4
+                            \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \override Staff.Stem.stemlet-length = #0.75
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -5038,7 +5038,7 @@
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 11/4
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert EnglishHornMusicStaff.Stem.stemlet-length
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
