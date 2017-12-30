@@ -4040,6 +4040,7 @@
                             r16
                             _ #(make-dynamic-script
                                 (markup
+                                    #:whiteout
                                     #:line (
                                         #:general-align Y -2 #:normal-text #:larger "“"
                                         #:hspace -0.1
@@ -5892,17 +5893,6 @@
                             \times 2/3 {
                                 
                                 % PianoRHMusicVoice [measure 177]                        %! SM4
-                                \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
-                                    \hcenter-in                                          %! REAPPLIED_INSTRUMENT:SM8
-                                        #16                                              %! REAPPLIED_INSTRUMENT:SM8
-                                        Piano                                            %! REAPPLIED_INSTRUMENT:SM8
-                                    }                                                    %! REAPPLIED_INSTRUMENT:SM8
-                                \set PianoStaffGroup.shortInstrumentName = \markup {     %! REAPPLIED_INSTRUMENT:SM8
-                                    \hcenter-in                                          %! REAPPLIED_INSTRUMENT:SM8
-                                        #10                                              %! REAPPLIED_INSTRUMENT:SM8
-                                        Pf.                                              %! REAPPLIED_INSTRUMENT:SM8
-                                    }                                                    %! REAPPLIED_INSTRUMENT:SM8
-                                \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override Accidental.color = #blue                 %! SM24
                                 \once \override Beam.color = #blue                       %! SM24
                                 \once \override Dots.color = #blue                       %! SM24
@@ -5911,62 +5901,6 @@
                                 \once \override Stem.color = #blue                       %! SM24
                                 c'8
                                 [
-                                ^ \markup {
-                                    \column
-                                        {
-                                            %%% \line                                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%     {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%         \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%             (“Piano”                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%         \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%             \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                 #16                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                 Piano                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%         \concat                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%             {                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                 \vcenter                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                     \hcenter-in          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                         #10              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                         Pf.              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                 \vcenter                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%                     )                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%             }                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            %%%     }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                            \line                                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                {                                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \with-color                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #(x11-color 'green4)             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        {                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \vcenter                     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                (“Piano”                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \vcenter                     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                \hcenter-in              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    #16                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    Piano                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \concat                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                {                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    \vcenter             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        \hcenter-in      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                            #10          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                            Pf.          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    \vcenter             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        )                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                }                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        }                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                }                                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                        }
-                                    }
-                                \set PianoStaffGroup.instrumentName = \markup {          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    \hcenter-in                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                        #16                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                        Piano                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    }                                                    %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                \set PianoStaffGroup.shortInstrumentName = \markup {     %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    \hcenter-in                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                        #10                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                        Pf.                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    }                                                    %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                \override PianoStaffGroup.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                                 
                                 \once \override Accidental.color = #blue                 %! SM24
                                 \once \override Beam.color = #blue                       %! SM24
@@ -8813,6 +8747,7 @@
                         R1 * 1/2
                         _ #(make-dynamic-script
                             (markup
+                                #:whiteout
                                 #:line (
                                     #:general-align Y -2 #:normal-text #:larger "“"
                                     #:hspace -0.1
@@ -9488,6 +9423,7 @@
                             c'8
                             _ #(make-dynamic-script
                                 (markup
+                                    #:whiteout
                                     #:line (
                                         #:general-align Y -2 #:normal-text #:larger "“"
                                         #:hspace -0.1
