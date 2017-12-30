@@ -1157,28 +1157,17 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         g'1
-                        _ \markup {
-                            \concat
-                                {
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                “
-                                    \hspace
-                                        #0.35
-                                    \vcenter
-                                        \dynamic
-                                            \override
-                                                #'(font-name . #f)
-                                                mf
-                                    \hspace
-                                        #0.1
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                ”
-                                }
-                            }                                                            %! REAPPLIED_DYNAMIC:SM8
+                        _ #(make-dynamic-script
+                            (markup
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mf"
+                                    #:hspace -0.2
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )                                                            %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -2529,28 +2518,17 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         c'1
-                        _ \markup {
-                            \concat
-                                {
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                “
-                                    \hspace
-                                        #0.35
-                                    \vcenter
-                                        \dynamic
-                                            \override
-                                                #'(font-name . #f)
-                                                mf
-                                    \hspace
-                                        #0.1
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                ”
-                                }
-                            }                                                            %! REAPPLIED_DYNAMIC:SM8
+                        _ #(make-dynamic-script
+                            (markup
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mf"
+                                    #:hspace -0.2
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )                                                            %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -2873,28 +2851,17 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         c'1
-                        _ \markup {
-                            \concat
-                                {
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                “
-                                    \hspace
-                                        #0.35
-                                    \vcenter
-                                        \dynamic
-                                            \override
-                                                #'(font-name . #f)
-                                                mf
-                                    \hspace
-                                        #0.1
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                ”
-                                }
-                            }                                                            %! REAPPLIED_DYNAMIC:SM8
+                        _ #(make-dynamic-script
+                            (markup
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mf"
+                                    #:hspace -0.2
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )                                                            %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
