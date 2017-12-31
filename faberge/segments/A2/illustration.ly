@@ -2292,7 +2292,7 @@
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
                         \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''2
                         \<
                         \!
@@ -2593,7 +2593,7 @@
                         r4
                         
                         \once \override Hairpin.circled-tip = ##t
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
                         \>
                         \p
@@ -2610,7 +2610,7 @@
                         \!
                         
                         % FluteMusicVoice [measure 105]                                  %! SM4
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2.
                         \!
                         ^ \markup {
@@ -2640,7 +2640,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
                         \<
                         \!
@@ -2732,7 +2732,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''4
                         \repeatTie
                         \>
@@ -2751,7 +2751,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2.
                         :32                                                              %! IC
                         \<
@@ -3354,7 +3354,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
                         :32                                                              %! IC
                         \repeatTie
@@ -3374,7 +3374,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
                         \<
                         \!
@@ -3484,7 +3484,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''2
                         \repeatTie
                         \>
@@ -3503,7 +3503,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''2
                         \<
                         \!
@@ -3723,7 +3723,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''4
                         \repeatTie
                         \>
@@ -3742,7 +3742,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''2.
                         \<
                         \!
@@ -3936,7 +3936,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'4
                         \repeatTie
                         \>
@@ -3955,7 +3955,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
                         :32                                                              %! IC
                         \<
@@ -4334,7 +4334,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'4
                         :32                                                              %! IC
                         \repeatTie
@@ -4354,7 +4354,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''1
                         \<
                         \!
@@ -4471,7 +4471,7 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
                         \repeatTie
                         \>
@@ -4491,7 +4491,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''2
                         \<
                         \!
@@ -4643,7 +4643,7 @@
                         
                         % FluteMusicVoice [measure 148]                                  %! SM4
                         \once \override Hairpin.circled-tip = ##t
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''4
                         \>
                         \p
@@ -4660,7 +4660,7 @@
                         \!
                         
                         % FluteMusicVoice [measure 149]                                  %! SM4
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''2.
                         \!
                         ^ \markup {
@@ -4690,7 +4690,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''2
                         \<
                         \!
@@ -4991,7 +4991,7 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g''4
                         \repeatTie
                         \>
@@ -5034,7 +5034,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gs''1
                         \<
                         \!
@@ -5175,7 +5175,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gs'4
                         \repeatTie
                         \>
@@ -6463,7 +6463,7 @@
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         f4
                         \<
                         \!
@@ -6725,7 +6725,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         f4
                         
-                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         f\breve.
                         \repeatTie
                         \p
@@ -6749,7 +6749,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         e4
                         
-                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e1.
                         \repeatTie
                         \pp
@@ -6794,7 +6794,7 @@
                         ds4
                         
                         \once \override Hairpin.circled-tip = ##t
-                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ds8.
                         \repeatTie
                         \>
@@ -6830,7 +6830,7 @@
                         
                         % ClarinetMusicVoice [measure 165]                               %! SM4
                         \once \override Hairpin.circled-tip = ##t
-                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d4
                         \<
                         \!
@@ -6853,7 +6853,7 @@
                         \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
-                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d8.
                         \repeatTie
                         \>
@@ -9654,7 +9654,7 @@
                         \repeatTie
                         
                         % ViolinMusicVoice [measure 133]                                 %! SM4
-                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         eqf'2.
                         \repeatTie
                         \ppp
@@ -9740,7 +9740,7 @@
                             \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                             %%% \override ViolinMusicStaff.Clef.color = ##f              %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
-                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'8
                             -\staccato                                                   %! IC
                             \<
@@ -12981,7 +12981,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 133]                                  %! SM4
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g2.
                         \repeatTie
                         \pp
@@ -13067,7 +13067,7 @@
                             \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                             %%% \override ViolaMusicStaff.Clef.color = ##f               %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
-                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b8
                             -\staccato                                                   %! IC
                             \<
@@ -14703,7 +14703,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d'8
                             -\staccato                                                   %! IC
                             \>
@@ -15564,7 +15564,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2.
                         \repeatTie
                         \<
@@ -15750,7 +15750,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,2
                         \repeatTie
                         \>
@@ -15961,7 +15961,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef,\longa..
                             \glissando
                             \p
@@ -16989,7 +16989,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d'8
                             -\staccato                                                   %! IC
                             \>
