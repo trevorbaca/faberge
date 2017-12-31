@@ -3271,6 +3271,7 @@
                                         }                                                %! REAPPLIED_INSTRUMENT:SM8
                                 }                                                        %! REAPPLIED_INSTRUMENT:SM8
                             \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             \once \override Accidental.color = #blue                     %! SM24
                             \once \override Beam.color = #blue                           %! SM24
                             \once \override Dots.color = #blue                           %! SM24
@@ -3278,6 +3279,7 @@
                             \once \override NoteHead.color = #blue                       %! SM24
                             \once \override Stem.color = #blue                           %! SM24
                             c''16
+                            _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -5367,6 +5369,7 @@
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         \once \override Accidental.color = #blue                         %! SM24
                         \once \override Beam.color = #blue                               %! SM24
                         \once \override Dots.color = #blue                               %! SM24
@@ -5374,6 +5377,7 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         d''2
+                        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -8493,7 +8497,9 @@
                         \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                             
                             % PianoLHAttackVoice [measure 177]                           %! SM4
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             R1 * 1/2
+                            \sfz                                                         %! REAPPLIED_DYNAMIC:SM8
                             
                             % PianoLHAttackVoice [measure 178]                           %! SM4
                             R1 * 3/4
@@ -9488,18 +9494,7 @@
                             \once \override NoteHead.color = #blue                       %! SM24
                             \once \override Stem.color = #blue                           %! SM24
                             c'8
-                            _ #(make-dynamic-script
-                                (markup
-                                    #:whiteout
-                                    #:line (
-                                        #:general-align Y -2 #:normal-text #:larger "“"
-                                        #:hspace -0.1
-                                        #:dynamic "mf"
-                                        #:hspace -0.2
-                                        #:general-align Y -2 #:normal-text #:larger "”"
-                                        )
-                                    )
-                                )                                                        %! REAPPLIED_DYNAMIC:SM8
+                            \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -12244,7 +12239,7 @@
                             \once \override NoteHead.color = #blue                       %! SM24
                             \once \override Stem.color = #blue                           %! SM24
                             c'8
-                            \pp                                                          %! REAPPLIED_DYNAMIC:SM8
+                            \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -14893,7 +14888,7 @@
                             \once \override NoteHead.color = #blue                       %! SM24
                             \once \override Stem.color = #blue                           %! SM24
                             c'8
-                            \mf                                                          %! REAPPLIED_DYNAMIC:SM8
+                            \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column

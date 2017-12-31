@@ -2593,8 +2593,10 @@
                                     Fl.                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 }                                                        %! REAPPLIED_INSTRUMENT:SM8
                             \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             ^ \markup {
                                 \column
                                     {
@@ -2661,16 +2663,20 @@
                                 }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                             \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % FluteMusicVoice [measure 6]                                %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r1
                             \f
                         }
@@ -2681,9 +2687,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -2698,9 +2707,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -2711,9 +2723,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -2728,16 +2743,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -2745,9 +2766,12 @@
                             
                             % FluteMusicVoice [measure 13]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
@@ -2758,9 +2782,12 @@
                             
                             % FluteMusicVoice [measure 14]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -2775,9 +2802,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -2793,9 +2823,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -2803,9 +2836,12 @@
                             
                             % FluteMusicVoice [measure 19]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                             
@@ -2815,26 +2851,35 @@
                             
                             % FluteMusicVoice [measure 20]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         {
                             
                             % FluteMusicVoice [measure 21]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \pp
                         }
@@ -2844,9 +2889,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \p
                             
@@ -2858,9 +2906,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mp
                         }
@@ -2871,9 +2922,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mf
                         }
@@ -2886,9 +2940,12 @@
                             
                             % FluteMusicVoice [measure 26]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \mf
                             
@@ -2906,9 +2963,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -2918,9 +2978,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -2930,27 +2993,36 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % FluteMusicVoice [measure 31]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                         }
@@ -2961,9 +3033,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -2982,9 +3057,12 @@
                             
                             % FluteMusicVoice [measure 35]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \p
                         }
@@ -2994,9 +3072,12 @@
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mp
                         }
@@ -3006,9 +3087,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                         }
@@ -3019,30 +3103,39 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % FluteMusicVoice [measure 39]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mf
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % FluteMusicVoice [measure 40]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -3052,9 +3145,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -3067,9 +3163,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -3079,9 +3178,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -3095,26 +3197,35 @@
                             
                             % FluteMusicVoice [measure 45]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         {
                             
                             % FluteMusicVoice [measure 46]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                         }
@@ -3122,27 +3233,36 @@
                             
                             % FluteMusicVoice [measure 47]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % FluteMusicVoice [measure 48]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -3152,9 +3272,12 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -3162,19 +3285,25 @@
                             
                             % FluteMusicVoice [measure 50]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         {
                             
                             % FluteMusicVoice [measure 51]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \pp
                         }
@@ -3183,9 +3312,12 @@
                             
                             % FluteMusicVoice [measure 52]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \p
                         }
@@ -3195,26 +3327,35 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         {
                             
                             % FluteMusicVoice [measure 54]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \mf
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \mf
                             
@@ -3227,16 +3368,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -3251,19 +3398,25 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         {
                             
                             % FluteMusicVoice [measure 58]                               %! SM4
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -3272,9 +3425,12 @@
                             
                             % FluteMusicVoice [measure 59]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -3282,16 +3438,22 @@
                             
                             % FluteMusicVoice [measure 60]                               %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
@@ -3471,9 +3633,12 @@
                         
                         % FluteMusicVoice [measure 85]                                   %! SM4
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs''4
                         \<
+                        \!
                         
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs''4
                         \repeatTie
                         \p
@@ -3507,11 +3672,13 @@
                         \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         fs''8.
                         \repeatTie
                         \>
                         \p
                         
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         r16
                         \!
                         
@@ -3523,8 +3690,10 @@
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         fs''2.
                         \<
+                        \!
                         - \tweak color #red                                              %! SM14
                         ^ \markup { @ }                                                  %! SM14
                         
@@ -3534,6 +3703,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs''2.
                         \repeatTie
                         \p
@@ -3635,6 +3805,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         fs'2.
                         \repeatTie
                         \>
@@ -3642,6 +3813,7 @@
                         - \tweak color #red                                              %! SM14
                         ^ \markup { @ }                                                  %! SM14
                         
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         r4
                         \!
                         
@@ -4445,8 +4617,10 @@
                             \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
@@ -4456,6 +4630,7 @@
                                                 "match sound of crotales"                %! IC
                                 }                                                        %! IC
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -4465,16 +4640,22 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -4485,9 +4666,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -4506,9 +4690,12 @@
                             
                             % ClarinetMusicVoice [measure 10]                            %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -4519,9 +4706,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -4531,19 +4721,25 @@
                             r2..
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ClarinetMusicVoice [measure 13]                            %! SM4
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -4554,9 +4750,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -4566,9 +4765,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
@@ -4584,9 +4786,12 @@
                             
                             % ClarinetMusicVoice [measure 17]                            %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                         }
@@ -4597,19 +4802,25 @@
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ClarinetMusicVoice [measure 19]                            %! SM4
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -4621,9 +4832,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -4634,9 +4848,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \p
                         }
@@ -4646,50 +4863,65 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ClarinetMusicVoice [measure 23]                            %! SM4
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \mf
                             
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % ClarinetMusicVoice [measure 24]                            %! SM4
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \mf
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % ClarinetMusicVoice [measure 25]                            %! SM4
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -4699,9 +4931,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -4719,16 +4954,22 @@
                             
                             % ClarinetMusicVoice [measure 29]                            %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -4744,16 +4985,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -4764,9 +5011,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -4776,9 +5026,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -4794,9 +5047,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \p
                         }
@@ -4811,9 +5067,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \mp
                         }
@@ -4822,9 +5081,12 @@
                             
                             % ClarinetMusicVoice [measure 38]                            %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \mf
                         }
@@ -4835,9 +5097,12 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \mf
                         }
@@ -4847,9 +5112,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -4859,9 +5127,12 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -4872,21 +5143,27 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ClarinetMusicVoice [measure 43]                            %! SM4
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \f
                         }
@@ -4894,16 +5171,22 @@
                             
                             % ClarinetMusicVoice [measure 44]                            %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gs'''8
                             \<
+                            \!
                             
+                            \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -5027,9 +5310,12 @@
                         
                         % ClarinetMusicVoice [measure 51]                                %! SM4
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e4
                         \<
+                        \!
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e1.
                         \repeatTie
                         \p
@@ -5089,20 +5375,25 @@
                         \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         e8.
                         \repeatTie
                         \>
                         \p
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         r16
                         \!
                         
                         % ClarinetMusicVoice [measure 67]                                %! SM4
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         eqs4
                         \<
+                        \!
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         eqs2
                         \repeatTie
                         \ppp
@@ -5136,20 +5427,25 @@
                         \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         eqs8.
                         \repeatTie
                         \>
                         \ppp
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         r16
                         \!
                         
                         % ClarinetMusicVoice [measure 75]                                %! SM4
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         e4
                         \<
+                        \!
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e1.
                         \repeatTie
                         \p
@@ -5185,20 +5481,25 @@
                         \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         e8.
                         \repeatTie
                         \>
                         \p
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         r16
                         \!
                         
                         % ClarinetMusicVoice [measure 85]                                %! SM4
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         eqs4
                         \<
+                        \!
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         eqs4
                         \repeatTie
                         \p
@@ -5232,20 +5533,25 @@
                         \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         eqs8.
                         \repeatTie
                         \>
                         \p
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         r16
                         \!
                         
                         % ClarinetMusicVoice [measure 93]                                %! SM4
                         \once \override Hairpin.circled-tip = ##t
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         e4
                         \<
+                        \!
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e1..
                         \repeatTie
                         \p
@@ -5263,11 +5569,13 @@
                         \repeatTie
                         
                         \once \override Hairpin.circled-tip = ##t
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         eqs8.
                         \repeatTie
                         \>
                         \p
                         
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         r16
                         \!
                         
@@ -6022,8 +6330,9 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC
+                            \sfz                                                         %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6078,8 +6387,9 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC
+                            \sfz                                                         %! REDUNDANT_DYNAMIC:SM8
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6140,8 +6450,9 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC
+                            \sfz                                                         %! REDUNDANT_DYNAMIC:SM8
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6200,8 +6511,9 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC
+                            \sfz                                                         %! REDUNDANT_DYNAMIC:SM8
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6268,8 +6580,9 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             <c, e, g, b,>16
-                            -\sfz                                                        %! IC
+                            \sfz                                                         %! REDUNDANT_DYNAMIC:SM8
                             ^ \markup {
                                 \center-align
                                     \concat
@@ -6472,9 +6785,11 @@
                             \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
@@ -6484,6 +6799,7 @@
                                                 "BOWED CROTALES"                         %! IC
                                 }                                                        %! IC
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -6497,10 +6813,13 @@
                             
                             % PercussionMusicVoice [measure 7]                           %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \f
                         }
@@ -6508,10 +6827,13 @@
                             
                             % PercussionMusicVoice [measure 8]                           %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -6519,10 +6841,13 @@
                             
                             % PercussionMusicVoice [measure 9]                           %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
@@ -6540,10 +6865,13 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -6553,10 +6881,13 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -6566,10 +6897,13 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -6587,10 +6921,13 @@
                             
                             % PercussionMusicVoice [measure 16]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -6601,22 +6938,28 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % PercussionMusicVoice [measure 18]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                         }
@@ -6628,21 +6971,27 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 20]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \pp
                         }
@@ -6653,13 +7002,16 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 22]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r1
                             \p
                         }
@@ -6675,10 +7027,13 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \mp
                         }
@@ -6691,10 +7046,13 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                         }
@@ -6706,24 +7064,30 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 27]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mf
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 28]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \f
                         }
@@ -6736,20 +7100,26 @@
                             
                             % PercussionMusicVoice [measure 30]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -6760,13 +7130,16 @@
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 32]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \pp
                         }
@@ -6781,13 +7154,16 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 35]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \pp
                         }
@@ -6797,18 +7173,24 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \p
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \mp
                         }
@@ -6824,10 +7206,13 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                         }
@@ -6836,10 +7221,13 @@
                             
                             % PercussionMusicVoice [measure 39]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \mf
                         }
@@ -6852,10 +7240,13 @@
                             
                             % PercussionMusicVoice [measure 41]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
@@ -6872,10 +7263,13 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -6885,10 +7279,13 @@
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -6899,10 +7296,13 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -6912,21 +7312,27 @@
                             r2..
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 47]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -6937,10 +7343,13 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -6950,10 +7359,13 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \pp
                         }
@@ -6963,10 +7375,13 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -6977,10 +7392,13 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \p
                         }
@@ -6993,18 +7411,24 @@
                             
                             % PercussionMusicVoice [measure 53]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                         }
@@ -7014,10 +7438,13 @@
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                         }
@@ -7028,10 +7455,13 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -7044,18 +7474,24 @@
                             
                             % PercussionMusicVoice [measure 57]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -7071,10 +7507,13 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -7084,18 +7523,24 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -7106,21 +7551,27 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 62]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                         }
@@ -7128,26 +7579,35 @@
                             
                             % PercussionMusicVoice [measure 63]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -7157,10 +7617,13 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -7171,10 +7634,13 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -7182,20 +7648,26 @@
                             
                             % PercussionMusicVoice [measure 66]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                             
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -7230,10 +7702,13 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \p
                         }
@@ -7244,10 +7719,13 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mp
                         }
@@ -7255,18 +7733,24 @@
                             
                             % PercussionMusicVoice [measure 77]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mf
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                         }
@@ -7274,38 +7758,50 @@
                             
                             % PercussionMusicVoice [measure 78]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % PercussionMusicVoice [measure 79]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -7315,10 +7811,13 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -7326,18 +7825,24 @@
                             
                             % PercussionMusicVoice [measure 81]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -7353,37 +7858,49 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         {
                             
                             % PercussionMusicVoice [measure 84]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
@@ -7463,9 +7980,11 @@
                             \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
@@ -7475,26 +7994,33 @@
                                                 "bowed crotales"                         %! IC
                                 }                                                        %! IC
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % PercussionMusicVoice [measure 94]                          %! SM4
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -7502,18 +8028,24 @@
                             
                             % PercussionMusicVoice [measure 95]                          %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -7523,18 +8055,24 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'8
                             -\laissezVibrer                                              %! IC
                             \<
+                            \!
                             
+                            \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
@@ -7632,8 +8170,10 @@
                             \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
@@ -7643,6 +8183,7 @@
                                                 "match sound of crotales"                %! IC
                                 }                                                        %! IC
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -7652,37 +8193,49 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
                             
                             % ViolinMusicVoice [measure 7]                               %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ViolinMusicVoice [measure 8]                               %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -7703,9 +8256,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -7720,9 +8276,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -7733,21 +8292,27 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ViolinMusicVoice [measure 15]                              %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -7763,9 +8328,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -7776,9 +8344,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                             
@@ -7790,9 +8361,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -7808,9 +8382,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \p
                         }
@@ -7820,9 +8397,12 @@
                             r2.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mp
                         }
@@ -7830,9 +8410,12 @@
                             
                             % ViolinMusicVoice [measure 23]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                             
@@ -7845,9 +8428,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \mf
                             
@@ -7858,16 +8444,22 @@
                             
                             % ViolinMusicVoice [measure 25]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -7877,9 +8469,12 @@
                             r2
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -7887,9 +8482,12 @@
                             
                             % ViolinMusicVoice [measure 27]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                         }
@@ -7906,12 +8504,15 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ViolinMusicVoice [measure 30]                              %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r1
                             \f
                         }
@@ -7924,9 +8525,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -7937,9 +8541,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -7952,9 +8559,12 @@
                             
                             % ViolinMusicVoice [measure 34]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -7969,16 +8579,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \p
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mp
                         }
@@ -7994,9 +8610,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mf
                         }
@@ -8011,12 +8630,15 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ViolinMusicVoice [measure 41]                              %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2.
                             \mf
                         }
@@ -8027,16 +8649,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
@@ -8048,9 +8676,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                         }
@@ -8060,16 +8691,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8080,9 +8717,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -8090,16 +8730,22 @@
                             
                             % ViolinMusicVoice [measure 46]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -8113,16 +8759,22 @@
                             
                             % ViolinMusicVoice [measure 48]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -8132,19 +8784,25 @@
                             r2..
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ViolinMusicVoice [measure 50]                              %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -8160,9 +8818,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \p
                         }
@@ -8172,9 +8833,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mp
                         }
@@ -8184,16 +8848,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mf
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \mf
                         }
@@ -8208,9 +8878,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8220,9 +8893,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8233,20 +8909,26 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
                             % ViolinMusicVoice [measure 59]                              %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8258,9 +8940,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8269,16 +8954,22 @@
                             
                             % ViolinMusicVoice [measure 61]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                         }
@@ -8287,9 +8978,12 @@
                             
                             % ViolinMusicVoice [measure 62]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -8299,16 +8993,22 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -8316,9 +9016,12 @@
                             
                             % ViolinMusicVoice [measure 64]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                         }
@@ -8327,16 +9030,22 @@
                             
                             % ViolinMusicVoice [measure 65]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \pp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \pp
                         }
@@ -8346,9 +9055,12 @@
                             r4.
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \pp
                             
@@ -8361,7 +9073,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'16
                         _ #(make-dynamic-script
                             (markup
@@ -8374,7 +9086,7 @@
                                     #:general-align Y -2 #:normal-text #:larger "”"
                                     )
                                 )
-                            )                                                            %! REDUNDANT_DYNAMIC:SM8
+                            )                                                            %! EXPLICIT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -8822,14 +9534,17 @@
                             
                             % ViolinMusicVoice [measure 75]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "non spazz."                                     %! IC
                                 }                                                        %! IC
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \p
                         }
@@ -8838,16 +9553,22 @@
                             
                             % ViolinMusicVoice [measure 76]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \mp
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \mf
                         }
@@ -8857,33 +9578,45 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \mf
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ViolinMusicVoice [measure 78]                              %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -8892,28 +9625,37 @@
                             
                             % ViolinMusicVoice [measure 79]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r2
                             \f
                             
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                         }
                         {
                             
                             % ViolinMusicVoice [measure 80]                              %! SM4
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8923,9 +9665,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8936,9 +9681,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -8949,9 +9697,12 @@
                             r4
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -8959,23 +9710,32 @@
                             
                             % ViolinMusicVoice [measure 84]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -8988,7 +9748,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
-                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'16
                         _ #(make-dynamic-script
                             (markup
@@ -9001,7 +9761,7 @@
                                     #:general-align Y -2 #:normal-text #:larger "”"
                                     )
                                 )
-                            )                                                            %! REDUNDANT_DYNAMIC:SM8
+                            )                                                            %! EXPLICIT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -9352,21 +10112,27 @@
                             
                             % ViolinMusicVoice [measure 93]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "non spazz."                                     %! IC
                                 }                                                        %! IC
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                         }
@@ -9375,16 +10141,22 @@
                             
                             % ViolinMusicVoice [measure 94]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -9394,9 +10166,12 @@
                             r8
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4
                             \f
                         }
@@ -9404,23 +10179,32 @@
                             
                             % ViolinMusicVoice [measure 96]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r4.
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
                             \once \override Hairpin.circled-tip = ##t
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs'''8
                             \<
+                            \!
                             
+                            \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             r8
                             \f
                             
@@ -9657,6 +10441,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         d2.
                         :32                                                              %! IC
                         \repeatTie
@@ -9692,6 +10477,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 27]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d2
                         :32                                                              %! IC
                         \repeatTie
@@ -9733,10 +10519,10 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d1
                         :32                                                              %! IC
-                        \pp                                                              %! REDUNDANT_DYNAMIC:SM8
+                        \pp                                                              %! EXPLICIT_DYNAMIC:SM8
                         \repeatTie
                         \stopTextSpan
                         \startTextSpan
@@ -9778,6 +10564,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         d2.
                         :32                                                              %! IC
                         \repeatTie
@@ -9813,6 +10600,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 41]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d2.
                         :32                                                              %! IC
                         \repeatTie
@@ -9854,10 +10642,10 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d2.
                         :32                                                              %! IC
-                        \pp                                                              %! REDUNDANT_DYNAMIC:SM8
+                        \pp                                                              %! EXPLICIT_DYNAMIC:SM8
                         \repeatTie
                         \stopTextSpan
                         \startTextSpan
@@ -9909,6 +10697,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         d2.
                         :32                                                              %! IC
                         \repeatTie
@@ -9944,6 +10733,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 57]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d2.
                         :32                                                              %! IC
                         \repeatTie
@@ -9985,10 +10775,10 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d2.
                         :32                                                              %! IC
-                        \pp                                                              %! REDUNDANT_DYNAMIC:SM8
+                        \pp                                                              %! EXPLICIT_DYNAMIC:SM8
                         \repeatTie
                         \stopTextSpan
                         \startTextSpan
@@ -10398,6 +11188,7 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d2
                         :32                                                              %! IC
                         \<
@@ -10435,6 +11226,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 81]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d2
                         :32                                                              %! IC
                         \repeatTie
@@ -10468,7 +11260,7 @@
                             \once \override Dots.color = #red
                             \once \override NoteHead.color = #red
                             \once \override Stem.color = #red
-                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e'8
                             _ #(make-dynamic-script
                                 (markup
@@ -10481,7 +11273,7 @@
                                         #:general-align Y -2 #:normal-text #:larger "”"
                                         )
                                     )
-                                )                                                        %! REDUNDANT_DYNAMIC:SM8
+                                )                                                        %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -10883,6 +11675,7 @@
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2.
                         \<
                         \p
@@ -11006,6 +11799,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 21]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2.
                         \repeatTie
                         \f
@@ -11057,6 +11851,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         d,2
                         \repeatTie
                         \>
@@ -11116,6 +11911,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 41]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2.
                         \repeatTie
                         \p
@@ -11183,6 +11979,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         d,2.
                         \repeatTie
                         \<
@@ -11218,6 +12015,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 59]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2.
                         \repeatTie
                         \ff
@@ -11316,9 +12114,9 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2
                         \repeatTie
-                        \>
                         \ff
                         \startTextSpan
                         
@@ -11379,9 +12177,9 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2
                         \repeatTie
-                        \pp
                         \stopTextSpan
                         \<
                         \pp
@@ -11417,6 +12215,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 93]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2.
                         \repeatTie
                         \p
