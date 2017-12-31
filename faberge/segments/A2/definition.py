@@ -8,27 +8,10 @@ import faberge
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    # 1-4
-    8,
-    2,
-    2,
-    4,
-    # 5-8
-    6,
-    4,
-    4,
-    6,
-    # 9-12
-    8,
-    4,
-    4,
-    2,
-    # 13-17
-    2,
-    4,
-    8,
-    4,
-    8,
+    8, 2, 2, 4, # 1-4
+    6, 4, 4, 6, # 5-8
+    8, 4, 4, 2, # 9-12
+    2, 4, 8, 4, 8, # 13-17
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -747,7 +730,7 @@ maker(
 maker(
     baca.scope('PercussionMusicVoice', 6, 10),
     baca.piecewise(
-        baca.hairpin(),
+        abjad.Hairpin(),
         baca.dynamics('ppp pp'),
         baca.runs().map(baca.enchain([3, 4])).flatten(),
         bookend=True,
@@ -998,7 +981,7 @@ maker(
         baca.markup.tasto_poss(),
         baca.rleaves().group(),
         ),
-    baca.hairpin('ff > niente', baca.rleaves()),
+    baca.hairpin('ff > niente'),
     )
 
 maker(
