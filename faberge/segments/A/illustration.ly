@@ -5282,19 +5282,87 @@
                             
                             % PianoRHMusicVoice [measure 5]                              %! SM4
                             \override NoteHead.style = #'harmonic                        %! OC
+                            \set PianoStaffGroup.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
+                                \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
+                                    #16                                                  %! REAPPLIED_INSTRUMENT:SM8
+                                    Piano                                                %! REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
+                            \set PianoStaffGroup.shortInstrumentName = \markup {         %! REAPPLIED_INSTRUMENT:SM8
+                                \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
+                                    #10                                                  %! REAPPLIED_INSTRUMENT:SM8
+                                    Pf.                                                  %! REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
+                            \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             <d' e' fs' c'' d''>2.
-                            ^ \markup {                                                  %! IC
-                                \whiteout                                                %! IC
-                                    \upright                                             %! IC
-                                        \override                                        %! IC
-                                            #'(box-padding . 0.5)                        %! IC
-                                            \box                                         %! IC
-                                                \column                                  %! IC
-                                                    {                                    %! IC
-                                                        "depress silently;"              %! IC
-                                                        "sustain with middle pedal"      %! IC
-                                                    }                                    %! IC
-                                }                                                        %! IC
+                            ^ \markup {
+                                \column
+                                    {
+                                        %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             (“Piano”                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 #16                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 Piano                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \concat                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     \hcenter-in              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                         #10                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                         Pf.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     )                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        \line                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \with-color                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    #(x11-color 'green4)                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Piano”                     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #16                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Piano                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \concat                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    \hcenter-in          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        #10              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        Pf.              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    )                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                \column                  %! IC
+                                                                    {                    %! IC
+                                                                        "depress silently;" %! IC
+                                                                        "sustain with middle pedal" %! IC
+                                                                    }                    %! IC
+                                            }                                            %! IC
+                                    }
+                                }
+                            \set PianoStaffGroup.instrumentName = \markup {              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    #16                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    Piano                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \set PianoStaffGroup.shortInstrumentName = \markup {         %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    #10                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    Pf.                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \override PianoStaffGroup.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
                             % PianoRHMusicVoice [measure 6]                              %! SM4
                             <d' e' fs' c'' d''>1
