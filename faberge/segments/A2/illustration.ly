@@ -84,7 +84,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             80                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 98]                                               %! SM4
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -5627,14 +5627,14 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         af'8.
                         \f                                                               %! EXPLICIT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         atqf'8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 110]                            %! SM4
                         atqf'16
@@ -5663,7 +5663,7 @@
                         
                         % EnglishHornMusicVoice [measure 113]                            %! SM4
                         r4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         {
                             
                             r8
@@ -5840,7 +5840,7 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'8.
                         \ff                                                              %! EXPLICIT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 120]                            %! SM4
                         a'2.
@@ -5851,19 +5851,19 @@
                         \repeatTie
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         aqs'8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 122]                            %! SM4
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         aqf'2...
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 123]                            %! SM4
                         aqf'1
@@ -5874,23 +5874,23 @@
                         \repeatTie
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         af'4..
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 125]                            %! SM4
                         aqf'2
                         
                         % EnglishHornMusicVoice [measure 126]                            %! SM4
                         r2
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % EnglishHornMusicVoice [measure 127]                            %! SM4
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bf'2.
                         \fff                                                             %! EXPLICIT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -5924,8 +5924,8 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         b'2.
                         \fff                                                             %! REDUNDANT_DYNAMIC:SM8
-                        \stopTrillSpan
-                        \startTrillSpan
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan                                                  %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -5965,7 +5965,7 @@
                         
                         % EnglishHornMusicVoice [measure 141]                            %! SM4
                         r4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         \times 4/5 {
                             
                             r16
@@ -15963,7 +15963,7 @@
                             \once \override TextSpanner.dash-period = 1.5
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef,\longa..
-                            \glissando
+                            \glissando                                                   %! SC
                             \p
                             \startTextSpan
                             ^ \markup {
@@ -15990,7 +15990,7 @@
                             
                             % CelloMusicVoice [measure 141]                              %! SM4
                             ff,\breve.
-                            \glissando
+                            \glissando                                                   %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 25/28 {
@@ -16020,7 +16020,7 @@
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d,\longa..
                             \stopTextSpan
-                            \glissando
+                            \glissando                                                   %! SC
                             \>
                             \ff
                             \startTextSpan
@@ -16031,7 +16031,7 @@
                             
                             % CelloMusicVoice [measure 153]                              %! SM4
                             cs,\breve....
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bs,,8
