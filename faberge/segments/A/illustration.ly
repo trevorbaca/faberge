@@ -85,7 +85,7 @@
                 %%%             =                                                        %! REDUNDANT_METRONOME_MARK:SM27
                 %%%             100                                                      %! REDUNDANT_METRONOME_MARK:SM27
                 %%%         }                                                            %! REDUNDANT_METRONOME_MARK:SM27
-                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27
+                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 6]                                                %! SM4
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -3976,38 +3976,38 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b'8.
                         \f                                                               %! EXPLICIT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 18]                             %! SM4
                         b'4
                         \repeatTie
                         
                         r4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         btqf'8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         bqf'8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 19]                             %! SM4
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         b'8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         r2
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % EnglishHornMusicVoice [measure 20]                             %! SM4
                         r1
@@ -4051,14 +4051,14 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         cs''8.
                         \f                                                               %! REDUNDANT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         ctqs''4..
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 32]                             %! SM4
                         ctqs''16
@@ -4070,13 +4070,13 @@
                         ]
                         
                         r4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         btqs'8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 33]                             %! SM4
                         btqs'16
@@ -4090,15 +4090,15 @@
                         \repeatTie
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         ctqs''8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 35]                             %! SM4
                         R1 * 3/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % EnglishHornMusicVoice [measure 36]                             %! SM4
                         R1 * 1
@@ -4136,36 +4136,36 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         ds''4..
                         \f                                                               %! REDUNDANT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 46]                             %! SM4
                         ds''2
                         \repeatTie
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         ctqs''8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         d''8.
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 47]                             %! SM4
                         r2
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % EnglishHornMusicVoice [measure 48]                             %! SM4
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         dqs''2...
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 49]                             %! SM4
                         dqs''16
@@ -4176,7 +4176,7 @@
                         
                         % EnglishHornMusicVoice [measure 50]                             %! SM4
                         r2.
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % EnglishHornMusicVoice [measure 51]                             %! SM4
                         R1 * 3/4
@@ -4217,7 +4217,7 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         es''4..
                         \f                                                               %! REDUNDANT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 62]                             %! SM4
                         es''2
@@ -4225,13 +4225,13 @@
                         
                         % EnglishHornMusicVoice [measure 63]                             %! SM4
                         r4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         r16
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         eqs''4
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         etqs''4..
                         
@@ -4244,7 +4244,7 @@
                         \repeatTie
                         
                         r4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % EnglishHornMusicVoice [measure 66]                             %! SM4
                         r1
@@ -4506,22 +4506,22 @@
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         g'4..
                         \f                                                               %! REDUNDANT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 94]                             %! SM4
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         gqs'4..
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         gqf'4..
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % EnglishHornMusicVoice [measure 95]                             %! SM4
                         gqf'2
@@ -4537,7 +4537,7 @@
                         ]
                         
                         r2.
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                     }
                 }
@@ -7935,7 +7935,7 @@
                         d'2
                         -\accent                                                         %! IC
                         \ff                                                              %! EXPLICIT_DYNAMIC:SM8
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -7947,16 +7947,16 @@
                         
                         % PercussionMusicVoice [measure 90]                              %! SM4
                         r16
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         d'2...
                         -\accent                                                         %! IC
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % PercussionMusicVoice [measure 91]                              %! SM4
                         b2.
                         -\accent                                                         %! IC
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
