@@ -7614,9 +7614,9 @@
                             \once \override NoteHead.text = \markup {
                             	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
                             }
-                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             <c, e, g, b,>16
-                            \sfz                                                         %! REDUNDANT_DYNAMIC:SM8
+                            \sfz                                                         %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {
                                 \center-align
                                     \concat
