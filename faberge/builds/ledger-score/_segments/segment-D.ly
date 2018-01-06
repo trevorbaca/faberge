@@ -81,7 +81,7 @@
             % GlobalSkips [measure 301]                                              %! SM4
             \time 3/4                                                                %! SM1
             \mark #4                                                                 %! SM9
-            %%% \bar ""                                                              %! EMPTY_START_BAR:SM2
+            %%% \bar ""                                                              %! SEGMENT_EMPTY_START_BAR:SM2
             \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT:SPACING:HSS1
             s1 * 3/4
