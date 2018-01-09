@@ -15,6 +15,8 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 % GlobalSkips [measure 5]                                                %! SM4
+                \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
             %F% \once \override TextSpanner.bound-details.left.text =                    %! REDUNDANT_METRONOME_MARK:SM27
             %F% \markup {                                                                %! REDUNDANT_METRONOME_MARK:SM27
             %F%     \fontsize                                                            %! REDUNDANT_METRONOME_MARK:SM27
@@ -72,8 +74,6 @@
                 \mark #1                                                                 %! SM9
                 \bar ""                                                                  %! SEGMENT_EMPTY_START_BAR:SM2
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
-                \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
                 s1 * 3/4
                 \startTextSpan                                                           %! SM29
                 ^ \markup {
@@ -106,10 +106,10 @@
                     }
                 
                 % GlobalSkips [measure 6]                                                %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -133,9 +133,9 @@
                     }
                 
                 % GlobalSkips [measure 7]                                                %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -159,10 +159,10 @@
                     }
                 
                 % GlobalSkips [measure 8]                                                %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -186,10 +186,10 @@
                     }
                 
                 % GlobalSkips [measure 9]                                                %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -213,10 +213,10 @@
                     }
                 
                 % GlobalSkips [measure 10]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -240,10 +240,10 @@
                     }
                 
                 % GlobalSkips [measure 11]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -267,10 +267,10 @@
                     }
                 
                 % GlobalSkips [measure 12]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -294,10 +294,10 @@
                     }
                 
                 % GlobalSkips [measure 13]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -321,10 +321,10 @@
                     }
                 
                 % GlobalSkips [measure 14]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -348,10 +348,10 @@
                     }
                 
                 % GlobalSkips [measure 15]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -375,10 +375,10 @@
                     }
                 
                 % GlobalSkips [measure 16]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -402,10 +402,10 @@
                     }
                 
                 % GlobalSkips [measure 17]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -437,10 +437,10 @@
                     }
                 
                 % GlobalSkips [measure 18]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -464,10 +464,10 @@
                     }
                 
                 % GlobalSkips [measure 19]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -491,10 +491,10 @@
                     }
                 
                 % GlobalSkips [measure 20]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -518,10 +518,10 @@
                     }
                 
                 % GlobalSkips [measure 21]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -553,10 +553,10 @@
                     }
                 
                 % GlobalSkips [measure 22]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -580,10 +580,10 @@
                     }
                 
                 % GlobalSkips [measure 23]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -607,10 +607,10 @@
                     }
                 
                 % GlobalSkips [measure 24]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -634,9 +634,9 @@
                     }
                 
                 % GlobalSkips [measure 25]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -660,10 +660,10 @@
                     }
                 
                 % GlobalSkips [measure 26]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -687,10 +687,10 @@
                     }
                 
                 % GlobalSkips [measure 27]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -722,10 +722,10 @@
                     }
                 
                 % GlobalSkips [measure 28]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -749,9 +749,9 @@
                     }
                 
                 % GlobalSkips [measure 29]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -775,10 +775,10 @@
                     }
                 
                 % GlobalSkips [measure 30]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -802,9 +802,9 @@
                     }
                 
                 % GlobalSkips [measure 31]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -836,10 +836,10 @@
                     }
                 
                 % GlobalSkips [measure 32]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -863,10 +863,10 @@
                     }
                 
                 % GlobalSkips [measure 33]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -890,9 +890,9 @@
                     }
                 
                 % GlobalSkips [measure 34]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -916,10 +916,10 @@
                     }
                 
                 % GlobalSkips [measure 35]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -951,10 +951,10 @@
                     }
                 
                 % GlobalSkips [measure 36]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -978,10 +978,10 @@
                     }
                 
                 % GlobalSkips [measure 37]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1005,10 +1005,10 @@
                     }
                 
                 % GlobalSkips [measure 38]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1032,10 +1032,10 @@
                     }
                 
                 % GlobalSkips [measure 39]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1059,10 +1059,10 @@
                     }
                 
                 % GlobalSkips [measure 40]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1086,10 +1086,10 @@
                     }
                 
                 % GlobalSkips [measure 41]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1121,10 +1121,10 @@
                     }
                 
                 % GlobalSkips [measure 42]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1148,10 +1148,10 @@
                     }
                 
                 % GlobalSkips [measure 43]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1175,10 +1175,10 @@
                     }
                 
                 % GlobalSkips [measure 44]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1202,10 +1202,10 @@
                     }
                 
                 % GlobalSkips [measure 45]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1237,10 +1237,10 @@
                     }
                 
                 % GlobalSkips [measure 46]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1264,10 +1264,10 @@
                     }
                 
                 % GlobalSkips [measure 47]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1291,10 +1291,10 @@
                     }
                 
                 % GlobalSkips [measure 48]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1318,9 +1318,9 @@
                     }
                 
                 % GlobalSkips [measure 49]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1344,10 +1344,10 @@
                     }
                 
                 % GlobalSkips [measure 50]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1371,9 +1371,9 @@
                     }
                 
                 % GlobalSkips [measure 51]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1405,10 +1405,10 @@
                     }
                 
                 % GlobalSkips [measure 52]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1432,10 +1432,10 @@
                     }
                 
                 % GlobalSkips [measure 53]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1459,10 +1459,10 @@
                     }
                 
                 % GlobalSkips [measure 54]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1486,9 +1486,9 @@
                     }
                 
                 % GlobalSkips [measure 55]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1512,10 +1512,10 @@
                     }
                 
                 % GlobalSkips [measure 56]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1539,10 +1539,10 @@
                     }
                 
                 % GlobalSkips [measure 57]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1574,10 +1574,10 @@
                     }
                 
                 % GlobalSkips [measure 58]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1601,10 +1601,10 @@
                     }
                 
                 % GlobalSkips [measure 59]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1636,10 +1636,10 @@
                     }
                 
                 % GlobalSkips [measure 60]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1663,10 +1663,10 @@
                     }
                 
                 % GlobalSkips [measure 61]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1698,10 +1698,10 @@
                     }
                 
                 % GlobalSkips [measure 62]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1725,10 +1725,10 @@
                     }
                 
                 % GlobalSkips [measure 63]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1752,10 +1752,10 @@
                     }
                 
                 % GlobalSkips [measure 64]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1779,10 +1779,10 @@
                     }
                 
                 % GlobalSkips [measure 65]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1806,10 +1806,10 @@
                     }
                 
                 % GlobalSkips [measure 66]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1833,10 +1833,10 @@
                     }
                 
                 % GlobalSkips [measure 67]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1868,10 +1868,10 @@
                     }
                 
                 % GlobalSkips [measure 68]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1895,10 +1895,10 @@
                     }
                 
                 % GlobalSkips [measure 69]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -1922,10 +1922,10 @@
                     }
                 
                 % GlobalSkips [measure 70]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -1949,10 +1949,10 @@
                     }
                 
                 % GlobalSkips [measure 71]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -1976,10 +1976,10 @@
                     }
                 
                 % GlobalSkips [measure 72]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2003,9 +2003,9 @@
                     }
                 
                 % GlobalSkips [measure 73]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2029,10 +2029,10 @@
                     }
                 
                 % GlobalSkips [measure 74]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2056,10 +2056,10 @@
                     }
                 
                 % GlobalSkips [measure 75]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -2091,10 +2091,10 @@
                     }
                 
                 % GlobalSkips [measure 76]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2118,9 +2118,9 @@
                     }
                 
                 % GlobalSkips [measure 77]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2144,10 +2144,10 @@
                     }
                 
                 % GlobalSkips [measure 78]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2171,9 +2171,9 @@
                     }
                 
                 % GlobalSkips [measure 79]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2197,10 +2197,10 @@
                     }
                 
                 % GlobalSkips [measure 80]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2224,10 +2224,10 @@
                     }
                 
                 % GlobalSkips [measure 81]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -2259,9 +2259,9 @@
                     }
                 
                 % GlobalSkips [measure 82]                                               %! SM4
-                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -2285,10 +2285,10 @@
                     }
                 
                 % GlobalSkips [measure 83]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2312,10 +2312,10 @@
                     }
                 
                 % GlobalSkips [measure 84]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2339,10 +2339,10 @@
                     }
                 
                 % GlobalSkips [measure 85]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -2374,10 +2374,10 @@
                     }
                 
                 % GlobalSkips [measure 86]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2401,10 +2401,10 @@
                     }
                 
                 % GlobalSkips [measure 87]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2428,10 +2428,10 @@
                     }
                 
                 % GlobalSkips [measure 88]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -2455,10 +2455,10 @@
                     }
                 
                 % GlobalSkips [measure 89]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2482,10 +2482,10 @@
                     }
                 
                 % GlobalSkips [measure 90]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2509,10 +2509,10 @@
                     }
                 
                 % GlobalSkips [measure 91]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2536,10 +2536,10 @@
                     }
                 
                 % GlobalSkips [measure 92]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2563,10 +2563,10 @@
                     }
                 
                 % GlobalSkips [measure 93]                                               %! SM4
-                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 ^ \markup {
                     \column
@@ -2598,10 +2598,10 @@
                     }
                 
                 % GlobalSkips [measure 94]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 ^ \markup {
                     \column
@@ -2625,10 +2625,10 @@
                     }
                 
                 % GlobalSkips [measure 95]                                               %! SM4
-                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
                 ^ \markup {
                     \column
@@ -2652,10 +2652,10 @@
                     }
                 
                 % GlobalSkips [measure 96]                                               %! SM4
-                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT_SPACING:HSS1
+                \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
                 \stopTextSpan                                                            %! SM29
                 ^ \markup {
