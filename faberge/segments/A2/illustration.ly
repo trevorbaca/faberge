@@ -71,7 +71,7 @@
                 \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
                 \once \override TextSpanner.dash-period = 0                              %! SM29
                 \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
-                \bar ""                                                                  %! SEGMENT+EMPTY_START_BAR:SM2
+                \bar ""                                                                  %! +SEGMENT:EMPTY_START_BAR:SM2
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
                 \startTextSpan                                                           %! SM29
