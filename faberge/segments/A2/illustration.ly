@@ -17,25 +17,25 @@
                 % GlobalSkips [measure 97]                                               %! SM4
                 \newSpacingSection                                                       %! SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)         %! SPACING:HSS1
-            %F% \once \override TextSpanner.bound-details.left.text =                    %! EXPLICIT_METRONOME_MARK:SM27
-            %F% \markup {                                                                %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     \fontsize                                                            %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         #-6                                                              %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         \general-align                                                   %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             #Y                                                           %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             #DOWN                                                        %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             \note-by-number                                              %! EXPLICIT_METRONOME_MARK:SM27
-            %F%                 #2                                                       %! EXPLICIT_METRONOME_MARK:SM27
-            %F%                 #0                                                       %! EXPLICIT_METRONOME_MARK:SM27
-            %F%                 #1.5                                                     %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     \upright                                                             %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             =                                                            %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             80                                                           %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     \hspace                                                              %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         #1                                                               %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
+            %@% \once \override TextSpanner.bound-details.left.text =                    %! EXPLICIT_METRONOME_MARK:SM27
+            %@% \markup {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     \fontsize                                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         #-6                                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         \general-align                                                   %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             #Y                                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             #DOWN                                                        %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             \note-by-number                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %@%                 #2                                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %@%                 #0                                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %@%                 #1.5                                                     %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     \upright                                                             %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             =                                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             80                                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     \hspace                                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         #1                                                               %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 \once \override TextSpanner.Y-extent = ##f                               %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = ##f         %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -78,37 +78,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m0                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.1]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             2'56''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m0                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.1]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             2'56''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -121,29 +121,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m1                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             2'58''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m1                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             2'58''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -155,29 +155,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m2                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'01''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m2                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'01''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -190,29 +190,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m3                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'04''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m3                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'04''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -225,29 +225,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m4                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'05''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m4                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'05''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -260,29 +260,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m5                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'08''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m5                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'08''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -295,29 +295,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m6                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'09''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m6                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'09''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -330,29 +330,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m7                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'11''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m7                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'11''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -365,37 +365,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m8                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.2]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'14''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m8                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.2]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'14''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -408,29 +408,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m9                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'17''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m9                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'17''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -443,37 +443,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m10                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.3]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'18''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m10                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.3]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'18''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -486,29 +486,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m11                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'21''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m11                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'21''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -521,37 +521,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m12                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.4]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'23''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m12                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.4]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'23''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -564,29 +564,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m13                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'25''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m13                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'25''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -599,29 +599,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m14                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'28''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m14                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'28''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -634,29 +634,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m15                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'30''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m15                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'30''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -669,37 +669,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m16                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.5]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'33''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m16                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.5]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'33''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -712,29 +712,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m17                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'35''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m17                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'35''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -747,29 +747,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m18                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'38''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m18                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'38''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -782,29 +782,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m19                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'40''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m19                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'40''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -816,29 +816,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m20                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'43''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m20                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'43''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -851,29 +851,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m21                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'46''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m21                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'46''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -886,37 +886,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m22                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.6]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'48''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m22                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.6]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'48''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -929,29 +929,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m23                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'50''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m23                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'50''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -963,29 +963,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m24                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'52''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m24                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'52''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -998,29 +998,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m25                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'54''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m25                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'54''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1032,37 +1032,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m26                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.7]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             3'57''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m26                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.7]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             3'57''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1075,29 +1075,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m27                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'00''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m27                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'00''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1110,29 +1110,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m28                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'02''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m28                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'02''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1144,29 +1144,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m29                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'04''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m29                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'04''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1179,37 +1179,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m30                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.8]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'05''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m30                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.8]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'05''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1222,29 +1222,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m31                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'08''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m31                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'08''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1257,29 +1257,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m32                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'11''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m32                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'11''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1292,29 +1292,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m33                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'12''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m33                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'12''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1327,29 +1327,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m34                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'14''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m34                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'14''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1362,29 +1362,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m35                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'17''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m35                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'17''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1397,37 +1397,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m36                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.9]                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'19''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m36                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.9]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'19''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1440,29 +1440,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m37                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'21''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m37                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'21''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1475,29 +1475,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m38                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'24''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m38                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'24''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1510,29 +1510,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m39                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'26''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m39                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'26''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1545,29 +1545,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m40                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'29''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m40                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'29''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1580,29 +1580,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m41                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'32''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m41                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'32''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1615,29 +1615,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m42                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'35''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m42                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'35''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1650,29 +1650,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m43                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'36''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m43                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'36''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1684,37 +1684,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m44                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.10]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'39''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m44                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.10]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'39''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1727,29 +1727,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m45                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'42''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m45                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'42''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1761,29 +1761,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m46                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'44''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m46                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'44''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1796,29 +1796,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m47                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'47''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m47                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'47''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1831,37 +1831,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m48                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.11]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'48''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m48                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.11]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'48''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1874,29 +1874,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m49                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'50''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m49                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'50''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1908,29 +1908,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m50                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'53''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m50                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'53''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1943,29 +1943,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m51                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'56''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m51                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'56''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1978,37 +1978,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m52                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.12]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             4'58''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m52                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.12]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             4'58''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2021,29 +2021,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m53                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'00''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m53                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'00''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2056,37 +2056,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m54                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.13]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'02''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m54                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.13]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'02''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2099,29 +2099,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m55                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'04''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m55                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'04''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2134,37 +2134,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m56                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.14]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'07''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m56                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.14]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'07''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2177,29 +2177,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m57                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'09''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m57                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'09''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2212,29 +2212,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m58                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'11''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m58                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'11''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2247,29 +2247,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m59                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'14''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m59                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'14''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2282,37 +2282,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m60                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.15]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'15''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m60                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.15]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'15''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2325,29 +2325,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m61                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'17''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m61                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'17''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2360,29 +2360,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m62                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'20''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m62                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'20''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2395,29 +2395,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m63                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'23''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m63                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'23''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2430,29 +2430,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m64                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'26''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m64                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'26''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2465,29 +2465,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m65                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'28''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m65                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'28''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2500,29 +2500,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m66                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'31''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m66                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'31''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2535,29 +2535,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m67                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'32''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m67                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'32''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2569,37 +2569,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m68                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.16]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'35''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m68                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.16]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'35''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2612,29 +2612,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m69                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/20)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'38''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m69                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/20)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'38''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2647,29 +2647,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m70                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (5/64)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'41''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m70                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (5/64)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'41''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2682,29 +2682,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m71                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/16)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'42''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m71                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/16)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'42''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2716,37 +2716,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m72                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [B.17]                                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'44''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m72                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [B.17]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'44''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2759,29 +2759,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m73                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'47''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m73                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'47''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2793,29 +2793,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m74                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'50''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m74                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'50''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2828,29 +2828,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m75                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'53''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m75                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'53''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2863,29 +2863,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m76                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'55''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m76                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'55''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2897,29 +2897,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m77                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'56''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m77                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'56''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2932,29 +2932,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m78                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             5'58''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m78                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             5'58''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -2968,29 +2968,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m79                                          %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             6'00''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m79                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             6'00''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 \override Score.BarLine.transparent = ##f                                %! SM5
@@ -3037,32 +3037,32 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             (“BassFlute”                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         Bass                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         flute                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         \line                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                                 B.                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                                 fl.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             (“BassFlute”                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         Bass                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         flute                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         \line                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                                 B.                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                                 fl.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     \line                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -5980,7 +5980,7 @@
                         \set EnglishHornMusicStaff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
                         \clef "percussion"                                               %! REAPPLIED_CLEF:SM8
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                    %F% \override EnglishHornMusicStaff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override EnglishHornMusicStaff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                         \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -5989,32 +5989,32 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             (“EnglishHorn”                           %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         English                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         horn                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         \line                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                                 Eng.                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                                 hn.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             (“EnglishHorn”                           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         English                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         horn                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         \line                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                                 Eng.                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                                 hn.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     \line                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -7081,7 +7081,7 @@
                         \set EnglishHornMusicStaff.forceClef = ##t                       %! REDUNDANT_CLEF:SM8
                         \clef "percussion"                                               %! REDUNDANT_CLEF:SM8
                         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:SM6
-                    %F% \override EnglishHornMusicStaff.Clef.color = ##f                 %! REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override EnglishHornMusicStaff.Clef.color = ##f                 %! REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         r2.
                         ^ \markup {                                                      %! IC
@@ -7208,32 +7208,32 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             (“BassClarinet”                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         Bass                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         clarinet                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         \line                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                                 B.                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                                 cl.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             (“BassClarinet”                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         Bass                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         clarinet                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         \line                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                                 B.                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                                 cl.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     \line                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -7651,24 +7651,24 @@
                             ^ \markup {
                                 \column
                                     {
-                                    %F% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%             (“Piano”                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%             \hcenter-in                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                 #16                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                 Piano                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%         \concat                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%             {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                 \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                     \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                         #10                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                         Pf.                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                 \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%                     )                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%             }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                    %F%     }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%             (“Piano”                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%             \hcenter-in                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                 #16                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                 Piano                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%         \concat                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%             {                                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                 \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                     \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                         #10                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                         Pf.                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                 \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%                     )                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%             }                                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %@%     }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         \line                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             {                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 \with-color                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -7995,7 +7995,7 @@
                             \set PianoLHMusicStaff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
                             \clef "bass"                                                 %! REAPPLIED_CLEF:SM8
                             \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                        %F% \override PianoLHMusicStaff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+                        %@% \override PianoLHMusicStaff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                             R1 * 3/4
                             \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             
@@ -8544,7 +8544,7 @@
                         \set PercussionMusicStaff.forceClef = ##t                        %! REAPPLIED_CLEF:SM8
                         \clef "treble"                                                   %! REAPPLIED_CLEF:SM8
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                    %F% \override PercussionMusicStaff.Clef.color = ##f                  %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override PercussionMusicStaff.Clef.color = ##f                  %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                         \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -8555,24 +8555,24 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             (“Percussion”                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 Percussion                           %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         Perc.                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             (“Percussion”                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 Percussion                           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         Perc.                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     \line                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -8643,7 +8643,7 @@
                         \set PercussionMusicStaff.forceClef = ##t                        %! EXPLICIT_CLEF:SM8
                         \clef "bass"                                                     %! EXPLICIT_CLEF:SM8
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-                    %F% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                         r2.
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
@@ -8955,7 +8955,7 @@
                         \set PercussionMusicStaff.forceClef = ##t                        %! EXPLICIT_CLEF:SM8
                         \clef "percussion"                                               %! EXPLICIT_CLEF:SM8
                         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-                    %F% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         b1
@@ -9049,24 +9049,24 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             (“Violin”                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 Violin                               %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         Vn.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             (“Violin”                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 Violin                               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         Vn.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     \line                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -10476,7 +10476,7 @@
                             \set ViolinMusicStaff.forceClef = ##t                        %! EXPLICIT_CLEF:SM8
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-                        %F% \override ViolinMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        %@% \override ViolinMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                             \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'8
@@ -12619,7 +12619,7 @@
                         \set ViolaMusicStaff.forceClef = ##t                             %! REAPPLIED_CLEF:SM8
                         \clef "alto"                                                     %! REAPPLIED_CLEF:SM8
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                    %F% \override ViolaMusicStaff.Clef.color = ##f                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override ViolaMusicStaff.Clef.color = ##f                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         ef2.
@@ -12628,24 +12628,24 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             (“Viola”                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 Viola                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         Va.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             (“Viola”                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 Viola                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         Va.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     \line                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -13803,7 +13803,7 @@
                             \set ViolaMusicStaff.forceClef = ##t                         %! EXPLICIT_CLEF:SM8
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-                        %F% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        %@% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b8
@@ -16132,7 +16132,7 @@
                         \set CelloMusicStaff.forceClef = ##t                             %! REAPPLIED_CLEF:SM8
                         \clef "bass"                                                     %! REAPPLIED_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                    %F% \override CelloMusicStaff.Clef.color = ##f                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override CelloMusicStaff.Clef.color = ##f                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         ef,2.
@@ -16140,24 +16140,24 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             (“Cello”                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 Cello                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                         Vc.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             (“Cello”                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 Cello                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                         Vc.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     \line                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -16838,7 +16838,7 @@
                             \set CelloMusicStaff.forceClef = ##t                         %! EXPLICIT_CLEF:SM8
                             \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-                        %F% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        %@% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                             d'8
