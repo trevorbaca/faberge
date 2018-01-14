@@ -486,7 +486,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [00]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[00 (322)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -530,7 +530,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [01]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[01 (323)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -566,7 +566,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [02]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[02 (324)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -602,7 +602,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [03]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[03 (325)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -638,7 +638,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [04]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[04 (326)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -674,7 +674,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [05]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[05 (327)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -710,7 +710,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [06]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[06 (328)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -754,7 +754,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [07]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[07 (329)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -798,7 +798,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [08]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[08 (330)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -834,7 +834,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [09]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[09 (331)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -870,7 +870,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [10]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[10 (332)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -906,7 +906,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [11]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[11 (333)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -950,7 +950,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [12]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[12 (334)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -994,7 +994,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [13]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[13 (335)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1030,7 +1030,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [14]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[14 (336)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1066,7 +1066,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [15]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[15 (337)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1102,7 +1102,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [16]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[16 (338)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -1146,7 +1146,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [17]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[17 (339)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -1190,7 +1190,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [18]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[18 (340)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1226,7 +1226,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [19]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[19 (341)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1262,7 +1262,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [20]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[20 (342)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1298,7 +1298,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [21]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[21 (343)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1334,7 +1334,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [22]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[22 (344)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1369,7 +1369,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [23]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[23 (345)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1405,7 +1405,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [24]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[24 (346)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1441,7 +1441,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [25]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[25 (347)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1477,7 +1477,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [26]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[26 (348)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1512,7 +1512,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [27]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[27 (349)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1548,7 +1548,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [28]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[28 (350)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1583,7 +1583,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [29]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[29 (351)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1619,7 +1619,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [30]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[30 (352)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1655,7 +1655,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [31]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[31 (353)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1690,7 +1690,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [32]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[32 (354)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1726,7 +1726,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [33]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[33 (355)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1762,7 +1762,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [34]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[34 (356)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1798,7 +1798,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [35]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[35 (357)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1834,7 +1834,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [36]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[36 (358)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1870,7 +1870,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [37]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[37 (359)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1906,7 +1906,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [38]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[38 (360)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1942,7 +1942,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [39]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[39 (361)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -1978,7 +1978,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [40]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[40 (362)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2014,7 +2014,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [41]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[41 (363)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -2058,7 +2058,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [42]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[42 (364)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2094,7 +2094,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [43]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[43 (365)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -2138,7 +2138,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [44]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[44 (366)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2174,7 +2174,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [45]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[45 (367)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -2218,7 +2218,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [46]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[46 (368)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -2262,7 +2262,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [47]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[47 (369)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2298,7 +2298,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [48]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[48 (370)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -2397,7 +2397,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [49]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[49 (371)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -2441,7 +2441,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [50]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[50 (372)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2477,7 +2477,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [51]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[51 (373)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2513,7 +2513,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [52]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[52 (374)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2549,7 +2549,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [53]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[53 (375)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2585,7 +2585,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [54]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[54 (376)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2620,7 +2620,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [55]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[55 (377)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2656,7 +2656,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [56]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[56 (378)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2692,7 +2692,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [57]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[57 (379)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2728,7 +2728,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [58]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[58 (380)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2763,7 +2763,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [59]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[59 (381)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2799,7 +2799,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [60]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[60 (382)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2889,7 +2889,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [61]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[61 (383)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -2933,7 +2933,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [62]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[62 (384)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -2969,7 +2969,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [63]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[63 (385)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3013,7 +3013,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [64]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[64 (386)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3049,7 +3049,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [65]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[65 (387)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3093,7 +3093,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [66]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[66 (388)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3137,7 +3137,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [67]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[67 (389)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3173,7 +3173,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [68]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[68 (390)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3217,7 +3217,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [69]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[69 (391)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3261,7 +3261,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [70]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[70 (392)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3297,7 +3297,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [71]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[71 (393)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3340,7 +3340,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [72]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[72 (394)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3376,7 +3376,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [73]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[73 (395)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3420,7 +3420,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [74]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[74 (396)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3456,7 +3456,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [75]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[75 (397)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3500,7 +3500,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [76]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[76 (398)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3536,7 +3536,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [77]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[77 (399)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3580,7 +3580,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [78]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[78 (400)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3616,7 +3616,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [79]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[79 (401)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3660,7 +3660,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [80]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[80 (402)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3696,7 +3696,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [81]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[81 (403)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3740,7 +3740,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [82]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[82 (404)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3776,7 +3776,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [83]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[83 (405)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3820,7 +3820,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [84]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[84 (406)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3856,7 +3856,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [85]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[85 (407)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3900,7 +3900,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [86]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[86 (408)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -3935,7 +3935,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [87]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[87 (409)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -3979,7 +3979,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [88]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[88 (410)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4014,7 +4014,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [89]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[89 (411)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4058,7 +4058,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [90]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[90 (412)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4094,7 +4094,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [91]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[91 (413)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4138,7 +4138,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [92]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[92 (414)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4173,7 +4173,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [93]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[93 (415)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4217,7 +4217,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [94]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[94 (416)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4253,7 +4253,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [95]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[95 (417)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4297,7 +4297,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [96]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[96 (418)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4333,7 +4333,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [97]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[97 (419)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4377,7 +4377,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [98]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[98 (420)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4421,7 +4421,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [99]                                         %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[99 (421)]"                                 %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4457,7 +4457,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [100]                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[100 (422)]"                                %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4501,7 +4501,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [101]                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[101 (423)]"                                %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4545,7 +4545,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [102]                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[102 (424)]"                                %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4581,7 +4581,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [103]                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[103 (425)]"                                %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4625,7 +4625,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [104]                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[104 (426)]"                                %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -4669,7 +4669,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [105]                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[105 (427)]"                                %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
@@ -4706,7 +4706,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 [106]                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 "[106 (428)]"                                %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
