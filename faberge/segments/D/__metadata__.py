@@ -5,6 +5,7 @@ metadata = abjad.TypedOrderedDict(
     [
         ('duration', "1'12''"),
         ('first_measure_number', 301),
+        ('last_measure_is_fermata', True),
         (
             'persistent_indicators',
             abjad.TypedOrderedDict(
@@ -85,7 +86,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='EnglishHornMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='"mf"',
+                                value='\\effort_mf',
                                 ),
                             ],
                         ),
@@ -135,7 +136,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='PercussionMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='"mf"',
+                                value='\\effort_mf',
                                 ),
                             ],
                         ),
