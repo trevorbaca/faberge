@@ -9038,18 +9038,7 @@
                             \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             r4.
-                            _ #(make-dynamic-script
-                                (markup
-                                    #:whiteout
-                                    #:line (
-                                        #:general-align Y -2 #:normal-text #:larger "“"
-                                        #:hspace -0.4
-                                        #:dynamic "f"
-                                        #:hspace -0.2
-                                        #:general-align Y -2 #:normal-text #:larger "”"
-                                        )
-                                    )
-                                )                                                        %! REAPPLIED_DYNAMIC:SM8
+                            \effort_f                                                    %! REAPPLIED_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {
@@ -10013,18 +10002,7 @@
                         \once \override Stem.color = #red
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'16
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.4
-                                    #:dynamic "f"
-                                    #:hspace -0.2
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )                                                            %! EXPLICIT_DYNAMIC:SM8
+                        \effort_f                                                        %! EXPLICIT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -10688,18 +10666,7 @@
                         \once \override Stem.color = #red
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'16
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.4
-                                    #:dynamic "f"
-                                    #:hspace -0.2
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )                                                            %! EXPLICIT_DYNAMIC:SM8
+                        \effort_f                                                        %! EXPLICIT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -11848,18 +11815,7 @@
                             \once \override Stem.color = #red
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e'8
-                            _ #(make-dynamic-script
-                                (markup
-                                    #:whiteout
-                                    #:line (
-                                        #:general-align Y -2 #:normal-text #:larger "“"
-                                        #:hspace -0.4
-                                        #:dynamic "f"
-                                        #:hspace -0.2
-                                        #:general-align Y -2 #:normal-text #:larger "”"
-                                        )
-                                    )
-                                )                                                        %! EXPLICIT_DYNAMIC:SM8
+                            \effort_f                                                    %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {
@@ -12291,18 +12247,7 @@
                             \once \override Stem.color = #red
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e'8
-                            _ #(make-dynamic-script
-                                (markup
-                                    #:whiteout
-                                    #:line (
-                                        #:general-align Y -2 #:normal-text #:larger "“"
-                                        #:hspace -0.4
-                                        #:dynamic "f"
-                                        #:hspace -0.2
-                                        #:general-align Y -2 #:normal-text #:larger "”"
-                                        )
-                                    )
-                                )                                                        %! EXPLICIT_DYNAMIC:SM8
+                            \effort_f                                                    %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column

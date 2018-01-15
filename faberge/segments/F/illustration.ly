@@ -3220,18 +3220,7 @@
                             \once \override NoteHead.color = #blue                       %! SM24
                             \once \override Stem.color = #blue                           %! SM24
                             g'16 * 187/32
-                            _ #(make-dynamic-script
-                                (markup
-                                    #:whiteout
-                                    #:line (
-                                        #:general-align Y -2 #:normal-text #:larger "“"
-                                        #:hspace -0.1
-                                        #:dynamic "mf"
-                                        #:hspace -0.2
-                                        #:general-align Y -2 #:normal-text #:larger "”"
-                                        )
-                                    )
-                                )                                                        %! REAPPLIED_DYNAMIC:SM8
+                            \effort_mf                                                   %! REAPPLIED_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -6827,18 +6816,7 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         c'1
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.1
-                                    #:dynamic "mf"
-                                    #:hspace -0.2
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )                                                            %! REAPPLIED_DYNAMIC:SM8
+                        \effort_mf                                                       %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
