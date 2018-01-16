@@ -164,14 +164,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[00 (642)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[00 (642)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -208,14 +208,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[01 (643)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[01 (643)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -243,14 +243,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[02 (644)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[02 (644)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -287,14 +287,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[03 (645)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[03 (645)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -322,14 +322,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[04 (646)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[04 (646)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -366,14 +366,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[05 (647)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[05 (647)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -402,14 +402,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[06 (648)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[06 (648)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -445,14 +445,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[07 (649)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[07 (649)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -481,14 +481,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[08 (650)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[08 (650)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -525,14 +525,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[09 (651)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[09 (651)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -561,14 +561,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[10 (652)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[10 (652)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -605,14 +605,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[11 (653)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[11 (653)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -641,14 +641,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[12 (654)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[12 (654)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -685,14 +685,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[13 (655)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[13 (655)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -721,14 +721,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[14 (656)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[14 (656)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -765,14 +765,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[15 (657)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[15 (657)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -801,14 +801,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[16 (658)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[16 (658)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -845,14 +845,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[17 (659)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[17 (659)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -881,14 +881,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[18 (660)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[18 (660)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -925,14 +925,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[19 (661)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[19 (661)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -961,14 +961,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[20 (662)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[20 (662)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -1005,14 +1005,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[21 (663)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[21 (663)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -1049,14 +1049,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[22 (664)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[22 (664)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
@@ -1084,14 +1084,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[23 (665)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[23 (665)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
@@ -1129,14 +1129,14 @@
                 ^ \markup {
                     \column
                         {
-                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 "[24 (666)]"                                 %! MEASURE_INDEX_MARKUP:SM31
-                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%                 "[24 (666)]"                                 %! MEASURE_NUMBER_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_NUMBER_MARKUP:SM31
                         %@% \line                                                        %! SPACING_MARKUP:HSS2
                         %@%     {                                                        %! SPACING_MARKUP:HSS2
                         %@%         \with-color                                          %! SPACING_MARKUP:HSS2
