@@ -26,6 +26,7 @@
         \type Engraver_group
         \consists Multi_measure_rest_engraver
         \override MultiMeasureRest.transparent = ##t
+        \override MultiMeasureRestText.extra-offset = #'(0 . -7)
         \override MultiMeasureRestText.font-size = 3
         \override MultiMeasureRestText.outside-staff-priority = 0
         \override MultiMeasureRestText.padding = 0
