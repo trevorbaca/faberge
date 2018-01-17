@@ -4,6 +4,10 @@ import abjad
 metadata = abjad.TypedOrderedDict(
     [
         ('duration', "1'12''"),
+        (
+            'fermata_measure_numbers',
+            [321],
+            ),
         ('first_measure_number', 301),
         ('last_measure_is_fermata', True),
         (
