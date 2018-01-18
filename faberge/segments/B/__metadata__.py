@@ -23,6 +23,7 @@ metadata = abjad.TypedOrderedDict(
                 ],
             ),
         ('first_measure_number', 177),
+        ('last_measure_number', 273),
         (
             'persistent_indicators',
             abjad.TypedOrderedDict(
