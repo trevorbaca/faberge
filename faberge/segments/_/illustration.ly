@@ -506,8 +506,8 @@
                             \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
                             \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! EXPLICIT_STAFF_LINES:SM8
                             \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
-                        %@% \once \override EnglishHornMusicStaff.Clef.X-extent = ##f    %! -BOL_MEASURE_3:OC
-                        %@% \once \override EnglishHornMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_3:OC
+                            \once \override EnglishHornMusicStaff.Clef.X-extent = ##f    %! MEASURE_3:SHIFTED_CLEF:OC
+                            \once \override EnglishHornMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! MEASURE_3:SHIFTED_CLEF:OC
                             \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
                             \set EnglishHornMusicStaff.forceClef = ##t                   %! EXPLICIT_CLEF:SM8
