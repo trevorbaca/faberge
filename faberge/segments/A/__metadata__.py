@@ -40,6 +40,11 @@ metadata = abjad.TypedOrderedDict(
                         [
                             abjad.Momento(
                                 context='ClarinetMusicVoice',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='ClarinetMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='BassClarinet',
                                 ),
@@ -88,6 +93,11 @@ metadata = abjad.TypedOrderedDict(
                     (
                         'FluteMusicStaff',
                         [
+                            abjad.Momento(
+                                context='FluteMusicVoice',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
                             abjad.Momento(
                                 context='FluteMusicVoice',
                                 prototype='abjad.Instrument',
@@ -156,6 +166,16 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
+                        'PianoRHMusicStaff',
+                        [
+                            abjad.Momento(
+                                context='PianoRHMusicVoice',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            ],
+                        ),
+                    (
                         'PianoStaffGroup',
                         [
                             abjad.Momento(
@@ -208,6 +228,11 @@ metadata = abjad.TypedOrderedDict(
                     (
                         'ViolinMusicStaff',
                         [
+                            abjad.Momento(
+                                context='ViolinMusicVoice',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
                             abjad.Momento(
                                 context='ViolinMusicVoice',
                                 prototype='abjad.Instrument',

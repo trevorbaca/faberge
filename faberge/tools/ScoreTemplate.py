@@ -44,6 +44,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10                                          %! ST1
                                     Fl.                                          %! ST1
                                 }                                                %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -68,6 +69,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             hn.                                        %! ST1
                                         }                                              %! ST1
                                 }                                                      %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -84,6 +86,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10                                             %! ST1
                                     Cl.                                             %! ST1
                                 }                                                   %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -103,6 +106,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #10                                          %! ST1
                                         Pf.                                          %! ST1
                                     }                                                %! ST1
+                                \clef "treble" %! ST3
                                 s1
                             }
                         }
@@ -148,6 +152,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10                                           %! ST1
                                     Vn.                                           %! ST1
                                 }                                                 %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -233,6 +238,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             faberge.instruments['Flute'],
             )
+        abjad.annotate(
+            flute_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
         self._attach_tag('Flute', flute_music_staff)
 
         # ENGLISH HORN
@@ -249,6 +259,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             english_horn_music_staff,
             'default_instrument',
             faberge.instruments['EnglishHorn'],
+            )
+        abjad.annotate(
+            english_horn_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         self._attach_tag('EnglishHorn', english_horn_music_staff)
 
@@ -267,6 +282,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             faberge.instruments['Clarinet'],
             )
+        abjad.annotate(
+            clarinet_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
         self._attach_tag('Clarinet', clarinet_music_staff)
 
         # PIANO
@@ -278,6 +298,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             [piano_rh_music_voice],
             lilypond_type='PianoRHMusicStaff',
             name='PianoRHMusicStaff',
+            )
+        abjad.annotate(
+            piano_rh_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         piano_lh_music_voice = abjad.Voice(
             lilypond_type='PianoLHMusicVoice',
@@ -346,6 +371,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             violin_music_staff,
             'default_instrument',
             faberge.instruments['Violin'],
+            )
+        abjad.annotate(
+            violin_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         self._attach_tag('Violin', violin_music_staff)
 
