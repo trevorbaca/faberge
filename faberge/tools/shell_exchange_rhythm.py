@@ -113,7 +113,7 @@ def shell_exchange_rhythm(
             ),
         tuplet_specifier=rhythmos.TupletSpecifier(
             rewrite_rest_filled_tuplets=True,
-            simplify_redundant_tuplets=True,
+            trivialize=True,
             ),
         )
     return baca.RhythmCommand(

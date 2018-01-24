@@ -3520,7 +3520,8 @@
                     \tag Flute                                                           %! ST4
                     \context FluteMusicStaff = "FluteMusicStaff" {
                         \context FluteMusicVoice = "FluteMusicVoice" {
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 5]                            %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -3620,7 +3621,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 6]                            %! SM4
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -3643,12 +3645,14 @@
                                 r2
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 8]                            %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 9]                            %! SM4
                                 r4.
@@ -3679,12 +3683,14 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 11]                           %! SM4
                                 r2.
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 12]                           %! SM4
                                 r8
@@ -3709,7 +3715,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 13]                           %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -3738,12 +3745,14 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 15]                           %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 16]                           %! SM4
                                 r8
@@ -3758,7 +3767,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 17]                           %! SM4
                                 r2.
@@ -3779,7 +3789,8 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 19]                           %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -3794,7 +3805,8 @@
                                 
                                 r8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 20]                           %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -3823,14 +3835,16 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 21]                           %! SM4
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r2.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 22]                           %! SM4
                                 r4
@@ -3847,7 +3861,8 @@
                                 
                                 r8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 23]                           %! SM4
                                 r4
@@ -3878,12 +3893,14 @@
                                 r4.
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 25]                           %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 26]                           %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -3898,7 +3915,8 @@
                                 
                                 r8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 27]                           %! SM4
                                 r2
@@ -3919,7 +3937,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 29]                           %! SM4
                                 r8
@@ -3934,7 +3953,8 @@
                                 r2
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 30]                           %! SM4
                                 r4.
@@ -3989,12 +4009,14 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 33]                           %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 34]                           %! SM4
                                 r2
@@ -4013,7 +4035,8 @@
                                 r2
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 36]                           %! SM4
                                 r2.
@@ -4028,7 +4051,8 @@
                                 r8
                                 \mp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 37]                           %! SM4
                                 r4
@@ -4079,14 +4103,16 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 40]                           %! SM4
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r2
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 41]                           %! SM4
                                 r4.
@@ -4119,7 +4145,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 43]                           %! SM4
                                 r4.
@@ -4134,7 +4161,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 44]                           %! SM4
                                 r1
@@ -4159,7 +4187,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 46]                           %! SM4
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -4176,7 +4205,8 @@
                                 r2
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 47]                           %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -4213,7 +4243,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 49]                           %! SM4
                                 r2
@@ -4228,7 +4259,8 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 50]                           %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -4247,7 +4279,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 51]                           %! SM4
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -4268,7 +4301,8 @@
                                 r4
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 53]                           %! SM4
                                 r8
@@ -4289,7 +4323,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 54]                           %! SM4
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -4334,12 +4369,14 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 56]                           %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 57]                           %! SM4
                                 r8
@@ -4360,7 +4397,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 58]                           %! SM4
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -4381,7 +4419,8 @@
                                 r2
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 60]                           %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -4684,7 +4723,8 @@
                                                 1
                                     }
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 95]                           %! SM4
                                 \once \override Accidental.color = #red
@@ -5277,7 +5317,8 @@
                                 cs'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 86]                     %! SM4
                                 r8
@@ -5305,7 +5346,8 @@
                                 
                                 gs'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -5346,7 +5388,8 @@
                                 bf'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 89]                     %! SM4
                                 r8
@@ -5374,7 +5417,8 @@
                                 
                                 d'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -5415,7 +5459,8 @@
                                 eqs'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -5491,7 +5536,8 @@
                     \tag Clarinet                                                        %! ST4
                     \context ClarinetMusicStaff = "ClarinetMusicStaff" {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice" {
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 5]                         %! SM4
                                 \set ClarinetMusicStaff.instrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
@@ -5586,7 +5632,8 @@
                                 r2
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 6]                         %! SM4
                                 r4
@@ -5627,12 +5674,14 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 8]                         %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 9]                         %! SM4
                                 r2.
@@ -5667,7 +5716,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 12]                        %! SM4
                                 r2..
@@ -5678,7 +5728,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 13]                        %! SM4
                                 \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -5711,7 +5762,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 15]                        %! SM4
                                 r4
@@ -5728,7 +5780,8 @@
                                 
                                 r8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 16]                        %! SM4
                                 r2
@@ -5759,7 +5812,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 19]                        %! SM4
                                 \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -5776,7 +5830,8 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 20]                        %! SM4
                                 r2
@@ -5809,7 +5864,8 @@
                                 r4
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 22]                        %! SM4
                                 r4.
@@ -5830,7 +5886,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 23]                        %! SM4
                                 \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -5877,7 +5934,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 26]                        %! SM4
                                 r8
@@ -5892,17 +5950,20 @@
                                 r2
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 27]                        %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 28]                        %! SM4
                                 r2.
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 29]                        %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -5925,7 +5986,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 30]                        %! SM4
                                 r1
@@ -5972,7 +6034,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 33]                        %! SM4
                                 r8
@@ -5987,7 +6050,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 34]                        %! SM4
                                 r2
@@ -6008,12 +6072,14 @@
                                 r8
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 36]                        %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 37]                        %! SM4
                                 r8
@@ -6058,7 +6124,8 @@
                                 r4
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 40]                        %! SM4
                                 r4
@@ -6073,7 +6140,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 41]                        %! SM4
                                 r2
@@ -6112,14 +6180,16 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 43]                        %! SM4
                                 \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r2.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 44]                        %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -7664,7 +7734,8 @@
                     \tag Percussion                                                      %! ST4
                     \context PercussionMusicStaff = "PercussionMusicStaff" {
                         \context PercussionMusicVoice = "PercussionMusicVoice" {
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 5]                       %! SM4
                                 \set PercussionMusicStaff.instrumentName = \markup {     %! REAPPLIED_INSTRUMENT:SM8
@@ -7760,7 +7831,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 6]                       %! SM4
                                 r1
@@ -7780,7 +7852,8 @@
                                 r2.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 8]                       %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -7794,7 +7867,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 9]                       %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -7810,7 +7884,8 @@
                                 
                                 r8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 10]                      %! SM4
                                 r2
@@ -7832,7 +7907,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 12]                      %! SM4
                                 r2
@@ -7848,7 +7924,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 13]                      %! SM4
                                 r2
@@ -7864,17 +7941,20 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 14]                      %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 15]                      %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 16]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -7920,7 +8000,8 @@
                                 r2
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 19]                      %! SM4
                                 r2
@@ -7934,7 +8015,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 20]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -7965,14 +8047,16 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 22]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r1
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 23]                      %! SM4
                                 r2
@@ -8013,7 +8097,8 @@
                                 r8
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 26]                      %! SM4
                                 r2
@@ -8027,7 +8112,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 27]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -8041,19 +8127,22 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 28]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r2.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 29]                      %! SM4
                                 r2.
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 30]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8093,19 +8182,22 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 32]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r2.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 33]                      %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 34]                      %! SM4
                                 r4.
@@ -8117,14 +8209,16 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 35]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r2.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 36]                      %! SM4
                                 r4
@@ -8151,7 +8245,8 @@
                                 r4
                                 \mp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 37]                      %! SM4
                                 r2
@@ -8188,12 +8283,14 @@
                                 r2.
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 40]                      %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 41]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8209,12 +8306,14 @@
                                 
                                 r8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 42]                      %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 43]                      %! SM4
                                 r4
@@ -8230,7 +8329,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 44]                      %! SM4
                                 r2.
@@ -8263,7 +8363,8 @@
                                 r8
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 46]                      %! SM4
                                 r2..
@@ -8275,7 +8376,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 47]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -8310,7 +8412,8 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 49]                      %! SM4
                                 r8
@@ -8326,7 +8429,8 @@
                                 r2.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 50]                      %! SM4
                                 r2
@@ -8359,12 +8463,14 @@
                                 r4
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 52]                      %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 53]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8389,7 +8495,8 @@
                                 r8
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 54]                      %! SM4
                                 r2.
@@ -8422,12 +8529,14 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 56]                      %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 57]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8452,7 +8561,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 58]                      %! SM4
                                 r2
@@ -8474,7 +8584,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 60]                      %! SM4
                                 r8
@@ -8525,14 +8636,16 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 62]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r2
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 63]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8568,7 +8681,8 @@
                                 r8
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 64]                      %! SM4
                                 r8
@@ -8601,7 +8715,8 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 66]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8686,7 +8801,8 @@
                                 r4.
                                 \mp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 77]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8711,7 +8827,8 @@
                                 r8
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 78]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8762,7 +8879,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 80]                      %! SM4
                                 r4
@@ -8778,7 +8896,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 81]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -8803,7 +8922,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 82]                      %! SM4
                                 r2
@@ -8832,7 +8952,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 84]                      %! SM4
                                 \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -8981,7 +9102,8 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 95]                      %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -9006,7 +9128,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PercussionMusicVoice [measure 96]                      %! SM4
                                 r8
@@ -9041,7 +9164,8 @@
                     \tag Violin                                                          %! ST4
                     \context ViolinMusicStaff = "ViolinMusicStaff" {
                         \context ViolinMusicVoice = "ViolinMusicVoice" {
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 5]                           %! SM4
                                 \set ViolinMusicStaff.instrumentName = \markup {         %! REAPPLIED_INSTRUMENT:SM8
@@ -9138,7 +9262,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 6]                           %! SM4
                                 r4.
@@ -9173,7 +9298,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 8]                           %! SM4
                                 \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -9190,12 +9316,14 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 9]                           %! SM4
                                 r2.
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 10]                          %! SM4
                                 r2
@@ -9216,12 +9344,14 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 12]                          %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 13]                          %! SM4
                                 r4.
@@ -9248,7 +9378,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 15]                          %! SM4
                                 \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -9267,7 +9398,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 16]                          %! SM4
                                 r2
@@ -9306,7 +9438,8 @@
                                 
                                 r8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 19]                          %! SM4
                                 r4.
@@ -9321,7 +9454,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 20]                          %! SM4
                                 r1
@@ -9342,7 +9476,8 @@
                                 r8
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 22]                          %! SM4
                                 r2.
@@ -9357,7 +9492,8 @@
                                 r8
                                 \mp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 23]                          %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -9414,7 +9550,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 26]                          %! SM4
                                 r2
@@ -9429,7 +9566,8 @@
                                 r8
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 27]                          %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -9442,12 +9580,14 @@
                                 r4.
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 28]                          %! SM4
                                 r2.
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 29]                          %! SM4
                                 r2
@@ -9460,7 +9600,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 30]                          %! SM4
                                 \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -9501,12 +9642,14 @@
                                 r8
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 33]                          %! SM4
                                 r2
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 34]                          %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -9519,12 +9662,14 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 35]                          %! SM4
                                 r2.
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 36]                          %! SM4
                                 r8
@@ -9549,7 +9694,8 @@
                                 r4.
                                 \mp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 37]                          %! SM4
                                 r2
@@ -9570,12 +9716,14 @@
                                 r4.
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 39]                          %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 40]                          %! SM4
                                 r4.
@@ -9586,7 +9734,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 41]                          %! SM4
                                 \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -9621,7 +9770,8 @@
                                 
                                 r4
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 43]                          %! SM4
                                 r8
@@ -9636,7 +9786,8 @@
                                 r2
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 44]                          %! SM4
                                 r8
@@ -9677,7 +9828,8 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 46]                          %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -9700,7 +9852,8 @@
                                 r4.
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 47]                          %! SM4
                                 r2
@@ -9729,7 +9882,8 @@
                                 r8
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 49]                          %! SM4
                                 r2..
@@ -9740,7 +9894,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 50]                          %! SM4
                                 \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -9757,7 +9912,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 51]                          %! SM4
                                 r2.
@@ -9778,7 +9934,8 @@
                                 r8
                                 \p
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 53]                          %! SM4
                                 r4
@@ -9793,7 +9950,8 @@
                                 r4.
                                 \mp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 54]                          %! SM4
                                 r8
@@ -9818,12 +9976,14 @@
                                 r2
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 55]                          %! SM4
                                 r1
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 56]                          %! SM4
                                 r8
@@ -9838,7 +9998,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 57]                          %! SM4
                                 r4.
@@ -9883,7 +10044,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 60]                          %! SM4
                                 r2
@@ -9938,7 +10100,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 63]                          %! SM4
                                 r8
@@ -9963,7 +10126,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 64]                          %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -10000,7 +10164,8 @@
                                 r4
                                 \pp
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 66]                          %! SM4
                                 r4.
@@ -10512,7 +10677,8 @@
                                 r4
                                 \mf
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 77]                          %! SM4
                                 r8
@@ -10533,7 +10699,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 78]                          %! SM4
                                 \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -10582,7 +10749,8 @@
                                 \<
                                 \!
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 80]                          %! SM4
                                 \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -10599,7 +10767,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 81]                          %! SM4
                                 r8
@@ -10646,7 +10815,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 84]                          %! SM4
                                 \once \override Hairpin.circled-tip = ##t
@@ -11089,7 +11259,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 95]                          %! SM4
                                 r8
@@ -11104,7 +11275,8 @@
                                 r4
                                 \f
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 96]                          %! SM4
                                 \once \override Hairpin.circled-tip = ##t

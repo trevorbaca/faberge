@@ -3207,7 +3207,8 @@
                                 }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                             \override FluteMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \once \override Accidental.color = #red
                                 \once \override Beam.color = #red
@@ -3843,7 +3844,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 114]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -4021,7 +4023,8 @@
                                         \finger
                                             1
                                 }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \once \override Accidental.color = #red
                                 \once \override Beam.color = #red
@@ -4251,7 +4254,8 @@
                             \repeatTie
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \once \override Accidental.color = #red
                                 \once \override Beam.color = #red
@@ -4888,7 +4892,8 @@
                                                 2
                                     }
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 134]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -4989,7 +4994,8 @@
                                         \finger
                                             1
                                 }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \once \override Accidental.color = #red
                                 \once \override Beam.color = #red
@@ -5248,7 +5254,8 @@
                                                 1
                                     }
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 143]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -5413,7 +5420,8 @@
                             \repeatTie
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \once \override Accidental.color = #red
                                 \once \override Beam.color = #red
@@ -5952,7 +5960,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 167]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -6173,7 +6182,8 @@
                                 gs'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6200,7 +6210,8 @@
                                 
                                 eqs'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 99]                     %! SM4
                                 r8
@@ -6241,7 +6252,8 @@
                                 d'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 100]                    %! SM4
                                 r8
@@ -6269,7 +6281,8 @@
                                 
                                 aqf'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 102]                    %! SM4
                                 r8
@@ -6311,7 +6324,8 @@
                                 cs'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6338,7 +6352,8 @@
                                 
                                 eqs'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 105]                    %! SM4
                                 r8
@@ -6380,7 +6395,8 @@
                                 bf'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6407,7 +6423,8 @@
                                 
                                 d'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 108]                    %! SM4
                                 r8
@@ -6480,7 +6497,8 @@
                             % EnglishHornMusicVoice [measure 113]                        %! SM4
                             r4
                             \stopTrillSpan                                               %! SC
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6514,7 +6532,8 @@
                                 
                                 eqs'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6556,7 +6575,8 @@
                             
                             % EnglishHornMusicVoice [measure 116]                        %! SM4
                             r4
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6587,7 +6607,8 @@
                                 
                                 d'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6628,7 +6649,8 @@
                             }
                             
                             r4
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6786,7 +6808,8 @@
                                 a'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6813,7 +6836,8 @@
                                 
                                 cs'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 143]                    %! SM4
                                 r8
@@ -6855,7 +6879,8 @@
                                 fqs'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6883,7 +6908,8 @@
                                 
                                 ef'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6924,7 +6950,8 @@
                                 a'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -6951,7 +6978,8 @@
                                 
                                 e'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % EnglishHornMusicVoice [measure 149]                    %! SM4
                                 r8
@@ -6993,7 +7021,8 @@
                                 gs'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -7021,7 +7050,8 @@
                                 
                                 fqs'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -7062,7 +7092,8 @@
                                 ef'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -7090,7 +7121,8 @@
                                 
                                 a'8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -7131,7 +7163,8 @@
                                 f'16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -10963,7 +10996,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 154]                         %! SM4
                                 \once \override Accidental.color = #red
@@ -11712,7 +11746,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 163]                         %! SM4
                                 \once \override Accidental.color = #red
@@ -12403,7 +12438,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 174]                         %! SM4
                                 \once \override Accidental.color = #red
@@ -14268,7 +14304,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolaMusicVoice [measure 154]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -14645,7 +14682,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolaMusicVoice [measure 159]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -14876,7 +14914,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolaMusicVoice [measure 162]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -15548,7 +15587,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolaMusicVoice [measure 170]                          %! SM4
                                 \once \override Accidental.color = #red
@@ -16788,7 +16828,8 @@
                                         }
                                     }
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % CelloMusicVoice [measure 141]                          %! SM4
                                 ff,\breve.
@@ -17621,7 +17662,8 @@
                                 - \tweak color #red                                      %! SM14
                                 ^ \markup { @ }                                          %! SM14
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % CelloMusicVoice [measure 166]                          %! SM4
                                 \once \override Accidental.color = #red
