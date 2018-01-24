@@ -1386,7 +1386,8 @@
                                 c''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -1498,7 +1499,8 @@
                                 \once \override Stem.color = #blue                       %! SM24
                                 c''8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 646]                          %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1671,7 +1673,8 @@
                                 c''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 647]                          %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1784,7 +1787,8 @@
                                 \once \override Stem.color = #blue                       %! SM24
                                 c''8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % FluteMusicVoice [measure 649]                          %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1958,7 +1962,8 @@
                                 c''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -2667,7 +2672,8 @@
                                 d''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -2779,7 +2785,8 @@
                                 \once \override Stem.color = #blue                       %! SM24
                                 d''8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 646]                       %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -2952,7 +2959,8 @@
                                 d''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 647]                       %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3065,7 +3073,8 @@
                                 \once \override Stem.color = #blue                       %! SM24
                                 d''8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 649]                       %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3239,7 +3248,8 @@
                                 d''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -3351,7 +3361,8 @@
                                 \once \override Stem.color = #blue                       %! SM24
                                 d''8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 652]                       %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3525,7 +3536,8 @@
                                 d''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -3637,7 +3649,8 @@
                                 \once \override Stem.color = #blue                       %! SM24
                                 d''8
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ClarinetMusicVoice [measure 655]                       %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3961,7 +3974,8 @@
                                     c'16
                                     ]
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
                                     \once \override Accidental.color = #blue             %! SM24
@@ -4073,7 +4087,8 @@
                                     \once \override Stem.color = #blue                   %! SM24
                                     c'8
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     % PianoRHMusicVoice [measure 648]                    %! SM4
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
@@ -4247,7 +4262,8 @@
                                     c'16
                                     ]
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     % PianoRHMusicVoice [measure 650]                    %! SM4
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
@@ -4360,7 +4376,8 @@
                                     \once \override Stem.color = #blue                   %! SM24
                                     c'8
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
                                     \once \override Accidental.color = #blue             %! SM24
@@ -4533,7 +4550,8 @@
                                     c'16
                                     ]
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     % PianoRHMusicVoice [measure 653]                    %! SM4
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
@@ -4646,7 +4664,8 @@
                                     \once \override Stem.color = #blue                   %! SM24
                                     c'8
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
                                     \once \override Accidental.color = #blue             %! SM24
@@ -4819,7 +4838,8 @@
                                     c'16
                                     ]
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     % PianoRHMusicVoice [measure 656]                    %! SM4
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
@@ -4932,7 +4952,8 @@
                                     \once \override Stem.color = #blue                   %! SM24
                                     c'8
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
                                     \once \override Accidental.color = #blue             %! SM24
@@ -5105,7 +5126,8 @@
                                     c'16
                                     ]
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 1/1 {
                                     
                                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
                                     \once \override Accidental.color = #blue             %! SM24
@@ -5852,7 +5874,8 @@
                                 c'8
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 647]                         %! SM4
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -5958,7 +5981,8 @@
                                 c'8
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 649]                         %! SM4
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -6289,7 +6313,8 @@
                                 c'8
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 654]                         %! SM4
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -6358,7 +6383,8 @@
                                 c'8
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 655]                         %! SM4
                                 \once \override Accidental.color = #blue                 %! SM24
@@ -6652,7 +6678,8 @@
                                 c'8
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % ViolinMusicVoice [measure 659]                         %! SM4
                                 \once \override Accidental.color = #blue                 %! SM24
