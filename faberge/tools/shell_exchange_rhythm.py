@@ -112,7 +112,7 @@ def shell_exchange_rhythm(
             denominator=8,
             ),
         tuplet_specifier=rhythmos.TupletSpecifier(
-            rewrite_rest_filled_tuplets=True,
+            rewrite_rest_filled=True,
             trivialize=True,
             ),
         )

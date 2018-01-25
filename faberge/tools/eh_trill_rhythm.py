@@ -33,7 +33,7 @@ def eh_trill_rhythm(
             repeat_ties=True,
             ),
         tuplet_specifier=rhythmos.TupletSpecifier(
-            rewrite_rest_filled_tuplets=True,
+            rewrite_rest_filled=True,
             trivialize=True,
             ),
         )
