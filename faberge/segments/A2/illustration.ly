@@ -104,7 +104,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.1]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.1]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -463,7 +463,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.2]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.2]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -559,7 +559,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.3]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.3]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -655,7 +655,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.4]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.4]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -839,7 +839,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.5]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.5]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -1110,7 +1110,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.6]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.6]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -1292,7 +1292,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.7]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.7]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -1475,7 +1475,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.8]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.8]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -1747,7 +1747,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.9]                                    %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.9]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -2106,7 +2106,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.10]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.10]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -2289,7 +2289,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.11]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.11]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -2472,7 +2472,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.12]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.12]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -2568,7 +2568,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.13]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.13]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -2664,7 +2664,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.14]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.14]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -2848,7 +2848,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.15]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.15]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -3207,7 +3207,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.16]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.16]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
@@ -3390,7 +3390,7 @@
                             %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
                             %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %@%                 [B.17]                                   %! STAGE_NUMBER_MARKUP:SM3
+                            %@%                 [A2.17]                                  %! STAGE_NUMBER_MARKUP:SM3
                             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
                             %@% \line                                                    %! SPACING_MARKUP:HSS2
                             %@%     {                                                    %! SPACING_MARKUP:HSS2
