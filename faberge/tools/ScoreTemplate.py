@@ -22,7 +22,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         >>> abjad.f(lilypond_file[abjad.Score])
         \context Score = "Score" <<
-            \tag Flute.EnglishHorn.Clarinet.Piano.Percussion.Violin.Viola.Cello %! ST4
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                 }
@@ -210,18 +209,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
-        instrument_tags = (
-            'Flute',
-            'EnglishHorn',
-            'Clarinet',
-            'Piano',
-            'Percussion',
-            'Violin',
-            'Viola',
-            'Cello',
-            )
-        tag_string = '.'.join(instrument_tags)
-        self._attach_tag(tag_string, global_context)
 
         # FLUTE
         flute_music_voice = abjad.Voice(
