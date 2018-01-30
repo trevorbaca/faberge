@@ -7298,7 +7298,6 @@
                             \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf'2.
                             \fff                                                         %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
@@ -7307,6 +7306,7 @@
                                             \box                                         %! IC
                                                 doubletrill!                             %! IC
                                 }                                                        %! IC
+                            \startTrillSpan                                              %! SC
                             
                             % EnglishHornMusicVoice [measure 128]                        %! SM4
                             bf'1
@@ -7333,7 +7333,6 @@
                             b'2.
                             \fff                                                         %! REDUNDANT_DYNAMIC:SM8
                             \stopTrillSpan                                               %! SC
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
@@ -7342,6 +7341,7 @@
                                             \box                                         %! IC
                                                 doubletrill!                             %! IC
                                 }                                                        %! IC
+                            \startTrillSpan                                              %! SC
                             
                             % EnglishHornMusicVoice [measure 134]                        %! SM4
                             b'1
