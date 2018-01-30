@@ -9568,7 +9568,6 @@
                             d'2
                             -\accent                                                     %! IC
                             \ff                                                          %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
@@ -9577,6 +9576,7 @@
                                             \box                                         %! IC
                                                 castanets                                %! IC
                                 }                                                        %! IC
+                            \startTrillSpan                                              %! SC
                             
                             % PercussionMusicVoice [measure 90]                          %! SM4
                             r16
