@@ -14,10 +14,10 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                     
-                    % GlobalRests [measure 1]                                            %! SM4
+                    % [GlobalRests measure 1]                                            %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 2]                                            %! SM4
+                    % [GlobalRests measure 2]                                            %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -26,10 +26,10 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % GlobalRests [measure 3]                                            %! SM4
+                    % [GlobalRests measure 3]                                            %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 4]                                            %! SM4
+                    % [GlobalRests measure 4]                                            %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -41,7 +41,7 @@
                 }
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 1]                                            %! SM4
+                    % [GlobalSkips measure 1]                                            %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -147,7 +147,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 2]                                            %! SM4
+                    % [GlobalSkips measure 2]                                            %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -199,7 +199,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 3]                                            %! SM4
+                    % [GlobalSkips measure 3]                                            %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -251,7 +251,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 4]                                            %! SM4
+                    % [GlobalSkips measure 4]                                            %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -314,7 +314,7 @@
                     \context FluteMusicStaff = "FluteMusicStaff" {
                         \context FluteMusicVoice = "FluteMusicVoice" {
                             
-                            % FluteMusicVoice [measure 1]                                %! SM4
+                            % [FluteMusicVoice measure 1]                                %! SM4
                             \set FluteMusicStaff.instrumentName = \markup {              %! DEFAULT_INSTRUMENT:SM8
                                 \hcenter-in                                              %! DEFAULT_INSTRUMENT:SM8
                                     #16                                                  %! DEFAULT_INSTRUMENT:SM8
@@ -365,13 +365,13 @@
                             \override FluteMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
                             \override FluteMusicStaff.Clef.color = #(x11-color 'violet)  %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % FluteMusicVoice [measure 2]                                %! SM4
+                            % [FluteMusicVoice measure 2]                                %! SM4
                             R1 * 1/4
                             
-                            % FluteMusicVoice [measure 3]                                %! SM4
+                            % [FluteMusicVoice measure 3]                                %! SM4
                             R1 * 1
                             
-                            % FluteMusicVoice [measure 4]                                %! SM4
+                            % [FluteMusicVoice measure 4]                                %! SM4
                             R1 * 1/4
                             
                         }
@@ -380,7 +380,7 @@
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
                         \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                             
-                            % EnglishHornMusicVoice [measure 1]                          %! SM4
+                            % [EnglishHornMusicVoice measure 1]                          %! SM4
                             \set EnglishHornMusicStaff.instrumentName = \markup {        %! DEFAULT_INSTRUMENT:SM8
                                 \hcenter-in                                              %! DEFAULT_INSTRUMENT:SM8
                                     #16                                                  %! DEFAULT_INSTRUMENT:SM8
@@ -455,7 +455,7 @@
                             \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
                             \override EnglishHornMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % EnglishHornMusicVoice [measure 2]                          %! SM4
+                            % [EnglishHornMusicVoice measure 2]                          %! SM4
                             R1 * 1/4
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -489,7 +489,7 @@
                                 }
                             \times 1/1 {
                                 
-                                % EnglishHornMusicVoice [measure 3]                      %! SM4
+                                % [EnglishHornMusicVoice measure 3]                      %! SM4
                                 \stopStaff                                               %! EXPLICIT_STAFF_LINES:SM8
                                 \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! EXPLICIT_STAFF_LINES:SM8
                                 \startStaff                                              %! EXPLICIT_STAFF_LINES:SM8
@@ -528,7 +528,7 @@
                             }
                             \revert TupletNumber.text
                             
-                            % EnglishHornMusicVoice [measure 4]                          %! SM4
+                            % [EnglishHornMusicVoice measure 4]                          %! SM4
                             R1 * 1/4
                             
                         }
@@ -537,7 +537,7 @@
                     \context ClarinetMusicStaff = "ClarinetMusicStaff" {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                             
-                            % ClarinetMusicVoice [measure 1]                             %! SM4
+                            % [ClarinetMusicVoice measure 1]                             %! SM4
                             \set ClarinetMusicStaff.instrumentName = \markup {           %! DEFAULT_INSTRUMENT:SM8
                                 \hcenter-in                                              %! DEFAULT_INSTRUMENT:SM8
                                     #16                                                  %! DEFAULT_INSTRUMENT:SM8
@@ -588,13 +588,13 @@
                             \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
                             \override ClarinetMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % ClarinetMusicVoice [measure 2]                             %! SM4
+                            % [ClarinetMusicVoice measure 2]                             %! SM4
                             R1 * 1/4
                             
-                            % ClarinetMusicVoice [measure 3]                             %! SM4
+                            % [ClarinetMusicVoice measure 3]                             %! SM4
                             R1 * 1
                             
-                            % ClarinetMusicVoice [measure 4]                             %! SM4
+                            % [ClarinetMusicVoice measure 4]                             %! SM4
                             R1 * 1/4
                             
                         }
@@ -606,7 +606,7 @@
                         \context PianoRHMusicStaff = "PianoRHMusicStaff" {
                             \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                                 
-                                % PianoRHMusicVoice [measure 1]                          %! SM4
+                                % [PianoRHMusicVoice measure 1]                          %! SM4
                                 \set PianoStaffGroup.instrumentName = \markup {          %! DEFAULT_INSTRUMENT:SM8
                                     \hcenter-in                                          %! DEFAULT_INSTRUMENT:SM8
                                         #16                                              %! DEFAULT_INSTRUMENT:SM8
@@ -657,13 +657,13 @@
                                 \override PianoStaffGroup.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
                                 \override PianoRHMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                % PianoRHMusicVoice [measure 2]                          %! SM4
+                                % [PianoRHMusicVoice measure 2]                          %! SM4
                                 R1 * 1/4
                                 
-                                % PianoRHMusicVoice [measure 3]                          %! SM4
+                                % [PianoRHMusicVoice measure 3]                          %! SM4
                                 R1 * 1
                                 
-                                % PianoRHMusicVoice [measure 4]                          %! SM4
+                                % [PianoRHMusicVoice measure 4]                          %! SM4
                                 R1 * 1/4
                                 
                             }
@@ -671,7 +671,7 @@
                         \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
                             \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                                 
-                                % PianoLHMusicVoice [measure 1]                          %! SM4
+                                % [PianoLHMusicVoice measure 1]                          %! SM4
                                 \set PianoLHMusicStaff.forceClef = ##t                   %! DEFAULT_CLEF:SM8
                                 \clef "bass"                                             %! DEFAULT_CLEF:SM8
                                 \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
@@ -679,28 +679,28 @@
                                 R1 * 3/4
                                 \override PianoLHMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                                 
-                                % PianoLHMusicVoice [measure 2]                          %! SM4
+                                % [PianoLHMusicVoice measure 2]                          %! SM4
                                 R1 * 1/4
                                 
-                                % PianoLHMusicVoice [measure 3]                          %! SM4
+                                % [PianoLHMusicVoice measure 3]                          %! SM4
                                 R1 * 1
                                 
-                                % PianoLHMusicVoice [measure 4]                          %! SM4
+                                % [PianoLHMusicVoice measure 4]                          %! SM4
                                 R1 * 1/4
                                 
                             }
                             \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                                 
-                                % PianoLHAttackVoice [measure 1]                         %! SM4
+                                % [PianoLHAttackVoice measure 1]                         %! SM4
                                 R1 * 3/4
                                 
-                                % PianoLHAttackVoice [measure 2]                         %! SM4
+                                % [PianoLHAttackVoice measure 2]                         %! SM4
                                 R1 * 1/4
                                 
-                                % PianoLHAttackVoice [measure 3]                         %! SM4
+                                % [PianoLHAttackVoice measure 3]                         %! SM4
                                 R1 * 1
                                 
-                                % PianoLHAttackVoice [measure 4]                         %! SM4
+                                % [PianoLHAttackVoice measure 4]                         %! SM4
                                 R1 * 1/4
                                 
                             }
@@ -710,7 +710,7 @@
                     \context PercussionMusicStaff = "PercussionMusicStaff" {
                         \context PercussionMusicVoice = "PercussionMusicVoice" {
                             
-                            % PercussionMusicVoice [measure 1]                           %! SM4
+                            % [PercussionMusicVoice measure 1]                           %! SM4
                             \set PercussionMusicStaff.instrumentName = \markup {         %! DEFAULT_INSTRUMENT:SM8
                                 \hcenter-in                                              %! DEFAULT_INSTRUMENT:SM8
                                     #16                                                  %! DEFAULT_INSTRUMENT:SM8
@@ -761,13 +761,13 @@
                             \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
                             \override PercussionMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % PercussionMusicVoice [measure 2]                           %! SM4
+                            % [PercussionMusicVoice measure 2]                           %! SM4
                             R1 * 1/4
                             
-                            % PercussionMusicVoice [measure 3]                           %! SM4
+                            % [PercussionMusicVoice measure 3]                           %! SM4
                             R1 * 1
                             
-                            % PercussionMusicVoice [measure 4]                           %! SM4
+                            % [PercussionMusicVoice measure 4]                           %! SM4
                             R1 * 1/4
                             
                         }
@@ -778,7 +778,7 @@
                     \context ViolinMusicStaff = "ViolinMusicStaff" {
                         \context ViolinMusicVoice = "ViolinMusicVoice" {
                             
-                            % ViolinMusicVoice [measure 1]                               %! SM4
+                            % [ViolinMusicVoice measure 1]                               %! SM4
                             \set ViolinMusicStaff.instrumentName = \markup {             %! DEFAULT_INSTRUMENT:SM8
                                 \hcenter-in                                              %! DEFAULT_INSTRUMENT:SM8
                                     #16                                                  %! DEFAULT_INSTRUMENT:SM8
@@ -871,13 +871,13 @@
                             e'16
                             ]
                             
-                            % ViolinMusicVoice [measure 2]                               %! SM4
+                            % [ViolinMusicVoice measure 2]                               %! SM4
                             R1 * 1/4
                             
-                            % ViolinMusicVoice [measure 3]                               %! SM4
+                            % [ViolinMusicVoice measure 3]                               %! SM4
                             R1 * 1
                             
-                            % ViolinMusicVoice [measure 4]                               %! SM4
+                            % [ViolinMusicVoice measure 4]                               %! SM4
                             R1 * 1/4
                             
                         }
@@ -887,7 +887,7 @@
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             \times 2/3 {
                                 
-                                % ViolaMusicVoice [measure 1]                            %! SM4
+                                % [ViolaMusicVoice measure 1]                            %! SM4
                                 \set ViolaMusicStaff.instrumentName = \markup {          %! DEFAULT_INSTRUMENT:SM8
                                     \hcenter-in                                          %! DEFAULT_INSTRUMENT:SM8
                                         #16                                              %! DEFAULT_INSTRUMENT:SM8
@@ -964,13 +964,13 @@
                                 ]
                             }
                             
-                            % ViolaMusicVoice [measure 2]                                %! SM4
+                            % [ViolaMusicVoice measure 2]                                %! SM4
                             R1 * 1/4
                             
-                            % ViolaMusicVoice [measure 3]                                %! SM4
+                            % [ViolaMusicVoice measure 3]                                %! SM4
                             R1 * 1
                             
-                            % ViolaMusicVoice [measure 4]                                %! SM4
+                            % [ViolaMusicVoice measure 4]                                %! SM4
                             R1 * 1/4
                             
                         }
@@ -979,7 +979,7 @@
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             
-                            % CelloMusicVoice [measure 1]                                %! SM4
+                            % [CelloMusicVoice measure 1]                                %! SM4
                             \set CelloMusicStaff.instrumentName = \markup {              %! DEFAULT_INSTRUMENT:SM8
                                 \hcenter-in                                              %! DEFAULT_INSTRUMENT:SM8
                                     #16                                                  %! DEFAULT_INSTRUMENT:SM8
@@ -1030,13 +1030,13 @@
                             \override CelloMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
                             \override CelloMusicStaff.Clef.color = #(x11-color 'violet)  %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
-                            % CelloMusicVoice [measure 2]                                %! SM4
+                            % [CelloMusicVoice measure 2]                                %! SM4
                             R1 * 1/4
                             
-                            % CelloMusicVoice [measure 3]                                %! SM4
+                            % [CelloMusicVoice measure 3]                                %! SM4
                             R1 * 1
                             
-                            % CelloMusicVoice [measure 4]                                %! SM4
+                            % [CelloMusicVoice measure 4]                                %! SM4
                             R1 * 1/4
                             
                         }
