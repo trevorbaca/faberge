@@ -17,37 +17,37 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                     
-                    % [GlobalRests measure 578]                                          %! SM4
+                    % [H GlobalRests measure 578]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 579]                                          %! SM4
+                    % [H GlobalRests measure 579]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 580]                                          %! SM4
+                    % [H GlobalRests measure 580]                                        %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 581]                                          %! SM4
+                    % [H GlobalRests measure 581]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 582]                                          %! SM4
+                    % [H GlobalRests measure 582]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 583]                                          %! SM4
+                    % [H GlobalRests measure 583]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 584]                                          %! SM4
+                    % [H GlobalRests measure 584]                                        %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 585]                                          %! SM4
+                    % [H GlobalRests measure 585]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 586]                                          %! SM4
+                    % [H GlobalRests measure 586]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 587]                                          %! SM4
+                    % [H GlobalRests measure 587]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 588]                                          %! SM4
+                    % [H GlobalRests measure 588]                                        %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -56,13 +56,13 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 589]                                          %! SM4
+                    % [H GlobalRests measure 589]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 590]                                          %! SM4
+                    % [H GlobalRests measure 590]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 591]                                          %! SM4
+                    % [H GlobalRests measure 591]                                        %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -71,13 +71,13 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 592]                                          %! SM4
+                    % [H GlobalRests measure 592]                                        %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 593]                                          %! SM4
+                    % [H GlobalRests measure 593]                                        %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 594]                                          %! SM4
+                    % [H GlobalRests measure 594]                                        %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -86,13 +86,13 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 595]                                          %! SM4
+                    % [H GlobalRests measure 595]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 596]                                          %! SM4
+                    % [H GlobalRests measure 596]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 597]                                          %! SM4
+                    % [H GlobalRests measure 597]                                        %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -101,70 +101,70 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 598]                                          %! SM4
+                    % [H GlobalRests measure 598]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 599]                                          %! SM4
+                    % [H GlobalRests measure 599]                                        %! SM4
                     R1 * 1/8
                     
-                    % [GlobalRests measure 600]                                          %! SM4
+                    % [H GlobalRests measure 600]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 601]                                          %! SM4
+                    % [H GlobalRests measure 601]                                        %! SM4
                     R1 * 1/8
                     
-                    % [GlobalRests measure 602]                                          %! SM4
+                    % [H GlobalRests measure 602]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 603]                                          %! SM4
+                    % [H GlobalRests measure 603]                                        %! SM4
                     R1 * 1/8
                     
-                    % [GlobalRests measure 604]                                          %! SM4
+                    % [H GlobalRests measure 604]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 605]                                          %! SM4
+                    % [H GlobalRests measure 605]                                        %! SM4
                     R1 * 1/8
                     
-                    % [GlobalRests measure 606]                                          %! SM4
+                    % [H GlobalRests measure 606]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 607]                                          %! SM4
+                    % [H GlobalRests measure 607]                                        %! SM4
                     R1 * 1/8
                     
-                    % [GlobalRests measure 608]                                          %! SM4
+                    % [H GlobalRests measure 608]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 609]                                          %! SM4
+                    % [H GlobalRests measure 609]                                        %! SM4
                     R1 * 1/8
                     
-                    % [GlobalRests measure 610]                                          %! SM4
+                    % [H GlobalRests measure 610]                                        %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 611]                                          %! SM4
+                    % [H GlobalRests measure 611]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 612]                                          %! SM4
+                    % [H GlobalRests measure 612]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 613]                                          %! SM4
+                    % [H GlobalRests measure 613]                                        %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 614]                                          %! SM4
+                    % [H GlobalRests measure 614]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 615]                                          %! SM4
+                    % [H GlobalRests measure 615]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 616]                                          %! SM4
+                    % [H GlobalRests measure 616]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 617]                                          %! SM4
+                    % [H GlobalRests measure 617]                                        %! SM4
                     R1 * 1
                     
                 }
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % [GlobalSkips measure 578]                                          %! SM4
+                    % [H GlobalSkips measure 578]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REDUNDANT_METRONOME_MARK:SM27
@@ -272,7 +272,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 579]                                          %! SM4
+                    % [H GlobalSkips measure 579]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -316,7 +316,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 580]                                          %! SM4
+                    % [H GlobalSkips measure 580]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! SPACING:HSS1
                     \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -368,7 +368,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 581]                                          %! SM4
+                    % [H GlobalSkips measure 581]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -412,7 +412,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 582]                                          %! SM4
+                    % [H GlobalSkips measure 582]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -463,7 +463,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 583]                                          %! SM4
+                    % [H GlobalSkips measure 583]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -507,7 +507,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 584]                                          %! SM4
+                    % [H GlobalSkips measure 584]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -559,7 +559,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 585]                                          %! SM4
+                    % [H GlobalSkips measure 585]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -603,7 +603,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 586]                                          %! SM4
+                    % [H GlobalSkips measure 586]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -654,7 +654,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 587]                                          %! SM4
+                    % [H GlobalSkips measure 587]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -698,7 +698,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 588]                                          %! SM4
+                    % [H GlobalSkips measure 588]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -750,7 +750,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 589]                                          %! SM4
+                    % [H GlobalSkips measure 589]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -802,7 +802,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 590]                                          %! SM4
+                    % [H GlobalSkips measure 590]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -846,7 +846,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 591]                                          %! SM4
+                    % [H GlobalSkips measure 591]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -898,7 +898,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 592]                                          %! SM4
+                    % [H GlobalSkips measure 592]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -950,7 +950,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 593]                                          %! SM4
+                    % [H GlobalSkips measure 593]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -993,7 +993,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 594]                                          %! SM4
+                    % [H GlobalSkips measure 594]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1045,7 +1045,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 595]                                          %! SM4
+                    % [H GlobalSkips measure 595]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1097,7 +1097,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 596]                                          %! SM4
+                    % [H GlobalSkips measure 596]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1141,7 +1141,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 597]                                          %! SM4
+                    % [H GlobalSkips measure 597]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1193,7 +1193,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 598]                                          %! SM4
+                    % [H GlobalSkips measure 598]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1245,7 +1245,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 599]                                          %! SM4
+                    % [H GlobalSkips measure 599]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1297,7 +1297,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 600]                                          %! SM4
+                    % [H GlobalSkips measure 600]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1349,7 +1349,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 601]                                          %! SM4
+                    % [H GlobalSkips measure 601]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1401,7 +1401,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 602]                                          %! SM4
+                    % [H GlobalSkips measure 602]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1453,7 +1453,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 603]                                          %! SM4
+                    % [H GlobalSkips measure 603]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1505,7 +1505,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 604]                                          %! SM4
+                    % [H GlobalSkips measure 604]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1557,7 +1557,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 605]                                          %! SM4
+                    % [H GlobalSkips measure 605]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1609,7 +1609,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 606]                                          %! SM4
+                    % [H GlobalSkips measure 606]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1661,7 +1661,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 607]                                          %! SM4
+                    % [H GlobalSkips measure 607]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1713,7 +1713,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 608]                                          %! SM4
+                    % [H GlobalSkips measure 608]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1765,7 +1765,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 609]                                          %! SM4
+                    % [H GlobalSkips measure 609]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1817,7 +1817,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 610]                                          %! SM4
+                    % [H GlobalSkips measure 610]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1869,7 +1869,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 611]                                          %! SM4
+                    % [H GlobalSkips measure 611]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1913,7 +1913,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 612]                                          %! SM4
+                    % [H GlobalSkips measure 612]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1965,7 +1965,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 613]                                          %! SM4
+                    % [H GlobalSkips measure 613]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2009,7 +2009,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 614]                                          %! SM4
+                    % [H GlobalSkips measure 614]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2061,7 +2061,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 615]                                          %! SM4
+                    % [H GlobalSkips measure 615]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2105,7 +2105,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 616]                                          %! SM4
+                    % [H GlobalSkips measure 616]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2157,7 +2157,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 617]                                          %! SM4
+                    % [H GlobalSkips measure 617]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2213,7 +2213,7 @@
                         \context FluteMusicVoice = "FluteMusicVoice" {
                             \times 4/5 {
                                 
-                                % [FluteMusicVoice measure 578]                          %! SM4
+                                % [H FluteMusicVoice measure 578]                        %! SM4
                                 \set FluteMusicStaff.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
                                     \hcenter-in                                          %! REAPPLIED_INSTRUMENT:SM8
                                         #16                                              %! REAPPLIED_INSTRUMENT:SM8
@@ -2238,12 +2238,7 @@
                             %@% \override FluteMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:SM8
                                 [
@@ -2297,84 +2292,39 @@
                                 \override FluteMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
@@ -2382,287 +2332,142 @@
                             \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 ]
                             }
                             \times 2/3 {
                                 
-                                % [FluteMusicVoice measure 579]                          %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H FluteMusicVoice measure 579]                        %! SM4
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8.
                                 ]
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
-                                % [FluteMusicVoice measure 580]                          %! SM4
+                                % [H FluteMusicVoice measure 580]                        %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \times 4/5 {
                                 
-                                % [FluteMusicVoice measure 581]                          %! SM4
+                                % [H FluteMusicVoice measure 581]                        %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
@@ -2670,729 +2475,384 @@
                             \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 ]
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                             }
                             \times 4/5 {
                                 
-                                % [FluteMusicVoice measure 582]                          %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H FluteMusicVoice measure 582]                        %! SM4
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8.
                                 ]
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \times 4/5 {
                                 
-                                % [FluteMusicVoice measure 583]                          %! SM4
+                                % [H FluteMusicVoice measure 583]                        %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
-                                % [FluteMusicVoice measure 584]                          %! SM4
+                                % [H FluteMusicVoice measure 584]                        %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 ]
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                             }
                             \times 4/5 {
                                 
-                                % [FluteMusicVoice measure 585]                          %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H FluteMusicVoice measure 585]                        %! SM4
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8.
                                 ]
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''16
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c''8
                             }
                             
-                            % [FluteMusicVoice measure 586]                              %! SM4
+                            % [H FluteMusicVoice measure 586]                            %! SM4
                             R1 * 3/4
                             
-                            % [FluteMusicVoice measure 587]                              %! SM4
+                            % [H FluteMusicVoice measure 587]                            %! SM4
                             R1 * 1
                             
-                            % [FluteMusicVoice measure 588]                              %! SM4
+                            % [H FluteMusicVoice measure 588]                            %! SM4
                             R1 * 1/4
                             
-                            % [FluteMusicVoice measure 589]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 589]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''2
                             ~
                             
-                            % [FluteMusicVoice measure 590]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 590]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 591]                              %! SM4
+                            % [H FluteMusicVoice measure 591]                            %! SM4
                             R1 * 1/4
                             
-                            % [FluteMusicVoice measure 592]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 592]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            % [FluteMusicVoice measure 593]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 593]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''2
                             
-                            % [FluteMusicVoice measure 594]                              %! SM4
+                            % [H FluteMusicVoice measure 594]                            %! SM4
                             R1 * 1/4
                             
-                            % [FluteMusicVoice measure 595]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 595]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             ~
                             
-                            % [FluteMusicVoice measure 596]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 596]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''2
                             ~
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''8.
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 597]                              %! SM4
+                            % [H FluteMusicVoice measure 597]                            %! SM4
                             R1 * 1/4
                             
-                            % [FluteMusicVoice measure 598]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 598]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 599]                              %! SM4
+                            % [H FluteMusicVoice measure 599]                            %! SM4
                             R1 * 1/8
                             
-                            % [FluteMusicVoice measure 600]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 600]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 601]                              %! SM4
+                            % [H FluteMusicVoice measure 601]                            %! SM4
                             R1 * 1/8
                             
-                            % [FluteMusicVoice measure 602]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 602]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 603]                              %! SM4
+                            % [H FluteMusicVoice measure 603]                            %! SM4
                             R1 * 1/8
                             
-                            % [FluteMusicVoice measure 604]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 604]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 605]                              %! SM4
+                            % [H FluteMusicVoice measure 605]                            %! SM4
                             R1 * 1/8
                             
-                            % [FluteMusicVoice measure 606]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 606]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 607]                              %! SM4
+                            % [H FluteMusicVoice measure 607]                            %! SM4
                             R1 * 1/8
                             
-                            % [FluteMusicVoice measure 608]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 608]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 609]                              %! SM4
+                            % [H FluteMusicVoice measure 609]                            %! SM4
                             R1 * 1/8
                             
-                            % [FluteMusicVoice measure 610]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 610]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4..
                             
                             r16
                             
-                            % [FluteMusicVoice measure 611]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 611]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''2.
                             ~
                             
-                            % [FluteMusicVoice measure 612]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 612]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''8.
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''2.
                             ~
                             
-                            % [FluteMusicVoice measure 613]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H FluteMusicVoice measure 613]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c''4
                             
-                            % [FluteMusicVoice measure 614]                              %! SM4
+                            % [H FluteMusicVoice measure 614]                            %! SM4
                             R1 * 3/4
                             
-                            % [FluteMusicVoice measure 615]                              %! SM4
+                            % [H FluteMusicVoice measure 615]                            %! SM4
                             R1 * 1
                             
-                            % [FluteMusicVoice measure 616]                              %! SM4
+                            % [H FluteMusicVoice measure 616]                            %! SM4
                             R1 * 3/4
                             
-                            % [FluteMusicVoice measure 617]                              %! SM4
+                            % [H FluteMusicVoice measure 617]                            %! SM4
                             R1 * 1
                             
                         }
@@ -3401,7 +2861,7 @@
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
                         \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
                             
-                            % [EnglishHornMusicVoice measure 578]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 578]                      %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -3482,77 +2942,67 @@
                             \override EnglishHornMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [EnglishHornMusicVoice measure 579]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 579]                      %! SM4
                             R1 * 1
                             
-                            % [EnglishHornMusicVoice measure 580]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 580]                      %! SM4
                             R1 * 1/2
                             
-                            % [EnglishHornMusicVoice measure 581]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 581]                      %! SM4
                             R1 * 1
                             
-                            % [EnglishHornMusicVoice measure 582]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 582]                      %! SM4
                             R1 * 1
                             
-                            % [EnglishHornMusicVoice measure 583]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 583]                      %! SM4
                             R1 * 3/4
                             
-                            % [EnglishHornMusicVoice measure 584]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 584]                      %! SM4
                             R1 * 1/2
                             
-                            % [EnglishHornMusicVoice measure 585]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 585]                      %! SM4
                             R1 * 3/4
                             
-                            % [EnglishHornMusicVoice measure 586]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 586]                      %! SM4
                             R1 * 3/4
                             
-                            % [EnglishHornMusicVoice measure 587]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 587]                      %! SM4
                             R1 * 1
                             
-                            % [EnglishHornMusicVoice measure 588]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 588]                      %! SM4
                             R1 * 1/4
                             
-                            % [EnglishHornMusicVoice measure 589]                        %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H EnglishHornMusicVoice measure 589]                      %! SM4
+                            \makeBlue                                                    %! SM24
                             g'2..
                             
                             r8
                             
-                            % [EnglishHornMusicVoice measure 590]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 590]                      %! SM4
                             r4.
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             g'4.
                             
-                            % [EnglishHornMusicVoice measure 591]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 591]                      %! SM4
                             R1 * 1/4
                             
-                            % [EnglishHornMusicVoice measure 592]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 592]                      %! SM4
                             R1 * 1/2
                             
-                            % [EnglishHornMusicVoice measure 593]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 593]                      %! SM4
                             R1 * 1/2
                             
-                            % [EnglishHornMusicVoice measure 594]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 594]                      %! SM4
                             R1 * 1/4
                             
-                            % [EnglishHornMusicVoice measure 595]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 595]                      %! SM4
                             R1 * 3/4
                             
-                            % [EnglishHornMusicVoice measure 596]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 596]                      %! SM4
                             R1 * 1
                             
-                            % [EnglishHornMusicVoice measure 597]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 597]                      %! SM4
                             R1 * 1/4
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3586,47 +3036,27 @@
                                 }
                             \times 1/1 {
                                 
-                                % [EnglishHornMusicVoice measure 598]                    %! SM4
+                                % [H EnglishHornMusicVoice measure 598]                  %! SM4
                                 \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 381/64
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 111/32
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 3/2
                                 
                                 \revert EnglishHornMusicStaff.Stem.stemlet-length
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 69/64
                                 ]
                             }
                             \revert TupletNumber.text
                             
-                            % [EnglishHornMusicVoice measure 599]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 599]                      %! SM4
                             R1 * 1/8
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3660,47 +3090,27 @@
                                 }
                             \times 1/1 {
                                 
-                                % [EnglishHornMusicVoice measure 600]                    %! SM4
+                                % [H EnglishHornMusicVoice measure 600]                  %! SM4
                                 \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 381/64
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 111/32
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 3/2
                                 
                                 \revert EnglishHornMusicStaff.Stem.stemlet-length
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 69/64
                                 ]
                             }
                             \revert TupletNumber.text
                             
-                            % [EnglishHornMusicVoice measure 601]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 601]                      %! SM4
                             R1 * 1/8
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3734,47 +3144,27 @@
                                 }
                             \times 1/1 {
                                 
-                                % [EnglishHornMusicVoice measure 602]                    %! SM4
+                                % [H EnglishHornMusicVoice measure 602]                  %! SM4
                                 \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 381/64
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 111/32
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 3/2
                                 
                                 \revert EnglishHornMusicStaff.Stem.stemlet-length
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 69/64
                                 ]
                             }
                             \revert TupletNumber.text
                             
-                            % [EnglishHornMusicVoice measure 603]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 603]                      %! SM4
                             R1 * 1/8
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3808,47 +3198,27 @@
                                 }
                             \times 1/1 {
                                 
-                                % [EnglishHornMusicVoice measure 604]                    %! SM4
+                                % [H EnglishHornMusicVoice measure 604]                  %! SM4
                                 \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 381/64
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 111/32
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 3/2
                                 
                                 \revert EnglishHornMusicStaff.Stem.stemlet-length
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 69/64
                                 ]
                             }
                             \revert TupletNumber.text
                             
-                            % [EnglishHornMusicVoice measure 605]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 605]                      %! SM4
                             R1 * 1/8
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3882,47 +3252,27 @@
                                 }
                             \times 1/1 {
                                 
-                                % [EnglishHornMusicVoice measure 606]                    %! SM4
+                                % [H EnglishHornMusicVoice measure 606]                  %! SM4
                                 \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 381/64
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 111/32
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 3/2
                                 
                                 \revert EnglishHornMusicStaff.Stem.stemlet-length
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 69/64
                                 ]
                             }
                             \revert TupletNumber.text
                             
-                            % [EnglishHornMusicVoice measure 607]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 607]                      %! SM4
                             R1 * 1/8
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3956,112 +3306,62 @@
                                 }
                             \times 1/1 {
                                 
-                                % [EnglishHornMusicVoice measure 608]                    %! SM4
+                                % [H EnglishHornMusicVoice measure 608]                  %! SM4
                                 \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 381/64
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 111/32
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 3/2
                                 
                                 \revert EnglishHornMusicStaff.Stem.stemlet-length
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 g'16 * 69/64
                                 ]
                             }
                             \revert TupletNumber.text
                             
-                            % [EnglishHornMusicVoice measure 609]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 609]                      %! SM4
                             R1 * 1/8
                             
-                            % [EnglishHornMusicVoice measure 610]                        %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H EnglishHornMusicVoice measure 610]                      %! SM4
+                            \makeBlue                                                    %! SM24
                             g'2
                             
-                            % [EnglishHornMusicVoice measure 611]                        %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H EnglishHornMusicVoice measure 611]                      %! SM4
+                            \makeBlue                                                    %! SM24
                             g'2.
                             \repeatTie
                             
-                            % [EnglishHornMusicVoice measure 612]                        %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H EnglishHornMusicVoice measure 612]                      %! SM4
+                            \makeBlue                                                    %! SM24
                             g'1
                             \repeatTie
                             
-                            % [EnglishHornMusicVoice measure 613]                        %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H EnglishHornMusicVoice measure 613]                      %! SM4
+                            \makeBlue                                                    %! SM24
                             g'2
                             \repeatTie
                             
-                            % [EnglishHornMusicVoice measure 614]                        %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H EnglishHornMusicVoice measure 614]                      %! SM4
+                            \makeBlue                                                    %! SM24
                             g'2.
                             \repeatTie
                             
-                            % [EnglishHornMusicVoice measure 615]                        %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H EnglishHornMusicVoice measure 615]                      %! SM4
+                            \makeBlue                                                    %! SM24
                             g'1
                             \repeatTie
                             
-                            % [EnglishHornMusicVoice measure 616]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 616]                      %! SM4
                             R1 * 3/4
                             
-                            % [EnglishHornMusicVoice measure 617]                        %! SM4
+                            % [H EnglishHornMusicVoice measure 617]                      %! SM4
                             R1 * 1
                             
                         }
@@ -4071,7 +3371,7 @@
                         \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                             \times 4/5 {
                                 
-                                % [ClarinetMusicVoice measure 578]                       %! SM4
+                                % [H ClarinetMusicVoice measure 578]                     %! SM4
                                 \set ClarinetMusicStaff.instrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
                                     \hcenter-in                                          %! REAPPLIED_INSTRUMENT:SM8
                                         #16                                              %! REAPPLIED_INSTRUMENT:SM8
@@ -4096,12 +3396,7 @@
                             %@% \override ClarinetMusicStaff.Clef.color = ##f            %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:SM8
                                 [
@@ -4155,84 +3450,39 @@
                                 \override ClarinetMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
@@ -4240,287 +3490,142 @@
                             \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 ]
                             }
                             \times 2/3 {
                                 
-                                % [ClarinetMusicVoice measure 579]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H ClarinetMusicVoice measure 579]                     %! SM4
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8.
                                 ]
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
-                                % [ClarinetMusicVoice measure 580]                       %! SM4
+                                % [H ClarinetMusicVoice measure 580]                     %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \times 4/5 {
                                 
-                                % [ClarinetMusicVoice measure 581]                       %! SM4
+                                % [H ClarinetMusicVoice measure 581]                     %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
@@ -4528,631 +3633,336 @@
                             \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 ]
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                             }
                             \times 4/5 {
                                 
-                                % [ClarinetMusicVoice measure 582]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H ClarinetMusicVoice measure 582]                     %! SM4
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8.
                                 ]
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \times 4/5 {
                                 
-                                % [ClarinetMusicVoice measure 583]                       %! SM4
+                                % [H ClarinetMusicVoice measure 583]                     %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \times 4/5 {
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
-                                % [ClarinetMusicVoice measure 584]                       %! SM4
+                                % [H ClarinetMusicVoice measure 584]                     %! SM4
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 ]
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                             }
                             \times 4/5 {
                                 
-                                % [ClarinetMusicVoice measure 585]                       %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H ClarinetMusicVoice measure 585]                     %! SM4
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 [
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8.
                                 ]
                             }
                             \times 4/5 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''16
                                 \repeatTie
                                 
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                             }
                             \times 2/3 {
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''4
                                 \repeatTie
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 d''8
                             }
                             
-                            % [ClarinetMusicVoice measure 586]                           %! SM4
+                            % [H ClarinetMusicVoice measure 586]                         %! SM4
                             R1 * 3/4
                             
-                            % [ClarinetMusicVoice measure 587]                           %! SM4
+                            % [H ClarinetMusicVoice measure 587]                         %! SM4
                             R1 * 1
                             
-                            % [ClarinetMusicVoice measure 588]                           %! SM4
+                            % [H ClarinetMusicVoice measure 588]                         %! SM4
                             R1 * 1/4
                             
-                            % [ClarinetMusicVoice measure 589]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 589]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2...
                             
                             r16
                             
-                            % [ClarinetMusicVoice measure 590]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 590]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 591]                           %! SM4
+                            % [H ClarinetMusicVoice measure 591]                         %! SM4
                             R1 * 1/4
                             
-                            % [ClarinetMusicVoice measure 592]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 592]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2
                             ~
                             
-                            % [ClarinetMusicVoice measure 593]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 593]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''4..
                             
                             r16
                             
-                            % [ClarinetMusicVoice measure 594]                           %! SM4
+                            % [H ClarinetMusicVoice measure 594]                         %! SM4
                             R1 * 1/4
                             
-                            % [ClarinetMusicVoice measure 595]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 595]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             ~
                             
-                            % [ClarinetMusicVoice measure 596]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 596]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''8.
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 597]                           %! SM4
+                            % [H ClarinetMusicVoice measure 597]                         %! SM4
                             R1 * 1/4
                             
-                            % [ClarinetMusicVoice measure 598]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 598]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 599]                           %! SM4
+                            % [H ClarinetMusicVoice measure 599]                         %! SM4
                             R1 * 1/8
                             
-                            % [ClarinetMusicVoice measure 600]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 600]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 601]                           %! SM4
+                            % [H ClarinetMusicVoice measure 601]                         %! SM4
                             R1 * 1/8
                             
-                            % [ClarinetMusicVoice measure 602]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 602]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 603]                           %! SM4
+                            % [H ClarinetMusicVoice measure 603]                         %! SM4
                             R1 * 1/8
                             
-                            % [ClarinetMusicVoice measure 604]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 604]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 605]                           %! SM4
+                            % [H ClarinetMusicVoice measure 605]                         %! SM4
                             R1 * 1/8
                             
-                            % [ClarinetMusicVoice measure 606]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 606]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 607]                           %! SM4
+                            % [H ClarinetMusicVoice measure 607]                         %! SM4
                             R1 * 1/8
                             
-                            % [ClarinetMusicVoice measure 608]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 608]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            % [ClarinetMusicVoice measure 609]                           %! SM4
+                            % [H ClarinetMusicVoice measure 609]                         %! SM4
                             R1 * 1/8
                             
-                            % [ClarinetMusicVoice measure 610]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 610]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2
                             ~
                             
-                            % [ClarinetMusicVoice measure 611]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 611]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             d''4
                             ~
                             
-                            % [ClarinetMusicVoice measure 612]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 612]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2.
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             d''4
                             ~
                             
-                            % [ClarinetMusicVoice measure 613]                           %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ClarinetMusicVoice measure 613]                         %! SM4
+                            \makeBlue                                                    %! SM24
                             d''2
                             
-                            % [ClarinetMusicVoice measure 614]                           %! SM4
+                            % [H ClarinetMusicVoice measure 614]                         %! SM4
                             R1 * 3/4
                             
-                            % [ClarinetMusicVoice measure 615]                           %! SM4
+                            % [H ClarinetMusicVoice measure 615]                         %! SM4
                             R1 * 1
                             
-                            % [ClarinetMusicVoice measure 616]                           %! SM4
+                            % [H ClarinetMusicVoice measure 616]                         %! SM4
                             R1 * 3/4
                             
-                            % [ClarinetMusicVoice measure 617]                           %! SM4
+                            % [H ClarinetMusicVoice measure 617]                         %! SM4
                             R1 * 1
                             
                         }
@@ -5164,7 +3974,7 @@
                         \context PianoRHMusicStaff = "PianoRHMusicStaff" {
                             \context PianoRHMusicVoice = "PianoRHMusicVoice" {
                                 
-                                % [PianoRHMusicVoice measure 578]                        %! SM4
+                                % [H PianoRHMusicVoice measure 578]                      %! SM4
                                 \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
                                     \hcenter-in                                          %! REAPPLIED_INSTRUMENT:SM8
                                         #16                                              %! REAPPLIED_INSTRUMENT:SM8
@@ -5180,12 +3990,7 @@
                                 \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
                             %@% \override PianoRHMusicStaff.Clef.color = ##f             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 ^ \markup {                                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     \with-color                                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -5221,607 +4026,277 @@
                                 \override PianoStaffGroup.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                                 \override PianoRHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 579]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 579]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 580]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 580]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 581]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 581]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 582]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 582]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 583]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 583]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 584]                        %! SM4
+                                % [H PianoRHMusicVoice measure 584]                      %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoRHMusicVoice measure 585]                        %! SM4
+                                % [H PianoRHMusicVoice measure 585]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoRHMusicVoice measure 586]                        %! SM4
+                                % [H PianoRHMusicVoice measure 586]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoRHMusicVoice measure 587]                        %! SM4
+                                % [H PianoRHMusicVoice measure 587]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoRHMusicVoice measure 588]                        %! SM4
+                                % [H PianoRHMusicVoice measure 588]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoRHMusicVoice measure 589]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 589]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 590]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 590]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 591]                        %! SM4
+                                % [H PianoRHMusicVoice measure 591]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoRHMusicVoice measure 592]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 592]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 593]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 593]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 594]                        %! SM4
+                                % [H PianoRHMusicVoice measure 594]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoRHMusicVoice measure 595]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 595]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 596]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 596]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 597]                        %! SM4
+                                % [H PianoRHMusicVoice measure 597]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoRHMusicVoice measure 598]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 598]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 599]                        %! SM4
+                                % [H PianoRHMusicVoice measure 599]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoRHMusicVoice measure 600]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 600]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 601]                        %! SM4
+                                % [H PianoRHMusicVoice measure 601]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoRHMusicVoice measure 602]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 602]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 603]                        %! SM4
+                                % [H PianoRHMusicVoice measure 603]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoRHMusicVoice measure 604]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 604]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 605]                        %! SM4
+                                % [H PianoRHMusicVoice measure 605]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoRHMusicVoice measure 606]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 606]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 607]                        %! SM4
+                                % [H PianoRHMusicVoice measure 607]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoRHMusicVoice measure 608]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 608]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 609]                        %! SM4
+                                % [H PianoRHMusicVoice measure 609]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoRHMusicVoice measure 610]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 610]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 611]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 611]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 612]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 612]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 613]                        %! SM4
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                % [H PianoRHMusicVoice measure 613]                      %! SM4
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                \once \override Accidental.color = #blue                 %! SM24
-                                \once \override Beam.color = #blue                       %! SM24
-                                \once \override Dots.color = #blue                       %! SM24
-                                \once \override Flag.color = #blue                       %! SM24
-                                \once \override NoteHead.color = #blue                   %! SM24
-                                \once \override Stem.color = #blue                       %! SM24
+                                \makeBlue                                                %! SM24
                                 c'4
                                 
-                                % [PianoRHMusicVoice measure 614]                        %! SM4
+                                % [H PianoRHMusicVoice measure 614]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoRHMusicVoice measure 615]                        %! SM4
+                                % [H PianoRHMusicVoice measure 615]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoRHMusicVoice measure 616]                        %! SM4
+                                % [H PianoRHMusicVoice measure 616]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoRHMusicVoice measure 617]                        %! SM4
+                                % [H PianoRHMusicVoice measure 617]                      %! SM4
                                 R1 * 1
                                 
                             }
@@ -5829,7 +4304,7 @@
                         \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
                             \context PianoLHMusicVoice = "PianoLHMusicVoice" {
                                 
-                                % [PianoLHMusicVoice measure 578]                        %! SM4
+                                % [H PianoLHMusicVoice measure 578]                      %! SM4
                                 \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
                                 \clef "bass"                                             %! REAPPLIED_CLEF:SM8
                                 \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
@@ -5837,246 +4312,246 @@
                                 R1 * 3/4
                                 \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 
-                                % [PianoLHMusicVoice measure 579]                        %! SM4
+                                % [H PianoLHMusicVoice measure 579]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 580]                        %! SM4
+                                % [H PianoLHMusicVoice measure 580]                      %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHMusicVoice measure 581]                        %! SM4
+                                % [H PianoLHMusicVoice measure 581]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 582]                        %! SM4
+                                % [H PianoLHMusicVoice measure 582]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 583]                        %! SM4
+                                % [H PianoLHMusicVoice measure 583]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 584]                        %! SM4
+                                % [H PianoLHMusicVoice measure 584]                      %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHMusicVoice measure 585]                        %! SM4
+                                % [H PianoLHMusicVoice measure 585]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 586]                        %! SM4
+                                % [H PianoLHMusicVoice measure 586]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 587]                        %! SM4
+                                % [H PianoLHMusicVoice measure 587]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 588]                        %! SM4
+                                % [H PianoLHMusicVoice measure 588]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHMusicVoice measure 589]                        %! SM4
+                                % [H PianoLHMusicVoice measure 589]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 590]                        %! SM4
+                                % [H PianoLHMusicVoice measure 590]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 591]                        %! SM4
+                                % [H PianoLHMusicVoice measure 591]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHMusicVoice measure 592]                        %! SM4
+                                % [H PianoLHMusicVoice measure 592]                      %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHMusicVoice measure 593]                        %! SM4
+                                % [H PianoLHMusicVoice measure 593]                      %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHMusicVoice measure 594]                        %! SM4
+                                % [H PianoLHMusicVoice measure 594]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHMusicVoice measure 595]                        %! SM4
+                                % [H PianoLHMusicVoice measure 595]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 596]                        %! SM4
+                                % [H PianoLHMusicVoice measure 596]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 597]                        %! SM4
+                                % [H PianoLHMusicVoice measure 597]                      %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHMusicVoice measure 598]                        %! SM4
+                                % [H PianoLHMusicVoice measure 598]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 599]                        %! SM4
+                                % [H PianoLHMusicVoice measure 599]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHMusicVoice measure 600]                        %! SM4
+                                % [H PianoLHMusicVoice measure 600]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 601]                        %! SM4
+                                % [H PianoLHMusicVoice measure 601]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHMusicVoice measure 602]                        %! SM4
+                                % [H PianoLHMusicVoice measure 602]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 603]                        %! SM4
+                                % [H PianoLHMusicVoice measure 603]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHMusicVoice measure 604]                        %! SM4
+                                % [H PianoLHMusicVoice measure 604]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 605]                        %! SM4
+                                % [H PianoLHMusicVoice measure 605]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHMusicVoice measure 606]                        %! SM4
+                                % [H PianoLHMusicVoice measure 606]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 607]                        %! SM4
+                                % [H PianoLHMusicVoice measure 607]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHMusicVoice measure 608]                        %! SM4
+                                % [H PianoLHMusicVoice measure 608]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 609]                        %! SM4
+                                % [H PianoLHMusicVoice measure 609]                      %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHMusicVoice measure 610]                        %! SM4
+                                % [H PianoLHMusicVoice measure 610]                      %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHMusicVoice measure 611]                        %! SM4
+                                % [H PianoLHMusicVoice measure 611]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 612]                        %! SM4
+                                % [H PianoLHMusicVoice measure 612]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 613]                        %! SM4
+                                % [H PianoLHMusicVoice measure 613]                      %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHMusicVoice measure 614]                        %! SM4
+                                % [H PianoLHMusicVoice measure 614]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 615]                        %! SM4
+                                % [H PianoLHMusicVoice measure 615]                      %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHMusicVoice measure 616]                        %! SM4
+                                % [H PianoLHMusicVoice measure 616]                      %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHMusicVoice measure 617]                        %! SM4
+                                % [H PianoLHMusicVoice measure 617]                      %! SM4
                                 R1 * 1
                                 
                             }
                             \context PianoLHAttackVoice = "PianoLHAttackVoice" {
                                 
-                                % [PianoLHAttackVoice measure 578]                       %! SM4
+                                % [H PianoLHAttackVoice measure 578]                     %! SM4
                                 \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                                 R1 * 3/4
                                 \sfz                                                     %! REAPPLIED_DYNAMIC:SM8
                                 
-                                % [PianoLHAttackVoice measure 579]                       %! SM4
+                                % [H PianoLHAttackVoice measure 579]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 580]                       %! SM4
+                                % [H PianoLHAttackVoice measure 580]                     %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHAttackVoice measure 581]                       %! SM4
+                                % [H PianoLHAttackVoice measure 581]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 582]                       %! SM4
+                                % [H PianoLHAttackVoice measure 582]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 583]                       %! SM4
+                                % [H PianoLHAttackVoice measure 583]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 584]                       %! SM4
+                                % [H PianoLHAttackVoice measure 584]                     %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHAttackVoice measure 585]                       %! SM4
+                                % [H PianoLHAttackVoice measure 585]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 586]                       %! SM4
+                                % [H PianoLHAttackVoice measure 586]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 587]                       %! SM4
+                                % [H PianoLHAttackVoice measure 587]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 588]                       %! SM4
+                                % [H PianoLHAttackVoice measure 588]                     %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHAttackVoice measure 589]                       %! SM4
+                                % [H PianoLHAttackVoice measure 589]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 590]                       %! SM4
+                                % [H PianoLHAttackVoice measure 590]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 591]                       %! SM4
+                                % [H PianoLHAttackVoice measure 591]                     %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHAttackVoice measure 592]                       %! SM4
+                                % [H PianoLHAttackVoice measure 592]                     %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHAttackVoice measure 593]                       %! SM4
+                                % [H PianoLHAttackVoice measure 593]                     %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHAttackVoice measure 594]                       %! SM4
+                                % [H PianoLHAttackVoice measure 594]                     %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHAttackVoice measure 595]                       %! SM4
+                                % [H PianoLHAttackVoice measure 595]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 596]                       %! SM4
+                                % [H PianoLHAttackVoice measure 596]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 597]                       %! SM4
+                                % [H PianoLHAttackVoice measure 597]                     %! SM4
                                 R1 * 1/4
                                 
-                                % [PianoLHAttackVoice measure 598]                       %! SM4
+                                % [H PianoLHAttackVoice measure 598]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 599]                       %! SM4
+                                % [H PianoLHAttackVoice measure 599]                     %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHAttackVoice measure 600]                       %! SM4
+                                % [H PianoLHAttackVoice measure 600]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 601]                       %! SM4
+                                % [H PianoLHAttackVoice measure 601]                     %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHAttackVoice measure 602]                       %! SM4
+                                % [H PianoLHAttackVoice measure 602]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 603]                       %! SM4
+                                % [H PianoLHAttackVoice measure 603]                     %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHAttackVoice measure 604]                       %! SM4
+                                % [H PianoLHAttackVoice measure 604]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 605]                       %! SM4
+                                % [H PianoLHAttackVoice measure 605]                     %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHAttackVoice measure 606]                       %! SM4
+                                % [H PianoLHAttackVoice measure 606]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 607]                       %! SM4
+                                % [H PianoLHAttackVoice measure 607]                     %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHAttackVoice measure 608]                       %! SM4
+                                % [H PianoLHAttackVoice measure 608]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 609]                       %! SM4
+                                % [H PianoLHAttackVoice measure 609]                     %! SM4
                                 R1 * 1/8
                                 
-                                % [PianoLHAttackVoice measure 610]                       %! SM4
+                                % [H PianoLHAttackVoice measure 610]                     %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHAttackVoice measure 611]                       %! SM4
+                                % [H PianoLHAttackVoice measure 611]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 612]                       %! SM4
+                                % [H PianoLHAttackVoice measure 612]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 613]                       %! SM4
+                                % [H PianoLHAttackVoice measure 613]                     %! SM4
                                 R1 * 1/2
                                 
-                                % [PianoLHAttackVoice measure 614]                       %! SM4
+                                % [H PianoLHAttackVoice measure 614]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 615]                       %! SM4
+                                % [H PianoLHAttackVoice measure 615]                     %! SM4
                                 R1 * 1
                                 
-                                % [PianoLHAttackVoice measure 616]                       %! SM4
+                                % [H PianoLHAttackVoice measure 616]                     %! SM4
                                 R1 * 3/4
                                 
-                                % [PianoLHAttackVoice measure 617]                       %! SM4
+                                % [H PianoLHAttackVoice measure 617]                     %! SM4
                                 R1 * 1
                                 
                             }
@@ -6086,7 +4561,7 @@
                     \context PercussionMusicStaff = "PercussionMusicStaff" {
                         \context PercussionMusicVoice = "PercussionMusicVoice" {
                             
-                            % [PercussionMusicVoice measure 578]                         %! SM4
+                            % [H PercussionMusicVoice measure 578]                       %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override PercussionMusicStaff.StaffSymbol.line-count = 2 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -6107,12 +4582,7 @@
                             \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                             \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             \effort_mf                                                   %! REAPPLIED_DYNAMIC:SM8
                             ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -6151,355 +4621,200 @@
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             ~
                             
-                            % [PercussionMusicVoice measure 579]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 579]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             ~
                             
-                            % [PercussionMusicVoice measure 580]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 580]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             ~
                             
-                            % [PercussionMusicVoice measure 581]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 581]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             ~
                             
-                            % [PercussionMusicVoice measure 582]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 582]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             ~
                             
-                            % [PercussionMusicVoice measure 583]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 583]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             
-                            % [PercussionMusicVoice measure 584]                         %! SM4
+                            % [H PercussionMusicVoice measure 584]                       %! SM4
                             R1 * 1/2
                             
-                            % [PercussionMusicVoice measure 585]                         %! SM4
+                            % [H PercussionMusicVoice measure 585]                       %! SM4
                             R1 * 3/4
                             
-                            % [PercussionMusicVoice measure 586]                         %! SM4
+                            % [H PercussionMusicVoice measure 586]                       %! SM4
                             R1 * 3/4
                             
-                            % [PercussionMusicVoice measure 587]                         %! SM4
+                            % [H PercussionMusicVoice measure 587]                       %! SM4
                             R1 * 1
                             
-                            % [PercussionMusicVoice measure 588]                         %! SM4
+                            % [H PercussionMusicVoice measure 588]                       %! SM4
                             R1 * 1/4
                             
-                            % [PercussionMusicVoice measure 589]                         %! SM4
+                            % [H PercussionMusicVoice measure 589]                       %! SM4
                             r2.
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [PercussionMusicVoice measure 590]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 590]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
                             r4
                             
-                            % [PercussionMusicVoice measure 591]                         %! SM4
+                            % [H PercussionMusicVoice measure 591]                       %! SM4
                             R1 * 1/4
                             
-                            % [PercussionMusicVoice measure 592]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 592]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [PercussionMusicVoice measure 593]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 593]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            % [PercussionMusicVoice measure 594]                         %! SM4
+                            % [H PercussionMusicVoice measure 594]                       %! SM4
                             R1 * 1/4
                             
-                            % [PercussionMusicVoice measure 595]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 595]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             ~
                             
-                            % [PercussionMusicVoice measure 596]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 596]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             
-                            % [PercussionMusicVoice measure 597]                         %! SM4
+                            % [H PercussionMusicVoice measure 597]                       %! SM4
                             R1 * 1/4
                             
-                            % [PercussionMusicVoice measure 598]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 598]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [PercussionMusicVoice measure 599]                         %! SM4
+                            % [H PercussionMusicVoice measure 599]                       %! SM4
                             R1 * 1/8
                             
-                            % [PercussionMusicVoice measure 600]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 600]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [PercussionMusicVoice measure 601]                         %! SM4
+                            % [H PercussionMusicVoice measure 601]                       %! SM4
                             R1 * 1/8
                             
-                            % [PercussionMusicVoice measure 602]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 602]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [PercussionMusicVoice measure 603]                         %! SM4
+                            % [H PercussionMusicVoice measure 603]                       %! SM4
                             R1 * 1/8
                             
-                            % [PercussionMusicVoice measure 604]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 604]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [PercussionMusicVoice measure 605]                         %! SM4
+                            % [H PercussionMusicVoice measure 605]                       %! SM4
                             R1 * 1/8
                             
-                            % [PercussionMusicVoice measure 606]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 606]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [PercussionMusicVoice measure 607]                         %! SM4
+                            % [H PercussionMusicVoice measure 607]                       %! SM4
                             R1 * 1/8
                             
-                            % [PercussionMusicVoice measure 608]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 608]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [PercussionMusicVoice measure 609]                         %! SM4
+                            % [H PercussionMusicVoice measure 609]                       %! SM4
                             R1 * 1/8
                             
-                            % [PercussionMusicVoice measure 610]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 610]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            % [PercussionMusicVoice measure 611]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 611]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 612]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 612]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 613]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 613]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 614]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 614]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 615]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H PercussionMusicVoice measure 615]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 616]                         %! SM4
+                            % [H PercussionMusicVoice measure 616]                       %! SM4
                             R1 * 3/4
                             
-                            % [PercussionMusicVoice measure 617]                         %! SM4
+                            % [H PercussionMusicVoice measure 617]                       %! SM4
                             R1 * 1
                             
                         }
@@ -6510,7 +4825,7 @@
                     \context ViolinMusicStaff = "ViolinMusicStaff" {
                         \context ViolinMusicVoice = "ViolinMusicVoice" {
                             
-                            % [ViolinMusicVoice measure 578]                             %! SM4
+                            % [H ViolinMusicVoice measure 578]                           %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -6531,12 +4846,7 @@
                             \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                             \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
                             ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -6573,647 +4883,347 @@
                             \override ViolinMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [ViolinMusicVoice measure 579]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 579]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 580]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 580]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 581]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 581]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 582]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 582]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 583]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 583]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 584]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 584]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 585]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 585]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 586]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 586]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 587]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 587]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 588]                             %! SM4
+                            % [H ViolinMusicVoice measure 588]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinMusicVoice measure 589]                             %! SM4
+                            % [H ViolinMusicVoice measure 589]                           %! SM4
                             r1
                             
-                            % [ViolinMusicVoice measure 590]                             %! SM4
+                            % [H ViolinMusicVoice measure 590]                           %! SM4
                             r2.
                             
-                            % [ViolinMusicVoice measure 591]                             %! SM4
+                            % [H ViolinMusicVoice measure 591]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinMusicVoice measure 592]                             %! SM4
+                            % [H ViolinMusicVoice measure 592]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             
-                            % [ViolinMusicVoice measure 593]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 593]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4.
                             
-                            % [ViolinMusicVoice measure 594]                             %! SM4
+                            % [H ViolinMusicVoice measure 594]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinMusicVoice measure 595]                             %! SM4
+                            % [H ViolinMusicVoice measure 595]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             ]
                             
-                            % [ViolinMusicVoice measure 596]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 596]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2..
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             
-                            % [ViolinMusicVoice measure 597]                             %! SM4
+                            % [H ViolinMusicVoice measure 597]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinMusicVoice measure 598]                             %! SM4
+                            % [H ViolinMusicVoice measure 598]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolinMusicVoice measure 599]                             %! SM4
+                            % [H ViolinMusicVoice measure 599]                           %! SM4
                             R1 * 1/8
                             
-                            % [ViolinMusicVoice measure 600]                             %! SM4
+                            % [H ViolinMusicVoice measure 600]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolinMusicVoice measure 601]                             %! SM4
+                            % [H ViolinMusicVoice measure 601]                           %! SM4
                             R1 * 1/8
                             
-                            % [ViolinMusicVoice measure 602]                             %! SM4
+                            % [H ViolinMusicVoice measure 602]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolinMusicVoice measure 603]                             %! SM4
+                            % [H ViolinMusicVoice measure 603]                           %! SM4
                             R1 * 1/8
                             
-                            % [ViolinMusicVoice measure 604]                             %! SM4
+                            % [H ViolinMusicVoice measure 604]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolinMusicVoice measure 605]                             %! SM4
+                            % [H ViolinMusicVoice measure 605]                           %! SM4
                             R1 * 1/8
                             
-                            % [ViolinMusicVoice measure 606]                             %! SM4
+                            % [H ViolinMusicVoice measure 606]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolinMusicVoice measure 607]                             %! SM4
+                            % [H ViolinMusicVoice measure 607]                           %! SM4
                             R1 * 1/8
                             
-                            % [ViolinMusicVoice measure 608]                             %! SM4
+                            % [H ViolinMusicVoice measure 608]                           %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolinMusicVoice measure 609]                             %! SM4
+                            % [H ViolinMusicVoice measure 609]                           %! SM4
                             R1 * 1/8
                             
-                            % [ViolinMusicVoice measure 610]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 610]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            % [ViolinMusicVoice measure 611]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 611]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 612]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 612]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 613]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 613]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 614]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 614]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 615]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 615]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 616]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 616]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 617]                             %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolinMusicVoice measure 617]                           %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
@@ -7223,7 +5233,7 @@
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             
-                            % [ViolaMusicVoice measure 578]                              %! SM4
+                            % [H ViolaMusicVoice measure 578]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -7244,12 +5254,7 @@
                             \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
                             ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -7286,136 +5291,71 @@
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [ViolaMusicVoice measure 579]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 579]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 580]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 580]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 581]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 581]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 582]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 582]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 583]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 583]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 584]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 584]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 585]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 585]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 586]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 586]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 587]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 587]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 588]                              %! SM4
+                            % [H ViolaMusicVoice measure 588]                            %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 589]                              %! SM4
+                            % [H ViolaMusicVoice measure 589]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
@@ -7423,585 +5363,310 @@
                             c'8
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4.
                             ~
                             
-                            % [ViolaMusicVoice measure 590]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 590]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             ~
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolaMusicVoice measure 591]                              %! SM4
+                            % [H ViolaMusicVoice measure 591]                            %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 592]                              %! SM4
+                            % [H ViolaMusicVoice measure 592]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             
-                            % [ViolaMusicVoice measure 593]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 593]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4.
                             
-                            % [ViolaMusicVoice measure 594]                              %! SM4
+                            % [H ViolaMusicVoice measure 594]                            %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 595]                              %! SM4
+                            % [H ViolaMusicVoice measure 595]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             ]
                             
-                            % [ViolaMusicVoice measure 596]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 596]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2..
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             
-                            % [ViolaMusicVoice measure 597]                              %! SM4
+                            % [H ViolaMusicVoice measure 597]                            %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 598]                              %! SM4
+                            % [H ViolaMusicVoice measure 598]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolaMusicVoice measure 599]                              %! SM4
+                            % [H ViolaMusicVoice measure 599]                            %! SM4
                             R1 * 1/8
                             
-                            % [ViolaMusicVoice measure 600]                              %! SM4
+                            % [H ViolaMusicVoice measure 600]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolaMusicVoice measure 601]                              %! SM4
+                            % [H ViolaMusicVoice measure 601]                            %! SM4
                             R1 * 1/8
                             
-                            % [ViolaMusicVoice measure 602]                              %! SM4
+                            % [H ViolaMusicVoice measure 602]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolaMusicVoice measure 603]                              %! SM4
+                            % [H ViolaMusicVoice measure 603]                            %! SM4
                             R1 * 1/8
                             
-                            % [ViolaMusicVoice measure 604]                              %! SM4
+                            % [H ViolaMusicVoice measure 604]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolaMusicVoice measure 605]                              %! SM4
+                            % [H ViolaMusicVoice measure 605]                            %! SM4
                             R1 * 1/8
                             
-                            % [ViolaMusicVoice measure 606]                              %! SM4
+                            % [H ViolaMusicVoice measure 606]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolaMusicVoice measure 607]                              %! SM4
+                            % [H ViolaMusicVoice measure 607]                            %! SM4
                             R1 * 1/8
                             
-                            % [ViolaMusicVoice measure 608]                              %! SM4
+                            % [H ViolaMusicVoice measure 608]                            %! SM4
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
                             r8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ~
                             [
                             
                             c'8
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'8
                             ]
                             
-                            % [ViolaMusicVoice measure 609]                              %! SM4
+                            % [H ViolaMusicVoice measure 609]                            %! SM4
                             R1 * 1/8
                             
-                            % [ViolaMusicVoice measure 610]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 610]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            % [ViolaMusicVoice measure 611]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 611]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 612]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 612]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 613]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 613]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 614]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 614]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 615]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 615]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 616]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 616]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 617]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H ViolaMusicVoice measure 617]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
@@ -8011,7 +5676,7 @@
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             
-                            % [CelloMusicVoice measure 578]                              %! SM4
+                            % [H CelloMusicVoice measure 578]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -8032,12 +5697,7 @@
                             \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
                             [
@@ -8075,735 +5735,350 @@
                             \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 579]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 579]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             
-                            % [CelloMusicVoice measure 580]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 580]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             ~
                             
-                            % [CelloMusicVoice measure 581]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 581]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2
                             ~
                             
-                            % [CelloMusicVoice measure 582]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 582]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2
                             ~
                             
-                            % [CelloMusicVoice measure 583]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 583]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            % [CelloMusicVoice measure 584]                              %! SM4
+                            % [H CelloMusicVoice measure 584]                            %! SM4
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            % [CelloMusicVoice measure 585]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 585]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 586]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 586]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 587]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 587]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 588]                              %! SM4
+                            % [H CelloMusicVoice measure 588]                            %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 589]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 589]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             ~
                             
-                            % [CelloMusicVoice measure 590]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 590]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             
-                            % [CelloMusicVoice measure 591]                              %! SM4
+                            % [H CelloMusicVoice measure 591]                            %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 592]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 592]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             ~
                             
-                            % [CelloMusicVoice measure 593]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 593]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'8.
                             
                             r16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4
                             
-                            % [CelloMusicVoice measure 594]                              %! SM4
+                            % [H CelloMusicVoice measure 594]                            %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 595]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 595]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 596]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 596]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             
-                            % [CelloMusicVoice measure 597]                              %! SM4
+                            % [H CelloMusicVoice measure 597]                            %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 598]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 598]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 599]                              %! SM4
+                            % [H CelloMusicVoice measure 599]                            %! SM4
                             R1 * 1/8
                             
-                            % [CelloMusicVoice measure 600]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 600]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 601]                              %! SM4
+                            % [H CelloMusicVoice measure 601]                            %! SM4
                             R1 * 1/8
                             
-                            % [CelloMusicVoice measure 602]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 602]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 603]                              %! SM4
+                            % [H CelloMusicVoice measure 603]                            %! SM4
                             R1 * 1/8
                             
-                            % [CelloMusicVoice measure 604]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 604]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 605]                              %! SM4
+                            % [H CelloMusicVoice measure 605]                            %! SM4
                             R1 * 1/8
                             
-                            % [CelloMusicVoice measure 606]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 606]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 607]                              %! SM4
+                            % [H CelloMusicVoice measure 607]                            %! SM4
                             R1 * 1/8
                             
-                            % [CelloMusicVoice measure 608]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 608]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'16
                             [
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'16
                             ]
                             
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'4..
                             
                             r16
                             
-                            % [CelloMusicVoice measure 609]                              %! SM4
+                            % [H CelloMusicVoice measure 609]                            %! SM4
                             R1 * 1/8
                             
-                            % [CelloMusicVoice measure 610]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 610]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             
-                            % [CelloMusicVoice measure 611]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 611]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 612]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 612]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 613]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 613]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 614]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 614]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 615]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 615]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 616]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 616]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 617]                              %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [H CelloMusicVoice measure 617]                            %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             \repeatTie
                             
