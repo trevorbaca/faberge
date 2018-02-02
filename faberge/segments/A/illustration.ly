@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #5
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalSkips = "GlobalSkips" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [A GlobalSkips measure 5]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -4250,11 +4255,15 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" <<
-                \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
+            \context MusicContext = "MusicContext"
+            <<
+                \context WindSectionStaffGroup = "WindSectionStaffGroup"
+                <<
                     \tag Flute                                                           %! ST4
-                    \context FluteMusicStaff = "FluteMusicStaff" {
-                        \context FluteMusicVoice = "FluteMusicVoice" {
+                    \context FluteMusicStaff = "FluteMusicStaff"
+                    {
+                        \context FluteMusicVoice = "FluteMusicVoice"
+                        {
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
@@ -5492,8 +5501,10 @@
                         }
                     }
                     \tag EnglishHorn                                                     %! ST4
-                    \context EnglishHornMusicStaff = "EnglishHornMusicStaff" {
-                        \context EnglishHornMusicVoice = "EnglishHornMusicVoice" {
+                    \context EnglishHornMusicStaff = "EnglishHornMusicStaff"
+                    {
+                        \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+                        {
                             
                             % [A EnglishHornMusicVoice measure 5]                        %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6187,8 +6198,10 @@
                         }
                     }
                     \tag Clarinet                                                        %! ST4
-                    \context ClarinetMusicStaff = "ClarinetMusicStaff" {
-                        \context ClarinetMusicVoice = "ClarinetMusicVoice" {
+                    \context ClarinetMusicStaff = "ClarinetMusicStaff"
+                    {
+                        \context ClarinetMusicVoice = "ClarinetMusicVoice"
+                        {
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
@@ -7201,11 +7214,15 @@
                         }
                     }
                 >>
-                \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
+                \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
+                <<
                     \tag Piano                                                           %! ST4
-                    \context PianoStaffGroup = "PianoStaffGroup" <<
-                        \context PianoRHMusicStaff = "PianoRHMusicStaff" {
-                            \context PianoRHMusicVoice = "PianoRHMusicVoice" {
+                    \context PianoStaffGroup = "PianoStaffGroup"
+                    <<
+                        \context PianoRHMusicStaff = "PianoRHMusicStaff"
+                        {
+                            \context PianoRHMusicVoice = "PianoRHMusicVoice"
+                            {
                                 
                                 % [A PianoRHMusicVoice measure 5]                        %! SM4
                                 \override NoteHead.style = #'harmonic                    %! OC
@@ -7641,8 +7658,10 @@
                                 
                             }
                         }
-                        \context PianoLHMusicStaff = "PianoLHMusicStaff" <<
-                            \context PianoLHMusicVoice = "PianoLHMusicVoice" {
+                        \context PianoLHMusicStaff = "PianoLHMusicStaff"
+                        <<
+                            \context PianoLHMusicVoice = "PianoLHMusicVoice"
+                            {
                                 
                                 % [A PianoLHMusicVoice measure 5]                        %! SM4
                                 \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -7926,7 +7945,8 @@
                                 R1 * 1
                                 
                             }
-                            \context PianoLHAttackVoice = "PianoLHAttackVoice" {
+                            \context PianoLHAttackVoice = "PianoLHAttackVoice"
+                            {
                                 
                                 % [A PianoLHAttackVoice measure 5]                       %! SM4
                                 \once \override Accidental.stencil = ##f
@@ -8311,8 +8331,10 @@
                         >>
                     >>
                     \tag Percussion                                                      %! ST4
-                    \context PercussionMusicStaff = "PercussionMusicStaff" {
-                        \context PercussionMusicVoice = "PercussionMusicVoice" {
+                    \context PercussionMusicStaff = "PercussionMusicStaff"
+                    {
+                        \context PercussionMusicVoice = "PercussionMusicVoice"
+                        {
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
@@ -9715,10 +9737,13 @@
                         }
                     }
                 >>
-                \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
+                \context StringSectionStaffGroup = "StringSectionStaffGroup"
+                <<
                     \tag Violin                                                          %! ST4
-                    \context ViolinMusicStaff = "ViolinMusicStaff" {
-                        \context ViolinMusicVoice = "ViolinMusicVoice" {
+                    \context ViolinMusicStaff = "ViolinMusicStaff"
+                    {
+                        \context ViolinMusicVoice = "ViolinMusicVoice"
+                        {
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
@@ -11844,8 +11869,10 @@
                         }
                     }
                     \tag Viola                                                           %! ST4
-                    \context ViolaMusicStaff = "ViolaMusicStaff" {
-                        \context ViolaMusicVoice = "ViolaMusicVoice" {
+                    \context ViolaMusicStaff = "ViolaMusicStaff"
+                    {
+                        \context ViolaMusicVoice = "ViolaMusicVoice"
+                        {
                             
                             % [A ViolaMusicVoice measure 5]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
@@ -13326,8 +13353,10 @@
                         }
                     }
                     \tag Cello                                                           %! ST4
-                    \context CelloMusicStaff = "CelloMusicStaff" {
-                        \context CelloMusicVoice = "CelloMusicVoice" {
+                    \context CelloMusicStaff = "CelloMusicStaff"
+                    {
+                        \context CelloMusicVoice = "CelloMusicVoice"
+                        {
                             
                             % [A CelloMusicVoice measure 5]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
