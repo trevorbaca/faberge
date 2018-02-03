@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% A2GlobalSkips
                     
                     % [A2 GlobalSkips measure 97]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -3724,7 +3724,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|."                                                            %! SM5
                     
-                }
+                }   %*% A2GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -3734,7 +3734,7 @@
                     \context FluteMusicStaff = "FluteMusicStaff"
                     {
                         \context FluteMusicVoice = "FluteMusicVoice"
-                        {
+                        {   %*% A2FluteMusicVoice
                             
                             % [A2 FluteMusicVoice measure 97]                            %! SM4
                             \once \override Hairpin.circled-tip = ##t
@@ -6669,13 +6669,13 @@
                             % [A2 FluteMusicVoice measure 176]                           %! SM4
                             R1 * 1
                             
-                        }
+                        }   %*% A2FluteMusicVoice
                     }
                     \tag EnglishHorn                                                     %! ST4
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff"
                     {
                         \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-                        {
+                        {   %*% A2EnglishHornMusicVoice
                             
                             % [A2 EnglishHornMusicVoice measure 97]                      %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -7855,13 +7855,13 @@
                             % [A2 EnglishHornMusicVoice measure 176]                     %! SM4
                             R1 * 1
                             
-                        }
+                        }   %*% A2EnglishHornMusicVoice
                     }
                     \tag Clarinet                                                        %! ST4
                     \context ClarinetMusicStaff = "ClarinetMusicStaff"
                     {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice"
-                        {
+                        {   %*% A2ClarinetMusicVoice
                             
                             % [A2 ClarinetMusicVoice measure 97]                         %! SM4
                             \once \override Hairpin.circled-tip = ##t
@@ -8281,7 +8281,7 @@
                             % [A2 ClarinetMusicVoice measure 176]                        %! SM4
                             R1 * 1
                             
-                        }
+                        }   %*% A2ClarinetMusicVoice
                     }
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
@@ -8292,7 +8292,7 @@
                         \context PianoRHMusicStaff = "PianoRHMusicStaff"
                         {
                             \context PianoRHMusicVoice = "PianoRHMusicVoice"
-                            {
+                            {   %*% A2PianoRHMusicVoice
                                 
                                 % [A2 PianoRHMusicVoice measure 97]                      %! SM4
                                 \override NoteHead.style = #'harmonic                    %! OC
@@ -8627,12 +8627,12 @@
                                 % [A2 PianoRHMusicVoice measure 176]                     %! SM4
                                 R1 * 1
                                 
-                            }
+                            }   %*% A2PianoRHMusicVoice
                         }
                         \context PianoLHMusicStaff = "PianoLHMusicStaff"
                         <<
                             \context PianoLHMusicVoice = "PianoLHMusicVoice"
-                            {
+                            {   %*% A2PianoLHMusicVoice
                                 
                                 % [A2 PianoLHMusicVoice measure 97]                      %! SM4
                                 \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -8879,9 +8879,9 @@
                                 % [A2 PianoLHMusicVoice measure 176]                     %! SM4
                                 R1 * 1
                                 
-                            }
+                            }   %*% A2PianoLHMusicVoice
                             \context PianoLHAttackVoice = "PianoLHAttackVoice"
-                            {
+                            {   %*% A2PianoLHAttackVoice
                                 
                                 % [A2 PianoLHAttackVoice measure 97]                     %! SM4
                                 \once \override Accidental.stencil = ##f
@@ -9163,14 +9163,14 @@
                                 % [A2 PianoLHAttackVoice measure 176]                    %! SM4
                                 s1
                                 
-                            }
+                            }   %*% A2PianoLHAttackVoice
                         >>
                     >>
                     \tag Percussion                                                      %! ST4
                     \context PercussionMusicStaff = "PercussionMusicStaff"
                     {
                         \context PercussionMusicVoice = "PercussionMusicVoice"
-                        {
+                        {   %*% A2PercussionMusicVoice
                             
                             % [A2 PercussionMusicVoice measure 97]                       %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -9638,7 +9638,7 @@
                             % [A2 PercussionMusicVoice measure 176]                      %! SM4
                             R1 * 1
                             
-                        }
+                        }   %*% A2PercussionMusicVoice
                     }
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
@@ -9647,7 +9647,7 @@
                     \context ViolinMusicStaff = "ViolinMusicStaff"
                     {
                         \context ViolinMusicVoice = "ViolinMusicVoice"
-                        {
+                        {   %*% A2ViolinMusicVoice
                             
                             % [A2 ViolinMusicVoice measure 97]                           %! SM4
                             \once \override Hairpin.circled-tip = ##t
@@ -13187,13 +13187,13 @@
                                 ^ \markup { @ }                                          %! SM14
                                 
                             }
-                        }
+                        }   %*% A2ViolinMusicVoice
                     }
                     \tag Viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% A2ViolaMusicVoice
                             
                             % [A2 ViolaMusicVoice measure 97]                            %! SM4
                             \set ViolaMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -16666,13 +16666,13 @@
                                 ^ \markup { @ }                                          %! SM14
                                 
                             }
-                        }
+                        }   %*% A2ViolaMusicVoice
                     }
                     \tag Cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% A2CelloMusicVoice
                             
                             % [A2 CelloMusicVoice measure 97]                            %! SM4
                             \once \override Accidental.color = #red
@@ -18975,7 +18975,7 @@
                                     }                                                    %! SCORE2
                                 
                             }
-                        }
+                        }   %*% A2CelloMusicVoice
                     }
                 >>
             >>

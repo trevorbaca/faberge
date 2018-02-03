@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% IGlobalSkips
                     
                     % [I GlobalSkips measure 618]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1229,7 +1229,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% IGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -1239,7 +1239,7 @@
                     \context FluteMusicStaff = "FluteMusicStaff"
                     {
                         \context FluteMusicVoice = "FluteMusicVoice"
-                        {
+                        {   %*% IFluteMusicVoice
                             
                             % [I FluteMusicVoice measure 618]                            %! SM4
                             \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -1432,13 +1432,13 @@
                             c''2
                             \repeatTie
                             
-                        }
+                        }   %*% IFluteMusicVoice
                     }
                     \tag EnglishHorn                                                     %! ST4
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff"
                     {
                         \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-                        {
+                        {   %*% IEnglishHornMusicVoice
                             
                             % [I EnglishHornMusicVoice measure 618]                      %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1635,13 +1635,13 @@
                             g'2
                             \repeatTie
                             
-                        }
+                        }   %*% IEnglishHornMusicVoice
                     }
                     \tag Clarinet                                                        %! ST4
                     \context ClarinetMusicStaff = "ClarinetMusicStaff"
                     {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice"
-                        {
+                        {   %*% IClarinetMusicVoice
                             
                             % [I ClarinetMusicVoice measure 618]                         %! SM4
                             \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -1834,7 +1834,7 @@
                             d''2
                             \repeatTie
                             
-                        }
+                        }   %*% IClarinetMusicVoice
                     }
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
@@ -1845,7 +1845,7 @@
                         \context PianoRHMusicStaff = "PianoRHMusicStaff"
                         {
                             \context PianoRHMusicVoice = "PianoRHMusicVoice"
-                            {
+                            {   %*% IPianoRHMusicVoice
                                 
                                 % [I PianoRHMusicVoice measure 618]                      %! SM4
                                 \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -2012,12 +2012,12 @@
                                 c'2
                                 \repeatTie
                                 
-                            }
+                            }   %*% IPianoRHMusicVoice
                         }
                         \context PianoLHMusicStaff = "PianoLHMusicStaff"
                         <<
                             \context PianoLHMusicVoice = "PianoLHMusicVoice"
-                            {
+                            {   %*% IPianoLHMusicVoice
                                 
                                 % [I PianoLHMusicVoice measure 618]                      %! SM4
                                 \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -2141,9 +2141,9 @@
                                 c'2
                                 \repeatTie
                                 
-                            }
+                            }   %*% IPianoLHMusicVoice
                             \context PianoLHAttackVoice = "PianoLHAttackVoice"
-                            {
+                            {   %*% IPianoLHAttackVoice
                                 
                                 % [I PianoLHAttackVoice measure 618]                     %! SM4
                                 \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -2230,14 +2230,14 @@
                                 % [I PianoLHAttackVoice measure 641]                     %! SM4
                                 s2
                                 
-                            }
+                            }   %*% IPianoLHAttackVoice
                         >>
                     >>
                     \tag Percussion                                                      %! ST4
                     \context PercussionMusicStaff = "PercussionMusicStaff"
                     {
                         \context PercussionMusicVoice = "PercussionMusicVoice"
-                        {
+                        {   %*% IPercussionMusicVoice
                             
                             % [I PercussionMusicVoice measure 618]                       %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2410,7 +2410,7 @@
                             c'2
                             \repeatTie
                             
-                        }
+                        }   %*% IPercussionMusicVoice
                     }
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
@@ -2419,7 +2419,7 @@
                     \context ViolinMusicStaff = "ViolinMusicStaff"
                     {
                         \context ViolinMusicVoice = "ViolinMusicVoice"
-                        {
+                        {   %*% IViolinMusicVoice
                             
                             % [I ViolinMusicVoice measure 618]                           %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2592,13 +2592,13 @@
                             c'2
                             \repeatTie
                             
-                        }
+                        }   %*% IViolinMusicVoice
                     }
                     \tag Viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% IViolaMusicVoice
                             
                             % [I ViolaMusicVoice measure 618]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2771,13 +2771,13 @@
                             c'2
                             \repeatTie
                             
-                        }
+                        }   %*% IViolaMusicVoice
                     }
                     \tag Cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% ICelloMusicVoice
                             
                             % [I CelloMusicVoice measure 618]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2950,7 +2950,7 @@
                             c'2
                             \repeatTie
                             
-                        }
+                        }   %*% ICelloMusicVoice
                     }
                 >>
             >>
