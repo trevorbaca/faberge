@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% GGlobalSkips
                     
                     % [G GlobalSkips measure 484]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -4982,7 +4982,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% GGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -4992,7 +4992,7 @@
                     \context FluteMusicStaff = "FluteMusicStaff"
                     {
                         \context FluteMusicVoice = "FluteMusicVoice"
-                        {
+                        {   %*% GFluteMusicVoice
                             
                             % [G FluteMusicVoice measure 484]                            %! SM4
                             \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -5744,13 +5744,13 @@
                             \makeBlue                                                    %! SM24
                             c''2
                             
-                        }
+                        }   %*% GFluteMusicVoice
                     }
                     \tag EnglishHorn                                                     %! ST4
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff"
                     {
                         \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-                        {
+                        {   %*% GEnglishHornMusicVoice
                             
                             % [G EnglishHornMusicVoice measure 484]                      %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6112,13 +6112,13 @@
                             % [G EnglishHornMusicVoice measure 577]                      %! SM4
                             R1 * 1
                             
-                        }
+                        }   %*% GEnglishHornMusicVoice
                     }
                     \tag Clarinet                                                        %! ST4
                     \context ClarinetMusicStaff = "ClarinetMusicStaff"
                     {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice"
-                        {
+                        {   %*% GClarinetMusicVoice
                             
                             % [G ClarinetMusicVoice measure 484]                         %! SM4
                             \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -6762,7 +6762,7 @@
                             \makeBlue                                                    %! SM24
                             d''2
                             
-                        }
+                        }   %*% GClarinetMusicVoice
                     }
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
@@ -6773,7 +6773,7 @@
                         \context PianoRHMusicStaff = "PianoRHMusicStaff"
                         {
                             \context PianoRHMusicVoice = "PianoRHMusicVoice"
-                            {
+                            {   %*% GPianoRHMusicVoice
                                 
                                 % [G PianoRHMusicVoice measure 484]                      %! SM4
                                 \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -7859,12 +7859,12 @@
                                 \makeBlue                                                %! SM24
                                 c'4
                                 
-                            }
+                            }   %*% GPianoRHMusicVoice
                         }
                         \context PianoLHMusicStaff = "PianoLHMusicStaff"
                         <<
                             \context PianoLHMusicVoice = "PianoLHMusicVoice"
-                            {
+                            {   %*% GPianoLHMusicVoice
                                 
                                 % [G PianoLHMusicVoice measure 484]                      %! SM4
                                 \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -8153,9 +8153,9 @@
                                 % [G PianoLHMusicVoice measure 577]                      %! SM4
                                 R1 * 1
                                 
-                            }
+                            }   %*% GPianoLHMusicVoice
                             \context PianoLHAttackVoice = "PianoLHAttackVoice"
-                            {
+                            {   %*% GPianoLHAttackVoice
                                 
                                 % [G PianoLHAttackVoice measure 484]                     %! SM4
                                 \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -8441,14 +8441,14 @@
                                 % [G PianoLHAttackVoice measure 577]                     %! SM4
                                 R1 * 1
                                 
-                            }
+                            }   %*% GPianoLHAttackVoice
                         >>
                     >>
                     \tag Percussion                                                      %! ST4
                     \context PercussionMusicStaff = "PercussionMusicStaff"
                     {
                         \context PercussionMusicVoice = "PercussionMusicVoice"
-                        {
+                        {   %*% GPercussionMusicVoice
                             
                             % [G PercussionMusicVoice measure 484]                       %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -9019,7 +9019,7 @@
                             \makeBlue                                                    %! SM24
                             c'1
                             
-                        }
+                        }   %*% GPercussionMusicVoice
                     }
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
@@ -9028,7 +9028,7 @@
                     \context ViolinMusicStaff = "ViolinMusicStaff"
                     {
                         \context ViolinMusicVoice = "ViolinMusicVoice"
-                        {
+                        {   %*% GViolinMusicVoice
                             
                             % [G ViolinMusicVoice measure 484]                           %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -10239,13 +10239,13 @@
                             \makeBlue                                                    %! SM24
                             c'4
                             
-                        }
+                        }   %*% GViolinMusicVoice
                     }
                     \tag Viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% GViolaMusicVoice
                             
                             % [G ViolaMusicVoice measure 484]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -11456,13 +11456,13 @@
                             \makeBlue                                                    %! SM24
                             c'4
                             
-                        }
+                        }   %*% GViolaMusicVoice
                     }
                     \tag Cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% GCelloMusicVoice
                             
                             % [G CelloMusicVoice measure 484]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -12413,7 +12413,7 @@
                             \makeBlue                                                    %! SM24
                             c'1
                             
-                        }
+                        }   %*% GCelloMusicVoice
                     }
                 >>
             >>
