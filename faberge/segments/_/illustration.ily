@@ -1,4 +1,4 @@
-iGlobalRests = {
+i_GlobalRests = {
     
     % [_ GlobalRests measure 1]                                          %! SM4
     R1 * 3/4
@@ -27,7 +27,7 @@ iGlobalRests = {
 }
 
 
-iGlobalSkips = {
+i_GlobalSkips = {
     
     % [_ GlobalSkips measure 1]                                          %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -297,7 +297,7 @@ iGlobalSkips = {
 }
 
 
-iFluteMusicVoice = {
+i_FluteMusicVoice = {
     
     % [_ FluteMusicVoice measure 1]                              %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! DEFAULT_INSTRUMENT:SM8
@@ -362,7 +362,7 @@ iFluteMusicVoice = {
 }
 
 
-iEnglishHornMusicVoice = {
+i_EnglishHornMusicVoice = {
     
     % [_ EnglishHornMusicVoice measure 1]                        %! SM4
     \set EnglishHornMusicStaff.instrumentName = \markup {        %! DEFAULT_INSTRUMENT:SM8
@@ -524,7 +524,7 @@ iEnglishHornMusicVoice = {
 }
 
 
-iClarinetMusicVoice = {
+i_ClarinetMusicVoice = {
     
     % [_ ClarinetMusicVoice measure 1]                           %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! DEFAULT_INSTRUMENT:SM8
@@ -589,7 +589,7 @@ iClarinetMusicVoice = {
 }
 
 
-iPianoRHMusicVoice = {
+i_PianoRHMusicVoice = {
     
     % [_ PianoRHMusicVoice measure 1]                        %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! DEFAULT_INSTRUMENT:SM8
@@ -654,7 +654,7 @@ iPianoRHMusicVoice = {
 }
 
 
-iPianoLHMusicVoice = {
+i_PianoLHMusicVoice = {
     
     % [_ PianoLHMusicVoice measure 1]                        %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! DEFAULT_CLEF:SM8
@@ -676,7 +676,7 @@ iPianoLHMusicVoice = {
 }
 
 
-iPianoLHAttackVoice = {
+i_PianoLHAttackVoice = {
     
     % [_ PianoLHAttackVoice measure 1]                       %! SM4
     R1 * 3/4
@@ -693,7 +693,7 @@ iPianoLHAttackVoice = {
 }
 
 
-iPercussionMusicVoice = {
+i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 1]                         %! SM4
     \set PercussionMusicStaff.instrumentName = \markup {         %! DEFAULT_INSTRUMENT:SM8
@@ -758,7 +758,7 @@ iPercussionMusicVoice = {
 }
 
 
-iViolinMusicVoice = {
+i_ViolinMusicVoice = {
     
     % [_ ViolinMusicVoice measure 1]                             %! SM4
     \set ViolinMusicStaff.instrumentName = \markup {             %! DEFAULT_INSTRUMENT:SM8
@@ -865,7 +865,7 @@ iViolinMusicVoice = {
 }
 
 
-iViolaMusicVoice = {
+i_ViolaMusicVoice = {
     \times 2/3 {
         
         % [_ ViolaMusicVoice measure 1]                          %! SM4
@@ -957,7 +957,7 @@ iViolaMusicVoice = {
 }
 
 
-iCelloMusicVoice = {
+i_CelloMusicVoice = {
     
     % [_ CelloMusicVoice measure 1]                              %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! DEFAULT_INSTRUMENT:SM8

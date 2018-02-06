@@ -1,4 +1,4 @@
-AbGlobalSkips = {
+A_b_GlobalSkips = {
     
     % [A2 GlobalSkips measure 97]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -3705,7 +3705,7 @@ AbGlobalSkips = {
 }
 
 
-AbFluteMusicVoice = {
+A_b_FluteMusicVoice = {
     
     % [A2 FluteMusicVoice measure 97]                            %! SM4
     \once \override Hairpin.circled-tip = ##t
@@ -6643,7 +6643,7 @@ AbFluteMusicVoice = {
 }
 
 
-AbEnglishHornMusicVoice = {
+A_b_EnglishHornMusicVoice = {
     
     % [A2 EnglishHornMusicVoice measure 97]                      %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -7826,7 +7826,7 @@ AbEnglishHornMusicVoice = {
 }
 
 
-AbClarinetMusicVoice = {
+A_b_ClarinetMusicVoice = {
     
     % [A2 ClarinetMusicVoice measure 97]                         %! SM4
     \once \override Hairpin.circled-tip = ##t
@@ -8249,7 +8249,7 @@ AbClarinetMusicVoice = {
 }
 
 
-AbPianoRHMusicVoice = {
+A_b_PianoRHMusicVoice = {
     
     % [A2 PianoRHMusicVoice measure 97]                      %! SM4
     \override NoteHead.style = #'harmonic                    %! OC
@@ -8587,7 +8587,7 @@ AbPianoRHMusicVoice = {
 }
 
 
-AbPianoLHMusicVoice = {
+A_b_PianoLHMusicVoice = {
     
     % [A2 PianoLHMusicVoice measure 97]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -8837,7 +8837,7 @@ AbPianoLHMusicVoice = {
 }
 
 
-AbPianoLHAttackVoice = {
+A_b_PianoLHAttackVoice = {
     
     % [A2 PianoLHAttackVoice measure 97]                     %! SM4
     \once \override Accidental.stencil = ##f
@@ -9122,7 +9122,7 @@ AbPianoLHAttackVoice = {
 }
 
 
-AbPercussionMusicVoice = {
+A_b_PercussionMusicVoice = {
     
     % [A2 PercussionMusicVoice measure 97]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -9593,7 +9593,7 @@ AbPercussionMusicVoice = {
 }
 
 
-AbViolinMusicVoice = {
+A_b_ViolinMusicVoice = {
     
     % [A2 ViolinMusicVoice measure 97]                           %! SM4
     \once \override Hairpin.circled-tip = ##t
@@ -13136,7 +13136,7 @@ AbViolinMusicVoice = {
 }
 
 
-AbViolaMusicVoice = {
+A_b_ViolaMusicVoice = {
     
     % [A2 ViolaMusicVoice measure 97]                            %! SM4
     \set ViolaMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -16612,7 +16612,7 @@ AbViolaMusicVoice = {
 }
 
 
-AbCelloMusicVoice = {
+A_b_CelloMusicVoice = {
     
     % [A2 CelloMusicVoice measure 97]                            %! SM4
     \once \override Accidental.color = #red

@@ -1,4 +1,4 @@
-DGlobalRests = {
+D_GlobalRests = {
     
     % [D GlobalRests measure 301]                                        %! SM4
     R1 * 3/4
@@ -72,7 +72,7 @@ DGlobalRests = {
 }
 
 
-DGlobalSkips = {
+D_GlobalSkips = {
     
     % [D GlobalSkips measure 301]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1127,7 +1127,7 @@ DGlobalSkips = {
 }
 
 
-DFluteMusicVoice = {
+D_FluteMusicVoice = {
     
     % [D FluteMusicVoice measure 301]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -1469,7 +1469,7 @@ DFluteMusicVoice = {
 }
 
 
-DEnglishHornMusicVoice = {
+D_EnglishHornMusicVoice = {
     
     % [D EnglishHornMusicVoice measure 301]                      %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1777,7 +1777,7 @@ DEnglishHornMusicVoice = {
 }
 
 
-DClarinetMusicVoice = {
+D_ClarinetMusicVoice = {
     
     % [D ClarinetMusicVoice measure 301]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -2119,7 +2119,7 @@ DClarinetMusicVoice = {
 }
 
 
-DPianoRHMusicVoice = {
+D_PianoRHMusicVoice = {
     
     % [D PianoRHMusicVoice measure 301]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -2479,7 +2479,7 @@ DPianoRHMusicVoice = {
 }
 
 
-DPianoLHMusicVoice = {
+D_PianoLHMusicVoice = {
     
     % [D PianoLHMusicVoice measure 301]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -2716,7 +2716,7 @@ DPianoLHMusicVoice = {
 }
 
 
-DPianoLHAttackVoice = {
+D_PianoLHAttackVoice = {
     
     % [D PianoLHAttackVoice measure 301]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -2786,7 +2786,7 @@ DPianoLHAttackVoice = {
 }
 
 
-DPercussionMusicVoice = {
+D_PercussionMusicVoice = {
     
     % [D PercussionMusicVoice measure 301]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2954,7 +2954,7 @@ DPercussionMusicVoice = {
 }
 
 
-DViolinMusicVoice = {
+D_ViolinMusicVoice = {
     
     % [D ViolinMusicVoice measure 301]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3442,7 +3442,7 @@ DViolinMusicVoice = {
 }
 
 
-DViolaMusicVoice = {
+D_ViolaMusicVoice = {
     
     % [D ViolaMusicVoice measure 301]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3627,7 +3627,7 @@ DViolaMusicVoice = {
 }
 
 
-DCelloMusicVoice = {
+D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 301]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8

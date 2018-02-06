@@ -1,4 +1,4 @@
-EGlobalRests = {
+E_GlobalRests = {
     
     % [E GlobalRests measure 322]                                        %! SM4
     R1 * 3/4
@@ -390,7 +390,7 @@ EGlobalRests = {
 }
 
 
-EGlobalSkips = {
+E_GlobalSkips = {
     
     % [E GlobalSkips measure 322]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -5573,7 +5573,7 @@ EGlobalSkips = {
 }
 
 
-EFluteMusicVoice = {
+E_FluteMusicVoice = {
     
     % [E FluteMusicVoice measure 322]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -6151,7 +6151,7 @@ EFluteMusicVoice = {
 }
 
 
-EEnglishHornMusicVoice = {
+E_EnglishHornMusicVoice = {
     
     % [E EnglishHornMusicVoice measure 322]                      %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6712,7 +6712,7 @@ EEnglishHornMusicVoice = {
 }
 
 
-EClarinetMusicVoice = {
+E_ClarinetMusicVoice = {
     
     % [E ClarinetMusicVoice measure 322]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -7232,7 +7232,7 @@ EClarinetMusicVoice = {
 }
 
 
-EPianoRHMusicVoice = {
+E_PianoRHMusicVoice = {
     
     % [E PianoRHMusicVoice measure 322]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -7757,7 +7757,7 @@ EPianoRHMusicVoice = {
 }
 
 
-EPianoLHMusicVoice = {
+E_PianoLHMusicVoice = {
     
     % [E PianoLHMusicVoice measure 322]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -8088,7 +8088,7 @@ EPianoLHMusicVoice = {
 }
 
 
-EPianoLHAttackVoice = {
+E_PianoLHAttackVoice = {
     
     % [E PianoLHAttackVoice measure 322]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -8416,7 +8416,7 @@ EPianoLHAttackVoice = {
 }
 
 
-EPercussionMusicVoice = {
+E_PercussionMusicVoice = {
     
     % [E PercussionMusicVoice measure 322]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -8975,7 +8975,7 @@ EPercussionMusicVoice = {
 }
 
 
-EViolinMusicVoice = {
+E_ViolinMusicVoice = {
     
     % [E ViolinMusicVoice measure 322]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -10009,7 +10009,7 @@ EViolinMusicVoice = {
 }
 
 
-EViolaMusicVoice = {
+E_ViolaMusicVoice = {
     
     % [E ViolaMusicVoice measure 322]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -10943,7 +10943,7 @@ EViolaMusicVoice = {
 }
 
 
-ECelloMusicVoice = {
+E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 322]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8

@@ -1,4 +1,4 @@
-BGlobalRests = {
+B_GlobalRests = {
     
     % [B GlobalRests measure 177]                                        %! SM4
     R1 * 1/2
@@ -372,7 +372,7 @@ BGlobalRests = {
 }
 
 
-BGlobalSkips = {
+B_GlobalSkips = {
     
     % [B GlobalSkips measure 177]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -5062,7 +5062,7 @@ BGlobalSkips = {
 }
 
 
-BFluteMusicVoice = {
+B_FluteMusicVoice = {
     \times 4/5 {
         
         % [B FluteMusicVoice measure 177]                        %! SM4
@@ -5607,7 +5607,7 @@ BFluteMusicVoice = {
 }
 
 
-BEnglishHornMusicVoice = {
+B_EnglishHornMusicVoice = {
     \times 4/5 {
         
         % [B EnglishHornMusicVoice measure 177]                  %! SM4
@@ -6491,7 +6491,7 @@ BEnglishHornMusicVoice = {
 }
 
 
-BClarinetMusicVoice = {
+B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 177]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -6937,7 +6937,7 @@ BClarinetMusicVoice = {
 }
 
 
-BPianoRHMusicVoice = {
+B_PianoRHMusicVoice = {
     \times 2/3 {
         
         % [B PianoRHMusicVoice measure 177]                  %! SM4
@@ -8063,7 +8063,7 @@ BPianoRHMusicVoice = {
 }
 
 
-BPianoLHMusicVoice = {
+B_PianoLHMusicVoice = {
     
     % [B PianoLHMusicVoice measure 177]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -8364,7 +8364,7 @@ BPianoLHMusicVoice = {
 }
 
 
-BPianoLHAttackVoice = {
+B_PianoLHAttackVoice = {
     
     % [B PianoLHAttackVoice measure 177]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -8662,7 +8662,7 @@ BPianoLHAttackVoice = {
 }
 
 
-BPercussionMusicVoice = {
+B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 177]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -9093,7 +9093,7 @@ BPercussionMusicVoice = {
 }
 
 
-BViolinMusicVoice = {
+B_ViolinMusicVoice = {
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 177]                       %! SM4
@@ -10424,7 +10424,7 @@ BViolinMusicVoice = {
 }
 
 
-BViolaMusicVoice = {
+B_ViolaMusicVoice = {
     \times 2/3 {
         
         % [B ViolaMusicVoice measure 177]                        %! SM4
@@ -11698,7 +11698,7 @@ BViolaMusicVoice = {
 }
 
 
-BCelloMusicVoice = {
+B_CelloMusicVoice = {
     \times 2/3 {
         
         % [B CelloMusicVoice measure 177]                        %! SM4
