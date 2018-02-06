@@ -3,6 +3,38 @@ import abjad
 
 metadata = abjad.OrderedDict(
     [
+        (
+            'alive_during_segment',
+            [
+                'Score',
+                'GlobalContext',
+                'GlobalSkips',
+                'MusicContext',
+                'WindSectionStaffGroup',
+                'FluteMusicStaff',
+                'FluteMusicVoice',
+                'EnglishHornMusicStaff',
+                'EnglishHornMusicVoice',
+                'ClarinetMusicStaff',
+                'ClarinetMusicVoice',
+                'PercussionSectionStaffGroup',
+                'PianoStaffGroup',
+                'PianoRHMusicStaff',
+                'PianoRHMusicVoice',
+                'PianoLHMusicStaff',
+                'PianoLHMusicVoice',
+                'PianoLHAttackVoice',
+                'PercussionMusicStaff',
+                'PercussionMusicVoice',
+                'StringSectionStaffGroup',
+                'ViolinMusicStaff',
+                'ViolinMusicVoice',
+                'ViolaMusicStaff',
+                'ViolaMusicVoice',
+                'CelloMusicStaff',
+                'CelloMusicVoice',
+                ],
+            ),
         ('duration', "1'09''"),
         ('first_measure_number', 274),
         ('last_measure_number', 300),
@@ -184,7 +216,7 @@ metadata = abjad.OrderedDict(
                         'PianoStaffGroup',
                         [
                             abjad.Momento(
-                                context='PianoRHMusicVoice',
+                                context='PianoLHAttackVoice',
                                 prototype='abjad.Instrument',
                                 value='Piano',
                                 ),
