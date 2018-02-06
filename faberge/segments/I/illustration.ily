@@ -2102,10 +2102,53 @@ I_PianoLHMusicVoice = {
 I_PianoLHAttackVoice = {
     
     % [I PianoLHAttackVoice measure 618]                     %! SM4
+    \set PianoStaffGroup.instrumentName = \markup {          %! DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                          %! DEFAULT_INSTRUMENT:SM8
+            #16                                              %! DEFAULT_INSTRUMENT:SM8
+            Piano                                            %! DEFAULT_INSTRUMENT:SM8
+        }                                                    %! DEFAULT_INSTRUMENT:SM8
+    \set PianoStaffGroup.shortInstrumentName = \markup {     %! DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                          %! DEFAULT_INSTRUMENT:SM8
+            #10                                              %! DEFAULT_INSTRUMENT:SM8
+            Pf.                                              %! DEFAULT_INSTRUMENT:SM8
+        }                                                    %! DEFAULT_INSTRUMENT:SM8
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+    \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
     \makeBlue                                                %! SM24
     c'16
     \sfz                                                     %! REAPPLIED_DYNAMIC:SM8
+    ^ \markup {                                              %! DEFAULT_INSTRUMENT_ALERT:SM11
+        \with-color                                          %! DEFAULT_INSTRUMENT_ALERT:SM11
+            #(x11-color 'DarkViolet)                         %! DEFAULT_INSTRUMENT_ALERT:SM11
+            {                                                %! DEFAULT_INSTRUMENT_ALERT:SM11
+                \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM11
+                    (“Piano”                                 %! DEFAULT_INSTRUMENT_ALERT:SM11
+                \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM11
+                    \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM11
+                        #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM11
+                        Piano                                %! DEFAULT_INSTRUMENT_ALERT:SM11
+                \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM11
+                    {                                        %! DEFAULT_INSTRUMENT_ALERT:SM11
+                        \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM11
+                            \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM11
+                                #10                          %! DEFAULT_INSTRUMENT_ALERT:SM11
+                                Pf.                          %! DEFAULT_INSTRUMENT_ALERT:SM11
+                        \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM11
+                            )                                %! DEFAULT_INSTRUMENT_ALERT:SM11
+                    }                                        %! DEFAULT_INSTRUMENT_ALERT:SM11
+            }                                                %! DEFAULT_INSTRUMENT_ALERT:SM11
+        }                                                    %! DEFAULT_INSTRUMENT_ALERT:SM11
+    \set PianoStaffGroup.instrumentName = \markup {          %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                          %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                              %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Piano                                            %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                    %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set PianoStaffGroup.shortInstrumentName = \markup {     %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                          %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                              %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Pf.                                              %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                    %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \override PianoStaffGroup.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
     
     s2...
     
