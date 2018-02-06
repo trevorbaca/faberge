@@ -1,4 +1,4 @@
-GGlobalSkips = {
+G_GlobalSkips = {
     
     % [G GlobalSkips measure 484]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -4963,7 +4963,7 @@ GGlobalSkips = {
 }
 
 
-GFluteMusicVoice = {
+G_FluteMusicVoice = {
     
     % [G FluteMusicVoice measure 484]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -5718,7 +5718,7 @@ GFluteMusicVoice = {
 }
 
 
-GEnglishHornMusicVoice = {
+G_EnglishHornMusicVoice = {
     
     % [G EnglishHornMusicVoice measure 484]                      %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6083,7 +6083,7 @@ GEnglishHornMusicVoice = {
 }
 
 
-GClarinetMusicVoice = {
+G_ClarinetMusicVoice = {
     
     % [G ClarinetMusicVoice measure 484]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -6730,7 +6730,7 @@ GClarinetMusicVoice = {
 }
 
 
-GPianoRHMusicVoice = {
+G_PianoRHMusicVoice = {
     
     % [G PianoRHMusicVoice measure 484]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -7819,7 +7819,7 @@ GPianoRHMusicVoice = {
 }
 
 
-GPianoLHMusicVoice = {
+G_PianoLHMusicVoice = {
     
     % [G PianoLHMusicVoice measure 484]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -8111,7 +8111,7 @@ GPianoLHMusicVoice = {
 }
 
 
-GPianoLHAttackVoice = {
+G_PianoLHAttackVoice = {
     
     % [G PianoLHAttackVoice measure 484]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -8400,7 +8400,7 @@ GPianoLHAttackVoice = {
 }
 
 
-GPercussionMusicVoice = {
+G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 484]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -8974,7 +8974,7 @@ GPercussionMusicVoice = {
 }
 
 
-GViolinMusicVoice = {
+G_ViolinMusicVoice = {
     
     % [G ViolinMusicVoice measure 484]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -10188,7 +10188,7 @@ GViolinMusicVoice = {
 }
 
 
-GViolaMusicVoice = {
+G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 484]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -11402,7 +11402,7 @@ GViolaMusicVoice = {
 }
 
 
-GCelloMusicVoice = {
+G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 484]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8

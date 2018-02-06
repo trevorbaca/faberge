@@ -1,4 +1,4 @@
-JGlobalRests = {
+J_GlobalRests = {
     
     % [J GlobalRests measure 642]                                        %! SM4
     R1 * 1/2
@@ -84,7 +84,7 @@ JGlobalRests = {
 }
 
 
-JGlobalSkips = {
+J_GlobalSkips = {
     
     % [J GlobalSkips measure 642]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1348,7 +1348,7 @@ JGlobalSkips = {
 }
 
 
-JFluteMusicVoice = {
+J_FluteMusicVoice = {
     
     % [J FluteMusicVoice measure 642]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -1875,7 +1875,7 @@ JFluteMusicVoice = {
 }
 
 
-JEnglishHornMusicVoice = {
+J_EnglishHornMusicVoice = {
     
     % [J EnglishHornMusicVoice measure 642]                      %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2063,7 +2063,7 @@ JEnglishHornMusicVoice = {
 }
 
 
-JClarinetMusicVoice = {
+J_ClarinetMusicVoice = {
     
     % [J ClarinetMusicVoice measure 642]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -2760,7 +2760,7 @@ JClarinetMusicVoice = {
 }
 
 
-JPianoRHMusicVoice = {
+J_PianoRHMusicVoice = {
     
     % [J PianoRHMusicVoice measure 642]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -3522,7 +3522,7 @@ JPianoRHMusicVoice = {
 }
 
 
-JPianoLHMusicVoice = {
+J_PianoLHMusicVoice = {
     
     % [J PianoLHMusicVoice measure 642]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -3607,7 +3607,7 @@ JPianoLHMusicVoice = {
 }
 
 
-JPianoLHAttackVoice = {
+J_PianoLHAttackVoice = {
     
     % [J PianoLHAttackVoice measure 642]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -3689,7 +3689,7 @@ JPianoLHAttackVoice = {
 }
 
 
-JPercussionMusicVoice = {
+J_PercussionMusicVoice = {
     
     % [J PercussionMusicVoice measure 642]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3839,7 +3839,7 @@ JPercussionMusicVoice = {
 }
 
 
-JViolinMusicVoice = {
+J_ViolinMusicVoice = {
     
     % [J ViolinMusicVoice measure 642]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -4350,7 +4350,7 @@ JViolinMusicVoice = {
 }
 
 
-JViolaMusicVoice = {
+J_ViolaMusicVoice = {
     
     % [J ViolaMusicVoice measure 642]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -4509,7 +4509,7 @@ JViolaMusicVoice = {
 }
 
 
-JCelloMusicVoice = {
+J_CelloMusicVoice = {
     
     % [J CelloMusicVoice measure 642]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8

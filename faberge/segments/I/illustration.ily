@@ -1,4 +1,4 @@
-IGlobalSkips = {
+I_GlobalSkips = {
     
     % [I GlobalSkips measure 618]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1210,7 +1210,7 @@ IGlobalSkips = {
 }
 
 
-IFluteMusicVoice = {
+I_FluteMusicVoice = {
     
     % [I FluteMusicVoice measure 618]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -1406,7 +1406,7 @@ IFluteMusicVoice = {
 }
 
 
-IEnglishHornMusicVoice = {
+I_EnglishHornMusicVoice = {
     
     % [I EnglishHornMusicVoice measure 618]                      %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1606,7 +1606,7 @@ IEnglishHornMusicVoice = {
 }
 
 
-IClarinetMusicVoice = {
+I_ClarinetMusicVoice = {
     
     % [I ClarinetMusicVoice measure 618]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -1802,7 +1802,7 @@ IClarinetMusicVoice = {
 }
 
 
-IPianoRHMusicVoice = {
+I_PianoRHMusicVoice = {
     
     % [I PianoRHMusicVoice measure 618]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -1972,7 +1972,7 @@ IPianoRHMusicVoice = {
 }
 
 
-IPianoLHMusicVoice = {
+I_PianoLHMusicVoice = {
     
     % [I PianoLHMusicVoice measure 618]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -2099,7 +2099,7 @@ IPianoLHMusicVoice = {
 }
 
 
-IPianoLHAttackVoice = {
+I_PianoLHAttackVoice = {
     
     % [I PianoLHAttackVoice measure 618]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -2189,7 +2189,7 @@ IPianoLHAttackVoice = {
 }
 
 
-IPercussionMusicVoice = {
+I_PercussionMusicVoice = {
     
     % [I PercussionMusicVoice measure 618]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2365,7 +2365,7 @@ IPercussionMusicVoice = {
 }
 
 
-IViolinMusicVoice = {
+I_ViolinMusicVoice = {
     
     % [I ViolinMusicVoice measure 618]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2541,7 +2541,7 @@ IViolinMusicVoice = {
 }
 
 
-IViolaMusicVoice = {
+I_ViolaMusicVoice = {
     
     % [I ViolaMusicVoice measure 618]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2717,7 +2717,7 @@ IViolaMusicVoice = {
 }
 
 
-ICelloMusicVoice = {
+I_CelloMusicVoice = {
     
     % [I CelloMusicVoice measure 618]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8

@@ -1,4 +1,4 @@
-HGlobalRests = {
+H_GlobalRests = {
     
     % [H GlobalRests measure 578]                                        %! SM4
     R1 * 3/4
@@ -147,7 +147,7 @@ HGlobalRests = {
 }
 
 
-HGlobalSkips = {
+H_GlobalSkips = {
     
     % [H GlobalSkips measure 578]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2192,7 +2192,7 @@ HGlobalSkips = {
 }
 
 
-HFluteMusicVoice = {
+H_FluteMusicVoice = {
     \times 4/5 {
         
         % [H FluteMusicVoice measure 578]                        %! SM4
@@ -2840,7 +2840,7 @@ HFluteMusicVoice = {
 }
 
 
-HEnglishHornMusicVoice = {
+H_EnglishHornMusicVoice = {
     
     % [H EnglishHornMusicVoice measure 578]                      %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3384,7 +3384,7 @@ HEnglishHornMusicVoice = {
 }
 
 
-HClarinetMusicVoice = {
+H_ClarinetMusicVoice = {
     \times 4/5 {
         
         % [H ClarinetMusicVoice measure 578]                     %! SM4
@@ -3984,7 +3984,7 @@ HClarinetMusicVoice = {
 }
 
 
-HPianoRHMusicVoice = {
+H_PianoRHMusicVoice = {
     
     % [H PianoRHMusicVoice measure 578]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -4314,7 +4314,7 @@ HPianoRHMusicVoice = {
 }
 
 
-HPianoLHMusicVoice = {
+H_PianoLHMusicVoice = {
     
     % [H PianoLHMusicVoice measure 578]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -4444,7 +4444,7 @@ HPianoLHMusicVoice = {
 }
 
 
-HPianoLHAttackVoice = {
+H_PianoLHAttackVoice = {
     
     % [H PianoLHAttackVoice measure 578]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -4571,7 +4571,7 @@ HPianoLHAttackVoice = {
 }
 
 
-HPercussionMusicVoice = {
+H_PercussionMusicVoice = {
     
     % [H PercussionMusicVoice measure 578]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -4832,7 +4832,7 @@ HPercussionMusicVoice = {
 }
 
 
-HViolinMusicVoice = {
+H_ViolinMusicVoice = {
     
     % [H ViolinMusicVoice measure 578]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -5239,7 +5239,7 @@ HViolinMusicVoice = {
 }
 
 
-HViolaMusicVoice = {
+H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 578]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -5681,7 +5681,7 @@ HViolaMusicVoice = {
 }
 
 
-HCelloMusicVoice = {
+H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 578]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8

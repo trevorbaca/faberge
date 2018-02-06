@@ -1,4 +1,4 @@
-FGlobalRests = {
+F_GlobalRests = {
     
     % [F GlobalRests measure 429]                                        %! SM4
     R1 * 1
@@ -270,7 +270,7 @@ FGlobalRests = {
 }
 
 
-FGlobalSkips = {
+F_GlobalSkips = {
     
     % [F GlobalSkips measure 429]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -3029,7 +3029,7 @@ FGlobalSkips = {
 }
 
 
-FFluteMusicVoice = {
+F_FluteMusicVoice = {
     
     % [F FluteMusicVoice measure 429]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -3374,7 +3374,7 @@ FFluteMusicVoice = {
 }
 
 
-FEnglishHornMusicVoice = {
+F_EnglishHornMusicVoice = {
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -4783,7 +4783,7 @@ FEnglishHornMusicVoice = {
 }
 
 
-FClarinetMusicVoice = {
+F_ClarinetMusicVoice = {
     
     % [F ClarinetMusicVoice measure 429]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -5068,7 +5068,7 @@ FClarinetMusicVoice = {
 }
 
 
-FPianoRHMusicVoice = {
+F_PianoRHMusicVoice = {
     
     % [F PianoRHMusicVoice measure 429]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -5871,7 +5871,7 @@ FPianoRHMusicVoice = {
 }
 
 
-FPianoLHMusicVoice = {
+F_PianoLHMusicVoice = {
     
     % [F PianoLHMusicVoice measure 429]                      %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -6046,7 +6046,7 @@ FPianoLHMusicVoice = {
 }
 
 
-FPianoLHAttackVoice = {
+F_PianoLHAttackVoice = {
     
     % [F PianoLHAttackVoice measure 429]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -6218,7 +6218,7 @@ FPianoLHAttackVoice = {
 }
 
 
-FPercussionMusicVoice = {
+F_PercussionMusicVoice = {
     
     % [F PercussionMusicVoice measure 429]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6498,7 +6498,7 @@ FPercussionMusicVoice = {
 }
 
 
-FViolinMusicVoice = {
+F_ViolinMusicVoice = {
     
     % [F ViolinMusicVoice measure 429]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -7280,7 +7280,7 @@ FViolinMusicVoice = {
 }
 
 
-FViolaMusicVoice = {
+F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 429]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -8010,7 +8010,7 @@ FViolaMusicVoice = {
 }
 
 
-FCelloMusicVoice = {
+F_CelloMusicVoice = {
     
     % [F CelloMusicVoice measure 429]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8

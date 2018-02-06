@@ -22,7 +22,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                \AbGlobalSkips
+                \A_b_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -32,19 +32,19 @@
                     \context FluteMusicStaff = "FluteMusicStaff"
                     {
                         \context FluteMusicVoice = "FluteMusicVoice"
-                        \AbFluteMusicVoice
+                        \A_b_FluteMusicVoice
                     }
                     \tag EnglishHorn                                                     %! ST4
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff"
                     {
                         \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-                        \AbEnglishHornMusicVoice
+                        \A_b_EnglishHornMusicVoice
                     }
                     \tag Clarinet                                                        %! ST4
                     \context ClarinetMusicStaff = "ClarinetMusicStaff"
                     {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice"
-                        \AbClarinetMusicVoice
+                        \A_b_ClarinetMusicVoice
                     }
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
@@ -55,21 +55,21 @@
                         \context PianoRHMusicStaff = "PianoRHMusicStaff"
                         {
                             \context PianoRHMusicVoice = "PianoRHMusicVoice"
-                            \AbPianoRHMusicVoice
+                            \A_b_PianoRHMusicVoice
                         }
                         \context PianoLHMusicStaff = "PianoLHMusicStaff"
                         <<
                             \context PianoLHMusicVoice = "PianoLHMusicVoice"
-                            \AbPianoLHMusicVoice
+                            \A_b_PianoLHMusicVoice
                             \context PianoLHAttackVoice = "PianoLHAttackVoice"
-                            \AbPianoLHAttackVoice
+                            \A_b_PianoLHAttackVoice
                         >>
                     >>
                     \tag Percussion                                                      %! ST4
                     \context PercussionMusicStaff = "PercussionMusicStaff"
                     {
                         \context PercussionMusicVoice = "PercussionMusicVoice"
-                        \AbPercussionMusicVoice
+                        \A_b_PercussionMusicVoice
                     }
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
@@ -78,19 +78,19 @@
                     \context ViolinMusicStaff = "ViolinMusicStaff"
                     {
                         \context ViolinMusicVoice = "ViolinMusicVoice"
-                        \AbViolinMusicVoice
+                        \A_b_ViolinMusicVoice
                     }
                     \tag Viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        \AbViolaMusicVoice
+                        \A_b_ViolaMusicVoice
                     }
                     \tag Cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        \AbCelloMusicVoice
+                        \A_b_CelloMusicVoice
                     }
                 >>
             >>

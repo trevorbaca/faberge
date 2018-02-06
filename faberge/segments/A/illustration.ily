@@ -1,4 +1,4 @@
-AGlobalSkips = {
+A_GlobalSkips = {
     
     % [A GlobalSkips measure 5]                                          %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -4234,7 +4234,7 @@ AGlobalSkips = {
 }
 
 
-AFluteMusicVoice = {
+A_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
@@ -5472,7 +5472,7 @@ AFluteMusicVoice = {
 }
 
 
-AEnglishHornMusicVoice = {
+A_EnglishHornMusicVoice = {
     
     % [A EnglishHornMusicVoice measure 5]                        %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6166,7 +6166,7 @@ AEnglishHornMusicVoice = {
 }
 
 
-AClarinetMusicVoice = {
+A_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
@@ -7179,7 +7179,7 @@ AClarinetMusicVoice = {
 }
 
 
-APianoRHMusicVoice = {
+A_PianoRHMusicVoice = {
     
     % [A PianoRHMusicVoice measure 5]                        %! SM4
     \override NoteHead.style = #'harmonic                    %! OC
@@ -7616,7 +7616,7 @@ APianoRHMusicVoice = {
 }
 
 
-APianoLHMusicVoice = {
+A_PianoLHMusicVoice = {
     
     % [A PianoLHMusicVoice measure 5]                        %! SM4
     \set PianoLHMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
@@ -7902,7 +7902,7 @@ APianoLHMusicVoice = {
 }
 
 
-APianoLHAttackVoice = {
+A_PianoLHAttackVoice = {
     
     % [A PianoLHAttackVoice measure 5]                       %! SM4
     \once \override Accidental.stencil = ##f
@@ -8286,7 +8286,7 @@ APianoLHAttackVoice = {
 }
 
 
-APercussionMusicVoice = {
+A_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
@@ -9689,7 +9689,7 @@ APercussionMusicVoice = {
 }
 
 
-AViolinMusicVoice = {
+A_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
@@ -11815,7 +11815,7 @@ AViolinMusicVoice = {
 }
 
 
-AViolaMusicVoice = {
+A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 5]                              %! SM4
     \once \override TextSpanner.Y-extent = ##f
@@ -13296,7 +13296,7 @@ AViolaMusicVoice = {
 }
 
 
-ACelloMusicVoice = {
+A_CelloMusicVoice = {
     
     % [A CelloMusicVoice measure 5]                              %! SM4
     \once \override TextSpanner.Y-extent = ##f
