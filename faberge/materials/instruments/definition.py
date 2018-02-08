@@ -70,6 +70,7 @@ instruments = abjad.InstrumentDictionary([
     (
         'Percussion',
         abjad.Percussion(
+            allowable_clefs=['percussion', 'treble'],
             markup=baca.markup.instrument('Percussion'),
             short_markup=baca.markup.short_instrument('Perc.'),
             ),
