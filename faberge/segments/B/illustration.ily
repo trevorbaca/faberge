@@ -5583,6 +5583,12 @@ B_FluteMusicVoice = {
 }
 
 
+B_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \B_FluteMusicVoice
+}
+
+
 B_EnglishHornMusicVoice = {
     \times 4/5 {
         
@@ -6443,6 +6449,12 @@ B_EnglishHornMusicVoice = {
 }
 
 
+B_EnglishHornMusicStaff = {
+    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \B_EnglishHornMusicVoice
+}
+
+
 B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 177]                         %! SM4
@@ -6862,6 +6874,12 @@ B_ClarinetMusicVoice = {
     % [B ClarinetMusicVoice measure 273]                         %! SM4
     R1 * 3/4
     
+}
+
+
+B_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \B_ClarinetMusicVoice
 }
 
 
@@ -7975,6 +7993,12 @@ B_PianoRHMusicVoice = {
 }
 
 
+B_PianoRHMusicStaff = {
+    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \B_PianoRHMusicVoice
+}
+
+
 B_PianoLHMusicVoice = {
     
     % [B PianoLHMusicVoice measure 177]                      %! SM4
@@ -8574,6 +8598,14 @@ B_PianoLHAttackVoice = {
 }
 
 
+B_PianoLHMusicStaff = <<
+    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \B_PianoLHMusicVoice
+    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \B_PianoLHAttackVoice
+>>
+
+
 B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 177]                       %! SM4
@@ -8986,6 +9018,12 @@ B_PercussionMusicVoice = {
     % [B PercussionMusicVoice measure 273]                       %! SM4
     R1 * 3/4
     
+}
+
+
+B_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \B_PercussionMusicVoice
 }
 
 
@@ -10304,6 +10342,12 @@ B_ViolinMusicVoice = {
 }
 
 
+B_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \B_ViolinMusicVoice
+}
+
+
 B_ViolaMusicVoice = {
     \times 2/3 {
         
@@ -11562,6 +11606,12 @@ B_ViolaMusicVoice = {
 }
 
 
+B_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \B_ViolaMusicVoice
+}
+
+
 B_CelloMusicVoice = {
     \times 2/3 {
         
@@ -12531,4 +12581,10 @@ B_CelloMusicVoice = {
     % [B CelloMusicVoice measure 273]                            %! SM4
     R1 * 3/4
     
+}
+
+
+B_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \B_CelloMusicVoice
 }

@@ -1382,6 +1382,12 @@ I_FluteMusicVoice = {
 }
 
 
+I_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \I_FluteMusicVoice
+}
+
+
 I_EnglishHornMusicVoice = {
     
     % [I EnglishHornMusicVoice measure 618]                      %! SM4
@@ -1558,6 +1564,12 @@ I_EnglishHornMusicVoice = {
 }
 
 
+I_EnglishHornMusicStaff = {
+    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \I_EnglishHornMusicVoice
+}
+
+
 I_ClarinetMusicVoice = {
     
     % [I ClarinetMusicVoice measure 618]                         %! SM4
@@ -1730,6 +1742,12 @@ I_ClarinetMusicVoice = {
 }
 
 
+I_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \I_ClarinetMusicVoice
+}
+
+
 I_PianoRHMusicVoice = {
     
     % [I PianoRHMusicVoice measure 618]                      %! SM4
@@ -1881,6 +1899,12 @@ I_PianoRHMusicVoice = {
     c'2
     \repeatTie
     
+}
+
+
+I_PianoRHMusicStaff = {
+    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \I_PianoRHMusicVoice
 }
 
 
@@ -2128,6 +2152,14 @@ I_PianoLHAttackVoice = {
 }
 
 
+I_PianoLHMusicStaff = <<
+    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \I_PianoLHMusicVoice
+    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \I_PianoLHAttackVoice
+>>
+
+
 I_PercussionMusicVoice = {
     
     % [I PercussionMusicVoice measure 618]                       %! SM4
@@ -2285,6 +2317,12 @@ I_PercussionMusicVoice = {
     c'2
     \repeatTie
     
+}
+
+
+I_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \I_PercussionMusicVoice
 }
 
 
@@ -2448,6 +2486,12 @@ I_ViolinMusicVoice = {
 }
 
 
+I_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \I_ViolinMusicVoice
+}
+
+
 I_ViolaMusicVoice = {
     
     % [I ViolaMusicVoice measure 618]                            %! SM4
@@ -2608,6 +2652,12 @@ I_ViolaMusicVoice = {
 }
 
 
+I_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \I_ViolaMusicVoice
+}
+
+
 I_CelloMusicVoice = {
     
     % [I CelloMusicVoice measure 618]                            %! SM4
@@ -2765,4 +2815,10 @@ I_CelloMusicVoice = {
     c'2
     \repeatTie
     
+}
+
+
+I_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \I_CelloMusicVoice
 }

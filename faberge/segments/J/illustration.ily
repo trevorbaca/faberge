@@ -1851,6 +1851,12 @@ J_FluteMusicVoice = {
 }
 
 
+J_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \J_FluteMusicVoice
+}
+
+
 J_EnglishHornMusicVoice = {
     
     % [J EnglishHornMusicVoice measure 642]                      %! SM4
@@ -2012,6 +2018,12 @@ J_EnglishHornMusicVoice = {
     g'2.
     \repeatTie
     
+}
+
+
+J_EnglishHornMusicStaff = {
+    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \J_EnglishHornMusicVoice
 }
 
 
@@ -2685,6 +2697,12 @@ J_ClarinetMusicVoice = {
     d''2.
     \repeatTie
     
+}
+
+
+J_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \J_ClarinetMusicVoice
 }
 
 
@@ -3434,6 +3452,12 @@ J_PianoRHMusicVoice = {
 }
 
 
+J_PianoRHMusicStaff = {
+    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \J_PianoRHMusicVoice
+}
+
+
 J_PianoLHMusicVoice = {
     
     % [J PianoLHMusicVoice measure 642]                      %! SM4
@@ -3628,6 +3652,14 @@ J_PianoLHAttackVoice = {
 }
 
 
+J_PianoLHMusicStaff = <<
+    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \J_PianoLHMusicVoice
+    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \J_PianoLHAttackVoice
+>>
+
+
 J_PercussionMusicVoice = {
     
     % [J PercussionMusicVoice measure 642]                       %! SM4
@@ -3759,6 +3791,12 @@ J_PercussionMusicVoice = {
     c'2.
     \repeatTie
     
+}
+
+
+J_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \J_PercussionMusicVoice
 }
 
 
@@ -4257,6 +4295,12 @@ J_ViolinMusicVoice = {
 }
 
 
+J_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \J_ViolinMusicVoice
+}
+
+
 J_ViolaMusicVoice = {
     
     % [J ViolaMusicVoice measure 642]                            %! SM4
@@ -4400,6 +4444,12 @@ J_ViolaMusicVoice = {
 }
 
 
+J_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \J_ViolaMusicVoice
+}
+
+
 J_CelloMusicVoice = {
     
     % [J CelloMusicVoice measure 642]                            %! SM4
@@ -4537,4 +4587,10 @@ J_CelloMusicVoice = {
     c'2.
     \repeatTie
     
+}
+
+
+J_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \J_CelloMusicVoice
 }

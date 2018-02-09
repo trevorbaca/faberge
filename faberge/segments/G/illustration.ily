@@ -5694,6 +5694,12 @@ G_FluteMusicVoice = {
 }
 
 
+G_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \G_FluteMusicVoice
+}
+
+
 G_EnglishHornMusicVoice = {
     
     % [G EnglishHornMusicVoice measure 484]                      %! SM4
@@ -6032,6 +6038,12 @@ G_EnglishHornMusicVoice = {
     % [G EnglishHornMusicVoice measure 577]                      %! SM4
     R1 * 1
     
+}
+
+
+G_EnglishHornMusicStaff = {
+    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \G_EnglishHornMusicVoice
 }
 
 
@@ -6655,6 +6667,12 @@ G_ClarinetMusicVoice = {
     \makeBlue                                                    %! SM24
     d''2
     
+}
+
+
+G_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \G_ClarinetMusicVoice
 }
 
 
@@ -7731,6 +7749,12 @@ G_PianoRHMusicVoice = {
 }
 
 
+G_PianoRHMusicStaff = {
+    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \G_PianoRHMusicVoice
+}
+
+
 G_PianoLHMusicVoice = {
     
     % [G PianoLHMusicVoice measure 484]                      %! SM4
@@ -8312,6 +8336,14 @@ G_PianoLHAttackVoice = {
 }
 
 
+G_PianoLHMusicStaff = <<
+    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \G_PianoLHMusicVoice
+    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \G_PianoLHAttackVoice
+>>
+
+
 G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 484]                       %! SM4
@@ -8867,6 +8899,12 @@ G_PercussionMusicVoice = {
     \makeBlue                                                    %! SM24
     c'1
     
+}
+
+
+G_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \G_PercussionMusicVoice
 }
 
 
@@ -10068,6 +10106,12 @@ G_ViolinMusicVoice = {
 }
 
 
+G_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \G_ViolinMusicVoice
+}
+
+
 G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 484]                            %! SM4
@@ -11266,6 +11310,12 @@ G_ViolaMusicVoice = {
 }
 
 
+G_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \G_ViolaMusicVoice
+}
+
+
 G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 484]                            %! SM4
@@ -12201,4 +12251,10 @@ G_CelloMusicVoice = {
     \makeBlue                                                    %! SM24
     c'1
     
+}
+
+
+G_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \G_CelloMusicVoice
 }

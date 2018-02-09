@@ -30,22 +30,13 @@
                 <<
                     \tag Flute                                                           %! ST4
                     \context FluteMusicStaff = "FluteMusicStaff"
-                    {
-                        \context FluteMusicVoice = "FluteMusicVoice"
-                        \A_b_FluteMusicVoice
-                    }
+                    \A_b_FluteMusicStaff
                     \tag EnglishHorn                                                     %! ST4
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff"
-                    {
-                        \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-                        \A_b_EnglishHornMusicVoice
-                    }
+                    \A_b_EnglishHornMusicStaff
                     \tag Clarinet                                                        %! ST4
                     \context ClarinetMusicStaff = "ClarinetMusicStaff"
-                    {
-                        \context ClarinetMusicVoice = "ClarinetMusicVoice"
-                        \A_b_ClarinetMusicVoice
-                    }
+                    \A_b_ClarinetMusicStaff
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                 <<
@@ -53,45 +44,25 @@
                     \context PianoStaffGroup = "PianoStaffGroup"
                     <<
                         \context PianoRHMusicStaff = "PianoRHMusicStaff"
-                        {
-                            \context PianoRHMusicVoice = "PianoRHMusicVoice"
-                            \A_b_PianoRHMusicVoice
-                        }
+                        \A_b_PianoRHMusicStaff
                         \context PianoLHMusicStaff = "PianoLHMusicStaff"
-                        <<
-                            \context PianoLHMusicVoice = "PianoLHMusicVoice"
-                            \A_b_PianoLHMusicVoice
-                            \context PianoLHAttackVoice = "PianoLHAttackVoice"
-                            \A_b_PianoLHAttackVoice
-                        >>
+                        \A_b_PianoLHMusicStaff
                     >>
                     \tag Percussion                                                      %! ST4
                     \context PercussionMusicStaff = "PercussionMusicStaff"
-                    {
-                        \context PercussionMusicVoice = "PercussionMusicVoice"
-                        \A_b_PercussionMusicVoice
-                    }
+                    \A_b_PercussionMusicStaff
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
                 <<
                     \tag Violin                                                          %! ST4
                     \context ViolinMusicStaff = "ViolinMusicStaff"
-                    {
-                        \context ViolinMusicVoice = "ViolinMusicVoice"
-                        \A_b_ViolinMusicVoice
-                    }
+                    \A_b_ViolinMusicStaff
                     \tag Viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
-                    {
-                        \context ViolaMusicVoice = "ViolaMusicVoice"
-                        \A_b_ViolaMusicVoice
-                    }
+                    \A_b_ViolaMusicStaff
                     \tag Cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
-                    {
-                        \context CelloMusicVoice = "CelloMusicVoice"
-                        \A_b_CelloMusicVoice
-                    }
+                    \A_b_CelloMusicStaff
                 >>
             >>
         >>

@@ -1575,6 +1575,12 @@ C_FluteMusicVoice = {
 }
 
 
+C_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \C_FluteMusicVoice
+}
+
+
 C_EnglishHornMusicVoice = {
     
     % [C EnglishHornMusicVoice measure 274]                      %! SM4
@@ -1799,6 +1805,12 @@ C_EnglishHornMusicVoice = {
 }
 
 
+C_EnglishHornMusicStaff = {
+    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \C_EnglishHornMusicVoice
+}
+
+
 C_ClarinetMusicVoice = {
     
     % [C ClarinetMusicVoice measure 274]                         %! SM4
@@ -1941,6 +1953,12 @@ C_ClarinetMusicVoice = {
     % [C ClarinetMusicVoice measure 300]                         %! SM4
     R1 * 5/12
     
+}
+
+
+C_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \C_ClarinetMusicVoice
 }
 
 
@@ -2112,6 +2130,12 @@ C_PianoRHMusicVoice = {
     % [C PianoRHMusicVoice measure 300]                      %! SM4
     R1 * 5/12
     
+}
+
+
+C_PianoRHMusicStaff = {
+    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \C_PianoRHMusicVoice
 }
 
 
@@ -2388,6 +2412,14 @@ C_PianoLHAttackVoice = {
 }
 
 
+C_PianoLHMusicStaff = <<
+    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \C_PianoLHMusicVoice
+    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \C_PianoLHAttackVoice
+>>
+
+
 C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 274]                       %! SM4
@@ -2527,6 +2559,12 @@ C_PercussionMusicVoice = {
     % [C PercussionMusicVoice measure 300]                       %! SM4
     R1 * 5/12
     
+}
+
+
+C_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \C_PercussionMusicVoice
 }
 
 
@@ -2786,6 +2824,12 @@ C_ViolinMusicVoice = {
 }
 
 
+C_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \C_ViolinMusicVoice
+}
+
+
 C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 274]                            %! SM4
@@ -2990,6 +3034,12 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 300]                            %! SM4
     R1 * 5/12
     
+}
+
+
+C_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \C_ViolaMusicVoice
 }
 
 
@@ -3246,4 +3296,10 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 300]                            %! SM4
     R1 * 5/12
     
+}
+
+
+C_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \C_CelloMusicVoice
 }
