@@ -6127,6 +6127,12 @@ E_FluteMusicVoice = {
 }
 
 
+E_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \E_FluteMusicVoice
+}
+
+
 E_EnglishHornMusicVoice = {
     
     % [E EnglishHornMusicVoice measure 322]                      %! SM4
@@ -6664,6 +6670,12 @@ E_EnglishHornMusicVoice = {
 }
 
 
+E_EnglishHornMusicStaff = {
+    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \E_EnglishHornMusicVoice
+}
+
+
 E_ClarinetMusicVoice = {
     
     % [E ClarinetMusicVoice measure 322]                         %! SM4
@@ -7157,6 +7169,12 @@ E_ClarinetMusicVoice = {
     % [E ClarinetMusicVoice measure 428]                         %! SM4
     R1 * 1/4
     
+}
+
+
+E_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \E_ClarinetMusicVoice
 }
 
 
@@ -7666,6 +7684,12 @@ E_PianoRHMusicVoice = {
     % [E PianoRHMusicVoice measure 428]                      %! SM4
     R1 * 1/4
     
+}
+
+
+E_PianoRHMusicStaff = {
+    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \E_PianoRHMusicVoice
 }
 
 
@@ -8355,6 +8379,14 @@ E_PianoLHAttackVoice = {
 }
 
 
+E_PianoLHMusicStaff = <<
+    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \E_PianoLHMusicVoice
+    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \E_PianoLHAttackVoice
+>>
+
+
 E_PercussionMusicVoice = {
     
     % [E PercussionMusicVoice measure 322]                       %! SM4
@@ -8895,6 +8927,12 @@ E_PercussionMusicVoice = {
     % [E PercussionMusicVoice measure 428]                       %! SM4
     R1 * 1/4
     
+}
+
+
+E_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \E_PercussionMusicVoice
 }
 
 
@@ -9916,6 +9954,12 @@ E_ViolinMusicVoice = {
 }
 
 
+E_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \E_ViolinMusicVoice
+}
+
+
 E_ViolaMusicVoice = {
     
     % [E ViolaMusicVoice measure 322]                            %! SM4
@@ -10834,6 +10878,12 @@ E_ViolaMusicVoice = {
 }
 
 
+E_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \E_ViolaMusicVoice
+}
+
+
 E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 322]                            %! SM4
@@ -11386,4 +11436,10 @@ E_CelloMusicVoice = {
     % [E CelloMusicVoice measure 428]                            %! SM4
     R1 * 1/4
     
+}
+
+
+E_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \E_CelloMusicVoice
 }

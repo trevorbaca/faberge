@@ -3350,6 +3350,12 @@ F_FluteMusicVoice = {
 }
 
 
+F_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \F_FluteMusicVoice
+}
+
+
 F_EnglishHornMusicVoice = {
     \override TupletNumber.text = \markup {
         \scale
@@ -4735,6 +4741,12 @@ F_EnglishHornMusicVoice = {
 }
 
 
+F_EnglishHornMusicStaff = {
+    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \F_EnglishHornMusicVoice
+}
+
+
 F_ClarinetMusicVoice = {
     
     % [F ClarinetMusicVoice measure 429]                         %! SM4
@@ -4993,6 +5005,12 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 483]                         %! SM4
     R1 * 1/4
     
+}
+
+
+F_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \F_ClarinetMusicVoice
 }
 
 
@@ -5783,6 +5801,12 @@ F_PianoRHMusicVoice = {
 }
 
 
+F_PianoRHMusicStaff = {
+    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \F_PianoRHMusicVoice
+}
+
+
 F_PianoLHMusicVoice = {
     
     % [F PianoLHMusicVoice measure 429]                      %! SM4
@@ -6130,6 +6154,14 @@ F_PianoLHAttackVoice = {
 }
 
 
+F_PianoLHMusicStaff = <<
+    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \F_PianoLHMusicVoice
+    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \F_PianoLHAttackVoice
+>>
+
+
 F_PercussionMusicVoice = {
     
     % [F PercussionMusicVoice measure 429]                       %! SM4
@@ -6391,6 +6423,12 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 483]                       %! SM4
     R1 * 1/4
     
+}
+
+
+F_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \F_PercussionMusicVoice
 }
 
 
@@ -7160,6 +7198,12 @@ F_ViolinMusicVoice = {
 }
 
 
+F_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \F_ViolinMusicVoice
+}
+
+
 F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 429]                            %! SM4
@@ -7874,6 +7918,12 @@ F_ViolaMusicVoice = {
 }
 
 
+F_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \F_ViolaMusicVoice
+}
+
+
 F_CelloMusicVoice = {
     
     % [F CelloMusicVoice measure 429]                            %! SM4
@@ -8133,4 +8183,10 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 483]                            %! SM4
     R1 * 1/4
     
+}
+
+
+F_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \F_CelloMusicVoice
 }
