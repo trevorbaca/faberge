@@ -1296,3 +1296,32 @@ ABJAD REPO  6aa3433f2c
             Thu Feb 8 10:00:31
             ... but with WellformednessManager.check_mispitched_ties()
                 commented-out
+
+2018-02-10 15:40:40
+Segment-maker runtime: 90 seconds
+Abjad format time: 2 seconds
+LilyPond runtime: 6 seconds
+BACA REPO   50c856cb 
+            Integrating abjad.Tag.
+            Sat Feb 10 14:37:06
+ABJAD REPO  2ad0d28b1a
+            Extended abjad.Tag initializer.
+            Sat Feb 10 14:36:05
+            ... but with WellformednessManager.check_mispitched_ties()
+                commented-out
+
+2018-02-10 16:09:07
+Segment-maker runtime: 109 seconds
+Abjad format time: 2 seconds
+LilyPond runtime: 6 seconds
+
+2018-02-10 16:16:41
+Segment-maker runtime: 109 seconds
+Abjad format time: 2 seconds
+LilyPond runtime: 6 seconds
+BACA REPO     55200489
+            Cleaned up baca.WellformednessManager docstrings.
+            Sat Feb 10 16:14:34
+ABJAD REPO  eeb7fc1d0c
+            Fixed WellformednessManager.check_mispitched_ties(),.
+            Sat Feb 10 16:14:23
