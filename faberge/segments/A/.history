@@ -1261,3 +1261,14 @@ BACA REPO   8e31eb4c
 ABJAD REPO  6aa3433f2c
             Cleaned up WellformednessManager.
             Thu Feb 8 10:00:31
+
+2018-02-10 15:24:48
+Segment-maker runtime: 99 seconds
+Abjad format time: 2 seconds
+LilyPond runtime: 6 seconds
+BACA REPO   8e31eb4c
+            Added baca.literal() format slot
+            Wed Feb 7 21:02:47
+ABJAD REPO  2500a09e85
+            Added import statement.
+            Thu Feb 8 08:27:10
