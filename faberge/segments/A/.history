@@ -1205,27 +1205,27 @@ Abjad format time: 3 seconds
 LilyPond runtime: 6 seconds
 
 2018-02-09 13:30:53
-Segment-maker runtime: 269 seconds
+Segment-maker runtime: 269 seconds (!)
 Abjad format time: 2 seconds
 LilyPond runtime: 6 seconds
 
 2018-02-10 14:32:14
-Segment-maker runtime: 395 seconds
+Segment-maker runtime: 395 seconds (!)
 Abjad format time: 2 seconds
 LilyPond runtime: 6 seconds
 
 2018-02-10 14:43:31
-Segment-maker runtime: 267 seconds
+Segment-maker runtime: 267 seconds (!)
 Abjad format time: 2 seconds
 LilyPond runtime: 6 seconds
-BACA REPO * 50c856cb
+BACA REPO   50c856cb
             Integrating abjad.Tag.
 
 2018-02-10 14:52:49
-Segment-maker runtime: 265 seconds
+Segment-maker runtime: 265 seconds (!)
 Abjad format time: 2 seconds
 LilyPond runtime: 6 seconds
-BACA REPO * 50c856cb
+BACA REPO   50c856cb
             Integrating abjad.Tag.
 skip_wellformedness_check=True
 
@@ -1246,7 +1246,18 @@ Abjad format time: 3 seconds
 LilyPond runtime: 6 seconds
 BACA REPO   8e31eb4c
             Added baca.literal() format slot
-            Wed Feb 7 21:02:47]]
+            Wed Feb 7 21:02:47
 ABJAD REPO  102afc711b
             Added abjad.Path.write_first_segment_part_defaults().
             Thu Feb 8 14:14:50
+
+2018-02-10 15:20:24
+Segment-maker runtime: 275 seconds (!)
+Abjad format time: 2 seconds
+LilyPond runtime: 6 seconds
+BACA REPO   8e31eb4c
+            Added baca.literal() format slot
+            Wed Feb 7 21:02:47
+ABJAD REPO  6aa3433f2c
+            Cleaned up WellformednessManager.
+            Thu Feb 8 10:00:31
