@@ -39,7 +39,6 @@ maker = baca.SegmentMaker(
     metronome_marks=faberge.metronome_marks,
     rehearsal_mark='A',
     score_template=faberge.ScoreTemplate(),
-    skip_wellformedness_checks=True,
     spacing=spacing,
     time_signatures=time_signatures,
     transpose_score=True,
