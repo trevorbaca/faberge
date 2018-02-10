@@ -5432,12 +5432,6 @@ A_FluteMusicVoice = {
 }
 
 
-A_FluteMusicStaff = {
-    \context FluteMusicVoice = "FluteMusicVoice"
-    \A_FluteMusicVoice
-}
-
-
 A_EnglishHornMusicVoice = {
     
     % [A EnglishHornMusicVoice measure 5]                        %! SM4
@@ -6105,12 +6099,6 @@ A_EnglishHornMusicVoice = {
     r2.
     \stopTrillSpan                                               %! SC
     
-}
-
-
-A_EnglishHornMusicStaff = {
-    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-    \A_EnglishHornMusicVoice
 }
 
 
@@ -7087,12 +7075,6 @@ A_ClarinetMusicVoice = {
 }
 
 
-A_ClarinetMusicStaff = {
-    \context ClarinetMusicVoice = "ClarinetMusicVoice"
-    \A_ClarinetMusicVoice
-}
-
-
 A_PianoRHMusicVoice = {
     
     % [A PianoRHMusicVoice measure 5]                        %! SM4
@@ -7511,12 +7493,6 @@ A_PianoRHMusicVoice = {
     % [A PianoRHMusicVoice measure 96]                       %! SM4
     R1 * 1
     
-}
-
-
-A_PianoRHMusicStaff = {
-    \context PianoRHMusicVoice = "PianoRHMusicVoice"
-    \A_PianoRHMusicVoice
 }
 
 
@@ -8188,14 +8164,6 @@ A_PianoLHAttackVoice = {
     R1 * 1
     
 }
-
-
-A_PianoLHMusicStaff = <<
-    \context PianoLHMusicVoice = "PianoLHMusicVoice"
-    \A_PianoLHMusicVoice
-    \context PianoLHAttackVoice = "PianoLHAttackVoice"
-    \A_PianoLHAttackVoice
->>
 
 
 A_PercussionMusicVoice = {
@@ -9582,12 +9550,6 @@ A_PercussionMusicVoice = {
         \f
         
     }
-}
-
-
-A_PercussionMusicStaff = {
-    \context PercussionMusicVoice = "PercussionMusicVoice"
-    \A_PercussionMusicVoice
 }
 
 
@@ -11701,12 +11663,6 @@ A_ViolinMusicVoice = {
 }
 
 
-A_ViolinMusicStaff = {
-    \context ViolinMusicVoice = "ViolinMusicVoice"
-    \A_ViolinMusicVoice
-}
-
-
 A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 5]                              %! SM4
@@ -13172,12 +13128,6 @@ A_ViolaMusicVoice = {
 }
 
 
-A_ViolaMusicStaff = {
-    \context ViolaMusicVoice = "ViolaMusicVoice"
-    \A_ViolaMusicVoice
-}
-
-
 A_CelloMusicVoice = {
     
     % [A CelloMusicVoice measure 5]                              %! SM4
@@ -13778,10 +13728,4 @@ A_CelloMusicVoice = {
     d,1
     \repeatTie
     
-}
-
-
-A_CelloMusicStaff = {
-    \context CelloMusicVoice = "CelloMusicVoice"
-    \A_CelloMusicVoice
 }

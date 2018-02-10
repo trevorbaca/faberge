@@ -1226,3 +1226,10 @@ Abjad format time: 2 seconds
 LilyPond runtime: 6 seconds
 [[BACA REPO * 50c856cb Integrating abjad.Tag.]]
 [[skip_wellformedness_check=True]]
+
+2018-02-10 15:01:53
+Segment-maker runtime: 103 seconds
+Abjad format time: 3 seconds
+LilyPond runtime: 6 seconds
+[[BACA REPO  * 8e31eb4c Added baca.literal() format slot; Wed Feb 7 21:02:47]]
+[[ABJAD REPO * e442241eca; Constrained abjad.Path.activate(); Feb 7 19:44:47]]
