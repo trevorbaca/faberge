@@ -4007,8 +4007,10 @@ A_b_FluteMusicVoice = {
     \!
     
     % [A2 FluteMusicVoice measure 105]                           %! SM4
+    \once \override Hairpin.circled-tip = ##t
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     g'2.
+    \<
     \!
     ^ \markup {
         \override
@@ -4021,8 +4023,10 @@ A_b_FluteMusicVoice = {
     % [A2 FluteMusicVoice measure 106]                           %! SM4
     \once \override Hairpin.circled-tip = ##t
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     g'4
     \repeatTie
+    \mp
     \>
     \mp
     
@@ -6064,8 +6068,10 @@ A_b_FluteMusicVoice = {
     \!
     
     % [A2 FluteMusicVoice measure 149]                           %! SM4
+    \once \override Hairpin.circled-tip = ##t
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     g''2.
+    \<
     \!
     ^ \markup {
         \override
@@ -6078,8 +6084,10 @@ A_b_FluteMusicVoice = {
     % [A2 FluteMusicVoice measure 150]                           %! SM4
     \once \override Hairpin.circled-tip = ##t
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     g''4
     \repeatTie
+    \pp
     \>
     \pp
     
@@ -8024,16 +8032,20 @@ A_b_ClarinetMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     f4
     
+    \once \override Hairpin.circled-tip = ##t
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     f\breve.
     \repeatTie
+    \>
     \p
     
     % [A2 ClarinetMusicVoice measure 148]                        %! SM4
     \once \override Hairpin.circled-tip = ##t
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     f4
     \repeatTie
+    \!
     \<
     \!
     
@@ -8048,15 +8060,19 @@ A_b_ClarinetMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     e4
     
+    \once \override Hairpin.circled-tip = ##t
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     e1.
     \repeatTie
+    \>
     \pp
     
     \once \override Hairpin.circled-tip = ##t
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     e8.
     \repeatTie
+    \!
     \<
     \!
     
@@ -10855,6 +10871,7 @@ A_b_ViolinMusicVoice = {
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     eqf'2.
     \repeatTie
+    \<
     \ppp
     
     % [A2 ViolinMusicVoice measure 134]                          %! SM4
@@ -10887,8 +10904,10 @@ A_b_ViolinMusicVoice = {
     
     % [A2 ViolinMusicVoice measure 141]                          %! SM4
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     eqf'1
     \repeatTie
+    \f
     \>
     \f
     
@@ -14128,6 +14147,7 @@ A_b_ViolaMusicVoice = {
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     g2.
     \repeatTie
+    \<
     \pp
     
     % [A2 ViolaMusicVoice measure 134]                           %! SM4
@@ -14160,8 +14180,10 @@ A_b_ViolaMusicVoice = {
     
     % [A2 ViolaMusicVoice measure 141]                           %! SM4
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     g1
     \repeatTie
+    \f
     \>
     \f
     
@@ -17120,6 +17142,7 @@ A_b_CelloMusicVoice = {
         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         ef,\longa..
         \glissando                                               %! SC
+        \<
         \p
         \startTextSpan
         ^ \markup {
@@ -17187,7 +17210,9 @@ A_b_CelloMusicVoice = {
         \once \override TextSpanner.dash-fraction = 0.25
         \once \override TextSpanner.dash-period = 1.5
         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         d,\longa..
+        \ff
         \stopTextSpan
         \glissando                                               %! SC
         \>
