@@ -13651,6 +13651,7 @@ A_CelloMusicVoice = {
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     d,2
     \repeatTie
+    \>
     \ff
     \startTextSpan
     
@@ -13724,8 +13725,10 @@ A_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25
     \once \override TextSpanner.dash-period = 1.5
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     d,2
     \repeatTie
+    \pp
     \stopTextSpan
     \<
     \pp
