@@ -314,7 +314,7 @@ i_FluteMusicVoice = {
     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     \once \override FluteMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override FluteMusicStaff.Clef.color = ##f                   %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set FluteMusicStaff.forceClef = ##t                         %! ST3:DEFAULT_CLEF:SM8
+    \set FluteMusicStaff.forceClef = ##t                         %! ST3:SM33:DEFAULT_CLEF:SM8
     R1 * 3/4
     ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
@@ -322,16 +322,16 @@ i_FluteMusicVoice = {
             (“Flute”)                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
     \override FluteMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set FluteMusicStaff.instrumentName = \markup {              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Flute                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set FluteMusicStaff.shortInstrumentName = \markup {         %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Fl.                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set FluteMusicStaff.instrumentName = \markup {              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Flute                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set FluteMusicStaff.shortInstrumentName = \markup {         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Fl.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
     \override FluteMusicStaff.Clef.color = #(x11-color 'violet)  %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     % [_ FluteMusicVoice measure 2]                              %! SM4
@@ -377,7 +377,7 @@ i_EnglishHornMusicVoice = {
     \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override EnglishHornMusicStaff.Clef.color = ##f             %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set EnglishHornMusicStaff.forceClef = ##t                   %! ST3:DEFAULT_CLEF:SM8
+    \set EnglishHornMusicStaff.forceClef = ##t                   %! ST3:SM33:DEFAULT_CLEF:SM8
     R1 * 3/4
     ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
@@ -385,24 +385,24 @@ i_EnglishHornMusicVoice = {
             (“EnglishHorn”)                                      %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
     \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set EnglishHornMusicStaff.instrumentName = \markup {        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \center-column                                       %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                {                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    English                                      %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    horn                                         %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                }                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \line                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                {                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    Eng.                                         %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    hn.                                          %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                }                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set EnglishHornMusicStaff.instrumentName = \markup {        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            \center-column                                       %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                {                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                    English                                      %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                    horn                                         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                }                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            \line                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                {                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                    Eng.                                         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                    hn.                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                }                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
     \override EnglishHornMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     % [_ EnglishHornMusicVoice measure 2]                        %! SM4
@@ -456,7 +456,7 @@ i_EnglishHornMusicVoice = {
         \clef "percussion"                                       %! IC:EXPLICIT_CLEF:SM8
         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
     %@% \override EnglishHornMusicStaff.Clef.color = ##f         %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
-        \set EnglishHornMusicStaff.forceClef = ##t               %! IC:EXPLICIT_CLEF:SM8
+        \set EnglishHornMusicStaff.forceClef = ##t               %! IC:SM33:EXPLICIT_CLEF:SM8
         \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! IC:EXPLICIT_STAFF_LINES_COLOR:SM6
         c'16 * 187/32
         [
@@ -513,7 +513,7 @@ i_ClarinetMusicVoice = {
     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override ClarinetMusicStaff.Clef.color = ##f                %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set ClarinetMusicStaff.forceClef = ##t                      %! ST3:DEFAULT_CLEF:SM8
+    \set ClarinetMusicStaff.forceClef = ##t                      %! ST3:SM33:DEFAULT_CLEF:SM8
     R1 * 3/4
     ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
@@ -521,16 +521,16 @@ i_ClarinetMusicVoice = {
             (“Clarinet”)                                         %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
     \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Clarinet                                             %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Cl.                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set ClarinetMusicStaff.instrumentName = \markup {           %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Clarinet                                             %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Cl.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
     \override ClarinetMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     % [_ ClarinetMusicVoice measure 2]                           %! SM4
@@ -568,7 +568,7 @@ i_PianoRHMusicVoice = {
     \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override PianoRHMusicStaff.Clef.color = ##f             %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set PianoRHMusicStaff.forceClef = ##t                   %! ST3:DEFAULT_CLEF:SM8
+    \set PianoRHMusicStaff.forceClef = ##t                   %! ST3:SM33:DEFAULT_CLEF:SM8
     R1 * 3/4
     ^ \markup {                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         \with-color                                          %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
@@ -576,16 +576,16 @@ i_PianoRHMusicVoice = {
             (“Piano”)                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         }                                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
     \override PianoStaffGroup.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set PianoStaffGroup.instrumentName = \markup {          %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                          %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Piano                                            %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                    %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set PianoStaffGroup.shortInstrumentName = \markup {     %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                          %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Pf.                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                    %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set PianoStaffGroup.instrumentName = \markup {          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Piano                                            %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set PianoStaffGroup.shortInstrumentName = \markup {     %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Pf.                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
     \override PianoRHMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     % [_ PianoRHMusicVoice measure 2]                        %! SM4
@@ -612,7 +612,7 @@ i_PianoLHMusicVoice = {
     \clef "bass"                                             %! ST3:DEFAULT_CLEF:SM8
     \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override PianoLHMusicStaff.Clef.color = ##f             %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set PianoLHMusicStaff.forceClef = ##t                   %! ST3:DEFAULT_CLEF:SM8
+    \set PianoLHMusicStaff.forceClef = ##t                   %! ST3:SM33:DEFAULT_CLEF:SM8
     R1 * 3/4
     \override PianoLHMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
@@ -670,7 +670,7 @@ i_PercussionMusicVoice = {
     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set PercussionMusicStaff.forceClef = ##t                    %! ST3:DEFAULT_CLEF:SM8
+    \set PercussionMusicStaff.forceClef = ##t                    %! ST3:SM33:DEFAULT_CLEF:SM8
     R1 * 3/4
     ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
@@ -678,16 +678,16 @@ i_PercussionMusicVoice = {
             (“Percussion”)                                       %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
     \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set PercussionMusicStaff.instrumentName = \markup {         %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Percussion                                           %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Perc.                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set PercussionMusicStaff.instrumentName = \markup {         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Percussion                                           %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Perc.                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
     \override PercussionMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     % [_ PercussionMusicVoice measure 2]                         %! SM4
@@ -725,7 +725,7 @@ i_ViolinMusicVoice = {
     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override ViolinMusicStaff.Clef.color = ##f                  %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set ViolinMusicStaff.forceClef = ##t                        %! ST3:DEFAULT_CLEF:SM8
+    \set ViolinMusicStaff.forceClef = ##t                        %! ST3:SM33:DEFAULT_CLEF:SM8
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     e'16
     \effort_f                                                    %! IC:EXPLICIT_DYNAMIC:SM8
@@ -748,16 +748,16 @@ i_ViolinMusicVoice = {
             }
         }
     \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set ViolinMusicStaff.instrumentName = \markup {             %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Violin                                               %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Vn.                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set ViolinMusicStaff.instrumentName = \markup {             %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Violin                                               %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Vn.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
     \override ViolinMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     e'16
@@ -823,7 +823,7 @@ i_ViolaMusicVoice = {
         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
     %@% \override ViolaMusicStaff.Clef.color = ##f               %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-        \set ViolaMusicStaff.forceClef = ##t                     %! ST3:DEFAULT_CLEF:SM8
+        \set ViolaMusicStaff.forceClef = ##t                     %! ST3:SM33:DEFAULT_CLEF:SM8
         r4
         ^ \markup {                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
             \with-color                                          %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
@@ -831,16 +831,16 @@ i_ViolaMusicVoice = {
                 (“Viola”)                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
             }                                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-        \set ViolaMusicStaff.instrumentName = \markup {          %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \hcenter-in                                          %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                #16                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                Viola                                            %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            }                                                    %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \set ViolaMusicStaff.shortInstrumentName = \markup {     %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \hcenter-in                                          %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                #10                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                Va.                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            }                                                    %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \set ViolaMusicStaff.instrumentName = \markup {          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                #16                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                Viola                                            %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \set ViolaMusicStaff.shortInstrumentName = \markup {     %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                #10                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+                Va.                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
         \override ViolaMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
         
         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
@@ -904,7 +904,7 @@ i_CelloMusicVoice = {
     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     \once \override CelloMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
 %@% \override CelloMusicStaff.Clef.color = ##f                   %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set CelloMusicStaff.forceClef = ##t                         %! ST3:DEFAULT_CLEF:SM8
+    \set CelloMusicStaff.forceClef = ##t                         %! ST3:SM33:DEFAULT_CLEF:SM8
     R1 * 3/4
     ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
@@ -912,16 +912,16 @@ i_CelloMusicVoice = {
             (“Cello”)                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
     \override CelloMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set CelloMusicStaff.instrumentName = \markup {              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Cello                                                %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set CelloMusicStaff.shortInstrumentName = \markup {         %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Vc.                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set CelloMusicStaff.instrumentName = \markup {              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Cello                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set CelloMusicStaff.shortInstrumentName = \markup {         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Vc.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
     \override CelloMusicStaff.Clef.color = #(x11-color 'violet)  %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
     
     % [_ CelloMusicVoice measure 2]                              %! SM4
