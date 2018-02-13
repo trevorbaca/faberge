@@ -32,90 +32,90 @@ i_GlobalSkips = {
     % [_ GlobalSkips measure 1]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@% \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%     \fontsize                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%         #-6                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%         \general-align                                               %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%             #Y                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%             #DOWN                                                    %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%             \note-by-number                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%                 #2                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%                 #0                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%                 #1.5                                                 %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%     \upright                                                         %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%         {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%             =                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%             100                                                      %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%         }                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%     \hspace                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%         #1                                                           %! SM30:EXPLICIT_METRONOME_MARK:SM27
-%@%     }                                                                %! SM30:EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.Y-extent = ##f                           %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! METRONOME_MARK_SPANNER:SM29
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             100                                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
-        }                                                                %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-    \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        \with-color                                                      %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            #(x11-color 'blue)                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \fontsize                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #-6                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    \general-align                                       %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #Y                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #DOWN                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        \note-by-number                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #2                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #0                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #1.5                                         %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \upright                                                 %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    {                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        =                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        100                                              %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    }                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \hspace                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #1                                                   %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            }                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        }                                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.dash-period = 0                          %! METRONOME_MARK_SPANNER:SM29
-    \time 3/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+        }                                                                %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        100                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
-    \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
-            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 (1)                                      %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%         \fontsize                                        %! MEASURE_INDEX_MARKUP:SM32
-            %@%             #3                                           %! MEASURE_INDEX_MARKUP:SM32
-            %@%             \with-color                                  %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 <0>                                      %! MEASURE_INDEX_MARKUP:SM32
-            %@%     }                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
-            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 [_.1]                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (1)                                      %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <0>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [_.1]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -124,50 +124,50 @@ i_GlobalSkips = {
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
             %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
-            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
-            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-            %@%                 [0'00'']                                 %! CLOCK_TIME_MARKUP:SM28
-            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'00'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [_ GlobalSkips measure 2]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
-    \time 1/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
     ^ \markup {
         \column
             {
-            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 (2)                                      %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%         \fontsize                                        %! MEASURE_INDEX_MARKUP:SM32
-            %@%             #3                                           %! MEASURE_INDEX_MARKUP:SM32
-            %@%             \with-color                                  %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 <1>                                      %! MEASURE_INDEX_MARKUP:SM32
-            %@%     }                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
-            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 [_.2]                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (2)                                      %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <1>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [_.2]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -176,50 +176,50 @@ i_GlobalSkips = {
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
             %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
-            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
-            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-            %@%                 [0'01'']                                 %! CLOCK_TIME_MARKUP:SM28
-            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'01'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [_ GlobalSkips measure 3]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
             {
-            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 (3)                                      %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%         \fontsize                                        %! MEASURE_INDEX_MARKUP:SM32
-            %@%             #3                                           %! MEASURE_INDEX_MARKUP:SM32
-            %@%             \with-color                                  %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 <2>                                      %! MEASURE_INDEX_MARKUP:SM32
-            %@%     }                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
-            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 [_.3]                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (3)                                      %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <2>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [_.3]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -228,51 +228,51 @@ i_GlobalSkips = {
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
             %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
-            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
-            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-            %@%                 [0'02'']                                 %! CLOCK_TIME_MARKUP:SM28
-            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'02'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [_ GlobalSkips measure 4]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
-    \time 1/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
-    \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
-            %@% \line                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     {                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@%         \fontsize                                        %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             #3                                           %! MEASURE_NUMBER_MARKUP:SM31
-            %@%             \with-color                                  %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_NUMBER_MARKUP:SM31
-            %@%                 (4)                                      %! MEASURE_NUMBER_MARKUP:SM31
-            %@%     }                                                    %! MEASURE_NUMBER_MARKUP:SM31
-            %@% \line                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%     {                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@%         \fontsize                                        %! MEASURE_INDEX_MARKUP:SM32
-            %@%             #3                                           %! MEASURE_INDEX_MARKUP:SM32
-            %@%             \with-color                                  %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_INDEX_MARKUP:SM32
-            %@%                 <3>                                      %! MEASURE_INDEX_MARKUP:SM32
-            %@%     }                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-            %@%             #3                                           %! STAGE_NUMBER_MARKUP:SM3
-            %@%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-            %@%                 [_.4]                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (4)                                      %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <3>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [_.4]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -281,14 +281,14 @@ i_GlobalSkips = {
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
             %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
-            %@%             #(x11-color 'DarkCyan)                       %! CLOCK_TIME_MARKUP:SM28
-            %@%             \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
-            %@%                 #3                                       %! CLOCK_TIME_MARKUP:SM28
-            %@%                 [0'04'']                                 %! CLOCK_TIME_MARKUP:SM28
-            %@%     }                                                    %! CLOCK_TIME_MARKUP:SM28
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [0'04'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     \override Score.BarLine.transparent = ##f                            %! SM5
@@ -300,39 +300,39 @@ i_GlobalSkips = {
 i_FluteMusicVoice = {
     
     % [_ FluteMusicVoice measure 1]                              %! SM4
-    \set FluteMusicStaff.instrumentName = \markup {              %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Flute                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \set FluteMusicStaff.shortInstrumentName = \markup {         %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Fl.                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \clef "treble"                                               %! ST3:DEFAULT_CLEF:SM8
-    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-    \once \override FluteMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override FluteMusicStaff.Clef.color = ##f                   %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set FluteMusicStaff.forceClef = ##t                         %! ST3:SM33:DEFAULT_CLEF:SM8
+    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Flute                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Fl.                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+    \once \override FluteMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override FluteMusicStaff.Clef.color = ##f                   %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set FluteMusicStaff.forceClef = ##t                         %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 3/4
-    ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'DarkViolet)                             %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            (“Flute”)                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set FluteMusicStaff.instrumentName = \markup {              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Flute                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set FluteMusicStaff.shortInstrumentName = \markup {         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Fl.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override FluteMusicStaff.Clef.color = #(x11-color 'violet)  %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Flute”)                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Flute                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Fl.                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \override FluteMusicStaff.Clef.color = #(x11-color 'violet)  %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [_ FluteMusicVoice measure 2]                              %! SM4
     R1 * 1/4
@@ -355,55 +355,55 @@ i_FluteMusicStaff = {
 i_EnglishHornMusicVoice = {
     
     % [_ EnglishHornMusicVoice measure 1]                        %! SM4
-    \set EnglishHornMusicStaff.instrumentName = \markup {        %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            \center-column                                       %! ST1:DEFAULT_INSTRUMENT:SM8
-                {                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-                    English                                      %! ST1:DEFAULT_INSTRUMENT:SM8
-                    horn                                         %! ST1:DEFAULT_INSTRUMENT:SM8
-                }                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            \line                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-                {                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-                    Eng.                                         %! ST1:DEFAULT_INSTRUMENT:SM8
-                    hn.                                          %! ST1:DEFAULT_INSTRUMENT:SM8
-                }                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \clef "treble"                                               %! ST3:DEFAULT_CLEF:SM8
-    \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-    \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override EnglishHornMusicStaff.Clef.color = ##f             %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set EnglishHornMusicStaff.forceClef = ##t                   %! ST3:SM33:DEFAULT_CLEF:SM8
+    \set EnglishHornMusicStaff.instrumentName = \markup {        %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            \center-column                                       %! SM8:DEFAULT_INSTRUMENT:ST1
+                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+                    English                                      %! SM8:DEFAULT_INSTRUMENT:ST1
+                    horn                                         %! SM8:DEFAULT_INSTRUMENT:ST1
+                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            \line                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+                    Eng.                                         %! SM8:DEFAULT_INSTRUMENT:ST1
+                    hn.                                          %! SM8:DEFAULT_INSTRUMENT:ST1
+                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+    \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override EnglishHornMusicStaff.Clef.color = ##f             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set EnglishHornMusicStaff.forceClef = ##t                   %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 3/4
-    ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'DarkViolet)                             %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            (“EnglishHorn”)                                      %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-    \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set EnglishHornMusicStaff.instrumentName = \markup {        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \center-column                                       %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                {                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    English                                      %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    horn                                         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                }                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \line                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                {                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    Eng.                                         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    hn.                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                }                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override EnglishHornMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“EnglishHorn”)                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+    \set EnglishHornMusicStaff.instrumentName = \markup {        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            \center-column                                       %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                    English                                      %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                    horn                                         %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            \line                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                    Eng.                                         %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                    hn.                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \override EnglishHornMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [_ EnglishHornMusicVoice measure 2]                        %! SM4
     R1 * 1/4
@@ -446,18 +446,18 @@ i_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [_ EnglishHornMusicVoice measure 3]                    %! SM4
-        \stopStaff                                               %! IC:EXPLICIT_STAFF_LINES:SM8
-        \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! IC:EXPLICIT_STAFF_LINES:SM8
-        \startStaff                                              %! IC:EXPLICIT_STAFF_LINES:SM8
+        \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
+        \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:EXPLICIT_STAFF_LINES:IC
+        \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
         \once \override EnglishHornMusicStaff.Clef.X-extent = ##f %! OC1:SHIFTED_CLEF
         \once \override EnglishHornMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \clef "percussion"                                       %! IC:EXPLICIT_CLEF:SM8
-        \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
-    %@% \override EnglishHornMusicStaff.Clef.color = ##f         %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
-        \set EnglishHornMusicStaff.forceClef = ##t               %! IC:SM33:EXPLICIT_CLEF:SM8
-        \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! IC:EXPLICIT_STAFF_LINES_COLOR:SM6
+        \clef "percussion"                                       %! SM8:EXPLICIT_CLEF:IC
+        \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
+    %@% \override EnglishHornMusicStaff.Clef.color = ##f         %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+        \set EnglishHornMusicStaff.forceClef = ##t               %! SM8:EXPLICIT_CLEF:SM33:IC
+        \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         c'16 * 187/32
         [
         ^ \markup {                                              %! IC
@@ -468,7 +468,7 @@ i_EnglishHornMusicVoice = {
                         \box                                     %! IC
                             ratchet                              %! IC
             }                                                    %! IC
-        \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! IC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
+        \override EnglishHornMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
         c'16 * 139/32
         
@@ -499,39 +499,39 @@ i_EnglishHornMusicStaff = {
 i_ClarinetMusicVoice = {
     
     % [_ ClarinetMusicVoice measure 1]                           %! SM4
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Clarinet                                             %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Cl.                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \clef "treble"                                               %! ST3:DEFAULT_CLEF:SM8
-    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override ClarinetMusicStaff.Clef.color = ##f                %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set ClarinetMusicStaff.forceClef = ##t                      %! ST3:SM33:DEFAULT_CLEF:SM8
+    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Clarinet                                             %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Cl.                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override ClarinetMusicStaff.Clef.color = ##f                %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set ClarinetMusicStaff.forceClef = ##t                      %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 3/4
-    ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'DarkViolet)                             %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            (“Clarinet”)                                         %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Clarinet                                             %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Cl.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override ClarinetMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Clarinet”)                                         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Clarinet                                             %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Cl.                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \override ClarinetMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [_ ClarinetMusicVoice measure 2]                           %! SM4
     R1 * 1/4
@@ -554,39 +554,39 @@ i_ClarinetMusicStaff = {
 i_PianoRHMusicVoice = {
     
     % [_ PianoRHMusicVoice measure 1]                        %! SM4
-    \set PianoStaffGroup.instrumentName = \markup {          %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                          %! ST1:DEFAULT_INSTRUMENT:SM8
-            #16                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            Piano                                            %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                    %! ST1:DEFAULT_INSTRUMENT:SM8
-    \set PianoStaffGroup.shortInstrumentName = \markup {     %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                          %! ST1:DEFAULT_INSTRUMENT:SM8
-            #10                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            Pf.                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                    %! ST1:DEFAULT_INSTRUMENT:SM8
-    \clef "treble"                                           %! ST3:DEFAULT_CLEF:SM8
-    \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-    \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override PianoRHMusicStaff.Clef.color = ##f             %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set PianoRHMusicStaff.forceClef = ##t                   %! ST3:SM33:DEFAULT_CLEF:SM8
+    \set PianoStaffGroup.instrumentName = \markup {          %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                          %! SM8:DEFAULT_INSTRUMENT:ST1
+            #16                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            Piano                                            %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                    %! SM8:DEFAULT_INSTRUMENT:ST1
+    \set PianoStaffGroup.shortInstrumentName = \markup {     %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                          %! SM8:DEFAULT_INSTRUMENT:ST1
+            #10                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            Pf.                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                    %! SM8:DEFAULT_INSTRUMENT:ST1
+    \clef "treble"                                           %! SM8:DEFAULT_CLEF:ST3
+    \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+    \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override PianoRHMusicStaff.Clef.color = ##f             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set PianoRHMusicStaff.forceClef = ##t                   %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 3/4
-    ^ \markup {                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        \with-color                                          %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'DarkViolet)                         %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            (“Piano”)                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        }                                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-    \override PianoStaffGroup.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set PianoStaffGroup.instrumentName = \markup {          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Piano                                            %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set PianoStaffGroup.shortInstrumentName = \markup {     %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Pf.                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override PianoRHMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    ^ \markup {                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Piano”)                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override PianoStaffGroup.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+    \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #16                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Piano                                            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                    %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \set PianoStaffGroup.shortInstrumentName = \markup {     %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #10                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Pf.                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                    %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \override PianoRHMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [_ PianoRHMusicVoice measure 2]                        %! SM4
     R1 * 1/4
@@ -609,12 +609,12 @@ i_PianoRHMusicStaff = {
 i_PianoLHMusicVoice = {
     
     % [_ PianoLHMusicVoice measure 1]                        %! SM4
-    \clef "bass"                                             %! ST3:DEFAULT_CLEF:SM8
-    \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override PianoLHMusicStaff.Clef.color = ##f             %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set PianoLHMusicStaff.forceClef = ##t                   %! ST3:SM33:DEFAULT_CLEF:SM8
+    \clef "bass"                                             %! SM8:DEFAULT_CLEF:ST3
+    \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override PianoLHMusicStaff.Clef.color = ##f             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set PianoLHMusicStaff.forceClef = ##t                   %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 3/4
-    \override PianoLHMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    \override PianoLHMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [_ PianoLHMusicVoice measure 2]                        %! SM4
     R1 * 1/4
@@ -656,39 +656,39 @@ i_PianoLHMusicStaff = <<
 i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 1]                         %! SM4
-    \set PercussionMusicStaff.instrumentName = \markup {         %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Percussion                                           %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Perc.                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \clef "treble"                                               %! ST3:DEFAULT_CLEF:SM8
-    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override PercussionMusicStaff.Clef.color = ##f              %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set PercussionMusicStaff.forceClef = ##t                    %! ST3:SM33:DEFAULT_CLEF:SM8
+    \set PercussionMusicStaff.instrumentName = \markup {         %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Percussion                                           %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Perc.                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override PercussionMusicStaff.Clef.color = ##f              %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set PercussionMusicStaff.forceClef = ##t                    %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 3/4
-    ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'DarkViolet)                             %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            (“Percussion”)                                       %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set PercussionMusicStaff.instrumentName = \markup {         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Percussion                                           %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Perc.                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override PercussionMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Percussion”)                                       %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+    \set PercussionMusicStaff.instrumentName = \markup {         %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Percussion                                           %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Perc.                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \override PercussionMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [_ PercussionMusicVoice measure 2]                         %! SM4
     R1 * 1/4
@@ -711,34 +711,34 @@ i_PercussionMusicStaff = {
 i_ViolinMusicVoice = {
     
     % [_ ViolinMusicVoice measure 1]                             %! SM4
-    \set ViolinMusicStaff.instrumentName = \markup {             %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Violin                                               %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Vn.                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \clef "treble"                                               %! ST3:DEFAULT_CLEF:SM8
-    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override ViolinMusicStaff.Clef.color = ##f                  %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set ViolinMusicStaff.forceClef = ##t                        %! ST3:SM33:DEFAULT_CLEF:SM8
-    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \set ViolinMusicStaff.instrumentName = \markup {             %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Violin                                               %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Vn.                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override ViolinMusicStaff.Clef.color = ##f                  %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set ViolinMusicStaff.forceClef = ##t                        %! SM8:DEFAULT_CLEF:SM33:ST3
+    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e'16
-    \effort_f                                                    %! IC:EXPLICIT_DYNAMIC:SM8
+    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     [
     ^ \markup {
         \column
             {
-                \line                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                    {                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                        \with-color                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                            #(x11-color 'DarkViolet)             %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                            (“Violin”)                           %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                    }                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+                \line                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                        \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“Violin”)                           %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                    }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
                         \whiteout                                %! IC
@@ -747,18 +747,18 @@ i_ViolinMusicVoice = {
                     }                                            %! IC
             }
         }
-    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set ViolinMusicStaff.instrumentName = \markup {             %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Violin                                               %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Vn.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override ViolinMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+    \set ViolinMusicStaff.instrumentName = \markup {             %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Violin                                               %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Vn.                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \override ViolinMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     e'16
     
@@ -809,43 +809,43 @@ i_ViolaMusicVoice = {
     \times 2/3 {
         
         % [_ ViolaMusicVoice measure 1]                          %! SM4
-        \set ViolaMusicStaff.instrumentName = \markup {          %! ST1:DEFAULT_INSTRUMENT:SM8
-            \hcenter-in                                          %! ST1:DEFAULT_INSTRUMENT:SM8
-                #16                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-                Viola                                            %! ST1:DEFAULT_INSTRUMENT:SM8
-            }                                                    %! ST1:DEFAULT_INSTRUMENT:SM8
-        \set ViolaMusicStaff.shortInstrumentName = \markup {     %! ST1:DEFAULT_INSTRUMENT:SM8
-            \hcenter-in                                          %! ST1:DEFAULT_INSTRUMENT:SM8
-                #10                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-                Va.                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            }                                                    %! ST1:DEFAULT_INSTRUMENT:SM8
-        \clef "alto"                                             %! ST3:DEFAULT_CLEF:SM8
-        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-    %@% \override ViolaMusicStaff.Clef.color = ##f               %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-        \set ViolaMusicStaff.forceClef = ##t                     %! ST3:SM33:DEFAULT_CLEF:SM8
+        \set ViolaMusicStaff.instrumentName = \markup {          %! SM8:DEFAULT_INSTRUMENT:ST1
+            \hcenter-in                                          %! SM8:DEFAULT_INSTRUMENT:ST1
+                #16                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+                Viola                                            %! SM8:DEFAULT_INSTRUMENT:ST1
+            }                                                    %! SM8:DEFAULT_INSTRUMENT:ST1
+        \set ViolaMusicStaff.shortInstrumentName = \markup {     %! SM8:DEFAULT_INSTRUMENT:ST1
+            \hcenter-in                                          %! SM8:DEFAULT_INSTRUMENT:ST1
+                #10                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+                Va.                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            }                                                    %! SM8:DEFAULT_INSTRUMENT:ST1
+        \clef "alto"                                             %! SM8:DEFAULT_CLEF:ST3
+        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+    %@% \override ViolaMusicStaff.Clef.color = ##f               %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+        \set ViolaMusicStaff.forceClef = ##t                     %! SM8:DEFAULT_CLEF:SM33:ST3
         r4
-        ^ \markup {                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            \with-color                                          %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                #(x11-color 'DarkViolet)                         %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-                (“Viola”)                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            }                                                    %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-        \set ViolaMusicStaff.instrumentName = \markup {          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                #16                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                Viola                                            %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \set ViolaMusicStaff.shortInstrumentName = \markup {     %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            \hcenter-in                                          %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                #10                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-                Va.                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            }                                                    %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \override ViolaMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+        ^ \markup {                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            \with-color                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                #(x11-color 'DarkViolet)                         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                (“Viola”)                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            }                                                    %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+        \set ViolaMusicStaff.instrumentName = \markup {          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                #16                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                Viola                                            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            }                                                    %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \set ViolaMusicStaff.shortInstrumentName = \markup {     %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            \hcenter-in                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                #10                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+                Va.                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            }                                                    %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \override ViolaMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
         
-        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
-        \effort_f                                                %! IC:EXPLICIT_DYNAMIC:SM8
+        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -890,39 +890,39 @@ i_ViolaMusicStaff = {
 i_CelloMusicVoice = {
     
     % [_ CelloMusicVoice measure 1]                              %! SM4
-    \set CelloMusicStaff.instrumentName = \markup {              %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Cello                                                %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \set CelloMusicStaff.shortInstrumentName = \markup {         %! ST1:DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-            Vc.                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
-    \clef "bass"                                                 %! ST3:DEFAULT_CLEF:SM8
-    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
-    \once \override CelloMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
-%@% \override CelloMusicStaff.Clef.color = ##f                   %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
-    \set CelloMusicStaff.forceClef = ##t                         %! ST3:SM33:DEFAULT_CLEF:SM8
+    \set CelloMusicStaff.instrumentName = \markup {              %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Cello                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \set CelloMusicStaff.shortInstrumentName = \markup {         %! SM8:DEFAULT_INSTRUMENT:ST1
+        \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
+            #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+            Vc.                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
+        }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
+    \clef "bass"                                                 %! SM8:DEFAULT_CLEF:ST3
+    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
+    \once \override CelloMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override CelloMusicStaff.Clef.color = ##f                   %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set CelloMusicStaff.forceClef = ##t                         %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 3/4
-    ^ \markup {                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        \with-color                                              %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'DarkViolet)                             %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-            (“Cello”)                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-        }                                                        %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
-    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
-    \set CelloMusicStaff.instrumentName = \markup {              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Cello                                                %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set CelloMusicStaff.shortInstrumentName = \markup {         %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                              %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #10                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Vc.                                                  %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                        %! ST1:SM34:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override CelloMusicStaff.Clef.color = #(x11-color 'violet)  %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
+    \set CelloMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Cello                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \set CelloMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            Vc.                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+        }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+    \override CelloMusicStaff.Clef.color = #(x11-color 'violet)  %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
     % [_ CelloMusicVoice measure 2]                              %! SM4
     R1 * 1/4
