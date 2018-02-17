@@ -4255,7 +4255,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         ^ \markup {
             \column
                 {
@@ -4297,7 +4296,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4317,7 +4315,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4339,7 +4336,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4355,7 +4351,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -4377,7 +4372,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4387,7 +4381,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4401,7 +4394,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4417,7 +4409,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4439,7 +4430,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4461,7 +4451,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4475,7 +4464,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4491,7 +4479,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4501,7 +4488,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4511,7 +4497,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4531,7 +4516,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4549,7 +4533,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -4565,7 +4548,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4585,7 +4567,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4609,7 +4590,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4625,7 +4605,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4641,7 +4620,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4651,7 +4629,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -4665,7 +4642,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4681,7 +4657,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4707,7 +4682,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4723,7 +4697,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -4739,7 +4712,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -4755,7 +4727,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -4769,7 +4740,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4779,7 +4749,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4799,7 +4768,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4817,7 +4785,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -4833,7 +4800,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4853,7 +4819,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4863,7 +4828,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4877,7 +4841,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4891,7 +4854,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4901,7 +4863,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -4915,7 +4876,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4931,7 +4891,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4945,7 +4904,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -4955,7 +4913,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4973,7 +4930,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -4989,7 +4945,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -4999,7 +4954,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5013,7 +4967,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -5031,7 +4984,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -5041,7 +4993,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -5063,7 +5014,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -5073,7 +5023,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5091,7 +5040,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -5105,7 +5053,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -5115,7 +5062,6 @@ A_FluteMusicVoice = {
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -5244,7 +5190,6 @@ A_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs''4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     fs''4
@@ -5301,7 +5246,6 @@ A_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs''2.
     \<                                                           %! HC1
-    \!                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
@@ -6154,7 +6098,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -6178,7 +6121,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6188,7 +6130,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -6204,7 +6145,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6230,7 +6170,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6246,7 +6185,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6262,7 +6200,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -6276,7 +6213,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -6292,7 +6228,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -6308,7 +6243,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -6330,7 +6264,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -6346,7 +6279,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -6360,7 +6292,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6378,7 +6309,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6394,7 +6324,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6410,7 +6339,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6420,7 +6348,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -6436,7 +6363,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -6450,7 +6376,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -6464,7 +6389,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6480,7 +6404,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -6506,7 +6429,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6516,7 +6438,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -6538,7 +6459,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -6548,7 +6468,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6564,7 +6483,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6580,7 +6498,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6602,7 +6519,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -6624,7 +6540,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6638,7 +6553,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -6654,7 +6568,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6670,7 +6583,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -6686,7 +6598,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -6702,7 +6613,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6714,7 +6624,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -6732,7 +6641,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6742,7 +6650,6 @@ A_ClarinetMusicVoice = {
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -6815,7 +6722,6 @@ A_ClarinetMusicVoice = {
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     e1.
@@ -6893,7 +6799,6 @@ A_ClarinetMusicVoice = {
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     eqs4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     eqs2
@@ -6945,7 +6850,6 @@ A_ClarinetMusicVoice = {
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     e1.
@@ -6999,7 +6903,6 @@ A_ClarinetMusicVoice = {
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     eqs4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     eqs4
@@ -7051,7 +6954,6 @@ A_ClarinetMusicVoice = {
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     e1..
@@ -8239,7 +8141,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -8268,7 +8169,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
@@ -8283,7 +8183,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -8298,7 +8197,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -8323,7 +8221,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8340,7 +8237,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -8357,7 +8253,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8384,7 +8279,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -8401,7 +8295,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -8416,7 +8309,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -8435,7 +8327,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8450,7 +8341,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
@@ -8467,7 +8357,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8494,7 +8383,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -8513,7 +8401,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8532,7 +8419,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8547,7 +8433,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8572,7 +8457,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -8585,7 +8469,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8602,7 +8485,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8629,7 +8511,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8650,7 +8531,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -8661,7 +8541,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -8684,7 +8563,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8699,7 +8577,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
@@ -8720,7 +8597,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -8745,7 +8621,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -8762,7 +8637,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8779,7 +8653,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8796,7 +8669,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8811,7 +8683,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -8828,7 +8699,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -8845,7 +8715,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
@@ -8862,7 +8731,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8879,7 +8747,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -8900,7 +8767,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -8911,7 +8777,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8928,7 +8793,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -8945,7 +8809,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -8966,7 +8829,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -8977,7 +8839,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9000,7 +8861,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9017,7 +8877,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -9028,7 +8887,6 @@ A_PercussionMusicVoice = {
         f'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9045,7 +8903,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9056,7 +8913,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -9075,7 +8931,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9086,7 +8941,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9097,7 +8951,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9114,7 +8967,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9131,7 +8983,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9146,7 +8997,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -9159,7 +9009,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9200,7 +9049,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9217,7 +9065,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9232,7 +9079,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9243,7 +9089,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9258,7 +9103,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9269,7 +9113,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9280,7 +9123,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -9295,7 +9137,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9312,7 +9153,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9327,7 +9167,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9338,7 +9177,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9361,7 +9199,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9372,7 +9209,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -9387,7 +9223,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9398,7 +9233,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9484,7 +9318,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -9503,7 +9336,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -9518,7 +9350,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9533,7 +9364,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9544,7 +9374,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9561,7 +9390,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9572,7 +9400,6 @@ A_PercussionMusicVoice = {
         fs'8
         -\laissezVibrer                                          %! IC
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9633,7 +9460,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -9657,7 +9483,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9667,7 +9492,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -9681,7 +9505,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -9695,7 +9518,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9723,7 +9545,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9745,7 +9566,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9761,7 +9581,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -9777,7 +9596,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9799,7 +9617,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9815,7 +9632,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -9833,7 +9649,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9855,7 +9670,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9871,7 +9685,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9885,7 +9698,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9903,7 +9715,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -9919,7 +9730,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9929,7 +9739,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9945,7 +9754,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -9959,7 +9767,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -9983,7 +9790,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10005,7 +9811,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10021,7 +9826,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10041,7 +9845,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10063,7 +9866,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10073,7 +9875,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10095,7 +9896,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10117,7 +9917,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10137,7 +9936,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10147,7 +9945,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10165,7 +9962,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -10181,7 +9977,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10191,7 +9986,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10207,7 +10001,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10221,7 +10014,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10231,7 +10023,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10251,7 +10042,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -10261,7 +10051,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10277,7 +10066,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10291,7 +10079,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10313,7 +10100,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10329,7 +10115,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10345,7 +10130,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10355,7 +10139,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -10377,7 +10160,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10393,7 +10175,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10409,7 +10190,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -10423,7 +10203,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10441,7 +10220,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10455,7 +10233,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10465,7 +10242,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10479,7 +10255,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10495,7 +10270,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10505,7 +10279,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10519,7 +10292,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -10533,7 +10305,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -10543,7 +10314,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -10559,7 +10329,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -11027,7 +10796,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -11046,7 +10814,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -11056,7 +10823,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11072,7 +10838,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -11082,7 +10847,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11096,7 +10860,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -11106,7 +10869,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -11120,7 +10882,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
@@ -11132,7 +10893,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11146,7 +10906,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11162,7 +10921,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11178,7 +10936,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -11194,7 +10951,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11208,7 +10964,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11218,7 +10973,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11228,7 +10982,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -11599,7 +11352,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -11614,7 +11366,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -11628,7 +11379,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -11638,7 +11388,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11654,7 +11403,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -11668,7 +11416,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
@@ -11678,7 +11425,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
@@ -11688,7 +11434,6 @@ A_ViolinMusicVoice = {
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
         \<                                                       %! HC1
-        \!                                                       %! HC1
         
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8

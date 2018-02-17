@@ -3737,7 +3737,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -4008,7 +4007,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2.
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -4041,7 +4039,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
     \<                                                           %! HC1
-    \!                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     ^ \markup {
@@ -4153,7 +4150,6 @@ A_b_FluteMusicVoice = {
     g'2.
     :32                                                          %! IC
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -4777,7 +4773,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -4907,7 +4902,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
     \<                                                           %! HC1
-    \!                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     ^ \markup {
@@ -5146,7 +5140,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2.
     \<                                                           %! HC1
-    \!                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     ^ \markup {
@@ -5360,7 +5353,6 @@ A_b_FluteMusicVoice = {
     g'2
     :32                                                          %! IC
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -5760,7 +5752,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''1
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -5898,7 +5889,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
     \<                                                           %! HC1
-    \!                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     ^ \markup {
@@ -6069,7 +6059,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2.
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -6102,7 +6091,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
     \<                                                           %! HC1
-    \!                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     ^ \markup {
@@ -6446,7 +6434,6 @@ A_b_FluteMusicVoice = {
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gs''1
     \<                                                           %! HC1
-    \!                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
@@ -7825,7 +7812,6 @@ A_b_ClarinetMusicVoice = {
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -8044,7 +8030,6 @@ A_b_ClarinetMusicVoice = {
     \repeatTie
     \!                                                           %! HC1
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f8.
@@ -8071,7 +8056,6 @@ A_b_ClarinetMusicVoice = {
     \repeatTie
     \!                                                           %! HC1
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -8145,7 +8129,6 @@ A_b_ClarinetMusicVoice = {
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d4
     \<                                                           %! HC1
-    \!                                                           %! HC1
     
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d2.
@@ -9106,7 +9089,6 @@ A_b_PercussionMusicVoice = {
     g'2.
     -\laissezVibrer                                              %! IC
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -9562,7 +9544,6 @@ A_b_ViolinMusicVoice = {
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'''2.
     \<                                                           %! HC1
-    \!                                                           %! HC1
     ^ \markup {
         \column
             {
