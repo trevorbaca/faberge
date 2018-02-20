@@ -97,7 +97,7 @@ maker(
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
     baca.staff_lines(1),
-    baca.staff_positions([0], repeats=True),
+    baca.staff_position(0),
     )
 
 ### clarinet (color) ###
@@ -112,7 +112,7 @@ maker(
     baca.scope('ViolinMusicVoice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
-    baca.pitches('E4', repeats=True),
+    baca.pitch('E4'),
     )
 
 ### viola (color) ###
@@ -121,7 +121,7 @@ maker(
     baca.scope('ViolaMusicVoice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
-    baca.pitches('E4', repeats=True),
+    baca.pitch('E4'),
     )
 
 ### cello (color) ###
