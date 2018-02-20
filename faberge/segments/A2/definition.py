@@ -588,7 +588,7 @@ maker(
 maker(
     baca.scope('EnglishHornMusicVoice', 4),
     baca.dynamic('f'),
-    baca.map(baca.trill(), baca.runs()),
+    baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
     )
 
@@ -602,14 +602,14 @@ maker(
 maker(
     baca.scope('EnglishHornMusicVoice', 6, 7),
     baca.dynamic('ff'),
-    baca.map(baca.trill(), baca.runs()),
+    baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
     )
 
 maker(
     baca.scope('EnglishHornMusicVoice', 8),
     baca.dynamic('fff'),
-    baca.map(baca.trill(), baca.runs()),
+    baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitches('Eb4'),
     faberge.markup.doubletrill(),
     )
@@ -617,7 +617,7 @@ maker(
 maker(
     baca.scope('EnglishHornMusicVoice', 9),
     baca.dynamic('fff'),
-    baca.map(baca.trill(), baca.runs()),
+    baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitches('E4'),
     faberge.markup.doubletrill(),
     )
