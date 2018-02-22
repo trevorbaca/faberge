@@ -216,7 +216,7 @@ metadata = abjad.OrderedDict(
                         'PianoStaffGroup',
                         [
                             abjad.Momento(
-                                context='PianoLHAttackVoice',
+                                context='PianoRHMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Piano',
                                 ),
