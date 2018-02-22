@@ -222,7 +222,7 @@ metadata = abjad.OrderedDict(
                         'PianoStaffGroup',
                         [
                             abjad.Momento(
-                                context='PianoLHMusicVoice',
+                                context='PianoRHMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Piano',
                                 ),
