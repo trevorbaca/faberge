@@ -72,7 +72,7 @@ maker(
     )
 
 maker(
-    baca.scope('EnglishHornMusicVoice', 6, 7),
+    baca.scope('EnglishHornMusicVoice', (6, 7)),
     faberge.electricity_rhythm(),
     )
 
@@ -124,7 +124,7 @@ maker(
     )
 
 maker(
-    baca.scope('PercussionMusicVoice', 6, 7),
+    baca.scope('PercussionMusicVoice', (6, 7)),
     faberge.electricity_rhythm(),
     )
 
@@ -151,7 +151,7 @@ maker(
 ### viola (time) ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 1, 8),
+    baca.scope('ViolaMusicVoice', (1, 8)),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],

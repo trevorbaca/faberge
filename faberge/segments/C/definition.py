@@ -287,7 +287,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinMusicVoice', 12, 15),
+    baca.scope('ViolinMusicVoice', (12, 15)),
     baca.make_notes(repeat_ties=True),
     )
 
@@ -378,7 +378,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 12, 15),
+    baca.scope('CelloMusicVoice', (12, 15)),
     baca.make_notes(repeat_ties=True),
     )
 
@@ -409,7 +409,7 @@ maker(
 ### percussion (color) ###
 
 maker(
-    baca.scope('PercussionMusicVoice', 12, 14),
+    baca.scope('PercussionMusicVoice', (12, 14)),
     baca.stem_tremolo(),
     )
 

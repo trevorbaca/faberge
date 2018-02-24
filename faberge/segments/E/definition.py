@@ -190,7 +190,7 @@ maker(
     )
 
 maker(
-    baca.scope('FluteMusicVoice', 19, 25),
+    baca.scope('FluteMusicVoice', (19, 25)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -240,7 +240,7 @@ maker(
     )
 
 maker(
-    baca.scope('EnglishHornMusicVoice', 8, 9),
+    baca.scope('EnglishHornMusicVoice', (8, 9)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -250,7 +250,7 @@ maker(
     )
 
 maker(
-    baca.scope('EnglishHornMusicVoice', 14, 15),
+    baca.scope('EnglishHornMusicVoice', (14, 15)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -260,7 +260,7 @@ maker(
     )
 
 maker(
-    baca.scope('EnglishHornMusicVoice', 19, 23),
+    baca.scope('EnglishHornMusicVoice', (19, 23)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -315,7 +315,7 @@ maker(
     )
 
 maker(
-    baca.scope('ClarinetMusicVoice', 19, 25),
+    baca.scope('ClarinetMusicVoice', (19, 25)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -410,7 +410,7 @@ maker(
     )
 
 maker(
-    baca.scope('PercussionMusicVoice', 8, 9),
+    baca.scope('PercussionMusicVoice', (8, 9)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -420,7 +420,7 @@ maker(
     )
 
 maker(
-    baca.scope('PercussionMusicVoice', 14, 15),
+    baca.scope('PercussionMusicVoice', (14, 15)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -430,7 +430,7 @@ maker(
     )
 
 maker(
-    baca.scope('PercussionMusicVoice', 19, 32),
+    baca.scope('PercussionMusicVoice', (19, 32)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -480,7 +480,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinMusicVoice', 8, 9),
+    baca.scope('ViolinMusicVoice', (8, 9)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -490,7 +490,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinMusicVoice', 14, 15),
+    baca.scope('ViolinMusicVoice', (14, 15)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -675,7 +675,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 19, 29),
+    baca.scope('CelloMusicVoice', (19, 29)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
