@@ -230,7 +230,7 @@ maker(
         ['PianoRHMusicVoice', 'PianoLHMusicVoice'],
         [(5, 14)],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -242,12 +242,12 @@ maker(
 
 maker(
     baca.scope('PercussionMusicVoice', 3),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 8),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
