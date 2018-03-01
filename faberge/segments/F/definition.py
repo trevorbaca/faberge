@@ -298,27 +298,27 @@ maker(
 
 maker(
     baca.scope('PercussionMusicVoice', 1),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 7),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 9),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 13),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 15),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(

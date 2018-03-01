@@ -176,27 +176,27 @@ maker(
 
 maker(
     baca.scope('FluteMusicVoice', 11),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('FluteMusicVoice', 15),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('FluteMusicVoice', 17),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('FluteMusicVoice', (19, 25)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('FluteMusicVoice', 27),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -241,37 +241,37 @@ maker(
 
 maker(
     baca.scope('EnglishHornMusicVoice', (8, 9)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('EnglishHornMusicVoice', 11),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('EnglishHornMusicVoice', (14, 15)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('EnglishHornMusicVoice', 17),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('EnglishHornMusicVoice', (19, 23)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('EnglishHornMusicVoice', 25),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('EnglishHornMusicVoice', 27),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ### clarinet (time) ###
@@ -311,17 +311,17 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', 17),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ClarinetMusicVoice', (19, 25)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ClarinetMusicVoice', 27),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -411,32 +411,32 @@ maker(
 
 maker(
     baca.scope('PercussionMusicVoice', (8, 9)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 11),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', (14, 15)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 17),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', (19, 32)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 34),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -481,27 +481,27 @@ maker(
 
 maker(
     baca.scope('ViolinMusicVoice', (8, 9)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinMusicVoice', 11),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinMusicVoice', (14, 15)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinMusicVoice', 17),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinMusicVoice', 19),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -511,7 +511,7 @@ maker(
 
 maker(
     baca.scope('ViolinMusicVoice', 21),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -521,7 +521,7 @@ maker(
 
 maker(
     baca.scope('ViolinMusicVoice', 23),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -531,7 +531,7 @@ maker(
 
 maker(
     baca.scope('ViolinMusicVoice', 25),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -541,7 +541,7 @@ maker(
 
 maker(
     baca.scope('ViolinMusicVoice', 27),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -676,7 +676,7 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', (19, 29)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(

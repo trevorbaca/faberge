@@ -138,7 +138,7 @@ maker(
 
 maker(
     baca.scope('EnglishHornMusicVoice', 16),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -200,7 +200,7 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', (1, 2)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -318,12 +318,12 @@ maker(
 
 maker(
     baca.scope('PercussionMusicVoice', 9),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 11),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -343,12 +343,12 @@ maker(
 
 maker(
     baca.scope('PercussionMusicVoice', 16),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('PercussionMusicVoice', 18),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -620,12 +620,12 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', 9),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('CelloMusicVoice', 11),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(

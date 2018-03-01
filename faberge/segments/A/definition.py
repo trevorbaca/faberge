@@ -206,7 +206,7 @@ maker(
 
 maker(
     baca.scope('PianoRHMusicVoice', (1, 16)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(

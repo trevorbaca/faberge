@@ -286,13 +286,13 @@ maker(
 # apotheosis
 maker(
     baca.scope('EnglishHornMusicVoice', 8),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 # apotheosis cont
 maker(
     baca.scope('EnglishHornMusicVoice', 9),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -309,7 +309,7 @@ maker(
 
 maker(
     baca.scope('EnglishHornMusicVoice', 16),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ### clarinet (time) ###
@@ -347,7 +347,7 @@ maker(
 
 maker(
     baca.scope('PianoRHMusicVoice', (1, 9)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -394,7 +394,7 @@ maker(
 
 maker(
     baca.scope('PercussionMusicVoice', 16),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ### violin (time) ###
@@ -413,7 +413,7 @@ maker(
 
 maker(
     baca.scope('ViolinMusicVoice', (6, 11)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -423,7 +423,7 @@ maker(
 
 maker(
     baca.scope('ViolinMusicVoice', 16),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
