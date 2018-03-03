@@ -1380,7 +1380,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 197]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1417,7 +1417,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1527,7 +1527,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 200]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1564,7 +1564,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2663,7 +2663,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 225]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -2700,7 +2700,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2906,7 +2906,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 230]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -2943,7 +2943,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3054,7 +3054,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 233]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -3091,7 +3091,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3202,7 +3202,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 236]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -3239,7 +3239,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3446,7 +3446,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 241]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -3483,7 +3483,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3594,7 +3594,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 244]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -3631,7 +3631,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3742,7 +3742,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 247]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -3779,7 +3779,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4081,7 +4081,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 254]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -4118,7 +4118,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4228,7 +4228,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 257]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -4265,7 +4265,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4375,7 +4375,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 260]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -4412,7 +4412,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4523,7 +4523,7 @@ B_GlobalSkips = {
     
     % [B GlobalSkips measure 263]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -4560,7 +4560,7 @@ B_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
