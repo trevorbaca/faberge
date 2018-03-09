@@ -8,27 +8,35 @@ import faberge
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    # 1-3
+    # 1-4
+    2,
+    abjad.TimeSignature((5, 12)),
+    2,
+    abjad.TimeSignature((5, 12)),
+    # 5-8
+    2,
+    2,
+    abjad.TimeSignature((5, 12)),
+    2,
+    # 9-12
+    abjad.TimeSignature((5, 12)),
     2,
     2,
     2,
-    # 4-8
-    6 * [abjad.TimeSignature((5, 4))],
+    # 13-16
     2,
     2,
     2,
-    2,
-    # 9
-    abjad.Fermata('shortfermata'),
+    abjad.TimeSignature((5, 12)),
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, faberge.metronome_marks['80']),
+    (1, faberge.metronome_marks['100']),
     ])
 
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_a,
-    rotation=-2,
+    rotation=-1,
     stage_measure_map=stage_measure_map,
     metronome_mark_measure_map=metronome_mark_measure_map,
     )
@@ -49,8 +57,8 @@ maker = baca.SegmentMaker(
     spacing=spacing,
     time_signatures=time_signatures,
     transpose_score=True,
-    validate_measure_count=21,
-    validate_stage_count=9,
+    validate_measure_count=27,
+    validate_stage_count=16,
     )
 
 ###############################################################################
@@ -60,100 +68,299 @@ maker = baca.SegmentMaker(
 ### flute (time) ###
 
 maker(
-    baca.scope('FluteMusicVoice', 2),
-    faberge.glow_rhythm(),
+    baca.scope('FluteMusicVoice', 1),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[2],
+        ),
+    )
+
+maker(
+    baca.scope('FluteMusicVoice', 5),
+    faberge.airtone_chain_rhythm(
+        total_events=3,
+        my_event_indices=[2],
+        ),
+    )
+
+maker(
+    baca.scope('FluteMusicVoice', 6),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[2],
+        ),
+    )
+
+maker(
+    baca.scope('FluteMusicVoice', 10),
+    faberge.airtone_chain_rhythm(
+        total_events=3,
+        my_event_indices=[2],
+        ),
+    )
+
+maker(
+    baca.scope('FluteMusicVoice', 12),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[2],
+        ),
+    )
+
+maker(
+    baca.scope('FluteMusicVoice', 13),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[2],
+        ),
+    )
+
+maker(
+    baca.scope('FluteMusicVoice', 14),
+    faberge.airtone_chain_rhythm(
+        total_events=5,
+        my_event_indices=[2],
+        ),
     )
 
 ### english horn (time) ###
 
 maker(
-    baca.scope('EnglishHornMusicVoice', 2),
-    faberge.keynoise_rhythm(),
+    baca.scope('EnglishHornMusicVoice', 1),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[1],
+        ),
     )
 
 maker(
-    baca.scope('EnglishHornMusicVoice', (6, 7)),
-    faberge.electricity_rhythm(),
+    baca.scope('EnglishHornMusicVoice', 5),
+    faberge.airtone_chain_rhythm(
+        total_events=3,
+        my_event_indices=[1],
+        ),
     )
 
-### clarinet (time) ###
+maker(
+    baca.scope('EnglishHornMusicVoice', 6),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[1],
+        ),
+    )
 
 maker(
-    baca.scope('ClarinetMusicVoice', 2),
-    faberge.glow_rhythm(),
+    baca.scope('EnglishHornMusicVoice', 10),
+    faberge.airtone_chain_rhythm(
+        total_events=3,
+        my_event_indices=[1],
+        ),
+    )
+
+maker(
+    baca.scope('EnglishHornMusicVoice', 11),
+    faberge.airtone_chain_rhythm(
+        total_events=2,
+        my_event_indices=[1],
+        ),
+    )
+
+maker(
+    baca.scope('EnglishHornMusicVoice', 12),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[1],
+        ),
+    )
+
+maker(
+    baca.scope('EnglishHornMusicVoice', 13),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[1],
+        ),
+    )
+
+maker(
+    baca.scope('EnglishHornMusicVoice', 14),
+    faberge.airtone_chain_rhythm(
+        total_events=5,
+        my_event_indices=[1],
+        ),
+    )
+
+maker(
+    baca.scope('EnglishHornMusicVoice', 15),
+    faberge.airtone_chain_rhythm(
+        total_events=2,
+        my_event_indices=[1],
+        ),
+    )
+
+### bass clarinet (time) ###
+
+maker(
+    baca.scope('ClarinetMusicVoice', 1),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[3],
+        ),
+    )
+
+maker(
+    baca.scope('ClarinetMusicVoice', 6),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[3],
+        ),
+    )
+
+maker(
+    baca.scope('ClarinetMusicVoice', 14),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[3],
+        ),
     )
 
 ### piano (time) ###
 
 maker(
-    baca.scope('PianoRHMusicVoice', 1),
-    baca.make_rests(),
+    baca.make_scopes(
+        ['PianoRHMusicVoice', 'PianoLHMusicVoice'],
+        [(5, 14)],
+        ),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scope('PianoRHMusicVoice', 4),
-    faberge.meccanico_rhythm(
-        attack_count=7,
-        fuse_counts=[3],
-        )
-    )
-
-maker(
-    baca.scope('PianoLHMusicVoice', 4),
-    faberge.meccanico_rhythm(
-        attack_count=5,
-        fuse_counts=[3],
-        )
-    )
-
-maker(
-    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [5]),
-    baca.make_rests(),
+    baca.make_scopes(['PianoLHAttackVoice'], [5, 8]),
+    faberge.piano_attack_rhythm(),
     )
 
 ### percussion (time) ###
 
 maker(
-    baca.scope('PercussionMusicVoice', 2),
+    baca.scope('PercussionMusicVoice', 3),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scope('PercussionMusicVoice', 4),
-    faberge.meccanico_percussion_cell_rhythm(),
+    baca.scope('PercussionMusicVoice', 8),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scope('PercussionMusicVoice', (6, 7)),
-    faberge.electricity_rhythm(),
+    baca.scope('PercussionMusicVoice', 12),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[3],
+        ),
+    )
+
+maker(
+    baca.scope('PercussionMusicVoice', 13),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[3],
+        ),
+    )
+
+maker(
+    baca.scope('PercussionMusicVoice', 14),
+    faberge.airtone_chain_rhythm(
+        total_events=5,
+        my_event_indices=[4],
+        ),
     )
 
 ### violin (time) ###
 
 maker(
-    baca.scope('ViolinMusicVoice', 2),
-    baca.make_repeat_tied_notes(),
+    baca.scope('ViolinMusicVoice', 1),
+    faberge.spazzolati_rhythm(),
     )
 
 maker(
-    baca.scope('ViolinMusicVoice', 4),
-    faberge.meccanico_rhythm(
-        attack_count=7,
-        fuse_counts=[2],
-        )
+    baca.scope('ViolinMusicVoice', 6),
+    baca.make_notes(repeat_ties=True),
     )
 
 maker(
-    baca.scope('ViolinMusicVoice', 7),
-    faberge.electricity_rhythm(),
+    baca.scope('ViolinMusicVoice', (12, 15)),
+    baca.make_notes(repeat_ties=True),
     )
 
 ### viola (time) ###
 
 maker(
-    baca.scope('ViolaMusicVoice', (1, 8)),
+    baca.scope('ViolaMusicVoice', 1),
     faberge.airtone_chain_rhythm(
-        total_events=1,
+        total_events=4,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 5),
+    faberge.airtone_chain_rhythm(
+        total_events=3,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 6),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 10),
+    faberge.airtone_chain_rhythm(
+        total_events=3,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 11),
+    faberge.airtone_chain_rhythm(
+        total_events=2,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 12),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 13),
+    faberge.airtone_chain_rhythm(
+        total_events=4,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 14),
+    faberge.airtone_chain_rhythm(
+        total_events=5,
+        my_event_indices=[0],
+        ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 15),
+    faberge.airtone_chain_rhythm(
+        total_events=2,
         my_event_indices=[0],
         ),
     )
@@ -161,21 +368,18 @@ maker(
 ### cello (time) ###
 
 maker(
-    baca.scope('CelloMusicVoice', 2),
-    baca.make_repeat_tied_notes(),
+    baca.scope('CelloMusicVoice', 1),
+    faberge.spazzolati_rhythm(),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 4),
-    faberge.meccanico_rhythm(
-        attack_count=10,
-        fuse_counts=[3],
-        )
+    baca.scope('CelloMusicVoice', 6),
+    baca.make_notes(repeat_ties=True),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 7),
-    faberge.electricity_rhythm(),
+    baca.scope('CelloMusicVoice', (12, 15)),
+    baca.make_notes(repeat_ties=True),
     )
 
 ###############################################################################
@@ -184,25 +388,30 @@ maker(
 
 ### flute (color) ###
 
-### clarinet (color) ###
-
 ### english horn (color) ###
+
+### bass clarinet (color) ###
 
 ### piano (color) ###
 
 maker(
-    baca.scope('PianoRHMusicVoice', 1),
-    # TODO: implement baca.instrument_change():
-    #faberge.instruments['Harpsichord'],
+    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(5, 14)]),
+    baca.natural_harmonics(),
     )
 
 maker(
-    baca.scope('PianoRHMusicVoice', 5),
-    # TODO: implement baca.instrument_change():
-    #faberge.instruments['Piano'],
+    baca.make_scopes(['PianoLHAttackVoice'], [5, 8]),
+    baca.dynamic('sfz'),
+    baca.marcati(),
+    baca.pitches('D#2'),
     )
 
 ### percussion (color) ###
+
+maker(
+    baca.scope('PercussionMusicVoice', (12, 14)),
+    baca.stem_tremolo(),
+    )
 
 ### violin (color) ###
 

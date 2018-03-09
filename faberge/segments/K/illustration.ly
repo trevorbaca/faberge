@@ -16,13 +16,15 @@
         \context Score = "Score"
         \with
         {
-            currentBarNumber = #5
+            currentBarNumber = #642
         }
         <<
             \context GlobalContext = "GlobalContext"
             <<
+                \context GlobalRests = "GlobalRests"
+                \J_GlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                \A_a_GlobalSkips
+                \J_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             <<
@@ -30,13 +32,13 @@
                 <<
                     \tag Flute                                                           %! ST4
                     \context FluteMusicStaff = "FluteMusicStaff"
-                    \A_a_FluteMusicStaff
+                    \J_FluteMusicStaff
                     \tag EnglishHorn                                                     %! ST4
                     \context EnglishHornMusicStaff = "EnglishHornMusicStaff"
-                    \A_a_EnglishHornMusicStaff
+                    \J_EnglishHornMusicStaff
                     \tag Clarinet                                                        %! ST4
                     \context ClarinetMusicStaff = "ClarinetMusicStaff"
-                    \A_a_ClarinetMusicStaff
+                    \J_ClarinetMusicStaff
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                 <<
@@ -44,25 +46,25 @@
                     \context PianoStaffGroup = "PianoStaffGroup"
                     <<
                         \context PianoRHMusicStaff = "PianoRHMusicStaff"
-                        \A_a_PianoRHMusicStaff
+                        \J_PianoRHMusicStaff
                         \context PianoLHMusicStaff = "PianoLHMusicStaff"
-                        \A_a_PianoLHMusicStaff
+                        \J_PianoLHMusicStaff
                     >>
                     \tag Percussion                                                      %! ST4
                     \context PercussionMusicStaff = "PercussionMusicStaff"
-                    \A_a_PercussionMusicStaff
+                    \J_PercussionMusicStaff
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
                 <<
                     \tag Violin                                                          %! ST4
                     \context ViolinMusicStaff = "ViolinMusicStaff"
-                    \A_a_ViolinMusicStaff
+                    \J_ViolinMusicStaff
                     \tag Viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
-                    \A_a_ViolaMusicStaff
+                    \J_ViolaMusicStaff
                     \tag Cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
-                    \A_a_CelloMusicStaff
+                    \J_CelloMusicStaff
                 >>
             >>
         >>

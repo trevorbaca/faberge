@@ -1,157 +1,8 @@
-H_GlobalRests = {
+G_GlobalSkips = {
     
-    % [H GlobalRests measure 578]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 579]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 580]                                        %! SM4
-    R1 * 1/2
-    
-    % [H GlobalRests measure 581]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 582]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 583]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 584]                                        %! SM4
-    R1 * 1/2
-    
-    % [H GlobalRests measure 585]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 586]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 587]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 588]                                        %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                    %! SM19
-    R1 * 1/4
-    ^ \markup {                                                          %! SM18
-        \musicglyph                                                      %! SM18
-            #"scripts.ufermata"                                          %! SM18
-        }                                                                %! SM18
-    
-    % [H GlobalRests measure 589]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 590]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 591]                                        %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                    %! SM19
-    R1 * 1/4
-    ^ \markup {                                                          %! SM18
-        \musicglyph                                                      %! SM18
-            #"scripts.ufermata"                                          %! SM18
-        }                                                                %! SM18
-    
-    % [H GlobalRests measure 592]                                        %! SM4
-    R1 * 1/2
-    
-    % [H GlobalRests measure 593]                                        %! SM4
-    R1 * 1/2
-    
-    % [H GlobalRests measure 594]                                        %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                    %! SM19
-    R1 * 1/4
-    ^ \markup {                                                          %! SM18
-        \musicglyph                                                      %! SM18
-            #"scripts.ufermata"                                          %! SM18
-        }                                                                %! SM18
-    
-    % [H GlobalRests measure 595]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 596]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 597]                                        %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                    %! SM19
-    R1 * 1/4
-    ^ \markup {                                                          %! SM18
-        \musicglyph                                                      %! SM18
-            #"scripts.ufermata"                                          %! SM18
-        }                                                                %! SM18
-    
-    % [H GlobalRests measure 598]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 599]                                        %! SM4
-    R1 * 1/8
-    
-    % [H GlobalRests measure 600]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 601]                                        %! SM4
-    R1 * 1/8
-    
-    % [H GlobalRests measure 602]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 603]                                        %! SM4
-    R1 * 1/8
-    
-    % [H GlobalRests measure 604]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 605]                                        %! SM4
-    R1 * 1/8
-    
-    % [H GlobalRests measure 606]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 607]                                        %! SM4
-    R1 * 1/8
-    
-    % [H GlobalRests measure 608]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 609]                                        %! SM4
-    R1 * 1/8
-    
-    % [H GlobalRests measure 610]                                        %! SM4
-    R1 * 1/2
-    
-    % [H GlobalRests measure 611]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 612]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 613]                                        %! SM4
-    R1 * 1/2
-    
-    % [H GlobalRests measure 614]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 615]                                        %! SM4
-    R1 * 1
-    
-    % [H GlobalRests measure 616]                                        %! SM4
-    R1 * 3/4
-    
-    % [H GlobalRests measure 617]                                        %! SM4
-    R1 * 1
-    
-}
-
-
-H_GlobalSkips = {
-    
-    % [H GlobalSkips measure 578]                                        %! SM4
+    % [G GlobalSkips measure 484]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@% \markup {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%     \fontsize                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -166,7 +17,7 @@ H_GlobalSkips = {
 %@%     \upright                                                         %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             156                                                      %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%             80                                                       %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%         }                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%     \hspace                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%         #1                                                           %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -191,7 +42,7 @@ H_GlobalSkips = {
                 \upright                                                 %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        156                                              %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                        80                                               %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                     }                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                 \hspace                                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                     #1                                                   %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
@@ -202,11 +53,11 @@ H_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \mark #8                                                             %! SM9
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \mark #7                                                             %! SM9
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -217,7 +68,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (578)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (484)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -233,7 +84,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.1]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -241,7 +92,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -249,16 +100,15 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [19'58'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'34'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 579]                                        %! SM4
+    % [G GlobalSkips measure 485]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -269,7 +119,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (579)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (485)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -279,13 +129,21 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <1>                                      %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.2]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -293,17 +151,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [19'59'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'37'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 580]                                        %! SM4
+    % [G GlobalSkips measure 486]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
-    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -313,7 +171,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (580)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (486)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -323,21 +181,13 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <2>                                      %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.2]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -345,14 +195,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'00'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'40'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 581]                                        %! SM4
+    % [G GlobalSkips measure 487]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -365,7 +215,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (581)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (487)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -381,7 +231,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -389,65 +239,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'01'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'42'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 582]                                        %! SM4
+    % [G GlobalSkips measure 488]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (582)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <4>                                      %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.3]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'03'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 583]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -460,7 +259,51 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (583)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (488)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <4>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'45'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 489]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (489)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -476,7 +319,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -484,14 +327,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'04'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'47'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 584]                                        %! SM4
+    % [G GlobalSkips measure 490]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -504,7 +347,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (584)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (490)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -514,21 +357,13 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <6>                                      %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.4]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -536,109 +371,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'05'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'50'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 585]                                        %! SM4
+    % [G GlobalSkips measure 491]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (585)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <7>                                      %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'06'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 586]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (586)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <8>                                      %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.5]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'07'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 587]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -651,7 +391,102 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (587)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (491)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <7>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.3]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'52'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 492]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (492)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <8>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'55'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 493]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (493)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -675,17 +510,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'08'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [16'58'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 588]                                        %! SM4
+    % [G GlobalSkips measure 494]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/4
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -695,7 +530,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (588)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (494)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -705,14 +540,6 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <10>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.6]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -727,64 +554,12 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'10'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'00'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 589]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (589)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <11>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.7]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'10'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 590]                                        %! SM4
+    % [G GlobalSkips measure 495]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -799,7 +574,50 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (590)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (495)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <11>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'01'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 496]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (496)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -823,17 +641,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'12'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'04'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 591]                                        %! SM4
+    % [G GlobalSkips measure 497]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/4
+    s1 * 5/4
     ^ \markup {
         \column
             {
@@ -843,7 +661,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (591)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (497)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -859,7 +677,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.8]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -867,7 +685,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -875,17 +693,69 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'13'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'06'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 592]                                        %! SM4
+    % [G GlobalSkips measure 498]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             64                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        64                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -895,7 +765,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (592)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (498)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -911,7 +781,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.9]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -927,16 +797,16 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'13'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'10'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 593]                                        %! SM4
+    % [G GlobalSkips measure 499]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -946,7 +816,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (593)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (499)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -956,6 +826,14 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <15>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.6]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -970,17 +848,16 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'14'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'13'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 594]                                        %! SM4
+    % [G GlobalSkips measure 500]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -990,7 +867,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (594)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (500)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1000,14 +877,6 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <16>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.10]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -1022,14 +891,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'15'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'17'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 595]                                        %! SM4
+    % [G GlobalSkips measure 501]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1042,7 +911,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (595)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (501)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1052,21 +921,13 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <17>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.11]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1074,17 +935,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'15'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'21'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 596]                                        %! SM4
+    % [G GlobalSkips measure 502]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -1094,7 +955,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (596)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (502)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1110,7 +971,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1118,17 +979,16 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'16'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'24'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 597]                                        %! SM4
+    % [G GlobalSkips measure 503]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/4
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -1138,7 +998,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (597)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (503)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1154,7 +1014,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.12]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.7]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1162,7 +1022,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1170,12 +1030,12 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'18'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'25'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 598]                                        %! SM4
+    % [G GlobalSkips measure 504]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1190,7 +1050,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (598)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (504)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1200,14 +1060,6 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <20>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.13]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -1222,17 +1074,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'18'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'27'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 599]                                        %! SM4
+    % [G GlobalSkips measure 505]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/8
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -1242,7 +1094,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (599)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (505)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1252,66 +1104,6 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <21>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.14]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'19'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 600]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (600)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <22>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.15]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -1326,17 +1118,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'20'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'30'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 601]                                        %! SM4
+    % [G GlobalSkips measure 506]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/8
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -1346,7 +1138,51 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (601)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (506)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <22>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'34'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 507]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (507)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1362,7 +1198,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.16]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.8]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1378,17 +1214,68 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'21'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'36'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 602]                                        %! SM4
+    % [G GlobalSkips measure 508]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             80                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        80                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1398,7 +1285,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (602)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (508)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1414,7 +1301,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.17]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.9]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1430,17 +1317,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'21'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'40'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 603]                                        %! SM4
+    % [G GlobalSkips measure 509]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/8
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -1450,7 +1337,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (603)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (509)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1466,59 +1353,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.18]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'22'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 604]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (604)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <26>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.19]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.10]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1534,17 +1369,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'22'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'43'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 605]                                        %! SM4
+    % [G GlobalSkips measure 510]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/8
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -1554,7 +1389,51 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (605)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (510)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <26>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'45'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 511]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (511)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1570,7 +1449,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.20]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.11]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1586,14 +1465,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'23'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'48'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 606]                                        %! SM4
+    % [G GlobalSkips measure 512]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1606,7 +1485,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (606)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (512)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1616,21 +1495,13 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <28>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.21]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1638,17 +1509,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'24'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'49'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 607]                                        %! SM4
+    % [G GlobalSkips measure 513]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/8
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -1658,7 +1529,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (607)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (513)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1674,7 +1545,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.22]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.12]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1682,7 +1553,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1690,17 +1561,68 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'25'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'52'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 608]                                        %! SM4
+    % [G GlobalSkips measure 514]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             100                                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        100                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1710,7 +1632,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (608)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (514)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1726,7 +1648,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.23]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.13]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1742,17 +1664,16 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'25'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'55'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 609]                                        %! SM4
+    % [G GlobalSkips measure 515]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/8
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -1762,7 +1683,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (609)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (515)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1778,59 +1699,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.24]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'26'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 610]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (610)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <32>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.25]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.14]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1846,14 +1715,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'26'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'57'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 611]                                        %! SM4
+    % [G GlobalSkips measure 516]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1866,7 +1735,51 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (611)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (516)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <32>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [17'59'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 517]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (517)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1882,7 +1795,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1890,12 +1803,56 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'27'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'01'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 612]                                        %! SM4
+    % [G GlobalSkips measure 518]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (518)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <34>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'04'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 519]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1910,59 +1867,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (612)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <34>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.26]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'28'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 613]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (613)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (519)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1978,7 +1883,7 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1986,17 +1891,17 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'30'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'05'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 614]                                        %! SM4
+    % [G GlobalSkips measure 520]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -2006,7 +1911,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (614)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (520)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2016,21 +1921,13 @@ H_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <36>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.27]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2038,14 +1935,14 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'31'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'08'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 615]                                        %! SM4
+    % [G GlobalSkips measure 521]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -2058,7 +1955,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (615)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (521)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2067,6 +1964,57 @@ H_GlobalSkips = {
             %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <37>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.15]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'09'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 522]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (522)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <38>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2082,12 +2030,12 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'32'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'11'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [H GlobalSkips measure 616]                                        %! SM4
+    % [G GlobalSkips measure 523]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2102,60 +2050,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (616)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <38>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.28]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'33'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 617]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (617)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (523)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2179,7 +2074,2857 @@ H_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [20'34'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'14'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 524]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (524)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <40>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'16'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 525]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (525)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <41>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'17'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 526]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (526)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <42>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'19'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 527]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (527)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <43>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.16]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'20'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 528]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             80                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        80                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (528)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <44>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.17]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'23'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 529]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (529)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <45>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.18]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'26'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 530]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (530)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <46>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'29'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 531]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (531)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <47>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'32'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 532]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (532)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <48>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'34'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 533]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (533)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <49>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.19]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'36'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 534]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (534)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <50>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'38'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 535]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (535)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <51>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'40'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 536]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (536)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <52>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'43'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 537]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (537)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <53>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.20]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'45'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 538]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             100                                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        100                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (538)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <54>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.21]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'48'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 539]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (539)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <55>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.22]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'50'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 540]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (540)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <56>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'52'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 541]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (541)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <57>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.23]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'54'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 542]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (542)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <58>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'55'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 543]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (543)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <59>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.24]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'57'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 544]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             125                                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        125                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (544)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <60>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.25]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [18'59'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 545]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (545)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <61>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.26]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'01'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 546]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (546)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <62>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'03'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 547]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (547)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <63>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'05'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 548]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (548)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <64>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'07'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 549]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (549)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <65>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'08'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 550]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (550)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <66>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'10'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 551]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (551)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <67>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.27]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'11'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 552]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (552)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <68>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'13'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 553]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (553)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <69>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'15'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 554]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (554)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <70>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'16'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 555]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (555)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <71>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'17'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 556]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (556)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <72>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'19'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 557]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (557)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <73>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.28]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'20'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 558]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             100                                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        100                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (558)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <74>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.29]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'22'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 559]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (559)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <75>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.30]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'25'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 560]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (560)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <76>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'27'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 561]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (561)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <77>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'30'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 562]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (562)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <78>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'31'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 563]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (563)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <79>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.31]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'33'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 564]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (564)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <80>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'34'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 565]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (565)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <81>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'36'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 566]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (566)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <82>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'38'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 567]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (567)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <83>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.32]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'39'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 568]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             125                                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+%@% \once \override TextSpanner.bound-details.right.text =               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     \concat                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \hspace                                                  %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #-0.5                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%             \line                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 {                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                     \fontsize                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                         #-6                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                         \general-align                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                             #Y                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                             #DOWN                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                             \note-by-number                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                                 #2                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                                 #0                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                                 #1                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                     \upright                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                         {                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                             =                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                             156                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                         }                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 }                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        125                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.text =               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+            \concat                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                {                                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \hspace                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        #-0.5                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                    \line                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        {                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            \fontsize                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                #-6                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                \general-align                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                    #Y                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                    #DOWN                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                    \note-by-number                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                        #2                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                        #0                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                        #1                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            \upright                                     %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                {                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                    =                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                    156                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                                }                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                        }                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                }                                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (568)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <84>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.33]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'42'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 569]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (569)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <85>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.34]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'44'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 570]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (570)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <86>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'45'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 571]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (571)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <87>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'47'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 572]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (572)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <88>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'48'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 573]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (573)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <89>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.35]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'49'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 574]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (574)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <90>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'51'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 575]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (575)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <91>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'53'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 576]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (576)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <92>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'55'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [G GlobalSkips measure 577]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (577)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <93>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [G.36]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [19'56'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2189,439 +4934,53 @@ H_GlobalSkips = {
 }
 
 
-H_FluteMusicVoice = {
-    \times 4/5 {
-        
-        % [H FluteMusicVoice measure 578]                        %! SM4
-        \set FluteMusicStaff.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                "Bass flute"                                     %! SM8:REAPPLIED_INSTRUMENT:SM37
-            }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \set FluteMusicStaff.shortInstrumentName = \markup {     %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                #10                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                "B. fl."                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-            }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
-        \once \override FluteMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-    %@% \override FluteMusicStaff.Clef.color = ##f               %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-        \set FluteMusicStaff.forceClef = ##t                     %! SM8:REAPPLIED_CLEF:SM33:SM37
-        \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-        \makeBlue                                                %! SM24
-        c''16
-        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-        [
-        ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                (“BassFlute”)                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \override FluteMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-        \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-        \set FluteMusicStaff.instrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                #16                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                "Bass flute"                                     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        \set FluteMusicStaff.shortInstrumentName = \markup {     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                #10                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                "B. fl."                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''8
-        ]
-    }
-    \times 2/3 {
-        
-        % [H FluteMusicVoice measure 579]                        %! SM4
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''4
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8.
-        ]
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''4
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        c''4
-        \repeatTie
-        
-        \makeBlue                                                %! SM24
-        c''8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [H FluteMusicVoice measure 580]                        %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        % [H FluteMusicVoice measure 581]                        %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''8
-        ]
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''4
-    }
-    \times 4/5 {
-        
-        % [H FluteMusicVoice measure 582]                        %! SM4
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8.
-        ]
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''4
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        c''4
-        \repeatTie
-        
-        \makeBlue                                                %! SM24
-        c''8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        % [H FluteMusicVoice measure 583]                        %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [H FluteMusicVoice measure 584]                        %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''8
-        ]
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        c''8
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''4
-    }
-    \times 4/5 {
-        
-        % [H FluteMusicVoice measure 585]                        %! SM4
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''8.
-        ]
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        c''16
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        c''4
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        c''4
-        \repeatTie
-        
-        \makeBlue                                                %! SM24
-        c''8
-    }
+G_FluteMusicVoice = {
     
-    % [H FluteMusicVoice measure 586]                            %! SM4
-    R1 * 3/4
+    % [G FluteMusicVoice measure 484]                            %! SM4
+    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
+            #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Bass flute"                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
+        }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
+            #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "B. fl."                                             %! SM8:REAPPLIED_INSTRUMENT:SM37
+        }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
+    \once \override FluteMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override FluteMusicStaff.Clef.color = ##f                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set FluteMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \makeBlue                                                    %! SM24
+    c''4..
+    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“BassFlute”)                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    \override FluteMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Bass flute"                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "B. fl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [H FluteMusicVoice measure 587]                            %! SM4
-    R1 * 1
+    r16
     
-    % [H FluteMusicVoice measure 588]                            %! SM4
-    R1 * 1/4
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
     
-    % [H FluteMusicVoice measure 589]                            %! SM4
+    % [G FluteMusicVoice measure 485]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2631,32 +4990,164 @@ H_FluteMusicVoice = {
     c''2
     ~
     
-    % [H FluteMusicVoice measure 590]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 591]                            %! SM4
-    R1 * 1/4
-    
-    % [H FluteMusicVoice measure 592]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    % [H FluteMusicVoice measure 593]                            %! SM4
+    % [G FluteMusicVoice measure 486]                            %! SM4
     \makeBlue                                                    %! SM24
     c''2
     
-    % [H FluteMusicVoice measure 594]                            %! SM4
-    R1 * 1/4
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
     
-    % [H FluteMusicVoice measure 595]                            %! SM4
+    % [G FluteMusicVoice measure 487]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 488]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 489]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 490]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    % [G FluteMusicVoice measure 491]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2...
+    
+    r16
+    
+    % [G FluteMusicVoice measure 492]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 493]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    ~
+    
+    % [G FluteMusicVoice measure 494]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 495]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 496]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    ~
+    
+    % [G FluteMusicVoice measure 497]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    % [G FluteMusicVoice measure 498]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 499]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 500]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 501]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 502]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 503]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 504]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 505]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 506]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    % [G FluteMusicVoice measure 507]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 508]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 509]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2666,146 +5157,507 @@ H_FluteMusicVoice = {
     c''4
     ~
     
-    % [H FluteMusicVoice measure 596]                            %! SM4
+    % [G FluteMusicVoice measure 510]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 511]                            %! SM4
     \makeBlue                                                    %! SM24
     c''2
     ~
     
+    % [G FluteMusicVoice measure 512]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 513]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    % [G FluteMusicVoice measure 514]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 515]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 516]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 517]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 518]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 519]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 520]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    % [G FluteMusicVoice measure 521]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2...
+    
+    r16
+    
+    % [G FluteMusicVoice measure 522]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 523]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    ~
+    
+    % [G FluteMusicVoice measure 524]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 525]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    % [G FluteMusicVoice measure 526]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    ~
+    
+    % [G FluteMusicVoice measure 527]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    % [G FluteMusicVoice measure 528]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 529]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 530]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 531]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    % [G FluteMusicVoice measure 532]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    ~
+    
+    % [G FluteMusicVoice measure 533]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 534]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 535]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 536]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 537]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    % [G FluteMusicVoice measure 538]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 539]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    % [G FluteMusicVoice measure 540]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 541]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 542]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 543]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    % [G FluteMusicVoice measure 544]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 545]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 546]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 547]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 548]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 549]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 550]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    % [G FluteMusicVoice measure 551]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2...
+    
+    r16
+    
+    % [G FluteMusicVoice measure 552]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 553]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    ~
+    
+    % [G FluteMusicVoice measure 554]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 555]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 556]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    ~
+    
+    % [G FluteMusicVoice measure 557]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    % [G FluteMusicVoice measure 558]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 559]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 560]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 561]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 562]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 563]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 564]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    % [G FluteMusicVoice measure 565]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 566]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    % [G FluteMusicVoice measure 567]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''1
+    
+    % [G FluteMusicVoice measure 568]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 569]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 570]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 571]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 572]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''4
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 573]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''2
+    ~
+    
+    % [G FluteMusicVoice measure 574]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2
+    
+    \makeBlue                                                    %! SM24
+    c''4
+    ~
+    
+    % [G FluteMusicVoice measure 575]                            %! SM4
     \makeBlue                                                    %! SM24
     c''8.
     
     r16
     
     \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 597]                            %! SM4
-    R1 * 1/4
-    
-    % [H FluteMusicVoice measure 598]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 599]                            %! SM4
-    R1 * 1/8
-    
-    % [H FluteMusicVoice measure 600]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 601]                            %! SM4
-    R1 * 1/8
-    
-    % [H FluteMusicVoice measure 602]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 603]                            %! SM4
-    R1 * 1/8
-    
-    % [H FluteMusicVoice measure 604]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 605]                            %! SM4
-    R1 * 1/8
-    
-    % [H FluteMusicVoice measure 606]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 607]                            %! SM4
-    R1 * 1/8
-    
-    % [H FluteMusicVoice measure 608]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 609]                            %! SM4
-    R1 * 1/8
-    
-    % [H FluteMusicVoice measure 610]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4..
-    
-    r16
-    
-    % [H FluteMusicVoice measure 611]                            %! SM4
-    \makeBlue                                                    %! SM24
     c''2.
     ~
     
-    % [H FluteMusicVoice measure 612]                            %! SM4
+    % [G FluteMusicVoice measure 576]                            %! SM4
     \makeBlue                                                    %! SM24
     c''8.
     
     r16
     
     \makeBlue                                                    %! SM24
-    c''2.
+    c''2
     ~
     
-    % [H FluteMusicVoice measure 613]                            %! SM4
+    % [G FluteMusicVoice measure 577]                            %! SM4
     \makeBlue                                                    %! SM24
-    c''4
+    c''2
     
     \makeBlue                                                    %! SM24
-    c''4
-    
-    % [H FluteMusicVoice measure 614]                            %! SM4
-    R1 * 3/4
-    
-    % [H FluteMusicVoice measure 615]                            %! SM4
-    R1 * 1
-    
-    % [H FluteMusicVoice measure 616]                            %! SM4
-    R1 * 3/4
-    
-    % [H FluteMusicVoice measure 617]                            %! SM4
-    R1 * 1
+    c''2
     
 }
 
 
-H_FluteMusicStaff = {
+G_FluteMusicStaff = {
     \context FluteMusicVoice = "FluteMusicVoice"
-    \H_FluteMusicVoice
+    \G_FluteMusicVoice
 }
 
 
-H_EnglishHornMusicVoice = {
+G_EnglishHornMusicVoice = {
     
-    % [H EnglishHornMusicVoice measure 578]                      %! SM4
+    % [G EnglishHornMusicVoice measure 484]                      %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2826,7 +5678,7 @@ H_EnglishHornMusicVoice = {
     \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 3/4
+    R1 * 1
     \effort_mf                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2846,938 +5698,874 @@ H_EnglishHornMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [H EnglishHornMusicVoice measure 579]                      %! SM4
+    % [G EnglishHornMusicVoice measure 485]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 580]                      %! SM4
+    % [G EnglishHornMusicVoice measure 486]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 487]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 488]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 489]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 490]                      %! SM4
     R1 * 1/2
     
-    % [H EnglishHornMusicVoice measure 581]                      %! SM4
+    % [G EnglishHornMusicVoice measure 491]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 582]                      %! SM4
+    % [G EnglishHornMusicVoice measure 492]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 583]                      %! SM4
+    % [G EnglishHornMusicVoice measure 493]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 584]                      %! SM4
+    % [G EnglishHornMusicVoice measure 494]                      %! SM4
     R1 * 1/2
     
-    % [H EnglishHornMusicVoice measure 585]                      %! SM4
+    % [G EnglishHornMusicVoice measure 495]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 586]                      %! SM4
+    % [G EnglishHornMusicVoice measure 496]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 587]                      %! SM4
+    % [G EnglishHornMusicVoice measure 497]                      %! SM4
+    R1 * 5/4
+    
+    % [G EnglishHornMusicVoice measure 498]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 588]                      %! SM4
-    R1 * 1/4
-    
-    % [H EnglishHornMusicVoice measure 589]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'2..
-    
-    r8
-    
-    % [H EnglishHornMusicVoice measure 590]                      %! SM4
-    r4.
-    
-    \makeBlue                                                    %! SM24
-    g'4.
-    
-    % [H EnglishHornMusicVoice measure 591]                      %! SM4
-    R1 * 1/4
-    
-    % [H EnglishHornMusicVoice measure 592]                      %! SM4
-    R1 * 1/2
-    
-    % [H EnglishHornMusicVoice measure 593]                      %! SM4
-    R1 * 1/2
-    
-    % [H EnglishHornMusicVoice measure 594]                      %! SM4
-    R1 * 1/4
-    
-    % [H EnglishHornMusicVoice measure 595]                      %! SM4
-    R1 * 3/4
-    
-    % [H EnglishHornMusicVoice measure 596]                      %! SM4
+    % [G EnglishHornMusicVoice measure 499]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 597]                      %! SM4
-    R1 * 1/4
-    \override TupletNumber.text = \markup {
-        \scale
-            #'(0.75 . 0.75)
-            \score
-                {
-                    \new Score
-                    \with
-                    {
-                        \override SpacingSpanner.spacing-increment = #0.5
-                        proportionalNotationDuration = ##f
-                    }
-                    <<
-                        \new RhythmicStaff
-                        \with
-                        {
-                            \remove Time_signature_engraver
-                            \remove Staff_symbol_engraver
-                            \override Stem.direction = #up
-                            \override Stem.length = #5
-                            \override TupletBracket.bracket-visibility = ##t
-                            \override TupletBracket.direction = #up
-                            \override TupletBracket.padding = #1.25
-                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                            tupletFullLength = ##t
-                        }
-                        {
-                            c'2.
-                        }
-                    >>
-                    \layout {
-                        indent = #0
-                        ragged-right = ##t
-                    }
-                }
-        }
-    \times 1/1 {
-        
-        % [H EnglishHornMusicVoice measure 598]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
-        \once \override Beam.grow-direction = #right
-        \makeBlue                                                %! SM24
-        g'16 * 381/64
-        [
-        
-        \makeBlue                                                %! SM24
-        g'16 * 111/32
-        
-        \makeBlue                                                %! SM24
-        g'16 * 3/2
-        
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
-        \makeBlue                                                %! SM24
-        g'16 * 69/64
-        ]
-    }
-    \revert TupletNumber.text
+    % [G EnglishHornMusicVoice measure 500]                      %! SM4
+    R1 * 1
     
-    % [H EnglishHornMusicVoice measure 599]                      %! SM4
-    R1 * 1/8
-    \override TupletNumber.text = \markup {
-        \scale
-            #'(0.75 . 0.75)
-            \score
-                {
-                    \new Score
-                    \with
-                    {
-                        \override SpacingSpanner.spacing-increment = #0.5
-                        proportionalNotationDuration = ##f
-                    }
-                    <<
-                        \new RhythmicStaff
-                        \with
-                        {
-                            \remove Time_signature_engraver
-                            \remove Staff_symbol_engraver
-                            \override Stem.direction = #up
-                            \override Stem.length = #5
-                            \override TupletBracket.bracket-visibility = ##t
-                            \override TupletBracket.direction = #up
-                            \override TupletBracket.padding = #1.25
-                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                            tupletFullLength = ##t
-                        }
-                        {
-                            c'2.
-                        }
-                    >>
-                    \layout {
-                        indent = #0
-                        ragged-right = ##t
-                    }
-                }
-        }
-    \times 1/1 {
-        
-        % [H EnglishHornMusicVoice measure 600]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
-        \once \override Beam.grow-direction = #right
-        \makeBlue                                                %! SM24
-        g'16 * 381/64
-        [
-        
-        \makeBlue                                                %! SM24
-        g'16 * 111/32
-        
-        \makeBlue                                                %! SM24
-        g'16 * 3/2
-        
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
-        \makeBlue                                                %! SM24
-        g'16 * 69/64
-        ]
-    }
-    \revert TupletNumber.text
-    
-    % [H EnglishHornMusicVoice measure 601]                      %! SM4
-    R1 * 1/8
-    \override TupletNumber.text = \markup {
-        \scale
-            #'(0.75 . 0.75)
-            \score
-                {
-                    \new Score
-                    \with
-                    {
-                        \override SpacingSpanner.spacing-increment = #0.5
-                        proportionalNotationDuration = ##f
-                    }
-                    <<
-                        \new RhythmicStaff
-                        \with
-                        {
-                            \remove Time_signature_engraver
-                            \remove Staff_symbol_engraver
-                            \override Stem.direction = #up
-                            \override Stem.length = #5
-                            \override TupletBracket.bracket-visibility = ##t
-                            \override TupletBracket.direction = #up
-                            \override TupletBracket.padding = #1.25
-                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                            tupletFullLength = ##t
-                        }
-                        {
-                            c'2.
-                        }
-                    >>
-                    \layout {
-                        indent = #0
-                        ragged-right = ##t
-                    }
-                }
-        }
-    \times 1/1 {
-        
-        % [H EnglishHornMusicVoice measure 602]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
-        \once \override Beam.grow-direction = #right
-        \makeBlue                                                %! SM24
-        g'16 * 381/64
-        [
-        
-        \makeBlue                                                %! SM24
-        g'16 * 111/32
-        
-        \makeBlue                                                %! SM24
-        g'16 * 3/2
-        
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
-        \makeBlue                                                %! SM24
-        g'16 * 69/64
-        ]
-    }
-    \revert TupletNumber.text
-    
-    % [H EnglishHornMusicVoice measure 603]                      %! SM4
-    R1 * 1/8
-    \override TupletNumber.text = \markup {
-        \scale
-            #'(0.75 . 0.75)
-            \score
-                {
-                    \new Score
-                    \with
-                    {
-                        \override SpacingSpanner.spacing-increment = #0.5
-                        proportionalNotationDuration = ##f
-                    }
-                    <<
-                        \new RhythmicStaff
-                        \with
-                        {
-                            \remove Time_signature_engraver
-                            \remove Staff_symbol_engraver
-                            \override Stem.direction = #up
-                            \override Stem.length = #5
-                            \override TupletBracket.bracket-visibility = ##t
-                            \override TupletBracket.direction = #up
-                            \override TupletBracket.padding = #1.25
-                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                            tupletFullLength = ##t
-                        }
-                        {
-                            c'2.
-                        }
-                    >>
-                    \layout {
-                        indent = #0
-                        ragged-right = ##t
-                    }
-                }
-        }
-    \times 1/1 {
-        
-        % [H EnglishHornMusicVoice measure 604]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
-        \once \override Beam.grow-direction = #right
-        \makeBlue                                                %! SM24
-        g'16 * 381/64
-        [
-        
-        \makeBlue                                                %! SM24
-        g'16 * 111/32
-        
-        \makeBlue                                                %! SM24
-        g'16 * 3/2
-        
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
-        \makeBlue                                                %! SM24
-        g'16 * 69/64
-        ]
-    }
-    \revert TupletNumber.text
-    
-    % [H EnglishHornMusicVoice measure 605]                      %! SM4
-    R1 * 1/8
-    \override TupletNumber.text = \markup {
-        \scale
-            #'(0.75 . 0.75)
-            \score
-                {
-                    \new Score
-                    \with
-                    {
-                        \override SpacingSpanner.spacing-increment = #0.5
-                        proportionalNotationDuration = ##f
-                    }
-                    <<
-                        \new RhythmicStaff
-                        \with
-                        {
-                            \remove Time_signature_engraver
-                            \remove Staff_symbol_engraver
-                            \override Stem.direction = #up
-                            \override Stem.length = #5
-                            \override TupletBracket.bracket-visibility = ##t
-                            \override TupletBracket.direction = #up
-                            \override TupletBracket.padding = #1.25
-                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                            tupletFullLength = ##t
-                        }
-                        {
-                            c'2.
-                        }
-                    >>
-                    \layout {
-                        indent = #0
-                        ragged-right = ##t
-                    }
-                }
-        }
-    \times 1/1 {
-        
-        % [H EnglishHornMusicVoice measure 606]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
-        \once \override Beam.grow-direction = #right
-        \makeBlue                                                %! SM24
-        g'16 * 381/64
-        [
-        
-        \makeBlue                                                %! SM24
-        g'16 * 111/32
-        
-        \makeBlue                                                %! SM24
-        g'16 * 3/2
-        
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
-        \makeBlue                                                %! SM24
-        g'16 * 69/64
-        ]
-    }
-    \revert TupletNumber.text
-    
-    % [H EnglishHornMusicVoice measure 607]                      %! SM4
-    R1 * 1/8
-    \override TupletNumber.text = \markup {
-        \scale
-            #'(0.75 . 0.75)
-            \score
-                {
-                    \new Score
-                    \with
-                    {
-                        \override SpacingSpanner.spacing-increment = #0.5
-                        proportionalNotationDuration = ##f
-                    }
-                    <<
-                        \new RhythmicStaff
-                        \with
-                        {
-                            \remove Time_signature_engraver
-                            \remove Staff_symbol_engraver
-                            \override Stem.direction = #up
-                            \override Stem.length = #5
-                            \override TupletBracket.bracket-visibility = ##t
-                            \override TupletBracket.direction = #up
-                            \override TupletBracket.padding = #1.25
-                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                            tupletFullLength = ##t
-                        }
-                        {
-                            c'2.
-                        }
-                    >>
-                    \layout {
-                        indent = #0
-                        ragged-right = ##t
-                    }
-                }
-        }
-    \times 1/1 {
-        
-        % [H EnglishHornMusicVoice measure 608]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
-        \once \override Beam.grow-direction = #right
-        \makeBlue                                                %! SM24
-        g'16 * 381/64
-        [
-        
-        \makeBlue                                                %! SM24
-        g'16 * 111/32
-        
-        \makeBlue                                                %! SM24
-        g'16 * 3/2
-        
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
-        \makeBlue                                                %! SM24
-        g'16 * 69/64
-        ]
-    }
-    \revert TupletNumber.text
-    
-    % [H EnglishHornMusicVoice measure 609]                      %! SM4
-    R1 * 1/8
-    
-    % [H EnglishHornMusicVoice measure 610]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'2
-    
-    % [H EnglishHornMusicVoice measure 611]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'2.
-    \repeatTie
-    
-    % [H EnglishHornMusicVoice measure 612]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'1
-    \repeatTie
-    
-    % [H EnglishHornMusicVoice measure 613]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'2
-    \repeatTie
-    
-    % [H EnglishHornMusicVoice measure 614]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'2.
-    \repeatTie
-    
-    % [H EnglishHornMusicVoice measure 615]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'1
-    \repeatTie
-    
-    % [H EnglishHornMusicVoice measure 616]                      %! SM4
+    % [G EnglishHornMusicVoice measure 501]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 617]                      %! SM4
+    % [G EnglishHornMusicVoice measure 502]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 503]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 504]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 505]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 506]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 507]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 508]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 509]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 510]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 511]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 512]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 513]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 514]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 515]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 516]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 517]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 518]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 519]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 520]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 521]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 522]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 523]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 524]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 525]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 526]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 527]                      %! SM4
+    R1 * 5/4
+    
+    % [G EnglishHornMusicVoice measure 528]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 529]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 530]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 531]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 532]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 533]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 534]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 535]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 536]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 537]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 538]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 539]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 540]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 541]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 542]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 543]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 544]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 545]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 546]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 547]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 548]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 549]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 550]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 551]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 552]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 553]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 554]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 555]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 556]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 557]                      %! SM4
+    R1 * 5/4
+    
+    % [G EnglishHornMusicVoice measure 558]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 559]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 560]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 561]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 562]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 563]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 564]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 565]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 566]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 567]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 568]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 569]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 570]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 571]                      %! SM4
+    R1 * 1/2
+    
+    % [G EnglishHornMusicVoice measure 572]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 573]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 574]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 575]                      %! SM4
+    R1 * 1
+    
+    % [G EnglishHornMusicVoice measure 576]                      %! SM4
+    R1 * 3/4
+    
+    % [G EnglishHornMusicVoice measure 577]                      %! SM4
     R1 * 1
     
 }
 
 
-H_EnglishHornMusicStaff = {
+G_EnglishHornMusicStaff = {
     \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-    \H_EnglishHornMusicVoice
+    \G_EnglishHornMusicVoice
 }
 
 
-H_ClarinetMusicVoice = {
-    \times 4/5 {
-        
-        % [H ClarinetMusicVoice measure 578]                     %! SM4
-        \set ClarinetMusicStaff.instrumentName = \markup {       %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                "Bass clarinet"                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                #10                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                "B. cl."                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-            }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
-        \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-    %@% \override ClarinetMusicStaff.Clef.color = ##f            %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-        \set ClarinetMusicStaff.forceClef = ##t                  %! SM8:REAPPLIED_CLEF:SM33:SM37
-        \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-        \makeBlue                                                %! SM24
-        d''16
-        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
-        [
-        ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                (“BassClarinet”)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \override ClarinetMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-        \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-        \set ClarinetMusicStaff.instrumentName = \markup {       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                #16                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                "Bass clarinet"                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                #10                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                "B. cl."                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''8
-        ]
-    }
-    \times 2/3 {
-        
-        % [H ClarinetMusicVoice measure 579]                     %! SM4
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''4
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8.
-        ]
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''4
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        d''4
-        \repeatTie
-        
-        \makeBlue                                                %! SM24
-        d''8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [H ClarinetMusicVoice measure 580]                     %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        % [H ClarinetMusicVoice measure 581]                     %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''8
-        ]
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''4
-    }
-    \times 4/5 {
-        
-        % [H ClarinetMusicVoice measure 582]                     %! SM4
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8.
-        ]
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''4
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        d''4
-        \repeatTie
-        
-        \makeBlue                                                %! SM24
-        d''8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        % [H ClarinetMusicVoice measure 583]                     %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [H ClarinetMusicVoice measure 584]                     %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''8
-        ]
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        d''8
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''4
-    }
-    \times 4/5 {
-        
-        % [H ClarinetMusicVoice measure 585]                     %! SM4
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        [
-        
-        \makeBlue                                                %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''8.
-        ]
-    }
-    \times 4/5 {
-        
-        \makeBlue                                                %! SM24
-        d''16
-        \repeatTie
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
-        d''4
-    }
-    \times 2/3 {
-        
-        \makeBlue                                                %! SM24
-        d''4
-        \repeatTie
-        
-        \makeBlue                                                %! SM24
-        d''8
-    }
+G_ClarinetMusicVoice = {
     
-    % [H ClarinetMusicVoice measure 586]                         %! SM4
-    R1 * 3/4
-    
-    % [H ClarinetMusicVoice measure 587]                         %! SM4
-    R1 * 1
-    
-    % [H ClarinetMusicVoice measure 588]                         %! SM4
-    R1 * 1/4
-    
-    % [H ClarinetMusicVoice measure 589]                         %! SM4
+    % [G ClarinetMusicVoice measure 484]                         %! SM4
+    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
+            #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Bass clarinet"                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
+        }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
+            #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "B. cl."                                             %! SM8:REAPPLIED_INSTRUMENT:SM37
+        }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
+    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override ClarinetMusicStaff.Clef.color = ##f                %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set ClarinetMusicStaff.forceClef = ##t                      %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     d''2...
+    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“BassClarinet”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    \override ClarinetMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Bass clarinet"                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "B. cl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
     r16
     
-    % [H ClarinetMusicVoice measure 590]                         %! SM4
+    % [G ClarinetMusicVoice measure 485]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 486]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
+    ~
     
-    % [H ClarinetMusicVoice measure 591]                         %! SM4
-    R1 * 1/4
+    % [G ClarinetMusicVoice measure 487]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
     
-    % [H ClarinetMusicVoice measure 592]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 488]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
     \makeBlue                                                    %! SM24
     d''2
     ~
     
-    % [H ClarinetMusicVoice measure 593]                         %! SM4
+    % [G ClarinetMusicVoice measure 489]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 490]                         %! SM4
     \makeBlue                                                    %! SM24
     d''4..
     
     r16
     
-    % [H ClarinetMusicVoice measure 594]                         %! SM4
-    R1 * 1/4
+    % [G ClarinetMusicVoice measure 491]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
     
-    % [H ClarinetMusicVoice measure 595]                         %! SM4
+    % [G ClarinetMusicVoice measure 492]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 493]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     ~
     
-    % [H ClarinetMusicVoice measure 596]                         %! SM4
+    % [G ClarinetMusicVoice measure 494]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 495]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    
+    % [G ClarinetMusicVoice measure 496]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 497]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''8.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 498]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 499]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 500]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 501]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 502]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 503]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 504]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 505]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 506]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    % [G ClarinetMusicVoice measure 507]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 508]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 509]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 510]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 511]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 512]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    
+    % [G ClarinetMusicVoice measure 513]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 514]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 515]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 516]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 517]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 518]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 519]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 520]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4..
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 521]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 522]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 523]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 524]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 525]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    % [G ClarinetMusicVoice measure 526]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 527]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''8.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 528]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 529]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 530]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 531]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 532]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 533]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 534]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 535]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 536]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 537]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    % [G ClarinetMusicVoice measure 538]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 539]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 540]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 541]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    % [G ClarinetMusicVoice measure 542]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 543]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2.
+    
+    % [G ClarinetMusicVoice measure 544]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 545]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 546]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 547]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 548]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 549]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 550]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4..
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 551]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 552]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 553]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 554]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 555]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    
+    % [G ClarinetMusicVoice measure 556]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 557]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''8.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 558]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 559]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 560]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 561]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 562]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 563]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 564]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 565]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    d''2
+    ~
+    
+    % [G ClarinetMusicVoice measure 566]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2
+    
+    % [G ClarinetMusicVoice measure 567]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 568]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2...
+    
+    r16
+    
+    % [G ClarinetMusicVoice measure 569]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 570]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 571]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''4
+    
+    \makeBlue                                                    %! SM24
+    d''4
+    ~
+    
+    % [G ClarinetMusicVoice measure 572]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    
+    % [G ClarinetMusicVoice measure 573]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    
+    % [G ClarinetMusicVoice measure 574]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    ~
+    
+    % [G ClarinetMusicVoice measure 575]                         %! SM4
     \makeBlue                                                    %! SM24
     d''8.
     
@@ -3785,103 +6573,35 @@ H_ClarinetMusicVoice = {
     
     \makeBlue                                                    %! SM24
     d''2.
+    ~
     
-    % [H ClarinetMusicVoice measure 597]                         %! SM4
-    R1 * 1/4
-    
-    % [H ClarinetMusicVoice measure 598]                         %! SM4
+    % [G ClarinetMusicVoice measure 576]                         %! SM4
     \makeBlue                                                    %! SM24
-    d''2.
+    d''4
     
-    % [H ClarinetMusicVoice measure 599]                         %! SM4
-    R1 * 1/8
-    
-    % [H ClarinetMusicVoice measure 600]                         %! SM4
-    \makeBlue                                                    %! SM24
-    d''2.
-    
-    % [H ClarinetMusicVoice measure 601]                         %! SM4
-    R1 * 1/8
-    
-    % [H ClarinetMusicVoice measure 602]                         %! SM4
-    \makeBlue                                                    %! SM24
-    d''2.
-    
-    % [H ClarinetMusicVoice measure 603]                         %! SM4
-    R1 * 1/8
-    
-    % [H ClarinetMusicVoice measure 604]                         %! SM4
-    \makeBlue                                                    %! SM24
-    d''2.
-    
-    % [H ClarinetMusicVoice measure 605]                         %! SM4
-    R1 * 1/8
-    
-    % [H ClarinetMusicVoice measure 606]                         %! SM4
-    \makeBlue                                                    %! SM24
-    d''2.
-    
-    % [H ClarinetMusicVoice measure 607]                         %! SM4
-    R1 * 1/8
-    
-    % [H ClarinetMusicVoice measure 608]                         %! SM4
-    \makeBlue                                                    %! SM24
-    d''2.
-    
-    % [H ClarinetMusicVoice measure 609]                         %! SM4
-    R1 * 1/8
-    
-    % [H ClarinetMusicVoice measure 610]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2
     ~
     
-    % [H ClarinetMusicVoice measure 611]                         %! SM4
-    \makeBlue                                                    %! SM24
-    d''4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    d''4
-    ~
-    
-    % [H ClarinetMusicVoice measure 612]                         %! SM4
-    \makeBlue                                                    %! SM24
-    d''2.
-    
-    \makeBlue                                                    %! SM24
-    d''4
-    ~
-    
-    % [H ClarinetMusicVoice measure 613]                         %! SM4
+    % [G ClarinetMusicVoice measure 577]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2
     
-    % [H ClarinetMusicVoice measure 614]                         %! SM4
-    R1 * 3/4
-    
-    % [H ClarinetMusicVoice measure 615]                         %! SM4
-    R1 * 1
-    
-    % [H ClarinetMusicVoice measure 616]                         %! SM4
-    R1 * 3/4
-    
-    % [H ClarinetMusicVoice measure 617]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    d''2
     
 }
 
 
-H_ClarinetMusicStaff = {
+G_ClarinetMusicStaff = {
     \context ClarinetMusicVoice = "ClarinetMusicVoice"
-    \H_ClarinetMusicVoice
+    \G_ClarinetMusicVoice
 }
 
 
-H_PianoRHMusicVoice = {
+G_PianoRHMusicVoice = {
     
-    % [H PianoRHMusicVoice measure 578]                      %! SM4
+    % [G PianoRHMusicVoice measure 484]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -3923,10 +6643,10 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 579]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 485]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -3936,108 +6656,865 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 580]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 486]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 581]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 487]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 582]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 488]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 583]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 489]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 584]                      %! SM4
-    R1 * 1/2
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 490]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 491]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 492]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 493]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 494]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 495]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 496]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 497]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 498]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 499]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 500]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 501]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 502]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 503]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 504]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 505]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 506]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 507]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 508]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 509]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 510]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 511]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 512]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 513]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 514]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 515]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 516]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 517]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 518]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 519]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 520]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 521]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 522]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 523]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 524]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 525]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 526]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 527]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 528]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 529]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 530]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 531]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 532]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 533]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 534]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 535]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 536]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 537]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 538]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 539]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 540]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 541]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 542]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 543]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 544]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 545]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 546]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 547]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 548]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 549]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 550]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 551]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 552]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 553]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 554]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 555]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 556]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 557]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 585]                      %! SM4
-    R1 * 3/4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [G PianoRHMusicVoice measure 558]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 586]                      %! SM4
-    R1 * 3/4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 587]                      %! SM4
-    R1 * 1
+    % [G PianoRHMusicVoice measure 559]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 588]                      %! SM4
-    R1 * 1/4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 589]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 560]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 590]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 561]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 591]                      %! SM4
-    R1 * 1/4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 592]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 562]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 593]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 563]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 594]                      %! SM4
-    R1 * 1/4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 595]                      %! SM4
+    % [G PianoRHMusicVoice measure 564]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4047,7 +7524,7 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 596]                      %! SM4
+    % [G PianoRHMusicVoice measure 565]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4060,49 +7537,50 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 597]                      %! SM4
-    R1 * 1/4
+    % [G PianoRHMusicVoice measure 566]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 598]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 567]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 599]                      %! SM4
-    R1 * 1/8
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 600]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 568]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 601]                      %! SM4
-    R1 * 1/8
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 602]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 569]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 603]                      %! SM4
-    R1 * 1/8
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 604]                      %! SM4
+    % [G PianoRHMusicVoice measure 570]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4112,53 +7590,53 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 605]                      %! SM4
-    R1 * 1/8
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 606]                      %! SM4
+    % [G PianoRHMusicVoice measure 571]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 572]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 607]                      %! SM4
-    R1 * 1/8
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 608]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 573]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 609]                      %! SM4
-    R1 * 1/8
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 610]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 574]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 611]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 575]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 612]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4168,305 +7646,630 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
+    % [G PianoRHMusicVoice measure 576]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 613]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 614]                      %! SM4
-    R1 * 3/4
+    % [G PianoRHMusicVoice measure 577]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 615]                      %! SM4
-    R1 * 1
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 616]                      %! SM4
-    R1 * 3/4
+    \makeBlue                                                %! SM24
+    c'4
     
-    % [H PianoRHMusicVoice measure 617]                      %! SM4
-    R1 * 1
+    \makeBlue                                                %! SM24
+    c'4
     
 }
 
 
-H_PianoRHMusicStaff = {
+G_PianoRHMusicStaff = {
     \context PianoRHMusicVoice = "PianoRHMusicVoice"
-    \H_PianoRHMusicVoice
+    \G_PianoRHMusicVoice
 }
 
 
-H_PianoLHMusicVoice = {
+G_PianoLHMusicVoice = {
     
-    % [H PianoLHMusicVoice measure 578]                      %! SM4
+    % [G PianoLHMusicVoice measure 484]                      %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override PianoLHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set PianoLHMusicStaff.forceClef = ##t                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    R1 * 3/4
+    R1 * 1
     \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [H PianoLHMusicVoice measure 579]                      %! SM4
+    % [G PianoLHMusicVoice measure 485]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 580]                      %! SM4
+    % [G PianoLHMusicVoice measure 486]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 487]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 488]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 489]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 490]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 581]                      %! SM4
+    % [G PianoLHMusicVoice measure 491]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 582]                      %! SM4
+    % [G PianoLHMusicVoice measure 492]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 583]                      %! SM4
+    % [G PianoLHMusicVoice measure 493]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 584]                      %! SM4
+    % [G PianoLHMusicVoice measure 494]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 585]                      %! SM4
+    % [G PianoLHMusicVoice measure 495]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 586]                      %! SM4
+    % [G PianoLHMusicVoice measure 496]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 587]                      %! SM4
+    % [G PianoLHMusicVoice measure 497]                      %! SM4
+    R1 * 5/4
+    
+    % [G PianoLHMusicVoice measure 498]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 588]                      %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHMusicVoice measure 589]                      %! SM4
+    % [G PianoLHMusicVoice measure 499]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 590]                      %! SM4
+    % [G PianoLHMusicVoice measure 500]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 501]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 591]                      %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHMusicVoice measure 592]                      %! SM4
+    % [G PianoLHMusicVoice measure 502]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 593]                      %! SM4
+    % [G PianoLHMusicVoice measure 503]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 594]                      %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHMusicVoice measure 595]                      %! SM4
+    % [G PianoLHMusicVoice measure 504]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 596]                      %! SM4
+    % [G PianoLHMusicVoice measure 505]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 597]                      %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHMusicVoice measure 598]                      %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHMusicVoice measure 599]                      %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHMusicVoice measure 600]                      %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHMusicVoice measure 601]                      %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHMusicVoice measure 602]                      %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHMusicVoice measure 603]                      %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHMusicVoice measure 604]                      %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHMusicVoice measure 605]                      %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHMusicVoice measure 606]                      %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHMusicVoice measure 607]                      %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHMusicVoice measure 608]                      %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHMusicVoice measure 609]                      %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHMusicVoice measure 610]                      %! SM4
+    % [G PianoLHMusicVoice measure 506]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 611]                      %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHMusicVoice measure 612]                      %! SM4
+    % [G PianoLHMusicVoice measure 507]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 613]                      %! SM4
+    % [G PianoLHMusicVoice measure 508]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 509]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 510]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 511]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 614]                      %! SM4
+    % [G PianoLHMusicVoice measure 512]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 615]                      %! SM4
+    % [G PianoLHMusicVoice measure 513]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 616]                      %! SM4
+    % [G PianoLHMusicVoice measure 514]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 515]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 516]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 617]                      %! SM4
+    % [G PianoLHMusicVoice measure 517]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 518]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 519]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 520]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 521]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 522]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 523]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 524]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 525]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 526]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 527]                      %! SM4
+    R1 * 5/4
+    
+    % [G PianoLHMusicVoice measure 528]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 529]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 530]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 531]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 532]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 533]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 534]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 535]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 536]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 537]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 538]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 539]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 540]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 541]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 542]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 543]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 544]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 545]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 546]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 547]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 548]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 549]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 550]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 551]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 552]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 553]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 554]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 555]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 556]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 557]                      %! SM4
+    R1 * 5/4
+    
+    % [G PianoLHMusicVoice measure 558]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 559]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 560]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 561]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 562]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 563]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 564]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 565]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 566]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 567]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 568]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 569]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 570]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 571]                      %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHMusicVoice measure 572]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 573]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 574]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 575]                      %! SM4
+    R1 * 1
+    
+    % [G PianoLHMusicVoice measure 576]                      %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHMusicVoice measure 577]                      %! SM4
     R1 * 1
     
 }
 
 
-H_PianoLHAttackVoice = {
+G_PianoLHAttackVoice = {
     
-    % [H PianoLHAttackVoice measure 578]                     %! SM4
+    % [G PianoLHAttackVoice measure 484]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 3/4
+    R1 * 1
     \sfz                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [H PianoLHAttackVoice measure 579]                     %! SM4
+    % [G PianoLHAttackVoice measure 485]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 580]                     %! SM4
+    % [G PianoLHAttackVoice measure 486]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 487]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 488]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 489]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 490]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 581]                     %! SM4
+    % [G PianoLHAttackVoice measure 491]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 582]                     %! SM4
+    % [G PianoLHAttackVoice measure 492]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 583]                     %! SM4
+    % [G PianoLHAttackVoice measure 493]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 584]                     %! SM4
+    % [G PianoLHAttackVoice measure 494]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 585]                     %! SM4
+    % [G PianoLHAttackVoice measure 495]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 586]                     %! SM4
+    % [G PianoLHAttackVoice measure 496]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 587]                     %! SM4
+    % [G PianoLHAttackVoice measure 497]                     %! SM4
+    R1 * 5/4
+    
+    % [G PianoLHAttackVoice measure 498]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 588]                     %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHAttackVoice measure 589]                     %! SM4
+    % [G PianoLHAttackVoice measure 499]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 590]                     %! SM4
+    % [G PianoLHAttackVoice measure 500]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 501]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 591]                     %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHAttackVoice measure 592]                     %! SM4
+    % [G PianoLHAttackVoice measure 502]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 593]                     %! SM4
+    % [G PianoLHAttackVoice measure 503]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 594]                     %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHAttackVoice measure 595]                     %! SM4
+    % [G PianoLHAttackVoice measure 504]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 596]                     %! SM4
+    % [G PianoLHAttackVoice measure 505]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 597]                     %! SM4
-    R1 * 1/4
-    
-    % [H PianoLHAttackVoice measure 598]                     %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHAttackVoice measure 599]                     %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHAttackVoice measure 600]                     %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHAttackVoice measure 601]                     %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHAttackVoice measure 602]                     %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHAttackVoice measure 603]                     %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHAttackVoice measure 604]                     %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHAttackVoice measure 605]                     %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHAttackVoice measure 606]                     %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHAttackVoice measure 607]                     %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHAttackVoice measure 608]                     %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHAttackVoice measure 609]                     %! SM4
-    R1 * 1/8
-    
-    % [H PianoLHAttackVoice measure 610]                     %! SM4
+    % [G PianoLHAttackVoice measure 506]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 611]                     %! SM4
-    R1 * 3/4
-    
-    % [H PianoLHAttackVoice measure 612]                     %! SM4
+    % [G PianoLHAttackVoice measure 507]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 613]                     %! SM4
+    % [G PianoLHAttackVoice measure 508]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 509]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 510]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 511]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 614]                     %! SM4
+    % [G PianoLHAttackVoice measure 512]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 615]                     %! SM4
+    % [G PianoLHAttackVoice measure 513]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 616]                     %! SM4
+    % [G PianoLHAttackVoice measure 514]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 515]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 516]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 617]                     %! SM4
+    % [G PianoLHAttackVoice measure 517]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 518]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 519]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 520]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 521]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 522]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 523]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 524]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 525]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 526]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 527]                     %! SM4
+    R1 * 5/4
+    
+    % [G PianoLHAttackVoice measure 528]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 529]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 530]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 531]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 532]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 533]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 534]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 535]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 536]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 537]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 538]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 539]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 540]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 541]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 542]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 543]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 544]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 545]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 546]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 547]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 548]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 549]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 550]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 551]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 552]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 553]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 554]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 555]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 556]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 557]                     %! SM4
+    R1 * 5/4
+    
+    % [G PianoLHAttackVoice measure 558]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 559]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 560]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 561]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 562]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 563]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 564]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 565]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 566]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 567]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 568]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 569]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 570]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 571]                     %! SM4
+    R1 * 1/2
+    
+    % [G PianoLHAttackVoice measure 572]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 573]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 574]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 575]                     %! SM4
+    R1 * 1
+    
+    % [G PianoLHAttackVoice measure 576]                     %! SM4
+    R1 * 3/4
+    
+    % [G PianoLHAttackVoice measure 577]                     %! SM4
     R1 * 1
     
 }
 
 
-H_PianoLHMusicStaff = <<
+G_PianoLHMusicStaff = <<
     \context PianoLHMusicVoice = "PianoLHMusicVoice"
-    \H_PianoLHMusicVoice
+    \G_PianoLHMusicVoice
     \context PianoLHAttackVoice = "PianoLHAttackVoice"
-    \H_PianoLHAttackVoice
+    \G_PianoLHAttackVoice
 >>
 
 
-H_PercussionMusicVoice = {
+G_PercussionMusicVoice = {
     
-    % [H PercussionMusicVoice measure 578]                       %! SM4
+    % [G PercussionMusicVoice measure 484]                       %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 2 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -4511,213 +8314,526 @@ H_PercussionMusicVoice = {
     r16
     
     \makeBlue                                                    %! SM24
-    c'4
-    ~
-    
-    % [H PercussionMusicVoice measure 579]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    ~
-    
-    % [H PercussionMusicVoice measure 580]                       %! SM4
-    \makeBlue                                                    %! SM24
     c'2
     ~
     
-    % [H PercussionMusicVoice measure 581]                       %! SM4
+    % [G PercussionMusicVoice measure 485]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     ~
     
-    % [H PercussionMusicVoice measure 582]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    ~
-    
-    % [H PercussionMusicVoice measure 583]                       %! SM4
+    % [G PercussionMusicVoice measure 486]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    
-    % [H PercussionMusicVoice measure 584]                       %! SM4
-    R1 * 1/2
-    
-    % [H PercussionMusicVoice measure 585]                       %! SM4
-    R1 * 3/4
-    
-    % [H PercussionMusicVoice measure 586]                       %! SM4
-    R1 * 3/4
-    
-    % [H PercussionMusicVoice measure 587]                       %! SM4
-    R1 * 1
-    
-    % [H PercussionMusicVoice measure 588]                       %! SM4
-    R1 * 1/4
-    
-    % [H PercussionMusicVoice measure 589]                       %! SM4
-    r2.
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    % [H PercussionMusicVoice measure 590]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    \repeatTie
-    
-    r4
-    
-    % [H PercussionMusicVoice measure 591]                       %! SM4
-    R1 * 1/4
-    
-    % [H PercussionMusicVoice measure 592]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    % [H PercussionMusicVoice measure 593]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    
-    % [H PercussionMusicVoice measure 594]                       %! SM4
-    R1 * 1/4
-    
-    % [H PercussionMusicVoice measure 595]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'4
     ~
     
-    % [H PercussionMusicVoice measure 596]                       %! SM4
+    % [G PercussionMusicVoice measure 487]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
+    ~
     
-    % [H PercussionMusicVoice measure 597]                       %! SM4
-    R1 * 1/4
-    
-    % [H PercussionMusicVoice measure 598]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    % [H PercussionMusicVoice measure 599]                       %! SM4
-    R1 * 1/8
-    
-    % [H PercussionMusicVoice measure 600]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    % [H PercussionMusicVoice measure 601]                       %! SM4
-    R1 * 1/8
-    
-    % [H PercussionMusicVoice measure 602]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    % [H PercussionMusicVoice measure 603]                       %! SM4
-    R1 * 1/8
-    
-    % [H PercussionMusicVoice measure 604]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    % [H PercussionMusicVoice measure 605]                       %! SM4
-    R1 * 1/8
-    
-    % [H PercussionMusicVoice measure 606]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    % [H PercussionMusicVoice measure 607]                       %! SM4
-    R1 * 1/8
-    
-    % [H PercussionMusicVoice measure 608]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    % [H PercussionMusicVoice measure 609]                       %! SM4
-    R1 * 1/8
-    
-    % [H PercussionMusicVoice measure 610]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    
-    % [H PercussionMusicVoice measure 611]                       %! SM4
+    % [G PercussionMusicVoice measure 488]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
+    ~
     
-    % [H PercussionMusicVoice measure 612]                       %! SM4
+    % [G PercussionMusicVoice measure 489]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
-    \repeatTie
+    ~
     
-    % [H PercussionMusicVoice measure 613]                       %! SM4
+    % [G PercussionMusicVoice measure 490]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    \repeatTie
+    ~
     
-    % [H PercussionMusicVoice measure 614]                       %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H PercussionMusicVoice measure 615]                       %! SM4
+    % [G PercussionMusicVoice measure 491]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
-    \repeatTie
+    ~
     
-    % [H PercussionMusicVoice measure 616]                       %! SM4
-    R1 * 3/4
+    % [G PercussionMusicVoice measure 492]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
     
-    % [H PercussionMusicVoice measure 617]                       %! SM4
-    R1 * 1
+    % [G PercussionMusicVoice measure 493]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 494]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 495]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 496]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 497]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    c'2
+    
+    % [G PercussionMusicVoice measure 498]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 499]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 500]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 501]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 502]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 503]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 504]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 505]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 506]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 507]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G PercussionMusicVoice measure 508]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 509]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 510]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 511]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 512]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 513]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G PercussionMusicVoice measure 514]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 515]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 516]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 517]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 518]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 519]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 520]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 521]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 522]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 523]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 524]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 525]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 526]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 527]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    c'2
+    
+    % [G PercussionMusicVoice measure 528]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 529]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 530]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 531]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 532]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 533]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 534]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 535]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 536]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 537]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G PercussionMusicVoice measure 538]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 539]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 540]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 541]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 542]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 543]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G PercussionMusicVoice measure 544]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 545]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 546]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 547]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 548]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 549]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 550]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 551]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 552]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 553]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 554]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 555]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 556]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 557]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    c'2
+    
+    % [G PercussionMusicVoice measure 558]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 559]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 560]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 561]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 562]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 563]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 564]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 565]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 566]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 567]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G PercussionMusicVoice measure 568]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 569]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 570]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 571]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G PercussionMusicVoice measure 572]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 573]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 574]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 575]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    ~
+    
+    % [G PercussionMusicVoice measure 576]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G PercussionMusicVoice measure 577]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
     
 }
 
 
-H_PercussionMusicStaff = {
+G_PercussionMusicStaff = {
     \context PercussionMusicVoice = "PercussionMusicVoice"
-    \H_PercussionMusicVoice
+    \G_PercussionMusicVoice
 }
 
 
-H_ViolinMusicVoice = {
+G_ViolinMusicVoice = {
     
-    % [H ViolinMusicVoice measure 578]                           %! SM4
+    % [G ViolinMusicVoice measure 484]                           %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -4738,8 +8854,7 @@ H_ViolinMusicVoice = {
     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
-    c'2.
+    r16
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4759,66 +8874,6 @@ H_ViolinMusicVoice = {
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [H ViolinMusicVoice measure 579]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 580]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 581]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 582]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 583]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 584]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 585]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 586]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 587]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolinMusicVoice measure 588]                           %! SM4
-    R1 * 1/4
-    
-    % [H ViolinMusicVoice measure 589]                           %! SM4
-    r1
-    
-    % [H ViolinMusicVoice measure 590]                           %! SM4
-    r2.
-    
-    % [H ViolinMusicVoice measure 591]                           %! SM4
-    R1 * 1/4
-    
-    % [H ViolinMusicVoice measure 592]                           %! SM4
-    r16
-    
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -4835,56 +8890,58 @@ H_ViolinMusicVoice = {
     \makeBlue                                                    %! SM24
     c'8
     ~
+    [
     
-    % [H ViolinMusicVoice measure 593]                           %! SM4
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 485]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
     \makeBlue                                                    %! SM24
     c'8
     
     \makeBlue                                                    %! SM24
     c'4.
-    
-    % [H ViolinMusicVoice measure 594]                           %! SM4
-    R1 * 1/4
-    
-    % [H ViolinMusicVoice measure 595]                           %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
     ~
-    [
     
+    % [G ViolinMusicVoice measure 486]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
     c'8
+    [
     
     \makeBlue                                                    %! SM24
     c'8
     ~
     ]
     
-    % [H ViolinMusicVoice measure 596]                           %! SM4
+    % [G ViolinMusicVoice measure 487]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2..
     
     \makeBlue                                                    %! SM24
     c'8
+    ~
     
-    % [H ViolinMusicVoice measure 597]                           %! SM4
-    R1 * 1/4
+    % [G ViolinMusicVoice measure 488]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
     
-    % [H ViolinMusicVoice measure 598]                           %! SM4
+    % [G ViolinMusicVoice measure 489]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
     r16
     
     \makeBlue                                                    %! SM24
@@ -4901,220 +8958,1086 @@ H_ViolinMusicVoice = {
     r8
     
     \makeBlue                                                    %! SM24
-    c'8
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     ~
-    [
     
-    c'8
-    
+    % [G ViolinMusicVoice measure 490]                           %! SM4
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolinMusicVoice measure 599]                           %! SM4
-    R1 * 1/8
-    
-    % [H ViolinMusicVoice measure 600]                           %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2
     ~
-    [
     
-    c'8
+    % [G ViolinMusicVoice measure 491]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
     
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolinMusicVoice measure 601]                           %! SM4
-    R1 * 1/8
-    
-    % [H ViolinMusicVoice measure 602]                           %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2.
     ~
-    [
     
-    c'8
+    % [G ViolinMusicVoice measure 492]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
     
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolinMusicVoice measure 603]                           %! SM4
-    R1 * 1/8
-    
-    % [H ViolinMusicVoice measure 604]                           %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2.
     ~
-    [
     
-    c'8
+    % [G ViolinMusicVoice measure 493]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
     
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolinMusicVoice measure 605]                           %! SM4
-    R1 * 1/8
-    
-    % [H ViolinMusicVoice measure 606]                           %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2
     ~
-    [
     
-    c'8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolinMusicVoice measure 607]                           %! SM4
-    R1 * 1/8
-    
-    % [H ViolinMusicVoice measure 608]                           %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ~
-    [
-    
-    c'8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolinMusicVoice measure 609]                           %! SM4
-    R1 * 1/8
-    
-    % [H ViolinMusicVoice measure 610]                           %! SM4
+    % [G ViolinMusicVoice measure 494]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H ViolinMusicVoice measure 611]                           %! SM4
+    % [G ViolinMusicVoice measure 495]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 496]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
+    ~
     
-    % [H ViolinMusicVoice measure 612]                           %! SM4
+    % [G ViolinMusicVoice measure 497]                           %! SM4
     \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
+    c'8
+    [
     
-    % [H ViolinMusicVoice measure 613]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    % [G ViolinMusicVoice measure 498]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 499]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    \repeatTie
+    ~
     
-    % [H ViolinMusicVoice measure 614]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 500]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 501]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 502]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 503]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolinMusicVoice measure 504]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 505]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
     
-    % [H ViolinMusicVoice measure 615]                           %! SM4
     \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
+    c'4
+    ~
     
-    % [H ViolinMusicVoice measure 616]                           %! SM4
+    % [G ViolinMusicVoice measure 506]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 507]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
     
-    % [H ViolinMusicVoice measure 617]                           %! SM4
+    % [G ViolinMusicVoice measure 508]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 509]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 510]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolinMusicVoice measure 511]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 512]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 513]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    % [G ViolinMusicVoice measure 514]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 515]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 516]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 517]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolinMusicVoice measure 518]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 519]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 520]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 521]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 522]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 523]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 524]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    % [G ViolinMusicVoice measure 525]                           %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 526]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 527]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    % [G ViolinMusicVoice measure 528]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 529]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 530]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 531]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 532]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 533]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolinMusicVoice measure 534]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 535]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 536]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G ViolinMusicVoice measure 537]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
-    \repeatTie
+    
+    % [G ViolinMusicVoice measure 538]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 539]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 540]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'2..
+    ~
+    
+    % [G ViolinMusicVoice measure 541]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 542]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 543]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolinMusicVoice measure 544]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 545]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 546]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 547]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolinMusicVoice measure 548]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 549]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 550]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 551]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 552]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 553]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 554]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [G ViolinMusicVoice measure 555]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 556]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolinMusicVoice measure 557]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    % [G ViolinMusicVoice measure 558]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 559]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 560]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 561]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 562]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 563]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolinMusicVoice measure 564]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 565]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 566]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 567]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G ViolinMusicVoice measure 568]                           %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 569]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolinMusicVoice measure 570]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolinMusicVoice measure 571]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 572]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolinMusicVoice measure 573]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    % [G ViolinMusicVoice measure 574]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 575]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolinMusicVoice measure 576]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolinMusicVoice measure 577]                           %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
 }
 
 
-H_ViolinMusicStaff = {
+G_ViolinMusicStaff = {
     \context ViolinMusicVoice = "ViolinMusicVoice"
-    \H_ViolinMusicVoice
+    \G_ViolinMusicVoice
 }
 
 
-H_ViolaMusicVoice = {
+G_ViolaMusicVoice = {
     
-    % [H ViolaMusicVoice measure 578]                            %! SM4
+    % [G ViolaMusicVoice measure 484]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -5135,8 +10058,7 @@ H_ViolaMusicVoice = {
     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
-    c'2.
+    r16
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -5156,57 +10078,6 @@ H_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [H ViolaMusicVoice measure 579]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 580]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 581]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 582]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 583]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 584]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 585]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 586]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 587]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H ViolaMusicVoice measure 588]                            %! SM4
-    R1 * 1/4
-    
-    % [H ViolaMusicVoice measure 589]                            %! SM4
-    r16
-    
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5232,7 +10103,19 @@ H_ViolaMusicVoice = {
     c'4.
     ~
     
-    % [H ViolaMusicVoice measure 590]                            %! SM4
+    % [G ViolaMusicVoice measure 485]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 486]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     ~
@@ -5243,80 +10126,26 @@ H_ViolaMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'8
-    ]
-    
-    % [H ViolaMusicVoice measure 591]                            %! SM4
-    R1 * 1/4
-    
-    % [H ViolaMusicVoice measure 592]                            %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ~
-    
-    % [H ViolaMusicVoice measure 593]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'8
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    % [H ViolaMusicVoice measure 594]                            %! SM4
-    R1 * 1/4
-    
-    % [H ViolaMusicVoice measure 595]                            %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ~
-    [
-    
-    c'8
-    
-    \makeBlue                                                    %! SM24
-    c'8
     ~
     ]
     
-    % [H ViolaMusicVoice measure 596]                            %! SM4
+    % [G ViolaMusicVoice measure 487]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2..
     
     \makeBlue                                                    %! SM24
     c'8
+    ~
     
-    % [H ViolaMusicVoice measure 597]                            %! SM4
-    R1 * 1/4
+    % [G ViolaMusicVoice measure 488]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
     
-    % [H ViolaMusicVoice measure 598]                            %! SM4
+    % [G ViolaMusicVoice measure 489]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
     r16
     
     \makeBlue                                                    %! SM24
@@ -5333,220 +10162,1086 @@ H_ViolaMusicVoice = {
     r8
     
     \makeBlue                                                    %! SM24
-    c'8
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     ~
-    [
     
-    c'8
-    
+    % [G ViolaMusicVoice measure 490]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolaMusicVoice measure 599]                            %! SM4
-    R1 * 1/8
-    
-    % [H ViolaMusicVoice measure 600]                            %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2
     ~
-    [
     
-    c'8
+    % [G ViolaMusicVoice measure 491]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
     
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolaMusicVoice measure 601]                            %! SM4
-    R1 * 1/8
-    
-    % [H ViolaMusicVoice measure 602]                            %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2.
     ~
-    [
     
-    c'8
+    % [G ViolaMusicVoice measure 492]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
     
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolaMusicVoice measure 603]                            %! SM4
-    R1 * 1/8
-    
-    % [H ViolaMusicVoice measure 604]                            %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2.
     ~
-    [
     
-    c'8
+    % [G ViolaMusicVoice measure 493]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
     
     \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolaMusicVoice measure 605]                            %! SM4
-    R1 * 1/8
-    
-    % [H ViolaMusicVoice measure 606]                            %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    c'2
     ~
-    [
     
-    c'8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolaMusicVoice measure 607]                            %! SM4
-    R1 * 1/8
-    
-    % [H ViolaMusicVoice measure 608]                            %! SM4
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ~
-    [
-    
-    c'8
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    ]
-    
-    % [H ViolaMusicVoice measure 609]                            %! SM4
-    R1 * 1/8
-    
-    % [H ViolaMusicVoice measure 610]                            %! SM4
+    % [G ViolaMusicVoice measure 494]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H ViolaMusicVoice measure 611]                            %! SM4
+    % [G ViolaMusicVoice measure 495]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 496]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
+    ~
     
-    % [H ViolaMusicVoice measure 612]                            %! SM4
+    % [G ViolaMusicVoice measure 497]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
+    c'8
+    [
     
-    % [H ViolaMusicVoice measure 613]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    % [G ViolaMusicVoice measure 498]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 499]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    \repeatTie
+    ~
     
-    % [H ViolaMusicVoice measure 614]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 500]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 501]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 502]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 503]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolaMusicVoice measure 504]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 505]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
     
-    % [H ViolaMusicVoice measure 615]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
+    c'4
+    ~
     
-    % [H ViolaMusicVoice measure 616]                            %! SM4
+    % [G ViolaMusicVoice measure 506]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 507]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
     
-    % [H ViolaMusicVoice measure 617]                            %! SM4
+    % [G ViolaMusicVoice measure 508]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 509]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 510]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolaMusicVoice measure 511]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 512]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 513]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    % [G ViolaMusicVoice measure 514]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 515]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 516]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 517]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolaMusicVoice measure 518]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 519]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 520]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 521]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 522]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 523]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 524]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    % [G ViolaMusicVoice measure 525]                            %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 526]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 527]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    % [G ViolaMusicVoice measure 528]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 529]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 530]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 531]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 532]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 533]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolaMusicVoice measure 534]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 535]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 536]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G ViolaMusicVoice measure 537]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
-    \repeatTie
+    
+    % [G ViolaMusicVoice measure 538]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 539]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 540]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'2..
+    ~
+    
+    % [G ViolaMusicVoice measure 541]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 542]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 543]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolaMusicVoice measure 544]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 545]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 546]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 547]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolaMusicVoice measure 548]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 549]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 550]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 551]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 552]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 553]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 554]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [G ViolaMusicVoice measure 555]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 556]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G ViolaMusicVoice measure 557]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    c'2
+    ~
+    
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    % [G ViolaMusicVoice measure 558]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 559]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 560]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 561]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 562]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 563]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    % [G ViolaMusicVoice measure 564]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 565]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 566]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 567]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G ViolaMusicVoice measure 568]                            %! SM4
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 569]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    
+    % [G ViolaMusicVoice measure 570]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [G ViolaMusicVoice measure 571]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 572]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    ~
+    
+    % [G ViolaMusicVoice measure 573]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    % [G ViolaMusicVoice measure 574]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 575]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G ViolaMusicVoice measure 576]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G ViolaMusicVoice measure 577]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
 }
 
 
-H_ViolaMusicStaff = {
+G_ViolaMusicStaff = {
     \context ViolaMusicVoice = "ViolaMusicVoice"
-    \H_ViolaMusicVoice
+    \G_ViolaMusicVoice
 }
 
 
-H_CelloMusicVoice = {
+G_CelloMusicVoice = {
     
-    % [H CelloMusicVoice measure 578]                            %! SM4
+    % [G CelloMusicVoice measure 484]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -5604,73 +11299,35 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 579]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 485]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 486]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 487]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     
-    % [H CelloMusicVoice measure 580]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    ~
-    
-    % [H CelloMusicVoice measure 581]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    
-    \makeBlue                                                    %! SM24
-    c'2
-    ~
-    
-    % [H CelloMusicVoice measure 582]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    
-    \makeBlue                                                    %! SM24
-    c'2
-    ~
-    
-    % [H CelloMusicVoice measure 583]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    % [H CelloMusicVoice measure 584]                            %! SM4
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'2
-    
-    % [H CelloMusicVoice measure 585]                            %! SM4
+    % [G CelloMusicVoice measure 488]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
+    ~
     
-    % [H CelloMusicVoice measure 586]                            %! SM4
+    % [G CelloMusicVoice measure 489]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
+    c'4
     
-    % [H CelloMusicVoice measure 587]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H CelloMusicVoice measure 588]                            %! SM4
-    R1 * 1/4
-    
-    % [H CelloMusicVoice measure 589]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5690,18 +11347,44 @@ H_CelloMusicVoice = {
     
     r16
     
+    % [G CelloMusicVoice measure 490]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 491]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 492]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 493]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
     \makeBlue                                                    %! SM24
     c'4
     ~
     
-    % [H CelloMusicVoice measure 590]                            %! SM4
+    % [G CelloMusicVoice measure 494]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'2.
+    c'2
+    ~
     
-    % [H CelloMusicVoice measure 591]                            %! SM4
-    R1 * 1/4
+    % [G CelloMusicVoice measure 495]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [H CelloMusicVoice measure 592]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5720,19 +11403,224 @@ H_CelloMusicVoice = {
     c'4
     ~
     
-    % [H CelloMusicVoice measure 593]                            %! SM4
+    % [G CelloMusicVoice measure 496]                            %! SM4
     \makeBlue                                                    %! SM24
     c'8.
     
     r16
     
     \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 497]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 498]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 499]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 500]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 501]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 502]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 503]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [G CelloMusicVoice measure 504]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    % [G CelloMusicVoice measure 505]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G CelloMusicVoice measure 506]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 507]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [G CelloMusicVoice measure 508]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 509]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 510]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G CelloMusicVoice measure 511]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 512]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 513]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    % [G CelloMusicVoice measure 514]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 515]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 516]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 517]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G CelloMusicVoice measure 518]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G CelloMusicVoice measure 519]                            %! SM4
+    \makeBlue                                                    %! SM24
     c'4
     
-    % [H CelloMusicVoice measure 594]                            %! SM4
-    R1 * 1/4
-    
-    % [H CelloMusicVoice measure 595]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5752,194 +11640,544 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 596]                            %! SM4
+    % [G CelloMusicVoice measure 520]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'1
+    c'2
+    ~
     
-    % [H CelloMusicVoice measure 597]                            %! SM4
-    R1 * 1/4
-    
-    % [H CelloMusicVoice measure 598]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    % [H CelloMusicVoice measure 599]                            %! SM4
-    R1 * 1/8
-    
-    % [H CelloMusicVoice measure 600]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    % [H CelloMusicVoice measure 601]                            %! SM4
-    R1 * 1/8
-    
-    % [H CelloMusicVoice measure 602]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    % [H CelloMusicVoice measure 603]                            %! SM4
-    R1 * 1/8
-    
-    % [H CelloMusicVoice measure 604]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    % [H CelloMusicVoice measure 605]                            %! SM4
-    R1 * 1/8
-    
-    % [H CelloMusicVoice measure 606]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    % [H CelloMusicVoice measure 607]                            %! SM4
-    R1 * 1/8
-    
-    % [H CelloMusicVoice measure 608]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'4..
-    
-    r16
-    
-    % [H CelloMusicVoice measure 609]                            %! SM4
-    R1 * 1/8
-    
-    % [H CelloMusicVoice measure 610]                            %! SM4
+    % [G CelloMusicVoice measure 521]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H CelloMusicVoice measure 611]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2.
-    \repeatTie
-    
-    % [H CelloMusicVoice measure 612]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
-    
-    % [H CelloMusicVoice measure 613]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    \repeatTie
+    ~
     
-    % [H CelloMusicVoice measure 614]                            %! SM4
+    % [G CelloMusicVoice measure 522]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 523]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 524]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
     
-    % [H CelloMusicVoice measure 615]                            %! SM4
+    % [G CelloMusicVoice measure 525]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'1
-    \repeatTie
+    c'16
+    [
     
-    % [H CelloMusicVoice measure 616]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 526]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 527]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
     \makeBlue                                                    %! SM24
     c'2.
-    \repeatTie
     
-    % [H CelloMusicVoice measure 617]                            %! SM4
+    % [G CelloMusicVoice measure 528]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 529]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 530]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 531]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 532]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 533]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [G CelloMusicVoice measure 534]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    % [G CelloMusicVoice measure 535]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
-    \repeatTie
+    
+    % [G CelloMusicVoice measure 536]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G CelloMusicVoice measure 537]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 538]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 539]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 540]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G CelloMusicVoice measure 541]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 542]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 543]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G CelloMusicVoice measure 544]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 545]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 546]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 547]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G CelloMusicVoice measure 548]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    ~
+    
+    % [G CelloMusicVoice measure 549]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    % [G CelloMusicVoice measure 550]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 551]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 552]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 553]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 554]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 555]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 556]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 557]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 558]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 559]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 560]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 561]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 562]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 563]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [G CelloMusicVoice measure 564]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    % [G CelloMusicVoice measure 565]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G CelloMusicVoice measure 566]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 567]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [G CelloMusicVoice measure 568]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 569]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 570]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    
+    % [G CelloMusicVoice measure 571]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [G CelloMusicVoice measure 572]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 573]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    ]
+    
+    % [G CelloMusicVoice measure 574]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4..
+    
+    r16
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 575]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [G CelloMusicVoice measure 576]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    % [G CelloMusicVoice measure 577]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
     
 }
 
 
-H_CelloMusicStaff = {
+G_CelloMusicStaff = {
     \context CelloMusicVoice = "CelloMusicVoice"
-    \H_CelloMusicVoice
+    \G_CelloMusicVoice
 }
