@@ -1,66 +1,66 @@
-D_GlobalRests = {
+E_GlobalRests = {
     
-    % [D GlobalRests measure 301]                                        %! SM4
+    % [E GlobalRests measure 301]                                        %! SM4
     R1 * 3/4
     
-    % [D GlobalRests measure 302]                                        %! SM4
+    % [E GlobalRests measure 302]                                        %! SM4
     R1 * 1
     
-    % [D GlobalRests measure 303]                                        %! SM4
+    % [E GlobalRests measure 303]                                        %! SM4
     R1 * 3/2
     
-    % [D GlobalRests measure 304]                                        %! SM4
+    % [E GlobalRests measure 304]                                        %! SM4
     R1 * 7/4
     
-    % [D GlobalRests measure 305]                                        %! SM4
+    % [E GlobalRests measure 305]                                        %! SM4
     R1 * 1
     
-    % [D GlobalRests measure 306]                                        %! SM4
+    % [E GlobalRests measure 306]                                        %! SM4
     R1 * 3/2
     
-    % [D GlobalRests measure 307]                                        %! SM4
+    % [E GlobalRests measure 307]                                        %! SM4
     R1 * 5/4
     
-    % [D GlobalRests measure 308]                                        %! SM4
+    % [E GlobalRests measure 308]                                        %! SM4
     R1 * 5/4
     
-    % [D GlobalRests measure 309]                                        %! SM4
+    % [E GlobalRests measure 309]                                        %! SM4
     R1 * 5/4
     
-    % [D GlobalRests measure 310]                                        %! SM4
+    % [E GlobalRests measure 310]                                        %! SM4
     R1 * 5/4
     
-    % [D GlobalRests measure 311]                                        %! SM4
+    % [E GlobalRests measure 311]                                        %! SM4
     R1 * 5/4
     
-    % [D GlobalRests measure 312]                                        %! SM4
+    % [E GlobalRests measure 312]                                        %! SM4
     R1 * 5/4
     
-    % [D GlobalRests measure 313]                                        %! SM4
+    % [E GlobalRests measure 313]                                        %! SM4
     R1 * 3/4
     
-    % [D GlobalRests measure 314]                                        %! SM4
+    % [E GlobalRests measure 314]                                        %! SM4
     R1 * 1
     
-    % [D GlobalRests measure 315]                                        %! SM4
+    % [E GlobalRests measure 315]                                        %! SM4
     R1 * 3/2
     
-    % [D GlobalRests measure 316]                                        %! SM4
+    % [E GlobalRests measure 316]                                        %! SM4
     R1 * 1
     
-    % [D GlobalRests measure 317]                                        %! SM4
+    % [E GlobalRests measure 317]                                        %! SM4
     R1 * 3/2
     
-    % [D GlobalRests measure 318]                                        %! SM4
+    % [E GlobalRests measure 318]                                        %! SM4
     R1 * 1
     
-    % [D GlobalRests measure 319]                                        %! SM4
+    % [E GlobalRests measure 319]                                        %! SM4
     R1 * 3/2
     
-    % [D GlobalRests measure 320]                                        %! SM4
+    % [E GlobalRests measure 320]                                        %! SM4
     R1 * 3/4
     
-    % [D GlobalRests measure 321]                                        %! SM4
+    % [E GlobalRests measure 321]                                        %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -72,9 +72,9 @@ D_GlobalRests = {
 }
 
 
-D_GlobalSkips = {
+E_GlobalSkips = {
     
-    % [D GlobalSkips measure 301]                                        %! SM4
+    % [E GlobalSkips measure 301]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -128,7 +128,7 @@ D_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \mark #4                                                             %! SM9
+    \mark #5                                                             %! SM9
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -158,7 +158,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.1]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -179,7 +179,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 302]                                        %! SM4
+    % [E GlobalSkips measure 302]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -223,7 +223,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 303]                                        %! SM4
+    % [E GlobalSkips measure 303]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -254,7 +254,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.2]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -275,7 +275,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 304]                                        %! SM4
+    % [E GlobalSkips measure 304]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 7/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -319,7 +319,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 305]                                        %! SM4
+    % [E GlobalSkips measure 305]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -350,7 +350,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.3]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -371,7 +371,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 306]                                        %! SM4
+    % [E GlobalSkips measure 306]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -415,7 +415,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 307]                                        %! SM4
+    % [E GlobalSkips measure 307]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -446,7 +446,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.4]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -467,7 +467,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 308]                                        %! SM4
+    % [E GlobalSkips measure 308]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -510,7 +510,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 309]                                        %! SM4
+    % [E GlobalSkips measure 309]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -553,7 +553,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 310]                                        %! SM4
+    % [E GlobalSkips measure 310]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -596,7 +596,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 311]                                        %! SM4
+    % [E GlobalSkips measure 311]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -639,7 +639,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 312]                                        %! SM4
+    % [E GlobalSkips measure 312]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -682,7 +682,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 313]                                        %! SM4
+    % [E GlobalSkips measure 313]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -713,7 +713,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.5]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -734,7 +734,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 314]                                        %! SM4
+    % [E GlobalSkips measure 314]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -778,7 +778,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 315]                                        %! SM4
+    % [E GlobalSkips measure 315]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -809,7 +809,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.6]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -830,7 +830,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 316]                                        %! SM4
+    % [E GlobalSkips measure 316]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -874,7 +874,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 317]                                        %! SM4
+    % [E GlobalSkips measure 317]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -905,7 +905,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.7]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.7]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -926,7 +926,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 318]                                        %! SM4
+    % [E GlobalSkips measure 318]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -970,7 +970,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 319]                                        %! SM4
+    % [E GlobalSkips measure 319]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1001,7 +1001,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.8]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.8]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1022,7 +1022,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 320]                                        %! SM4
+    % [E GlobalSkips measure 320]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1066,7 +1066,7 @@ D_GlobalSkips = {
             }
         }
     
-    % [D GlobalSkips measure 321]                                        %! SM4
+    % [E GlobalSkips measure 321]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1098,7 +1098,7 @@ D_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [D.9]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [E.9]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1124,9 +1124,9 @@ D_GlobalSkips = {
 }
 
 
-D_FluteMusicVoice = {
+E_FluteMusicVoice = {
     
-    % [D FluteMusicVoice measure 301]                            %! SM4
+    % [E FluteMusicVoice measure 301]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -1163,11 +1163,11 @@ D_FluteMusicVoice = {
             "B. fl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [D FluteMusicVoice measure 302]                            %! SM4
+    % [E FluteMusicVoice measure 302]                            %! SM4
     R1 * 1
     \times 4/5 {
         
-        % [D FluteMusicVoice measure 303]                        %! SM4
+        % [E FluteMusicVoice measure 303]                        %! SM4
         \makeBlue                                                %! SM24
         c''16
         [
@@ -1258,7 +1258,7 @@ D_FluteMusicVoice = {
     }
     \times 2/3 {
         
-        % [D FluteMusicVoice measure 304]                        %! SM4
+        % [E FluteMusicVoice measure 304]                        %! SM4
         \makeBlue                                                %! SM24
         c''4
         \repeatTie
@@ -1372,69 +1372,69 @@ D_FluteMusicVoice = {
         c''4
     }
     
-    % [D FluteMusicVoice measure 305]                            %! SM4
+    % [E FluteMusicVoice measure 305]                            %! SM4
     R1 * 1
     
-    % [D FluteMusicVoice measure 306]                            %! SM4
+    % [E FluteMusicVoice measure 306]                            %! SM4
     R1 * 3/2
     
-    % [D FluteMusicVoice measure 307]                            %! SM4
+    % [E FluteMusicVoice measure 307]                            %! SM4
     R1 * 5/4
     
-    % [D FluteMusicVoice measure 308]                            %! SM4
+    % [E FluteMusicVoice measure 308]                            %! SM4
     R1 * 5/4
     
-    % [D FluteMusicVoice measure 309]                            %! SM4
+    % [E FluteMusicVoice measure 309]                            %! SM4
     R1 * 5/4
     
-    % [D FluteMusicVoice measure 310]                            %! SM4
+    % [E FluteMusicVoice measure 310]                            %! SM4
     R1 * 5/4
     
-    % [D FluteMusicVoice measure 311]                            %! SM4
+    % [E FluteMusicVoice measure 311]                            %! SM4
     R1 * 5/4
     
-    % [D FluteMusicVoice measure 312]                            %! SM4
+    % [E FluteMusicVoice measure 312]                            %! SM4
     R1 * 5/4
     
-    % [D FluteMusicVoice measure 313]                            %! SM4
+    % [E FluteMusicVoice measure 313]                            %! SM4
     R1 * 3/4
     
-    % [D FluteMusicVoice measure 314]                            %! SM4
+    % [E FluteMusicVoice measure 314]                            %! SM4
     R1 * 1
     
-    % [D FluteMusicVoice measure 315]                            %! SM4
+    % [E FluteMusicVoice measure 315]                            %! SM4
     R1 * 3/2
     
-    % [D FluteMusicVoice measure 316]                            %! SM4
+    % [E FluteMusicVoice measure 316]                            %! SM4
     R1 * 1
     
-    % [D FluteMusicVoice measure 317]                            %! SM4
+    % [E FluteMusicVoice measure 317]                            %! SM4
     R1 * 3/2
     
-    % [D FluteMusicVoice measure 318]                            %! SM4
+    % [E FluteMusicVoice measure 318]                            %! SM4
     R1 * 1
     
-    % [D FluteMusicVoice measure 319]                            %! SM4
+    % [E FluteMusicVoice measure 319]                            %! SM4
     R1 * 3/2
     
-    % [D FluteMusicVoice measure 320]                            %! SM4
+    % [E FluteMusicVoice measure 320]                            %! SM4
     R1 * 3/4
     
-    % [D FluteMusicVoice measure 321]                            %! SM4
+    % [E FluteMusicVoice measure 321]                            %! SM4
     R1 * 1/4
     
 }
 
 
-D_FluteMusicStaff = {
+E_FluteMusicStaff = {
     \context FluteMusicVoice = "FluteMusicVoice"
-    \D_FluteMusicVoice
+    \E_FluteMusicVoice
 }
 
 
-D_EnglishHornMusicVoice = {
+E_EnglishHornMusicVoice = {
     
-    % [D EnglishHornMusicVoice measure 301]                      %! SM4
+    % [E EnglishHornMusicVoice measure 301]                      %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -1475,11 +1475,11 @@ D_EnglishHornMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [D EnglishHornMusicVoice measure 302]                      %! SM4
+    % [E EnglishHornMusicVoice measure 302]                      %! SM4
     R1 * 1
     \times 4/5 {
         
-        % [D EnglishHornMusicVoice measure 303]                  %! SM4
+        % [E EnglishHornMusicVoice measure 303]                  %! SM4
         r16
         
         \makeBlue                                                %! SM24
@@ -1550,7 +1550,7 @@ D_EnglishHornMusicVoice = {
     }
     \times 2/3 {
         
-        % [D EnglishHornMusicVoice measure 304]                  %! SM4
+        % [E EnglishHornMusicVoice measure 304]                  %! SM4
         r4
         
         \makeBlue                                                %! SM24
@@ -1639,76 +1639,76 @@ D_EnglishHornMusicVoice = {
         g'4
     }
     
-    % [D EnglishHornMusicVoice measure 305]                      %! SM4
+    % [E EnglishHornMusicVoice measure 305]                      %! SM4
     R1 * 1
     
-    % [D EnglishHornMusicVoice measure 306]                      %! SM4
+    % [E EnglishHornMusicVoice measure 306]                      %! SM4
     R1 * 3/2
     
-    % [D EnglishHornMusicVoice measure 307]                      %! SM4
+    % [E EnglishHornMusicVoice measure 307]                      %! SM4
     R1 * 5/4
     
-    % [D EnglishHornMusicVoice measure 308]                      %! SM4
+    % [E EnglishHornMusicVoice measure 308]                      %! SM4
     R1 * 5/4
     
-    % [D EnglishHornMusicVoice measure 309]                      %! SM4
+    % [E EnglishHornMusicVoice measure 309]                      %! SM4
     R1 * 5/4
     
-    % [D EnglishHornMusicVoice measure 310]                      %! SM4
+    % [E EnglishHornMusicVoice measure 310]                      %! SM4
     R1 * 5/4
     
-    % [D EnglishHornMusicVoice measure 311]                      %! SM4
+    % [E EnglishHornMusicVoice measure 311]                      %! SM4
     R1 * 5/4
     
-    % [D EnglishHornMusicVoice measure 312]                      %! SM4
+    % [E EnglishHornMusicVoice measure 312]                      %! SM4
     R1 * 5/4
     
-    % [D EnglishHornMusicVoice measure 313]                      %! SM4
+    % [E EnglishHornMusicVoice measure 313]                      %! SM4
     R1 * 3/4
     
-    % [D EnglishHornMusicVoice measure 314]                      %! SM4
+    % [E EnglishHornMusicVoice measure 314]                      %! SM4
     R1 * 1
     
-    % [D EnglishHornMusicVoice measure 315]                      %! SM4
+    % [E EnglishHornMusicVoice measure 315]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1.
     
-    % [D EnglishHornMusicVoice measure 316]                      %! SM4
+    % [E EnglishHornMusicVoice measure 316]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [D EnglishHornMusicVoice measure 317]                      %! SM4
+    % [E EnglishHornMusicVoice measure 317]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1.
     \repeatTie
     
-    % [D EnglishHornMusicVoice measure 318]                      %! SM4
+    % [E EnglishHornMusicVoice measure 318]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [D EnglishHornMusicVoice measure 319]                      %! SM4
+    % [E EnglishHornMusicVoice measure 319]                      %! SM4
     R1 * 3/2
     
-    % [D EnglishHornMusicVoice measure 320]                      %! SM4
+    % [E EnglishHornMusicVoice measure 320]                      %! SM4
     R1 * 3/4
     
-    % [D EnglishHornMusicVoice measure 321]                      %! SM4
+    % [E EnglishHornMusicVoice measure 321]                      %! SM4
     R1 * 1/4
     
 }
 
 
-D_EnglishHornMusicStaff = {
+E_EnglishHornMusicStaff = {
     \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-    \D_EnglishHornMusicVoice
+    \E_EnglishHornMusicVoice
 }
 
 
-D_ClarinetMusicVoice = {
+E_ClarinetMusicVoice = {
     
-    % [D ClarinetMusicVoice measure 301]                         %! SM4
+    % [E ClarinetMusicVoice measure 301]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -1745,11 +1745,11 @@ D_ClarinetMusicVoice = {
             "B. cl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [D ClarinetMusicVoice measure 302]                         %! SM4
+    % [E ClarinetMusicVoice measure 302]                         %! SM4
     R1 * 1
     \times 4/5 {
         
-        % [D ClarinetMusicVoice measure 303]                     %! SM4
+        % [E ClarinetMusicVoice measure 303]                     %! SM4
         \makeBlue                                                %! SM24
         d''16
         [
@@ -1840,7 +1840,7 @@ D_ClarinetMusicVoice = {
     }
     \times 2/3 {
         
-        % [D ClarinetMusicVoice measure 304]                     %! SM4
+        % [E ClarinetMusicVoice measure 304]                     %! SM4
         \makeBlue                                                %! SM24
         d''4
         \repeatTie
@@ -1954,69 +1954,69 @@ D_ClarinetMusicVoice = {
         d''4
     }
     
-    % [D ClarinetMusicVoice measure 305]                         %! SM4
+    % [E ClarinetMusicVoice measure 305]                         %! SM4
     R1 * 1
     
-    % [D ClarinetMusicVoice measure 306]                         %! SM4
+    % [E ClarinetMusicVoice measure 306]                         %! SM4
     R1 * 3/2
     
-    % [D ClarinetMusicVoice measure 307]                         %! SM4
+    % [E ClarinetMusicVoice measure 307]                         %! SM4
     R1 * 5/4
     
-    % [D ClarinetMusicVoice measure 308]                         %! SM4
+    % [E ClarinetMusicVoice measure 308]                         %! SM4
     R1 * 5/4
     
-    % [D ClarinetMusicVoice measure 309]                         %! SM4
+    % [E ClarinetMusicVoice measure 309]                         %! SM4
     R1 * 5/4
     
-    % [D ClarinetMusicVoice measure 310]                         %! SM4
+    % [E ClarinetMusicVoice measure 310]                         %! SM4
     R1 * 5/4
     
-    % [D ClarinetMusicVoice measure 311]                         %! SM4
+    % [E ClarinetMusicVoice measure 311]                         %! SM4
     R1 * 5/4
     
-    % [D ClarinetMusicVoice measure 312]                         %! SM4
+    % [E ClarinetMusicVoice measure 312]                         %! SM4
     R1 * 5/4
     
-    % [D ClarinetMusicVoice measure 313]                         %! SM4
+    % [E ClarinetMusicVoice measure 313]                         %! SM4
     R1 * 3/4
     
-    % [D ClarinetMusicVoice measure 314]                         %! SM4
+    % [E ClarinetMusicVoice measure 314]                         %! SM4
     R1 * 1
     
-    % [D ClarinetMusicVoice measure 315]                         %! SM4
+    % [E ClarinetMusicVoice measure 315]                         %! SM4
     R1 * 3/2
     
-    % [D ClarinetMusicVoice measure 316]                         %! SM4
+    % [E ClarinetMusicVoice measure 316]                         %! SM4
     R1 * 1
     
-    % [D ClarinetMusicVoice measure 317]                         %! SM4
+    % [E ClarinetMusicVoice measure 317]                         %! SM4
     R1 * 3/2
     
-    % [D ClarinetMusicVoice measure 318]                         %! SM4
+    % [E ClarinetMusicVoice measure 318]                         %! SM4
     R1 * 1
     
-    % [D ClarinetMusicVoice measure 319]                         %! SM4
+    % [E ClarinetMusicVoice measure 319]                         %! SM4
     R1 * 3/2
     
-    % [D ClarinetMusicVoice measure 320]                         %! SM4
+    % [E ClarinetMusicVoice measure 320]                         %! SM4
     R1 * 3/4
     
-    % [D ClarinetMusicVoice measure 321]                         %! SM4
+    % [E ClarinetMusicVoice measure 321]                         %! SM4
     R1 * 1/4
     
 }
 
 
-D_ClarinetMusicStaff = {
+E_ClarinetMusicStaff = {
     \context ClarinetMusicVoice = "ClarinetMusicVoice"
-    \D_ClarinetMusicVoice
+    \E_ClarinetMusicVoice
 }
 
 
-D_PianoRHMusicVoice = {
+E_PianoRHMusicVoice = {
     
-    % [D PianoRHMusicVoice measure 301]                      %! SM4
+    % [E PianoRHMusicVoice measure 301]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -2051,24 +2051,24 @@ D_PianoRHMusicVoice = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \override PianoRHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [D PianoRHMusicVoice measure 302]                      %! SM4
+    % [E PianoRHMusicVoice measure 302]                      %! SM4
     r1
     
-    % [D PianoRHMusicVoice measure 303]                      %! SM4
+    % [E PianoRHMusicVoice measure 303]                      %! SM4
     R1 * 3/2
     
-    % [D PianoRHMusicVoice measure 304]                      %! SM4
+    % [E PianoRHMusicVoice measure 304]                      %! SM4
     R1 * 7/4
     
-    % [D PianoRHMusicVoice measure 305]                      %! SM4
+    % [E PianoRHMusicVoice measure 305]                      %! SM4
     R1 * 1
     
-    % [D PianoRHMusicVoice measure 306]                      %! SM4
+    % [E PianoRHMusicVoice measure 306]                      %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [D PianoRHMusicVoice measure 307]                  %! SM4
+        % [E PianoRHMusicVoice measure 307]                  %! SM4
         \makeBlue                                            %! SM24
         c'8
         [
@@ -2199,7 +2199,7 @@ D_PianoRHMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [D PianoRHMusicVoice measure 310]                  %! SM4
+        % [E PianoRHMusicVoice measure 310]                  %! SM4
         \makeBlue                                            %! SM24
         c'8
         [
@@ -2328,45 +2328,45 @@ D_PianoRHMusicVoice = {
         ]
     }
     
-    % [D PianoRHMusicVoice measure 313]                      %! SM4
+    % [E PianoRHMusicVoice measure 313]                      %! SM4
     r2.
     
-    % [D PianoRHMusicVoice measure 314]                      %! SM4
+    % [E PianoRHMusicVoice measure 314]                      %! SM4
     r1
     
-    % [D PianoRHMusicVoice measure 315]                      %! SM4
+    % [E PianoRHMusicVoice measure 315]                      %! SM4
     R1 * 3/2
     
-    % [D PianoRHMusicVoice measure 316]                      %! SM4
+    % [E PianoRHMusicVoice measure 316]                      %! SM4
     R1 * 1
     
-    % [D PianoRHMusicVoice measure 317]                      %! SM4
+    % [E PianoRHMusicVoice measure 317]                      %! SM4
     R1 * 3/2
     
-    % [D PianoRHMusicVoice measure 318]                      %! SM4
+    % [E PianoRHMusicVoice measure 318]                      %! SM4
     R1 * 1
     
-    % [D PianoRHMusicVoice measure 319]                      %! SM4
+    % [E PianoRHMusicVoice measure 319]                      %! SM4
     R1 * 3/2
     
-    % [D PianoRHMusicVoice measure 320]                      %! SM4
+    % [E PianoRHMusicVoice measure 320]                      %! SM4
     R1 * 3/4
     
-    % [D PianoRHMusicVoice measure 321]                      %! SM4
+    % [E PianoRHMusicVoice measure 321]                      %! SM4
     R1 * 1/4
     
 }
 
 
-D_PianoRHMusicStaff = {
+E_PianoRHMusicStaff = {
     \context PianoRHMusicVoice = "PianoRHMusicVoice"
-    \D_PianoRHMusicVoice
+    \E_PianoRHMusicVoice
 }
 
 
-D_PianoLHMusicVoice = {
+E_PianoLHMusicVoice = {
     
-    % [D PianoLHMusicVoice measure 301]                      %! SM4
+    % [E PianoLHMusicVoice measure 301]                      %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override PianoLHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -2374,24 +2374,24 @@ D_PianoLHMusicVoice = {
     R1 * 3/4
     \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [D PianoLHMusicVoice measure 302]                      %! SM4
+    % [E PianoLHMusicVoice measure 302]                      %! SM4
     R1 * 1
     
-    % [D PianoLHMusicVoice measure 303]                      %! SM4
+    % [E PianoLHMusicVoice measure 303]                      %! SM4
     R1 * 3/2
     
-    % [D PianoLHMusicVoice measure 304]                      %! SM4
+    % [E PianoLHMusicVoice measure 304]                      %! SM4
     R1 * 7/4
     
-    % [D PianoLHMusicVoice measure 305]                      %! SM4
+    % [E PianoLHMusicVoice measure 305]                      %! SM4
     R1 * 1
     
-    % [D PianoLHMusicVoice measure 306]                      %! SM4
+    % [E PianoLHMusicVoice measure 306]                      %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [D PianoLHMusicVoice measure 307]                  %! SM4
+        % [E PianoLHMusicVoice measure 307]                  %! SM4
         \makeBlue                                            %! SM24
         c'4
         
@@ -2482,7 +2482,7 @@ D_PianoLHMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [D PianoLHMusicVoice measure 310]                  %! SM4
+        % [E PianoLHMusicVoice measure 310]                  %! SM4
         \makeBlue                                            %! SM24
         c'4
         
@@ -2571,117 +2571,117 @@ D_PianoLHMusicVoice = {
         c'4
     }
     
-    % [D PianoLHMusicVoice measure 313]                      %! SM4
+    % [E PianoLHMusicVoice measure 313]                      %! SM4
     r2.
     
-    % [D PianoLHMusicVoice measure 314]                      %! SM4
+    % [E PianoLHMusicVoice measure 314]                      %! SM4
     r1
     
-    % [D PianoLHMusicVoice measure 315]                      %! SM4
+    % [E PianoLHMusicVoice measure 315]                      %! SM4
     R1 * 3/2
     
-    % [D PianoLHMusicVoice measure 316]                      %! SM4
+    % [E PianoLHMusicVoice measure 316]                      %! SM4
     R1 * 1
     
-    % [D PianoLHMusicVoice measure 317]                      %! SM4
+    % [E PianoLHMusicVoice measure 317]                      %! SM4
     R1 * 3/2
     
-    % [D PianoLHMusicVoice measure 318]                      %! SM4
+    % [E PianoLHMusicVoice measure 318]                      %! SM4
     R1 * 1
     
-    % [D PianoLHMusicVoice measure 319]                      %! SM4
+    % [E PianoLHMusicVoice measure 319]                      %! SM4
     R1 * 3/2
     
-    % [D PianoLHMusicVoice measure 320]                      %! SM4
+    % [E PianoLHMusicVoice measure 320]                      %! SM4
     R1 * 3/4
     
-    % [D PianoLHMusicVoice measure 321]                      %! SM4
+    % [E PianoLHMusicVoice measure 321]                      %! SM4
     R1 * 1/4
     
 }
 
 
-D_PianoLHAttackVoice = {
+E_PianoLHAttackVoice = {
     
-    % [D PianoLHAttackVoice measure 301]                     %! SM4
+    % [E PianoLHAttackVoice measure 301]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 3/4
     \sfz                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [D PianoLHAttackVoice measure 302]                     %! SM4
+    % [E PianoLHAttackVoice measure 302]                     %! SM4
     R1 * 1
     
-    % [D PianoLHAttackVoice measure 303]                     %! SM4
+    % [E PianoLHAttackVoice measure 303]                     %! SM4
     R1 * 3/2
     
-    % [D PianoLHAttackVoice measure 304]                     %! SM4
+    % [E PianoLHAttackVoice measure 304]                     %! SM4
     R1 * 7/4
     
-    % [D PianoLHAttackVoice measure 305]                     %! SM4
+    % [E PianoLHAttackVoice measure 305]                     %! SM4
     R1 * 1
     
-    % [D PianoLHAttackVoice measure 306]                     %! SM4
+    % [E PianoLHAttackVoice measure 306]                     %! SM4
     R1 * 3/2
     
-    % [D PianoLHAttackVoice measure 307]                     %! SM4
+    % [E PianoLHAttackVoice measure 307]                     %! SM4
     R1 * 5/4
     
-    % [D PianoLHAttackVoice measure 308]                     %! SM4
+    % [E PianoLHAttackVoice measure 308]                     %! SM4
     R1 * 5/4
     
-    % [D PianoLHAttackVoice measure 309]                     %! SM4
+    % [E PianoLHAttackVoice measure 309]                     %! SM4
     R1 * 5/4
     
-    % [D PianoLHAttackVoice measure 310]                     %! SM4
+    % [E PianoLHAttackVoice measure 310]                     %! SM4
     R1 * 5/4
     
-    % [D PianoLHAttackVoice measure 311]                     %! SM4
+    % [E PianoLHAttackVoice measure 311]                     %! SM4
     R1 * 5/4
     
-    % [D PianoLHAttackVoice measure 312]                     %! SM4
+    % [E PianoLHAttackVoice measure 312]                     %! SM4
     R1 * 5/4
     
-    % [D PianoLHAttackVoice measure 313]                     %! SM4
+    % [E PianoLHAttackVoice measure 313]                     %! SM4
     R1 * 3/4
     
-    % [D PianoLHAttackVoice measure 314]                     %! SM4
+    % [E PianoLHAttackVoice measure 314]                     %! SM4
     R1 * 1
     
-    % [D PianoLHAttackVoice measure 315]                     %! SM4
+    % [E PianoLHAttackVoice measure 315]                     %! SM4
     R1 * 3/2
     
-    % [D PianoLHAttackVoice measure 316]                     %! SM4
+    % [E PianoLHAttackVoice measure 316]                     %! SM4
     R1 * 1
     
-    % [D PianoLHAttackVoice measure 317]                     %! SM4
+    % [E PianoLHAttackVoice measure 317]                     %! SM4
     R1 * 3/2
     
-    % [D PianoLHAttackVoice measure 318]                     %! SM4
+    % [E PianoLHAttackVoice measure 318]                     %! SM4
     R1 * 1
     
-    % [D PianoLHAttackVoice measure 319]                     %! SM4
+    % [E PianoLHAttackVoice measure 319]                     %! SM4
     R1 * 3/2
     
-    % [D PianoLHAttackVoice measure 320]                     %! SM4
+    % [E PianoLHAttackVoice measure 320]                     %! SM4
     R1 * 3/4
     
-    % [D PianoLHAttackVoice measure 321]                     %! SM4
+    % [E PianoLHAttackVoice measure 321]                     %! SM4
     R1 * 1/4
     
 }
 
 
-D_PianoLHMusicStaff = <<
+E_PianoLHMusicStaff = <<
     \context PianoLHMusicVoice = "PianoLHMusicVoice"
-    \D_PianoLHMusicVoice
+    \E_PianoLHMusicVoice
     \context PianoLHAttackVoice = "PianoLHAttackVoice"
-    \D_PianoLHAttackVoice
+    \E_PianoLHAttackVoice
 >>
 
 
-D_PercussionMusicVoice = {
+E_PercussionMusicVoice = {
     
-    % [D PercussionMusicVoice measure 301]                       %! SM4
+    % [E PercussionMusicVoice measure 301]                       %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 2 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2722,25 +2722,25 @@ D_PercussionMusicVoice = {
             Perc.                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [D PercussionMusicVoice measure 302]                       %! SM4
+    % [E PercussionMusicVoice measure 302]                       %! SM4
     R1 * 1
     
-    % [D PercussionMusicVoice measure 303]                       %! SM4
+    % [E PercussionMusicVoice measure 303]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [D PercussionMusicVoice measure 304]                       %! SM4
+    % [E PercussionMusicVoice measure 304]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [D PercussionMusicVoice measure 305]                       %! SM4
+    % [E PercussionMusicVoice measure 305]                       %! SM4
     R1 * 1
     
-    % [D PercussionMusicVoice measure 306]                       %! SM4
+    % [E PercussionMusicVoice measure 306]                       %! SM4
     R1 * 3/2
     
-    % [D PercussionMusicVoice measure 307]                       %! SM4
+    % [E PercussionMusicVoice measure 307]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2749,7 +2749,7 @@ D_PercussionMusicVoice = {
     
     r2.
     
-    % [D PercussionMusicVoice measure 308]                       %! SM4
+    % [E PercussionMusicVoice measure 308]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2758,7 +2758,7 @@ D_PercussionMusicVoice = {
     
     r2.
     
-    % [D PercussionMusicVoice measure 309]                       %! SM4
+    % [E PercussionMusicVoice measure 309]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2767,7 +2767,7 @@ D_PercussionMusicVoice = {
     
     r2.
     
-    % [D PercussionMusicVoice measure 310]                       %! SM4
+    % [E PercussionMusicVoice measure 310]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2776,7 +2776,7 @@ D_PercussionMusicVoice = {
     
     r2.
     
-    % [D PercussionMusicVoice measure 311]                       %! SM4
+    % [E PercussionMusicVoice measure 311]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2785,7 +2785,7 @@ D_PercussionMusicVoice = {
     
     r2.
     
-    % [D PercussionMusicVoice measure 312]                       %! SM4
+    % [E PercussionMusicVoice measure 312]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2794,52 +2794,52 @@ D_PercussionMusicVoice = {
     
     r2.
     
-    % [D PercussionMusicVoice measure 313]                       %! SM4
+    % [E PercussionMusicVoice measure 313]                       %! SM4
     R1 * 3/4
     
-    % [D PercussionMusicVoice measure 314]                       %! SM4
+    % [E PercussionMusicVoice measure 314]                       %! SM4
     R1 * 1
     
-    % [D PercussionMusicVoice measure 315]                       %! SM4
+    % [E PercussionMusicVoice measure 315]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [D PercussionMusicVoice measure 316]                       %! SM4
+    % [E PercussionMusicVoice measure 316]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D PercussionMusicVoice measure 317]                       %! SM4
+    % [E PercussionMusicVoice measure 317]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [D PercussionMusicVoice measure 318]                       %! SM4
+    % [E PercussionMusicVoice measure 318]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D PercussionMusicVoice measure 319]                       %! SM4
+    % [E PercussionMusicVoice measure 319]                       %! SM4
     R1 * 3/2
     
-    % [D PercussionMusicVoice measure 320]                       %! SM4
+    % [E PercussionMusicVoice measure 320]                       %! SM4
     R1 * 3/4
     
-    % [D PercussionMusicVoice measure 321]                       %! SM4
+    % [E PercussionMusicVoice measure 321]                       %! SM4
     R1 * 1/4
     
 }
 
 
-D_PercussionMusicStaff = {
+E_PercussionMusicStaff = {
     \context PercussionMusicVoice = "PercussionMusicVoice"
-    \D_PercussionMusicVoice
+    \E_PercussionMusicVoice
 }
 
 
-D_ViolinMusicVoice = {
+E_ViolinMusicVoice = {
     
-    % [D ViolinMusicVoice measure 301]                           %! SM4
+    % [E ViolinMusicVoice measure 301]                           %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2880,26 +2880,26 @@ D_ViolinMusicVoice = {
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [D ViolinMusicVoice measure 302]                           %! SM4
+    % [E ViolinMusicVoice measure 302]                           %! SM4
     R1 * 1
     
-    % [D ViolinMusicVoice measure 303]                           %! SM4
+    % [E ViolinMusicVoice measure 303]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [D ViolinMusicVoice measure 304]                           %! SM4
+    % [E ViolinMusicVoice measure 304]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [D ViolinMusicVoice measure 305]                           %! SM4
+    % [E ViolinMusicVoice measure 305]                           %! SM4
     R1 * 1
     
-    % [D ViolinMusicVoice measure 306]                           %! SM4
+    % [E ViolinMusicVoice measure 306]                           %! SM4
     R1 * 3/2
     \times 4/7 {
         
-        % [D ViolinMusicVoice measure 307]                       %! SM4
+        % [E ViolinMusicVoice measure 307]                       %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3025,7 +3025,7 @@ D_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [D ViolinMusicVoice measure 309]                       %! SM4
+        % [E ViolinMusicVoice measure 309]                       %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3151,7 +3151,7 @@ D_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [D ViolinMusicVoice measure 311]                       %! SM4
+        % [E ViolinMusicVoice measure 311]                       %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3276,48 +3276,48 @@ D_ViolinMusicVoice = {
         ]
     }
     
-    % [D ViolinMusicVoice measure 313]                           %! SM4
+    % [E ViolinMusicVoice measure 313]                           %! SM4
     R1 * 3/4
     
-    % [D ViolinMusicVoice measure 314]                           %! SM4
+    % [E ViolinMusicVoice measure 314]                           %! SM4
     R1 * 1
     
-    % [D ViolinMusicVoice measure 315]                           %! SM4
+    % [E ViolinMusicVoice measure 315]                           %! SM4
     R1 * 3/2
     
-    % [D ViolinMusicVoice measure 316]                           %! SM4
+    % [E ViolinMusicVoice measure 316]                           %! SM4
     R1 * 1
     
-    % [D ViolinMusicVoice measure 317]                           %! SM4
+    % [E ViolinMusicVoice measure 317]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [D ViolinMusicVoice measure 318]                           %! SM4
+    % [E ViolinMusicVoice measure 318]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D ViolinMusicVoice measure 319]                           %! SM4
+    % [E ViolinMusicVoice measure 319]                           %! SM4
     R1 * 3/2
     
-    % [D ViolinMusicVoice measure 320]                           %! SM4
+    % [E ViolinMusicVoice measure 320]                           %! SM4
     R1 * 3/4
     
-    % [D ViolinMusicVoice measure 321]                           %! SM4
+    % [E ViolinMusicVoice measure 321]                           %! SM4
     R1 * 1/4
     
 }
 
 
-D_ViolinMusicStaff = {
+E_ViolinMusicStaff = {
     \context ViolinMusicVoice = "ViolinMusicVoice"
-    \D_ViolinMusicVoice
+    \E_ViolinMusicVoice
 }
 
 
-D_ViolaMusicVoice = {
+E_ViolaMusicVoice = {
     
-    % [D ViolaMusicVoice measure 301]                            %! SM4
+    % [E ViolaMusicVoice measure 301]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -3365,32 +3365,32 @@ D_ViolaMusicVoice = {
     \makeBlue                                                    %! SM24
     c'2
     
-    % [D ViolaMusicVoice measure 302]                            %! SM4
+    % [E ViolaMusicVoice measure 302]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D ViolaMusicVoice measure 303]                            %! SM4
+    % [E ViolaMusicVoice measure 303]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [D ViolaMusicVoice measure 304]                            %! SM4
+    % [E ViolaMusicVoice measure 304]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [D ViolaMusicVoice measure 305]                            %! SM4
+    % [E ViolaMusicVoice measure 305]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D ViolaMusicVoice measure 306]                            %! SM4
+    % [E ViolaMusicVoice measure 306]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [D ViolaMusicVoice measure 307]                            %! SM4
+    % [E ViolaMusicVoice measure 307]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3398,7 +3398,7 @@ D_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [D ViolaMusicVoice measure 308]                            %! SM4
+    % [E ViolaMusicVoice measure 308]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3406,7 +3406,7 @@ D_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [D ViolaMusicVoice measure 309]                            %! SM4
+    % [E ViolaMusicVoice measure 309]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3414,7 +3414,7 @@ D_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [D ViolaMusicVoice measure 310]                            %! SM4
+    % [E ViolaMusicVoice measure 310]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3422,7 +3422,7 @@ D_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [D ViolaMusicVoice measure 311]                            %! SM4
+    % [E ViolaMusicVoice measure 311]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3430,7 +3430,7 @@ D_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [D ViolaMusicVoice measure 312]                            %! SM4
+    % [E ViolaMusicVoice measure 312]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3438,61 +3438,61 @@ D_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [D ViolaMusicVoice measure 313]                            %! SM4
+    % [E ViolaMusicVoice measure 313]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [D ViolaMusicVoice measure 314]                            %! SM4
+    % [E ViolaMusicVoice measure 314]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D ViolaMusicVoice measure 315]                            %! SM4
+    % [E ViolaMusicVoice measure 315]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [D ViolaMusicVoice measure 316]                            %! SM4
+    % [E ViolaMusicVoice measure 316]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D ViolaMusicVoice measure 317]                            %! SM4
+    % [E ViolaMusicVoice measure 317]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [D ViolaMusicVoice measure 318]                            %! SM4
+    % [E ViolaMusicVoice measure 318]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D ViolaMusicVoice measure 319]                            %! SM4
+    % [E ViolaMusicVoice measure 319]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [D ViolaMusicVoice measure 320]                            %! SM4
+    % [E ViolaMusicVoice measure 320]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [D ViolaMusicVoice measure 321]                            %! SM4
+    % [E ViolaMusicVoice measure 321]                            %! SM4
     R1 * 1/4
     
 }
 
 
-D_ViolaMusicStaff = {
+E_ViolaMusicStaff = {
     \context ViolaMusicVoice = "ViolaMusicVoice"
-    \D_ViolaMusicVoice
+    \E_ViolaMusicVoice
 }
 
 
-D_CelloMusicVoice = {
+E_CelloMusicVoice = {
     
-    % [D CelloMusicVoice measure 301]                            %! SM4
+    % [E CelloMusicVoice measure 301]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -3533,27 +3533,27 @@ D_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [D CelloMusicVoice measure 302]                            %! SM4
+    % [E CelloMusicVoice measure 302]                            %! SM4
     R1 * 1
     
-    % [D CelloMusicVoice measure 303]                            %! SM4
+    % [E CelloMusicVoice measure 303]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [D CelloMusicVoice measure 304]                            %! SM4
+    % [E CelloMusicVoice measure 304]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [D CelloMusicVoice measure 305]                            %! SM4
+    % [E CelloMusicVoice measure 305]                            %! SM4
     R1 * 1
     
-    % [D CelloMusicVoice measure 306]                            %! SM4
+    % [E CelloMusicVoice measure 306]                            %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [D CelloMusicVoice measure 307]                        %! SM4
+        % [E CelloMusicVoice measure 307]                        %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3729,7 +3729,7 @@ D_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [D CelloMusicVoice measure 310]                        %! SM4
+        % [E CelloMusicVoice measure 310]                        %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3903,40 +3903,40 @@ D_CelloMusicVoice = {
         ]
     }
     
-    % [D CelloMusicVoice measure 313]                            %! SM4
+    % [E CelloMusicVoice measure 313]                            %! SM4
     R1 * 3/4
     
-    % [D CelloMusicVoice measure 314]                            %! SM4
+    % [E CelloMusicVoice measure 314]                            %! SM4
     R1 * 1
     
-    % [D CelloMusicVoice measure 315]                            %! SM4
+    % [E CelloMusicVoice measure 315]                            %! SM4
     R1 * 3/2
     
-    % [D CelloMusicVoice measure 316]                            %! SM4
+    % [E CelloMusicVoice measure 316]                            %! SM4
     R1 * 1
     
-    % [D CelloMusicVoice measure 317]                            %! SM4
+    % [E CelloMusicVoice measure 317]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [D CelloMusicVoice measure 318]                            %! SM4
+    % [E CelloMusicVoice measure 318]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [D CelloMusicVoice measure 319]                            %! SM4
+    % [E CelloMusicVoice measure 319]                            %! SM4
     R1 * 3/2
     
-    % [D CelloMusicVoice measure 320]                            %! SM4
+    % [E CelloMusicVoice measure 320]                            %! SM4
     R1 * 3/4
     
-    % [D CelloMusicVoice measure 321]                            %! SM4
+    % [E CelloMusicVoice measure 321]                            %! SM4
     R1 * 1/4
     
 }
 
 
-D_CelloMusicStaff = {
+E_CelloMusicStaff = {
     \context CelloMusicVoice = "CelloMusicVoice"
-    \D_CelloMusicVoice
+    \E_CelloMusicVoice
 }

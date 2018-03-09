@@ -1,36 +1,36 @@
-H_GlobalRests = {
+I_GlobalRests = {
     
-    % [H GlobalRests measure 578]                                        %! SM4
+    % [I GlobalRests measure 578]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 579]                                        %! SM4
+    % [I GlobalRests measure 579]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 580]                                        %! SM4
+    % [I GlobalRests measure 580]                                        %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 581]                                        %! SM4
+    % [I GlobalRests measure 581]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 582]                                        %! SM4
+    % [I GlobalRests measure 582]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 583]                                        %! SM4
+    % [I GlobalRests measure 583]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 584]                                        %! SM4
+    % [I GlobalRests measure 584]                                        %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 585]                                        %! SM4
+    % [I GlobalRests measure 585]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 586]                                        %! SM4
+    % [I GlobalRests measure 586]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 587]                                        %! SM4
+    % [I GlobalRests measure 587]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 588]                                        %! SM4
+    % [I GlobalRests measure 588]                                        %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -39,13 +39,13 @@ H_GlobalRests = {
             #"scripts.ufermata"                                          %! SM18
         }                                                                %! SM18
     
-    % [H GlobalRests measure 589]                                        %! SM4
+    % [I GlobalRests measure 589]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 590]                                        %! SM4
+    % [I GlobalRests measure 590]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 591]                                        %! SM4
+    % [I GlobalRests measure 591]                                        %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -54,13 +54,13 @@ H_GlobalRests = {
             #"scripts.ufermata"                                          %! SM18
         }                                                                %! SM18
     
-    % [H GlobalRests measure 592]                                        %! SM4
+    % [I GlobalRests measure 592]                                        %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 593]                                        %! SM4
+    % [I GlobalRests measure 593]                                        %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 594]                                        %! SM4
+    % [I GlobalRests measure 594]                                        %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -69,13 +69,13 @@ H_GlobalRests = {
             #"scripts.ufermata"                                          %! SM18
         }                                                                %! SM18
     
-    % [H GlobalRests measure 595]                                        %! SM4
+    % [I GlobalRests measure 595]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 596]                                        %! SM4
+    % [I GlobalRests measure 596]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 597]                                        %! SM4
+    % [I GlobalRests measure 597]                                        %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -84,72 +84,72 @@ H_GlobalRests = {
             #"scripts.ufermata"                                          %! SM18
         }                                                                %! SM18
     
-    % [H GlobalRests measure 598]                                        %! SM4
+    % [I GlobalRests measure 598]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 599]                                        %! SM4
+    % [I GlobalRests measure 599]                                        %! SM4
     R1 * 1/8
     
-    % [H GlobalRests measure 600]                                        %! SM4
+    % [I GlobalRests measure 600]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 601]                                        %! SM4
+    % [I GlobalRests measure 601]                                        %! SM4
     R1 * 1/8
     
-    % [H GlobalRests measure 602]                                        %! SM4
+    % [I GlobalRests measure 602]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 603]                                        %! SM4
+    % [I GlobalRests measure 603]                                        %! SM4
     R1 * 1/8
     
-    % [H GlobalRests measure 604]                                        %! SM4
+    % [I GlobalRests measure 604]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 605]                                        %! SM4
+    % [I GlobalRests measure 605]                                        %! SM4
     R1 * 1/8
     
-    % [H GlobalRests measure 606]                                        %! SM4
+    % [I GlobalRests measure 606]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 607]                                        %! SM4
+    % [I GlobalRests measure 607]                                        %! SM4
     R1 * 1/8
     
-    % [H GlobalRests measure 608]                                        %! SM4
+    % [I GlobalRests measure 608]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 609]                                        %! SM4
+    % [I GlobalRests measure 609]                                        %! SM4
     R1 * 1/8
     
-    % [H GlobalRests measure 610]                                        %! SM4
+    % [I GlobalRests measure 610]                                        %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 611]                                        %! SM4
+    % [I GlobalRests measure 611]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 612]                                        %! SM4
+    % [I GlobalRests measure 612]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 613]                                        %! SM4
+    % [I GlobalRests measure 613]                                        %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 614]                                        %! SM4
+    % [I GlobalRests measure 614]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 615]                                        %! SM4
+    % [I GlobalRests measure 615]                                        %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 616]                                        %! SM4
+    % [I GlobalRests measure 616]                                        %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 617]                                        %! SM4
+    % [I GlobalRests measure 617]                                        %! SM4
     R1 * 1
     
 }
 
 
-H_GlobalSkips = {
+I_GlobalSkips = {
     
-    % [H GlobalSkips measure 578]                                        %! SM4
+    % [I GlobalSkips measure 578]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -203,7 +203,7 @@ H_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \mark #8                                                             %! SM9
+    \mark #9                                                             %! SM9
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -233,7 +233,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.1]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -254,7 +254,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 579]                                        %! SM4
+    % [I GlobalSkips measure 579]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -298,7 +298,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 580]                                        %! SM4
+    % [I GlobalSkips measure 580]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -329,7 +329,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.2]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -350,7 +350,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 581]                                        %! SM4
+    % [I GlobalSkips measure 581]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -394,7 +394,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 582]                                        %! SM4
+    % [I GlobalSkips measure 582]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -424,7 +424,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.3]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -445,7 +445,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 583]                                        %! SM4
+    % [I GlobalSkips measure 583]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -489,7 +489,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 584]                                        %! SM4
+    % [I GlobalSkips measure 584]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -520,7 +520,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.4]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -541,7 +541,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 585]                                        %! SM4
+    % [I GlobalSkips measure 585]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -585,7 +585,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 586]                                        %! SM4
+    % [I GlobalSkips measure 586]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -615,7 +615,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.5]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -636,7 +636,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 587]                                        %! SM4
+    % [I GlobalSkips measure 587]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -680,7 +680,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 588]                                        %! SM4
+    % [I GlobalSkips measure 588]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -711,7 +711,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.6]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -732,7 +732,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 589]                                        %! SM4
+    % [I GlobalSkips measure 589]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -763,7 +763,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.7]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.7]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -784,7 +784,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 590]                                        %! SM4
+    % [I GlobalSkips measure 590]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -828,7 +828,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 591]                                        %! SM4
+    % [I GlobalSkips measure 591]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -859,7 +859,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.8]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.8]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -880,7 +880,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 592]                                        %! SM4
+    % [I GlobalSkips measure 592]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -911,7 +911,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.9]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.9]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -932,7 +932,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 593]                                        %! SM4
+    % [I GlobalSkips measure 593]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -975,7 +975,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 594]                                        %! SM4
+    % [I GlobalSkips measure 594]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1006,7 +1006,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.10]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.10]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1027,7 +1027,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 595]                                        %! SM4
+    % [I GlobalSkips measure 595]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1058,7 +1058,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.11]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.11]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1079,7 +1079,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 596]                                        %! SM4
+    % [I GlobalSkips measure 596]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1123,7 +1123,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 597]                                        %! SM4
+    % [I GlobalSkips measure 597]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1154,7 +1154,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.12]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.12]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1175,7 +1175,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 598]                                        %! SM4
+    % [I GlobalSkips measure 598]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1206,7 +1206,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.13]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.13]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1227,7 +1227,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 599]                                        %! SM4
+    % [I GlobalSkips measure 599]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1258,7 +1258,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.14]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.14]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1279,7 +1279,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 600]                                        %! SM4
+    % [I GlobalSkips measure 600]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1310,7 +1310,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.15]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.15]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1331,7 +1331,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 601]                                        %! SM4
+    % [I GlobalSkips measure 601]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1362,7 +1362,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.16]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.16]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1383,7 +1383,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 602]                                        %! SM4
+    % [I GlobalSkips measure 602]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1414,7 +1414,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.17]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.17]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1435,7 +1435,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 603]                                        %! SM4
+    % [I GlobalSkips measure 603]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1466,7 +1466,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.18]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.18]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1487,7 +1487,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 604]                                        %! SM4
+    % [I GlobalSkips measure 604]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1518,7 +1518,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.19]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.19]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1539,7 +1539,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 605]                                        %! SM4
+    % [I GlobalSkips measure 605]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1570,7 +1570,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.20]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.20]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1591,7 +1591,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 606]                                        %! SM4
+    % [I GlobalSkips measure 606]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1622,7 +1622,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.21]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.21]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1643,7 +1643,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 607]                                        %! SM4
+    % [I GlobalSkips measure 607]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1674,7 +1674,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.22]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.22]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1695,7 +1695,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 608]                                        %! SM4
+    % [I GlobalSkips measure 608]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1726,7 +1726,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.23]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.23]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1747,7 +1747,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 609]                                        %! SM4
+    % [I GlobalSkips measure 609]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1778,7 +1778,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.24]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.24]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1799,7 +1799,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 610]                                        %! SM4
+    % [I GlobalSkips measure 610]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1830,7 +1830,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.25]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.25]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1851,7 +1851,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 611]                                        %! SM4
+    % [I GlobalSkips measure 611]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1895,7 +1895,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 612]                                        %! SM4
+    % [I GlobalSkips measure 612]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1926,7 +1926,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.26]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.26]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1947,7 +1947,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 613]                                        %! SM4
+    % [I GlobalSkips measure 613]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1991,7 +1991,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 614]                                        %! SM4
+    % [I GlobalSkips measure 614]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2022,7 +2022,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.27]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.27]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2043,7 +2043,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 615]                                        %! SM4
+    % [I GlobalSkips measure 615]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2087,7 +2087,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 616]                                        %! SM4
+    % [I GlobalSkips measure 616]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2118,7 +2118,7 @@ H_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [H.28]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [I.28]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2139,7 +2139,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 617]                                        %! SM4
+    % [I GlobalSkips measure 617]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2189,10 +2189,10 @@ H_GlobalSkips = {
 }
 
 
-H_FluteMusicVoice = {
+I_FluteMusicVoice = {
     \times 4/5 {
         
-        % [H FluteMusicVoice measure 578]                        %! SM4
+        % [I FluteMusicVoice measure 578]                        %! SM4
         \set FluteMusicStaff.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -2282,7 +2282,7 @@ H_FluteMusicVoice = {
     }
     \times 2/3 {
         
-        % [H FluteMusicVoice measure 579]                        %! SM4
+        % [I FluteMusicVoice measure 579]                        %! SM4
         \makeBlue                                                %! SM24
         c''8
         \repeatTie
@@ -2328,7 +2328,7 @@ H_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [H FluteMusicVoice measure 580]                        %! SM4
+        % [I FluteMusicVoice measure 580]                        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         c''8
@@ -2367,7 +2367,7 @@ H_FluteMusicVoice = {
     }
     \times 4/5 {
         
-        % [H FluteMusicVoice measure 581]                        %! SM4
+        % [I FluteMusicVoice measure 581]                        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         c''16
@@ -2435,7 +2435,7 @@ H_FluteMusicVoice = {
     }
     \times 4/5 {
         
-        % [H FluteMusicVoice measure 582]                        %! SM4
+        % [I FluteMusicVoice measure 582]                        %! SM4
         \makeBlue                                                %! SM24
         c''16
         \repeatTie
@@ -2487,7 +2487,7 @@ H_FluteMusicVoice = {
     }
     \times 4/5 {
         
-        % [H FluteMusicVoice measure 583]                        %! SM4
+        % [I FluteMusicVoice measure 583]                        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         c''16
@@ -2555,7 +2555,7 @@ H_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [H FluteMusicVoice measure 584]                        %! SM4
+        % [I FluteMusicVoice measure 584]                        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         c''8
@@ -2578,7 +2578,7 @@ H_FluteMusicVoice = {
     }
     \times 4/5 {
         
-        % [H FluteMusicVoice measure 585]                        %! SM4
+        % [I FluteMusicVoice measure 585]                        %! SM4
         \makeBlue                                                %! SM24
         c''16
         \repeatTie
@@ -2612,16 +2612,16 @@ H_FluteMusicVoice = {
         c''8
     }
     
-    % [H FluteMusicVoice measure 586]                            %! SM4
+    % [I FluteMusicVoice measure 586]                            %! SM4
     R1 * 3/4
     
-    % [H FluteMusicVoice measure 587]                            %! SM4
+    % [I FluteMusicVoice measure 587]                            %! SM4
     R1 * 1
     
-    % [H FluteMusicVoice measure 588]                            %! SM4
+    % [I FluteMusicVoice measure 588]                            %! SM4
     R1 * 1/4
     
-    % [H FluteMusicVoice measure 589]                            %! SM4
+    % [I FluteMusicVoice measure 589]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2631,7 +2631,7 @@ H_FluteMusicVoice = {
     c''2
     ~
     
-    % [H FluteMusicVoice measure 590]                            %! SM4
+    % [I FluteMusicVoice measure 590]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2640,23 +2640,23 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 591]                            %! SM4
+    % [I FluteMusicVoice measure 591]                            %! SM4
     R1 * 1/4
     
-    % [H FluteMusicVoice measure 592]                            %! SM4
+    % [I FluteMusicVoice measure 592]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
     r16
     
-    % [H FluteMusicVoice measure 593]                            %! SM4
+    % [I FluteMusicVoice measure 593]                            %! SM4
     \makeBlue                                                    %! SM24
     c''2
     
-    % [H FluteMusicVoice measure 594]                            %! SM4
+    % [I FluteMusicVoice measure 594]                            %! SM4
     R1 * 1/4
     
-    % [H FluteMusicVoice measure 595]                            %! SM4
+    % [I FluteMusicVoice measure 595]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2666,7 +2666,7 @@ H_FluteMusicVoice = {
     c''4
     ~
     
-    % [H FluteMusicVoice measure 596]                            %! SM4
+    % [I FluteMusicVoice measure 596]                            %! SM4
     \makeBlue                                                    %! SM24
     c''2
     ~
@@ -2679,10 +2679,10 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 597]                            %! SM4
+    % [I FluteMusicVoice measure 597]                            %! SM4
     R1 * 1/4
     
-    % [H FluteMusicVoice measure 598]                            %! SM4
+    % [I FluteMusicVoice measure 598]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2691,10 +2691,10 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 599]                            %! SM4
+    % [I FluteMusicVoice measure 599]                            %! SM4
     R1 * 1/8
     
-    % [H FluteMusicVoice measure 600]                            %! SM4
+    % [I FluteMusicVoice measure 600]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2703,10 +2703,10 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 601]                            %! SM4
+    % [I FluteMusicVoice measure 601]                            %! SM4
     R1 * 1/8
     
-    % [H FluteMusicVoice measure 602]                            %! SM4
+    % [I FluteMusicVoice measure 602]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2715,10 +2715,10 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 603]                            %! SM4
+    % [I FluteMusicVoice measure 603]                            %! SM4
     R1 * 1/8
     
-    % [H FluteMusicVoice measure 604]                            %! SM4
+    % [I FluteMusicVoice measure 604]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2727,10 +2727,10 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 605]                            %! SM4
+    % [I FluteMusicVoice measure 605]                            %! SM4
     R1 * 1/8
     
-    % [H FluteMusicVoice measure 606]                            %! SM4
+    % [I FluteMusicVoice measure 606]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2739,10 +2739,10 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 607]                            %! SM4
+    % [I FluteMusicVoice measure 607]                            %! SM4
     R1 * 1/8
     
-    % [H FluteMusicVoice measure 608]                            %! SM4
+    % [I FluteMusicVoice measure 608]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
@@ -2751,21 +2751,21 @@ H_FluteMusicVoice = {
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 609]                            %! SM4
+    % [I FluteMusicVoice measure 609]                            %! SM4
     R1 * 1/8
     
-    % [H FluteMusicVoice measure 610]                            %! SM4
+    % [I FluteMusicVoice measure 610]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4..
     
     r16
     
-    % [H FluteMusicVoice measure 611]                            %! SM4
+    % [I FluteMusicVoice measure 611]                            %! SM4
     \makeBlue                                                    %! SM24
     c''2.
     ~
     
-    % [H FluteMusicVoice measure 612]                            %! SM4
+    % [I FluteMusicVoice measure 612]                            %! SM4
     \makeBlue                                                    %! SM24
     c''8.
     
@@ -2775,37 +2775,37 @@ H_FluteMusicVoice = {
     c''2.
     ~
     
-    % [H FluteMusicVoice measure 613]                            %! SM4
+    % [I FluteMusicVoice measure 613]                            %! SM4
     \makeBlue                                                    %! SM24
     c''4
     
     \makeBlue                                                    %! SM24
     c''4
     
-    % [H FluteMusicVoice measure 614]                            %! SM4
+    % [I FluteMusicVoice measure 614]                            %! SM4
     R1 * 3/4
     
-    % [H FluteMusicVoice measure 615]                            %! SM4
+    % [I FluteMusicVoice measure 615]                            %! SM4
     R1 * 1
     
-    % [H FluteMusicVoice measure 616]                            %! SM4
+    % [I FluteMusicVoice measure 616]                            %! SM4
     R1 * 3/4
     
-    % [H FluteMusicVoice measure 617]                            %! SM4
+    % [I FluteMusicVoice measure 617]                            %! SM4
     R1 * 1
     
 }
 
 
-H_FluteMusicStaff = {
+I_FluteMusicStaff = {
     \context FluteMusicVoice = "FluteMusicVoice"
-    \H_FluteMusicVoice
+    \I_FluteMusicVoice
 }
 
 
-H_EnglishHornMusicVoice = {
+I_EnglishHornMusicVoice = {
     
-    % [H EnglishHornMusicVoice measure 578]                      %! SM4
+    % [I EnglishHornMusicVoice measure 578]                      %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2846,67 +2846,67 @@ H_EnglishHornMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [H EnglishHornMusicVoice measure 579]                      %! SM4
+    % [I EnglishHornMusicVoice measure 579]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 580]                      %! SM4
+    % [I EnglishHornMusicVoice measure 580]                      %! SM4
     R1 * 1/2
     
-    % [H EnglishHornMusicVoice measure 581]                      %! SM4
+    % [I EnglishHornMusicVoice measure 581]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 582]                      %! SM4
+    % [I EnglishHornMusicVoice measure 582]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 583]                      %! SM4
+    % [I EnglishHornMusicVoice measure 583]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 584]                      %! SM4
+    % [I EnglishHornMusicVoice measure 584]                      %! SM4
     R1 * 1/2
     
-    % [H EnglishHornMusicVoice measure 585]                      %! SM4
+    % [I EnglishHornMusicVoice measure 585]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 586]                      %! SM4
+    % [I EnglishHornMusicVoice measure 586]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 587]                      %! SM4
+    % [I EnglishHornMusicVoice measure 587]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 588]                      %! SM4
+    % [I EnglishHornMusicVoice measure 588]                      %! SM4
     R1 * 1/4
     
-    % [H EnglishHornMusicVoice measure 589]                      %! SM4
+    % [I EnglishHornMusicVoice measure 589]                      %! SM4
     \makeBlue                                                    %! SM24
     g'2..
     
     r8
     
-    % [H EnglishHornMusicVoice measure 590]                      %! SM4
+    % [I EnglishHornMusicVoice measure 590]                      %! SM4
     r4.
     
     \makeBlue                                                    %! SM24
     g'4.
     
-    % [H EnglishHornMusicVoice measure 591]                      %! SM4
+    % [I EnglishHornMusicVoice measure 591]                      %! SM4
     R1 * 1/4
     
-    % [H EnglishHornMusicVoice measure 592]                      %! SM4
+    % [I EnglishHornMusicVoice measure 592]                      %! SM4
     R1 * 1/2
     
-    % [H EnglishHornMusicVoice measure 593]                      %! SM4
+    % [I EnglishHornMusicVoice measure 593]                      %! SM4
     R1 * 1/2
     
-    % [H EnglishHornMusicVoice measure 594]                      %! SM4
+    % [I EnglishHornMusicVoice measure 594]                      %! SM4
     R1 * 1/4
     
-    % [H EnglishHornMusicVoice measure 595]                      %! SM4
+    % [I EnglishHornMusicVoice measure 595]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 596]                      %! SM4
+    % [I EnglishHornMusicVoice measure 596]                      %! SM4
     R1 * 1
     
-    % [H EnglishHornMusicVoice measure 597]                      %! SM4
+    % [I EnglishHornMusicVoice measure 597]                      %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -2946,7 +2946,7 @@ H_EnglishHornMusicVoice = {
         }
     \times 1/1 {
         
-        % [H EnglishHornMusicVoice measure 598]                  %! SM4
+        % [I EnglishHornMusicVoice measure 598]                  %! SM4
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
@@ -2966,7 +2966,7 @@ H_EnglishHornMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H EnglishHornMusicVoice measure 599]                      %! SM4
+    % [I EnglishHornMusicVoice measure 599]                      %! SM4
     R1 * 1/8
     \override TupletNumber.text = \markup {
         \scale
@@ -3006,7 +3006,7 @@ H_EnglishHornMusicVoice = {
         }
     \times 1/1 {
         
-        % [H EnglishHornMusicVoice measure 600]                  %! SM4
+        % [I EnglishHornMusicVoice measure 600]                  %! SM4
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
@@ -3026,7 +3026,7 @@ H_EnglishHornMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H EnglishHornMusicVoice measure 601]                      %! SM4
+    % [I EnglishHornMusicVoice measure 601]                      %! SM4
     R1 * 1/8
     \override TupletNumber.text = \markup {
         \scale
@@ -3066,7 +3066,7 @@ H_EnglishHornMusicVoice = {
         }
     \times 1/1 {
         
-        % [H EnglishHornMusicVoice measure 602]                  %! SM4
+        % [I EnglishHornMusicVoice measure 602]                  %! SM4
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
@@ -3086,7 +3086,7 @@ H_EnglishHornMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H EnglishHornMusicVoice measure 603]                      %! SM4
+    % [I EnglishHornMusicVoice measure 603]                      %! SM4
     R1 * 1/8
     \override TupletNumber.text = \markup {
         \scale
@@ -3126,7 +3126,7 @@ H_EnglishHornMusicVoice = {
         }
     \times 1/1 {
         
-        % [H EnglishHornMusicVoice measure 604]                  %! SM4
+        % [I EnglishHornMusicVoice measure 604]                  %! SM4
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
@@ -3146,7 +3146,7 @@ H_EnglishHornMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H EnglishHornMusicVoice measure 605]                      %! SM4
+    % [I EnglishHornMusicVoice measure 605]                      %! SM4
     R1 * 1/8
     \override TupletNumber.text = \markup {
         \scale
@@ -3186,7 +3186,7 @@ H_EnglishHornMusicVoice = {
         }
     \times 1/1 {
         
-        % [H EnglishHornMusicVoice measure 606]                  %! SM4
+        % [I EnglishHornMusicVoice measure 606]                  %! SM4
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
@@ -3206,7 +3206,7 @@ H_EnglishHornMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H EnglishHornMusicVoice measure 607]                      %! SM4
+    % [I EnglishHornMusicVoice measure 607]                      %! SM4
     R1 * 1/8
     \override TupletNumber.text = \markup {
         \scale
@@ -3246,7 +3246,7 @@ H_EnglishHornMusicVoice = {
         }
     \times 1/1 {
         
-        % [H EnglishHornMusicVoice measure 608]                  %! SM4
+        % [I EnglishHornMusicVoice measure 608]                  %! SM4
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
@@ -3266,57 +3266,57 @@ H_EnglishHornMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H EnglishHornMusicVoice measure 609]                      %! SM4
+    % [I EnglishHornMusicVoice measure 609]                      %! SM4
     R1 * 1/8
     
-    % [H EnglishHornMusicVoice measure 610]                      %! SM4
+    % [I EnglishHornMusicVoice measure 610]                      %! SM4
     \makeBlue                                                    %! SM24
     g'2
     
-    % [H EnglishHornMusicVoice measure 611]                      %! SM4
+    % [I EnglishHornMusicVoice measure 611]                      %! SM4
     \makeBlue                                                    %! SM24
     g'2.
     \repeatTie
     
-    % [H EnglishHornMusicVoice measure 612]                      %! SM4
+    % [I EnglishHornMusicVoice measure 612]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [H EnglishHornMusicVoice measure 613]                      %! SM4
+    % [I EnglishHornMusicVoice measure 613]                      %! SM4
     \makeBlue                                                    %! SM24
     g'2
     \repeatTie
     
-    % [H EnglishHornMusicVoice measure 614]                      %! SM4
+    % [I EnglishHornMusicVoice measure 614]                      %! SM4
     \makeBlue                                                    %! SM24
     g'2.
     \repeatTie
     
-    % [H EnglishHornMusicVoice measure 615]                      %! SM4
+    % [I EnglishHornMusicVoice measure 615]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [H EnglishHornMusicVoice measure 616]                      %! SM4
+    % [I EnglishHornMusicVoice measure 616]                      %! SM4
     R1 * 3/4
     
-    % [H EnglishHornMusicVoice measure 617]                      %! SM4
+    % [I EnglishHornMusicVoice measure 617]                      %! SM4
     R1 * 1
     
 }
 
 
-H_EnglishHornMusicStaff = {
+I_EnglishHornMusicStaff = {
     \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-    \H_EnglishHornMusicVoice
+    \I_EnglishHornMusicVoice
 }
 
 
-H_ClarinetMusicVoice = {
+I_ClarinetMusicVoice = {
     \times 4/5 {
         
-        % [H ClarinetMusicVoice measure 578]                     %! SM4
+        % [I ClarinetMusicVoice measure 578]                     %! SM4
         \set ClarinetMusicStaff.instrumentName = \markup {       %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -3406,7 +3406,7 @@ H_ClarinetMusicVoice = {
     }
     \times 2/3 {
         
-        % [H ClarinetMusicVoice measure 579]                     %! SM4
+        % [I ClarinetMusicVoice measure 579]                     %! SM4
         \makeBlue                                                %! SM24
         d''8
         \repeatTie
@@ -3452,7 +3452,7 @@ H_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [H ClarinetMusicVoice measure 580]                     %! SM4
+        % [I ClarinetMusicVoice measure 580]                     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         d''8
@@ -3491,7 +3491,7 @@ H_ClarinetMusicVoice = {
     }
     \times 4/5 {
         
-        % [H ClarinetMusicVoice measure 581]                     %! SM4
+        % [I ClarinetMusicVoice measure 581]                     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         d''16
@@ -3559,7 +3559,7 @@ H_ClarinetMusicVoice = {
     }
     \times 4/5 {
         
-        % [H ClarinetMusicVoice measure 582]                     %! SM4
+        % [I ClarinetMusicVoice measure 582]                     %! SM4
         \makeBlue                                                %! SM24
         d''16
         \repeatTie
@@ -3611,7 +3611,7 @@ H_ClarinetMusicVoice = {
     }
     \times 4/5 {
         
-        % [H ClarinetMusicVoice measure 583]                     %! SM4
+        % [I ClarinetMusicVoice measure 583]                     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         d''16
@@ -3679,7 +3679,7 @@ H_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [H ClarinetMusicVoice measure 584]                     %! SM4
+        % [I ClarinetMusicVoice measure 584]                     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
         d''8
@@ -3702,7 +3702,7 @@ H_ClarinetMusicVoice = {
     }
     \times 4/5 {
         
-        % [H ClarinetMusicVoice measure 585]                     %! SM4
+        % [I ClarinetMusicVoice measure 585]                     %! SM4
         \makeBlue                                                %! SM24
         d''16
         \repeatTie
@@ -3736,48 +3736,48 @@ H_ClarinetMusicVoice = {
         d''8
     }
     
-    % [H ClarinetMusicVoice measure 586]                         %! SM4
+    % [I ClarinetMusicVoice measure 586]                         %! SM4
     R1 * 3/4
     
-    % [H ClarinetMusicVoice measure 587]                         %! SM4
+    % [I ClarinetMusicVoice measure 587]                         %! SM4
     R1 * 1
     
-    % [H ClarinetMusicVoice measure 588]                         %! SM4
+    % [I ClarinetMusicVoice measure 588]                         %! SM4
     R1 * 1/4
     
-    % [H ClarinetMusicVoice measure 589]                         %! SM4
+    % [I ClarinetMusicVoice measure 589]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2...
     
     r16
     
-    % [H ClarinetMusicVoice measure 590]                         %! SM4
+    % [I ClarinetMusicVoice measure 590]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 591]                         %! SM4
+    % [I ClarinetMusicVoice measure 591]                         %! SM4
     R1 * 1/4
     
-    % [H ClarinetMusicVoice measure 592]                         %! SM4
+    % [I ClarinetMusicVoice measure 592]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2
     ~
     
-    % [H ClarinetMusicVoice measure 593]                         %! SM4
+    % [I ClarinetMusicVoice measure 593]                         %! SM4
     \makeBlue                                                    %! SM24
     d''4..
     
     r16
     
-    % [H ClarinetMusicVoice measure 594]                         %! SM4
+    % [I ClarinetMusicVoice measure 594]                         %! SM4
     R1 * 1/4
     
-    % [H ClarinetMusicVoice measure 595]                         %! SM4
+    % [I ClarinetMusicVoice measure 595]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     ~
     
-    % [H ClarinetMusicVoice measure 596]                         %! SM4
+    % [I ClarinetMusicVoice measure 596]                         %! SM4
     \makeBlue                                                    %! SM24
     d''8.
     
@@ -3786,57 +3786,57 @@ H_ClarinetMusicVoice = {
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 597]                         %! SM4
+    % [I ClarinetMusicVoice measure 597]                         %! SM4
     R1 * 1/4
     
-    % [H ClarinetMusicVoice measure 598]                         %! SM4
+    % [I ClarinetMusicVoice measure 598]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 599]                         %! SM4
+    % [I ClarinetMusicVoice measure 599]                         %! SM4
     R1 * 1/8
     
-    % [H ClarinetMusicVoice measure 600]                         %! SM4
+    % [I ClarinetMusicVoice measure 600]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 601]                         %! SM4
+    % [I ClarinetMusicVoice measure 601]                         %! SM4
     R1 * 1/8
     
-    % [H ClarinetMusicVoice measure 602]                         %! SM4
+    % [I ClarinetMusicVoice measure 602]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 603]                         %! SM4
+    % [I ClarinetMusicVoice measure 603]                         %! SM4
     R1 * 1/8
     
-    % [H ClarinetMusicVoice measure 604]                         %! SM4
+    % [I ClarinetMusicVoice measure 604]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 605]                         %! SM4
+    % [I ClarinetMusicVoice measure 605]                         %! SM4
     R1 * 1/8
     
-    % [H ClarinetMusicVoice measure 606]                         %! SM4
+    % [I ClarinetMusicVoice measure 606]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 607]                         %! SM4
+    % [I ClarinetMusicVoice measure 607]                         %! SM4
     R1 * 1/8
     
-    % [H ClarinetMusicVoice measure 608]                         %! SM4
+    % [I ClarinetMusicVoice measure 608]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
-    % [H ClarinetMusicVoice measure 609]                         %! SM4
+    % [I ClarinetMusicVoice measure 609]                         %! SM4
     R1 * 1/8
     
-    % [H ClarinetMusicVoice measure 610]                         %! SM4
+    % [I ClarinetMusicVoice measure 610]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2
     ~
     
-    % [H ClarinetMusicVoice measure 611]                         %! SM4
+    % [I ClarinetMusicVoice measure 611]                         %! SM4
     \makeBlue                                                    %! SM24
     d''4..
     
@@ -3846,7 +3846,7 @@ H_ClarinetMusicVoice = {
     d''4
     ~
     
-    % [H ClarinetMusicVoice measure 612]                         %! SM4
+    % [I ClarinetMusicVoice measure 612]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
     
@@ -3854,34 +3854,34 @@ H_ClarinetMusicVoice = {
     d''4
     ~
     
-    % [H ClarinetMusicVoice measure 613]                         %! SM4
+    % [I ClarinetMusicVoice measure 613]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2
     
-    % [H ClarinetMusicVoice measure 614]                         %! SM4
+    % [I ClarinetMusicVoice measure 614]                         %! SM4
     R1 * 3/4
     
-    % [H ClarinetMusicVoice measure 615]                         %! SM4
+    % [I ClarinetMusicVoice measure 615]                         %! SM4
     R1 * 1
     
-    % [H ClarinetMusicVoice measure 616]                         %! SM4
+    % [I ClarinetMusicVoice measure 616]                         %! SM4
     R1 * 3/4
     
-    % [H ClarinetMusicVoice measure 617]                         %! SM4
+    % [I ClarinetMusicVoice measure 617]                         %! SM4
     R1 * 1
     
 }
 
 
-H_ClarinetMusicStaff = {
+I_ClarinetMusicStaff = {
     \context ClarinetMusicVoice = "ClarinetMusicVoice"
-    \H_ClarinetMusicVoice
+    \I_ClarinetMusicVoice
 }
 
 
-H_PianoRHMusicVoice = {
+I_PianoRHMusicVoice = {
     
-    % [H PianoRHMusicVoice measure 578]                      %! SM4
+    % [I PianoRHMusicVoice measure 578]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -3923,7 +3923,7 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 579]                      %! SM4
+    % [I PianoRHMusicVoice measure 579]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -3936,27 +3936,14 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 580]                      %! SM4
+    % [I PianoRHMusicVoice measure 580]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 581]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'4
-    
-    \makeBlue                                                %! SM24
-    c'4
-    
-    \makeBlue                                                %! SM24
-    c'4
-    
-    \makeBlue                                                %! SM24
-    c'4
-    
-    % [H PianoRHMusicVoice measure 582]                      %! SM4
+    % [I PianoRHMusicVoice measure 581]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -3969,7 +3956,7 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 583]                      %! SM4
+    % [I PianoRHMusicVoice measure 582]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -3979,22 +3966,35 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 584]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [I PianoRHMusicVoice measure 583]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [I PianoRHMusicVoice measure 584]                      %! SM4
     R1 * 1/2
     
-    % [H PianoRHMusicVoice measure 585]                      %! SM4
+    % [I PianoRHMusicVoice measure 585]                      %! SM4
     R1 * 3/4
     
-    % [H PianoRHMusicVoice measure 586]                      %! SM4
+    % [I PianoRHMusicVoice measure 586]                      %! SM4
     R1 * 3/4
     
-    % [H PianoRHMusicVoice measure 587]                      %! SM4
+    % [I PianoRHMusicVoice measure 587]                      %! SM4
     R1 * 1
     
-    % [H PianoRHMusicVoice measure 588]                      %! SM4
+    % [I PianoRHMusicVoice measure 588]                      %! SM4
     R1 * 1/4
     
-    % [H PianoRHMusicVoice measure 589]                      %! SM4
+    % [I PianoRHMusicVoice measure 589]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4007,7 +4007,7 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 590]                      %! SM4
+    % [I PianoRHMusicVoice measure 590]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4017,27 +4017,27 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 591]                      %! SM4
+    % [I PianoRHMusicVoice measure 591]                      %! SM4
     R1 * 1/4
     
-    % [H PianoRHMusicVoice measure 592]                      %! SM4
+    % [I PianoRHMusicVoice measure 592]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 593]                      %! SM4
+    % [I PianoRHMusicVoice measure 593]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 594]                      %! SM4
+    % [I PianoRHMusicVoice measure 594]                      %! SM4
     R1 * 1/4
     
-    % [H PianoRHMusicVoice measure 595]                      %! SM4
+    % [I PianoRHMusicVoice measure 595]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4047,7 +4047,7 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 596]                      %! SM4
+    % [I PianoRHMusicVoice measure 596]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4060,10 +4060,10 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 597]                      %! SM4
+    % [I PianoRHMusicVoice measure 597]                      %! SM4
     R1 * 1/4
     
-    % [H PianoRHMusicVoice measure 598]                      %! SM4
+    % [I PianoRHMusicVoice measure 598]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4073,10 +4073,10 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 599]                      %! SM4
+    % [I PianoRHMusicVoice measure 599]                      %! SM4
     R1 * 1/8
     
-    % [H PianoRHMusicVoice measure 600]                      %! SM4
+    % [I PianoRHMusicVoice measure 600]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4086,10 +4086,10 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 601]                      %! SM4
+    % [I PianoRHMusicVoice measure 601]                      %! SM4
     R1 * 1/8
     
-    % [H PianoRHMusicVoice measure 602]                      %! SM4
+    % [I PianoRHMusicVoice measure 602]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4099,10 +4099,10 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 603]                      %! SM4
+    % [I PianoRHMusicVoice measure 603]                      %! SM4
     R1 * 1/8
     
-    % [H PianoRHMusicVoice measure 604]                      %! SM4
+    % [I PianoRHMusicVoice measure 604]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4112,10 +4112,10 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 605]                      %! SM4
+    % [I PianoRHMusicVoice measure 605]                      %! SM4
     R1 * 1/8
     
-    % [H PianoRHMusicVoice measure 606]                      %! SM4
+    % [I PianoRHMusicVoice measure 606]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4125,10 +4125,10 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 607]                      %! SM4
+    % [I PianoRHMusicVoice measure 607]                      %! SM4
     R1 * 1/8
     
-    % [H PianoRHMusicVoice measure 608]                      %! SM4
+    % [I PianoRHMusicVoice measure 608]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4138,27 +4138,17 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 609]                      %! SM4
+    % [I PianoRHMusicVoice measure 609]                      %! SM4
     R1 * 1/8
     
-    % [H PianoRHMusicVoice measure 610]                      %! SM4
+    % [I PianoRHMusicVoice measure 610]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 611]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'4
-    
-    \makeBlue                                                %! SM24
-    c'4
-    
-    \makeBlue                                                %! SM24
-    c'4
-    
-    % [H PianoRHMusicVoice measure 612]                      %! SM4
+    % [I PianoRHMusicVoice measure 611]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
@@ -4168,40 +4158,50 @@ H_PianoRHMusicVoice = {
     \makeBlue                                                %! SM24
     c'4
     
+    % [I PianoRHMusicVoice measure 612]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 613]                      %! SM4
     \makeBlue                                                %! SM24
     c'4
     
     \makeBlue                                                %! SM24
     c'4
     
-    % [H PianoRHMusicVoice measure 614]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [I PianoRHMusicVoice measure 613]                      %! SM4
+    \makeBlue                                                %! SM24
+    c'4
+    
+    \makeBlue                                                %! SM24
+    c'4
+    
+    % [I PianoRHMusicVoice measure 614]                      %! SM4
     R1 * 3/4
     
-    % [H PianoRHMusicVoice measure 615]                      %! SM4
+    % [I PianoRHMusicVoice measure 615]                      %! SM4
     R1 * 1
     
-    % [H PianoRHMusicVoice measure 616]                      %! SM4
+    % [I PianoRHMusicVoice measure 616]                      %! SM4
     R1 * 3/4
     
-    % [H PianoRHMusicVoice measure 617]                      %! SM4
+    % [I PianoRHMusicVoice measure 617]                      %! SM4
     R1 * 1
     
 }
 
 
-H_PianoRHMusicStaff = {
+I_PianoRHMusicStaff = {
     \context PianoRHMusicVoice = "PianoRHMusicVoice"
-    \H_PianoRHMusicVoice
+    \I_PianoRHMusicVoice
 }
 
 
-H_PianoLHMusicVoice = {
+I_PianoLHMusicVoice = {
     
-    % [H PianoLHMusicVoice measure 578]                      %! SM4
+    % [I PianoLHMusicVoice measure 578]                      %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override PianoLHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -4209,264 +4209,264 @@ H_PianoLHMusicVoice = {
     R1 * 3/4
     \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [H PianoLHMusicVoice measure 579]                      %! SM4
+    % [I PianoLHMusicVoice measure 579]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 580]                      %! SM4
+    % [I PianoLHMusicVoice measure 580]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 581]                      %! SM4
+    % [I PianoLHMusicVoice measure 581]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 582]                      %! SM4
+    % [I PianoLHMusicVoice measure 582]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 583]                      %! SM4
+    % [I PianoLHMusicVoice measure 583]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 584]                      %! SM4
+    % [I PianoLHMusicVoice measure 584]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 585]                      %! SM4
+    % [I PianoLHMusicVoice measure 585]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 586]                      %! SM4
+    % [I PianoLHMusicVoice measure 586]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 587]                      %! SM4
+    % [I PianoLHMusicVoice measure 587]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 588]                      %! SM4
+    % [I PianoLHMusicVoice measure 588]                      %! SM4
     R1 * 1/4
     
-    % [H PianoLHMusicVoice measure 589]                      %! SM4
+    % [I PianoLHMusicVoice measure 589]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 590]                      %! SM4
+    % [I PianoLHMusicVoice measure 590]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 591]                      %! SM4
+    % [I PianoLHMusicVoice measure 591]                      %! SM4
     R1 * 1/4
     
-    % [H PianoLHMusicVoice measure 592]                      %! SM4
+    % [I PianoLHMusicVoice measure 592]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 593]                      %! SM4
+    % [I PianoLHMusicVoice measure 593]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 594]                      %! SM4
+    % [I PianoLHMusicVoice measure 594]                      %! SM4
     R1 * 1/4
     
-    % [H PianoLHMusicVoice measure 595]                      %! SM4
+    % [I PianoLHMusicVoice measure 595]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 596]                      %! SM4
+    % [I PianoLHMusicVoice measure 596]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 597]                      %! SM4
+    % [I PianoLHMusicVoice measure 597]                      %! SM4
     R1 * 1/4
     
-    % [H PianoLHMusicVoice measure 598]                      %! SM4
+    % [I PianoLHMusicVoice measure 598]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 599]                      %! SM4
+    % [I PianoLHMusicVoice measure 599]                      %! SM4
     R1 * 1/8
     
-    % [H PianoLHMusicVoice measure 600]                      %! SM4
+    % [I PianoLHMusicVoice measure 600]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 601]                      %! SM4
+    % [I PianoLHMusicVoice measure 601]                      %! SM4
     R1 * 1/8
     
-    % [H PianoLHMusicVoice measure 602]                      %! SM4
+    % [I PianoLHMusicVoice measure 602]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 603]                      %! SM4
+    % [I PianoLHMusicVoice measure 603]                      %! SM4
     R1 * 1/8
     
-    % [H PianoLHMusicVoice measure 604]                      %! SM4
+    % [I PianoLHMusicVoice measure 604]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 605]                      %! SM4
+    % [I PianoLHMusicVoice measure 605]                      %! SM4
     R1 * 1/8
     
-    % [H PianoLHMusicVoice measure 606]                      %! SM4
+    % [I PianoLHMusicVoice measure 606]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 607]                      %! SM4
+    % [I PianoLHMusicVoice measure 607]                      %! SM4
     R1 * 1/8
     
-    % [H PianoLHMusicVoice measure 608]                      %! SM4
+    % [I PianoLHMusicVoice measure 608]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 609]                      %! SM4
+    % [I PianoLHMusicVoice measure 609]                      %! SM4
     R1 * 1/8
     
-    % [H PianoLHMusicVoice measure 610]                      %! SM4
+    % [I PianoLHMusicVoice measure 610]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 611]                      %! SM4
+    % [I PianoLHMusicVoice measure 611]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 612]                      %! SM4
+    % [I PianoLHMusicVoice measure 612]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 613]                      %! SM4
+    % [I PianoLHMusicVoice measure 613]                      %! SM4
     R1 * 1/2
     
-    % [H PianoLHMusicVoice measure 614]                      %! SM4
+    % [I PianoLHMusicVoice measure 614]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 615]                      %! SM4
+    % [I PianoLHMusicVoice measure 615]                      %! SM4
     R1 * 1
     
-    % [H PianoLHMusicVoice measure 616]                      %! SM4
+    % [I PianoLHMusicVoice measure 616]                      %! SM4
     R1 * 3/4
     
-    % [H PianoLHMusicVoice measure 617]                      %! SM4
+    % [I PianoLHMusicVoice measure 617]                      %! SM4
     R1 * 1
     
 }
 
 
-H_PianoLHAttackVoice = {
+I_PianoLHAttackVoice = {
     
-    % [H PianoLHAttackVoice measure 578]                     %! SM4
+    % [I PianoLHAttackVoice measure 578]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 3/4
     \sfz                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [H PianoLHAttackVoice measure 579]                     %! SM4
+    % [I PianoLHAttackVoice measure 579]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 580]                     %! SM4
+    % [I PianoLHAttackVoice measure 580]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 581]                     %! SM4
+    % [I PianoLHAttackVoice measure 581]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 582]                     %! SM4
+    % [I PianoLHAttackVoice measure 582]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 583]                     %! SM4
+    % [I PianoLHAttackVoice measure 583]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 584]                     %! SM4
+    % [I PianoLHAttackVoice measure 584]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 585]                     %! SM4
+    % [I PianoLHAttackVoice measure 585]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 586]                     %! SM4
+    % [I PianoLHAttackVoice measure 586]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 587]                     %! SM4
+    % [I PianoLHAttackVoice measure 587]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 588]                     %! SM4
+    % [I PianoLHAttackVoice measure 588]                     %! SM4
     R1 * 1/4
     
-    % [H PianoLHAttackVoice measure 589]                     %! SM4
+    % [I PianoLHAttackVoice measure 589]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 590]                     %! SM4
+    % [I PianoLHAttackVoice measure 590]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 591]                     %! SM4
+    % [I PianoLHAttackVoice measure 591]                     %! SM4
     R1 * 1/4
     
-    % [H PianoLHAttackVoice measure 592]                     %! SM4
+    % [I PianoLHAttackVoice measure 592]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 593]                     %! SM4
+    % [I PianoLHAttackVoice measure 593]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 594]                     %! SM4
+    % [I PianoLHAttackVoice measure 594]                     %! SM4
     R1 * 1/4
     
-    % [H PianoLHAttackVoice measure 595]                     %! SM4
+    % [I PianoLHAttackVoice measure 595]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 596]                     %! SM4
+    % [I PianoLHAttackVoice measure 596]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 597]                     %! SM4
+    % [I PianoLHAttackVoice measure 597]                     %! SM4
     R1 * 1/4
     
-    % [H PianoLHAttackVoice measure 598]                     %! SM4
+    % [I PianoLHAttackVoice measure 598]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 599]                     %! SM4
+    % [I PianoLHAttackVoice measure 599]                     %! SM4
     R1 * 1/8
     
-    % [H PianoLHAttackVoice measure 600]                     %! SM4
+    % [I PianoLHAttackVoice measure 600]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 601]                     %! SM4
+    % [I PianoLHAttackVoice measure 601]                     %! SM4
     R1 * 1/8
     
-    % [H PianoLHAttackVoice measure 602]                     %! SM4
+    % [I PianoLHAttackVoice measure 602]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 603]                     %! SM4
+    % [I PianoLHAttackVoice measure 603]                     %! SM4
     R1 * 1/8
     
-    % [H PianoLHAttackVoice measure 604]                     %! SM4
+    % [I PianoLHAttackVoice measure 604]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 605]                     %! SM4
+    % [I PianoLHAttackVoice measure 605]                     %! SM4
     R1 * 1/8
     
-    % [H PianoLHAttackVoice measure 606]                     %! SM4
+    % [I PianoLHAttackVoice measure 606]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 607]                     %! SM4
+    % [I PianoLHAttackVoice measure 607]                     %! SM4
     R1 * 1/8
     
-    % [H PianoLHAttackVoice measure 608]                     %! SM4
+    % [I PianoLHAttackVoice measure 608]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 609]                     %! SM4
+    % [I PianoLHAttackVoice measure 609]                     %! SM4
     R1 * 1/8
     
-    % [H PianoLHAttackVoice measure 610]                     %! SM4
+    % [I PianoLHAttackVoice measure 610]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 611]                     %! SM4
+    % [I PianoLHAttackVoice measure 611]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 612]                     %! SM4
+    % [I PianoLHAttackVoice measure 612]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 613]                     %! SM4
+    % [I PianoLHAttackVoice measure 613]                     %! SM4
     R1 * 1/2
     
-    % [H PianoLHAttackVoice measure 614]                     %! SM4
+    % [I PianoLHAttackVoice measure 614]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 615]                     %! SM4
+    % [I PianoLHAttackVoice measure 615]                     %! SM4
     R1 * 1
     
-    % [H PianoLHAttackVoice measure 616]                     %! SM4
+    % [I PianoLHAttackVoice measure 616]                     %! SM4
     R1 * 3/4
     
-    % [H PianoLHAttackVoice measure 617]                     %! SM4
+    % [I PianoLHAttackVoice measure 617]                     %! SM4
     R1 * 1
     
 }
 
 
-H_PianoLHMusicStaff = <<
+I_PianoLHMusicStaff = <<
     \context PianoLHMusicVoice = "PianoLHMusicVoice"
-    \H_PianoLHMusicVoice
+    \I_PianoLHMusicVoice
     \context PianoLHAttackVoice = "PianoLHAttackVoice"
-    \H_PianoLHAttackVoice
+    \I_PianoLHAttackVoice
 >>
 
 
-H_PercussionMusicVoice = {
+I_PercussionMusicVoice = {
     
-    % [H PercussionMusicVoice measure 578]                       %! SM4
+    % [I PercussionMusicVoice measure 578]                       %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 2 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -4514,75 +4514,75 @@ H_PercussionMusicVoice = {
     c'4
     ~
     
-    % [H PercussionMusicVoice measure 579]                       %! SM4
+    % [I PercussionMusicVoice measure 579]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     ~
     
-    % [H PercussionMusicVoice measure 580]                       %! SM4
+    % [I PercussionMusicVoice measure 580]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2
     ~
     
-    % [H PercussionMusicVoice measure 581]                       %! SM4
+    % [I PercussionMusicVoice measure 581]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     ~
     
-    % [H PercussionMusicVoice measure 582]                       %! SM4
+    % [I PercussionMusicVoice measure 582]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     ~
     
-    % [H PercussionMusicVoice measure 583]                       %! SM4
+    % [I PercussionMusicVoice measure 583]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     
-    % [H PercussionMusicVoice measure 584]                       %! SM4
+    % [I PercussionMusicVoice measure 584]                       %! SM4
     R1 * 1/2
     
-    % [H PercussionMusicVoice measure 585]                       %! SM4
+    % [I PercussionMusicVoice measure 585]                       %! SM4
     R1 * 3/4
     
-    % [H PercussionMusicVoice measure 586]                       %! SM4
+    % [I PercussionMusicVoice measure 586]                       %! SM4
     R1 * 3/4
     
-    % [H PercussionMusicVoice measure 587]                       %! SM4
+    % [I PercussionMusicVoice measure 587]                       %! SM4
     R1 * 1
     
-    % [H PercussionMusicVoice measure 588]                       %! SM4
+    % [I PercussionMusicVoice measure 588]                       %! SM4
     R1 * 1/4
     
-    % [H PercussionMusicVoice measure 589]                       %! SM4
+    % [I PercussionMusicVoice measure 589]                       %! SM4
     r2.
     
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H PercussionMusicVoice measure 590]                       %! SM4
+    % [I PercussionMusicVoice measure 590]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
     r4
     
-    % [H PercussionMusicVoice measure 591]                       %! SM4
+    % [I PercussionMusicVoice measure 591]                       %! SM4
     R1 * 1/4
     
-    % [H PercussionMusicVoice measure 592]                       %! SM4
+    % [I PercussionMusicVoice measure 592]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
     r16
     
-    % [H PercussionMusicVoice measure 593]                       %! SM4
+    % [I PercussionMusicVoice measure 593]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H PercussionMusicVoice measure 594]                       %! SM4
+    % [I PercussionMusicVoice measure 594]                       %! SM4
     R1 * 1/4
     
-    % [H PercussionMusicVoice measure 595]                       %! SM4
+    % [I PercussionMusicVoice measure 595]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
@@ -4592,14 +4592,14 @@ H_PercussionMusicVoice = {
     c'4
     ~
     
-    % [H PercussionMusicVoice measure 596]                       %! SM4
+    % [I PercussionMusicVoice measure 596]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     
-    % [H PercussionMusicVoice measure 597]                       %! SM4
+    % [I PercussionMusicVoice measure 597]                       %! SM4
     R1 * 1/4
     
-    % [H PercussionMusicVoice measure 598]                       %! SM4
+    % [I PercussionMusicVoice measure 598]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
@@ -4608,10 +4608,10 @@ H_PercussionMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H PercussionMusicVoice measure 599]                       %! SM4
+    % [I PercussionMusicVoice measure 599]                       %! SM4
     R1 * 1/8
     
-    % [H PercussionMusicVoice measure 600]                       %! SM4
+    % [I PercussionMusicVoice measure 600]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
@@ -4620,10 +4620,10 @@ H_PercussionMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H PercussionMusicVoice measure 601]                       %! SM4
+    % [I PercussionMusicVoice measure 601]                       %! SM4
     R1 * 1/8
     
-    % [H PercussionMusicVoice measure 602]                       %! SM4
+    % [I PercussionMusicVoice measure 602]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
@@ -4632,10 +4632,10 @@ H_PercussionMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H PercussionMusicVoice measure 603]                       %! SM4
+    % [I PercussionMusicVoice measure 603]                       %! SM4
     R1 * 1/8
     
-    % [H PercussionMusicVoice measure 604]                       %! SM4
+    % [I PercussionMusicVoice measure 604]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
@@ -4644,10 +4644,10 @@ H_PercussionMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H PercussionMusicVoice measure 605]                       %! SM4
+    % [I PercussionMusicVoice measure 605]                       %! SM4
     R1 * 1/8
     
-    % [H PercussionMusicVoice measure 606]                       %! SM4
+    % [I PercussionMusicVoice measure 606]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
@@ -4656,10 +4656,10 @@ H_PercussionMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H PercussionMusicVoice measure 607]                       %! SM4
+    % [I PercussionMusicVoice measure 607]                       %! SM4
     R1 * 1/8
     
-    % [H PercussionMusicVoice measure 608]                       %! SM4
+    % [I PercussionMusicVoice measure 608]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4..
     
@@ -4668,56 +4668,56 @@ H_PercussionMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H PercussionMusicVoice measure 609]                       %! SM4
+    % [I PercussionMusicVoice measure 609]                       %! SM4
     R1 * 1/8
     
-    % [H PercussionMusicVoice measure 610]                       %! SM4
+    % [I PercussionMusicVoice measure 610]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H PercussionMusicVoice measure 611]                       %! SM4
+    % [I PercussionMusicVoice measure 611]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H PercussionMusicVoice measure 612]                       %! SM4
+    % [I PercussionMusicVoice measure 612]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H PercussionMusicVoice measure 613]                       %! SM4
+    % [I PercussionMusicVoice measure 613]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H PercussionMusicVoice measure 614]                       %! SM4
+    % [I PercussionMusicVoice measure 614]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H PercussionMusicVoice measure 615]                       %! SM4
+    % [I PercussionMusicVoice measure 615]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H PercussionMusicVoice measure 616]                       %! SM4
+    % [I PercussionMusicVoice measure 616]                       %! SM4
     R1 * 3/4
     
-    % [H PercussionMusicVoice measure 617]                       %! SM4
+    % [I PercussionMusicVoice measure 617]                       %! SM4
     R1 * 1
     
 }
 
 
-H_PercussionMusicStaff = {
+I_PercussionMusicStaff = {
     \context PercussionMusicVoice = "PercussionMusicVoice"
-    \H_PercussionMusicVoice
+    \I_PercussionMusicVoice
 }
 
 
-H_ViolinMusicVoice = {
+I_ViolinMusicVoice = {
     
-    % [H ViolinMusicVoice measure 578]                           %! SM4
+    % [I ViolinMusicVoice measure 578]                           %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -4759,64 +4759,64 @@ H_ViolinMusicVoice = {
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [H ViolinMusicVoice measure 579]                           %! SM4
+    % [I ViolinMusicVoice measure 579]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolinMusicVoice measure 580]                           %! SM4
+    % [I ViolinMusicVoice measure 580]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H ViolinMusicVoice measure 581]                           %! SM4
+    % [I ViolinMusicVoice measure 581]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolinMusicVoice measure 582]                           %! SM4
+    % [I ViolinMusicVoice measure 582]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolinMusicVoice measure 583]                           %! SM4
+    % [I ViolinMusicVoice measure 583]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolinMusicVoice measure 584]                           %! SM4
+    % [I ViolinMusicVoice measure 584]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H ViolinMusicVoice measure 585]                           %! SM4
+    % [I ViolinMusicVoice measure 585]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolinMusicVoice measure 586]                           %! SM4
+    % [I ViolinMusicVoice measure 586]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolinMusicVoice measure 587]                           %! SM4
+    % [I ViolinMusicVoice measure 587]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolinMusicVoice measure 588]                           %! SM4
+    % [I ViolinMusicVoice measure 588]                           %! SM4
     R1 * 1/4
     
-    % [H ViolinMusicVoice measure 589]                           %! SM4
+    % [I ViolinMusicVoice measure 589]                           %! SM4
     r1
     
-    % [H ViolinMusicVoice measure 590]                           %! SM4
+    % [I ViolinMusicVoice measure 590]                           %! SM4
     r2.
     
-    % [H ViolinMusicVoice measure 591]                           %! SM4
+    % [I ViolinMusicVoice measure 591]                           %! SM4
     R1 * 1/4
     
-    % [H ViolinMusicVoice measure 592]                           %! SM4
+    % [I ViolinMusicVoice measure 592]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -4836,17 +4836,17 @@ H_ViolinMusicVoice = {
     c'8
     ~
     
-    % [H ViolinMusicVoice measure 593]                           %! SM4
+    % [I ViolinMusicVoice measure 593]                           %! SM4
     \makeBlue                                                    %! SM24
     c'8
     
     \makeBlue                                                    %! SM24
     c'4.
     
-    % [H ViolinMusicVoice measure 594]                           %! SM4
+    % [I ViolinMusicVoice measure 594]                           %! SM4
     R1 * 1/4
     
-    % [H ViolinMusicVoice measure 595]                           %! SM4
+    % [I ViolinMusicVoice measure 595]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -4874,17 +4874,17 @@ H_ViolinMusicVoice = {
     ~
     ]
     
-    % [H ViolinMusicVoice measure 596]                           %! SM4
+    % [I ViolinMusicVoice measure 596]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2..
     
     \makeBlue                                                    %! SM24
     c'8
     
-    % [H ViolinMusicVoice measure 597]                           %! SM4
+    % [I ViolinMusicVoice measure 597]                           %! SM4
     R1 * 1/4
     
-    % [H ViolinMusicVoice measure 598]                           %! SM4
+    % [I ViolinMusicVoice measure 598]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -4911,10 +4911,10 @@ H_ViolinMusicVoice = {
     c'8
     ]
     
-    % [H ViolinMusicVoice measure 599]                           %! SM4
+    % [I ViolinMusicVoice measure 599]                           %! SM4
     R1 * 1/8
     
-    % [H ViolinMusicVoice measure 600]                           %! SM4
+    % [I ViolinMusicVoice measure 600]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -4941,10 +4941,10 @@ H_ViolinMusicVoice = {
     c'8
     ]
     
-    % [H ViolinMusicVoice measure 601]                           %! SM4
+    % [I ViolinMusicVoice measure 601]                           %! SM4
     R1 * 1/8
     
-    % [H ViolinMusicVoice measure 602]                           %! SM4
+    % [I ViolinMusicVoice measure 602]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -4971,10 +4971,10 @@ H_ViolinMusicVoice = {
     c'8
     ]
     
-    % [H ViolinMusicVoice measure 603]                           %! SM4
+    % [I ViolinMusicVoice measure 603]                           %! SM4
     R1 * 1/8
     
-    % [H ViolinMusicVoice measure 604]                           %! SM4
+    % [I ViolinMusicVoice measure 604]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5001,10 +5001,10 @@ H_ViolinMusicVoice = {
     c'8
     ]
     
-    % [H ViolinMusicVoice measure 605]                           %! SM4
+    % [I ViolinMusicVoice measure 605]                           %! SM4
     R1 * 1/8
     
-    % [H ViolinMusicVoice measure 606]                           %! SM4
+    % [I ViolinMusicVoice measure 606]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5031,10 +5031,10 @@ H_ViolinMusicVoice = {
     c'8
     ]
     
-    % [H ViolinMusicVoice measure 607]                           %! SM4
+    % [I ViolinMusicVoice measure 607]                           %! SM4
     R1 * 1/8
     
-    % [H ViolinMusicVoice measure 608]                           %! SM4
+    % [I ViolinMusicVoice measure 608]                           %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5061,44 +5061,44 @@ H_ViolinMusicVoice = {
     c'8
     ]
     
-    % [H ViolinMusicVoice measure 609]                           %! SM4
+    % [I ViolinMusicVoice measure 609]                           %! SM4
     R1 * 1/8
     
-    % [H ViolinMusicVoice measure 610]                           %! SM4
+    % [I ViolinMusicVoice measure 610]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H ViolinMusicVoice measure 611]                           %! SM4
+    % [I ViolinMusicVoice measure 611]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolinMusicVoice measure 612]                           %! SM4
+    % [I ViolinMusicVoice measure 612]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolinMusicVoice measure 613]                           %! SM4
+    % [I ViolinMusicVoice measure 613]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H ViolinMusicVoice measure 614]                           %! SM4
+    % [I ViolinMusicVoice measure 614]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolinMusicVoice measure 615]                           %! SM4
+    % [I ViolinMusicVoice measure 615]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolinMusicVoice measure 616]                           %! SM4
+    % [I ViolinMusicVoice measure 616]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolinMusicVoice measure 617]                           %! SM4
+    % [I ViolinMusicVoice measure 617]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
@@ -5106,15 +5106,15 @@ H_ViolinMusicVoice = {
 }
 
 
-H_ViolinMusicStaff = {
+I_ViolinMusicStaff = {
     \context ViolinMusicVoice = "ViolinMusicVoice"
-    \H_ViolinMusicVoice
+    \I_ViolinMusicVoice
 }
 
 
-H_ViolaMusicVoice = {
+I_ViolaMusicVoice = {
     
-    % [H ViolaMusicVoice measure 578]                            %! SM4
+    % [I ViolaMusicVoice measure 578]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -5156,55 +5156,55 @@ H_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [H ViolaMusicVoice measure 579]                            %! SM4
+    % [I ViolaMusicVoice measure 579]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolaMusicVoice measure 580]                            %! SM4
+    % [I ViolaMusicVoice measure 580]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H ViolaMusicVoice measure 581]                            %! SM4
+    % [I ViolaMusicVoice measure 581]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolaMusicVoice measure 582]                            %! SM4
+    % [I ViolaMusicVoice measure 582]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolaMusicVoice measure 583]                            %! SM4
+    % [I ViolaMusicVoice measure 583]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 584]                            %! SM4
+    % [I ViolaMusicVoice measure 584]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H ViolaMusicVoice measure 585]                            %! SM4
+    % [I ViolaMusicVoice measure 585]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 586]                            %! SM4
+    % [I ViolaMusicVoice measure 586]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 587]                            %! SM4
+    % [I ViolaMusicVoice measure 587]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolaMusicVoice measure 588]                            %! SM4
+    % [I ViolaMusicVoice measure 588]                            %! SM4
     R1 * 1/4
     
-    % [H ViolaMusicVoice measure 589]                            %! SM4
+    % [I ViolaMusicVoice measure 589]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5232,7 +5232,7 @@ H_ViolaMusicVoice = {
     c'4.
     ~
     
-    % [H ViolaMusicVoice measure 590]                            %! SM4
+    % [I ViolaMusicVoice measure 590]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     ~
@@ -5245,10 +5245,10 @@ H_ViolaMusicVoice = {
     c'8
     ]
     
-    % [H ViolaMusicVoice measure 591]                            %! SM4
+    % [I ViolaMusicVoice measure 591]                            %! SM4
     R1 * 1/4
     
-    % [H ViolaMusicVoice measure 592]                            %! SM4
+    % [I ViolaMusicVoice measure 592]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5268,17 +5268,17 @@ H_ViolaMusicVoice = {
     c'8
     ~
     
-    % [H ViolaMusicVoice measure 593]                            %! SM4
+    % [I ViolaMusicVoice measure 593]                            %! SM4
     \makeBlue                                                    %! SM24
     c'8
     
     \makeBlue                                                    %! SM24
     c'4.
     
-    % [H ViolaMusicVoice measure 594]                            %! SM4
+    % [I ViolaMusicVoice measure 594]                            %! SM4
     R1 * 1/4
     
-    % [H ViolaMusicVoice measure 595]                            %! SM4
+    % [I ViolaMusicVoice measure 595]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5306,17 +5306,17 @@ H_ViolaMusicVoice = {
     ~
     ]
     
-    % [H ViolaMusicVoice measure 596]                            %! SM4
+    % [I ViolaMusicVoice measure 596]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2..
     
     \makeBlue                                                    %! SM24
     c'8
     
-    % [H ViolaMusicVoice measure 597]                            %! SM4
+    % [I ViolaMusicVoice measure 597]                            %! SM4
     R1 * 1/4
     
-    % [H ViolaMusicVoice measure 598]                            %! SM4
+    % [I ViolaMusicVoice measure 598]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5343,10 +5343,10 @@ H_ViolaMusicVoice = {
     c'8
     ]
     
-    % [H ViolaMusicVoice measure 599]                            %! SM4
+    % [I ViolaMusicVoice measure 599]                            %! SM4
     R1 * 1/8
     
-    % [H ViolaMusicVoice measure 600]                            %! SM4
+    % [I ViolaMusicVoice measure 600]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5373,10 +5373,10 @@ H_ViolaMusicVoice = {
     c'8
     ]
     
-    % [H ViolaMusicVoice measure 601]                            %! SM4
+    % [I ViolaMusicVoice measure 601]                            %! SM4
     R1 * 1/8
     
-    % [H ViolaMusicVoice measure 602]                            %! SM4
+    % [I ViolaMusicVoice measure 602]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5403,10 +5403,10 @@ H_ViolaMusicVoice = {
     c'8
     ]
     
-    % [H ViolaMusicVoice measure 603]                            %! SM4
+    % [I ViolaMusicVoice measure 603]                            %! SM4
     R1 * 1/8
     
-    % [H ViolaMusicVoice measure 604]                            %! SM4
+    % [I ViolaMusicVoice measure 604]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5433,10 +5433,10 @@ H_ViolaMusicVoice = {
     c'8
     ]
     
-    % [H ViolaMusicVoice measure 605]                            %! SM4
+    % [I ViolaMusicVoice measure 605]                            %! SM4
     R1 * 1/8
     
-    % [H ViolaMusicVoice measure 606]                            %! SM4
+    % [I ViolaMusicVoice measure 606]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5463,10 +5463,10 @@ H_ViolaMusicVoice = {
     c'8
     ]
     
-    % [H ViolaMusicVoice measure 607]                            %! SM4
+    % [I ViolaMusicVoice measure 607]                            %! SM4
     R1 * 1/8
     
-    % [H ViolaMusicVoice measure 608]                            %! SM4
+    % [I ViolaMusicVoice measure 608]                            %! SM4
     r16
     
     \makeBlue                                                    %! SM24
@@ -5493,44 +5493,44 @@ H_ViolaMusicVoice = {
     c'8
     ]
     
-    % [H ViolaMusicVoice measure 609]                            %! SM4
+    % [I ViolaMusicVoice measure 609]                            %! SM4
     R1 * 1/8
     
-    % [H ViolaMusicVoice measure 610]                            %! SM4
+    % [I ViolaMusicVoice measure 610]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H ViolaMusicVoice measure 611]                            %! SM4
+    % [I ViolaMusicVoice measure 611]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 612]                            %! SM4
+    % [I ViolaMusicVoice measure 612]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolaMusicVoice measure 613]                            %! SM4
+    % [I ViolaMusicVoice measure 613]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H ViolaMusicVoice measure 614]                            %! SM4
+    % [I ViolaMusicVoice measure 614]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 615]                            %! SM4
+    % [I ViolaMusicVoice measure 615]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H ViolaMusicVoice measure 616]                            %! SM4
+    % [I ViolaMusicVoice measure 616]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 617]                            %! SM4
+    % [I ViolaMusicVoice measure 617]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
@@ -5538,15 +5538,15 @@ H_ViolaMusicVoice = {
 }
 
 
-H_ViolaMusicStaff = {
+I_ViolaMusicStaff = {
     \context ViolaMusicVoice = "ViolaMusicVoice"
-    \H_ViolaMusicVoice
+    \I_ViolaMusicVoice
 }
 
 
-H_CelloMusicVoice = {
+I_CelloMusicVoice = {
     
-    % [H CelloMusicVoice measure 578]                            %! SM4
+    % [I CelloMusicVoice measure 578]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -5604,24 +5604,16 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 579]                            %! SM4
+    % [I CelloMusicVoice measure 579]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     
-    % [H CelloMusicVoice measure 580]                            %! SM4
+    % [I CelloMusicVoice measure 580]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     ~
     
-    % [H CelloMusicVoice measure 581]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    
-    \makeBlue                                                    %! SM24
-    c'2
-    ~
-    
-    % [H CelloMusicVoice measure 582]                            %! SM4
+    % [I CelloMusicVoice measure 581]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
@@ -5629,7 +5621,15 @@ H_CelloMusicVoice = {
     c'2
     ~
     
-    % [H CelloMusicVoice measure 583]                            %! SM4
+    % [I CelloMusicVoice measure 582]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    % [I CelloMusicVoice measure 583]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
@@ -5647,30 +5647,30 @@ H_CelloMusicVoice = {
     c'16
     ]
     
-    % [H CelloMusicVoice measure 584]                            %! SM4
+    % [I CelloMusicVoice measure 584]                            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H CelloMusicVoice measure 585]                            %! SM4
+    % [I CelloMusicVoice measure 585]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H CelloMusicVoice measure 586]                            %! SM4
+    % [I CelloMusicVoice measure 586]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H CelloMusicVoice measure 587]                            %! SM4
+    % [I CelloMusicVoice measure 587]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H CelloMusicVoice measure 588]                            %! SM4
+    % [I CelloMusicVoice measure 588]                            %! SM4
     R1 * 1/4
     
-    % [H CelloMusicVoice measure 589]                            %! SM4
+    % [I CelloMusicVoice measure 589]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5694,14 +5694,14 @@ H_CelloMusicVoice = {
     c'4
     ~
     
-    % [H CelloMusicVoice measure 590]                            %! SM4
+    % [I CelloMusicVoice measure 590]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     
-    % [H CelloMusicVoice measure 591]                            %! SM4
+    % [I CelloMusicVoice measure 591]                            %! SM4
     R1 * 1/4
     
-    % [H CelloMusicVoice measure 592]                            %! SM4
+    % [I CelloMusicVoice measure 592]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5720,7 +5720,7 @@ H_CelloMusicVoice = {
     c'4
     ~
     
-    % [H CelloMusicVoice measure 593]                            %! SM4
+    % [I CelloMusicVoice measure 593]                            %! SM4
     \makeBlue                                                    %! SM24
     c'8.
     
@@ -5729,10 +5729,10 @@ H_CelloMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    % [H CelloMusicVoice measure 594]                            %! SM4
+    % [I CelloMusicVoice measure 594]                            %! SM4
     R1 * 1/4
     
-    % [H CelloMusicVoice measure 595]                            %! SM4
+    % [I CelloMusicVoice measure 595]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5752,14 +5752,14 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 596]                            %! SM4
+    % [I CelloMusicVoice measure 596]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     
-    % [H CelloMusicVoice measure 597]                            %! SM4
+    % [I CelloMusicVoice measure 597]                            %! SM4
     R1 * 1/4
     
-    % [H CelloMusicVoice measure 598]                            %! SM4
+    % [I CelloMusicVoice measure 598]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5779,10 +5779,10 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 599]                            %! SM4
+    % [I CelloMusicVoice measure 599]                            %! SM4
     R1 * 1/8
     
-    % [H CelloMusicVoice measure 600]                            %! SM4
+    % [I CelloMusicVoice measure 600]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5802,10 +5802,10 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 601]                            %! SM4
+    % [I CelloMusicVoice measure 601]                            %! SM4
     R1 * 1/8
     
-    % [H CelloMusicVoice measure 602]                            %! SM4
+    % [I CelloMusicVoice measure 602]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5825,10 +5825,10 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 603]                            %! SM4
+    % [I CelloMusicVoice measure 603]                            %! SM4
     R1 * 1/8
     
-    % [H CelloMusicVoice measure 604]                            %! SM4
+    % [I CelloMusicVoice measure 604]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5848,10 +5848,10 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 605]                            %! SM4
+    % [I CelloMusicVoice measure 605]                            %! SM4
     R1 * 1/8
     
-    % [H CelloMusicVoice measure 606]                            %! SM4
+    % [I CelloMusicVoice measure 606]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5871,10 +5871,10 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 607]                            %! SM4
+    % [I CelloMusicVoice measure 607]                            %! SM4
     R1 * 1/8
     
-    % [H CelloMusicVoice measure 608]                            %! SM4
+    % [I CelloMusicVoice measure 608]                            %! SM4
     \makeBlue                                                    %! SM24
     c'16
     [
@@ -5894,44 +5894,44 @@ H_CelloMusicVoice = {
     
     r16
     
-    % [H CelloMusicVoice measure 609]                            %! SM4
+    % [I CelloMusicVoice measure 609]                            %! SM4
     R1 * 1/8
     
-    % [H CelloMusicVoice measure 610]                            %! SM4
+    % [I CelloMusicVoice measure 610]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     
-    % [H CelloMusicVoice measure 611]                            %! SM4
+    % [I CelloMusicVoice measure 611]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H CelloMusicVoice measure 612]                            %! SM4
+    % [I CelloMusicVoice measure 612]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H CelloMusicVoice measure 613]                            %! SM4
+    % [I CelloMusicVoice measure 613]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2
     \repeatTie
     
-    % [H CelloMusicVoice measure 614]                            %! SM4
+    % [I CelloMusicVoice measure 614]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H CelloMusicVoice measure 615]                            %! SM4
+    % [I CelloMusicVoice measure 615]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [H CelloMusicVoice measure 616]                            %! SM4
+    % [I CelloMusicVoice measure 616]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [H CelloMusicVoice measure 617]                            %! SM4
+    % [I CelloMusicVoice measure 617]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
@@ -5939,7 +5939,7 @@ H_CelloMusicVoice = {
 }
 
 
-H_CelloMusicStaff = {
+I_CelloMusicStaff = {
     \context CelloMusicVoice = "CelloMusicVoice"
-    \H_CelloMusicVoice
+    \I_CelloMusicVoice
 }
